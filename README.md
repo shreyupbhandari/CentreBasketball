@@ -56,8 +56,8 @@ start_year = 2010
 end_year = 2023
 ```
 
-A full run takes about 5 to 10 minutes and produces just over 2,000
-game files across all seven schools.
+A full run takes about 16 to 20 minutes and produces just over 2,000
+game files across all seven schools in modern computers.
 
 ## How to run the R Shiny app
 
@@ -100,7 +100,6 @@ Each game writes one CSV and one matching JSON to
 - Three games print `Skipping empty game: ...` because their source HTML
   pages have a box score but no play-by-play. This is a data problem on
   the school's website, not a bug.
-- The console prints `0 should be 0` at the end of each game. That is a
-  sanity check, not an error.
+- The console prints `0 should be 0` at the end of each game. It is a sanity check and not an error.
 
-That's it. Run the Python script first, then open the Shiny app.
+  Run the Python script first, then open the Shiny app.
