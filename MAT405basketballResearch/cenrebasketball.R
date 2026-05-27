@@ -12,19 +12,20 @@ library(htmltools)
 library(readr)
 
 
-directory_path <- "/Users/shreyup/Downloads/mens-basketball/basketballResearch/SAA/centrecolonels/pbp/2023-24"
+directory_path <- "/Users/shreyup/CentreBasketballLineupAnalysis/SAA/centrecolonels/pbp/2023-24"
 all_files <- list.files(path = directory_path, pattern = ".csv$")
 
-# Read and stack all game CSV files for the season into one data frame.
-# full_join is used so that games with slightly different column sets still merge cleanly.
-pbp_data <- read.csv(paste0(directory_path, "/", all_files[1]))
+# Read every CSV as character so column classes can't disagree across files
+# (otherwise bind_rows / full_join fail when one game has "N/A" in a column
+# that another game has as a plain integer). Then coerce only the columns we
+# actually treat as numeric.
+pbp_data <- bind_rows(lapply(all_files, function(csv_name) {
+  read.csv(file.path(directory_path, csv_name), colClasses = "character")
+}))
 
-for (csv_name in all_files[-1]) {
-  detail_file_path <- paste0(directory_path, "/", csv_name)
-  game_file <- read.csv(detail_file_path)
-  game_file$"attendance" <- as.integer(game_file$"attendance")
-  pbp_data <- full_join(pbp_data, game_file)
-}
+num_cols <- c("possPoints", "possStart", "teamChanged", "ASSIST",
+              "OREB", "DREB", "secondsPerPoss", "playerMissing")
+pbp_data[num_cols] <- lapply(pbp_data[num_cols], as.numeric)
 
 # Drop rows where we couldn't track the full five-man lineup on both sides —
 # those rows would produce unreliable lineup stats.
@@ -206,6 +207,7 @@ server <- function(input, output, session) {
     req(input$PlayerInput)
     req(game_wanted())
     selected_players <- input$PlayerInput
+    selected_team <- input$TeamInput
 
     filtered_data <- game_wanted() %>%
       filter(awayPlayer1 %in% selected_players |
@@ -225,12 +227,12 @@ server <- function(input, output, session) {
 
     filtered_data <- filtered_data %>%
       mutate(CentreLineup = sapply(1:n(), function(i) {
-        if (awayTeam[i] == "Centre") {
+        if (awayTeam[i] == selected_team) {
           paste(sort(c(awayPlayer1[i], awayPlayer2[i], awayPlayer3[i], awayPlayer4[i], awayPlayer5[i])), collapse = ", ")
-        } else if (homeTeam[i] == "Centre") {
+        } else if (homeTeam[i] == selected_team) {
           paste(sort(c(homePlayer1[i], homePlayer2[i], homePlayer3[i], homePlayer4[i], homePlayer5[i])), collapse = ", ")
         } else {
-          NA
+          NA_character_
         }
       }))
 
@@ -244,8 +246,16 @@ server <- function(input, output, session) {
 
     all_lineups_data <- game_wanted() %>%
       mutate(
+        # Build the lineup string from whichever side of the box score
+        # the selected team is on for that row.
         CentreLineup = sapply(1:n(), function(i) {
-          paste(sort(c(awayPlayer1[i], awayPlayer2[i], awayPlayer3[i], awayPlayer4[i], awayPlayer5[i])), collapse = ", ")
+          if (awayTeam[i] == selected_team) {
+            paste(sort(c(awayPlayer1[i], awayPlayer2[i], awayPlayer3[i], awayPlayer4[i], awayPlayer5[i])), collapse = ", ")
+          } else if (homeTeam[i] == selected_team) {
+            paste(sort(c(homePlayer1[i], homePlayer2[i], homePlayer3[i], homePlayer4[i], homePlayer5[i])), collapse = ", ")
+          } else {
+            NA_character_
+          }
         }),
         # Points scored / allowed while this lineup was on court
         pointsEarned   = if_else(possTeam == tolower(selected_team) & teamChanged == 1, possPoints, 0),
@@ -363,6 +373,16 @@ server <- function(input, output, session) {
         TIME_SEC            = sum(time_sec, na.rm = TRUE),
         total_plus_minus    = total_pointsEarned - total_pointsAgainst
       )
+
+    sprintf(
+      "OffRtg %.1f | DefRtg %.1f | NetRtg %.1f | +/- %d | OffPoss %d | DefPoss %d | Ast %d | AstRatio %.1f | OREB%% %.1f | DREB%% %.1f | %d sec",
+      player_data$total_OFFRTG, player_data$total_DEFRTG, player_data$total_NETRTG,
+      as.integer(player_data$total_plus_minus),
+      as.integer(player_data$total_OFFPOSS), as.integer(player_data$total_DEFPOSS),
+      as.integer(player_data$ASSISTS), player_data$AST_RATIO,
+      player_data$OREBP, player_data$DREBP,
+      as.integer(player_data$TIME_SEC)
+    )
   })
 
   output$allAwayData <- renderDataTable({
