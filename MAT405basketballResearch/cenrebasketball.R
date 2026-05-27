@@ -11,6 +11,25 @@ library(htmlwidgets)
 library(htmltools)
 library(readr)
 
+# Vectorized lineup builder — given five name columns plus a side indicator,
+# returns a sorted "a, b, c, d, e" string per row, or NA_character_ when the
+# selected team isn't on that side. Handles 0-row inputs cleanly (apply on a
+# 0-row matrix used to break things).
+build_lineup <- function(away_team, home_team, selected_team,
+                         a1, a2, a3, a4, a5,
+                         h1, h2, h3, h4, h5) {
+  n <- length(away_team)
+  if (n == 0) return(character(0))
+  away_mat <- cbind(a1, a2, a3, a4, a5)
+  home_mat <- cbind(h1, h2, h3, h4, h5)
+  away_str <- apply(away_mat, 1, function(x) paste(sort(x), collapse = ", "))
+  home_str <- apply(home_mat, 1, function(x) paste(sort(x), collapse = ", "))
+  out <- rep(NA_character_, n)
+  out[away_team == selected_team] <- away_str[away_team == selected_team]
+  out[home_team == selected_team] <- home_str[home_team == selected_team]
+  out
+}
+
 
 directory_path <- "/Users/shreyup/CentreBasketballLineupAnalysis/SAA/centrecolonels/pbp/2023-24"
 all_files <- list.files(path = directory_path, pattern = ".csv$")
@@ -225,16 +244,18 @@ server <- function(input, output, session) {
                all(selected_players %in% c(homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5))) %>%
       ungroup()
 
+    if (nrow(filtered_data) == 0) {
+      # No row has all selected players on the same lineup — return an
+      # empty frame with the CentreLineup column so downstream code is happy.
+      return(filtered_data %>% mutate(CentreLineup = character(0)))
+    }
+
     filtered_data <- filtered_data %>%
-      mutate(CentreLineup = sapply(1:n(), function(i) {
-        if (awayTeam[i] == selected_team) {
-          paste(sort(c(awayPlayer1[i], awayPlayer2[i], awayPlayer3[i], awayPlayer4[i], awayPlayer5[i])), collapse = ", ")
-        } else if (homeTeam[i] == selected_team) {
-          paste(sort(c(homePlayer1[i], homePlayer2[i], homePlayer3[i], homePlayer4[i], homePlayer5[i])), collapse = ", ")
-        } else {
-          NA_character_
-        }
-      }))
+      mutate(CentreLineup = build_lineup(
+        awayTeam, homeTeam, selected_team,
+        awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5,
+        homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5
+      ))
 
     filtered_data
   })
@@ -248,15 +269,11 @@ server <- function(input, output, session) {
       mutate(
         # Build the lineup string from whichever side of the box score
         # the selected team is on for that row.
-        CentreLineup = sapply(1:n(), function(i) {
-          if (awayTeam[i] == selected_team) {
-            paste(sort(c(awayPlayer1[i], awayPlayer2[i], awayPlayer3[i], awayPlayer4[i], awayPlayer5[i])), collapse = ", ")
-          } else if (homeTeam[i] == selected_team) {
-            paste(sort(c(homePlayer1[i], homePlayer2[i], homePlayer3[i], homePlayer4[i], homePlayer5[i])), collapse = ", ")
-          } else {
-            NA_character_
-          }
-        }),
+        CentreLineup = build_lineup(
+          awayTeam, homeTeam, selected_team,
+          awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5,
+          homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5
+        ),
         # Points scored / allowed while this lineup was on court
         pointsEarned   = if_else(possTeam == tolower(selected_team) & teamChanged == 1, possPoints, 0),
         pointsAgainst  = if_else(possTeam != tolower(selected_team) & teamChanged == 1, possPoints, 0),
