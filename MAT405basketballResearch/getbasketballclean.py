@@ -45,6 +45,133 @@ PLAYER_NAME_CORRECTIONS = {
     'vanstaalduinen,matthijis': 'van staalduinen,matt',
 }
 
+# --------------------------------------------------------------------------
+# Phantom-row hygiene
+# --------------------------------------------------------------------------
+# College PBP scoreboards emit each period in two passes:
+#   1. The play-by-play itself — every row has a "MM:SS" clock value and
+#      represents an actual game event (shot, foul, sub, turnover, etc.).
+#   2. A box-score summary block tacked on at the end of each period — rows
+#      have no clock ("--" or blank) and exist to annotate rebounds and
+#      assists that were derived from the box score rather than from a
+#      timestamped play.
+#
+# Historically, this pipeline ran the entire possession-tracking sequence
+# (posschange -> assign_teams -> team_change_indicator -> calculate_possession_*)
+# over EVERY row, including the phantom summary block. That created a
+# second parallel possession sequence: phantom rows got their own possStart,
+# teamChanged, and running possPoints, doubling each real possession's
+# scoring contribution. Downstream code that summed possPoints on
+# teamChanged==1 rows inflated OFFRTG by ~2x (we saw OFFRTG values over 220
+# in seasons where the truth was ~110-120).
+#
+# Two fixes happen here:
+#   - _zero_phantom_possession_flags: after the existing flag columns are
+#     computed, zero possStart / teamChanged / possPoints on phantom rows
+#     so they no longer act as a duplicate sequence.
+#   - _reattribute_phantom_lineups: the lineup snapshot recorded for each
+#     phantom row was the END-OF-PERIOD lineup (since phantom rows come
+#     after every play). Walk the phantom rows and copy each one's lineup
+#     from the corresponding real row — assist phantoms pair with made
+#     shots, rebound phantoms pair with missed shots, in chronological
+#     order within the period.
+_CLOCK_RE = re.compile(r'^\d+:\d+$')
+
+def _is_real_play_clock(t):
+    """True if the timeRemaining cell is a proper 'MM:SS' clock value."""
+    if not isinstance(t, str):
+        return False
+    return bool(_CLOCK_RE.match(t.strip()))
+
+def _zero_phantom_possession_flags(df):
+    """Set possStart / teamChanged / possPoints to 0 on phantom rows so
+    they don't get summed as duplicate possessions downstream. Other
+    columns (possTeam, possSequence, secondsPerPoss, ASSIST, OREB, DREB)
+    are left alone — the indicator columns are the real signal we want
+    to preserve on phantom rows."""
+    if 'timeRemaining' not in df.columns:
+        return df
+    real = df['timeRemaining'].apply(_is_real_play_clock)
+    for col in ('possStart', 'teamChanged', 'possPoints'):
+        if col not in df.columns:
+            continue
+        # These columns can land in the frame as either ints, floats, or
+        # strings depending on which upstream function produced them
+        # (posschange returns np floats, calculate_possession_points returns
+        # str). Pandas' string dtype rejects integer assignment with
+        # "Invalid value '0' for dtype 'str'", so coerce to numeric first
+        # — that gives every column a consistent 0/1 integer view that
+        # both the loc assignment and downstream CSV write handle cleanly.
+        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
+        df.loc[~real, col] = 0
+    return df
+
+def _reattribute_phantom_lineups(df):
+    """Copy the home/away lineup from each phantom row's matching real row.
+
+    Matching is greedy and per-period:
+      - ASSIST phantom -> next unmatched 'good' shot in same period
+      - OFFENSIVE/DEFENSIVE REBOUND phantom -> next unmatched 'missed' shot
+        in same period
+    If no match is found, the existing (end-of-period) lineup is left in
+    place; playerMissing will still flag any incomplete lineup downstream.
+    """
+    if 'homeLineup' not in df.columns or 'awayLineup' not in df.columns:
+        return df
+    if 'timeRemaining' not in df.columns or 'playType' not in df.columns:
+        return df
+
+    real = df['timeRemaining'].apply(_is_real_play_clock).tolist()
+    play_types    = df['playType'].fillna('').astype(str).str.lower().tolist()
+    shot_outcomes = df['shotOutcome'].fillna('').astype(str).str.lower().tolist() \
+                    if 'shotOutcome' in df.columns else [''] * len(df)
+    periods       = df['Period'].fillna('').astype(str).tolist() \
+                    if 'Period' in df.columns else [''] * len(df)
+
+    home_lineup = df['homeLineup'].tolist()
+    away_lineup = df['awayLineup'].tolist()
+
+    shot_types = {'layup', 'jumper', 'three pointer', 'dunk'}
+
+    # Build per-period chronological queues of real shot rows that phantom
+    # rows can be paired with.
+    made_q = {}
+    miss_q = {}
+    for j in range(len(df)):
+        if not real[j]:
+            continue
+        if play_types[j] in shot_types:
+            per = periods[j]
+            if shot_outcomes[j] == 'good':
+                made_q.setdefault(per, []).append(j)
+            elif shot_outcomes[j] == 'missed':
+                miss_q.setdefault(per, []).append(j)
+
+    # Walk phantom rows in order, pop the next available match per type.
+    for i in range(len(df)):
+        if real[i]:
+            continue
+        target = None
+        per = periods[i]
+        pt  = play_types[i]
+        if pt == 'assist':
+            q = made_q.get(per)
+            if q:
+                target = q.pop(0)
+        elif pt in ('offensive rebound', 'defensive rebound'):
+            q = miss_q.get(per)
+            if q:
+                target = q.pop(0)
+        if target is not None:
+            # Copy the list contents — avoid aliasing the same list reference
+            # across two rows, which would cause silent corruption later.
+            home_lineup[i] = list(home_lineup[target])
+            away_lineup[i] = list(away_lineup[target])
+
+    df['homeLineup'] = home_lineup
+    df['awayLineup'] = away_lineup
+    return df
+
 def getPlayer(play_type, data):
     '''Pull the player name out of a play description string.
     Returns the name as "lastname,firstname", or '0' if no player is mentioned.
@@ -967,8 +1094,19 @@ def expandColumn(df):
     #df['awayLineup'] = df['awayLineup'].apply(eval)
 
 
-    df['homeLineup'] = df['homeLineup'].apply(lambda x: x + [None] * (5 - len(x)) if len(x) <= 5 else ['None'] * 5)
-    df['awayLineup'] = df['awayLineup'].apply(lambda x: x + [None] * (5 - len(x)) if len(x) <= 5 else ['None'] * 5)
+    # When the lineup state is exactly 5 players, just unpack it.
+    # When it has < 5 (sub failed to find a player to remove, etc.), pad
+    # with Python None so playerMissing fires.
+    # When it has > 5 (sub-in fired without a matching sub-out), the state
+    # is corrupted — write Python None across all 5 slots so playerMissing
+    # fires and downstream code drops the row. The OLD code wrote the
+    # STRING "None" here, which slipped past every is.na/playerMissing
+    # check downstream and produced phantom "None, None, None, None, None"
+    # lineups in the leaderboard.
+    df['homeLineup'] = df['homeLineup'].apply(
+        lambda x: x + [None] * (5 - len(x)) if len(x) <= 5 else [None] * 5)
+    df['awayLineup'] = df['awayLineup'].apply(
+        lambda x: x + [None] * (5 - len(x)) if len(x) <= 5 else [None] * 5)
 
 
     df_expanded = pd.DataFrame(df['homeLineup'].tolist(), columns=['homePlayer1','homePlayer2','homePlayer3','homePlayer4','homePlayer5'])
@@ -1405,16 +1543,12 @@ def makeHeaderPBP(sport, school, year_str):
                     
                 elif "in" in data:
                     Type.append("subbing in")
-                    if skip_line == 0: # Run this block of command if there's a correct order of substituition: 
-                        if not (player_name in home_lineup or player_name in away_lineup): 
+                    if skip_line == 0: # Run this block of command if there's a correct order of substituition:
+                        if not (player_name in home_lineup or player_name in away_lineup):
                             if data == df["homePlay"][i].lower():
-                                #print("Home Lineup", home_lineup)
                                 home_lineup.append(player_name)
-                                #print("Edited home lineup", home_lineup)
                             else:
-                                #print("Away Lineup", away_lineup)
                                 away_lineup.append(player_name)
-                                #print("Edited away lineup", away_lineup)
                         else:
                             skip_line = 1
                     else:
@@ -1614,7 +1748,17 @@ def makeHeaderPBP(sport, school, year_str):
         p_9 = calculate_possession_times(time_in_secs, p_5)
         # secondsPerPoss: time in seconds consumed by each possession
         df["secondsPerPoss"] = p_9
-        
+
+        # Phantom-row hygiene — see helper comments above the function
+        # definitions for the full story. In short:
+        #   * zero out possStart/teamChanged/possPoints on box-score-summary
+        #     rows so they don't form a duplicate possession sequence;
+        #   * copy each phantom assist/rebound row's lineup from the
+        #     matching real play row so OREB / DREB / ASSIST attribution
+        #     reflects the lineup that was actually on the floor.
+        df = _zero_phantom_possession_flags(df)
+        df = _reattribute_phantom_lineups(df)
+
         df = expandColumn(df)
         
 

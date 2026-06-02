@@ -23,6 +23,22 @@ PLAYER_TABLE_CLASS = 'sidearm-table overall-stats full hide-caption highlight-ho
 STARTER_SKIP_NAMES = {'team', 'team rebound'}
 
 
+def _strip_jersey(name: str) -> str:
+    """Strip jersey-number tokens that some box-score tables embed in the
+    player name. Two forms appear in real data:
+      - leading "<digits>," before the actual name: "3,moore,chez" -> "moore,chez"
+      - trailing ",<digits>" after the actual name: "gardner,2"   -> "gardner"
+    Without this, plays by "MOORE,CHEZ" can't match a starter row of
+    "3,moore,chez", which causes the sub-event matcher in
+    getbasketballclean.py to silently corrupt the lineup state on every sub
+    — leaving downstream tools to see "None" placeholders for most plays in
+    games like the 2023-24 Huntingdon and LaGrange box scores.
+    """
+    name = re.sub(r'^\d+,', '', name)   # leading jersey
+    name = re.sub(r',\d+$', '', name)   # trailing jersey
+    return name
+
+
 def _normalize_starter_name(name: str) -> str:
     """Normalize player name to 'lastname,firstname' format."""
     name = name.strip().lower()
@@ -30,11 +46,11 @@ def _normalize_starter_name(name: str) -> str:
         return ''
     if ',' in name:
         name = name.replace(', ', ',').replace(' ', ',')
-        return name
+        return _strip_jersey(name)
     parts = name.split()
     if len(parts) >= 2:
-        return parts[-1] + ',' + parts[0]
-    return name
+        return _strip_jersey(parts[-1] + ',' + parts[0])
+    return _strip_jersey(name)
 
 
 def _extract_name_from_td(td_cell: Tag) -> str:
@@ -85,14 +101,15 @@ def parse_starters(player_table: Tag) -> List[str]:
             try:
                 if ',' in raw_name:
                     # "Last, First" -> normalize to "last,first"
-                    lineup.append(raw_name.replace(', ', ',').strip())
+                    candidate = raw_name.replace(', ', ',').strip()
+                    lineup.append(_strip_jersey(candidate))
                 else:
                     # "First Last" or "First Middle Last" -> "last,first"
                     parts = raw_name.split()
                     if len(parts) >= 2:
-                        lineup.append(parts[-1] + ',' + parts[0])
+                        lineup.append(_strip_jersey(parts[-1] + ',' + parts[0]))
                     else:
-                        lineup.append(raw_name)
+                        lineup.append(_strip_jersey(raw_name))
             except (IndexError, AttributeError):
                 continue
 
