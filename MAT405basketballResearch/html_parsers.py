@@ -178,6 +178,77 @@ def find_player_tables(soup: BeautifulSoup) -> Optional[Tuple[Tag, Tag]]:
     return tables[0], tables[1]
 
 
+def parse_player_roster(player_table: Tag) -> List[dict]:
+    """Extract every player who appeared in the player stats table, with
+    minutes played and a starter flag. Used downstream as ground truth for
+    the team's roster — when the play-by-play loop's lineup state has a
+    missing 5th player and no on-court action reveals their identity, we
+    fall back to this roster and the recorded minutes to identify the most
+    likely candidate.
+
+    Returns a list of {'name': 'last,first', 'minutes': int, 'is_starter': bool}.
+    Players with 0 or missing minutes (DNP) are still returned so callers can
+    skip them explicitly. Robust to both Sidearm HTML layouts:
+      - newer (2022-23+): name in td[1], starter '*' in td[2], MIN in td[3]
+      - older:            name in th,    starter '*' in td[1], MIN in td[2]
+    Falls back to a 'TEAM' row skip mirrored from parse_starters().
+    """
+    if player_table is None:
+        return []
+
+    out: List[dict] = []
+    rows = player_table.find_all('tr')[1:]   # skip header
+
+    # Detect format by inspecting the first data row.
+    # Newer format has the starter '*' in td[2]; older has it in td[1].
+    for tr in rows:
+        tds = tr.find_all('td')
+        th  = tr.find('th', scope='row')
+        name = None
+        minutes = 0
+        is_starter = False
+
+        # Newer format
+        if len(tds) >= 4:
+            star_cell = tds[2].get_text(strip=True)
+            if star_cell in ('*', ''):
+                is_starter = (star_cell == '*')
+                raw_name = _extract_name_from_td(tds[1])
+                if raw_name and raw_name.lower() not in STARTER_SKIP_NAMES:
+                    name = _normalize_starter_name(raw_name)
+                    min_text = tds[3].get_text(strip=True)
+                    try:
+                        minutes = int(re.sub(r'[^\d]', '', min_text) or '0')
+                    except ValueError:
+                        minutes = 0
+
+        # Older format (only if we didn't get a name above)
+        if name is None and len(tds) >= 3 and th:
+            star_cell = tds[1].get_text(strip=True)
+            is_starter = (star_cell == '*')
+            raw_name = th.get_text(separator=' ', strip=True).lower()
+            raw_name = re.sub(r'^\d+\s+', '', raw_name)
+            if raw_name and raw_name not in STARTER_SKIP_NAMES:
+                try:
+                    if ',' in raw_name:
+                        candidate = raw_name.replace(', ', ',').strip()
+                        name = _strip_jersey(candidate)
+                    else:
+                        parts = raw_name.split()
+                        if len(parts) >= 2:
+                            name = _strip_jersey(parts[-1] + ',' + parts[0])
+                        else:
+                            name = _strip_jersey(raw_name)
+                    min_text = tds[2].get_text(strip=True)
+                    minutes = int(re.sub(r'[^\d]', '', min_text) or '0')
+                except (IndexError, AttributeError, ValueError):
+                    minutes = 0
+
+        if name:
+            out.append({'name': name, 'minutes': minutes, 'is_starter': is_starter})
+    return out
+
+
 def validate_game_html(soup: BeautifulSoup) -> Tuple[bool, str]:
     """
     Quick sanity check before we try to parse a game page.
