@@ -1243,19 +1243,20 @@ ui <- fluidPage(
          atomic unit — coaches can scan a lineup as five distinct people
          instead of one comma-glued string. White fill with a gold ring
          sits well against the gold-soft lineup-cell background. */
+      /* Default state: white chip ringed in Centre gold with black
+         wordmark — high-contrast black-on-white type sits inside a gold
+         capsule outline. Hover flips to gold fill (still black text) so
+         the specific name being pointed at lights up. */
       .player-pill {
         display: inline-block;
         background: #FFFFFF;
-        color: var(--ink);
-        /* Neutral gray ring by default — same warm-gray as the table
-           grid lines — so the pill shape is visible but the column reads
-           as quiet. The gold ring only fires when the row is hovered. */
-        border: 1px solid #d0d0cb;
+        color: var(--black);
+        border: 1.5px solid var(--gold);
         border-radius: 999px;
         padding: 2px 9px;
         margin: 2px 3px 2px 0;
         font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 12px;
         letter-spacing: 0.4px;
         text-transform: uppercase;
@@ -1263,18 +1264,12 @@ ui <- fluidPage(
         line-height: 1.35;
         transition: border-color 0.12s, background 0.12s, color 0.12s;
       }
-      /* Row-level hover: every pill in the row picks up the gold ring so
-         the whole lineup reads as a highlighted unit. */
-      table.dataTable tbody tr:hover .player-pill {
-        border-color: var(--gold);
-      }
-      /* Per-pill hover: dial up the contrast on the specific name the
-         user is pointing at, so coaches can pick out individuals inside
-         a hovered lineup. */
+      /* Per-pill hover — fill with gold (text stays black for contrast)
+         so the specific name pops against the row of white capsules. */
       .player-pill:hover {
-        background: var(--black);
-        color: var(--gold);
-        border-color: var(--black);
+        background: var(--gold);
+        color: var(--black);
+        border-color: var(--gold);
       }
 
       /* ---------- Horizontal-scroll wrapper + FixedColumns ----------
@@ -1369,7 +1364,7 @@ ui <- fluidPage(
     ),
     div(class = "filter-item",
       pickerInput(
-        inputId = "det_game", label = "Game(s)",
+        inputId = "det_game", label = "Games",
         choices = NULL, selected = NULL, multiple = TRUE, width = "100%",
         options = list(`live-search` = TRUE, `actions-box` = TRUE,
                        `selected-text-format` = "count > 2")
@@ -1377,7 +1372,7 @@ ui <- fluidPage(
     ),
     div(class = "filter-item",
       pickerInput(
-        inputId = "PlayerInput", label = "Player(s)",
+        inputId = "PlayerInput", label = "Players",
         choices = NULL, multiple = TRUE, width = "100%",
         options = list(`live-search` = TRUE, `actions-box` = TRUE,
                        `selected-text-format` = "count > 2")
@@ -1620,7 +1615,7 @@ server <- function(input, output, session) {
                   sprintf("No data found for %s season %s.", sport, season)))
     df
   })
-
+  
   # Refresh the Team picker whenever the season changes.
   observeEvent(input$seasonInput, {
     teams <- sort(unique(vctrs::vec_c(pbp_data()$homeTeam, pbp_data()$awayTeam)))
