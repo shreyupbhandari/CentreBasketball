@@ -228,33 +228,40 @@ compute_subgroup_in_lineup_metrics <- function(df, selected_team, n) {
   df <- df[!is.na(df$CentreLineup) & df$CentreLineup != "", , drop = FALSE]
   if (nrow(df) == 0) return(NULL)
 
-  # Build the (subgroup, row) expansion. flat_combos[i] is the subgroup
-  # vector for expanded row i; origin_idx[i] is the index back into df.
-  members_list <- strsplit(df$CentreLineup, ", ", fixed = TRUE)
-  flat_combos <- list()
-  origin_idx <- integer(0)
-  for (i in seq_along(members_list)) {
-    m <- members_list[[i]]
-    if (length(m) < n) next
-    combos <- combn(m, n, simplify = FALSE)
-    flat_combos <- c(flat_combos, combos)
-    origin_idx <- c(origin_idx, rep(i, length(combos)))
-  }
-  if (length(flat_combos) == 0) return(NULL)
+  # Build the (subgroup, row) expansion.
+  #
+  # PERFORMANCE: compute the C(5, n) subgroups once per UNIQUE lineup
+  # string (a few hundred per season), not once per row (tens of
+  # thousands). The old per-row loop also grew its accumulator with
+  # c(flat_combos, combos), which re-copies the whole list on every
+  # append — quadratic time. Together those made the Player Combination
+  # tab take ~9 s per recompute; this formulation runs in ~0.2 s.
+  lineup_levels <- unique(df$CentreLineup)
+  combos_by_lineup <- lapply(
+    strsplit(lineup_levels, ", ", fixed = TRUE),
+    function(m) {
+      if (length(m) < n) return(character(0))
+      combos <- combn(m, n, simplify = FALSE)
+      vapply(combos, function(x) paste(sort(x), collapse = ", "), character(1))
+    }
+  )
+  lineup_idx <- match(df$CentreLineup, lineup_levels)
+  k_per_row  <- lengths(combos_by_lineup)[lineup_idx]
+  if (sum(k_per_row) == 0) return(NULL)
 
+  origin_idx <- rep(seq_len(nrow(df)), times = k_per_row)
   df_exp <- df[origin_idx, , drop = FALSE]
-  df_exp$Group  <- vapply(flat_combos,
-                          function(x) paste(sort(x), collapse = ", "),
-                          character(1))
+  df_exp$Group  <- unlist(combos_by_lineup[lineup_idx], use.names = FALSE)
   df_exp$Lineup <- df_exp$CentreLineup
 
-  # The "is the row's actor a member of THIS subgroup?" flag.
-  in_sub <- logical(nrow(df_exp))
-  for (i in seq_len(nrow(df_exp))) {
-    p <- df_exp$Player[i]
-    in_sub[i] <- !is.na(p) && p != "" && p %in% flat_combos[[i]]
-  }
-  df_exp$.in_sub <- in_sub
+  # The "is the row's actor a member of THIS subgroup?" flag, vectorized:
+  # the actor is a member iff ", <player>, " appears in the padded
+  # subgroup string. Names are full tokens between ", " separators, so
+  # padding both sides makes the match exact — "wahl,nolan" can't hit
+  # inside "wahl,nolanson".
+  df_exp$.in_sub <- !is.na(df_exp$Player) & df_exp$Player != "" &
+    stringr::str_detect(paste0(", ", df_exp$Group, ", "),
+                        stringr::fixed(paste0(", ", df_exp$Player, ", ")))
 
   df_exp %>%
     mutate(
@@ -431,15 +438,44 @@ lineup_column_defs <- function(lineup_targets) {
   )
 }
 
+# Row mask: TRUE where ALL of `players` are in the row's away lineup OR
+# all are in the row's home lineup. Vectorized replacement for the old
+# rowwise() + all() filter, which cost ~0.2 s per call on a full season;
+# this runs in a few ms. NA lineup slots simply never match (same
+# semantics as `p %in% c(...)` against an NA-containing vector).
+rows_with_players <- function(df, players) {
+  if (length(players) == 0) return(rep(TRUE, nrow(df)))
+  away <- cbind(df$awayPlayer1, df$awayPlayer2, df$awayPlayer3,
+                df$awayPlayer4, df$awayPlayer5)
+  home <- cbind(df$homePlayer1, df$homePlayer2, df$homePlayer3,
+                df$homePlayer4, df$homePlayer5)
+  in_away <- rep(TRUE, nrow(df))
+  in_home <- rep(TRUE, nrow(df))
+  for (p in players) {
+    in_away <- in_away & (rowSums(away == p, na.rm = TRUE) > 0)
+    in_home <- in_home & (rowSums(home == p, na.rm = TRUE) > 0)
+  }
+  in_away | in_home
+}
+
 build_lineup <- function(away_team, home_team, selected_team,
                          a1, a2, a3, a4, a5,
                          h1, h2, h3, h4, h5) {
   n <- length(away_team)
   if (n == 0) return(character(0))
-  away_mat <- cbind(a1, a2, a3, a4, a5)
-  home_mat <- cbind(h1, h2, h3, h4, h5)
-  away_str <- apply(away_mat, 1, function(x) paste(sort(x), collapse = ", "))
-  home_str <- apply(home_mat, 1, function(x) paste(sort(x), collapse = ", "))
+  # Sort + join once per UNIQUE 5-player combination, then map back to
+  # rows. A season has ~10k rows but only a few hundred distinct
+  # lineups, so this cuts the apply() work by ~30x (0.4 s -> ~0.01 s).
+  sort_join_unique <- function(mat) {
+    key <- do.call(paste, c(as.data.frame(mat, stringsAsFactors = FALSE),
+                            sep = "\x01"))
+    first <- !duplicated(key)
+    joined <- apply(mat[first, , drop = FALSE], 1,
+                    function(x) paste(sort(x), collapse = ", "))
+    joined[match(key, key[first])]
+  }
+  away_str <- sort_join_unique(cbind(a1, a2, a3, a4, a5))
+  home_str <- sort_join_unique(cbind(h1, h2, h3, h4, h5))
   out <- rep(NA_character_, n)
   out[away_team == selected_team] <- away_str[away_team == selected_team]
   out[home_team == selected_team] <- home_str[home_team == selected_team]
@@ -831,6 +867,37 @@ load_pbp_cached <- function(season, sport = NULL) {
   }
 }
 .prewarm_seasons()
+
+# Background pre-warm of every REMAINING season. Each season now loads
+# in ~0.2 s (post fread + normalize_team_fast), so warming all ~30 of
+# them costs a few seconds of idle event-loop time and ~100 MB of RAM —
+# after which EVERY season pick and sport toggle is instant, no
+# progress bar. Scheduled via later::later() with staggered delays so
+# the callbacks run between user interactions instead of blocking
+# startup or any request; a season the user picks before its background
+# slot simply loads on demand (the cache check makes the background job
+# a no-op).
+.prewarm_rest_in_background <- function() {
+  if (!requireNamespace("later", quietly = TRUE)) return(invisible())
+  make_job <- function(sp, se) {
+    function() try(load_pbp_cached(se, sport = sp), silent = TRUE)
+  }
+  delay <- 2
+  for (sport in available_sports) {
+    root <- seasons_root_for_sport(sport)
+    seasons <- sort(
+      list.dirs(root, recursive = FALSE, full.names = FALSE),
+      decreasing = TRUE
+    )
+    for (season in seasons) {
+      key <- paste0(sport, "::", season)
+      if (exists(key, envir = .pbp_cache)) next
+      later::later(make_job(sport, season), delay)
+      delay <- delay + 0.5
+    }
+  }
+}
+.prewarm_rest_in_background()
 
 
 # CentreBasketballLogo.png is the wide horizontal lockup (758 x 359, ratio
@@ -1572,6 +1639,13 @@ server <- function(input, output, session) {
   # Refresh the season picker when the sport changes. The seasons
   # available under mens-basketball and womens-basketball can differ
   # (e.g. women's coverage may start in a different year).
+  # NOTE: this observer ONLY touches the season picker. It must NOT
+  # clear the downstream pickers — the downstream observers below are
+  # driven by pbp_data() invalidation and repopulate everything
+  # themselves. Racing a "clear" message against their repopulate
+  # message (both land in the same flush) sometimes applied the clear
+  # LAST, leaving the Team/Games pickers frozen empty until the user
+  # manually toggled season and team.
   observeEvent(current_sport(), {
     root <- seasons_root_for_sport(current_sport())
     seasons <- sort(
@@ -1581,11 +1655,6 @@ server <- function(input, output, session) {
     updatePickerInput(session, "seasonInput",
                       choices = seasons,
                       selected = if (length(seasons)) seasons[1] else character(0))
-    # Clear downstream pickers — anything they showed was for the
-    # previous sport's data.
-    updatePickerInput(session, "TeamInput",   choices = character(0), selected = character(0))
-    updatePickerInput(session, "det_game",    choices = character(0), selected = character(0))
-    updatePickerInput(session, "PlayerInput", choices = character(0), selected = character(0))
   }, ignoreInit = FALSE)
 
   # Sport- and season-aware data source. Re-evaluates whenever either
@@ -1616,15 +1685,25 @@ server <- function(input, output, session) {
     df
   })
   
-  # Refresh the Team picker whenever the season changes.
-  observeEvent(input$seasonInput, {
-    teams <- sort(unique(vctrs::vec_c(pbp_data()$homeTeam, pbp_data()$awayTeam)))
+  # Refresh the Team picker whenever the LOADED DATA changes.
+  #
+  # The event is pbp_data() — NOT input$seasonInput — because the data
+  # invalidates on every sport OR season change, while the season input
+  # value sometimes doesn't change at all. Concretely: toggling the
+  # sport resets the season picker to the new sport's newest season; if
+  # that's the same season string the user already had selected (both
+  # sports default to the same year), input$seasonInput never fires and
+  # an input-driven observer would leave the Team picker stale/empty —
+  # the "frozen pickers" bug. Data-driven invalidation always fires.
+  observeEvent(pbp_data(), {
+    d <- pbp_data()
+    teams <- sort(unique(vctrs::vec_c(d$homeTeam, d$awayTeam)))
+    keep <- input$TeamInput
     updatePickerInput(session, "TeamInput",
                       choices = teams,
-                      selected = if ("Centre" %in% teams) "Centre" else teams[1])
-    # Clear downstream pickers so they don't show stale picks from another season.
-    updatePickerInput(session, "det_game",     choices = character(0), selected = character(0))
-    updatePickerInput(session, "PlayerInput",  choices = character(0), selected = character(0))
+                      selected = if (!is.null(keep) && keep %in% teams) keep
+                                 else if ("Centre" %in% teams) "Centre"
+                                 else teams[1])
   }, ignoreInit = FALSE)
 
   team_data <- reactive({
@@ -1637,13 +1716,30 @@ server <- function(input, output, session) {
     pbp_data() %>% filter(game %in% input$det_game)
   })
 
-  # Update game choices whenever a team is selected
-  observeEvent(input$TeamInput, {
+  # Update game choices whenever the team selection OR the loaded data
+  # changes. Keying on the data matters for the same reason as the Team
+  # observer above: after a sport/season switch the Team picker often
+  # re-selects the same value ("Centre"), so input$TeamInput never
+  # changes and a team-only observer would leave the games picker
+  # holding the previous season's games (or nothing at all).
+  observeEvent(list(pbp_data(), input$TeamInput), {
     req(input$TeamInput)
     game_choices <- pbp_data() %>%
       filter(homeTeam == input$TeamInput | awayTeam == input$TeamInput) %>%
       pull(game) %>% unique()
-    updatePickerInput(session, "det_game", choices = game_choices)
+    # Preserve any still-valid picks (no-op refires keep the selection);
+    # picks from another season/team simply drop out.
+    keep <- intersect(input$det_game, game_choices)
+    updatePickerInput(session, "det_game",
+                      choices = game_choices, selected = keep)
+    # The roster picker depends on the chosen games — reset it when the
+    # game list rebuilds. It repopulates via its own observer once games
+    # are picked. (This replaces the clear the season observer used to
+    # send, which raced against repopulation.)
+    if (length(keep) == 0) {
+      updatePickerInput(session, "PlayerInput",
+                        choices = character(0), selected = character(0))
+    }
   })
 
   # Lineup matrix for the selected team across the chosen games. This is the
@@ -1693,21 +1789,8 @@ server <- function(input, output, session) {
     selected_players <- input$PlayerInput
     selected_team <- input$TeamInput
 
-    filtered_data <- game_wanted() %>%
-      filter(awayPlayer1 %in% selected_players |
-               awayPlayer2 %in% selected_players |
-               awayPlayer3 %in% selected_players |
-               awayPlayer4 %in% selected_players |
-               awayPlayer5 %in% selected_players |
-               homePlayer1 %in% selected_players |
-               homePlayer2 %in% selected_players |
-               homePlayer3 %in% selected_players |
-               homePlayer4 %in% selected_players |
-               homePlayer5 %in% selected_players) %>%
-      rowwise() %>%
-      filter(all(selected_players %in% c(awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5)) |
-               all(selected_players %in% c(homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5))) %>%
-      ungroup()
+    gw <- game_wanted()
+    filtered_data <- gw[rows_with_players(gw, selected_players), , drop = FALSE]
 
     if (nrow(filtered_data) == 0) {
       # No row has all selected players on the same lineup — return an
@@ -2106,11 +2189,8 @@ server <- function(input, output, session) {
           awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5,
           homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5
         )
-      ) %>%
-      rowwise() %>%
-      filter(all(anchors %in% c(awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5)) |
-             all(anchors %in% c(homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5))) %>%
-      ungroup()
+      )
+    filtered <- filtered[rows_with_players(filtered, anchors), , drop = FALSE]
 
     if (nrow(filtered) == 0) {
       return(datatable(data.frame(

@@ -2200,6 +2200,52 @@ def makeHeaderPBP(sport, school, year_str):
                  else:
                      #Team.append(official_opponent_name)
                      Team.append(away_name)
+            # NOTE on branch order: '3ptr by' and 'ft by' MUST be tested
+            # BEFORE the loose 'dunk' / 'assist' / 'block' substring
+            # branches. Those keywords can appear inside PLAYER NAMES —
+            # "GOOD 3PTR by BLOCK,KELSEY" was typed as a block (−3 pts
+            # per make) and "GOOD FT by DUNKELBERGER" as a good dunk
+            # (+2 instead of +1). The shot tests are anchored on
+            # "<type> by" so they can't fire on a name.
+            elif '3ptr by' in data:
+                Type.append('three pointer')
+                if 'miss' in data:
+                    Outcome.append('missed')
+                    points.append('')
+                elif 'good' in data:
+                    Outcome.append('good')
+                    points.append('3')
+                else:
+                    Outcome.append('')
+                    points.append('')
+
+                if player_added == False:
+                    player.append('')
+                #if isHome(data, df) == '1':
+                if data == df['homePlay'][i].lower():
+                    Team.append(home_name)
+                else:
+                    Team.append(away_name)
+            elif 'ft by' in data:
+                if player_added == False:
+                    player.append('')
+                Type.append('free throw')
+                if 'good ft by ' in data:
+                    Outcome.append('good')
+                    points.append('1')
+                elif 'miss ft by ' in data:
+                    Outcome.append('missed')
+                    points.append('')
+                else:
+                    Outcome.append('')
+                    points.append('')
+                #if isHome(data, df) == '1':
+                if data == df['homePlay'][i].lower():
+                    #Team.append('Centre')
+                    Team.append(home_name)
+                else:
+                    #Team.append(official_opponent_name)
+                    Team.append(away_name)
             elif 'dunk' in data:
                 Type.append('dunk')
                 if 'good dunk' in data:
@@ -2223,26 +2269,6 @@ def makeHeaderPBP(sport, school, year_str):
                     player.append('')
                 Outcome.append('')
                 points.append('')
-                #if isHome(data, df) == '1':
-                if data == df['homePlay'][i].lower():
-                    #Team.append('Centre')
-                    Team.append(home_name)
-                else:
-                    #Team.append(official_opponent_name)
-                    Team.append(away_name)
-            elif 'ft by' in data:
-                if player_added == False:
-                    player.append('')
-                Type.append('free throw')
-                if 'good ft by ' in data:
-                    Outcome.append('good')
-                    points.append('1')
-                elif 'miss ft by ' in data:
-                    Outcome.append('missed')
-                    points.append('')
-                else:
-                    Outcome.append('')
-                    points.append('')
                 #if isHome(data, df) == '1':
                 if data == df['homePlay'][i].lower():
                     #Team.append('Centre')
@@ -2417,25 +2443,6 @@ def makeHeaderPBP(sport, school, year_str):
                 Type.append('block')
                 Outcome.append('')
                 points.append('')
-                if player_added == False:
-                    player.append('')
-                #if isHome(data, df) == '1':
-                if data == df['homePlay'][i].lower():
-                    Team.append(home_name)
-                else:
-                    Team.append(away_name)
-            elif '3ptr by' in data:
-                Type.append('three pointer')
-                if 'miss' in data:
-                    Outcome.append('missed')
-                    points.append('')
-                elif 'good' in data:
-                    Outcome.append('good')
-                    points.append('3')
-                else:
-                    Outcome.append('')
-                    points.append('')
-
                 if player_added == False:
                     player.append('')
                 #if isHome(data, df) == '1':
