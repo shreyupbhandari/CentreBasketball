@@ -1,5 +1,6 @@
 library(shiny)
 library(ggplot2)
+library(grid)        # rasterGrob / circleGrob for logo markers on the scatter
 library(tools)
 library(shinythemes)
 library(DT)
@@ -438,6 +439,84 @@ lineup_column_defs <- function(lineup_targets) {
   )
 }
 
+# ---------------------------------------------------------------------------
+# Conditional formatting (cell-background heatmap) for rate metrics.
+#
+# Each metric gets a three-band scale — POOR (soft red), AVERAGE (no fill),
+# GOOD (soft green) — split by two cutpoints. The cutpoints were chosen by
+# pooling EVERY meaningful Centre lineup (>= 20 possessions per side) across
+# all men's + women's seasons and reading the p25 / p75 of each metric, then
+# rounding to clean basketball-meaningful numbers. The data p50s matched
+# published D3 norms closely (eFG% median 50.0, TOV% 19.4, DREB% 73.3,
+# FG% 43.9, 3P% 35.7), so the bands double as "below average / average /
+# above average for a competitive D3 lineup".
+#
+# For "lower is better" metrics (DEFRTG, TOV_PCT) the scale is inverted so a
+# LOW value is green. NA/Inf cells (division by zero on tiny samples) get no
+# fill rather than being mis-colored as an extreme.
+# Elegant two-channel palette: a very soft tint PLUS a matching darker text
+# colour, so the strong cells read as refined coloured numbers rather than
+# heavy blocks. The average band gets no fill and inherits the normal text
+# colour, keeping wide tables clean. Tints are desaturated (Sheets/Linear
+# style) so they sit quietly under the gold-and-black brand chrome.
+.CF_GOOD_BG <- "'#E7F4EA'"   # whisper green
+.CF_POOR_BG <- "'#FBEBEC'"   # whisper red
+.CF_GOOD_TX <- "'#1C7C43'"   # deep green text
+.CF_POOR_TX <- "'#B23A2E'"   # deep red text
+.CF_NONE    <- "''"          # average — inherit
+
+# Build a JS ternary that maps a cell value to one of three outputs
+# (low-band / high-band / middle) using the two cutpoints. `lower_better`
+# flips which end is "good". NA/Inf -> '' (no styling). Shared by the
+# background-colour and text-colour channels so both use identical bands.
+cf_expr <- function(c1, c2, lower_better, good, poor, mid) {
+  lo <- if (lower_better) good else poor   # at/below c1
+  hi <- if (lower_better) poor else good   # at/above c2
+  htmlwidgets::JS(sprintf(
+    paste0("value === null || value === '' || isNaN(parseFloat(value)) ? '' : ",
+           "(parseFloat(value) <= %s ? %s : ",
+           "(parseFloat(value) >= %s ? %s : %s))"),
+    c1, lo, c2, hi, mid))
+}
+
+# (metric -> c1, c2, lower_better). Only metrics present in a given table
+# get styled; raw counts (FGM/FGA/possessions/etc.) are intentionally left
+# uncoloured because "more" isn't inherently good or bad for them.
+.CF_SPECS <- list(
+  OFFRTG     = list(95,  115, FALSE),  # points scored per 100 off. poss
+  DEFRTG     = list(90,  105, TRUE),   # points allowed per 100 def. poss
+  NETRTG     = list(0,   20,  FALSE),  # OFFRTG - DEFRTG
+  plus_minus = list(0,   10,  FALSE),  # raw point differential on floor
+  FG_PCT     = list(38,  50,  FALSE),
+  FG3_PCT    = list(30,  40,  FALSE),
+  EFG_PCT    = list(45,  55,  FALSE),  # 50 = D3 average
+  TOV_PCT    = list(15,  22,  TRUE),   # turnovers per 100 off. poss
+  AST_TO     = list(0.8, 1.3, FALSE),  # 1.0 = break-even
+  AST_RATIO  = list(14,  22,  FALSE),
+  OREB_RATE  = list(20,  33,  FALSE),
+  DREB_RATE  = list(67,  80,  FALSE)
+)
+
+# Apply the heatmap to whichever .CF_SPECS columns exist in `df`. Each styled
+# column gets a soft background tint AND a matching darker text colour in a
+# single formatStyle pass, with a gentle CSS transition (see .dataTable td
+# rule) so re-sorts/filters feel smooth rather than snapping. Call right
+# before returning a datatable() from a renderer.
+add_conditional_formatting <- function(dt, df) {
+  cols <- names(df)
+  for (m in names(.CF_SPECS)) {
+    if (!m %in% cols) next
+    s  <- .CF_SPECS[[m]]
+    c1 <- s[[1]]; c2 <- s[[2]]; lb <- s[[3]]
+    dt <- DT::formatStyle(
+      dt, m,
+      backgroundColor = cf_expr(c1, c2, lb, .CF_GOOD_BG, .CF_POOR_BG, .CF_NONE),
+      color           = cf_expr(c1, c2, lb, .CF_GOOD_TX, .CF_POOR_TX, .CF_NONE)
+    )
+  }
+  dt
+}
+
 # Row mask: TRUE where ALL of `players` are in the row's away lineup OR
 # all are in the row's home lineup. Vectorized replacement for the old
 # rowwise() + all() filter, which cost ~0.2 s per call on a full season;
@@ -517,14 +596,338 @@ normalize_team <- function(x) {
   s[single_case] <- tools::toTitleCase(tolower(s[single_case]))
 
   s <- sub("\\s+(Men|Women)\\s*$", "", s, ignore.case = TRUE)
+  # Strip a trailing institution word so the same club spelled "Millsaps"
+  # and "Millsaps College" folds to one key. Without this, one Millsaps
+  # game (vs Tougaloo, 2024-25) tagged every possession "millsaps college",
+  # splitting it off from "millsaps" — which lost 54 points and skewed
+  # their offensive/defensive possession split by 141 in the conference
+  # table. Only strips when it's a trailing word, so "<X> College" -> "<X>"
+  # but a hyphenated/embedded use is left alone. Safe for SAA: none of the
+  # member schools' canonical short names need a College/University suffix.
+  s <- sub("\\s+(College|University|Univ\\.?)\\s*$", "", s, ignore.case = TRUE)
   s <- trimws(s)
 
   # Centre-specific aliases. Only fires for exact matches.
   centre_aliases <- c("Centre College", "Centrem", "Centremb")
   s[s %in% centre_aliases] <- "Centre"
 
+  # SAA member aliases — fold known multi-spelling clubs to one canonical
+  # key so a team's own games don't split across variants (which silently
+  # mis-attributes that game's points/possessions in the conference table).
+  # Birmingham-Southern alone appears as four spellings in 2022-23 men's:
+  # "Birmingham-So.", "Birmingham Southern", "Birmingham-Southern", "BSC".
+  saa_aliases <- c(
+    "Birmingham-So."      = "Birmingham-Southern",
+    "Birmingham So."      = "Birmingham-Southern",
+    "Birmingham Southern" = "Birmingham-Southern",
+    "Bsc"                 = "Birmingham-Southern",
+    "BSC"                 = "Birmingham-Southern"
+  )
+  hit <- match(s, names(saa_aliases))
+  s[!is.na(hit)] <- unname(saa_aliases[hit[!is.na(hit)]])
+
   s[na_mask] <- NA_character_
   s
+}
+
+# Folder -> canonical team name. Each SAA school's data lives in its own
+# folder, so we always know which club it is — even when that club is
+# spelled many ways inside the files.
+SCHOOL_CANON <- c(
+  centrecolonels      = "Centre",
+  berryvikings        = "Berry",
+  bscsports           = "Birmingham-Southern",
+  gomajors            = "Millsaps",
+  hendrixwarriors     = "Hendrix",
+  rhodeslynx          = "Rhodes",
+  sewaneetigers       = "Sewanee",
+  southwesternpirates = "Southwestern",
+  trinitytigers       = "Trinity"
+)
+
+# Reverse map: canonical team name -> its data folder. Lets the dashboard
+# load any SAA team's OWN full-season folder when that team is selected
+# (so the Games picker shows their whole season, not just the game vs
+# Centre). Non-SAA opponents aren't here and fall back to Centre's folder.
+TEAM_TO_FOLDER <- setNames(names(SCHOOL_CANON), unname(SCHOOL_CANON))
+
+# SAA membership is season-dependent. A school's data folder may contain
+# seasons from AFTER it left the conference (e.g. Hendrix still has 2025-26
+# games, but those are SCAC games — Hendrix rejoined the SCAC after 2024-25).
+# Birmingham-Southern closed after 2023-24. The conference comparison only
+# includes a school for seasons up to and including its last SAA season, so
+# departed schools drop out of current views but remain in the historical
+# seasons when they really were members.
+SAA_LAST_SEASON <- c(
+  hendrixwarriors = "2024-25",
+  bscsports       = "2023-24"
+)
+school_in_saa <- function(school, season) {
+  if (!school %in% names(SAA_LAST_SEASON)) return(TRUE)
+  season <= SAA_LAST_SEASON[[school]]   # "2025-26" > "2024-25" lexically
+}
+
+# SAA members we have NO data folder for (never scraped — e.g. Oglethorpe).
+# We reconstruct their season from the games they played against the SAA
+# teams we DO have, so they still appear in the conference comparison. The
+# catch: that only covers CONFERENCE games (their non-conference games live
+# in their own un-scraped folder), so reconstructed teams are marked with a
+# dagger and excluded from "all games" being truly all-games.
+RECON_TEAMS  <- c("Oglethorpe")
+RECON_FIRST  <- c(Oglethorpe = "2012-13")   # SAA play began 2012-13
+recon_member <- function(team, season) {
+  f <- RECON_FIRST[[team]]
+  is.null(f) || season >= f
+}
+
+# Shared metric vocabulary for the conference pickers, scatter axes, and
+# tables. CONF_METRIC_CHOICES drives the dropdowns (label -> code);
+# METRIC_LABEL is the reverse for pretty display; LOWER_BETTER lists the
+# metrics where a SMALLER number is better (so we sort ascending and flip
+# the scatter axis so "good" is always toward the top-right).
+CONF_METRIC_CHOICES <- c(
+  "Net Rating"       = "NETRTG",
+  "Offensive Rating" = "OFFRTG",
+  "Defensive Rating" = "DEFRTG",
+  "Plus / Minus"     = "plus_minus",
+  "Effective FG %"   = "EFG_PCT",
+  "FG %"             = "FG_PCT",
+  "3-Point %"        = "FG3_PCT",
+  "Assist / TO"      = "AST_TO",
+  "Assist Ratio"     = "AST_RATIO",
+  "TOV %"            = "TOV_PCT",
+  "Off Reb Rate"     = "OREB_RATE",
+  "Def Reb Rate"     = "DREB_RATE",
+  "Pace"             = "PACE"
+)
+METRIC_LABEL <- setNames(names(CONF_METRIC_CHOICES), unname(CONF_METRIC_CHOICES))
+LOWER_BETTER <- c("DEFRTG", "TOV_PCT")
+
+# The rich rate-stat column order shared by the conference team table and the
+# conference lineup table, so every conference view exposes the same metrics
+# (3PT %, eFG %, AST/TO, Pace, +/- …) that used to live only in Top Lineups.
+CONF_RATE_COLS <- c("OFFRTG", "DEFRTG", "NETRTG", "plus_minus",
+                    "FG_PCT", "FG3_PCT", "EFG_PCT",
+                    "AST_TO", "AST_RATIO", "TOV_PCT",
+                    "OREB_RATE", "DREB_RATE", "PACE")
+
+# Approximate primary brand colour per school (used for the bar chart
+# fills and the scatter fallback tokens). Centre is brand gold.
+SCHOOL_COLORS <- c(
+  Centre = "#FFCD00", Berry = "#1B3A6B", `Birmingham-Southern` = "#C8A951",
+  Millsaps = "#5B2D90", Hendrix = "#F58025", Rhodes = "#9D2235",
+  Sewanee = "#582C83", Southwestern = "#C99700", Trinity = "#7C2529"
+)
+
+# ---- Team logos as scatter markers ---------------------------------------
+# PNGs live in www/logos/<folder>.png (one per SAA school). We render each on
+# a white circular "chip" so any logo — athletic mark or academic seal —
+# reads cleanly on the dark Goldsberry-style panel. Cached per folder.
+# project_root is defined further down, so resolve the dir lazily at call time.
+.logo_dir   <- function() file.path(project_root, "MAT405basketballResearch", "www", "logos")
+.logo_cache <- new.env(parent = emptyenv())
+
+# Normalise a png::readPNG array (grayscale / GA / RGB / RGBA) to a raster.
+.as_rgba_raster <- function(a) {
+  d <- dim(a)
+  if (length(d) == 2) { r <- g <- b <- a; al <- matrix(1, d[1], d[2]); h <- d[1] }
+  else {
+    h <- d[1]
+    if (d[3] == 2)      { r <- g <- b <- a[, , 1]; al <- a[, , 2] }
+    else if (d[3] == 3) { r <- a[, , 1]; g <- a[, , 2]; b <- a[, , 3]; al <- matrix(1, d[1], d[2]) }
+    else                { r <- a[, , 1]; g <- a[, , 2]; b <- a[, , 3]; al <- a[, , 4] }
+  }
+  grDevices::as.raster(matrix(grDevices::rgb(r, g, b, al), nrow = h))
+}
+
+team_logo_raster <- function(folder) {
+  if (is.null(folder) || is.na(folder)) return(NULL)
+  if (exists(folder, envir = .logo_cache)) return(get(folder, envir = .logo_cache))
+  path <- file.path(.logo_dir(), paste0(folder, ".png"))
+  ras <- NULL
+  if (file.exists(path) && requireNamespace("png", quietly = TRUE)) {
+    a <- tryCatch(png::readPNG(path), error = function(e) NULL)
+    if (!is.null(a)) ras <- tryCatch(.as_rgba_raster(a), error = function(e) NULL)
+  }
+  assign(folder, ras, envir = .logo_cache)
+  ras
+}
+
+# A white circular chip holding the logo (aspect-preserved). Centre gets a
+# bold gold ring; everyone else a faint slate ring. Falls back to a plain
+# chip when the logo file is missing.
+logo_chip_grob <- function(ras, centre = FALSE) {
+  ring_col <- if (centre) "#FFCD00" else "#C7CCD1"
+  ring_lwd <- if (centre) 3.6 else 1.1
+  circ <- grid::circleGrob(r = grid::unit(0.5, "snpc"),
+                           gp = grid::gpar(fill = "white", col = ring_col, lwd = ring_lwd))
+  if (is.null(ras)) return(grid::grobTree(circ))
+  d <- dim(ras); asp <- d[2] / d[1]
+  fill <- 0.86   # how much of the chip the logo fills (aspect-preserved)
+  if (asp >= 1) { wf <- fill; hf <- fill / asp } else { hf <- fill; wf <- fill * asp }
+  grid::grobTree(circ, grid::rasterGrob(ras, width = grid::unit(wf, "snpc"),
+                                        height = grid::unit(hf, "snpc")))
+}
+
+# Plot font = the dashboard's display face, Barlow Condensed, loaded into the
+# graphics device via showtext (it's a Google web-font, not a system font, so
+# the plot device can't see it otherwise). Falls back to a condensed/system
+# sans if showtext or the download isn't available.
+.PLOT_FONT <- local({
+  ok <- requireNamespace("showtext", quietly = TRUE) &&
+        requireNamespace("sysfonts", quietly = TRUE)
+  if (ok) {
+    fam <- tryCatch({
+      sysfonts::font_add_google("Barlow Condensed", "barlow")
+      showtext::showtext_auto()
+      showtext::showtext_opts(dpi = 96)
+      "barlow"
+    }, error = function(e) NA_character_)
+    if (!is.na(fam)) fam else "sans"
+  } else "sans"
+})
+.LABEL_FONT <- .PLOT_FONT
+.BASE_FONT  <- .PLOT_FONT
+
+# Light (white-background) theme shared by all three conference visuals.
+.conf_plot_theme <- function() {
+  theme_minimal(base_size = 14, base_family = .BASE_FONT) +
+    theme(
+      plot.background  = element_rect(fill = "#FFFFFF", colour = NA),
+      panel.background = element_rect(fill = "#FFFFFF", colour = NA),
+      panel.grid.minor = element_blank(),
+      panel.grid.major = element_line(colour = "#ECECE7"),
+      axis.text   = element_text(colour = "#5b6772"),
+      axis.title  = element_text(colour = "#333F4C", face = "bold", size = 12),
+      plot.title  = element_text(colour = "#1a1f24", face = "bold", size = 16),
+      plot.caption = element_text(colour = "#B23A2E", hjust = 0, size = 10),
+      legend.position = "none"
+    )
+}
+
+# Build the conference visualization. `viz` is "scatter" | "bar".
+# Scatter uses x/y metrics with logo markers + a gold average crosshair;
+# bar ranks teams on a single metric with Centre in gold.
+build_conference_plot <- function(d, viz, xm, ym, metric) {
+  if (is.null(d) || nrow(d) == 0) return(NULL)
+  d$is_centre <- d$Team == "Centre"
+  d$folder    <- names(SCHOOL_CANON)[match(d$Team, unname(SCHOOL_CANON))]
+  # Folderless teams (reconstructed, e.g. Oglethorpe) -> slug for the logo file.
+  na_f <- is.na(d$folder)
+  if (any(na_f)) d$folder[na_f] <- tolower(gsub("[^A-Za-z]", "", d$Team[na_f]))
+  any_flagged <- "reliable" %in% names(d) && any(!d$reliable)
+  cap <- if (any_flagged)
+    "*  season totals don't fully reconcile to box scores" else NULL
+  d$mark <- if ("reliable" %in% names(d)) ifelse(d$reliable, "", " *") else ""
+
+  if (viz == "scatter") {
+    d <- d[is.finite(d[[xm]]) & is.finite(d[[ym]]), , drop = FALSE]
+    if (nrow(d) == 0) return(NULL)
+    d$.x <- d[[xm]]; d$.y <- d[[ym]]
+    avg_x <- mean(d$.x); avg_y <- mean(d$.y)
+    xr <- diff(range(d$.x)); yr <- diff(range(d$.y))
+    if (xr == 0) xr <- 1; if (yr == 0) yr <- 1
+    # Logo marker size as a fraction of each axis range. The panel is forced
+    # square (aspect.ratio = 1 below), so equal x/y fractions render as equal
+    # visual sizes and the markers stay round and stable on window resize.
+    dx <- 0.12 * xr; dy <- 0.12 * yr
+
+    # geom_blank trains the x/y scales on the true data points (the logos are
+    # annotation layers that DON'T train scales). No team-name labels — the
+    # logos identify the teams (Goldsberry style).
+    p <- ggplot(d, aes(.x, .y)) +
+      geom_hline(yintercept = avg_y, colour = "#000000", linewidth = 1.1) +
+      geom_vline(xintercept = avg_x, colour = "#000000", linewidth = 1.1) +
+      geom_blank()
+    # Non-Centre chips first, Centre last (on top) and 1.3x larger.
+    for (i in order(d$is_centre)) {
+      mlt <- if (d$is_centre[i]) 1.3 else 1
+      p <- p + annotation_custom(
+        logo_chip_grob(team_logo_raster(d$folder[i]), d$is_centre[i]),
+        xmin = d$.x[i] - dx * mlt / 2, xmax = d$.x[i] + dx * mlt / 2,
+        ymin = d$.y[i] - dy * mlt / 2, ymax = d$.y[i] + dy * mlt / 2)
+    }
+    p <- p +
+      labs(x = METRIC_LABEL[[xm]] %||% xm,
+           y = METRIC_LABEL[[ym]] %||% ym) +
+      .conf_plot_theme()
+    p <- p + (if (xm %in% LOWER_BETTER)
+                scale_x_reverse(expand = expansion(mult = 0.14))
+              else scale_x_continuous(expand = expansion(mult = 0.14)))
+    p <- p + (if (ym %in% LOWER_BETTER)
+                scale_y_reverse(expand = expansion(mult = 0.14))
+              else scale_y_continuous(expand = expansion(mult = 0.14)))
+    return(p)
+  }
+
+  # ---- bar chart on a single metric ----
+  mm <- metric
+  d <- d[is.finite(d[[mm]]), , drop = FALSE]; if (nrow(d) == 0) return(NULL)
+  asc <- mm %in% LOWER_BETTER
+  d <- d[order(d[[mm]], decreasing = !asc), ]
+  lbls <- paste0(d$Team, d$mark)                   # append * / † markers
+  d$Team <- factor(lbls, levels = rev(lbls))       # best at top after coord_flip
+  lab <- METRIC_LABEL[[mm]] %||% mm
+  pad <- 0.14 * diff(range(d[[mm]])); if (!is.finite(pad) || pad == 0) pad <- 1
+
+  # Bar chart (the only non-scatter option). Same bold Barlow Condensed
+  # treatment as the scatter for the team names and value labels.
+  ggplot(d, aes(Team, .data[[mm]], fill = is_centre)) +
+    geom_col(width = 0.72) +
+    geom_text(aes(label = formatC(.data[[mm]], format = "f", digits = 1)),
+              hjust = -0.18, colour = "#333F4C", size = 4.4,
+              family = .BASE_FONT, fontface = "bold") +
+    scale_fill_manual(values = c("FALSE" = "#A7BACB", "TRUE" = "#FFCD00")) +
+    coord_flip(clip = "off") +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.14))) +
+    labs(x = NULL, y = lab, caption = cap) +
+    .conf_plot_theme() +
+    theme(axis.text.y = element_text(colour = "#1a1f24", family = .LABEL_FONT,
+                                     face = "bold", size = 15))
+}
+
+# Fold a school's OWN name variants to one canonical key inside its folder.
+#
+# Older Sidearm feeds spell a team's own name many ways across its season:
+# gender suffixes ("Hendrixm", "Rhodeswb", "Centrew"), mascots ("Tigers",
+# "Sewwomen"), truncations ("Millsa", "Sewane"), and "<X> Men's Basketball".
+# When a team's name varies, the rows from its variant-named games don't
+# match `Team == team`, so that game's points and possessions get counted
+# as the opponent's — silently losing offense and skewing the off/def
+# possession split (the conference audit found 60+ team-seasons like this,
+# the worst losing 1454 points). normalize_team() can't catch open-ended
+# variants, but inside a known school folder we can: a value is the school
+# if it covers many games (opponents appear in only 1-3) OR is prefix-
+# related to the canonical name. Cross-checked: folds every known variant
+# while leaving clean teams (and all opponents) untouched.
+.prefix_related <- function(v, canon_lc) {
+  k <- pmin(nchar(v), nchar(canon_lc))
+  k >= 4 & substr(v, 1, k) == substr(canon_lc, 1, k)
+}
+canonicalize_school_team <- function(d, canonical) {
+  if (is.null(d) || nrow(d) == 0 || is.na(canonical) ||
+      !"gameID" %in% names(d)) return(d)
+  ng  <- dplyr::n_distinct(d$gameID)
+  thr <- max(4, 0.30 * ng)
+  variants_in <- function(col, canon) {
+    vals <- unique(d[[col]]); vals <- vals[!is.na(vals) & vals != ""]
+    if (length(vals) == 0) return(character(0))
+    cov <- d %>% distinct(gameID, .val = .data[[col]]) %>%
+      filter(!is.na(.val) & .val != "") %>% count(.val)
+    high_cov <- cov$.val[cov$n >= thr]
+    pref     <- vals[.prefix_related(tolower(vals), tolower(canon))]
+    union(high_cov, pref)
+  }
+  for (col in intersect(c("homeTeam", "awayTeam"), names(d))) {
+    hits <- variants_in(col, canonical)
+    if (length(hits)) d[[col]][d[[col]] %in% hits] <- canonical
+  }
+  canon_lc <- tolower(canonical)
+  for (col in intersect(c("Team", "possTeam"), names(d))) {
+    hits <- variants_in(col, canon_lc)
+    if (length(hits)) d[[col]][d[[col]] %in% hits] <- canon_lc
+  }
+  d
 }
 
 # Sport toggle support. The project root contains one folder per sport
@@ -535,12 +938,23 @@ project_root <- "/Users/shreyup/CentreBasketballLineupAnalysis"
 
 # Per-sport season root. Falls back to the legacy (no-sport) layout when
 # the sport-specific directory isn't present, so a single-sport install
-# keeps working without changes.
-seasons_root_for_sport <- function(sport) {
-  cand <- file.path(project_root, sport, "SAA", "centrecolonels", "pbp")
+# keeps working without changes. `school` defaults to Centre so every
+# existing call is unchanged; the conference-comparison feature passes
+# other SAA schools to pull their play-by-play.
+seasons_root_for_sport <- function(sport, school = "centrecolonels") {
+  cand <- file.path(project_root, sport, "SAA", school, "pbp")
   if (dir.exists(cand)) return(cand)
-  legacy <- file.path(project_root, "SAA", "centrecolonels", "pbp")
+  legacy <- file.path(project_root, "SAA", school, "pbp")
   legacy
+}
+
+# List the SAA schools that have a data folder for the given sport. Used to
+# build the conference-comparison table (one row per school's team).
+available_schools_for_sport <- function(sport) {
+  saa <- file.path(project_root, sport, "SAA")
+  if (!dir.exists(saa)) saa <- file.path(project_root, "SAA")
+  if (!dir.exists(saa)) return(character(0))
+  list.dirs(saa, recursive = FALSE, full.names = FALSE)
 }
 
 # Auto-detect available sports based on which top-level sport dirs exist.
@@ -621,8 +1035,8 @@ add_elapsed_seconds <- function(d) {
 # Accepts an optional `sport` arg so the dashboard's sport toggle can
 # request mens-basketball or womens-basketball at runtime. Defaults to
 # whatever module-level `seasons_root` is set to (legacy behavior).
-load_pbp <- function(season, sport = NULL) {
-  base <- if (!is.null(sport)) seasons_root_for_sport(sport) else seasons_root
+load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
+  base <- if (!is.null(sport)) seasons_root_for_sport(sport, school) else seasons_root
   dir <- file.path(base, season)
   files <- list.files(dir, pattern = "\\.csv$", full.names = TRUE)
   if (length(files) == 0) return(NULL)
@@ -669,6 +1083,13 @@ load_pbp <- function(season, sport = NULL) {
   for (col in intersect(c("Team", "possTeam"), names(d))) {
     d[[col]] <- normalize_team_fast(d[[col]], lower = TRUE)
   }
+
+  # Fold this school's own name variants to its canonical name. We know the
+  # club from the folder, so even open-ended spellings ("Centrew", "Rhodeswb",
+  # "Tigers") collapse to one key — without which that game's points and
+  # possessions get mis-credited to the opponent. No-op for clean teams and
+  # for unknown folders (canonical = NA). See canonicalize_school_team().
+  d <- canonicalize_school_team(d, unname(SCHOOL_CANON[school]))
 
   # Strip jersey tokens that some games prepend or append to player names
   # (e.g. "3,moore,chez" / "gardner,2" -> "moore,chez" / "gardner").
@@ -839,15 +1260,201 @@ repair_team_attribution <- function(d) {
 }
 
 # Tiny per-process cache so flipping back to a season you've already viewed
-# is instant — the CSV parse happens once per (sport, season) per process.
-# Keyed by "<sport>::<season>" so men's and women's data don't collide.
+# is instant — the CSV parse happens once per (sport, school, season) per
+# process. Keyed by "<sport>::<school>::<season>" so men's/women's and the
+# different SAA team folders never collide.
 .pbp_cache <- new.env(parent = emptyenv())
-load_pbp_cached <- function(season, sport = NULL) {
-  key <- if (!is.null(sport)) paste0(sport, "::", season) else season
+pbp_cache_key <- function(sport, school, season) {
+  paste0(sport %||% "", "::", school, "::", season)
+}
+load_pbp_cached <- function(season, sport = NULL, school = "centrecolonels") {
+  key <- pbp_cache_key(sport, school, season)
   if (!exists(key, envir = .pbp_cache)) {
-    assign(key, load_pbp(season, sport = sport), envir = .pbp_cache)
+    assign(key, load_pbp(season, sport = sport, school = school), envir = .pbp_cache)
   }
   get(key, envir = .pbp_cache)
+}
+
+# ===========================================================================
+# Conference comparison — season-level team metrics for every SAA school.
+#
+# Each school's pbp folder is self-contained (it holds that school's games,
+# home and away). We load each school's season, identify its own team (the
+# club present in essentially every game), and pool the whole play stream
+# into ONE group so compute_lineup_metrics() yields that team's season
+# totals — the exact same point/possession/shooting logic already validated
+# for lineups, just aggregated team-wide. Cross-checked: a team's pooled
+# pointsEarned/pointsAgainst match the sum of its box-score final scores.
+# ===========================================================================
+
+# The school's own team name = the normalized club present in the most games
+# (it appears in every game while opponents vary).
+own_team_name <- function(d) {
+  if (is.null(d) || nrow(d) == 0) return(NA_character_)
+  tab <- sort(table(c(d$homeTeam, d$awayTeam)), decreasing = TRUE)
+  if (length(tab) == 0) return(NA_character_)
+  names(tab)[1]
+}
+
+# Season totals for one team. `conf_only` restricts to SAA-flagged games.
+# Returns a one-row data frame, or NULL if no qualifying games.
+compute_team_season_metrics <- function(d, team, conf_only = FALSE) {
+  if (is.null(d) || nrow(d) == 0 || is.na(team)) return(NULL)
+  if (conf_only && "saaGame" %in% names(d)) {
+    d <- d[!is.na(d$saaGame) & d$saaGame == "1", , drop = FALSE]
+  }
+  if (nrow(d) == 0) return(NULL)
+
+  # Pool every row into a single group so the per-lineup aggregator returns
+  # the team's season line. selected_team is lowercased inside the helper.
+  d$CentreLineup <- "ALL"
+  m <- compute_lineup_metrics(d, team)
+  if (is.null(m) || nrow(m) == 0) return(NULL)
+  m$CentreLineup <- NULL
+
+  # Win/loss record + box-score reconciliation from distinct games.
+  gmeta <- d %>% distinct(gameID, finalScore, homeTeam, homeWin)
+  home_is_team <- gmeta$homeTeam == team
+  team_won <- (home_is_team & gmeta$homeWin == "Win") |
+              (!home_is_team & gmeta$homeWin != "Win")
+  m$Team   <- team
+  m$Games  <- nrow(gmeta)
+  m$Wins   <- sum(team_won, na.rm = TRUE)
+  m$Losses <- m$Games - m$Wins
+
+  # DATA CONFIDENCE. finalScore is "AWAY-HOME". Sum the team's real points
+  # for/against across its games and compare to the play-stream totals; a
+  # large gap (or a big offensive/defensive possession imbalance) means the
+  # parser lost data somewhere in that team's folder, so its rates should
+  # be read with caution. These two signals caught the Millsaps name-split
+  # before it was fixed; they now surface any residual noise per team.
+  parts <- strsplit(gmeta$finalScore, "-")
+  box_for <- 0L; box_against <- 0L
+  for (i in seq_along(parts)) {
+    p <- suppressWarnings(as.integer(parts[[i]]))
+    if (length(p) != 2 || any(is.na(p))) next
+    if (home_is_team[i]) { box_for <- box_for + p[2]; box_against <- box_against + p[1] }
+    else                 { box_for <- box_for + p[1]; box_against <- box_against + p[2] }
+  }
+  m$box_for     <- box_for
+  m$box_against <- box_against
+  m$recon_gap   <- abs(m$pointsEarned - box_for) + abs(m$pointsAgainst - box_against)
+  m$poss_skew   <- m$OFFPOSS - m$DEFPOSS
+  total_box     <- box_for + box_against
+  rel_err       <- if (total_box > 0) m$recon_gap / total_box else 0
+  # Reliable unless points are >=1.5% off OR possessions skew by >=20.
+  m$reliable    <- !(rel_err >= 0.015 | abs(m$poss_skew) >= 20)
+  m
+}
+
+# Build the full conference table for a (sport, season). One row per SAA
+# school that has data that season. Result is cached per
+# "sport::season::conf|all" so re-opening the tab is instant.
+.conf_cache <- new.env(parent = emptyenv())
+compute_conference_table <- function(sport, season, conf_only = FALSE) {
+  key <- paste0(sport, "::", season, "::", if (conf_only) "conf" else "all")
+  if (exists(key, envir = .conf_cache)) return(get(key, envir = .conf_cache))
+
+  schools <- available_schools_for_sport(sport)
+  rows <- list()
+  recon_games <- setNames(vector("list", length(RECON_TEAMS)), RECON_TEAMS)
+  for (sc in schools) {
+    if (!school_in_saa(sc, season)) next   # skip departed schools this season
+    d <- tryCatch(load_pbp(season, sport = sport, school = sc),
+                  error = function(e) NULL)
+    if (is.null(d) || nrow(d) == 0) next
+    # While we have this folder loaded, grab any games it holds against a
+    # folderless SAA team (Oglethorpe) so we can reconstruct that team below.
+    for (rt in RECON_TEAMS) {
+      g <- d[coalesce(d$homeTeam == rt, FALSE) | coalesce(d$awayTeam == rt, FALSE), , drop = FALSE]
+      if (nrow(g)) recon_games[[rt]] <- dplyr::bind_rows(recon_games[[rt]], g)
+    }
+    # Canonical name from the folder (load_pbp already folded variants to it);
+    # fall back to the modal team if the folder isn't in the map.
+    tm <- unname(SCHOOL_CANON[sc]); if (is.na(tm)) tm <- own_team_name(d)
+    r  <- tryCatch(compute_team_season_metrics(d, tm, conf_only = conf_only),
+                   error = function(e) NULL)
+    if (!is.null(r)) { r$reconstructed <- FALSE; rows[[sc]] <- r }
+  }
+  # Append reconstructed (folderless) SAA members from their opponent games.
+  for (rt in RECON_TEAMS) {
+    if (!recon_member(rt, season)) next
+    g <- recon_games[[rt]]
+    if (is.null(g) || nrow(g) == 0) next
+    g <- g[!duplicated(g$gameID) | TRUE, , drop = FALSE]   # games are already unique
+    r <- tryCatch(compute_team_season_metrics(g, rt, conf_only = conf_only),
+                  error = function(e) NULL)
+    if (!is.null(r)) { r$reconstructed <- TRUE; rows[[rt]] <- r }
+  }
+  out <- if (length(rows)) dplyr::bind_rows(rows) else NULL
+  if (!is.null(out)) {
+    if (!"reconstructed" %in% names(out)) out$reconstructed <- FALSE
+    out$reconstructed[is.na(out$reconstructed)] <- FALSE
+    out <- out %>% arrange(desc(NETRTG))
+  }
+  assign(key, out, envir = .conf_cache)
+  out
+}
+
+# Every team's five-man lineups across the conference, for the lineup-vs-
+# lineup comparison. For each school we build that team's lineups (using its
+# canonical name) and run the SAME per-lineup aggregator the Centre tabs use,
+# then tag each row with the team. The full set is cached; the min-possession
+# filter is applied later in the renderer so the slider stays instant. A
+# `reliable` column is carried from the conference table so the UI can warn
+# when a team's season data didn't fully reconcile.
+.conf_lu_cache <- new.env(parent = emptyenv())
+compute_conference_lineups <- function(sport, season, conf_only = FALSE) {
+  key <- paste0(sport, "::", season, "::", if (conf_only) "conf" else "all")
+  if (exists(key, envir = .conf_lu_cache)) return(get(key, envir = .conf_lu_cache))
+
+  rel <- compute_conference_table(sport, season, conf_only)
+  rel_map <- if (!is.null(rel)) setNames(rel$reliable, rel$Team) else character(0)
+
+  # Build one team's lineups from a play-by-play frame.
+  team_lineups <- function(d, team, reconstructed) {
+    if (conf_only && "saaGame" %in% names(d)) {
+      d <- d[!is.na(d$saaGame) & d$saaGame == "1", , drop = FALSE]
+    }
+    if (nrow(d) == 0) return(NULL)
+    d <- d %>% mutate(CentreLineup = build_lineup(
+      awayTeam, homeTeam, team,
+      awayPlayer1, awayPlayer2, awayPlayer3, awayPlayer4, awayPlayer5,
+      homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5))
+    m <- tryCatch(compute_lineup_metrics(d, team), error = function(e) NULL)
+    if (is.null(m) || nrow(m) == 0) return(NULL)
+    m <- m %>% filter(!is.na(CentreLineup) & CentreLineup != "")
+    if (nrow(m) == 0) return(NULL)
+    m$Team          <- team
+    m$reliable      <- if (length(rel_map)) isTRUE(unname(rel_map[team])) else TRUE
+    m$reconstructed <- reconstructed
+    m
+  }
+
+  rows <- list()
+  recon_games <- setNames(vector("list", length(RECON_TEAMS)), RECON_TEAMS)
+  for (sc in available_schools_for_sport(sport)) {
+    if (!school_in_saa(sc, season)) next   # skip departed schools this season
+    d <- tryCatch(load_pbp(season, sport = sport, school = sc),
+                  error = function(e) NULL)
+    if (is.null(d) || nrow(d) == 0) next
+    for (rt in RECON_TEAMS) {
+      g <- d[coalesce(d$homeTeam == rt, FALSE) | coalesce(d$awayTeam == rt, FALSE), , drop = FALSE]
+      if (nrow(g)) recon_games[[rt]] <- dplyr::bind_rows(recon_games[[rt]], g)
+    }
+    team <- unname(SCHOOL_CANON[sc]); if (is.na(team)) team <- own_team_name(d)
+    rows[[sc]] <- team_lineups(d, team, FALSE)
+  }
+  # Reconstructed (folderless) SAA members' lineups from their opponent games.
+  for (rt in RECON_TEAMS) {
+    if (!recon_member(rt, season)) next
+    g <- recon_games[[rt]]
+    if (is.null(g) || nrow(g) == 0) next
+    rows[[rt]] <- team_lineups(g, rt, TRUE)
+  }
+  out <- if (length(rows)) dplyr::bind_rows(rows) else NULL
+  assign(key, out, envir = .conf_lu_cache)
+  out
 }
 
 # Cache pre-warm — run BEFORE the server function starts. R blocks the
@@ -890,7 +1497,7 @@ load_pbp_cached <- function(season, sport = NULL) {
       decreasing = TRUE
     )
     for (season in seasons) {
-      key <- paste0(sport, "::", season)
+      key <- pbp_cache_key(sport, "centrecolonels", season)
       if (exists(key, envir = .pbp_cache)) next
       later::later(make_job(sport, season), delay)
       delay <- delay + 0.5
@@ -1235,6 +1842,64 @@ ui <- fluidPage(
         margin-bottom: 6px;
       }
 
+      /* ---------- Conference scatter hover tooltip ---------- */
+      .conf-tip {
+        position: absolute;
+        pointer-events: none;
+        z-index: 50;
+        background: var(--black);
+        color: #fff;
+        border-radius: 6px;
+        padding: 8px 11px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+        font-family: 'DM Sans', system-ui, sans-serif;
+        font-size: 12px;
+        min-width: 150px;
+      }
+      .conf-tip__team {
+        font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
+        font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px;
+        font-size: 15px; color: var(--gold); margin-bottom: 4px;
+      }
+      .conf-tip__row {
+        display: flex; justify-content: space-between; gap: 16px;
+        line-height: 1.5;
+      }
+      .conf-tip__row span { color: #c7ccd1; }
+
+      /* ---------- Conference-lineup headline ---------- */
+      .lu-headline { display: flex; flex-direction: column; gap: 14px; }
+      .lu-block { display: flex; flex-direction: column; gap: 4px; }
+      .lu-label {
+        font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
+        font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase;
+        font-size: 11px; color: var(--ink-2);
+      }
+      .lu-rank {
+        font-weight: 700; color: var(--ink);
+        background: var(--gold-soft); border-radius: 3px; padding: 0 6px;
+      }
+      .lu-team {
+        font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
+        font-weight: 700; font-size: 18px; letter-spacing: 0.4px; color: var(--ink);
+      }
+      .lu-team--centre { color: #b8860b; }
+      .lu-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+      .lu-metric {
+        font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
+        font-weight: 700; font-size: 14px; color: var(--black);
+        background: var(--gold); border-radius: 999px; padding: 2px 12px;
+        white-space: nowrap;
+      }
+      .lu-poss { font-size: 12px; color: var(--ink-2); white-space: nowrap; }
+      .lu-leader {
+        align-self: flex-start;
+        font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
+        font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+        font-size: 12px; color: #1C7C43;
+        background: #E7F4EA; border-radius: 999px; padding: 3px 12px;
+      }
+
       /* ---------- Data table ---------- */
       table.dataTable { font-size: 14.5px; font-family: 'DM Sans', sans-serif; }
       table.dataTable thead th {
@@ -1252,7 +1917,14 @@ ui <- fluidPage(
         border-bottom: 1px solid var(--line);
       }
       table.dataTable tbody tr:hover { background: var(--gold-soft) !important; }
-      table.dataTable tbody td { padding: 8px 9px; border-top: 1px solid var(--line) !important; }
+      table.dataTable tbody td {
+        padding: 8px 9px;
+        border-top: 1px solid var(--line) !important;
+        /* Ease the conditional-formatting tint/text colour in when the
+           table re-sorts or re-filters, so cells fade between states
+           instead of snapping. */
+        transition: background-color 0.18s ease, color 0.18s ease;
+      }
       /* numeric cells get tabular Barlow Condensed so columns line up */
       table.dataTable td.dt-right, table.dataTable td.dt-body-right {
         font-family: 'Barlow Condensed', monospace;
@@ -1475,6 +2147,92 @@ ui <- fluidPage(
         htmlOutput("gameFacts")
       ),
       tabsetPanel(
+        # Conference comparison — how every SAA team's season stacks up.
+        # Independent of the Team / Game(s) pickers: it always shows the
+        # whole conference for the selected sport + season.
+        tabPanel("Conference",
+                 div(style = "margin: 12px 0 6px 0;",
+                     radioGroupButtons(
+                       inputId  = "conf_scope",
+                       label    = "Games included:",
+                       choices  = c("All games" = "all",
+                                    "Conference games only" = "conf"),
+                       selected = "all",
+                       direction = "horizontal",
+                       individual = TRUE, size = "sm"
+                     ),
+                     radioGroupButtons(
+                       inputId = "conf_viz", label = "Chart type:",
+                       choices = c("Scatter" = "scatter", "Bar" = "bar"),
+                       selected = "scatter", direction = "horizontal",
+                       individual = TRUE, size = "sm"
+                     ),
+                     div(style = "display:flex; flex-wrap:wrap; gap:18px; align-items:flex-end;",
+                       div(pickerInput(
+                         inputId = "conf_x", label = "Scatter X axis",
+                         choices = CONF_METRIC_CHOICES, selected = "OFFRTG",
+                         width = "180px")),
+                       div(pickerInput(
+                         inputId = "conf_y", label = "Scatter Y axis",
+                         choices = CONF_METRIC_CHOICES, selected = "DEFRTG",
+                         width = "180px")),
+                       div(pickerInput(
+                         inputId = "conf_metric", label = "Bar / table metric",
+                         choices = CONF_METRIC_CHOICES, selected = "NETRTG",
+                         width = "220px"))
+                     )
+                 ),
+                 # Relative wrapper so the hover tooltip can be absolutely
+                 # positioned over the plot. The plot height is responsive
+                 # (60vh, clamped) so it grows/shrinks with the window.
+                 div(style = "position: relative;",
+                   plotOutput("conferencePlot",
+                              height = "60vh",
+                              hover = hoverOpts("conf_hover", delay = 60,
+                                                delayType = "debounce")),
+                   uiOutput("conf_hover_tip")
+                 ),
+                 div(style = "height: 10px;"),
+                 dataTableOutput("conferenceTable")
+        ),
+        # Conference lineups — compare Centre's five-man units against
+        # every other SAA team's lineups (their full season, not just the
+        # game vs Centre). Headline shows the conference's best lineup next
+        # to Centre's best; the team filter lets you drill into any club.
+        tabPanel("Conf Lineups",
+                 div(style = "margin: 12px 0 6px 0;",
+                     radioGroupButtons(
+                       inputId = "conf_lu_scope",
+                       label   = "Games included:",
+                       choices = c("All games" = "all",
+                                   "Conference games only" = "conf"),
+                       selected = "all", direction = "horizontal",
+                       individual = TRUE, size = "sm"
+                     ),
+                     div(style = "display:flex; flex-wrap:wrap; gap:18px; align-items:flex-end;",
+                       div(pickerInput(
+                         inputId = "conf_lu_team", label = "Show team",
+                         choices = "All teams", selected = "All teams",
+                         width = "190px")),
+                       div(radioGroupButtons(
+                         inputId = "conf_lu_metric", label = "Rank by:",
+                         choices = c("Net Rating"="NETRTG","Off Rating"="OFFRTG",
+                                     "Def Rating"="DEFRTG","Eff FG %"="EFG_PCT",
+                                     "Pts Scored"="pointsEarned"),
+                         selected = "NETRTG", direction = "horizontal",
+                         individual = TRUE, size = "sm")),
+                       div(numericInput(
+                         inputId = "conf_lu_minposs", label = "Min Poss / Side",
+                         value = 20, min = 1, max = 500, step = 1, width = "150px")),
+                       div(numericInput(
+                         inputId = "conf_lu_topn", label = "Rows",
+                         value = 25, min = 1, max = 200, step = 5, width = "110px"))
+                     )
+                 ),
+                 uiOutput("confLineupHeadline"),
+                 div(style = "height: 8px;"),
+                 dataTableOutput("conferenceLineups")
+        ),
         tabPanel("Player Tables",
                  dataTableOutput("lineupData"),
                  # Totals row — sums computed pointsEarned / pointsAgainst
@@ -1662,13 +2420,14 @@ server <- function(input, output, session) {
   # back to a previously-viewed selection is instant. For the first load
   # of a (sport, season) combo we show a progress indicator so the user
   # gets feedback instead of staring at empty dropdowns.
+  # Base data = Centre's folder for the selected sport/season. Drives the
+  # Team picker (lists Centre + every opponent Centre played).
   pbp_data <- reactive({
     req(input$seasonInput)
     sport <- current_sport()
     season <- input$seasonInput
-    key <- paste0(sport, "::", season)
+    key <- pbp_cache_key(sport, "centrecolonels", season)
     df <- if (exists(key, envir = .pbp_cache)) {
-      # Already cached — return instantly.
       get(key, envir = .pbp_cache)
     } else {
       withProgress(
@@ -1682,6 +2441,35 @@ server <- function(input, output, session) {
     }
     validate(need(!is.null(df) && nrow(df) > 0,
                   sprintf("No data found for %s season %s.", sport, season)))
+    df
+  })
+
+  # Team-aware data. When a non-Centre SAA team is selected, load THAT team's
+  # own folder so the Games picker and every tab reflect their full season —
+  # not just the one game they played against Centre. Centre and any non-SAA
+  # opponent (no folder of their own) fall back to Centre's data.
+  team_pbp_data <- reactive({
+    req(input$seasonInput, input$TeamInput)
+    sport  <- current_sport()
+    season <- input$seasonInput
+    team   <- input$TeamInput
+    folder <- if (team %in% names(TEAM_TO_FOLDER)) unname(TEAM_TO_FOLDER[[team]]) else NA
+    if (is.na(folder) || team == "Centre") return(pbp_data())
+
+    key <- pbp_cache_key(sport, folder, season)
+    df <- if (exists(key, envir = .pbp_cache)) {
+      get(key, envir = .pbp_cache)
+    } else {
+      withProgress(
+        message = sprintf("Loading %s · %s", team, season),
+        detail  = "reading their full-season play-by-play…",
+        value   = NULL,
+        load_pbp_cached(season, sport = sport, school = folder)
+      )
+    }
+    # Folder may not exist for this season (e.g. BSC after leaving the
+    # conference) — fall back to the vs-Centre games rather than erroring.
+    if (is.null(df) || nrow(df) == 0) return(pbp_data())
     df
   })
   
@@ -1708,12 +2496,12 @@ server <- function(input, output, session) {
 
   team_data <- reactive({
     req(input$TeamInput)
-    pbp_data() %>% filter(homeTeam == input$TeamInput | awayTeam == input$TeamInput)
+    team_pbp_data() %>% filter(homeTeam == input$TeamInput | awayTeam == input$TeamInput)
   })
 
   game_wanted <- reactive({
     req(input$det_game)
-    pbp_data() %>% filter(game %in% input$det_game)
+    team_pbp_data() %>% filter(game %in% input$det_game)
   })
 
   # Update game choices whenever the team selection OR the loaded data
@@ -1722,9 +2510,9 @@ server <- function(input, output, session) {
   # re-selects the same value ("Centre"), so input$TeamInput never
   # changes and a team-only observer would leave the games picker
   # holding the previous season's games (or nothing at all).
-  observeEvent(list(pbp_data(), input$TeamInput), {
+  observeEvent(list(team_pbp_data(), input$TeamInput), {
     req(input$TeamInput)
-    game_choices <- pbp_data() %>%
+    game_choices <- team_pbp_data() %>%
       filter(homeTeam == input$TeamInput | awayTeam == input$TeamInput) %>%
       pull(game) %>% unique()
     # Preserve any still-valid picks (no-op refires keep the selection);
@@ -1997,8 +2785,9 @@ server <- function(input, output, session) {
   }
 
   output$lineupData <- renderDataTable({
+    df <- lineupDataFiltered()
     datatable(
-      lineupDataFiltered(),
+      df,
       rownames   = FALSE,
       escape     = FALSE,
       extensions = "FixedColumns",
@@ -2011,7 +2800,7 @@ server <- function(input, output, session) {
         autoWidth       = FALSE,
         columnDefs      = lineup_column_defs(0)
       )
-    )
+    ) %>% add_conditional_formatting(df)
   })
   output$lineupDataTotals <- render_totals_ui(lineupDataFiltered)
 
@@ -2020,8 +2809,9 @@ server <- function(input, output, session) {
   # column on the left. The lineup-cell className adds the gold accent so
   # the pinned column is also the visual anchor of the row.
   output$lineupsInGameData <- renderDataTable({
+    df <- lineupsInGameFiltered()
     datatable(
-      lineupsInGameFiltered(),
+      df,
       rownames   = FALSE,
       escape     = FALSE,
       extensions = "FixedColumns",
@@ -2034,7 +2824,7 @@ server <- function(input, output, session) {
         autoWidth       = FALSE,
         columnDefs      = lineup_column_defs(0)
       )
-    )
+    ) %>% add_conditional_formatting(df)
   })
   output$lineupsInGameDataTotals <- render_totals_ui(lineupsInGameFiltered)
 
@@ -2144,7 +2934,7 @@ server <- function(input, output, session) {
         autoWidth       = FALSE,
         columnDefs      = lineup_column_defs(1)
       )
-    )
+    ) %>% add_conditional_formatting(df)
   })
 
   # Group Performance — auto-anchor view.
@@ -2270,7 +3060,7 @@ server <- function(input, output, session) {
         # render both as pill columns.
         columnDefs      = lineup_column_defs(c(1, 2))
       )
-    )
+    ) %>% add_conditional_formatting(df)
   })
 
   # Player Combination — per-lineup breakdown for each N-player subgroup.
@@ -2372,7 +3162,284 @@ server <- function(input, output, session) {
         # Group (col 1) is the player-list cell.
         columnDefs      = lineup_column_defs(1)
       )
-    )
+    ) %>% add_conditional_formatting(df)
+  })
+
+  # ---- Conference comparison ----------------------------------------------
+  # Whole-conference season table for the selected sport + season. Driven by
+  # the data (current_sport + season), not the Team/Game pickers, so it shows
+  # every SAA team regardless of which team the user is otherwise viewing.
+  conference_data <- reactive({
+    req(input$seasonInput)
+    sport <- current_sport()
+    conf_only <- identical(input$conf_scope, "conf")
+    key <- paste0(sport, "::", input$seasonInput, "::",
+                  if (conf_only) "conf" else "all")
+    if (exists(key, envir = .conf_cache)) {
+      compute_conference_table(sport, input$seasonInput, conf_only)
+    } else {
+      withProgress(
+        message = "Building conference comparison",
+        detail  = "aggregating every SAA team's season…",
+        value   = NULL,
+        compute_conference_table(sport, input$seasonInput, conf_only)
+      )
+    }
+  })
+
+  # Conference visualization — Goldsberry-style logo scatter (default), or a
+  # bar ranking. White-background Centre-themed panel with a bold black
+  # average crosshair on the scatter. Rendering lives in build_conference_plot().
+  output$conferencePlot <- renderPlot({
+    d <- conference_data()
+    validate(need(!is.null(d) && nrow(d) > 0,
+                  "No conference data for this sport / season yet."))
+    viz <- input$conf_viz %||% "scatter"
+    xm  <- input$conf_x %||% "OFFRTG"
+    ym  <- input$conf_y %||% "DEFRTG"
+    mm  <- input$conf_metric %||% "NETRTG"
+    p <- build_conference_plot(d, viz, xm, ym, mm)
+    validate(need(!is.null(p), "Not enough data to draw this chart."))
+    p
+  }, bg = "#FFFFFF", res = 96)
+
+  # Hover tooltip for the scatter — since the logos are static images, this is
+  # how you identify them (especially where logos overlap). Finds the nearest
+  # team to the cursor in normalized metric space and shows its name + the two
+  # plotted values in a small card that follows the mouse.
+  output$conf_hover_tip <- renderUI({
+    hv <- input$conf_hover
+    if (is.null(hv) || (input$conf_viz %||% "scatter") != "scatter") return(NULL)
+    d <- conference_data()
+    xm <- input$conf_x %||% "OFFRTG"; ym <- input$conf_y %||% "DEFRTG"
+    if (is.null(d) || nrow(d) == 0 || !all(c(xm, ym) %in% names(d))) return(NULL)
+    xr <- diff(range(d[[xm]], na.rm = TRUE)); yr <- diff(range(d[[ym]], na.rm = TRUE))
+    if (!is.finite(xr) || xr == 0) xr <- 1; if (!is.finite(yr) || yr == 0) yr <- 1
+    dist <- sqrt(((d[[xm]] - hv$x) / xr)^2 + ((d[[ym]] - hv$y) / yr)^2)
+    i <- which.min(dist)
+    if (length(i) == 0 || !is.finite(dist[i]) || dist[i] > 0.09) return(NULL)  # not over a logo
+    row <- d[i, ]
+    # Position the card next to the cursor (pixel coords within the plot div).
+    left <- round(hv$coords_css$x) + 14
+    top  <- round(hv$coords_css$y) + 8
+    div(class = "conf-tip",
+        style = sprintf("left:%dpx; top:%dpx;", left, top),
+        div(class = "conf-tip__team", row$Team),
+        div(class = "conf-tip__row",
+            tags$span(METRIC_LABEL[[xm]] %||% xm),
+            tags$b(formatC(row[[xm]], format = "f", digits = 1))),
+        div(class = "conf-tip__row",
+            tags$span(METRIC_LABEL[[ym]] %||% ym),
+            tags$b(formatC(row[[ym]], format = "f", digits = 1))),
+        div(class = "conf-tip__row",
+            tags$span("Record"),
+            tags$b(sprintf("%d-%d", row$Wins, row$Losses))))
+  })
+
+  # Ranked conference table with the same conditional-formatting heatmap as
+  # the lineup tables, plus a gold left-stripe on the Centre row.
+  output$conferenceTable <- renderDataTable({
+    d <- conference_data()
+    validate(need(!is.null(d) && nrow(d) > 0,
+                  "No conference data for this sport / season yet."))
+    metric <- input$conf_metric %||% "NETRTG"
+    ascending <- metric %in% c("DEFRTG", "TOV_PCT")
+    d <- if (ascending) d %>% arrange(.data[[metric]])
+         else            d %>% arrange(desc(.data[[metric]]))
+    d$Rank <- seq_len(nrow(d))
+
+    # Data-confidence badge: green check when the team's season totals
+    # reconcile to its box scores, amber warning (with the gap in the
+    # tooltip) when they don't. Built before column subsetting so we can
+    # read recon_gap / poss_skew, then rendered as HTML (escape = FALSE).
+    if (all(c("reliable", "recon_gap", "poss_skew") %in% names(d))) {
+      d$Data <- ifelse(
+        d$reliable,
+        "<span style='color:#1C7C43' title='Season totals reconcile to box scores'>&#10004;</span>",
+        sprintf(paste0("<span style='color:#B23A2E' ",
+                       "title='Off box score by %d pts; off/def possession skew %+d. ",
+                       "Rates may be slightly distorted.'>&#9888;</span>"),
+                d$recon_gap, d$poss_skew))
+    }
+
+    cols <- c("Rank", "Team", "Data", "Games", "Wins", "Losses",
+              CONF_RATE_COLS, "pointsEarned", "pointsAgainst")
+    cols <- intersect(cols, names(d))
+    d <- d[, cols]
+
+    centre_row <- which(d$Team == "Centre")
+    dt <- datatable(
+      d, rownames = FALSE, escape = FALSE,
+      extensions = "FixedColumns",
+      class = "stripe hover row-border",
+      options = list(
+        pageLength     = 12,
+        dom            = "t",
+        ordering       = TRUE,
+        scrollX        = TRUE,
+        scrollCollapse = TRUE,
+        fixedColumns   = list(leftColumns = 2),
+        autoWidth      = FALSE,
+        columnDefs     = list(
+          # Data badge (col index 2) centered; everything else right-aligned.
+          list(targets = if ("Data" %in% names(d)) 2 else integer(0),
+               className = "dt-center", orderable = FALSE),
+          list(targets = "_all", className = "dt-right")
+        )
+      )
+    ) %>% add_conditional_formatting(d)
+
+    # Gold left-stripe + bold on the Centre row so it's instantly findable.
+    if (length(centre_row) == 1) {
+      dt <- dt %>% formatStyle(
+        "Team", target = "row",
+        fontWeight = styleEqual("Centre", "700"),
+        backgroundColor = styleEqual("Centre", "#FFF8DD"),
+        boxShadow = styleEqual("Centre", "inset 4px 0 0 0 #FFCD00")
+      )
+    }
+    dt
+  })
+
+  # ---- Conference LINEUPS comparison ---------------------------------------
+  conf_lineups_all <- reactive({
+    req(input$seasonInput)
+    sport <- current_sport()
+    conf_only <- identical(input$conf_lu_scope, "conf")
+    key <- paste0(sport, "::", input$seasonInput, "::",
+                  if (conf_only) "conf" else "all")
+    if (exists(key, envir = .conf_lu_cache)) {
+      compute_conference_lineups(sport, input$seasonInput, conf_only)
+    } else {
+      withProgress(
+        message = "Building conference lineups",
+        detail  = "aggregating every team's five-man units…",
+        value   = NULL,
+        compute_conference_lineups(sport, input$seasonInput, conf_only)
+      )
+    }
+  })
+
+  # Keep the team filter populated with the teams actually present.
+  observeEvent(conf_lineups_all(), {
+    d <- conf_lineups_all()
+    teams <- if (is.null(d)) character(0) else sort(unique(d$Team))
+    sel <- if (!is.null(input$conf_lu_team) && input$conf_lu_team %in% c("All teams", teams))
+             input$conf_lu_team else "All teams"
+    updatePickerInput(session, "conf_lu_team",
+                      choices = c("All teams", teams), selected = sel)
+  }, ignoreNULL = FALSE)
+
+  # The filtered + ranked lineup set shared by the headline and the table.
+  conf_lineups_view <- reactive({
+    d <- conf_lineups_all()
+    if (is.null(d) || nrow(d) == 0) return(NULL)
+    mp <- if (is.null(input$conf_lu_minposs) || is.na(input$conf_lu_minposs)) 0
+          else input$conf_lu_minposs
+    metric <- input$conf_lu_metric %||% "NETRTG"
+    d <- d %>% filter(OFFPOSS >= mp, DEFPOSS >= mp,
+                      !is.na(.data[[metric]]), is.finite(.data[[metric]]))
+    if (nrow(d) == 0) return(d)
+    ascending <- metric %in% c("DEFRTG", "TOV_PCT")
+    if (ascending) d %>% arrange(.data[[metric]]) else d %>% arrange(desc(.data[[metric]]))
+  })
+
+  # Headline: conference's best lineup for the chosen metric vs Centre's best.
+  # Render a "lastname,first, lastname,first" lineup string as the same gold
+  # player pills used in the tables, so names stay recognizable in the
+  # headline (instead of a comma-stripped lowercase blob).
+  lineup_pills_html <- function(s) {
+    if (is.null(s) || is.na(s) || s == "") return("")
+    players <- strsplit(s, ", ", fixed = TRUE)[[1]]
+    paste0(sprintf("<span class='player-pill'>%s</span>", players), collapse = "")
+  }
+
+  output$confLineupHeadline <- renderUI({
+    d <- conf_lineups_view()
+    if (is.null(d) || nrow(d) == 0)
+      return(HTML("<em>No lineups meet the minimum-possessions filter for this metric.</em>"))
+    metric <- input$conf_lu_metric %||% "NETRTG"
+    mlab   <- METRIC_LABEL[[metric]] %||% metric
+
+    # One clean row: pills, then a metric badge, then the possession count.
+    row_html <- function(row) paste0(
+      "<div class='lu-row'>",
+      lineup_pills_html(row$CentreLineup),
+      sprintf("<span class='lu-metric'>%s %s</span>",
+              mlab, formatC(row[[metric]], format = "f", digits = 1)),
+      sprintf("<span class='lu-poss'>%d / %d poss</span>",
+              row$OFFPOSS, row$DEFPOSS),
+      "</div>")
+
+    best       <- d[1, ]
+    centre_idx <- which(d$Team == "Centre")
+    best_is_centre <- length(centre_idx) > 0 && centre_idx[1] == 1
+
+    parts <- paste0(
+      "<div class='card-soft lu-headline'>",
+      "<div class='lu-block'>",
+      "<div class='lu-label'>Best lineup in conference</div>",
+      sprintf("<div class='lu-team%s'>%s</div>",
+              if (best$Team == "Centre") " lu-team--centre" else "", best$Team),
+      row_html(best), "</div>")
+
+    if (!best_is_centre && length(centre_idx) > 0) {
+      cb <- d[centre_idx[1], ]
+      parts <- paste0(parts,
+        "<div class='lu-block'>",
+        sprintf("<div class='lu-label'>Centre's best &nbsp;<span class='lu-rank'>#%d of %d</span></div>",
+                centre_idx[1], nrow(d)),
+        row_html(cb), "</div>")
+    } else if (best_is_centre) {
+      parts <- paste0(parts,
+        "<div class='lu-leader'>Conference leader</div>")
+    }
+    HTML(paste0(parts, "</div>"))
+  })
+
+  output$conferenceLineups <- renderDataTable({
+    d <- conf_lineups_view()
+    validate(need(!is.null(d) && nrow(d) > 0,
+                  "No lineups meet the minimum-possessions filter for this metric."))
+    if (!is.null(input$conf_lu_team) && input$conf_lu_team != "All teams") {
+      d <- d %>% filter(Team == input$conf_lu_team)
+    }
+    topn <- if (is.null(input$conf_lu_topn) || is.na(input$conf_lu_topn)) 25
+            else max(1, as.integer(input$conf_lu_topn))
+    d <- head(d, topn)
+    d$Rank <- seq_len(nrow(d))
+    # Mark lineups from teams whose season data didn't fully reconcile.
+    d$Team <- ifelse(d$reliable, d$Team, paste0(d$Team, " *"))
+
+    cols <- c("Rank", "Team", "CentreLineup", CONF_RATE_COLS,
+              "OFFPOSS", "DEFPOSS", "pointsEarned", "pointsAgainst")
+    cols <- intersect(cols, names(d))
+    d <- d[, cols]
+    names(d)[names(d) == "CentreLineup"] <- "Lineup"
+
+    centre_rows <- grep("^Centre", d$Team)
+    dt <- datatable(
+      d, rownames = FALSE, escape = FALSE,
+      extensions = "FixedColumns",
+      class = "stripe hover row-border",
+      options = list(
+        pageLength = topn, dom = "t", ordering = TRUE,
+        scrollX = TRUE, scrollCollapse = TRUE,
+        fixedColumns = list(leftColumns = 3), autoWidth = FALSE,
+        columnDefs = lineup_column_defs(2)   # Lineup is column index 2
+      )
+    ) %>% add_conditional_formatting(d)
+
+    if (length(centre_rows)) {
+      dt <- dt %>% formatStyle(
+        "Team", target = "row",
+        backgroundColor = styleEqual(d$Team[centre_rows],
+                                     rep("#FFF8DD", length(centre_rows))),
+        boxShadow = styleEqual(d$Team[centre_rows],
+                               rep("inset 4px 0 0 0 #FFCD00", length(centre_rows)))
+      )
+    }
+    dt
   })
 
   # Game-facts panel — shows date / matchup / location / final score for
@@ -2494,6 +3561,8 @@ server <- function(input, output, session) {
                 "topFiveLineups",
                 "groupPerformanceData", "group_anchors_label",
                 "combinationData",
+                "conferencePlot", "conferenceTable", "conf_hover_tip",
+                "confLineupHeadline", "conferenceLineups",
                 "allAwayData", "allHomeData",
                 "gameFacts", "summary")) {
     outputOptions(output, oid, suspendWhenHidden = FALSE)
