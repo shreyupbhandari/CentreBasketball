@@ -11,13 +11,15 @@ import os
 import shutil
 import glob
 
-main_dir = '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/'
+# Config falls back to the manual defaults, but the daily GitHub Actions
+# workflow overrides main_dir / sports / schools / years via environment vars.
+main_dir = os.environ.get('PBP_ROOT', '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/')
 
 # These were the sports that have box scores on their schedule pages.
 # Not all sports would have them, such as track and field, cheer, etc.
-#sports = ['baseball', 'mens-basketball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis', 'womens-basketball', 
+#sports = ['baseball', 'mens-basketball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis', 'womens-basketball',
 #          'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-tennis', 'womens-volleyball']
-sports = ['baseball']
+sports = os.environ.get('SPORTS', 'baseball').split(',')
 
 
 multi_year_sports = ['mens-basketball', 'womens-basketball', 'mens-tennis', 'womens-tennis']
@@ -25,16 +27,12 @@ fall_sports = ['football', 'mens-soccer', 'field-hockey', 'womens-soccer', 'wome
 spring_sports = list(set(sports) - set(fall_sports) - set(multi_year_sports))
 
 #schools = ['berryvikings', 'bscsports', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers']
-#schools = ['hanover', 'mcscots']
-#schools = ['hscathletics', 'trinitytigers', 'southwesternpirates']
-#schools = ['berryvikings', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers']
-#schools = ['trinitytigers', 'southwesternpirates']
-schools = ['berryvikings', 'centrecolonels', 'gomajors', 'hendrixwarriors', 'rhodeslynx', 'sewaneetigers', 'trinitytigers', 'southwesternpirates' , 'gopetrels']
+schools = os.environ.get('SCHOOLS', 'berryvikings,centrecolonels,gomajors,hendrixwarriors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates,gopetrels').split(',')
 
 
 
-start_year = 2025 # fall of first year to pull data
-end_year = 2026 # fall of last year to pull data
+start_year = int(os.environ.get('START_YEAR', 2025)) # fall of first year to pull data
+end_year = int(os.environ.get('END_YEAR', 2026)) # fall of last year to pull data
 
 for school in schools:
     if school == 'hanover':
@@ -107,11 +105,17 @@ for school in schools:
             #     url = base_path + '/sports/' + str(sport) + '/' + str(year) + '-' + year_ext + '/schedule/' 
 
             print(url)
-            r = requests.get(url)
-
-            # Convert to a BS object
-            #soup = bs(r.content, features='lxml')
-            soup = bs(r.content, features='html.parser')
+            try:
+                r = requests.get(url, timeout=30, headers={'User-Agent': 'Mozilla/5.0 (research data collection)'})
+                r.raise_for_status()
+                soup = bs(r.content, features='html.parser')
+            except Exception as exc:
+                # A school with no schedule page (e.g. a program that has shut
+                # down) or a transient network error should not abort the run.
+                print('  skipping ' + url + ': ' + str(exc))
+                if sport not in spring_sports:
+                    year = year + 1
+                continue
 
             # Print out html
             # print(soup.prettify())

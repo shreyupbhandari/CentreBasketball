@@ -15,12 +15,11 @@ import math
 from pathlib import Path
 
 
-main_dir = '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/'
+# Config falls back to the manual defaults; the daily workflow overrides these.
+main_dir = os.environ.get('PBP_ROOT', '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/')
 #sports = ['baseball', 'mens-basketball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis', 'womens-basketball',
 #              'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-tennis', 'womens-volleyball']
-#sports = ['baseball', 'mens-basketball', 'mens-lacrosse', 'mens-soccer', 'womens-basketball',
-#          'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-volleyball']
-sports = ['mens-basketball']
+sports = os.environ.get('SPORTS', 'mens-basketball').split(',')
 
 outdoor_sports = ['baseball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis',
               'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-tennis']
@@ -29,25 +28,23 @@ fall_sports = ['football', 'mens-soccer', 'field-hockey', 'womens-soccer', 'wome
 spring_sports = list(set(sports) - set(fall_sports) - set(multi_year_sports))
 
 saa_teams = ['berry', 'birmingham-southern', 'centre', 'hendrix', 'millsaps', 'oglethorpe', 'rhodes', 'sewanee']
-#schools = ['berryvikings', 'bscsports', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers']
-#schools = ['hanover', 'mcscots']
-#schools = ['hscathletics', 'trinitytigers', 'southwesternpirates']
-schools = ['berryvikings', 'bscsports', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers', 'trinitytigers', 'southwesternpirates','gopetrels']
+schools = os.environ.get('SCHOOLS', 'berryvikings,bscsports,centrecolonels,hendrixwarriors,gomajors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates,gopetrels').split(',')
 
 
-start_year = 2024  # fall of first year to get header data
-end_year = 2025  # fall of last year to get header data
+start_year = int(os.environ.get('START_YEAR', 2024))  # fall of first year to get header data
+end_year = int(os.environ.get('END_YEAR', 2025))  # fall of last year to get header data
 
 
 def getTable(school, sport, year):
     SAA_dir = main_dir + sport + '/SAA/'
     if school in os.listdir(SAA_dir):
-        html_dir = main_dir + sport + '/SAA/' + school + '/html/' + year + '/'
+        # Folders on disk are `HTML` and `Tables` (capitals) — required on Linux CI.
+        html_dir = main_dir + sport + '/SAA/' + school + '/HTML/' + year + '/'
     else:
-        html_dir = main_dir + sport + '/Other/' + school + '/html/' + year + '/'
+        html_dir = main_dir + sport + '/Other/' + school + '/HTML/' + year + '/'
 
-    header_dir = html_dir.replace('html', 'headers')
-    table_dir = html_dir.replace('html', 'tables')
+    header_dir = html_dir.replace('HTML', 'headers')
+    table_dir = html_dir.replace('HTML', 'Tables')
 
     # if HTML directory exists for that year, create header directory if it doesn't already exist
     if os.path.exists(html_dir):

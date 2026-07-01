@@ -1674,8 +1674,9 @@ def makeHeaderPBP(sport, school, year_str):
     # Directory to the HTML folder of the current year
     html_dir = sport_root / 'SAA' / school / 'HTML' / year_str
     
-    # Directory to the Table folder of the current year
-    table_dir = sport_root / 'SAA' / school / 'tables' / year_str
+    # Directory to the Table folder of the current year (folder on disk is
+    # `Tables` with a capital T — matters on case-sensitive Linux CI runners)
+    table_dir = sport_root / 'SAA' / school / 'Tables' / year_str
     
     # Directory to the pbp folder of the current year
     pbp_dir = sport_root / 'SAA' / school / 'pbp' / year_str

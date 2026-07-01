@@ -18,10 +18,11 @@ import urllib
 from pathlib import Path
 
 
-main_dir = '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/'
+# Config falls back to the manual defaults; the daily workflow overrides these.
+main_dir = os.environ.get('PBP_ROOT', '/Users/jeff/Library/CloudStorage/OneDrive-CentreCollegeofKentucky/Research/Centre Sports Analytics/PBP Data/sports/')
 #sports = ['baseball', 'mens-basketball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis', 'womens-basketball',
 #              'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-tennis', 'womens-volleyball']
-sports = ['womens-basketball']
+sports = os.environ.get('SPORTS', 'womens-basketball').split(',')
 
 outdoor_sports = ['baseball', 'football', 'mens-lacrosse', 'mens-soccer', 'mens-tennis',
               'field-hockey', 'womens-lacrosse', 'womens-soccer', 'softball', 'womens-tennis']
@@ -30,16 +31,12 @@ fall_sports = ['football', 'mens-soccer', 'field-hockey', 'womens-soccer', 'wome
 spring_sports = list(set(sports) - set(fall_sports) - set(multi_year_sports))
 
 saa_teams = ['berry', 'birmingham-southern', 'centre', 'hendrix', 'millsaps', 'oglethorpe', 'rhodes', 'sewanee']
-schools = ['berryvikings', 'bscsports', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers','gopetrels']
-#schools = ['hanover', 'mcscots']
-#schools = ['hscathletics', 'trinitytigers', 'southwesternpirates']
-#schools = ['berryvikings', 'centrecolonels', 'hendrixwarriors', 'gomajors', 'rhodeslynx', 'sewaneetigers', 'trinitytigers', 'southwesternpirates']
-#schools = ['trinitytigers', 'southwesternpirates']
+schools = os.environ.get('SCHOOLS', 'berryvikings,bscsports,centrecolonels,hendrixwarriors,gomajors,rhodeslynx,sewaneetigers,gopetrels').split(',')
 
 
 
-start_year = 2010  # fall of first year to get header data
-end_year = 2021  # fall of last year to get header data
+start_year = int(os.environ.get('START_YEAR', 2010))  # fall of first year to get header data
+end_year = int(os.environ.get('END_YEAR', 2021))  # fall of last year to get header data
 
 
 def getBoxScore(html_file, sport):
@@ -377,11 +374,12 @@ def getBaseballStarters(boxscore_tab):
 
 def makeHeaders(main_dir, school, sport, year):
     if school in os.listdir(main_dir + sport + '/SAA/'):
-        html_dir = main_dir + sport + '/SAA/' + school + '/html/' + year + '/'
-        header_dir = html_dir.replace('html', 'headers')
-    else: 
-        html_dir = main_dir + sport + '/Other/' + school + '/html/' + year + '/'
-        header_dir = html_dir.replace('html', 'headers')
+        # Folder on disk is `HTML` (capital) — required for case-sensitive Linux CI.
+        html_dir = main_dir + sport + '/SAA/' + school + '/HTML/' + year + '/'
+        header_dir = html_dir.replace('HTML', 'headers')
+    else:
+        html_dir = main_dir + sport + '/Other/' + school + '/HTML/' + year + '/'
+        header_dir = html_dir.replace('HTML', 'headers')
 
     # create header directory if it doesn't already exist
     if os.path.exists(html_dir):
