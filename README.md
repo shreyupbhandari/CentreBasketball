@@ -1,105 +1,130 @@
 # Centre Basketball Lineup Analysis
 
-A pipeline that turns SAA Division III men's basketball play-by-play web
-pages into structured CSV and JSON files, and an R Shiny app that shows
-lineup efficiency stats on top of that data.
+This is my research project for looking at basketball lineups for Centre
+College and the other schools in our conference (the SAA). It has two
+parts. The first part is a Python program that reads play-by-play web
+pages and turns them into clean data files. The second part is an R Shiny
+app (a dashboard you open in your web browser) that uses those data files
+to show how different five-player lineups did.
 
-## What is in this folder
+I made it for both men's and women's basketball.
 
-```
-CentreBasketballLineupAnalysis/
-├── MAT405basketballResearch/   # the code
-│   ├── getbasketballclean.py   # main Python pipeline
-│   ├── html_parsers.py         # HTML parsing helpers
-│   └── cenrebasketball.R       # R Shiny app
-└── SAA/                        # the data, one folder per school
-    └── <school>/
-        ├── HTML/<season>/      # raw scraped game pages
-        ├── headers/<season>/   # box-score CSV per game
-        ├── tables/<season>/    # play-by-play CSV per game
-        └── pbp/<season>/       # final possession-tagged output
-```
+
+## What is in here
+
+There are two kinds of things in this folder: the code and the data.
+
+The code is in the `MAT405basketballResearch` folder:
+
+- `getbasketballclean.py` is the main Python program. It does most of the work.
+- `html_parsers.py` has helper functions that the main program uses to read
+  the web pages. You do not run this one by itself.
+- `cenrebasketball.R` is the dashboard.
+- `audit_scores.py` and `audit_loader.py` are checking tools. You only need
+  them if the numbers ever look wrong and you want to find out why. They are
+  explained near the bottom.
+
+The data is in two folders, one for each sport:
+
+- `mens-basketball`
+- `womens-basketball`
+
+Inside each of those there is a folder called `SAA`, and inside that there
+is one folder per school. The schools are Berry, Birmingham-Southern,
+Centre, Hendrix, Millsaps, Rhodes, Sewanee, Southwestern, and Trinity.
+Each school folder has the raw web pages and the finished data files,
+organized by season (like `2024-25`).
+
 
 ## What you need to install
 
-**Python 3.10 or newer:**
+You need Python (version 3.10 or newer) and R (version 4.0 or newer).
 
-```
-pip install pandas numpy beautifulsoup4 lxml
-```
+For Python, install these packages:
 
-**R 4.0 or newer:**
+    pip install pandas numpy beautifulsoup4 lxml
 
-```r
-install.packages(c("shiny", "shinythemes", "shinydashboard",
-                   "shinyWidgets", "DT", "ggplot2", "dplyr",
-                   "stringr", "readr", "htmlwidgets", "htmltools"))
-```
+For R, install these packages by opening R and running:
 
-## How to run the Python pipeline
+    install.packages(c("shiny", "shinythemes", "shinydashboard",
+                       "shinyWidgets", "DT", "ggplot2", "ggrepel",
+                       "dplyr", "stringr", "readr", "htmlwidgets",
+                       "htmltools", "data.table", "later", "png",
+                       "showtext", "sysfonts", "vctrs"))
 
-From this folder:
 
-```
-python3 MAT405basketballResearch/getbasketballclean.py
-```
+## One thing you have to change first
 
-It reads the HTML files in `SAA/<school>/HTML/<season>/`, parses them,
-tracks possession and lineups, and writes one CSV and one JSON per game
-to `SAA/<school>/pbp/<season>/`.
+The dashboard needs to know where this project lives on your computer.
+Open `cenrebasketball.R` and look near the top for a line that looks
+like this:
 
-To change which seasons get processed, edit the top of
-`getbasketballclean.py`:
+    project_root <- "/Users/shreyup/CentreBasketballLineupAnalysis"
 
-```python
-start_year = 2010
-end_year = 2023
-```
+Change the text in the quotes to the full path of this folder on your own
+computer. That is the only setting you have to change.
 
-A full run takes about 16 to 20 minutes and produces just over 2,000
-game files across all seven schools in modern computers.
 
-## How to run the R Shiny app
+## How to run the dashboard
 
-Open `MAT405basketballResearch/cenrebasketball.R` in RStudio and click
-"Run App," or from the R console:
+You usually do not need to run the Python program, because the data files
+are already made. Most of the time you just want the dashboard.
 
-```r
-shiny::runApp("MAT405basketballResearch/cenrebasketball.R")
-```
+Open `cenrebasketball.R` in RStudio and click the "Run App" button. Or,
+from the R console, run:
 
-Near the top of the file there is a variable that points at the season
-folder to load. Change it to whichever team and season you want:
+    shiny::runApp("MAT405basketballResearch/cenrebasketball.R")
 
-```r
-directory_path <- "/Users/.../SAA/centrecolonels/pbp/2023-24"
-```
+It opens in your web browser. At the top you pick the sport, the season,
+a team, and one or more games. Then you can look at the different tabs:
 
-Once the app opens in your browser, pick a team, a game, and one or
-more players. The app shows lineup efficiency tables and the raw
-play-by-play for the rows where those players were on the floor.
+- The lineup tabs show how each five-player group did (points scored,
+  points allowed, shooting, and so on).
+- The Conference tab compares whole teams across the league, with a chart
+  and a table.
+- The Conf Lineups tab compares Centre's best lineups against the best
+  lineups from the other schools.
 
-## What the output files contain
 
-Each game writes one CSV and one matching JSON to
-`SAA/<school>/pbp/<season>/`. The important columns are:
+## How to run the Python program (only if you need new data)
 
-- `homePlay`, `awayPlay`: raw play text
-- `Team`, `Player`, `playType`, `shotOutcome`, `pointsEarned`
-- `homePlayer1` through `homePlayer5`, `awayPlayer1` through `awayPlayer5`
-- `possStart`: 1 on the first row of a new possession
-- `possTeam`: team holding the ball
-- `possPoints`: points scored on that possession
-- `possSequence`: running possession number
-- `teamChanged`: 1 on the last row before possession switches
-- `secondsPerPoss`: possession duration in seconds
+You only need this if you add new games or want to remake the data files.
+From this folder, run:
 
-## What a successful run looks like
+    python3 MAT405basketballResearch/getbasketballclean.py
 
-- Exit code 0.
-- Three games print `Skipping empty game: ...` because their source HTML
-  pages have a box score but no play-by-play. This is a data problem on
-  the school's website, not a bug.
-- The console prints `0 should be 0` at the end of each game. It is a sanity check and not an error.
+It reads the web pages in each school's `HTML` folder, figures out the
+plays, the possessions, and which players were on the floor, and writes a
+finished CSV file for every game into the `pbp` folder.
 
-  Run the Python script first, then open the Shiny app.
+To change which years it processes, open `getbasketballclean.py` and edit
+these two lines near the top:
+
+    start_year = 2010
+    end_year = 2025
+
+A full run takes around 20 to 30 minutes and makes a few thousand game
+files. While it runs it prints some progress messages. A couple of games
+print a message saying they were skipped because their web page only had a
+box score and no play-by-play. That is a problem with the school's website,
+not a bug.
+
+
+## If the numbers ever look wrong
+
+If a game's points do not add up the way you expect, you can use the two
+audit scripts to find the problem.
+
+    python3 MAT405basketballResearch/audit_scores.py
+
+This one goes through every game, adds up the points from the play-by-play,
+and compares them to the final score from the box score. It tells you which
+games do not match and by how much.
+
+    python3 MAT405basketballResearch/audit_loader.py --school centrecolonels --season 2024-25
+
+This one checks the numbers the same way the dashboard does, for one team
+and season, so you can see if any points are getting lost in the dashboard.
+
+Most of the time everything matches. When it does not, it is usually an old
+season where the source web pages were missing some plays.

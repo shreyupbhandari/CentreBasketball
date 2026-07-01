@@ -21,24 +21,29 @@ logger = logging.getLogger(__name__)
 # Default data root is the repo root (one level above this file's folder).
 # If a given sport has its own subfolder (e.g. `<root>/mens-basketball/`),
 # we automatically use it; otherwise we write directly under `<root>/`.
-main_dir = str(Path(__file__).resolve().parents[1]) + os.sep
+main_dir = os.environ.get('PBP_ROOT') or (str(Path(__file__).resolve().parents[1]) + os.sep)
 
 def _sport_root(sport: str) -> Path:
     root = Path(main_dir)
     sport_dir = root / sport
     return sport_dir if sport and sport_dir.exists() else root
-sports = ['mens-basketball', 'womens-basketball']
+
+# Config can be overridden via environment variables (used by the daily
+# GitHub Actions workflow); otherwise it falls back to the full historical run.
+sports = os.environ.get('SPORTS', 'mens-basketball,womens-basketball').split(',')
 
 saa_teams = ['berry', 'birmingham-southern', 'centre', 'hendrix', 'millsaps',
              'oglethorpe', 'rhodes', 'sewanee', 'southwestern', 'trinity']
-schools = ['berryvikings', 'bscsports', 'centrecolonels', 'hendrixwarriors',
-           'gomajors', 'rhodeslynx', 'sewaneetigers',
-           'southwesternpirates', 'trinitytigers']
+schools = os.environ.get(
+    'SCHOOLS',
+    'berryvikings,bscsports,centrecolonels,hendrixwarriors,'
+    'gomajors,rhodeslynx,sewaneetigers,southwesternpirates,trinitytigers'
+).split(',')
 # Temporary variable; should loop through all schools
 ##schools = ['centrecolonels']
 
-start_year = 2010 # fall of first year to get header data
-end_year = 2025   # fall of last year to get header data (2025 -> 2025-26)
+start_year = int(os.environ.get('START_YEAR', 2010)) # fall of first year to get header data
+end_year = int(os.environ.get('END_YEAR', 2025))     # fall of last year to get header data (2025 -> 2025-26)
 
 # Player name corrections for scraping inconsistencies (scraped_name -> canonical_name)
 PLAYER_NAME_CORRECTIONS = {
@@ -48,33 +53,13 @@ PLAYER_NAME_CORRECTIONS = {
 # --------------------------------------------------------------------------
 # Phantom-row hygiene
 # --------------------------------------------------------------------------
-# College PBP scoreboards emit each period in two passes:
-#   1. The play-by-play itself — every row has a "MM:SS" clock value and
-#      represents an actual game event (shot, foul, sub, turnover, etc.).
-#   2. A box-score summary block tacked on at the end of each period — rows
-#      have no clock ("--" or blank) and exist to annotate rebounds and
-#      assists that were derived from the box score rather than from a
-#      timestamped play.
-#
-# Historically, this pipeline ran the entire possession-tracking sequence
-# (posschange -> assign_teams -> team_change_indicator -> calculate_possession_*)
-# over EVERY row, including the phantom summary block. That created a
-# second parallel possession sequence: phantom rows got their own possStart,
-# teamChanged, and running possPoints, doubling each real possession's
-# scoring contribution. Downstream code that summed possPoints on
-# teamChanged==1 rows inflated OFFRTG by ~2x (we saw OFFRTG values over 220
-# in seasons where the truth was ~110-120).
-#
-# Two fixes happen here:
-#   - _zero_phantom_possession_flags: after the existing flag columns are
-#     computed, zero possStart / teamChanged / possPoints on phantom rows
-#     so they no longer act as a duplicate sequence.
-#   - _reattribute_phantom_lineups: the lineup snapshot recorded for each
-#     phantom row was the END-OF-PERIOD lineup (since phantom rows come
-#     after every play). Walk the phantom rows and copy each one's lineup
-#     from the corresponding real row — assist phantoms pair with made
-#     shots, rebound phantoms pair with missed shots, in chronological
-#     order within the period.
+# Each period's data has two parts: the real play-by-play (every row has an
+# "MM:SS" clock) and a box-score summary block at the end (no clock) that
+# annotates rebounds and assists. The phantom summary rows must not be run
+# through possession tracking or they double-count scoring. Two helpers fix
+# this: _zero_phantom_possession_flags clears their possession flags, and
+# _reattribute_phantom_lineups copies each phantom row's lineup from the
+# matching real play.
 _CLOCK_RE = re.compile(r'^\d+:\d+$')
 
 def _is_real_play_clock(t):
@@ -84,20 +69,10 @@ def _is_real_play_clock(t):
     return bool(_CLOCK_RE.match(t.strip()))
 
 def _reorder_sub_blocks(df):
-    """Re-order consecutive SUB IN / SUB OUT events at the SAME clock so
-    every OUT comes before any IN within a (Period, timeRemaining) block.
-
-    Real-world failure mode: some Sidearm exports list the 3 substitutions
-    going IN before the 3 going OUT, all stamped with the same clock value.
-    The parser's lineup-state machine doesn't reorder, so it tries to add
-    the IN player while the lineup is still at 5, blowing past 5 slots and
-    blanking every subsequent row's snapshot. Seen in Centre vs Wilkes
-    2023-24 (203 rows broken from 15:41 of Period 1 onward).
-
-    The reorder is loss-less: within a single clock tick the rows happened
-    simultaneously, so swapping OUT-before-IN matches game logic. Rows
-    that aren't subs, or aren't in a same-clock sub block, are left
-    untouched.
+    """Within a same-clock block of subs, put every SUB OUT before every
+    SUB IN. Some feeds list the INs first, which would push the lineup past
+    5 players and blank the snapshot. Safe because the subs share a clock
+    tick (they happened simultaneously).
     """
     if 'Play' not in df.columns or 'timeRemaining' not in df.columns:
         return df
@@ -286,24 +261,11 @@ def _heal_lineups_from_play_stream(df, home_name, away_name,
                     n_healed += 1
             away_lineups[i] = base
 
-    # ---------- Pass 3: ROSTER-AWARE fallback ----------
-    # The two passes above can only find a missing 5th player when that
-    # player took an on-court action somewhere in the stretch. If they
-    # touched the ball zero times, the stretches stay at <5. The
-    # team-stats table on the box-score HTML page lists every player who
-    # played, with minutes played and a starter flag — ground truth for
-    # who was on the floor at all. We use this to identify the missing
-    # 5th by elimination.
-    #
-    # Algorithm: for each stretch with a stable 4-player snapshot:
-    #   1. Build the set of roster members not already in the snapshot.
-    #   2. Eliminate anyone subbed out during or before the stretch and
-    #      not subbed back in. Track sub events globally.
-    #   3. Among remaining candidates, pick the one with the most minutes
-    #      (most likely to be on the floor at any random moment).
-    # The pick is statistical, not certain — but it's strictly better
-    # than leaving an NA slot. Only fires when ROSTER data is available;
-    # silently skips if the parser couldn't extract it.
+    # ---------- Pass 3: roster-aware fallback ----------
+    # If a missing 5th player took no on-court action, Passes 1-2 can't find
+    # them. Use the box-score roster (who played, with minutes) to fill the
+    # gap: drop players subbed out, then pick the remaining roster member with
+    # the most minutes. A best guess, only used when roster data is available.
     def _roster_norms(roster):
         if not roster:
             return {}
@@ -316,11 +278,8 @@ def _heal_lineups_from_play_stream(df, home_name, away_name,
     def _apply_roster_fallback(lineups, side_team_lc, roster_idx, stretches):
         if not roster_idx:
             return 0
-        # Per stretch, count which roster members appear in any snapshot
-        # row of that stretch. If exactly one roster member is missing
-        # and the snapshot only has 4 distinct names, we can confidently
-        # fill in the 5th. If multiple candidates, pick the one with
-        # the highest minutes (most likely on floor for a random moment).
+        # For each stretch with only 4 names, fill the 5th from the roster
+        # (the highest-minutes candidate that wasn't subbed out).
         n_filled = 0
         # Group rows by stretch id.
         stretch_rows = {}
@@ -598,19 +557,10 @@ def _reattribute_phantom_lineups(df):
     shot_types = {'layup', 'jumper', 'three pointer', 'dunk',
                   'free throw', 'tipin', 'two pointer'}
 
-    # Track which real-shot rows have already been paired with a phantom
-    # so we don't double-count them. Pairing strategy:
-    #
-    # 1. **Immediate-prior pair** (preferred). Sidearm typically emits a
-    #    mid-period phantom row IMMEDIATELY after the play it annotates —
-    #    e.g. `GOOD 3PTR by RING,NOAH` at 14:56, then `--  ASSIST by
-    #    COLEMAN,HUNTER` on the next row. The right lineup for the phantom
-    #    is the previous real shot row's lineup. Walk backwards through
-    #    only the SAME period; stop at the first eligible real shot row.
-    #
-    # 2. **Chronological FIFO fallback**. End-of-period phantom rows have
-    #    no immediate-prior play; fall back to the original "next
-    #    unmatched real shot in same period" logic the old code used.
+    # Pair each phantom row with a real shot row to borrow its lineup, two
+    # ways: (1) the immediately preceding shot in the same period (the usual
+    # case), else (2) the next unmatched shot in the period (end-of-period
+    # phantoms). `used` stops a shot row being paired twice.
     used = set()
     # Build per-period chronological queue of real shot rows for the FIFO
     # fallback.
@@ -682,20 +632,10 @@ def _reattribute_phantom_lineups(df):
 # -----------------------------------------------------------------------
 # First-name recovery for jersey-corrupted player tables
 # -----------------------------------------------------------------------
-# Some game pages (e.g. the 2023-24 LaGrange box score) stored jersey
-# numbers in place of first names in the player-stats table — entries
-# like "scott,5", "cofield,4", "lyons,0". After parse_starters strips the
-# trailing jersey number we're left with last-name-only starter entries
-# ("scott", "cofield", "lyons"), which fail to match the full-name
-# references in actual plays ("scott,brodie", "cofield,gabe", "lyons,cam").
-# The sub-event matcher then fails on every substitution involving those
-# players, the lineup state drifts past 5, expandColumn() blanks every
-# subsequent row, and ~90% of the game's data is dropped downstream.
-#
-# Fix: before the main lineup-tracking loop runs, scan the play stream
-# to learn the full canonical name for each last name actually mentioned
-# in play strings. Then upgrade any last-name-only starter entry to the
-# full form so subsequent sub events find their target.
+# Some box scores store a jersey number where the first name should be, so
+# starters end up last-name-only ("scott") and don't match the full names in
+# the plays ("scott,brodie"). Before the lineup loop, scan the plays to learn
+# each last name's full form and upgrade the starter entries to match.
 _NAME_PLAY_TYPES = (
     'foul ', 'jumper', 'rebound', '3ptr', ' ft ', 'turnover',
     'timeout 30sec by ', '2ptr', 'steal', 'assist', 'layup',
@@ -1176,8 +1116,6 @@ def classification(playDescription, playData, points, teamName, a):
     quarter = []
     if a == True:
         pass  # early-year mode: offensive fouls are recorded as turnovers
-    #print(playData)
-    #print(playData[655], "AAA")
     for i in range(len(playData)):
         if playData[i-1] == 'free throw':
             if points[i-1] == 1:
@@ -1202,7 +1140,6 @@ def classification(playDescription, playData, points, teamName, a):
             d[i] = 'made shot'    
         elif playData[i] in shot and points[i] != 2 and points[i] != 3:
             if 'GOOD DUNK' in str(playDescription[i]):
-                #print(i, 'its working')
                 d[i] = 'made shot'
             else:
                 d[i] = 'missed shot'    
@@ -1231,7 +1168,6 @@ def classification(playDescription, playData, points, teamName, a):
             d[i] = 'timeout'
         elif playData[i] == 'foul':
             if 'TECH' in str(playDescription[i]):
-                #print(i, 'Tech')
                 d[i] = 'technical foul'
             else:
                 d[i] = 'foul'
@@ -1243,50 +1179,29 @@ def classification(playDescription, playData, points, teamName, a):
         
         else:
             #d[i] = 'start of quarter'
-            #print(i)
             count = count + 1
             quarter.append(i)
             if count == 1:
                 d[i] = 'start of quarter1'
-                #print(i, d[i])
             if count == 2:
                 d[i] = 'start of quarter2'
-                #print(i, d[i])
             if count == 3:
                 d[i] = 'start of quarter3'
-                #print(i, d[i])
             if count == 4:
                 d[i] = 'start of quarter4'
-                #print(i, d[i])
         for i in range(2, len(d)):
             try:
                 if d[i-2] == 'technical foul':
                     if d[i-1] == 'final free throw made':
-                        #print(i, 'technical free throw made')
                         d[i-1] = 'technical free throw made'
                     elif d[i-1] == 'free throw missed':
-                        #print(i, 'technical free throw missed')
                         d[i-1] ='technical free throw missed'
                     elif d[i] == 'final free throw made':
-                        #print(i, 'technical free throw made')
                         d[i] = 'technical free throw made'
                     elif d[i] == 'free throw missed':
-                        #print(i, 'technical free throw missed')
                         d[i] = 'technical free throw missed'
             except KeyError:
                 continue
-    
-                    
-    #print(count)
-    # print(d, len(d))
-    # print()
-    # print()
-    # #print(quarter)
-    # #print(len(d), len(playData))
-    # print(playData, len(playData))
-    # for key in range(len(d)):
-    #     if not key in d.keys():
-    #         d[key] = ""
     return d
 
 def getOfficialName(boxscore):
@@ -1437,7 +1352,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
                     d[i+1] = 'defensive foul'
                     if teamName[i] != teamName[i+1]:
                         d[i] = 'and one'
-                        #print(d[i], i, teamName[i], teamName[i+1])
                         if track == home_team_name:
                             p.append(track)
                         elif track == away_team_name:
@@ -1453,7 +1367,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
                     d[i+2] = 'defensive foul'
                     if teamName[i] != teamName[i+2]:
                         d[i] = 'and one'
-                        #print(d[i], i, teamName[i], teamName[i+1])
                         if track == home_team_name:
                             p.append(track)
                         elif track == away_team_name:
@@ -1513,7 +1426,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
             q3 = len(p) - 1
         elif d[i] == 'start of quarter4':
             _handle_quarter_start(i, q3)
-            #print(p[i], 7)
         elif d[i] in nochange:
             #if len(p)!= 0:
                 if track == home_team_name:
@@ -1565,7 +1477,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
                                 track = away_team_name
                                 p.append(track)
                             d[i] = 'offensive foul'
-                            #print(i, 'off foul')
                         else:
                             p.append(track)
         elif d[i] == 'technical foul':
@@ -1583,7 +1494,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
                     track = home_team_name ####
         
         elif d[i] in tagon:
-            #print("001", i, p)
             # Possession for assist/steal should match the previously appended possession.
             if len(p) > 0:
                 p.append(p[-1])
@@ -1596,16 +1506,6 @@ def possession_tracker(d, teamName, quarter, p, a, boxscore, home_team_name=None
                 logger.warning("Unhandled play type at index %d: %s", i, d[i])
             # Always append so p stays the same length as d.
             p.append(track if track is not None else home_team_name)
-        # if i < 20:
-        #     #print(d[i], p)
-    '''for i in range(0, len(p)-2):
-        if p[i] != p[i+1]:
-            print(i+2)'''
-    #print(p)
-    #print(len(p))
-    #print(p[q1], p[q2], p[q3], p[q4])
-    # return (d)
-    # return p
 
 def possession_points(points, poss, p, d, ppr, ppr2):
     '''Tally points per possession and assign possession sequence numbers.
@@ -1635,43 +1535,9 @@ def possession_points(points, poss, p, d, ppr, ppr2):
             poss.append(count)
             count = count + 1
             pe.append(points[i])
-    '''for i in range(0, len(p)-1):
-        if points[i] == 2 or points[i] == 3:
-            if p[i] == p[i-1]:
-                poss[i] = poss[i-1]
-            #elif p[i] != p[i-1]:
-                #poss[i] = poss[i] - 1
-        if d[i] == 'turnover':
-            if p[i] == p[i-1]:
-                poss[i] = poss[i-1]
-            #else:
-                #poss[i] = poss[i] - 1
-        if d[i] == 'assist':
-            poss[i] = poss[i-1]
-        if d[i] == 'final free throw made':
-            poss[i] = poss[i-1]
-            if i > 2:
-                if d[i-2] == 'and one':
-                    if p[i] == p[i-1]:
-                        poss[i-2] = poss[i-3]
-                        poss[i] = poss[i-1]
-                    elif p[i] != p[i-1]:
-                        poss[i] = poss[i] - 1
-                        poss[i-2] = poss[i-2] - 1'''
-    '''for i in range(0, len(p) - 1):
-        if d[i] == 'made shot':
-            if d[i] == d[i+1]:
-                poss[i+1] = poss[i] + 1'''
     for i in range(1, len(d)):
         if d[i] == 'start of quarter':
-            #print(i, start)
             poss[i] = poss[i] + 1
-    '''for i in range(0, len(p) - 1):
-        if d[i] == 'and one':
-            poss[i] = poss[i] + 1
-            poss[i+2] = poss[i+2] + 1
-            if d[i-1] == 'turnover':
-                poss[i] = poss[i] + 1   '''     
     for i in range(0, len(poss)):
         per[poss[i]] = 0
     for i in range(0, len(poss)):
@@ -1681,16 +1547,7 @@ def possession_points(points, poss, p, d, ppr, ppr2):
         elif d[i] == 'made shot' and points[i] == 0:
             per[poss[i]] += 2
             counter += 2
-        '''if points[i] == 2 or points[i] == 3:
-            per[int(poss[i])] = int(points[i])
-            for j in range(0, len(poss)):
-                if points[j] == 2 or points[i] == 3 or points[i] == 1 and poss[j] == poss[i] and i != j:
-                    per[int(poss[[i]])] += int(points[j])
-            #if d[i] == 'and one':
-                #per[poss[i]] = per[poss[i]] + 
-        else:
-            per[poss[i]] = 0'''
-            
+
     for i in range(0, len(poss)-1):
         #Designates which play is last in a possession
         if i != len(poss)-1:
@@ -1713,17 +1570,6 @@ def possession_points(points, poss, p, d, ppr, ppr2):
                 ppr.append(2)
             else:
                 ppr.append(points[i])
-       
-        '''if poss[i] == poss[len(poss)-1]:
-            print('hhhh')
-            if d[i+1] == 'made shot':
-                del ppr[-1]
-                ppr.append(per[poss[i]])
-            if d[i+1] == 'made shot':
-                del ppr[-1]
-                ppr.append(per[poss[i]])'''
-    #print(ppr)
-    #print(per)
     ppr.append(' ')
     ppr.append(' ')
     ppr2.append(per[poss[len(poss)-1]])
@@ -1732,12 +1578,6 @@ def possession_points(points, poss, p, d, ppr, ppr2):
         if ppr[i] == ' ':
             ppr[i] = 0
     print(ppr[len(ppr)-1], 'should be 0')
-    #print(sum(ppr), 'game sum')
-    #print(len(ppr))        
-    #print(counter)            
-    #print(per)
-    #print(poss[len(poss)-1], 'here')
-    #print(ppr2)
     if p[len(p)-2] == p[len(p)-1]:
         poss.append(poss[len(poss)-1])
     else:
@@ -1759,12 +1599,10 @@ def year_check(file_path):
     for element in ch:
         if element in file_path:
             early_year = True
-    #print(early_year)
     return early_year
 
 # No actual use for this function
 def plusminus(player, p, ppr, poss, players):
-    #print(p)
     plusminus = 0
     lineup = ["", "", "", "", ""]
     for i in range(0, len(players)):
@@ -1865,7 +1703,6 @@ def makeHeaderPBP(sport, school, year_str):
         except FileNotFoundError:
             logger.warning("Header file not found: %s", str(header_dir / header_file))
             continue
-        #print(header_data)
  
         html_file = str(html_dir / (header_file.split('_header')[0] + '.html'))
         try:
@@ -1913,15 +1750,8 @@ def makeHeaderPBP(sport, school, year_str):
         table_titles[6], table_titles[7] = "gameScore", "teamIndicator"
         s_away, s_home = "", ""
         for pos in range(1, len(table_data)):
-            '''
-            I had to split the code into multiple if statements
-            For the away and home side
-            
-            The away and home score don't have the same format
-            so an error might occur if i try to encompass everything in one boolean expression
-            Also, it will not look neat
-            
-            '''
+            # Away and home scores have different formats, so they're cleaned
+            # in separate if-blocks below.
             # For score with parenthesis on away side
             away_val = str(table_data[pos][2]).strip()
             if "(" in away_val:
@@ -1951,7 +1781,6 @@ def makeHeaderPBP(sport, school, year_str):
                 table_data[pos][2] = s_away
                 table_data[pos][4] = s_home
         
-        # print(table_data)
     
         #puts all titles into a combined list
         all_titles = header_titles
@@ -2033,27 +1862,10 @@ def makeHeaderPBP(sport, school, year_str):
         for data in df['Play']:
             data = data.lower()
 
-            # PERIOD BOUNDARY HEALING.
-            #
-            # Two-step repair at each period boundary:
-            #
-            # 1. Retroactively add to the previous-period lineup any
-            #    player whose SUB OUT appears in the period-start clock
-            #    block. Sidearm's convention at quarter boundaries (and
-            #    halftime in 2-half formats) is to emit SUB OUTs for
-            #    every player who finished the previous period but
-            #    doesn't return for the new one, followed by SUB INs for
-            #    every player who replaces them. A SUB OUT for a player
-            #    NOT in our parser-state means the parser missed them
-            #    earlier; they were on the floor at the end of the
-            #    previous period. Adding them now lets the upcoming SUB
-            #    OUT events succeed cleanly and keeps the lineup at 5.
-            #
-            # 2. If the lineup is STILL broken (fewer than 5 players)
-            #    after step 1 — e.g. the period boundary has no sub
-            #    events and we entered it with a broken state — fall
-            #    back to `_infer_period_starters` to derive 5 from
-            #    upcoming on-court actions.
+            # Period-boundary healing. At each new period: (1) a SUB OUT for
+            # a player not in our state means the parser missed them last
+            # period, so add them back; (2) if the lineup is still under 5,
+            # fall back to _infer_period_starters from upcoming actions.
             cur_period = df['Period'].iloc[i] if 'Period' in df.columns else None
             if prev_period is not None and cur_period is not None and cur_period != prev_period:
                 # Step 1: scan the period-start clock block for SUB OUTs
@@ -2364,21 +2176,9 @@ def makeHeaderPBP(sport, school, year_str):
                     Team.append(away_name)
                     
             elif 'sub' in data:
-                # Determine which side this sub event belongs to. The
-                # robust signal: the actor's team membership in the current
-                # lineup state. Old code used the homePlay/awayPlay
-                # heuristic which fails when the scraper crams both teams'
-                # subs into one column.
-                #
-                # NOTE: the old skip_line cascade is intentionally NOT used
-                # here. A sub event that doesn't apply (SUB IN of a player
-                # already in the lineup, SUB OUT of a player not in the
-                # lineup) is silently no-op'd rather than poisoning the
-                # NEXT sub. The previous behaviour set skip_line=1 and
-                # waited for any subsequent sub to absorb the skip — but
-                # if a non-sub event (foul, timeout, etc.) intervened, the
-                # skip persisted through to a later, unrelated sub and
-                # blanked the lineup state for the rest of the game.
+                # Apply this sub to the right side, using the player's current
+                # lineup membership. A sub that doesn't apply (in for someone
+                # already in, out for someone not in) is just skipped.
                 pn_norm = _normalize_player_key(player_name)
                 home_norms = {_normalize_player_key(x): x for x in home_lineup}
                 away_norms = {_normalize_player_key(x): x for x in away_lineup}
@@ -2499,7 +2299,6 @@ def makeHeaderPBP(sport, school, year_str):
                 if player_added == False:
                     player.append('')
             i+=1
-            #print(away_lineup)
             l_away_lineup.append(away_lineup.copy())
             l_home_lineup.append(home_lineup.copy())
             
@@ -2515,7 +2314,6 @@ def makeHeaderPBP(sport, school, year_str):
         df['playType'] = Type
         print("len of play type", len(Type))
         df['shotOutcome'] = Outcome
-        #print(Outcome, Team)
         df['Team']= Team
         df['Player'] = player
         df['pointsEarned'] = points
@@ -2584,7 +2382,6 @@ def makeHeaderPBP(sport, school, year_str):
             ppp_home.append(0)
         df['pppHome'] = ppp_home
         df['pppAway'] = ppp_away
-        #print(ppp_home)
         i_num, play_of_poss = 1, [1]
         for i in range(1, len(p_track_number)):
             if p_track_number[i] == i_num:
@@ -2686,7 +2483,6 @@ def main(schools, sports, start_year, end_year):
                 makeHeaderPBP(sport, school, year_str)
                 #possession(sport, school, year_str)
                 year += 1
-    #print(sports)
 
     
 if __name__ == "__main__":

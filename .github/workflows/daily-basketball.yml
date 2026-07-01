@@ -1,0 +1,74 @@
+name: Daily basketball scrape & analyze
+
+# Runs the full pipeline once a day:
+#   LinkGetter -> HTMLGetter -> HeaderGetter -> TableGetter -> getbasketballclean
+# then commits any new data back to the repo. Only NEW games are downloaded
+# (HTMLGetter skips games whose HTML already exists), and only the CURRENT
+# season is processed, so a typical run is a couple of minutes and stays well
+# inside the free Actions minutes.
+
+on:
+  schedule:
+    - cron: "30 9 * * *"      # 09:30 UTC daily (~04:30 US Eastern)
+  workflow_dispatch: {}        # adds a manual "Run workflow" button
+
+permissions:
+  contents: write              # lets the job push regenerated data back
+
+concurrency:
+  group: daily-basketball      # never let two runs overlap / race on git push
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest     # Linux = cheapest tier (1x)
+    env:
+      # main_dir for every script = the checked-out repo root (trailing slash).
+      PBP_ROOT: ${{ github.workspace }}/
+      SPORTS: mens-basketball,womens-basketball
+      SCHOOLS: berryvikings,bscsports,centrecolonels,hendrixwarriors,gomajors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute current basketball season (fall year)
+        run: |
+          MONTH=$((10#$(date -u +%m)))   # 10# forces base-10 (avoids octal on 08/09)
+          YEAR=$(date -u +%Y)
+          if [ "$MONTH" -ge 8 ]; then FALL=$YEAR; else FALL=$((YEAR-1)); fi
+          echo "START_YEAR=$FALL" >> "$GITHUB_ENV"
+          echo "END_YEAR=$FALL"   >> "$GITHUB_ENV"
+          echo "Processing season starting fall $FALL"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 1) Discover game links (re-scrapes schedule pages)
+        run: python3 "Scraping Files - Updated/LinkGetter.py"
+
+      - name: 2) Download NEW game HTML (skips games already on disk)
+        run: python3 "Scraping Files - Updated/HTMLGetter.py"
+
+      - name: 3) Build header CSVs
+        run: python3 "Scraping Files - Updated/HeaderGetter.py"
+
+      - name: 4) Build table CSVs
+        run: python3 "Scraping Files - Updated/TableGetter.py"
+
+      - name: 5) Parse play-by-play into pbp CSVs
+        run: python3 MAT405basketballResearch/getbasketballclean.py
+
+      - name: Commit new data (only if something changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No new games today — nothing to commit."
+          else
+            git commit -m "Automated daily basketball refresh ($(date -u +%F))"
+            git push
+          fi

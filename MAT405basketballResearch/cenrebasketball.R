@@ -15,12 +15,8 @@ library(readr)
 # Null-coalescing helper. Returns `b` if `a` is NULL.
 `%||%` <- function(a, b) if (is.null(a)) b else a
 
-# Vectorized lineup builder — given five name columns plus a side indicator,
-# returns a sorted "a, b, c, d, e" string per row, or NA_character_ when the
-# selected team isn't on that side. Handles 0-row inputs cleanly (apply on a
-# 0-row matrix used to break things).
-# Returns a (nrow x 5) character matrix with the selected team's lineup on
-# each row (NA rows where the selected team isn't on the floor).
+# Returns an (nrow x 5) matrix of the selected team's five players per row,
+# with NA on rows where the selected team isn't on the floor.
 team_lineup_matrix <- function(df, selected_team) {
   if (nrow(df) == 0) {
     return(matrix(character(0), ncol = 5))
@@ -55,39 +51,16 @@ available_teammates <- function(lineup_mat, picked) {
   sort(unique(stats::na.omit(as.vector(sub))))
 }
 
-# Per-lineup metric aggregator. Takes a play-by-play data frame that already
-# has a CentreLineup column (one canonical lineup string per row, NA on rows
-# where the selected team isn't on the floor) plus a selected team string,
-# and returns one row per distinct lineup with all the rate stats.
-#
-# Why a single helper: previously the Player-Tables tab and the Lineups-in-
-# Game tab each duplicated this mutate+group_by+summarise block, and they
-# drifted (different TIME_SEC formulas, different column subsets). The new
-# top-5 tab needs the same numbers as both. One function = one source of
-# truth.
-#
-# Metric definitions:
-#   OFFRTG     points / OFFPOSS * 100         (per 100 offensive possessions)
-#   DEFRTG     pointsAgainst / DEFPOSS * 100  (lower is better)
-#   NETRTG     OFFRTG - DEFRTG
-#   OREB_RATE  ORB / (ORB + opponent DRB) * 100        % of available oreb grabbed
-#   DREB_RATE  DRB / (DRB + opponent ORB) * 100        % of available dreb grabbed
-#   FG_PCT     FGM / FGA * 100                         field goal percentage
-#   FG3_PCT    3PM / 3PA * 100                         three-point percentage
-#   EFG_PCT    (FGM + 0.5*3PM) / FGA * 100             accounts for 3pt being worth more
-#   TOV_PCT    TOV / OFFPOSS * 100                     possession-based TOV% (lower is better)
-#   AST_TO     ASSISTS / TOV                           classic ratio
-#   AST_RATIO  ASSISTS / OFFPOSS * 100                 (kept for parity with old tab)
-#   PACE       TOTAL_POSS / 2 * 40 / (TIME_SEC/60)     possessions per 40 min (D3 game length)
-#   TIME_SEC   sum of secondsPerPoss on possStart rows (BOTH sides — was
-#              previously only summed on defensive possessions, which
-#              undercounted minutes by ~half).
-#   TIME_MIN   TIME_SEC / 60
+# Takes a play-by-play frame that already has a CentreLineup column (one
+# lineup string per row, NA when the selected team isn't on the floor) and
+# returns one row per distinct lineup with all the rate stats: OFFRTG and
+# DEFRTG (points per 100 possessions), NETRTG, rebound rates, shooting
+# percentages (FG/3PT/eFG), TOV%, assist ratio, pace, and minutes. Shared
+# by the Player Tables, Lineups-in-Game, and Top Lineups tabs.
 compute_lineup_metrics <- function(df, selected_team) {
   lt <- tolower(selected_team)
-  # NOTE: includes tipin and two pointer — both 2-point Sidearm play types
-  # that appeared in older feeds (pre-2014 and a handful of 2018-19 games).
-  # Excluding them silently dropped ~600 made shots across the dataset.
+  # tipin and "two pointer" are older Sidearm 2-point play types; leaving
+  # them out drops ~600 made shots across the dataset.
   shot_types <- c("layup", "jumper", "three pointer", "dunk", "tipin", "two pointer")
 
   df %>%
@@ -95,13 +68,9 @@ compute_lineup_metrics <- function(df, selected_team) {
       .is_team_poss = possTeam == lt,
       .is_opp_poss  = possTeam != lt,
       .is_team_act  = Team == lt,
-      # IMPORTANT: derive points directly from the play stream, not from
-      # the Python pipeline's possPoints + teamChanged running tally. That
-      # tally is systematically broken — when summed per game it matches
-      # the real final score in 0 out of 25 games (mean undercount ~48
-      # points). The play stream itself (playType + shotOutcome) matches
-      # the real score in 16 of 25 games. The remaining 9 games have
-      # upstream scraper data loss that no aggregation can fix.
+      # Points come from the play stream (playType + shotOutcome), not the
+      # pipeline's running possPoints tally, which doesn't sum to the final
+      # score reliably.
       .row_pts = case_when(
         is.na(shotOutcome) | shotOutcome != "good"                       ~ 0,
         playType == "three pointer"                                       ~ 3,
@@ -114,9 +83,8 @@ compute_lineup_metrics <- function(df, selected_team) {
                               .row_pts, 0),
       off_poss = if_else(.is_team_poss & possStart == 1, possStart, 0),
       def_poss = if_else(.is_opp_poss  & possStart == 1, possStart, 0),
-      # Time on court: clock delta derived in load_pbp(). Every row carries
-      # the time since the previous surviving row, so summing gives the
-      # lineup's full minutes-on-court regardless of which side had the ball.
+      # Time on court: per-row clock delta from load_pbp(); summing gives the
+      # lineup's minutes on the floor.
       time_sec_row = elapsed_sec,
       assists_row  = if_else(.is_team_poss, ASSIST, 0),
       oreb_row     = if_else(.is_team_poss, OREB,   0),
@@ -175,14 +143,8 @@ compute_lineup_metrics <- function(df, selected_team) {
     ))
 }
 
-# Expand a play-by-play frame with a CentreLineup column (5-man lineup
-# string per row) into a longer frame with one row per N-player SUBGROUP
-# of that lineup. Feeding the result into compute_lineup_metrics() then
-# yields one aggregated row per distinct N-player group, pooled across
-# every 5-man lineup that contained it.
-#
-# For N=3 each original row expands to C(5,3)=10 rows, each tagged with
-# one sorted 3-player subgroup string. Used by the Player Combination tab.
+# Expands each row into one row per N-player subgroup of its lineup (for
+# N=3, each row becomes C(5,3)=10 rows). Used by the Player Combination tab.
 expand_to_subgroups <- function(df, group_size) {
   if (nrow(df) == 0 || !"CentreLineup" %in% names(df)) {
     return(df[0, , drop = FALSE])
@@ -203,25 +165,12 @@ expand_to_subgroups <- function(df, group_size) {
   out
 }
 
-# Per (N-player subgroup x full 5-man lineup) aggregator that credits ACTION
-# stats only to the subgroup members — not to the rest of the lineup.
-#
-# For every play row, expand into all C(5, N) subgroups of the on-court
-# lineup, then for each (subgroup, lineup) pair:
-#   - ACTION stats (FG, 3PT, TOV, ASSISTS, OREB, DREB, points scored) count
-#     ONLY when the row's actor (Player column) is one of the N subgroup
-#     members — i.e. only what the subgroup itself did, not what their
-#     5-man-lineup teammates did.
-#   - LINEUP-LEVEL stats (possessions, time, opponent rebounds, opponent
-#     points) are NOT gated — the subgroup was on the floor for everything
-#     the lineup was on the floor for.
-#
-# Hybrid rates use the subgroup numerator over the lineup denominator:
-#   OFFRTG = subgroup points / lineup OFFPOSS * 100
-#          = "subgroup's points scored per 100 lineup-offensive-possessions"
-#   TOV_PCT, AST_RATIO, OREB_RATE, DREB_RATE follow the same pattern.
-# DEFRTG / pointsAgainst remain lineup-level (defense isn't cleanly
-# attributable to specific players in the source data).
+# Aggregates each N-player subgroup within each 5-man lineup. Action stats
+# (FG, 3PT, TOV, assists, rebounds, points) count only when the row's actor
+# is one of the subgroup members; lineup-level stats (possessions, time,
+# opponent points/rebounds) are credited to the whole time the subgroup was
+# on the floor. Rates use the subgroup numerator over the lineup denominator.
+# Used by the Player Combination tab.
 compute_subgroup_in_lineup_metrics <- function(df, selected_team, n) {
   lt <- tolower(selected_team)
   shot_types <- c("layup", "jumper", "three pointer", "dunk", "tipin", "two pointer")
@@ -229,14 +178,8 @@ compute_subgroup_in_lineup_metrics <- function(df, selected_team, n) {
   df <- df[!is.na(df$CentreLineup) & df$CentreLineup != "", , drop = FALSE]
   if (nrow(df) == 0) return(NULL)
 
-  # Build the (subgroup, row) expansion.
-  #
-  # PERFORMANCE: compute the C(5, n) subgroups once per UNIQUE lineup
-  # string (a few hundred per season), not once per row (tens of
-  # thousands). The old per-row loop also grew its accumulator with
-  # c(flat_combos, combos), which re-copies the whole list on every
-  # append — quadratic time. Together those made the Player Combination
-  # tab take ~9 s per recompute; this formulation runs in ~0.2 s.
+  # Compute the C(5, n) subgroups once per UNIQUE lineup string (a few
+  # hundred per season) rather than once per row, then map back to rows.
   lineup_levels <- unique(df$CentreLineup)
   combos_by_lineup <- lapply(
     strsplit(lineup_levels, ", ", fixed = TRUE),
@@ -255,11 +198,8 @@ compute_subgroup_in_lineup_metrics <- function(df, selected_team, n) {
   df_exp$Group  <- unlist(combos_by_lineup[lineup_idx], use.names = FALSE)
   df_exp$Lineup <- df_exp$CentreLineup
 
-  # The "is the row's actor a member of THIS subgroup?" flag, vectorized:
-  # the actor is a member iff ", <player>, " appears in the padded
-  # subgroup string. Names are full tokens between ", " separators, so
-  # padding both sides makes the match exact — "wahl,nolan" can't hit
-  # inside "wahl,nolanson".
+  # Is the row's actor in this subgroup? Pad both sides with ", " so the
+  # match is on whole name tokens, not substrings.
   df_exp$.in_sub <- !is.na(df_exp$Player) & df_exp$Player != "" &
     stringr::str_detect(paste0(", ", df_exp$Group, ", "),
                         stringr::fixed(paste0(", ", df_exp$Player, ", ")))
@@ -344,14 +284,9 @@ compute_subgroup_in_lineup_metrics <- function(df, selected_team, n) {
     ))
 }
 
-# Pool the per-(subgroup, lineup) output produced by
-# compute_subgroup_in_lineup_metrics() across every lineup each subgroup
-# appeared in, so there's ONE row per N-player group. Action stats are
-# still gated on subgroup membership (the per-lineup helper already did
-# that); we just sum the raw counts across lineups and re-derive the rate
-# stats from the totals. The result tells you the subgroup's overall
-# action footprint, with possessions and time aggregated to the subgroup's
-# total floor presence.
+# Pools compute_subgroup_in_lineup_metrics() across every lineup each subgroup
+# appeared in, giving one row per N-player group with its totals re-derived
+# into rate stats.
 compute_subgroup_pooled_metrics <- function(df, selected_team, n) {
   per_lineup <- compute_subgroup_in_lineup_metrics(df, selected_team, n)
   if (is.null(per_lineup) || nrow(per_lineup) == 0) return(NULL)
@@ -405,13 +340,10 @@ compute_subgroup_pooled_metrics <- function(df, selected_team, n) {
     ))
 }
 
-# DataTables column renderer that converts a "lastname,first, lastname,first"
-# lineup string into a row of pill-styled spans, one per player. Attached to
-# any column whose cells hold a comma-space-separated player list (Lineup,
-# Anchors, Others, Group). The pills give each name its own visual atom so
-# the column reads as five distinct people, not one comma-glued string.
-# `type !== 'display'` short-circuits during sort/filter so DataTables still
-# compares against the raw text.
+# DataTables renderer that splits a "lastname,first, lastname,first" lineup
+# string into one pill-styled span per player, so the column reads as five
+# distinct people. Only transforms the displayed value, not the sort/filter
+# value.
 player_pill_renderer <- htmlwidgets::JS(
   "function(data, type, row) {",
   "  if (type !== 'display' || data === null || data === '') return data;",
@@ -422,12 +354,9 @@ player_pill_renderer <- htmlwidgets::JS(
   "}"
 )
 
-# Standard column definitions for a lineup-style DataTable: pinned lineup
-# column(s) on the left with the gold-accent `lineup-cell` class plus the
-# player-pill JS renderer, and every other column right-aligned for clean
-# numeric scanning. `lineup_targets` is the 0-based index (or vector of
-# indices) of the player-list column(s) — e.g. 0 when CentreLineup is the
-# first column, c(1, 2) when Anchors and Others are the second and third.
+# Column definitions for a lineup-style DataTable: the player-list column(s)
+# at the 0-based `lineup_targets` get the gold lineup-cell class and the pill
+# renderer; every other column is right-aligned.
 lineup_column_defs <- function(lineup_targets) {
   c(
     lapply(lineup_targets, function(t) list(
@@ -440,25 +369,12 @@ lineup_column_defs <- function(lineup_targets) {
 }
 
 # ---------------------------------------------------------------------------
-# Conditional formatting (cell-background heatmap) for rate metrics.
-#
-# Each metric gets a three-band scale — POOR (soft red), AVERAGE (no fill),
-# GOOD (soft green) — split by two cutpoints. The cutpoints were chosen by
-# pooling EVERY meaningful Centre lineup (>= 20 possessions per side) across
-# all men's + women's seasons and reading the p25 / p75 of each metric, then
-# rounding to clean basketball-meaningful numbers. The data p50s matched
-# published D3 norms closely (eFG% median 50.0, TOV% 19.4, DREB% 73.3,
-# FG% 43.9, 3P% 35.7), so the bands double as "below average / average /
-# above average for a competitive D3 lineup".
-#
-# For "lower is better" metrics (DEFRTG, TOV_PCT) the scale is inverted so a
-# LOW value is green. NA/Inf cells (division by zero on tiny samples) get no
-# fill rather than being mis-colored as an extreme.
-# Elegant two-channel palette: a very soft tint PLUS a matching darker text
-# colour, so the strong cells read as refined coloured numbers rather than
-# heavy blocks. The average band gets no fill and inherits the normal text
-# colour, keeping wide tables clean. Tints are desaturated (Sheets/Linear
-# style) so they sit quietly under the gold-and-black brand chrome.
+# Conditional formatting (cell-background heatmap) for the rate-stat columns.
+# Each metric gets three bands — below average (soft red), average (no fill),
+# above average (soft green) — split by two cutpoints picked from the p25/p75
+# of all meaningful Centre lineups (>= 20 possessions/side). For "lower is
+# better" metrics (DEFRTG, TOV%) the scale is inverted. Each shaded cell gets
+# a soft background tint plus a matching darker text colour.
 .CF_GOOD_BG <- "'#E7F4EA'"   # whisper green
 .CF_POOR_BG <- "'#FBEBEC'"   # whisper red
 .CF_GOOD_TX <- "'#1C7C43'"   # deep green text
@@ -497,11 +413,8 @@ cf_expr <- function(c1, c2, lower_better, good, poor, mid) {
   DREB_RATE  = list(67,  80,  FALSE)
 )
 
-# Apply the heatmap to whichever .CF_SPECS columns exist in `df`. Each styled
-# column gets a soft background tint AND a matching darker text colour in a
-# single formatStyle pass, with a gentle CSS transition (see .dataTable td
-# rule) so re-sorts/filters feel smooth rather than snapping. Call right
-# before returning a datatable() from a renderer.
+# Apply the heatmap to whichever .CF_SPECS columns exist in `df`. Call on a
+# datatable() before returning it from a renderer.
 add_conditional_formatting <- function(dt, df) {
   cols <- names(df)
   for (m in names(.CF_SPECS)) {
@@ -517,11 +430,8 @@ add_conditional_formatting <- function(dt, df) {
   dt
 }
 
-# Row mask: TRUE where ALL of `players` are in the row's away lineup OR
-# all are in the row's home lineup. Vectorized replacement for the old
-# rowwise() + all() filter, which cost ~0.2 s per call on a full season;
-# this runs in a few ms. NA lineup slots simply never match (same
-# semantics as `p %in% c(...)` against an NA-containing vector).
+# TRUE on rows where ALL of `players` are in the away lineup, or all are in
+# the home lineup.
 rows_with_players <- function(df, players) {
   if (length(players) == 0) return(rep(TRUE, nrow(df)))
   away <- cbind(df$awayPlayer1, df$awayPlayer2, df$awayPlayer3,
@@ -542,9 +452,7 @@ build_lineup <- function(away_team, home_team, selected_team,
                          h1, h2, h3, h4, h5) {
   n <- length(away_team)
   if (n == 0) return(character(0))
-  # Sort + join once per UNIQUE 5-player combination, then map back to
-  # rows. A season has ~10k rows but only a few hundred distinct
-  # lineups, so this cuts the apply() work by ~30x (0.4 s -> ~0.01 s).
+  # Sort + join once per unique 5-player combination, then map back to rows.
   sort_join_unique <- function(mat) {
     key <- do.call(paste, c(as.data.frame(mat, stringsAsFactors = FALSE),
                             sep = "\x01"))
@@ -562,20 +470,10 @@ build_lineup <- function(away_team, home_team, selected_team,
 }
 
 
-# Conservative team-name normalizer.
-#
-# Source CSVs come from many different scoreboards/stats providers, each of
-# which spells Centre slightly differently: "Centre", "Centre College",
-# "Centre College (KY)", "#13 Centre", "Centre Men", "CENTRE_M", "CENTREM",
-# "CENTRE-M", "CENTREMB", "CENTRE~1", and lowercase versions of all of the
-# above. Left alone, this splits one team's stats across many keys.
-#
-# Strategy: do only generic, low-risk cleanups (rank prefix, parenthetical
-# state, gender code preceded by a separator, DOS 8.3 truncation, " Men"/
-# " Women" suffix, title-case single-case strings) — then fold the few
-# Centre-specific oddities via an explicit alias table. Anything we're
-# not certain about is LEFT ALONE, so two genuinely different schools
-# never get merged.
+# Cleans up team names that the source pages spell many ways (e.g. "Centre",
+# "Centre College (KY)", "#13 Centre", "CENTRE_M", "CENTRE~1"). Only does
+# generic, low-risk fixes plus a small alias table, so two genuinely
+# different schools are never merged.
 normalize_team <- function(x) {
   if (length(x) == 0) return(character(0))
   s <- as.character(x)
@@ -596,14 +494,8 @@ normalize_team <- function(x) {
   s[single_case] <- tools::toTitleCase(tolower(s[single_case]))
 
   s <- sub("\\s+(Men|Women)\\s*$", "", s, ignore.case = TRUE)
-  # Strip a trailing institution word so the same club spelled "Millsaps"
-  # and "Millsaps College" folds to one key. Without this, one Millsaps
-  # game (vs Tougaloo, 2024-25) tagged every possession "millsaps college",
-  # splitting it off from "millsaps" — which lost 54 points and skewed
-  # their offensive/defensive possession split by 141 in the conference
-  # table. Only strips when it's a trailing word, so "<X> College" -> "<X>"
-  # but a hyphenated/embedded use is left alone. Safe for SAA: none of the
-  # member schools' canonical short names need a College/University suffix.
+  # Strip a trailing "College"/"University" so "Millsaps" and "Millsaps
+  # College" fold to one key. (No SAA short name needs the suffix.)
   s <- sub("\\s+(College|University|Univ\\.?)\\s*$", "", s, ignore.case = TRUE)
   s <- trimws(s)
 
@@ -611,11 +503,7 @@ normalize_team <- function(x) {
   centre_aliases <- c("Centre College", "Centrem", "Centremb")
   s[s %in% centre_aliases] <- "Centre"
 
-  # SAA member aliases — fold known multi-spelling clubs to one canonical
-  # key so a team's own games don't split across variants (which silently
-  # mis-attributes that game's points/possessions in the conference table).
-  # Birmingham-Southern alone appears as four spellings in 2022-23 men's:
-  # "Birmingham-So.", "Birmingham Southern", "Birmingham-Southern", "BSC".
+  # Fold Birmingham-Southern's several spellings to one name.
   saa_aliases <- c(
     "Birmingham-So."      = "Birmingham-Southern",
     "Birmingham So."      = "Birmingham-Southern",
@@ -651,13 +539,9 @@ SCHOOL_CANON <- c(
 # Centre). Non-SAA opponents aren't here and fall back to Centre's folder.
 TEAM_TO_FOLDER <- setNames(names(SCHOOL_CANON), unname(SCHOOL_CANON))
 
-# SAA membership is season-dependent. A school's data folder may contain
-# seasons from AFTER it left the conference (e.g. Hendrix still has 2025-26
-# games, but those are SCAC games — Hendrix rejoined the SCAC after 2024-25).
-# Birmingham-Southern closed after 2023-24. The conference comparison only
-# includes a school for seasons up to and including its last SAA season, so
-# departed schools drop out of current views but remain in the historical
-# seasons when they really were members.
+# Last SAA season for schools that have left, so the conference comparison
+# only includes them through that season. Hendrix rejoined the SCAC after
+# 2024-25; Birmingham-Southern closed after 2023-24.
 SAA_LAST_SEASON <- c(
   hendrixwarriors = "2024-25",
   bscsports       = "2023-24"
@@ -667,12 +551,9 @@ school_in_saa <- function(school, season) {
   season <= SAA_LAST_SEASON[[school]]   # "2025-26" > "2024-25" lexically
 }
 
-# SAA members we have NO data folder for (never scraped — e.g. Oglethorpe).
-# We reconstruct their season from the games they played against the SAA
-# teams we DO have, so they still appear in the conference comparison. The
-# catch: that only covers CONFERENCE games (their non-conference games live
-# in their own un-scraped folder), so reconstructed teams are marked with a
-# dagger and excluded from "all games" being truly all-games.
+# SAA members with no data folder of their own (Oglethorpe). We rebuild their
+# season from the games they played against the schools we do have, so they
+# show up in the conference comparison (conference games only).
 RECON_TEAMS  <- c("Oglethorpe")
 RECON_FIRST  <- c(Oglethorpe = "2012-13")   # SAA play began 2012-13
 recon_member <- function(team, season) {
@@ -680,11 +561,9 @@ recon_member <- function(team, season) {
   is.null(f) || season >= f
 }
 
-# Shared metric vocabulary for the conference pickers, scatter axes, and
-# tables. CONF_METRIC_CHOICES drives the dropdowns (label -> code);
-# METRIC_LABEL is the reverse for pretty display; LOWER_BETTER lists the
-# metrics where a SMALLER number is better (so we sort ascending and flip
-# the scatter axis so "good" is always toward the top-right).
+# Metrics offered in the conference dropdowns (label -> code). METRIC_LABEL
+# is the reverse, for display. LOWER_BETTER lists metrics where a smaller
+# number is better.
 CONF_METRIC_CHOICES <- c(
   "Net Rating"       = "NETRTG",
   "Offensive Rating" = "OFFRTG",
@@ -703,9 +582,7 @@ CONF_METRIC_CHOICES <- c(
 METRIC_LABEL <- setNames(names(CONF_METRIC_CHOICES), unname(CONF_METRIC_CHOICES))
 LOWER_BETTER <- c("DEFRTG", "TOV_PCT")
 
-# The rich rate-stat column order shared by the conference team table and the
-# conference lineup table, so every conference view exposes the same metrics
-# (3PT %, eFG %, AST/TO, Pace, +/- …) that used to live only in Top Lineups.
+# Rate-stat column order shared by both conference tables.
 CONF_RATE_COLS <- c("OFFRTG", "DEFRTG", "NETRTG", "plus_minus",
                     "FG_PCT", "FG3_PCT", "EFG_PCT",
                     "AST_TO", "AST_RATIO", "TOV_PCT",
@@ -769,10 +646,9 @@ logo_chip_grob <- function(ras, centre = FALSE) {
                                         height = grid::unit(hf, "snpc")))
 }
 
-# Plot font = the dashboard's display face, Barlow Condensed, loaded into the
-# graphics device via showtext (it's a Google web-font, not a system font, so
-# the plot device can't see it otherwise). Falls back to a condensed/system
-# sans if showtext or the download isn't available.
+# Plot font: Barlow Condensed, loaded into the graphics device via showtext
+# (it's a Google web-font the device can't see otherwise). Falls back to a
+# system sans if showtext or the font download isn't available.
 .PLOT_FONT <- local({
   ok <- requireNamespace("showtext", quietly = TRUE) &&
         requireNamespace("sysfonts", quietly = TRUE)
@@ -827,14 +703,12 @@ build_conference_plot <- function(d, viz, xm, ym, metric) {
     avg_x <- mean(d$.x); avg_y <- mean(d$.y)
     xr <- diff(range(d$.x)); yr <- diff(range(d$.y))
     if (xr == 0) xr <- 1; if (yr == 0) yr <- 1
-    # Logo marker size as a fraction of each axis range. The panel is forced
-    # square (aspect.ratio = 1 below), so equal x/y fractions render as equal
-    # visual sizes and the markers stay round and stable on window resize.
+    # Logo marker size as a fraction of each axis range.
     dx <- 0.12 * xr; dy <- 0.12 * yr
 
-    # geom_blank trains the x/y scales on the true data points (the logos are
-    # annotation layers that DON'T train scales). No team-name labels — the
-    # logos identify the teams (Goldsberry style).
+    # geom_blank trains the x/y scales on the real data points; the logos are
+    # annotation layers that don't train scales. No team-name labels — the
+    # logos identify the teams, and hover shows the details.
     p <- ggplot(d, aes(.x, .y)) +
       geom_hline(yintercept = avg_y, colour = "#000000", linewidth = 1.1) +
       geom_vline(xintercept = avg_x, colour = "#000000", linewidth = 1.1) +
@@ -870,8 +744,6 @@ build_conference_plot <- function(d, viz, xm, ym, metric) {
   lab <- METRIC_LABEL[[mm]] %||% mm
   pad <- 0.14 * diff(range(d[[mm]])); if (!is.finite(pad) || pad == 0) pad <- 1
 
-  # Bar chart (the only non-scatter option). Same bold Barlow Condensed
-  # treatment as the scatter for the team names and value labels.
   ggplot(d, aes(Team, .data[[mm]], fill = is_centre)) +
     geom_col(width = 0.72) +
     geom_text(aes(label = formatC(.data[[mm]], format = "f", digits = 1)),
@@ -886,20 +758,12 @@ build_conference_plot <- function(d, viz, xm, ym, metric) {
                                      face = "bold", size = 15))
 }
 
-# Fold a school's OWN name variants to one canonical key inside its folder.
-#
-# Older Sidearm feeds spell a team's own name many ways across its season:
-# gender suffixes ("Hendrixm", "Rhodeswb", "Centrew"), mascots ("Tigers",
-# "Sewwomen"), truncations ("Millsa", "Sewane"), and "<X> Men's Basketball".
-# When a team's name varies, the rows from its variant-named games don't
-# match `Team == team`, so that game's points and possessions get counted
-# as the opponent's — silently losing offense and skewing the off/def
-# possession split (the conference audit found 60+ team-seasons like this,
-# the worst losing 1454 points). normalize_team() can't catch open-ended
-# variants, but inside a known school folder we can: a value is the school
-# if it covers many games (opponents appear in only 1-3) OR is prefix-
-# related to the canonical name. Cross-checked: folds every known variant
-# while leaving clean teams (and all opponents) untouched.
+# Inside one school's folder, fold that school's own name variants (gender
+# suffixes like "Hendrixm", mascots like "Tigers", truncations) to one
+# canonical name. If the name varies, the variant games' points/possessions
+# get mis-counted as the opponent's. A value is treated as the school if it
+# appears in many games (opponents appear in only 1-3) or is prefix-related
+# to the canonical name; opponents are left untouched.
 .prefix_related <- function(v, canon_lc) {
   k <- pmin(nchar(v), nchar(canon_lc))
   k >= 4 & substr(v, 1, k) == substr(canon_lc, 1, k)
@@ -930,17 +794,11 @@ canonicalize_school_team <- function(d, canonical) {
   d
 }
 
-# Sport toggle support. The project root contains one folder per sport
-# (mens-basketball / womens-basketball); each holds an SAA/<school>/pbp
-# tree with one folder per season. The seasons picker is rebuilt whenever
-# the sport changes — see seasons_root_for_sport() and load_pbp().
+# Full path to this project on disk. CHANGE THIS to wherever the project
+# lives on your computer.
 project_root <- "/Users/shreyup/CentreBasketballLineupAnalysis"
 
-# Per-sport season root. Falls back to the legacy (no-sport) layout when
-# the sport-specific directory isn't present, so a single-sport install
-# keeps working without changes. `school` defaults to Centre so every
-# existing call is unchanged; the conference-comparison feature passes
-# other SAA schools to pull their play-by-play.
+# Path to a school's season folder, e.g. .../mens-basketball/SAA/<school>/pbp.
 seasons_root_for_sport <- function(sport, school = "centrecolonels") {
   cand <- file.path(project_root, sport, "SAA", school, "pbp")
   if (dir.exists(cand)) return(cand)
@@ -980,18 +838,10 @@ sport_labels <- c(
   "womens-basketball" = "Women's Basketball"
 )
 
-# Derive a per-row "elapsed seconds since previous row" column from the
-# game clock (`timeRemaining` is "MM:SS" remaining in the current period).
-#
-# Why: `secondsPerPoss` in the source feed only fills in for ~half the
-# possessions, so summing it undercounts minutes-on-court by ~50% and
-# inflates PACE by a corresponding factor. The clock deltas cover every
-# row, summing to ~2400 sec per 40-min game.
-#
-# Approach: group by gameID + Period, parse the "MM:SS" string, forward-
-# fill missing clock values, and take (previous clock - this clock) as the
-# elapsed seconds attributed to *this* row. Sub rows (clock stopped) get
-# zero elapsed time, which is correct.
+# Adds an `elapsed_sec` column: the time since the previous row, from the
+# game clock (timeRemaining is "MM:SS"). Used instead of secondsPerPoss,
+# which is only filled in for about half the possessions. Works per
+# gameID + Period; rows with the clock stopped get zero.
 add_elapsed_seconds <- function(d) {
   if (!"timeRemaining" %in% names(d)) { d$elapsed_sec <- 0; return(d) }
 
@@ -1027,23 +877,17 @@ add_elapsed_seconds <- function(d) {
   d
 }
 
-# Loader for one season. Same cleanup pipeline as before; pulled into a
-# function so the season picker can re-run it on demand. Uses intersect()
-# when picking columns so older seasons with slightly different schemas
-# don't crash if a column is missing.
-#
-# Accepts an optional `sport` arg so the dashboard's sport toggle can
-# request mens-basketball or womens-basketball at runtime. Defaults to
-# whatever module-level `seasons_root` is set to (legacy behavior).
+# Reads and cleans one (sport, school, season) of play-by-play CSVs into a
+# single data frame. intersect() on column names keeps older seasons with
+# slightly different columns from crashing.
 load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
   base <- if (!is.null(sport)) seasons_root_for_sport(sport, school) else seasons_root
   dir <- file.path(base, season)
   files <- list.files(dir, pattern = "\\.csv$", full.names = TRUE)
   if (length(files) == 0) return(NULL)
 
-  # FAST CSV READ. read.csv on 200+ files takes 25-30 sec; readr::read_csv
-  # is ~10x faster (~2-3 sec) and data.table::fread is faster still. We
-  # prefer fread if available, fall back to readr, fall back to base R.
+  # Read the CSVs. data.table::fread is fastest; fall back to readr, then
+  # base read.csv.
   d <- if (requireNamespace("data.table", quietly = TRUE)) {
     data.table::rbindlist(
       lapply(files, function(f) data.table::fread(
@@ -1064,12 +908,8 @@ load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
   )
   d[num_cols] <- lapply(d[num_cols], as.numeric)
 
-  # Normalize team-name columns to a single canonical spelling.
-  # PERFORMANCE: normalize_team() runs per-element via sub() chains; calling
-  # it directly on a 12k-row Team/possTeam column burns ~3 sec per season.
-  # Each season has only ~10-20 unique values, so we cache the
-  # normalization on the unique set and map back. Drops load_pbp time from
-  # ~3.2s to ~0.3s on the biggest seasons.
+  # Normalize team names. Each season has only ~10-20 unique values, so
+  # normalize the unique set once and map back rather than per row.
   normalize_team_fast <- function(x, lower = FALSE) {
     if (length(x) == 0) return(character(0))
     u <- unique(x)
@@ -1084,11 +924,8 @@ load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
     d[[col]] <- normalize_team_fast(d[[col]], lower = TRUE)
   }
 
-  # Fold this school's own name variants to its canonical name. We know the
-  # club from the folder, so even open-ended spellings ("Centrew", "Rhodeswb",
-  # "Tigers") collapse to one key — without which that game's points and
-  # possessions get mis-credited to the opponent. No-op for clean teams and
-  # for unknown folders (canonical = NA). See canonicalize_school_team().
+  # Fold this school's own name variants to its canonical name (see
+  # canonicalize_school_team). No-op for clean teams and unknown folders.
   d <- canonicalize_school_team(d, unname(SCHOOL_CANON[school]))
 
   # Strip jersey tokens that some games prepend or append to player names
@@ -1103,23 +940,9 @@ load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
     x
   })
 
-  # Normalize "None" / "" lineup-slot placeholders to NA. We DO NOT drop
-  # these rows anymore. Previously load_pbp() filtered them out entirely,
-  # which silently removed every scoring play in any period where the
-  # parser's substitution tracker drifted (the lineup state goes to NA
-  # for the rest of the period). That undercounted the dashboard's score
-  # totals for ~10 Centre 2023-24 games by 1-84 points each (509 total) —
-  # even though the play stream itself is complete and the per-row Team /
-  # playType data is fine.
-  #
-  # New behaviour: keep the rows. They get an NA `CentreLineup` downstream
-  # so they don't pollute per-lineup aggregations, but they still count
-  # toward the game's total points (the "Game Facts" / "Totals" footer).
-  # The dashboard's `Lineups in Game` and `Player Tables` tabs naturally
-  # exclude NA-lineup rows because they group by CentreLineup; the
-  # difference between the per-lineup sum and the game total surfaces in
-  # the existing footer-diff line, where users were already trained to
-  # see it.
+  # Turn "None" / "" lineup-slot placeholders into NA. We keep these rows
+  # (they get an NA lineup downstream so they don't pollute per-lineup
+  # aggregations, but still count toward the game's total points).
   lineup_cols <- intersect(
     c(paste0("awayPlayer", 1:5), paste0("homePlayer", 1:5)),
     names(d)
@@ -1129,31 +952,10 @@ load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
       ifelse(x == "None" | x == "", NA_character_, x)
     })
   }
-  # playerMissing == 1 means the same thing (parser lost track of the
-  # on-court lineup) and the same logic applies — keep the row, let it
-  # land in the NA-CentreLineup bucket.
-
-  # Handle "phantom" rows — the box-score-summary block the Python
-  # scraper appends at the end of each period (rows with no game clock,
-  # i.e. "--" or empty). These rows hold the assist/rebound indicators
-  # but NOT timestamped plays.
-  #
-  # The OLD Python pipeline ran the possession tracker over phantom rows
-  # too, creating a duplicate possession sequence on top of the real plays.
-  # Summing possPoints on teamChanged==1 then over-counted by ~2x,
-  # producing OFFRTG values north of 200.
-  #
-  # The NEW Python pipeline (getbasketballclean.py with
-  # _zero_phantom_possession_flags + _reattribute_phantom_lineups) zeros
-  # possStart/teamChanged/possPoints on phantom rows AND copies each
-  # phantom assist/rebound row's lineup from the matching real play.
-  #
-  # Auto-detect which pipeline produced this CSV: if any phantom row
-  # still carries possStart==1 or teamChanged==1, we're looking at an
-  # OLD CSV and must drop the phantom rows to fix the ratings (cost:
-  # rebound/assist counts go to zero per lineup). If phantom rows are
-  # already clean (NEW CSV), keep them — they now carry correctly
-  # attributed assist/rebound indicators.
+  # "Phantom" rows are the end-of-period box-score summary block (no game
+  # clock). If they still carry possStart/teamChanged flags they're from an
+  # older pipeline run and would double-count possessions, so drop them;
+  # otherwise keep them (the current pipeline zeros their flags).
   if ("timeRemaining" %in% names(d) && nrow(d) > 0) {
     is_real <- grepl("^\\d+:\\d+$", d$timeRemaining)
     if (any(!is_real)) {
@@ -1168,46 +970,22 @@ load_pbp <- function(season, sport = NULL, school = "centrecolonels") {
         }
       }
       if (phantom_has_bad_flags) {
-        # OLD pipeline output — drop phantom rows so they can't inflate
-        # OFFRTG. Once the CSVs are regenerated with the new Python code,
-        # this branch is bypassed automatically.
         d <- d[is_real, , drop = FALSE]
       }
-      # else: NEW pipeline output — keep phantom rows; their flags are
-      # already zero and their lineups have been re-attributed.
     }
   }
 
-  # Repair the `Team` column for games where the Python parser mis-attributed
-  # every play to a single side. ~35 of the 2018-19 Sidearm games shipped HTML
-  # tables that crammed both teams' plays into one column; the parser's
-  # heuristic (`data == df['homePlay'][i]`) then always fell through to the
-  # else-branch and tagged every row with the away team. Audit signature:
-  # one distinct non-empty Team value per gameID, and the box-score score
-  # for the missing team is zero.
-  #
-  # The lineup snapshot columns (homePlayer1..5 / awayPlayer1..5) are still
-  # populated correctly because they come from the parser's substitution
-  # tracker, not the play-text heuristic. So we re-derive Team from
-  # Player ∈ which-lineup, per row.
   d <- repair_team_attribution(d)
 
-  # Add elapsed_sec from the game clock — see add_elapsed_seconds() comment
-  # for the rationale. Done AFTER row drops so each surviving row gets the
-  # full clock span since the previous surviving row.
+  # Per-row elapsed seconds from the game clock; done after row drops.
   d <- add_elapsed_seconds(d)
   d
 }
 
-# Re-derive the Team column for games where every play row was mis-attributed
-# to a single side (see comment in load_pbp). Detection: per-gameID, the set
-# of distinct non-NA Team values has size 1. Resolution: per row, look up
-# Player in the home / away lineup snapshot columns and assign Team from the
-# side it appears on. Rows where the player can't be located in either
-# lineup fall back to possTeam, and finally to the original (corrupted) value.
-#
-# Safe-by-default: only fires on games whose Team column is monotone. Good
-# games (the overwhelming majority) are untouched.
+# Some older games tag every play with one team (the parser couldn't split
+# the two sides). Detect that (one distinct Team value per game) and re-derive
+# Team per row from which lineup the Player appears in, falling back to
+# possTeam. Only touches games whose Team column is monotone.
 repair_team_attribution <- function(d) {
   needed <- c("Team", "Player", "homeTeam", "awayTeam", "gameID",
               paste0("homePlayer", 1:5), paste0("awayPlayer", 1:5))
@@ -1259,10 +1037,8 @@ repair_team_attribution <- function(d) {
   d
 }
 
-# Tiny per-process cache so flipping back to a season you've already viewed
-# is instant — the CSV parse happens once per (sport, school, season) per
-# process. Keyed by "<sport>::<school>::<season>" so men's/women's and the
-# different SAA team folders never collide.
+# Per-process cache of loaded seasons, keyed by sport::school::season, so
+# revisiting a season you've already loaded is instant.
 .pbp_cache <- new.env(parent = emptyenv())
 pbp_cache_key <- function(sport, school, season) {
   paste0(sport %||% "", "::", school, "::", season)
@@ -1276,19 +1052,13 @@ load_pbp_cached <- function(season, sport = NULL, school = "centrecolonels") {
 }
 
 # ===========================================================================
-# Conference comparison — season-level team metrics for every SAA school.
-#
-# Each school's pbp folder is self-contained (it holds that school's games,
-# home and away). We load each school's season, identify its own team (the
-# club present in essentially every game), and pool the whole play stream
-# into ONE group so compute_lineup_metrics() yields that team's season
-# totals — the exact same point/possession/shooting logic already validated
-# for lineups, just aggregated team-wide. Cross-checked: a team's pooled
-# pointsEarned/pointsAgainst match the sum of its box-score final scores.
+# Conference comparison — season-level team totals for every SAA school.
+# Each school's folder holds all of its own games, so we load a school's
+# season and pool the whole play stream into one group, giving that team's
+# season totals from the same logic used for lineups.
 # ===========================================================================
 
-# The school's own team name = the normalized club present in the most games
-# (it appears in every game while opponents vary).
+# The school's own team name: the club that appears in the most of its games.
 own_team_name <- function(d) {
   if (is.null(d) || nrow(d) == 0) return(NA_character_)
   tab <- sort(table(c(d$homeTeam, d$awayTeam)), decreasing = TRUE)
@@ -1322,12 +1092,9 @@ compute_team_season_metrics <- function(d, team, conf_only = FALSE) {
   m$Wins   <- sum(team_won, na.rm = TRUE)
   m$Losses <- m$Games - m$Wins
 
-  # DATA CONFIDENCE. finalScore is "AWAY-HOME". Sum the team's real points
-  # for/against across its games and compare to the play-stream totals; a
-  # large gap (or a big offensive/defensive possession imbalance) means the
-  # parser lost data somewhere in that team's folder, so its rates should
-  # be read with caution. These two signals caught the Millsaps name-split
-  # before it was fixed; they now surface any residual noise per team.
+  # Data confidence: compare the team's box-score points (finalScore is
+  # "AWAY-HOME") to the play-stream totals. A big points gap or off/def
+  # possession skew means the folder lost some data, so flag it.
   parts <- strsplit(gmeta$finalScore, "-")
   box_for <- 0L; box_against <- 0L
   for (i in seq_along(parts)) {
@@ -1347,9 +1114,8 @@ compute_team_season_metrics <- function(d, team, conf_only = FALSE) {
   m
 }
 
-# Build the full conference table for a (sport, season). One row per SAA
-# school that has data that season. Result is cached per
-# "sport::season::conf|all" so re-opening the tab is instant.
+# Full conference table for a (sport, season): one row per SAA school, cached
+# so re-opening the tab is instant.
 .conf_cache <- new.env(parent = emptyenv())
 compute_conference_table <- function(sport, season, conf_only = FALSE) {
   key <- paste0(sport, "::", season, "::", if (conf_only) "conf" else "all")
@@ -1396,13 +1162,8 @@ compute_conference_table <- function(sport, season, conf_only = FALSE) {
   out
 }
 
-# Every team's five-man lineups across the conference, for the lineup-vs-
-# lineup comparison. For each school we build that team's lineups (using its
-# canonical name) and run the SAME per-lineup aggregator the Centre tabs use,
-# then tag each row with the team. The full set is cached; the min-possession
-# filter is applied later in the renderer so the slider stays instant. A
-# `reliable` column is carried from the conference table so the UI can warn
-# when a team's season data didn't fully reconcile.
+# Every team's five-man lineups across the conference, tagged with the team.
+# Cached; the min-possession filter is applied later in the renderer.
 .conf_lu_cache <- new.env(parent = emptyenv())
 compute_conference_lineups <- function(sport, season, conf_only = FALSE) {
   key <- paste0(sport, "::", season, "::", if (conf_only) "conf" else "all")
@@ -1457,10 +1218,8 @@ compute_conference_lineups <- function(sport, season, conf_only = FALSE) {
   out
 }
 
-# Cache pre-warm — run BEFORE the server function starts. R blocks the
-# Shiny startup until this returns, so the first request the user makes
-# is already served from RAM and feels instant. We only pre-warm the
-# newest season of the default sport; everything else is loaded lazily.
+# Load the newest season of each sport into the cache before startup so the
+# first thing the user sees is instant.
 .prewarm_seasons <- function() {
   for (sport in available_sports) {
     root <- seasons_root_for_sport(sport)
@@ -1475,15 +1234,8 @@ compute_conference_lineups <- function(sport, season, conf_only = FALSE) {
 }
 .prewarm_seasons()
 
-# Background pre-warm of every REMAINING season. Each season now loads
-# in ~0.2 s (post fread + normalize_team_fast), so warming all ~30 of
-# them costs a few seconds of idle event-loop time and ~100 MB of RAM —
-# after which EVERY season pick and sport toggle is instant, no
-# progress bar. Scheduled via later::later() with staggered delays so
-# the callbacks run between user interactions instead of blocking
-# startup or any request; a season the user picks before its background
-# slot simply loads on demand (the cache check makes the background job
-# a no-op).
+# Load the remaining seasons in the background (via later::later) so every
+# later season pick is instant too, without blocking startup.
 .prewarm_rest_in_background <- function() {
   if (!requireNamespace("later", quietly = TRUE)) return(invisible())
   make_job <- function(sp, se) {
@@ -1507,35 +1259,21 @@ compute_conference_lineups <- function(sport, season, conf_only = FALSE) {
 .prewarm_rest_in_background()
 
 
-# CentreBasketballLogo.png is the wide horizontal lockup (758 x 359, ratio
-# ≈ 0.474). At ~140 px wide the eagle and "CENTRE BASKETBALL" wordmark
-# both read cleanly inside the black header band.
+# Header logo size (the wide CENTRE BASKETBALL lockup, 758 x 359).
 image_ratio <- 359/758
 image_width <- 140
 
 ui <- fluidPage(
 
   tags$head(
-    # Brand-aligned typography. Kapra Neue and Galaxie Copernicus are
-    # proprietary, so use the closest open-source analogues:
-    #   - DM Sans            ≈ Kapra Neue            (UI, body)
-    #   - Barlow Condensed   ≈ Kapra Neue Condensed  (display, headers, numbers)
-    #   - Source Serif 4     ≈ Galaxie Copernicus    (long-form, academic accent)
+    # Brand fonts: DM Sans for body, Barlow Condensed for headers/numbers.
     tags$link(rel = "stylesheet", href = "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"),
     tags$link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"),
     theme = shinytheme("sandstone"),
     tags$style(HTML("
-      /* ---------- Brand palette (Centre Brand Standards, Aug 2022) ----------
-         Primary:  Centre Gold #FFCD00, Black #000000, White #FFFFFF
-         Secondary accents we use sparingly:
-           #333F4C  deep slate   (PMS 432)
-           #115E67  teal         (PMS 209)
-           #A7BACB  light slate  (PMS 545)
-           #D9D9D6  warm gray    (PMS Cool Gray 1)
-         Brand rule: 'When using secondary colors, use more white space and
-         less black.' Most of the chrome is white-on-light-gray with gold
-         used as the single accent. Black is reserved for the header band,
-         table head, and active controls. ---------------------------------- */
+      /* Brand palette: Centre gold #FFCD00, black, white, with slate/teal
+         as secondary accents. Gold is the single accent; black is used for
+         the header band, table heads, and active controls. */
       :root {
         --gold:       #FFCD00;
         --gold-soft:  #FFF3B0;
@@ -1558,14 +1296,14 @@ ui <- fluidPage(
       }
       .container-fluid { max-width: 1480px; }
 
-      /* All-caps display labels (mimicking Kapra Neue Condensed) */
+      /* All-caps display labels (mimicking Kapra Neue Condensed for the Centre Branding) */
       .display, .display-num, .nav-tabs > li > a, table.dataTable thead th,
       .filter-item label, .card-soft__title, .app-header__title,
       .app-header__subtitle, .btn-group .btn, .reset-lineup-btn {
         font-family: 'Barlow Condensed', 'DM Sans', sans-serif;
       }
 
-      /* ---------- Header band ---------- */
+      /*Header band*/
       .app-header {
         background: var(--black);
         color: white;
@@ -1575,10 +1313,7 @@ ui <- fluidPage(
         align-items: center;
         gap: 14px;
       }
-      /* Let the logo size from its width/height attributes — the wide
-         horizontal lockup is ~2:1, so a fixed-height rule squishes the
-         wordmark. display:block removes the inline-img baseline gap so
-         the logo sits flush against the header band. */
+      /* Let the wide logo size itself; a fixed height would squish it. */
       .app-header__logo { display: block; height: auto; max-height: 72px; }
       .app-header__title {
         font-weight: 600;
@@ -1595,7 +1330,7 @@ ui <- fluidPage(
         text-transform: uppercase;
       }
 
-      /* ---------- Top filter bar ---------- */
+      /*Top filter bar*/
       .filter-bar {
         background: var(--panel);
         border: 1px solid var(--line);
@@ -1616,22 +1351,13 @@ ui <- fluidPage(
         color: var(--ink-2);
         margin-bottom: 6px;
       }
-      /* pickerInput / numericInput wrap their control in a Bootstrap
-         .form-group div with a 15px bottom margin. The bare program
-         toggle and the Reset button don't carry that wrapper, so without
-         this reset the picker rows sit ~15px lower than the toggle and
-         the button. Zero out the wrapper margin so every filter-item is
-         exactly the same height (label + 6px gap + 38px control). */
+      /* Zero the Bootstrap wrapper margin so every filter-item lines up. */
       .filter-item .form-group,
       .filter-item .shiny-input-container {
         margin-bottom: 0 !important;
       }
 
-      /* ---------- Program toggle — sliding pill, height-matched to pickers ----------
-         A 38px-tall track with a black slider pill that moves between the
-         two halves. The pill is a pseudo-element (::before) so clicks pass
-         through to the radio inputs on top. :has() detects which radio is
-         checked and translates the pill. Active text turns gold. */
+      /* Program (sport) toggle: a sliding black pill behind two radios. */
       .program-toggle {
         position: relative;
         display: block;
@@ -1721,7 +1447,7 @@ ui <- fluidPage(
       }
       .filter-item .program-toggle { margin-top: 0; }
 
-      /* ---------- Inputs ---------- */
+      /* Inputs */
       .selectize-input, .selectize-input.focus {
         background: var(--panel) !important;
         color: var(--ink) !important;
@@ -1770,7 +1496,7 @@ ui <- fluidPage(
         box-shadow: 0 0 0 2px var(--gold-line) !important; outline: none;
       }
 
-      /* ---------- Reset button — gold pill ---------- */
+      /* Reset button — gold pill  */
       .reset-lineup-btn {
         background: var(--gold) !important;
         color: var(--black) !important;
@@ -1787,7 +1513,7 @@ ui <- fluidPage(
       .reset-lineup-btn:hover { background: #E6B800 !important; }
       .reset-lineup-btn:active { transform: translateY(1px); }
 
-      /* ---------- Tab navigation ---------- */
+      /* Tab navigation */
       .nav-tabs {
         border-bottom: none;
         background: var(--panel);
@@ -1824,7 +1550,7 @@ ui <- fluidPage(
       .tab-content > .tab-pane { animation: fadein 0.18s ease-out; }
       @keyframes fadein { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: translateY(0); } }
 
-      /* ---------- Game Facts card ---------- */
+      /* Game Facts card  */
       .card-soft {
         background: var(--panel);
         border: 1px solid var(--line);
@@ -1842,7 +1568,7 @@ ui <- fluidPage(
         margin-bottom: 6px;
       }
 
-      /* ---------- Conference scatter hover tooltip ---------- */
+      /* Conference scatter hover tooltip */
       .conf-tip {
         position: absolute;
         pointer-events: none;
@@ -1867,7 +1593,7 @@ ui <- fluidPage(
       }
       .conf-tip__row span { color: #c7ccd1; }
 
-      /* ---------- Conference-lineup headline ---------- */
+      /* Conference-lineup headline */
       .lu-headline { display: flex; flex-direction: column; gap: 14px; }
       .lu-block { display: flex; flex-direction: column; gap: 4px; }
       .lu-label {
@@ -1932,37 +1658,21 @@ ui <- fluidPage(
         font-weight: 500;
       }
 
-      /* ---------- Lineup column accent ----------
-         Used by the Lineups-in-Game table (and any other table that opts in
-         via the `lineup-cell` className on the CentreLineup column). The
-         column is the visual anchor of the table — gold left-stripe, soft
-         gold background, bolder display typography — so the eye returns to
-         the lineup identity no matter how far the user has scrolled. */
-      /* Default state: lineup column is type-only — Barlow Condensed bold
-         + room to wrap the capsules. NO gold background, NO accent stripe.
-         The visual highlight (gold wash + left stripe) only fires when
-         the row is hovered, so the column reads as quiet most of the
-         time and pops on intent. */
+      /* Lineup column (the pinned CentreLineup column). The gold-wash
+         highlight only fires on row hover; the column wraps its player
+         capsules onto multiple lines instead of stretching out. */
       table.dataTable td.lineup-cell {
         font-family: 'Barlow Condensed', 'DM Sans', sans-serif !important;
         font-weight: 600 !important;
         letter-spacing: 0.5px;
         color: var(--ink) !important;
-        /* Generous min-width so the row of player capsules has enough
-           breathing room — but no nowrap, so when the lineup has 5
-           players the capsules wrap onto a second/third line instead of
-           ballooning the column out to the entire viewport. */
         min-width: 240px;
         max-width: 320px;
         vertical-align: middle;
         white-space: normal;
         padding: 6px 8px !important;
       }
-      /* Header cell — explicit black/gold paint. Required because the
-         FixedColumns extension clones the pinned column into a separate
-         DTFC_LeftHeadWrapper that ships with a white background;
-         without these !important overrides the cloned header reads as a
-         white square next to the rest of the black header band. */
+      /* Explicit black/gold so the FixedColumns header clone isn't white. */
       table.dataTable thead th.lineup-cell {
         background: var(--black) !important;
         color: var(--gold) !important;
@@ -1976,16 +1686,7 @@ ui <- fluidPage(
         box-shadow: inset 4px 0 0 0 var(--gold);
       }
 
-      /* ---------- Player capsules ----------
-         Each player in a lineup cell is wrapped in a player-pill span by
-         the column JS renderer. The pills mark each name as its own
-         atomic unit — coaches can scan a lineup as five distinct people
-         instead of one comma-glued string. White fill with a gold ring
-         sits well against the gold-soft lineup-cell background. */
-      /* Default state: white chip ringed in Centre gold with black
-         wordmark — high-contrast black-on-white type sits inside a gold
-         capsule outline. Hover flips to gold fill (still black text) so
-         the specific name being pointed at lights up. */
+      /* Player capsules: one pill per name , so a lineup reads as five distinct people. Hover fills gold. */
       .player-pill {
         display: inline-block;
         background: #FFFFFF;
@@ -2003,19 +1704,13 @@ ui <- fluidPage(
         line-height: 1.35;
         transition: border-color 0.12s, background 0.12s, color 0.12s;
       }
-      /* Per-pill hover — fill with gold (text stays black for contrast)
-         so the specific name pops against the row of white capsules. */
       .player-pill:hover {
         background: var(--gold);
         color: var(--black);
         border-color: var(--gold);
       }
 
-      /* ---------- Horizontal-scroll wrapper + FixedColumns ----------
-         When `scrollX = TRUE` is set, DataTables wraps the table in a
-         dts_scroll layout. We need to make sure the wrapper actually shows
-         a scrollbar (default is suppressed on Safari) and that the cloned
-         FixedColumns layer doesn't lose the lineup-cell accent. */
+      /* Horizontal scroll wrapper and pinned-column scrollbar styling.*/
       .dataTables_scrollBody { overflow-x: auto !important; }
       .dataTables_scrollBody::-webkit-scrollbar { height: 10px; }
       .dataTables_scrollBody::-webkit-scrollbar-thumb {
@@ -2025,9 +1720,7 @@ ui <- fluidPage(
       .dataTables_scrollBody::-webkit-scrollbar-track {
         background: var(--line);
       }
-      /* FixedColumns clones the frozen column into a separate layer. Lift
-         it with a soft shadow so the pinned column reads as floating over
-         the horizontally-scrolling area. */
+      /* Soft shadow so the pinned column floats over the scroll area. */
       .DTFC_LeftWrapper, .DTFC_LeftBodyWrapper, .DTFC_LeftHeadWrapper {
         box-shadow: 4px 0 8px rgba(0,0,0,0.08);
       }
@@ -2288,12 +1981,9 @@ ui <- fluidPage(
                  ),
                  dataTableOutput("topFiveLineups")
         ),
-        # "Group Performance" — auto-anchor view. The system picks the 3
-        # most-played players in the selected games as anchors, then
-        # surfaces every 5-man lineup containing them with the 2 varying
-        # slots broken out in the "Others" column. No manual picker
-        # selection required; coach gets the comparison directly from
-        # team-level data.
+        # Group Performance: auto-picks the 3 most-played players as anchors
+        # and lists every lineup containing them, with the 2 varying slots
+        # in an "Others" column.
         tabPanel("Group Performance",
                  div(style = "margin: 12px 0 6px 0;",
                      tags$p(style = "color: #444; margin: 0 0 8px 0;",
@@ -2331,14 +2021,9 @@ ui <- fluidPage(
                  ),
                  dataTableOutput("groupPerformanceData")
         ),
-        # "Player Combination" — N-player subgroup leaderboard.
-        #
-        # The user picks N (1-4) from the dropdown; the table lists every
-        # distinct N-player combination that has actually played together
-        # on the selected team in the selected games, with metrics POOLED
-        # across every 5-man lineup that contained that group. No need to
-        # pick individual players — the tab enumerates the universe of
-        # observed N-groups and sorts them by the chosen metric.
+        # Player Combination: pick a group size N (1-4); the table lists
+        # every N-player combination that has played together, with metrics
+        # pooled across the lineups that contained it.
         tabPanel("Player Combination",
                  div(style = "margin: 12px 0 6px 0;",
                      tags$p(style = "color: #444; margin: 0 0 8px 0;",
@@ -2394,16 +2079,8 @@ server <- function(input, output, session) {
     if (is.null(s) || !nzchar(s)) available_sports[1] else s
   })
 
-  # Refresh the season picker when the sport changes. The seasons
-  # available under mens-basketball and womens-basketball can differ
-  # (e.g. women's coverage may start in a different year).
-  # NOTE: this observer ONLY touches the season picker. It must NOT
-  # clear the downstream pickers — the downstream observers below are
-  # driven by pbp_data() invalidation and repopulate everything
-  # themselves. Racing a "clear" message against their repopulate
-  # message (both land in the same flush) sometimes applied the clear
-  # LAST, leaving the Team/Games pickers frozen empty until the user
-  # manually toggled season and team.
+  # Refresh the season picker when the sport changes. Only touches the season
+  # picker; the downstream pickers repopulate themselves from pbp_data().
   observeEvent(current_sport(), {
     root <- seasons_root_for_sport(current_sport())
     seasons <- sort(
@@ -2415,13 +2092,9 @@ server <- function(input, output, session) {
                       selected = if (length(seasons)) seasons[1] else character(0))
   }, ignoreInit = FALSE)
 
-  # Sport- and season-aware data source. Re-evaluates whenever either
-  # changes; load_pbp_cached() caches per (sport, season) pair so flipping
-  # back to a previously-viewed selection is instant. For the first load
-  # of a (sport, season) combo we show a progress indicator so the user
-  # gets feedback instead of staring at empty dropdowns.
   # Base data = Centre's folder for the selected sport/season. Drives the
-  # Team picker (lists Centre + every opponent Centre played).
+  # Team picker (Centre plus every opponent Centre played). Shows a progress
+  # bar on the first load of a season.
   pbp_data <- reactive({
     req(input$seasonInput)
     sport <- current_sport()
@@ -2445,7 +2118,7 @@ server <- function(input, output, session) {
   })
 
   # Team-aware data. When a non-Centre SAA team is selected, load THAT team's
-  # own folder so the Games picker and every tab reflect their full season —
+  # own folder so the Games picker and every tab reflect their full season,
   # not just the one game they played against Centre. Centre and any non-SAA
   # opponent (no folder of their own) fall back to Centre's data.
   team_pbp_data <- reactive({
@@ -2468,21 +2141,14 @@ server <- function(input, output, session) {
       )
     }
     # Folder may not exist for this season (e.g. BSC after leaving the
-    # conference) — fall back to the vs-Centre games rather than erroring.
+    # conference) fall back to the vs-Centre games rather than erroring.
     if (is.null(df) || nrow(df) == 0) return(pbp_data())
     df
   })
   
-  # Refresh the Team picker whenever the LOADED DATA changes.
-  #
-  # The event is pbp_data() — NOT input$seasonInput — because the data
-  # invalidates on every sport OR season change, while the season input
-  # value sometimes doesn't change at all. Concretely: toggling the
-  # sport resets the season picker to the new sport's newest season; if
-  # that's the same season string the user already had selected (both
-  # sports default to the same year), input$seasonInput never fires and
-  # an input-driven observer would leave the Team picker stale/empty —
-  # the "frozen pickers" bug. Data-driven invalidation always fires.
+  # Refresh the Team picker when the loaded data changes. Keyed on pbp_data()
+  # (not input$seasonInput) because the season string sometimes stays the
+  # same across a sport switch, which would otherwise leave the picker stale.
   observeEvent(pbp_data(), {
     d <- pbp_data()
     teams <- sort(unique(vctrs::vec_c(d$homeTeam, d$awayTeam)))
@@ -2504,26 +2170,17 @@ server <- function(input, output, session) {
     team_pbp_data() %>% filter(game %in% input$det_game)
   })
 
-  # Update game choices whenever the team selection OR the loaded data
-  # changes. Keying on the data matters for the same reason as the Team
-  # observer above: after a sport/season switch the Team picker often
-  # re-selects the same value ("Centre"), so input$TeamInput never
-  # changes and a team-only observer would leave the games picker
-  # holding the previous season's games (or nothing at all).
+  # Update the game choices when the team or loaded data changes. Keyed on
+  # the data so it still fires when the team re-selects the same value across
+  # a season switch.
   observeEvent(list(team_pbp_data(), input$TeamInput), {
     req(input$TeamInput)
     game_choices <- team_pbp_data() %>%
       filter(homeTeam == input$TeamInput | awayTeam == input$TeamInput) %>%
       pull(game) %>% unique()
-    # Preserve any still-valid picks (no-op refires keep the selection);
-    # picks from another season/team simply drop out.
-    keep <- intersect(input$det_game, game_choices)
+    keep <- intersect(input$det_game, game_choices)   # keep still-valid picks
     updatePickerInput(session, "det_game",
                       choices = game_choices, selected = keep)
-    # The roster picker depends on the chosen games — reset it when the
-    # game list rebuilds. It repopulates via its own observer once games
-    # are picked. (This replaces the clear the season observer used to
-    # send, which raced against repopulation.)
     if (length(keep) == 0) {
       updatePickerInput(session, "PlayerInput",
                         choices = character(0), selected = character(0))
@@ -2548,10 +2205,8 @@ server <- function(input, output, session) {
     )
   }, ignoreInit = TRUE)
 
-  # Cascading filter: every time the user adds/removes a player, narrow the
-  # remaining choices to teammates who've been on the floor with ALL of the
-  # currently picked players. Already-picked players stay in `choices` so the
-  # picker doesn't drop them from the selection.
+  # As players are picked, narrow the remaining choices to teammates who have
+  # shared the floor with all of the picked players.
   observeEvent(input$PlayerInput, {
     req(input$TeamInput, input$det_game)
     picked <- input$PlayerInput
@@ -2564,10 +2219,8 @@ server <- function(input, output, session) {
     )
   }, ignoreNULL = FALSE, ignoreInit = TRUE)
 
-  # Reset button: clear the player selection. The cascading observer above
-  # (input$PlayerInput) fires automatically when the selection changes to
-  # empty and broadens the choice list back to the full roster, so we only
-  # need to clear `selected` here — the picker repopulates itself.
+  # Reset button: clear the player selection (the observer above repopulates
+  # the full roster).
   observeEvent(input$resetLineup, {
     updatePickerInput(session, "PlayerInput", selected = character(0))
   })
@@ -2611,13 +2264,9 @@ server <- function(input, output, session) {
       compute_lineup_metrics(selected_team)
   })
 
-  # Shared reactives so the table renderers and their totals UIs see the
-  # exact same filtered rows. Otherwise the totals could drift if either
-  # were re-derived from a slightly different source.
-  # Per-side gate for the lineup tables. The displayed columns cover BOTH
-  # OFFRTG and DEFRTG simultaneously, so a lineup needs enough sample on
-  # both sides for the row to be statistically meaningful. Require
-  # OFFPOSS >= min_poss AND DEFPOSS >= min_poss.
+  # Filtered lineup sets shared by the tables and their totals footers.
+  # Gated on both sides (OFFPOSS and DEFPOSS >= min_poss) since the tables
+  # show both offensive and defensive ratings.
   lineupDataFiltered <- reactive({
     req(input$TeamInput)
     min_poss <- if (is.null(input$min_poss) || is.na(input$min_poss)) 0 else input$min_poss
@@ -2693,19 +2342,10 @@ server <- function(input, output, session) {
       delta_for      <- if (!is.na(real_team) && !is.na(true_for))     true_for     - real_team else NA
       delta_opp      <- if (!is.na(real_opp)  && !is.na(true_against)) true_against - real_opp  else NA
 
-      # Distinguish two reasons the lineup table's totals can be smaller
-      # than the play-stream totals:
-      #   (a) min_poss filter — the user gated lineups with fewer than N
-      #       total possessions out of the visible table; those points are
-      #       in valid lineups, just hidden.
-      #   (b) Parser lineup-tracking gap — for the games where the parser
-      #       couldn't track the on-court 5 mid-period, those rows have
-      #       NA CentreLineup and aren't in any lineup row, displayed or
-      #       hidden. The cross-school audit usually shows this at <2pts
-      #       per Centre 2023-24 game and ~10-50pts per older-season
-      #       game.
-      # Compute (b) directly from game_wanted() so we can split the
-      # warning into the two real reasons.
+      # The displayed total can fall short of the play-stream total for two
+      # reasons: (a) the min-poss filter hid some lineups, or (b) the parser
+      # couldn't track the on-court five on some rows (NA lineup). Compute (b)
+      # here so the footer can split the shortfall into the two reasons.
       gap_pts_for <- 0
       gap_pts_against <- 0
       if (!is.null(gw) && nrow(gw) > 0 && !is.null(input$TeamInput)) {
@@ -2713,8 +2353,7 @@ server <- function(input, output, session) {
         lineup_cols_self <- if (any(coalesce(gw$awayTeam == input$TeamInput, FALSE))) {
           c("awayPlayer1","awayPlayer2","awayPlayer3","awayPlayer4","awayPlayer5")
         } else c("homePlayer1","homePlayer2","homePlayer3","homePlayer4","homePlayer5")
-        # The selected team can be home in some games and away in others.
-        # Build per-row "selected-team lineup present" flag accordingly.
+        # Per-row flag: is the selected team's lineup present on this row?
         is_away_team <- coalesce(gw$awayTeam == input$TeamInput, FALSE)
         is_home_team <- coalesce(gw$homeTeam == input$TeamInput, FALSE)
         has_self_lineup <- rep(TRUE, nrow(gw))
@@ -2828,18 +2467,8 @@ server <- function(input, output, session) {
   })
   output$lineupsInGameDataTotals <- render_totals_ui(lineupsInGameFiltered)
 
-  # Top-5-by-metric leaderboard.
-  #
-  # Reuses AllLineupsData() (already filtered to the chosen games and run
-  # through the same metric helper as everything else), then:
-  #   1. Drops lineups under the min-possessions gate so a 3-poss lineup
-  #      can't post a "300 OffRtg" headline.
-  #   2. Drops rows where the chosen metric is NA/Inf (division by zero on
-  #      lineups that never had a chance to record it).
-  #   3. Sorts ascending for stats where lower is better (DEFRTG, TOV%),
-  #      descending for everything else.
-  #   4. Shows the top 5 with a sensible column order so you can compare
-  #      the headline metric against the other rate stats at a glance.
+  # Top-N lineups by the chosen metric: drop lineups under the min-poss gate
+  # and NA/Inf metrics, then sort (ascending for lower-is-better metrics).
   output$topFiveLineups <- renderDataTable({
     req(input$top5_metric)
     df <- AllLineupsData()
@@ -2850,17 +2479,9 @@ server <- function(input, output, session) {
     metric   <- input$top5_metric
     min_poss <- if (is.null(input$min_poss) || is.na(input$min_poss)) 0 else input$min_poss
 
-    # Metric-aware possessions gate. The sidebar's min_poss has to mean
-    # different things for different metrics — a 13/13 OFFPOSS/DEFPOSS
-    # lineup (26 TOTAL_POSS) shouldn't post a noisy 192 OFFRTG under a
-    # "min 20" filter. Three classes of metrics:
-    #
-    #  - offense-only  → gate on OFFPOSS
-    #  - defense-only  → gate on DEFPOSS
-    #  - multi-side    → gate on BOTH OFFPOSS AND DEFPOSS
-    #
-    # PACE is the only metric for which combined possessions is the
-    # statistically relevant denominator, so it stays on TOTAL_POSS.
+    # Apply min_poss to the right possession count per metric: offense-only
+    # metrics gate on OFFPOSS, defense-only on DEFPOSS, two-sided on both,
+    # and the rest on TOTAL_POSS.
     off_side <- c("OFFRTG", "AST_RATIO", "AST_TO", "TOV_PCT",
                   "OREB_RATE", "FG_PCT", "FG3_PCT", "EFG_PCT")
     def_side <- c("DEFRTG", "DREB_RATE")
@@ -2894,7 +2515,7 @@ server <- function(input, output, session) {
     # ignores DataTables' internal row numbering.
     df$Rank <- seq_len(nrow(df))
 
-    # Column order — headline rate first, then ratings, then RAW counts
+    # Column order: the headline metric first, then ratings, then raw counts
     # (points, FGM/FGA, rebounds, assists, TOV) so users can verify the
     # ratings against the underlying data and spot when a flashy number
     # came from a 9-possession sample.
@@ -2937,14 +2558,8 @@ server <- function(input, output, session) {
     ) %>% add_conditional_formatting(df)
   })
 
-  # Group Performance — auto-anchor view.
-  #
-  # The 3 anchors aren't taken from the sidebar picker. Instead, we
-  # compute the 3 players with the most lineup-slot appearances across
-  # the selected games — i.e. the team's most-played core — and use
-  # those automatically. Counting appearances in team_lineup_mat() is a
-  # good proxy for floor time because each row in that matrix is one
-  # play-by-play row with the 5 players on the floor at that moment.
+  # The 3 anchors for Group Performance: the players with the most lineup-slot
+  # appearances in the selected games (a proxy for floor time).
   group_anchors <- reactive({
     req(input$TeamInput, input$det_game)
     team_mat <- team_lineup_mat()
@@ -3063,15 +2678,8 @@ server <- function(input, output, session) {
     ) %>% add_conditional_formatting(df)
   })
 
-  # Player Combination — per-lineup breakdown for each N-player subgroup.
-  #
-  # NOT pooled. For each distinct N-player group that's actually played,
-  # the table lists every specific 5-man lineup the group appeared in as
-  # its own row, with THAT LINEUP'S OWN metrics (not aggregated across
-  # appearances). So a trio that played in 5 different 5-man lineups gets
-  # 5 rows — one per lineup — each row showing how the trio's parent
-  # 5-man unit performed in that specific configuration. Sort by "Group"
-  # to cluster every appearance of the same subgroup together.
+  # Player Combination table: one row per N-player group, with metrics pooled
+  # across the lineups it played in.
   output$combinationData <- renderDataTable({
     req(input$TeamInput, input$det_game, input$combo_size, input$combo_metric)
     selected_team <- input$TeamInput
@@ -3549,13 +3157,8 @@ server <- function(input, output, session) {
     PlayerData() %>% select(homePlayer1, homePlayer2, homePlayer3, homePlayer4, homePlayer5, everything())
   })
 
-  # Keep every tab's renderer active even when the user is on a different
-  # tab. Shiny's default is to SUSPEND hidden output renderers, so the
-  # first time you click a new tab it re-runs the whole expression — that
-  # feels like a "buttons appear slowly" pause. Forcing suspendWhenHidden
-  # to FALSE means the renderers stay warm: tab switches just swap the
-  # already-computed HTML in. Costs a small amount of RAM per session
-  # but is invisible at the user level.
+  # Keep every tab's renderer warm even when its tab is hidden, so switching
+  # tabs just swaps in already-computed output instead of re-rendering.
   for (oid in c("lineupData", "lineupDataTotals",
                 "lineupsInGameData", "lineupsInGameDataTotals",
                 "topFiveLineups",

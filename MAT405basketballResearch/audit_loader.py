@@ -113,12 +113,9 @@ def audit_one(csv_path: str) -> dict:
     all_home = int(rp.where(team == home, 0).sum())
     all_away = int(rp.where(team == away, 0).sum())
 
-    # Lineup-attributable subset for the SELECTED TEAM's lineup. The
-    # dashboard's `build_lineup()` pulls the 5 slots from the side the
-    # selected team is on (awayPlayer1..5 when selected is away, etc.).
-    # We compute attribution from BOTH teams' perspectives so both numbers
-    # in the audit match what the dashboard shows when the user picks
-    # either team.
+    # Flag rows where each side's 5 lineup slots are complete. We compute
+    # attribution from both teams' perspectives so the audit matches the
+    # dashboard whichever team is picked.
     home_cols = [f"homePlayer{i}" for i in range(1, 6)]
     away_cols = [f"awayPlayer{i}" for i in range(1, 6)]
     has_home_lineup = pd.Series(True, index=filtered.index)
@@ -130,15 +127,9 @@ def audit_one(csv_path: str) -> dict:
         if c in filtered.columns:
             has_away_lineup &= filtered[c].notna()
 
-    # When the user picks team T in the dashboard, every row is grouped by
-    # T's 5-man lineup. T's pointsEarned counts plays where Team == T AND
-    # T's lineup slots are complete. The OPPONENT's points-against also
-    # require T's lineup to be complete, because the grouping is by T's
-    # lineup — opponent scoring rows where T's lineup snapshot is NaN
-    # don't land in any displayable T-lineup group either.
-    #
-    # We compute BOTH perspectives (home-selected and away-selected) so
-    # the audit matches whichever team the user picks.
+    # Points that land in a displayable lineup group: the picked team's
+    # lineup must be complete for both its own and the opponent's points to
+    # count (the dashboard groups by the picked team's lineup).
     home_persp_for     = int(rp.where(has_home_lineup & (team == home), 0).sum())  # home-selected scored
     home_persp_against = int(rp.where(has_home_lineup & (team == away), 0).sum())  # home-selected gave up
     away_persp_for     = int(rp.where(has_away_lineup & (team == away), 0).sum())  # away-selected scored
@@ -148,12 +139,7 @@ def audit_one(csv_path: str) -> dict:
     attr_home = home_persp_for
     attr_away = away_persp_for
 
-    # When the picked team is the HOME team in this game, the user sees
-    # picked-team-scored = home_persp_for and opponent-scored = home_persp_against.
-    # When picked team is AWAY, swap. Many tasks ask "if I pick Centre,
-    # what does it look like?" — Centre is sometimes home, sometimes away,
-    # so we report both perspectives and a `centre_persp_*` slot too if
-    # Centre is one of the teams.
+    # Report both perspectives; the caller picks the one matching the team.
     return {
         "file": os.path.basename(csv_path),
         "homeTeam": home, "awayTeam": away,
