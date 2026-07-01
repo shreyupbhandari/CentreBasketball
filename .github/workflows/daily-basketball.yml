@@ -26,7 +26,12 @@ jobs:
       # main_dir for every script = the checked-out repo root (trailing slash).
       PBP_ROOT: ${{ github.workspace }}/
       SPORTS: mens-basketball,womens-basketball
-      SCHOOLS: berryvikings,bscsports,centrecolonels,hendrixwarriors,gomajors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates
+      # CURRENT SAA members only. Birmingham-Southern (bscsports) closed after
+      # 2023-24 and Hendrix (hendrixwarriors) rejoined the SCAC after 2024-25,
+      # so we no longer scrape them — see SAA_LAST_SEASON in cenrebasketball.R.
+      # Their historical SAA data stays in the repo; games SAA teams played
+      # against them still arrive via each SAA team's own scrape.
+      SCHOOLS: berryvikings,centrecolonels,gomajors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates
     steps:
       - uses: actions/checkout@v4
 
