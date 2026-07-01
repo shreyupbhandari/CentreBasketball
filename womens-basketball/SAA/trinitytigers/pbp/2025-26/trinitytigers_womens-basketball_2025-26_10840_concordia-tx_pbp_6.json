@@ -4181,7 +4181,7 @@
       "o'rourke,skye",
       "scott,ivory",
       "greenwood,natalie",
-      null
+      "minter,kylie"
     ],
     "timeSeconds":218,
     "Poss":"concordia (tx)",
@@ -4203,13 +4203,13 @@
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"scott,ivory",
     "homePlayer4":"greenwood,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"minter,kylie",
     "awayPlayer1":"trejo,taysie",
     "awayPlayer2":"tietjen,katelyn",
     "awayPlayer3":"brown,shanna",
     "awayPlayer4":"martinez,madison",
     "awayPlayer5":"ising,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -4246,6 +4246,84 @@
     "shotOutcome":"",
     "Team":"trinity (tx)",
     "Player":"o'rourke,skye",
+    "pointsEarned":"",
+    "awayLineup":[
+      "trejo,taysie",
+      "tietjen,katelyn",
+      "brown,shanna",
+      "martinez,madison",
+      "ising,sam"
+    ],
+    "homeLineup":[
+      "sauvageau,livy",
+      "scott,ivory",
+      "greenwood,natalie",
+      "o'rourke,skye",
+      null
+    ],
+    "timeSeconds":218,
+    "Poss":"concordia (tx)",
+    "possNum":9,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":24,
+    "teamChanged":0,
+    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"sauvageau,livy",
+    "homePlayer2":"scott,ivory",
+    "homePlayer3":"greenwood,natalie",
+    "homePlayer4":"o'rourke,skye",
+    "homePlayer5":null,
+    "awayPlayer1":"trejo,taysie",
+    "awayPlayer2":"tietjen,katelyn",
+    "awayPlayer3":"brown,shanna",
+    "awayPlayer4":"martinez,madison",
+    "awayPlayer5":"ising,sam",
+    "playerMissing":1
+  },
+  {
+    "gameID":"10840",
+    "homeTeam":"Trinity (TX)",
+    "awayTeam":"Concordia (TX)",
+    "saaGame":"1",
+    "finalScore":"57-111",
+    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
+    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
+    "homeRecord":"1-5",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/03\/25",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bell Center, San Antonio, TX",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"123",
+    "isNeutral":"False",
+    "timeRemaining":"03:38",
+    "awayPlay":"",
+    "awayTeamScore":"7",
+    "playTeamIndicator":"",
+    "homeTeamScore":"19 ",
+    "homePlay":"SUB OUT by GREENWOOD,NATALIE",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by GREENWOOD,NATALIE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"trinity (tx)",
+    "Player":"greenwood,natalie",
     "pointsEarned":"",
     "awayLineup":[
       "trejo,taysie",
@@ -4315,84 +4393,6 @@
     "awayTeamScore":"7",
     "playTeamIndicator":"",
     "homeTeamScore":"19 ",
-    "homePlay":"SUB OUT by GREENWOOD,NATALIE",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by GREENWOOD,NATALIE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"trinity (tx)",
-    "Player":"greenwood,natalie",
-    "pointsEarned":"",
-    "awayLineup":[
-      "trejo,taysie",
-      "tietjen,katelyn",
-      "brown,shanna",
-      "martinez,madison",
-      "ising,sam"
-    ],
-    "homeLineup":[
-      "sauvageau,livy",
-      "scott,ivory",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":218,
-    "Poss":"concordia (tx)",
-    "possNum":9,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":24,
-    "teamChanged":0,
-    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"sauvageau,livy",
-    "homePlayer2":"scott,ivory",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"trejo,taysie",
-    "awayPlayer2":"tietjen,katelyn",
-    "awayPlayer3":"brown,shanna",
-    "awayPlayer4":"martinez,madison",
-    "awayPlayer5":"ising,sam",
-    "playerMissing":1
-  },
-  {
-    "gameID":"10840",
-    "homeTeam":"Trinity (TX)",
-    "awayTeam":"Concordia (TX)",
-    "saaGame":"1",
-    "finalScore":"57-111",
-    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
-    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
-    "homeRecord":"1-5",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/03\/25",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bell Center, San Antonio, TX",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"123",
-    "isNeutral":"False",
-    "timeRemaining":"03:38",
-    "awayPlay":"",
-    "awayTeamScore":"7",
-    "playTeamIndicator":"",
-    "homeTeamScore":"19 ",
     "homePlay":"SUB IN by MARTIN,JAILYN",
     "gameScore":"",
     "teamIndicator":"",
@@ -4414,7 +4414,7 @@
       "sauvageau,livy",
       "scott,ivory",
       "martin,jailyn",
-      null,
+      "o'rourke,skye",
       null
     ],
     "timeSeconds":218,
@@ -4436,7 +4436,7 @@
     "homePlayer1":"sauvageau,livy",
     "homePlayer2":"scott,ivory",
     "homePlayer3":"martin,jailyn",
-    "homePlayer4":null,
+    "homePlayer4":"o'rourke,skye",
     "homePlayer5":null,
     "awayPlayer1":"trejo,taysie",
     "awayPlayer2":"tietjen,katelyn",
@@ -4493,7 +4493,7 @@
       "scott,ivory",
       "martin,jailyn",
       "winans,emma",
-      null
+      "o'rourke,skye"
     ],
     "timeSeconds":218,
     "Poss":"concordia (tx)",
@@ -4515,13 +4515,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"martin,jailyn",
     "homePlayer4":"winans,emma",
-    "homePlayer5":null,
+    "homePlayer5":"o'rourke,skye",
     "awayPlayer1":"trejo,taysie",
     "awayPlayer2":"tietjen,katelyn",
     "awayPlayer3":"brown,shanna",
     "awayPlayer4":"martinez,madison",
     "awayPlayer5":"ising,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -4642,7 +4642,7 @@
       "brown,shanna",
       "martinez,madison",
       "ising,sam",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "sauvageau,livy",
@@ -4676,8 +4676,8 @@
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"ising,sam",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -4719,7 +4719,7 @@
       "tietjen,katelyn",
       "martinez,madison",
       "ising,sam",
-      null,
+      "brown,shanna",
       null
     ],
     "homeLineup":[
@@ -4753,7 +4753,7 @@
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"martinez,madison",
     "awayPlayer3":"ising,sam",
-    "awayPlayer4":null,
+    "awayPlayer4":"brown,shanna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4798,7 +4798,7 @@
       "martinez,madison",
       "ising,sam",
       "jumawan,zoiey",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "sauvageau,livy",
@@ -4832,8 +4832,8 @@
     "awayPlayer2":"martinez,madison",
     "awayPlayer3":"ising,sam",
     "awayPlayer4":"jumawan,zoiey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -4961,7 +4961,7 @@
       "martin,jailyn",
       "winans,emma",
       "stratton,kai",
-      null
+      "sauvageau,livy"
     ],
     "timeSeconds":218,
     "Poss":"concordia (tx)",
@@ -4983,13 +4983,13 @@
     "homePlayer2":"martin,jailyn",
     "homePlayer3":"winans,emma",
     "homePlayer4":"stratton,kai",
-    "homePlayer5":null,
+    "homePlayer5":"sauvageau,livy",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"martinez,madison",
     "awayPlayer3":"ising,sam",
     "awayPlayer4":"jumawan,zoiey",
     "awayPlayer5":"menchaca,kaydence",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -5110,7 +5110,7 @@
       "martinez,madison",
       "jumawan,zoiey",
       "menchaca,kaydence",
-      null
+      "ising,sam"
     ],
     "homeLineup":[
       "scott,ivory",
@@ -5144,8 +5144,8 @@
     "awayPlayer2":"martinez,madison",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ising,sam",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -5741,7 +5741,7 @@
       "winans,emma",
       "stratton,kai",
       "even,allison",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":178,
     "Poss":"trinity (tx)",
@@ -5763,13 +5763,13 @@
     "homePlayer2":"winans,emma",
     "homePlayer3":"stratton,kai",
     "homePlayer4":"even,allison",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"martinez,madison",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"menchaca,kaydence",
     "awayPlayer5":"yowa,jemima",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -6436,7 +6436,7 @@
       "jumawan,zoiey",
       "menchaca,kaydence",
       "yowa,jemima",
-      null
+      "tietjen,katelyn"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"jumawan,zoiey",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"yowa,jemima",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"tietjen,katelyn",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -6513,7 +6513,7 @@
       "jumawan,zoiey",
       "menchaca,kaydence",
       "yowa,jemima",
-      null,
+      "martinez,madison",
       null
     ],
     "homeLineup":[
@@ -6547,7 +6547,7 @@
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"yowa,jemima",
-    "awayPlayer4":null,
+    "awayPlayer4":"martinez,madison",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6592,7 +6592,7 @@
       "menchaca,kaydence",
       "yowa,jemima",
       "trejo,taysie",
-      null
+      "ising,sam"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -6626,8 +6626,8 @@
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"trejo,taysie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ising,sam",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -8230,7 +8230,7 @@
       "yowa,jemima",
       "trejo,taysie",
       "wilkinson,alice",
-      null
+      "menchaca,kaydence"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -8264,8 +8264,8 @@
     "awayPlayer2":"yowa,jemima",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"wilkinson,alice",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"menchaca,kaydence",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -10102,7 +10102,7 @@
       "yowa,jemima",
       "wilkinson,alice",
       "holmes,aja",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -10136,8 +10136,8 @@
     "awayPlayer2":"yowa,jemima",
     "awayPlayer3":"wilkinson,alice",
     "awayPlayer4":"holmes,aja",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -10179,7 +10179,7 @@
       "jumawan,zoiey",
       "wilkinson,alice",
       "holmes,aja",
-      null,
+      "yowa,jemima",
       null
     ],
     "homeLineup":[
@@ -10213,7 +10213,7 @@
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"holmes,aja",
-    "awayPlayer4":null,
+    "awayPlayer4":"yowa,jemima",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10256,7 +10256,7 @@
     "awayLineup":[
       "jumawan,zoiey",
       "holmes,aja",
-      null,
+      "wilkinson,alice",
       null,
       null
     ],
@@ -10290,7 +10290,7 @@
     "homePlayer5":"caceres,jivana",
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"holmes,aja",
-    "awayPlayer3":null,
+    "awayPlayer3":"wilkinson,alice",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -10335,7 +10335,7 @@
       "jumawan,zoiey",
       "holmes,aja",
       "tietjen,katelyn",
-      null,
+      "trejo,taysie",
       null
     ],
     "homeLineup":[
@@ -10369,7 +10369,7 @@
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"tietjen,katelyn",
-    "awayPlayer4":null,
+    "awayPlayer4":"trejo,taysie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10414,7 +10414,7 @@
       "holmes,aja",
       "tietjen,katelyn",
       "martinez,madison",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -10448,8 +10448,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"martinez,madison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -10889,7 +10889,7 @@
       "winans,emma",
       "stratton,kai",
       "even,allison",
-      null
+      "caceres,jivana"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -10911,13 +10911,13 @@
     "homePlayer2":"winans,emma",
     "homePlayer3":"stratton,kai",
     "homePlayer4":"even,allison",
-    "homePlayer5":null,
+    "homePlayer5":"caceres,jivana",
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"martinez,madison",
     "awayPlayer5":"ising,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -10954,6 +10954,84 @@
     "shotOutcome":"",
     "Team":"trinity (tx)",
     "Player":"martin,jailyn",
+    "pointsEarned":"",
+    "awayLineup":[
+      "jumawan,zoiey",
+      "holmes,aja",
+      "tietjen,katelyn",
+      "martinez,madison",
+      "ising,sam"
+    ],
+    "homeLineup":[
+      "winans,emma",
+      "stratton,kai",
+      "even,allison",
+      "martin,jailyn",
+      null
+    ],
+    "timeSeconds":600,
+    "Poss":"trinity (tx)",
+    "possNum":20,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":44,
+    "teamChanged":0,
+    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"winans,emma",
+    "homePlayer2":"stratton,kai",
+    "homePlayer3":"even,allison",
+    "homePlayer4":"martin,jailyn",
+    "homePlayer5":null,
+    "awayPlayer1":"jumawan,zoiey",
+    "awayPlayer2":"holmes,aja",
+    "awayPlayer3":"tietjen,katelyn",
+    "awayPlayer4":"martinez,madison",
+    "awayPlayer5":"ising,sam",
+    "playerMissing":1
+  },
+  {
+    "gameID":"10840",
+    "homeTeam":"Trinity (TX)",
+    "awayTeam":"Concordia (TX)",
+    "saaGame":"1",
+    "finalScore":"57-111",
+    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
+    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
+    "homeRecord":"1-5",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/03\/25",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bell Center, San Antonio, TX",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"123",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"",
+    "awayTeamScore":"10",
+    "playTeamIndicator":"",
+    "homeTeamScore":"27 ",
+    "homePlay":"SUB OUT by EVEN,ALLISON",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by EVEN,ALLISON",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"trinity (tx)",
+    "Player":"even,allison",
     "pointsEarned":"",
     "awayLineup":[
       "jumawan,zoiey",
@@ -11023,84 +11101,6 @@
     "awayTeamScore":"10",
     "playTeamIndicator":"",
     "homeTeamScore":"27 ",
-    "homePlay":"SUB OUT by EVEN,ALLISON",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by EVEN,ALLISON",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"trinity (tx)",
-    "Player":"even,allison",
-    "pointsEarned":"",
-    "awayLineup":[
-      "jumawan,zoiey",
-      "holmes,aja",
-      "tietjen,katelyn",
-      "martinez,madison",
-      "ising,sam"
-    ],
-    "homeLineup":[
-      "winans,emma",
-      "stratton,kai",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":600,
-    "Poss":"trinity (tx)",
-    "possNum":20,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":44,
-    "teamChanged":0,
-    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"winans,emma",
-    "homePlayer2":"stratton,kai",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"jumawan,zoiey",
-    "awayPlayer2":"holmes,aja",
-    "awayPlayer3":"tietjen,katelyn",
-    "awayPlayer4":"martinez,madison",
-    "awayPlayer5":"ising,sam",
-    "playerMissing":1
-  },
-  {
-    "gameID":"10840",
-    "homeTeam":"Trinity (TX)",
-    "awayTeam":"Concordia (TX)",
-    "saaGame":"1",
-    "finalScore":"57-111",
-    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
-    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
-    "homeRecord":"1-5",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/03\/25",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bell Center, San Antonio, TX",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"123",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
-    "awayPlay":"",
-    "awayTeamScore":"10",
-    "playTeamIndicator":"",
-    "homeTeamScore":"27 ",
     "homePlay":"SUB OUT by WINANS,EMMA",
     "gameScore":"",
     "teamIndicator":"",
@@ -11120,7 +11120,7 @@
     ],
     "homeLineup":[
       "stratton,kai",
-      null,
+      "winans,emma",
       null,
       null,
       null
@@ -11142,7 +11142,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"stratton,kai",
-    "homePlayer2":null,
+    "homePlayer2":"winans,emma",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -11276,7 +11276,7 @@
     ],
     "homeLineup":[
       "minter,kylie",
-      null,
+      "scott,ivory",
       null,
       null,
       null
@@ -11298,7 +11298,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
-    "homePlayer2":null,
+    "homePlayer2":"scott,ivory",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -11355,7 +11355,7 @@
     "homeLineup":[
       "minter,kylie",
       "scott,ivory",
-      null,
+      "o'rourke,skye",
       null,
       null
     ],
@@ -11377,7 +11377,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
-    "homePlayer3":null,
+    "homePlayer3":"o'rourke,skye",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"jumawan,zoiey",
@@ -11434,7 +11434,7 @@
       "minter,kylie",
       "scott,ivory",
       "sauvageau,livy",
-      null,
+      "o'rourke,skye",
       null
     ],
     "timeSeconds":600,
@@ -11456,7 +11456,7 @@
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
-    "homePlayer4":null,
+    "homePlayer4":"o'rourke,skye",
     "homePlayer5":null,
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"holmes,aja",
@@ -11513,7 +11513,7 @@
       "scott,ivory",
       "sauvageau,livy",
       "o'rourke,skye",
-      null
+      "greenwood,natalie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -11535,13 +11535,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
     "homePlayer4":"o'rourke,skye",
-    "homePlayer5":null,
+    "homePlayer5":"greenwood,natalie",
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"martinez,madison",
     "awayPlayer5":"ising,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -12520,7 +12520,7 @@
       "holmes,aja",
       "tietjen,katelyn",
       "ising,sam",
-      null
+      "martinez,madison"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -12554,8 +12554,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"ising,sam",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"martinez,madison",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -12597,7 +12597,7 @@
       "holmes,aja",
       "tietjen,katelyn",
       "ising,sam",
-      null,
+      "jumawan,zoiey",
       null
     ],
     "homeLineup":[
@@ -12631,7 +12631,7 @@
     "awayPlayer1":"holmes,aja",
     "awayPlayer2":"tietjen,katelyn",
     "awayPlayer3":"ising,sam",
-    "awayPlayer4":null,
+    "awayPlayer4":"jumawan,zoiey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12676,7 +12676,7 @@
       "tietjen,katelyn",
       "ising,sam",
       "trejo,taysie",
-      null
+      "brown,shanna"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -12710,8 +12710,8 @@
     "awayPlayer2":"tietjen,katelyn",
     "awayPlayer3":"ising,sam",
     "awayPlayer4":"trejo,taysie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,shanna",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -14470,7 +14470,7 @@
       "ising,sam",
       "trejo,taysie",
       "brown,shanna",
-      null
+      "holmes,aja"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -14504,8 +14504,8 @@
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"brown,shanna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holmes,aja",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -14547,7 +14547,7 @@
       "tietjen,katelyn",
       "ising,sam",
       "trejo,taysie",
-      null,
+      "brown,shanna",
       null
     ],
     "homeLineup":[
@@ -14581,7 +14581,7 @@
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
-    "awayPlayer4":null,
+    "awayPlayer4":"brown,shanna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14626,7 +14626,7 @@
       "ising,sam",
       "trejo,taysie",
       "romero,alexa",
-      null
+      "brown,shanna"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -14660,8 +14660,8 @@
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"romero,alexa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,shanna",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -16583,7 +16583,7 @@
       "sauvageau,livy",
       "o'rourke,skye",
       "greenwood,natalie",
-      null
+      "minter,kylie"
     ],
     "timeSeconds":275,
     "Poss":"trinity (tx)",
@@ -16605,13 +16605,13 @@
     "homePlayer2":"sauvageau,livy",
     "homePlayer3":"o'rourke,skye",
     "homePlayer4":"greenwood,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"minter,kylie",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -16660,7 +16660,7 @@
       "sauvageau,livy",
       "o'rourke,skye",
       "greenwood,natalie",
-      null,
+      "scott,ivory",
       null
     ],
     "timeSeconds":275,
@@ -16682,7 +16682,7 @@
     "homePlayer1":"sauvageau,livy",
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"greenwood,natalie",
-    "homePlayer4":null,
+    "homePlayer4":"scott,ivory",
     "homePlayer5":null,
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"ising,sam",
@@ -16737,7 +16737,7 @@
     "homeLineup":[
       "o'rourke,skye",
       "greenwood,natalie",
-      null,
+      "sauvageau,livy",
       null,
       null
     ],
@@ -16759,7 +16759,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"o'rourke,skye",
     "homePlayer2":"greenwood,natalie",
-    "homePlayer3":null,
+    "homePlayer3":"sauvageau,livy",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"tietjen,katelyn",
@@ -16814,7 +16814,7 @@
     ],
     "homeLineup":[
       "greenwood,natalie",
-      null,
+      "o'rourke,skye",
       null,
       null,
       null
@@ -16836,7 +16836,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"greenwood,natalie",
-    "homePlayer2":null,
+    "homePlayer2":"o'rourke,skye",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -16970,7 +16970,7 @@
     ],
     "homeLineup":[
       "martin,jailyn",
-      null,
+      "scott,ivory",
       null,
       null,
       null
@@ -16992,7 +16992,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"martin,jailyn",
-    "homePlayer2":null,
+    "homePlayer2":"scott,ivory",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -17049,7 +17049,7 @@
     "homeLineup":[
       "martin,jailyn",
       "mueller,maddie",
-      null,
+      "scott,ivory",
       null,
       null
     ],
@@ -17071,7 +17071,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"martin,jailyn",
     "homePlayer2":"mueller,maddie",
-    "homePlayer3":null,
+    "homePlayer3":"scott,ivory",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"tietjen,katelyn",
@@ -17128,7 +17128,7 @@
       "martin,jailyn",
       "mueller,maddie",
       "even,allison",
-      null,
+      "scott,ivory",
       null
     ],
     "timeSeconds":275,
@@ -17150,7 +17150,7 @@
     "homePlayer1":"martin,jailyn",
     "homePlayer2":"mueller,maddie",
     "homePlayer3":"even,allison",
-    "homePlayer4":null,
+    "homePlayer4":"scott,ivory",
     "homePlayer5":null,
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"ising,sam",
@@ -17207,7 +17207,7 @@
       "mueller,maddie",
       "even,allison",
       "winans,emma",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":275,
     "Poss":"trinity (tx)",
@@ -17229,13 +17229,13 @@
     "homePlayer2":"mueller,maddie",
     "homePlayer3":"even,allison",
     "homePlayer4":"winans,emma",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -17356,7 +17356,7 @@
       "ising,sam",
       "trejo,taysie",
       "jumawan,zoiey",
-      null
+      "romero,alexa"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -17390,8 +17390,8 @@
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"jumawan,zoiey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"romero,alexa",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -17433,7 +17433,7 @@
       "ising,sam",
       "trejo,taysie",
       "jumawan,zoiey",
-      null,
+      "tietjen,katelyn",
       null
     ],
     "homeLineup":[
@@ -17467,7 +17467,7 @@
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"jumawan,zoiey",
-    "awayPlayer4":null,
+    "awayPlayer4":"tietjen,katelyn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17510,7 +17510,7 @@
     "awayLineup":[
       "trejo,taysie",
       "jumawan,zoiey",
-      null,
+      "ising,sam",
       null,
       null
     ],
@@ -17544,7 +17544,7 @@
     "homePlayer5":"stratton,kai",
     "awayPlayer1":"trejo,taysie",
     "awayPlayer2":"jumawan,zoiey",
-    "awayPlayer3":null,
+    "awayPlayer3":"ising,sam",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17589,7 +17589,7 @@
       "trejo,taysie",
       "jumawan,zoiey",
       "yowa,jemima",
-      null,
+      "ising,sam",
       null
     ],
     "homeLineup":[
@@ -17623,7 +17623,7 @@
     "awayPlayer1":"trejo,taysie",
     "awayPlayer2":"jumawan,zoiey",
     "awayPlayer3":"yowa,jemima",
-    "awayPlayer4":null,
+    "awayPlayer4":"ising,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17668,7 +17668,7 @@
       "jumawan,zoiey",
       "yowa,jemima",
       "wilkinson,alice",
-      null
+      "ising,sam"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -17702,8 +17702,8 @@
     "awayPlayer2":"jumawan,zoiey",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"wilkinson,alice",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ising,sam",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -19384,7 +19384,7 @@
       "yowa,jemima",
       "wilkinson,alice",
       "holmes,aja",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -19418,8 +19418,8 @@
     "awayPlayer2":"yowa,jemima",
     "awayPlayer3":"wilkinson,alice",
     "awayPlayer4":"holmes,aja",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -19461,7 +19461,7 @@
       "jumawan,zoiey",
       "wilkinson,alice",
       "holmes,aja",
-      null,
+      "yowa,jemima",
       null
     ],
     "homeLineup":[
@@ -19495,7 +19495,7 @@
     "awayPlayer1":"jumawan,zoiey",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"holmes,aja",
-    "awayPlayer4":null,
+    "awayPlayer4":"yowa,jemima",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19540,7 +19540,7 @@
       "wilkinson,alice",
       "holmes,aja",
       "romero,alexa",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -19574,8 +19574,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"holmes,aja",
     "awayPlayer4":"romero,alexa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -20164,7 +20164,7 @@
       "holmes,aja",
       "romero,alexa",
       "ising,sam",
-      null
+      "jumawan,zoiey"
     ],
     "homeLineup":[
       "martin,jailyn",
@@ -20198,8 +20198,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"romero,alexa",
     "awayPlayer4":"ising,sam",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jumawan,zoiey",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -21809,7 +21809,7 @@
       "even,allison",
       "winans,emma",
       "stratton,kai",
-      null
+      "martin,jailyn"
     ],
     "timeSeconds":600,
     "Poss":"concordia (tx)",
@@ -21831,13 +21831,13 @@
     "homePlayer2":"even,allison",
     "homePlayer3":"winans,emma",
     "homePlayer4":"stratton,kai",
-    "homePlayer5":null,
+    "homePlayer5":"martin,jailyn",
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"romero,alexa",
     "awayPlayer4":"ising,sam",
     "awayPlayer5":"brown,shanna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -21886,7 +21886,7 @@
       "even,allison",
       "winans,emma",
       "stratton,kai",
-      null,
+      "mueller,maddie",
       null
     ],
     "timeSeconds":600,
@@ -21908,7 +21908,7 @@
     "homePlayer1":"even,allison",
     "homePlayer2":"winans,emma",
     "homePlayer3":"stratton,kai",
-    "homePlayer4":null,
+    "homePlayer4":"mueller,maddie",
     "homePlayer5":null,
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
@@ -21963,7 +21963,7 @@
     "homeLineup":[
       "winans,emma",
       "stratton,kai",
-      null,
+      "even,allison",
       null,
       null
     ],
@@ -21985,7 +21985,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"winans,emma",
     "homePlayer2":"stratton,kai",
-    "homePlayer3":null,
+    "homePlayer3":"even,allison",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"wilkinson,alice",
@@ -22040,7 +22040,7 @@
     ],
     "homeLineup":[
       "stratton,kai",
-      null,
+      "winans,emma",
       null,
       null,
       null
@@ -22062,7 +22062,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"stratton,kai",
-    "homePlayer2":null,
+    "homePlayer2":"winans,emma",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -22196,7 +22196,7 @@
     ],
     "homeLineup":[
       "minter,kylie",
-      null,
+      "scott,ivory",
       null,
       null,
       null
@@ -22218,7 +22218,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
-    "homePlayer2":null,
+    "homePlayer2":"scott,ivory",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -22275,7 +22275,7 @@
     "homeLineup":[
       "minter,kylie",
       "scott,ivory",
-      null,
+      "o'rourke,skye",
       null,
       null
     ],
@@ -22297,7 +22297,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
-    "homePlayer3":null,
+    "homePlayer3":"o'rourke,skye",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"wilkinson,alice",
@@ -22354,7 +22354,7 @@
       "minter,kylie",
       "scott,ivory",
       "sauvageau,livy",
-      null,
+      "o'rourke,skye",
       null
     ],
     "timeSeconds":600,
@@ -22376,7 +22376,7 @@
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
-    "homePlayer4":null,
+    "homePlayer4":"o'rourke,skye",
     "homePlayer5":null,
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
@@ -22433,7 +22433,7 @@
       "scott,ivory",
       "sauvageau,livy",
       "o'rourke,skye",
-      null
+      "greenwood,natalie"
     ],
     "timeSeconds":600,
     "Poss":"concordia (tx)",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
     "homePlayer4":"o'rourke,skye",
-    "homePlayer5":null,
+    "homePlayer5":"greenwood,natalie",
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"romero,alexa",
     "awayPlayer4":"ising,sam",
     "awayPlayer5":"brown,shanna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -22582,7 +22582,7 @@
       "holmes,aja",
       "ising,sam",
       "brown,shanna",
-      null
+      "romero,alexa"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -22616,8 +22616,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"ising,sam",
     "awayPlayer4":"brown,shanna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"romero,alexa",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -22659,7 +22659,7 @@
       "holmes,aja",
       "ising,sam",
       "brown,shanna",
-      null,
+      "wilkinson,alice",
       null
     ],
     "homeLineup":[
@@ -22693,7 +22693,7 @@
     "awayPlayer1":"holmes,aja",
     "awayPlayer2":"ising,sam",
     "awayPlayer3":"brown,shanna",
-    "awayPlayer4":null,
+    "awayPlayer4":"wilkinson,alice",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22736,7 +22736,7 @@
     "awayLineup":[
       "ising,sam",
       "brown,shanna",
-      null,
+      "holmes,aja",
       null,
       null
     ],
@@ -22770,7 +22770,7 @@
     "homePlayer5":"greenwood,natalie",
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"brown,shanna",
-    "awayPlayer3":null,
+    "awayPlayer3":"holmes,aja",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -22815,7 +22815,7 @@
       "ising,sam",
       "brown,shanna",
       "trejo,taysie",
-      null,
+      "tietjen,katelyn",
       null
     ],
     "homeLineup":[
@@ -22849,7 +22849,7 @@
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"trejo,taysie",
-    "awayPlayer4":null,
+    "awayPlayer4":"tietjen,katelyn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22894,7 +22894,7 @@
       "brown,shanna",
       "trejo,taysie",
       "tietjen,katelyn",
-      null
+      "martinez,madison"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -22928,8 +22928,8 @@
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"tietjen,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"martinez,madison",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -24766,7 +24766,7 @@
       "brown,shanna",
       "trejo,taysie",
       "tietjen,katelyn",
-      null
+      "martinez,madison"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -24800,8 +24800,8 @@
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"trejo,taysie",
     "awayPlayer4":"tietjen,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"martinez,madison",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -25468,7 +25468,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "romero,alexa",
-      null
+      "brown,shanna"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -25502,8 +25502,8 @@
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"romero,alexa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,shanna",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -26567,7 +26567,7 @@
       "scott,ivory",
       "o'rourke,skye",
       "greenwood,natalie",
-      null
+      "sauvageau,livy"
     ],
     "timeSeconds":310,
     "Poss":"concordia (tx)",
@@ -26589,13 +26589,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"o'rourke,skye",
     "homePlayer4":"greenwood,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"sauvageau,livy",
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -27269,7 +27269,7 @@
       "o'rourke,skye",
       "greenwood,natalie",
       "mueller,maddie",
-      null
+      "minter,kylie"
     ],
     "timeSeconds":262,
     "Poss":"trinity (tx)",
@@ -27291,13 +27291,13 @@
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"greenwood,natalie",
     "homePlayer4":"mueller,maddie",
-    "homePlayer5":null,
+    "homePlayer5":"minter,kylie",
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -27346,7 +27346,7 @@
       "o'rourke,skye",
       "greenwood,natalie",
       "mueller,maddie",
-      null,
+      "scott,ivory",
       null
     ],
     "timeSeconds":262,
@@ -27368,7 +27368,7 @@
     "homePlayer1":"o'rourke,skye",
     "homePlayer2":"greenwood,natalie",
     "homePlayer3":"mueller,maddie",
-    "homePlayer4":null,
+    "homePlayer4":"scott,ivory",
     "homePlayer5":null,
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
@@ -27423,7 +27423,7 @@
     "homeLineup":[
       "greenwood,natalie",
       "mueller,maddie",
-      null,
+      "o'rourke,skye",
       null,
       null
     ],
@@ -27445,7 +27445,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"greenwood,natalie",
     "homePlayer2":"mueller,maddie",
-    "homePlayer3":null,
+    "homePlayer3":"o'rourke,skye",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ising,sam",
@@ -27500,7 +27500,7 @@
     ],
     "homeLineup":[
       "mueller,maddie",
-      null,
+      "greenwood,natalie",
       null,
       null,
       null
@@ -27522,7 +27522,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"mueller,maddie",
-    "homePlayer2":null,
+    "homePlayer2":"greenwood,natalie",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -27579,7 +27579,7 @@
     "homeLineup":[
       "mueller,maddie",
       "martin,jailyn",
-      null,
+      "scott,ivory",
       null,
       null
     ],
@@ -27601,7 +27601,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"mueller,maddie",
     "homePlayer2":"martin,jailyn",
-    "homePlayer3":null,
+    "homePlayer3":"scott,ivory",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ising,sam",
@@ -27658,7 +27658,7 @@
       "mueller,maddie",
       "martin,jailyn",
       "even,allison",
-      null,
+      "scott,ivory",
       null
     ],
     "timeSeconds":262,
@@ -27680,7 +27680,7 @@
     "homePlayer1":"mueller,maddie",
     "homePlayer2":"martin,jailyn",
     "homePlayer3":"even,allison",
-    "homePlayer4":null,
+    "homePlayer4":"scott,ivory",
     "homePlayer5":null,
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
@@ -27737,7 +27737,7 @@
       "martin,jailyn",
       "even,allison",
       "winans,emma",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":262,
     "Poss":"trinity (tx)",
@@ -27759,13 +27759,13 @@
     "homePlayer2":"martin,jailyn",
     "homePlayer3":"even,allison",
     "homePlayer4":"winans,emma",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"ising,sam",
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -27886,7 +27886,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "jumawan,zoiey",
-      null
+      "romero,alexa"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -27920,8 +27920,8 @@
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"jumawan,zoiey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"romero,alexa",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -28822,7 +28822,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "menchaca,kaydence",
-      null
+      "jumawan,zoiey"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -28856,8 +28856,8 @@
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"tietjen,katelyn",
     "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jumawan,zoiey",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -29290,7 +29290,7 @@
       "trejo,taysie",
       "menchaca,kaydence",
       "holmes,aja",
-      null
+      "tietjen,katelyn"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -29324,8 +29324,8 @@
     "awayPlayer2":"trejo,taysie",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"holmes,aja",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"tietjen,katelyn",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -29680,7 +29680,7 @@
       "menchaca,kaydence",
       "holmes,aja",
       "wilkinson,alice",
-      null
+      "ising,sam"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -29714,8 +29714,8 @@
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"holmes,aja",
     "awayPlayer4":"wilkinson,alice",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ising,sam",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -31864,7 +31864,7 @@
       "holmes,aja",
       "wilkinson,alice",
       "yowa,jemima",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -31898,8 +31898,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"wilkinson,alice",
     "awayPlayer4":"yowa,jemima",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -31941,7 +31941,7 @@
       "menchaca,kaydence",
       "wilkinson,alice",
       "yowa,jemima",
-      null,
+      "holmes,aja",
       null
     ],
     "homeLineup":[
@@ -31975,7 +31975,7 @@
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,aja",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32020,7 +32020,7 @@
       "wilkinson,alice",
       "yowa,jemima",
       "romero,alexa",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "mueller,maddie",
@@ -32054,8 +32054,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"romero,alexa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -32573,7 +32573,7 @@
       "even,allison",
       "winans,emma",
       "stratton,kai",
-      null
+      "martin,jailyn"
     ],
     "timeSeconds":600,
     "Poss":"concordia (tx)",
@@ -32595,13 +32595,13 @@
     "homePlayer2":"even,allison",
     "homePlayer3":"winans,emma",
     "homePlayer4":"stratton,kai",
-    "homePlayer5":null,
+    "homePlayer5":"martin,jailyn",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"brown,shanna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -32650,7 +32650,7 @@
       "even,allison",
       "winans,emma",
       "stratton,kai",
-      null,
+      "mueller,maddie",
       null
     ],
     "timeSeconds":600,
@@ -32672,7 +32672,7 @@
     "homePlayer1":"even,allison",
     "homePlayer2":"winans,emma",
     "homePlayer3":"stratton,kai",
-    "homePlayer4":null,
+    "homePlayer4":"mueller,maddie",
     "homePlayer5":null,
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
@@ -32727,7 +32727,7 @@
     "homeLineup":[
       "winans,emma",
       "stratton,kai",
-      null,
+      "even,allison",
       null,
       null
     ],
@@ -32749,7 +32749,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"winans,emma",
     "homePlayer2":"stratton,kai",
-    "homePlayer3":null,
+    "homePlayer3":"even,allison",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"menchaca,kaydence",
@@ -32804,7 +32804,7 @@
     ],
     "homeLineup":[
       "stratton,kai",
-      null,
+      "winans,emma",
       null,
       null,
       null
@@ -32826,7 +32826,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"stratton,kai",
-    "homePlayer2":null,
+    "homePlayer2":"winans,emma",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -32960,7 +32960,7 @@
     ],
     "homeLineup":[
       "minter,kylie",
-      null,
+      "scott,ivory",
       null,
       null,
       null
@@ -32982,7 +32982,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
-    "homePlayer2":null,
+    "homePlayer2":"scott,ivory",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -33039,7 +33039,7 @@
     "homeLineup":[
       "minter,kylie",
       "scott,ivory",
-      null,
+      "o'rourke,skye",
       null,
       null
     ],
@@ -33061,7 +33061,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
-    "homePlayer3":null,
+    "homePlayer3":"o'rourke,skye",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"menchaca,kaydence",
@@ -33118,7 +33118,7 @@
       "minter,kylie",
       "scott,ivory",
       "sauvageau,livy",
-      null,
+      "o'rourke,skye",
       null
     ],
     "timeSeconds":600,
@@ -33140,7 +33140,7 @@
     "homePlayer1":"minter,kylie",
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
-    "homePlayer4":null,
+    "homePlayer4":"o'rourke,skye",
     "homePlayer5":null,
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
@@ -33197,7 +33197,7 @@
       "scott,ivory",
       "sauvageau,livy",
       "o'rourke,skye",
-      null
+      "greenwood,natalie"
     ],
     "timeSeconds":600,
     "Poss":"concordia (tx)",
@@ -33219,13 +33219,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"sauvageau,livy",
     "homePlayer4":"o'rourke,skye",
-    "homePlayer5":null,
+    "homePlayer5":"greenwood,natalie",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"brown,shanna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -33431,7 +33431,7 @@
       "scott,ivory",
       "o'rourke,skye",
       "greenwood,natalie",
-      null
+      "sauvageau,livy"
     ],
     "timeSeconds":574,
     "Poss":"trinity (tx)",
@@ -33453,13 +33453,13 @@
     "homePlayer2":"scott,ivory",
     "homePlayer3":"o'rourke,skye",
     "homePlayer4":"greenwood,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"sauvageau,livy",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"romero,alexa",
     "awayPlayer5":"brown,shanna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -34126,7 +34126,7 @@
       "wilkinson,alice",
       "yowa,jemima",
       "brown,shanna",
-      null
+      "romero,alexa"
     ],
     "homeLineup":[
       "minter,kylie",
@@ -34160,8 +34160,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"brown,shanna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"romero,alexa",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -35147,7 +35147,7 @@
       "o'rourke,skye",
       "greenwood,natalie",
       "mueller,maddie",
-      null
+      "minter,kylie"
     ],
     "timeSeconds":475,
     "Poss":"concordia (tx)",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"greenwood,natalie",
     "homePlayer4":"mueller,maddie",
-    "homePlayer5":null,
+    "homePlayer5":"minter,kylie",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"brown,shanna",
     "awayPlayer5":"martinez,madison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -36239,7 +36239,7 @@
       "o'rourke,skye",
       "mueller,maddie",
       "gingrey,dana",
-      null
+      "greenwood,natalie"
     ],
     "timeSeconds":419,
     "Poss":"trinity (tx)",
@@ -36261,13 +36261,13 @@
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"mueller,maddie",
     "homePlayer4":"gingrey,dana",
-    "homePlayer5":null,
+    "homePlayer5":"greenwood,natalie",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"yowa,jemima",
     "awayPlayer4":"brown,shanna",
     "awayPlayer5":"martinez,madison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -36388,7 +36388,7 @@
       "wilkinson,alice",
       "brown,shanna",
       "martinez,madison",
-      null
+      "yowa,jemima"
     ],
     "homeLineup":[
       "scott,ivory",
@@ -36422,8 +36422,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"brown,shanna",
     "awayPlayer4":"martinez,madison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"yowa,jemima",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -36863,7 +36863,7 @@
       "o'rourke,skye",
       "gingrey,dana",
       "mehary,ivie",
-      null
+      "mueller,maddie"
     ],
     "timeSeconds":404,
     "Poss":"concordia (tx)",
@@ -36885,13 +36885,13 @@
     "homePlayer2":"o'rourke,skye",
     "homePlayer3":"gingrey,dana",
     "homePlayer4":"mehary,ivie",
-    "homePlayer5":null,
+    "homePlayer5":"mueller,maddie",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"brown,shanna",
     "awayPlayer4":"martinez,madison",
     "awayPlayer5":"holmes,aja",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -37714,7 +37714,7 @@
       "wilkinson,alice",
       "martinez,madison",
       "holmes,aja",
-      null
+      "brown,shanna"
     ],
     "homeLineup":[
       "scott,ivory",
@@ -37748,8 +37748,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"holmes,aja",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,shanna",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -38579,7 +38579,7 @@
       "gingrey,dana",
       "mehary,ivie",
       "caceres,jivana",
-      null
+      "o'rourke,skye"
     ],
     "timeSeconds":306,
     "Poss":"trinity (tx)",
@@ -38601,13 +38601,13 @@
     "homePlayer2":"gingrey,dana",
     "homePlayer3":"mehary,ivie",
     "homePlayer4":"caceres,jivana",
-    "homePlayer5":null,
+    "homePlayer5":"o'rourke,skye",
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"holmes,aja",
     "awayPlayer5":"jumawan,zoiey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -38728,7 +38728,7 @@
       "wilkinson,alice",
       "holmes,aja",
       "jumawan,zoiey",
-      null
+      "martinez,madison"
     ],
     "homeLineup":[
       "scott,ivory",
@@ -38762,8 +38762,8 @@
     "awayPlayer2":"wilkinson,alice",
     "awayPlayer3":"holmes,aja",
     "awayPlayer4":"jumawan,zoiey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"martinez,madison",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -38805,7 +38805,7 @@
       "wilkinson,alice",
       "holmes,aja",
       "jumawan,zoiey",
-      null,
+      "menchaca,kaydence",
       null
     ],
     "homeLineup":[
@@ -38839,7 +38839,7 @@
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
-    "awayPlayer4":null,
+    "awayPlayer4":"menchaca,kaydence",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38884,7 +38884,7 @@
       "holmes,aja",
       "jumawan,zoiey",
       "trejo,taysie",
-      null
+      "ising,sam"
     ],
     "homeLineup":[
       "scott,ivory",
@@ -38918,8 +38918,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"trejo,taysie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ising,sam",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -39515,7 +39515,7 @@
       "mehary,ivie",
       "caceres,jivana",
       "even,allison",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":287,
     "Poss":"trinity (tx)",
@@ -39537,13 +39537,13 @@
     "homePlayer2":"mehary,ivie",
     "homePlayer3":"caceres,jivana",
     "homePlayer4":"even,allison",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"trejo,taysie",
     "awayPlayer5":"romero,alexa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -40132,7 +40132,7 @@
       "holmes,aja",
       "jumawan,zoiey",
       "trejo,taysie",
-      null
+      "romero,alexa"
     ],
     "homeLineup":[
       "gingrey,dana",
@@ -40166,8 +40166,8 @@
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"trejo,taysie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"romero,alexa",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -41621,7 +41621,7 @@
       "mehary,ivie",
       "caceres,jivana",
       "pulley,kate",
-      null
+      "even,allison"
     ],
     "timeSeconds":146,
     "Poss":"trinity (tx)",
@@ -41643,13 +41643,13 @@
     "homePlayer2":"mehary,ivie",
     "homePlayer3":"caceres,jivana",
     "homePlayer4":"pulley,kate",
-    "homePlayer5":null,
+    "homePlayer5":"even,allison",
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"trejo,taysie",
     "awayPlayer5":"yowa,jemima",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -41698,7 +41698,7 @@
       "gingrey,dana",
       "caceres,jivana",
       "pulley,kate",
-      null,
+      "mehary,ivie",
       null
     ],
     "timeSeconds":146,
@@ -41720,7 +41720,7 @@
     "homePlayer1":"gingrey,dana",
     "homePlayer2":"caceres,jivana",
     "homePlayer3":"pulley,kate",
-    "homePlayer4":null,
+    "homePlayer4":"mehary,ivie",
     "homePlayer5":null,
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
@@ -41777,7 +41777,7 @@
       "caceres,jivana",
       "pulley,kate",
       "hackradt,lola",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":146,
     "Poss":"trinity (tx)",
@@ -41799,13 +41799,13 @@
     "homePlayer2":"caceres,jivana",
     "homePlayer3":"pulley,kate",
     "homePlayer4":"hackradt,lola",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"wilkinson,alice",
     "awayPlayer2":"holmes,aja",
     "awayPlayer3":"jumawan,zoiey",
     "awayPlayer4":"trejo,taysie",
     "awayPlayer5":"yowa,jemima",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -41926,6 +41926,84 @@
       "holmes,aja",
       "jumawan,zoiey",
       "yowa,jemima",
+      "trejo,taysie"
+    ],
+    "homeLineup":[
+      "gingrey,dana",
+      "caceres,jivana",
+      "pulley,kate",
+      "hackradt,lola",
+      "dixon,ava"
+    ],
+    "timeSeconds":146,
+    "Poss":"trinity (tx)",
+    "possNum":72,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":162,
+    "teamChanged":0,
+    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"gingrey,dana",
+    "homePlayer2":"caceres,jivana",
+    "homePlayer3":"pulley,kate",
+    "homePlayer4":"hackradt,lola",
+    "homePlayer5":"dixon,ava",
+    "awayPlayer1":"wilkinson,alice",
+    "awayPlayer2":"holmes,aja",
+    "awayPlayer3":"jumawan,zoiey",
+    "awayPlayer4":"yowa,jemima",
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
+  },
+  {
+    "gameID":"10840",
+    "homeTeam":"Trinity (TX)",
+    "awayTeam":"Concordia (TX)",
+    "saaGame":"1",
+    "finalScore":"57-111",
+    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
+    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
+    "homeRecord":"1-5",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/03\/25",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bell Center, San Antonio, TX",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"123",
+    "isNeutral":"False",
+    "timeRemaining":"02:26",
+    "awayPlay":"SUB OUT by YOWA,JEMIMA",
+    "awayTeamScore":"49",
+    "playTeamIndicator":"",
+    "homeTeamScore":"104 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by YOWA,JEMIMA",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"concordia (tx)",
+    "Player":"yowa,jemima",
+    "pointsEarned":"",
+    "awayLineup":[
+      "wilkinson,alice",
+      "holmes,aja",
+      "jumawan,zoiey",
+      "yowa,jemima",
       null
     ],
     "homeLineup":[
@@ -41985,84 +42063,6 @@
     "attendance":"123",
     "isNeutral":"False",
     "timeRemaining":"02:26",
-    "awayPlay":"SUB OUT by YOWA,JEMIMA",
-    "awayTeamScore":"49",
-    "playTeamIndicator":"",
-    "homeTeamScore":"104 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by YOWA,JEMIMA",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"concordia (tx)",
-    "Player":"yowa,jemima",
-    "pointsEarned":"",
-    "awayLineup":[
-      "wilkinson,alice",
-      "holmes,aja",
-      "jumawan,zoiey",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "gingrey,dana",
-      "caceres,jivana",
-      "pulley,kate",
-      "hackradt,lola",
-      "dixon,ava"
-    ],
-    "timeSeconds":146,
-    "Poss":"trinity (tx)",
-    "possNum":72,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":162,
-    "teamChanged":0,
-    "game":"Trinity (TX)Concordia (TX)12\/03\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"gingrey,dana",
-    "homePlayer2":"caceres,jivana",
-    "homePlayer3":"pulley,kate",
-    "homePlayer4":"hackradt,lola",
-    "homePlayer5":"dixon,ava",
-    "awayPlayer1":"wilkinson,alice",
-    "awayPlayer2":"holmes,aja",
-    "awayPlayer3":"jumawan,zoiey",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"10840",
-    "homeTeam":"Trinity (TX)",
-    "awayTeam":"Concordia (TX)",
-    "saaGame":"1",
-    "finalScore":"57-111",
-    "homeScoreByPeriod":"\nWinner\nTrinTX\nTrinity (TX)\n,27,33,27,24,111",
-    "awayScoreByPeriod":"\nCTX\nConcordia (TX)\n,10,12,16,19,57",
-    "homeRecord":"1-5",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/03\/25",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bell Center, San Antonio, TX",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"123",
-    "isNeutral":"False",
-    "timeRemaining":"02:26",
     "awayPlay":"SUB OUT by WILKINSON,ALICE",
     "awayTeamScore":"49",
     "playTeamIndicator":"",
@@ -42080,7 +42080,7 @@
     "awayLineup":[
       "holmes,aja",
       "jumawan,zoiey",
-      null,
+      "wilkinson,alice",
       null,
       null
     ],
@@ -42114,7 +42114,7 @@
     "homePlayer5":"dixon,ava",
     "awayPlayer1":"holmes,aja",
     "awayPlayer2":"jumawan,zoiey",
-    "awayPlayer3":null,
+    "awayPlayer3":"wilkinson,alice",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -42157,7 +42157,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "holmes,aja",
-      null,
+      "jumawan,zoiey",
       null,
       null,
       null
@@ -42191,7 +42191,7 @@
     "homePlayer4":"hackradt,lola",
     "homePlayer5":"dixon,ava",
     "awayPlayer1":"holmes,aja",
-    "awayPlayer2":null,
+    "awayPlayer2":"jumawan,zoiey",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -42313,7 +42313,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "tietjen,katelyn",
-      null,
+      "trejo,taysie",
       null,
       null,
       null
@@ -42347,7 +42347,7 @@
     "homePlayer4":"hackradt,lola",
     "homePlayer5":"dixon,ava",
     "awayPlayer1":"tietjen,katelyn",
-    "awayPlayer2":null,
+    "awayPlayer2":"trejo,taysie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -42392,7 +42392,7 @@
     "awayLineup":[
       "tietjen,katelyn",
       "brown,shanna",
-      null,
+      "trejo,taysie",
       null,
       null
     ],
@@ -42426,7 +42426,7 @@
     "homePlayer5":"dixon,ava",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"brown,shanna",
-    "awayPlayer3":null,
+    "awayPlayer3":"trejo,taysie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -42471,7 +42471,7 @@
       "tietjen,katelyn",
       "brown,shanna",
       "martinez,madison",
-      null,
+      "trejo,taysie",
       null
     ],
     "homeLineup":[
@@ -42505,7 +42505,7 @@
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"martinez,madison",
-    "awayPlayer4":null,
+    "awayPlayer4":"trejo,taysie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -42550,7 +42550,7 @@
       "brown,shanna",
       "martinez,madison",
       "ising,sam",
-      null
+      "trejo,taysie"
     ],
     "homeLineup":[
       "gingrey,dana",
@@ -42584,8 +42584,8 @@
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"ising,sam",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"trejo,taysie",
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -44507,7 +44507,7 @@
       "pulley,kate",
       "hackradt,lola",
       "dixon,ava",
-      null
+      "caceres,jivana"
     ],
     "timeSeconds":29,
     "Poss":"trinity (tx)",
@@ -44529,13 +44529,13 @@
     "homePlayer2":"pulley,kate",
     "homePlayer3":"hackradt,lola",
     "homePlayer4":"dixon,ava",
-    "homePlayer5":null,
+    "homePlayer5":"caceres,jivana",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"ising,sam",
     "awayPlayer5":"menchaca,kaydence",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",
@@ -44584,7 +44584,7 @@
       "pulley,kate",
       "hackradt,lola",
       "dixon,ava",
-      null,
+      "gingrey,dana",
       null
     ],
     "timeSeconds":29,
@@ -44606,7 +44606,7 @@
     "homePlayer1":"pulley,kate",
     "homePlayer2":"hackradt,lola",
     "homePlayer3":"dixon,ava",
-    "homePlayer4":null,
+    "homePlayer4":"gingrey,dana",
     "homePlayer5":null,
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"brown,shanna",
@@ -44663,7 +44663,7 @@
       "hackradt,lola",
       "dixon,ava",
       "almeida,sophia",
-      null
+      "scott,ivory"
     ],
     "timeSeconds":29,
     "Poss":"trinity (tx)",
@@ -44685,13 +44685,13 @@
     "homePlayer2":"hackradt,lola",
     "homePlayer3":"dixon,ava",
     "homePlayer4":"almeida,sophia",
-    "homePlayer5":null,
+    "homePlayer5":"scott,ivory",
     "awayPlayer1":"tietjen,katelyn",
     "awayPlayer2":"brown,shanna",
     "awayPlayer3":"martinez,madison",
     "awayPlayer4":"ising,sam",
     "awayPlayer5":"menchaca,kaydence",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10840",

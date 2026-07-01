@@ -1607,7 +1607,7 @@
       "holmes,aja",
       "jumawan,zoiey",
       "hatcher,kiyah",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":409,
     "Poss":"concordia (tx)",
@@ -1629,13 +1629,13 @@
     "homePlayer2":"holmes,aja",
     "homePlayer3":"jumawan,zoiey",
     "homePlayer4":"hatcher,kiyah",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"rowe,brooklyn",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -1684,7 +1684,7 @@
       "brown,shanna",
       "holmes,aja",
       "hatcher,kiyah",
-      null,
+      "jumawan,zoiey",
       null
     ],
     "timeSeconds":409,
@@ -1706,7 +1706,7 @@
     "homePlayer1":"brown,shanna",
     "homePlayer2":"holmes,aja",
     "homePlayer3":"hatcher,kiyah",
-    "homePlayer4":null,
+    "homePlayer4":"jumawan,zoiey",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
@@ -1750,6 +1750,84 @@
     "shotOutcome":"",
     "Team":"concordia (tx)",
     "Player":"holmes,aja",
+    "pointsEarned":"",
+    "awayLineup":[
+      "brown,chloey-rei",
+      "brady,riley",
+      "forst,brailey",
+      "rowe,brooklyn",
+      "cates,bella"
+    ],
+    "homeLineup":[
+      "brown,shanna",
+      "hatcher,kiyah",
+      "holmes,aja",
+      null,
+      null
+    ],
+    "timeSeconds":409,
+    "Poss":"concordia (tx)",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":10,
+    "teamChanged":0,
+    "game":"Concordia (TX)Hendrix01\/09\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"brown,shanna",
+    "homePlayer2":"hatcher,kiyah",
+    "homePlayer3":"holmes,aja",
+    "homePlayer4":null,
+    "homePlayer5":null,
+    "awayPlayer1":"brown,chloey-rei",
+    "awayPlayer2":"brady,riley",
+    "awayPlayer3":"forst,brailey",
+    "awayPlayer4":"rowe,brooklyn",
+    "awayPlayer5":"cates,bella",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6648",
+    "homeTeam":"Concordia (TX)",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"67-51",
+    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
+    "homeRecord":"3-10",
+    "awayRecord":"7-5",
+    "homeConfRecord":"0-3",
+    "awayConfRecord":"3-0",
+    "gameDate":"01\/09\/26",
+    "startTime":"12:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Concordia Fieldhouse, Austin, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"104",
+    "isNeutral":"False",
+    "timeRemaining":"06:49",
+    "awayPlay":"",
+    "awayTeamScore":"5 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"2",
+    "homePlay":"SUB OUT by HATCHER,KIYAH",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HATCHER,KIYAH",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"concordia (tx)",
+    "Player":"hatcher,kiyah",
     "pointsEarned":"",
     "awayLineup":[
       "brown,chloey-rei",
@@ -1819,84 +1897,6 @@
     "awayTeamScore":"5 ",
     "playTeamIndicator":"",
     "homeTeamScore":"2",
-    "homePlay":"SUB OUT by HATCHER,KIYAH",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HATCHER,KIYAH",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"concordia (tx)",
-    "Player":"hatcher,kiyah",
-    "pointsEarned":"",
-    "awayLineup":[
-      "brown,chloey-rei",
-      "brady,riley",
-      "forst,brailey",
-      "rowe,brooklyn",
-      "cates,bella"
-    ],
-    "homeLineup":[
-      "brown,shanna",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":409,
-    "Poss":"concordia (tx)",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":10,
-    "teamChanged":0,
-    "game":"Concordia (TX)Hendrix01\/09\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"brown,shanna",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"brown,chloey-rei",
-    "awayPlayer2":"brady,riley",
-    "awayPlayer3":"forst,brailey",
-    "awayPlayer4":"rowe,brooklyn",
-    "awayPlayer5":"cates,bella",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6648",
-    "homeTeam":"Concordia (TX)",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"67-51",
-    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
-    "homeRecord":"3-10",
-    "awayRecord":"7-5",
-    "homeConfRecord":"0-3",
-    "awayConfRecord":"3-0",
-    "gameDate":"01\/09\/26",
-    "startTime":"12:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Concordia Fieldhouse, Austin, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"104",
-    "isNeutral":"False",
-    "timeRemaining":"06:49",
-    "awayPlay":"",
-    "awayTeamScore":"5 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"2",
     "homePlay":"SUB IN by TREJO,TAYSIE",
     "gameScore":"",
     "teamIndicator":"",
@@ -1917,7 +1917,7 @@
     "homeLineup":[
       "brown,shanna",
       "trejo,taysie",
-      null,
+      "tietjen,katelyn",
       null,
       null
     ],
@@ -1939,7 +1939,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"brown,shanna",
     "homePlayer2":"trejo,taysie",
-    "homePlayer3":null,
+    "homePlayer3":"tietjen,katelyn",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
@@ -1996,7 +1996,7 @@
       "brown,shanna",
       "trejo,taysie",
       "romero,alexa",
-      null,
+      "tietjen,katelyn",
       null
     ],
     "timeSeconds":409,
@@ -2018,7 +2018,7 @@
     "homePlayer1":"brown,shanna",
     "homePlayer2":"trejo,taysie",
     "homePlayer3":"romero,alexa",
-    "homePlayer4":null,
+    "homePlayer4":"tietjen,katelyn",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
@@ -2075,7 +2075,7 @@
       "trejo,taysie",
       "romero,alexa",
       "wilkinson,alice",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":409,
     "Poss":"concordia (tx)",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"trejo,taysie",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"wilkinson,alice",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"rowe,brooklyn",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -3550,7 +3550,7 @@
       "brady,riley",
       "forst,brailey",
       "cates,bella",
-      null
+      "rowe,brooklyn"
     ],
     "homeLineup":[
       "brown,shanna",
@@ -3584,8 +3584,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rowe,brooklyn",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -3862,7 +3862,7 @@
       "brady,riley",
       "forst,brailey",
       "edmonson,natalie",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "brown,shanna",
@@ -3896,8 +3896,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -4876,7 +4876,7 @@
       "brady,riley",
       "edmonson,natalie",
       "bryan,lyndi",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "brown,shanna",
@@ -4910,8 +4910,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"bryan,lyndi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -5117,7 +5117,7 @@
       "trejo,taysie",
       "romero,alexa",
       "wilkinson,alice",
-      null
+      "ising,sam"
     ],
     "timeSeconds":238,
     "Poss":"concordia (tx)",
@@ -5139,13 +5139,13 @@
     "homePlayer2":"trejo,taysie",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"wilkinson,alice",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"bryan,lyndi",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -5429,7 +5429,7 @@
       "romero,alexa",
       "wilkinson,alice",
       "holmes,aja",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":212,
     "Poss":"hendrix",
@@ -5451,13 +5451,13 @@
     "homePlayer2":"romero,alexa",
     "homePlayer3":"wilkinson,alice",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"bryan,lyndi",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -5975,7 +5975,7 @@
       "wilkinson,alice",
       "holmes,aja",
       "jumawan,zoiey",
-      null
+      "romero,alexa"
     ],
     "timeSeconds":173,
     "Poss":"hendrix",
@@ -5997,13 +5997,13 @@
     "homePlayer2":"wilkinson,alice",
     "homePlayer3":"holmes,aja",
     "homePlayer4":"jumawan,zoiey",
-    "homePlayer5":null,
+    "homePlayer5":"romero,alexa",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"bryan,lyndi",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -6052,7 +6052,7 @@
       "trejo,taysie",
       "holmes,aja",
       "jumawan,zoiey",
-      null,
+      "wilkinson,alice",
       null
     ],
     "timeSeconds":173,
@@ -6074,7 +6074,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"holmes,aja",
     "homePlayer3":"jumawan,zoiey",
-    "homePlayer4":null,
+    "homePlayer4":"wilkinson,alice",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
@@ -6131,7 +6131,7 @@
       "holmes,aja",
       "jumawan,zoiey",
       "tietjen,katelyn",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":173,
     "Poss":"hendrix",
@@ -6153,13 +6153,13 @@
     "homePlayer2":"holmes,aja",
     "homePlayer3":"jumawan,zoiey",
     "homePlayer4":"tietjen,katelyn",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"bryan,lyndi",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -6280,7 +6280,7 @@
       "edmonson,natalie",
       "bryan,lyndi",
       "crane,carter",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -6314,8 +6314,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"bryan,lyndi",
     "awayPlayer4":"crane,carter",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -7457,7 +7457,7 @@
       "jumawan,zoiey",
       "tietjen,katelyn",
       "martinez,madison",
-      null
+      "holmes,aja"
     ],
     "timeSeconds":78,
     "Poss":"hendrix",
@@ -7479,13 +7479,13 @@
     "homePlayer2":"jumawan,zoiey",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"martinez,madison",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,aja",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"bryan,lyndi",
     "awayPlayer4":"crane,carter",
     "awayPlayer5":"rowe,brooklyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -7606,7 +7606,7 @@
       "edmonson,natalie",
       "crane,carter",
       "rowe,brooklyn",
-      null
+      "bryan,lyndi"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -7640,8 +7640,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"rowe,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bryan,lyndi",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -7683,7 +7683,7 @@
       "brown,chloey-rei",
       "edmonson,natalie",
       "rowe,brooklyn",
-      null,
+      "crane,carter",
       null
     ],
     "homeLineup":[
@@ -7717,7 +7717,7 @@
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
-    "awayPlayer4":null,
+    "awayPlayer4":"crane,carter",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7762,7 +7762,7 @@
       "edmonson,natalie",
       "rowe,brooklyn",
       "brady,riley",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -7796,8 +7796,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -8783,7 +8783,7 @@
       "tietjen,katelyn",
       "martinez,madison",
       "ising,sam",
-      null
+      "jumawan,zoiey"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -8805,13 +8805,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"martinez,madison",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"jumawan,zoiey",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -8848,6 +8848,84 @@
     "shotOutcome":"",
     "Team":"concordia (tx)",
     "Player":"martinez,madison",
+    "pointsEarned":"",
+    "awayLineup":[
+      "brown,chloey-rei",
+      "edmonson,natalie",
+      "rowe,brooklyn",
+      "brady,riley",
+      "forst,brailey"
+    ],
+    "homeLineup":[
+      "trejo,taysie",
+      "tietjen,katelyn",
+      "ising,sam",
+      "martinez,madison",
+      null
+    ],
+    "timeSeconds":600,
+    "Poss":"hendrix",
+    "possNum":15,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":29,
+    "teamChanged":0,
+    "game":"Concordia (TX)Hendrix01\/09\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"trejo,taysie",
+    "homePlayer2":"tietjen,katelyn",
+    "homePlayer3":"ising,sam",
+    "homePlayer4":"martinez,madison",
+    "homePlayer5":null,
+    "awayPlayer1":"brown,chloey-rei",
+    "awayPlayer2":"edmonson,natalie",
+    "awayPlayer3":"rowe,brooklyn",
+    "awayPlayer4":"brady,riley",
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6648",
+    "homeTeam":"Concordia (TX)",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"67-51",
+    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
+    "homeRecord":"3-10",
+    "awayRecord":"7-5",
+    "homeConfRecord":"0-3",
+    "awayConfRecord":"3-0",
+    "gameDate":"01\/09\/26",
+    "startTime":"12:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Concordia Fieldhouse, Austin, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"104",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"",
+    "awayTeamScore":"21 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"8",
+    "homePlay":"SUB OUT by ISING,SAM",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by ISING,SAM",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"concordia (tx)",
+    "Player":"ising,sam",
     "pointsEarned":"",
     "awayLineup":[
       "brown,chloey-rei",
@@ -8917,84 +8995,6 @@
     "awayTeamScore":"21 ",
     "playTeamIndicator":"",
     "homeTeamScore":"8",
-    "homePlay":"SUB OUT by ISING,SAM",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ISING,SAM",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"concordia (tx)",
-    "Player":"ising,sam",
-    "pointsEarned":"",
-    "awayLineup":[
-      "brown,chloey-rei",
-      "edmonson,natalie",
-      "rowe,brooklyn",
-      "brady,riley",
-      "forst,brailey"
-    ],
-    "homeLineup":[
-      "trejo,taysie",
-      "tietjen,katelyn",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":600,
-    "Poss":"hendrix",
-    "possNum":15,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":29,
-    "teamChanged":0,
-    "game":"Concordia (TX)Hendrix01\/09\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"trejo,taysie",
-    "homePlayer2":"tietjen,katelyn",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"brown,chloey-rei",
-    "awayPlayer2":"edmonson,natalie",
-    "awayPlayer3":"rowe,brooklyn",
-    "awayPlayer4":"brady,riley",
-    "awayPlayer5":"forst,brailey",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6648",
-    "homeTeam":"Concordia (TX)",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"67-51",
-    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
-    "homeRecord":"3-10",
-    "awayRecord":"7-5",
-    "homeConfRecord":"0-3",
-    "awayConfRecord":"3-0",
-    "gameDate":"01\/09\/26",
-    "startTime":"12:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Concordia Fieldhouse, Austin, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"104",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
-    "awayPlay":"",
-    "awayTeamScore":"21 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"8",
     "homePlay":"SUB IN by HOLMES,AJA",
     "gameScore":"",
     "teamIndicator":"",
@@ -9016,7 +9016,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "holmes,aja",
-      null,
+      "brown,shanna",
       null
     ],
     "timeSeconds":600,
@@ -9038,7 +9038,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"holmes,aja",
-    "homePlayer4":null,
+    "homePlayer4":"brown,shanna",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
@@ -9095,7 +9095,7 @@
       "tietjen,katelyn",
       "holmes,aja",
       "brown,shanna",
-      null
+      "ising,sam"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -9117,13 +9117,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"holmes,aja",
     "homePlayer4":"brown,shanna",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -10343,7 +10343,7 @@
       "tietjen,katelyn",
       "brown,shanna",
       "hatcher,kiyah",
-      null
+      "holmes,aja"
     ],
     "timeSeconds":525,
     "Poss":"hendrix",
@@ -10365,13 +10365,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"hatcher,kiyah",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,aja",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -10420,7 +10420,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "hatcher,kiyah",
-      null,
+      "brown,shanna",
       null
     ],
     "timeSeconds":525,
@@ -10442,7 +10442,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"hatcher,kiyah",
-    "homePlayer4":null,
+    "homePlayer4":"brown,shanna",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
@@ -10499,7 +10499,7 @@
       "tietjen,katelyn",
       "hatcher,kiyah",
       "jumawan,zoiey",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":525,
     "Poss":"hendrix",
@@ -10521,13 +10521,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"hatcher,kiyah",
     "homePlayer4":"jumawan,zoiey",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -10967,7 +10967,7 @@
       "tietjen,katelyn",
       "hatcher,kiyah",
       "ising,sam",
-      null
+      "jumawan,zoiey"
     ],
     "timeSeconds":487,
     "Poss":"hendrix",
@@ -10989,13 +10989,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"hatcher,kiyah",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"jumawan,zoiey",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -13073,7 +13073,7 @@
       "tietjen,katelyn",
       "ising,sam",
       "brown,shanna",
-      null
+      "hatcher,kiyah"
     ],
     "timeSeconds":333,
     "Poss":"concordia (tx)",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"ising,sam",
     "homePlayer4":"brown,shanna",
-    "homePlayer5":null,
+    "homePlayer5":"hatcher,kiyah",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -13150,7 +13150,7 @@
       "trejo,taysie",
       "tietjen,katelyn",
       "brown,shanna",
-      null,
+      "ising,sam",
       null
     ],
     "timeSeconds":333,
@@ -13172,7 +13172,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"brown,shanna",
-    "homePlayer4":null,
+    "homePlayer4":"ising,sam",
     "homePlayer5":null,
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
@@ -13229,7 +13229,7 @@
       "tietjen,katelyn",
       "brown,shanna",
       "romero,alexa",
-      null
+      "ising,sam"
     ],
     "timeSeconds":333,
     "Poss":"concordia (tx)",
@@ -13251,13 +13251,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"romero,alexa",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"rowe,brooklyn",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -13378,7 +13378,7 @@
       "rowe,brooklyn",
       "brady,riley",
       "forst,brailey",
-      null
+      "brown,chloey-rei"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -13412,8 +13412,8 @@
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -14555,7 +14555,7 @@
       "tietjen,katelyn",
       "brown,shanna",
       "holmes,aja",
-      null
+      "romero,alexa"
     ],
     "timeSeconds":259,
     "Poss":"hendrix",
@@ -14577,13 +14577,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"romero,alexa",
     "awayPlayer1":"edmonson,natalie",
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -14620,6 +14620,84 @@
     "shotOutcome":"",
     "Team":"concordia (tx)",
     "Player":"tietjen,katelyn",
+    "pointsEarned":"",
+    "awayLineup":[
+      "edmonson,natalie",
+      "rowe,brooklyn",
+      "brady,riley",
+      "forst,brailey",
+      "cates,bella"
+    ],
+    "homeLineup":[
+      "trejo,taysie",
+      "brown,shanna",
+      "holmes,aja",
+      "tietjen,katelyn",
+      null
+    ],
+    "timeSeconds":259,
+    "Poss":"hendrix",
+    "possNum":27,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":51,
+    "teamChanged":0,
+    "game":"Concordia (TX)Hendrix01\/09\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"trejo,taysie",
+    "homePlayer2":"brown,shanna",
+    "homePlayer3":"holmes,aja",
+    "homePlayer4":"tietjen,katelyn",
+    "homePlayer5":null,
+    "awayPlayer1":"edmonson,natalie",
+    "awayPlayer2":"rowe,brooklyn",
+    "awayPlayer3":"brady,riley",
+    "awayPlayer4":"forst,brailey",
+    "awayPlayer5":"cates,bella",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6648",
+    "homeTeam":"Concordia (TX)",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"67-51",
+    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
+    "homeRecord":"3-10",
+    "awayRecord":"7-5",
+    "homeConfRecord":"0-3",
+    "awayConfRecord":"3-0",
+    "gameDate":"01\/09\/26",
+    "startTime":"12:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Concordia Fieldhouse, Austin, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"104",
+    "isNeutral":"False",
+    "timeRemaining":"04:19",
+    "awayPlay":"",
+    "awayTeamScore":"28 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"13",
+    "homePlay":"SUB OUT by HOLMES,AJA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HOLMES,AJA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"concordia (tx)",
+    "Player":"holmes,aja",
     "pointsEarned":"",
     "awayLineup":[
       "edmonson,natalie",
@@ -14689,84 +14767,6 @@
     "awayTeamScore":"28 ",
     "playTeamIndicator":"",
     "homeTeamScore":"13",
-    "homePlay":"SUB OUT by HOLMES,AJA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HOLMES,AJA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"concordia (tx)",
-    "Player":"holmes,aja",
-    "pointsEarned":"",
-    "awayLineup":[
-      "edmonson,natalie",
-      "rowe,brooklyn",
-      "brady,riley",
-      "forst,brailey",
-      "cates,bella"
-    ],
-    "homeLineup":[
-      "trejo,taysie",
-      "brown,shanna",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":259,
-    "Poss":"hendrix",
-    "possNum":27,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":51,
-    "teamChanged":0,
-    "game":"Concordia (TX)Hendrix01\/09\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"trejo,taysie",
-    "homePlayer2":"brown,shanna",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"edmonson,natalie",
-    "awayPlayer2":"rowe,brooklyn",
-    "awayPlayer3":"brady,riley",
-    "awayPlayer4":"forst,brailey",
-    "awayPlayer5":"cates,bella",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6648",
-    "homeTeam":"Concordia (TX)",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"67-51",
-    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
-    "homeRecord":"3-10",
-    "awayRecord":"7-5",
-    "homeConfRecord":"0-3",
-    "awayConfRecord":"3-0",
-    "gameDate":"01\/09\/26",
-    "startTime":"12:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Concordia Fieldhouse, Austin, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"104",
-    "isNeutral":"False",
-    "timeRemaining":"04:19",
-    "awayPlay":"",
-    "awayTeamScore":"28 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"13",
     "homePlay":"SUB IN by WILKINSON,ALICE",
     "gameScore":"",
     "teamIndicator":"",
@@ -14788,7 +14788,7 @@
       "trejo,taysie",
       "brown,shanna",
       "wilkinson,alice",
-      null,
+      "tietjen,katelyn",
       null
     ],
     "timeSeconds":259,
@@ -14810,7 +14810,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"brown,shanna",
     "homePlayer3":"wilkinson,alice",
-    "homePlayer4":null,
+    "homePlayer4":"tietjen,katelyn",
     "homePlayer5":null,
     "awayPlayer1":"edmonson,natalie",
     "awayPlayer2":"rowe,brooklyn",
@@ -14867,7 +14867,7 @@
       "brown,shanna",
       "wilkinson,alice",
       "martinez,madison",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":259,
     "Poss":"hendrix",
@@ -14889,13 +14889,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"wilkinson,alice",
     "homePlayer4":"martinez,madison",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"edmonson,natalie",
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -15257,7 +15257,7 @@
       "wilkinson,alice",
       "martinez,madison",
       "ising,sam",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":226,
     "Poss":"hendrix",
@@ -15279,13 +15279,13 @@
     "homePlayer2":"wilkinson,alice",
     "homePlayer3":"martinez,madison",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"edmonson,natalie",
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -15562,7 +15562,7 @@
       "rowe,brooklyn",
       "forst,brailey",
       "cates,bella",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -15596,8 +15596,8 @@
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -15959,7 +15959,7 @@
       "martinez,madison",
       "ising,sam",
       "jumawan,zoiey",
-      null
+      "wilkinson,alice"
     ],
     "timeSeconds":170,
     "Poss":"hendrix",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"martinez,madison",
     "homePlayer3":"ising,sam",
     "homePlayer4":"jumawan,zoiey",
-    "homePlayer5":null,
+    "homePlayer5":"wilkinson,alice",
     "awayPlayer1":"edmonson,natalie",
     "awayPlayer2":"rowe,brooklyn",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"cates,bella",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -16108,7 +16108,7 @@
       "forst,brailey",
       "cates,bella",
       "crane,carter",
-      null
+      "edmonson,natalie"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -16142,8 +16142,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"crane,carter",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"edmonson,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -16498,7 +16498,7 @@
       "forst,brailey",
       "crane,carter",
       "bryan,lyndi",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -16532,8 +16532,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"bryan,lyndi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -16966,7 +16966,7 @@
       "forst,brailey",
       "crane,carter",
       "brown,chloey-rei",
-      null
+      "bryan,lyndi"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -17000,8 +17000,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"brown,chloey-rei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bryan,lyndi",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -17909,7 +17909,7 @@
       "ising,sam",
       "jumawan,zoiey",
       "tietjen,katelyn",
-      null
+      "trejo,taysie"
     ],
     "timeSeconds":91,
     "Poss":"concordia (tx)",
@@ -17931,13 +17931,13 @@
     "homePlayer2":"ising,sam",
     "homePlayer3":"jumawan,zoiey",
     "homePlayer4":"tietjen,katelyn",
-    "homePlayer5":null,
+    "homePlayer5":"trejo,taysie",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"brown,chloey-rei",
     "awayPlayer5":"warner,meredith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -18136,7 +18136,7 @@
       "forst,brailey",
       "brown,chloey-rei",
       "warner,meredith",
-      null
+      "crane,carter"
     ],
     "homeLineup":[
       "martinez,madison",
@@ -18170,8 +18170,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"warner,meredith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"crane,carter",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -18455,7 +18455,7 @@
       "jumawan,zoiey",
       "tietjen,katelyn",
       "hatcher,kiyah",
-      null
+      "martinez,madison"
     ],
     "timeSeconds":67,
     "Poss":"concordia (tx)",
@@ -18477,13 +18477,13 @@
     "homePlayer2":"jumawan,zoiey",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"hatcher,kiyah",
-    "homePlayer5":null,
+    "homePlayer5":"martinez,madison",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"warner,meredith",
     "awayPlayer5":"manuel,megan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -18532,7 +18532,7 @@
       "jumawan,zoiey",
       "tietjen,katelyn",
       "hatcher,kiyah",
-      null,
+      "ising,sam",
       null
     ],
     "timeSeconds":67,
@@ -18554,7 +18554,7 @@
     "homePlayer1":"jumawan,zoiey",
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"hatcher,kiyah",
-    "homePlayer4":null,
+    "homePlayer4":"ising,sam",
     "homePlayer5":null,
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"forst,brailey",
@@ -18611,7 +18611,7 @@
       "tietjen,katelyn",
       "hatcher,kiyah",
       "holmes,aja",
-      null
+      "trejo,taysie"
     ],
     "timeSeconds":67,
     "Poss":"concordia (tx)",
@@ -18633,13 +18633,13 @@
     "homePlayer2":"tietjen,katelyn",
     "homePlayer3":"hatcher,kiyah",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"trejo,taysie",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"warner,meredith",
     "awayPlayer5":"manuel,megan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -19462,6 +19462,84 @@
       "forst,brailey",
       "warner,meredith",
       "manuel,megan",
+      "brown,chloey-rei"
+    ],
+    "homeLineup":[
+      "jumawan,zoiey",
+      "tietjen,katelyn",
+      "hatcher,kiyah",
+      "holmes,aja",
+      "brown,shanna"
+    ],
+    "timeSeconds":18,
+    "Poss":"concordia (tx)",
+    "possNum":34,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"concordia (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":65,
+    "teamChanged":0,
+    "game":"Concordia (TX)Hendrix01\/09\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jumawan,zoiey",
+    "homePlayer2":"tietjen,katelyn",
+    "homePlayer3":"hatcher,kiyah",
+    "homePlayer4":"holmes,aja",
+    "homePlayer5":"brown,shanna",
+    "awayPlayer1":"rowe,brooklyn",
+    "awayPlayer2":"forst,brailey",
+    "awayPlayer3":"warner,meredith",
+    "awayPlayer4":"manuel,megan",
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6648",
+    "homeTeam":"Concordia (TX)",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"67-51",
+    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
+    "homeRecord":"3-10",
+    "awayRecord":"7-5",
+    "homeConfRecord":"0-3",
+    "awayConfRecord":"3-0",
+    "gameDate":"01\/09\/26",
+    "startTime":"12:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Concordia Fieldhouse, Austin, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"104",
+    "isNeutral":"False",
+    "timeRemaining":"00:18",
+    "awayPlay":"SUB OUT by MANUEL,MEGAN",
+    "awayTeamScore":"35 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"18",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MANUEL,MEGAN",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"manuel,megan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "rowe,brooklyn",
+      "forst,brailey",
+      "warner,meredith",
+      "manuel,megan",
       null
     ],
     "homeLineup":[
@@ -19521,84 +19599,6 @@
     "attendance":"104",
     "isNeutral":"False",
     "timeRemaining":"00:18",
-    "awayPlay":"SUB OUT by MANUEL,MEGAN",
-    "awayTeamScore":"35 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"18",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MANUEL,MEGAN",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"manuel,megan",
-    "pointsEarned":"",
-    "awayLineup":[
-      "rowe,brooklyn",
-      "forst,brailey",
-      "warner,meredith",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "jumawan,zoiey",
-      "tietjen,katelyn",
-      "hatcher,kiyah",
-      "holmes,aja",
-      "brown,shanna"
-    ],
-    "timeSeconds":18,
-    "Poss":"concordia (tx)",
-    "possNum":34,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"concordia (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":65,
-    "teamChanged":0,
-    "game":"Concordia (TX)Hendrix01\/09\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jumawan,zoiey",
-    "homePlayer2":"tietjen,katelyn",
-    "homePlayer3":"hatcher,kiyah",
-    "homePlayer4":"holmes,aja",
-    "homePlayer5":"brown,shanna",
-    "awayPlayer1":"rowe,brooklyn",
-    "awayPlayer2":"forst,brailey",
-    "awayPlayer3":"warner,meredith",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6648",
-    "homeTeam":"Concordia (TX)",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"67-51",
-    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
-    "homeRecord":"3-10",
-    "awayRecord":"7-5",
-    "homeConfRecord":"0-3",
-    "awayConfRecord":"3-0",
-    "gameDate":"01\/09\/26",
-    "startTime":"12:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Concordia Fieldhouse, Austin, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"104",
-    "isNeutral":"False",
-    "timeRemaining":"00:18",
     "awayPlay":"SUB OUT by FORST,BRAILEY",
     "awayTeamScore":"35 ",
     "playTeamIndicator":"",
@@ -19616,7 +19616,7 @@
     "awayLineup":[
       "rowe,brooklyn",
       "warner,meredith",
-      null,
+      "forst,brailey",
       null,
       null
     ],
@@ -19650,7 +19650,7 @@
     "homePlayer5":"brown,shanna",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"warner,meredith",
-    "awayPlayer3":null,
+    "awayPlayer3":"forst,brailey",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -19695,7 +19695,7 @@
       "rowe,brooklyn",
       "warner,meredith",
       "cates,bella",
-      null,
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -19729,7 +19729,7 @@
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"warner,meredith",
     "awayPlayer3":"cates,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"forst,brailey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19774,7 +19774,7 @@
       "warner,meredith",
       "cates,bella",
       "bryan,lyndi",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "jumawan,zoiey",
@@ -19808,8 +19808,8 @@
     "awayPlayer2":"warner,meredith",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"bryan,lyndi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -20086,7 +20086,7 @@
       "cates,bella",
       "bryan,lyndi",
       "scott,ava",
-      null
+      "warner,meredith"
     ],
     "homeLineup":[
       "jumawan,zoiey",
@@ -20120,8 +20120,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"bryan,lyndi",
     "awayPlayer4":"scott,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warner,meredith",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -20158,6 +20158,84 @@
     "shotOutcome":"",
     "Team":"hendrix",
     "Player":"bryan,lyndi",
+    "pointsEarned":"",
+    "awayLineup":[
+      "rowe,brooklyn",
+      "cates,bella",
+      "scott,ava",
+      "bryan,lyndi",
+      null
+    ],
+    "homeLineup":[
+      "jumawan,zoiey",
+      "tietjen,katelyn",
+      "hatcher,kiyah",
+      "holmes,aja",
+      "brown,shanna"
+    ],
+    "timeSeconds":600,
+    "Poss":"hendrix",
+    "possNum":35,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":66,
+    "teamChanged":0,
+    "game":"Concordia (TX)Hendrix01\/09\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jumawan,zoiey",
+    "homePlayer2":"tietjen,katelyn",
+    "homePlayer3":"hatcher,kiyah",
+    "homePlayer4":"holmes,aja",
+    "homePlayer5":"brown,shanna",
+    "awayPlayer1":"rowe,brooklyn",
+    "awayPlayer2":"cates,bella",
+    "awayPlayer3":"scott,ava",
+    "awayPlayer4":"bryan,lyndi",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"6648",
+    "homeTeam":"Concordia (TX)",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"67-51",
+    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
+    "homeRecord":"3-10",
+    "awayRecord":"7-5",
+    "homeConfRecord":"0-3",
+    "awayConfRecord":"3-0",
+    "gameDate":"01\/09\/26",
+    "startTime":"12:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Concordia Fieldhouse, Austin, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"104",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by SCOTT,AVA",
+    "awayTeamScore":"35 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"18",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by SCOTT,AVA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"scott,ava",
     "pointsEarned":"",
     "awayLineup":[
       "rowe,brooklyn",
@@ -20223,84 +20301,6 @@
     "attendance":"104",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by SCOTT,AVA",
-    "awayTeamScore":"35 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"18",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by SCOTT,AVA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"scott,ava",
-    "pointsEarned":"",
-    "awayLineup":[
-      "rowe,brooklyn",
-      "cates,bella",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "jumawan,zoiey",
-      "tietjen,katelyn",
-      "hatcher,kiyah",
-      "holmes,aja",
-      "brown,shanna"
-    ],
-    "timeSeconds":600,
-    "Poss":"hendrix",
-    "possNum":35,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":66,
-    "teamChanged":0,
-    "game":"Concordia (TX)Hendrix01\/09\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jumawan,zoiey",
-    "homePlayer2":"tietjen,katelyn",
-    "homePlayer3":"hatcher,kiyah",
-    "homePlayer4":"holmes,aja",
-    "homePlayer5":"brown,shanna",
-    "awayPlayer1":"rowe,brooklyn",
-    "awayPlayer2":"cates,bella",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6648",
-    "homeTeam":"Concordia (TX)",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"67-51",
-    "homeScoreByPeriod":"\nCTX\nConcordia (TX)\n,8,10,11,22,51",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,14,13,19,67",
-    "homeRecord":"3-10",
-    "awayRecord":"7-5",
-    "homeConfRecord":"0-3",
-    "awayConfRecord":"3-0",
-    "gameDate":"01\/09\/26",
-    "startTime":"12:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Concordia Fieldhouse, Austin, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"104",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by BROWN,CHLOEY-REI",
     "awayTeamScore":"35 ",
     "playTeamIndicator":"",
@@ -20319,7 +20319,7 @@
       "rowe,brooklyn",
       "cates,bella",
       "brown,chloey-rei",
-      null,
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -20353,7 +20353,7 @@
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
-    "awayPlayer4":null,
+    "awayPlayer4":"forst,brailey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20398,7 +20398,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "brady,riley",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "jumawan,zoiey",
@@ -20432,8 +20432,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -22277,7 +22277,7 @@
       "hatcher,kiyah",
       "holmes,aja",
       "brown,shanna",
-      null
+      "jumawan,zoiey"
     ],
     "timeSeconds":453,
     "Poss":"concordia (tx)",
@@ -22299,13 +22299,13 @@
     "homePlayer2":"hatcher,kiyah",
     "homePlayer3":"holmes,aja",
     "homePlayer4":"brown,shanna",
-    "homePlayer5":null,
+    "homePlayer5":"jumawan,zoiey",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -22354,7 +22354,7 @@
       "tietjen,katelyn",
       "holmes,aja",
       "brown,shanna",
-      null,
+      "hatcher,kiyah",
       null
     ],
     "timeSeconds":453,
@@ -22376,7 +22376,7 @@
     "homePlayer1":"tietjen,katelyn",
     "homePlayer2":"holmes,aja",
     "homePlayer3":"brown,shanna",
-    "homePlayer4":null,
+    "homePlayer4":"hatcher,kiyah",
     "homePlayer5":null,
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
@@ -22433,7 +22433,7 @@
       "holmes,aja",
       "brown,shanna",
       "trejo,taysie",
-      null
+      "ising,sam"
     ],
     "timeSeconds":453,
     "Poss":"concordia (tx)",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"holmes,aja",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"trejo,taysie",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -22823,7 +22823,7 @@
       "brown,shanna",
       "trejo,taysie",
       "romero,alexa",
-      null
+      "holmes,aja"
     ],
     "timeSeconds":453,
     "Poss":"concordia (tx)",
@@ -22845,13 +22845,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"trejo,taysie",
     "homePlayer4":"romero,alexa",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,aja",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -23206,7 +23206,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "forst,brailey",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "tietjen,katelyn",
@@ -23240,8 +23240,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -23681,7 +23681,7 @@
       "trejo,taysie",
       "romero,alexa",
       "ising,sam",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":387,
     "Poss":"hendrix",
@@ -23703,13 +23703,13 @@
     "homePlayer2":"trejo,taysie",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -24539,7 +24539,7 @@
       "romero,alexa",
       "ising,sam",
       "jumawan,zoiey",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":325,
     "Poss":"concordia (tx)",
@@ -24561,13 +24561,13 @@
     "homePlayer2":"romero,alexa",
     "homePlayer3":"ising,sam",
     "homePlayer4":"jumawan,zoiey",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"rowe,brooklyn",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"crane,carter",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -24688,7 +24688,7 @@
       "cates,bella",
       "forst,brailey",
       "crane,carter",
-      null
+      "brown,chloey-rei"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -24722,8 +24722,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"crane,carter",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -24765,7 +24765,7 @@
       "cates,bella",
       "forst,brailey",
       "crane,carter",
-      null,
+      "rowe,brooklyn",
       null
     ],
     "homeLineup":[
@@ -24799,7 +24799,7 @@
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
-    "awayPlayer4":null,
+    "awayPlayer4":"rowe,brooklyn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24844,7 +24844,7 @@
       "forst,brailey",
       "crane,carter",
       "fernandez,izzy",
-      null
+      "brown,chloey-rei"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -24878,8 +24878,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"fernandez,izzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -25475,7 +25475,7 @@
       "romero,alexa",
       "jumawan,zoiey",
       "wilkinson,alice",
-      null
+      "ising,sam"
     ],
     "timeSeconds":298,
     "Poss":"hendrix",
@@ -25497,13 +25497,13 @@
     "homePlayer2":"romero,alexa",
     "homePlayer3":"jumawan,zoiey",
     "homePlayer4":"wilkinson,alice",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"fernandez,izzy",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -27347,7 +27347,7 @@
       "jumawan,zoiey",
       "wilkinson,alice",
       "holmes,aja",
-      null
+      "trejo,taysie"
     ],
     "timeSeconds":167,
     "Poss":"hendrix",
@@ -27369,13 +27369,13 @@
     "homePlayer2":"jumawan,zoiey",
     "homePlayer3":"wilkinson,alice",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"trejo,taysie",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"fernandez,izzy",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -27424,7 +27424,7 @@
       "romero,alexa",
       "wilkinson,alice",
       "holmes,aja",
-      null,
+      "jumawan,zoiey",
       null
     ],
     "timeSeconds":167,
@@ -27446,7 +27446,7 @@
     "homePlayer1":"romero,alexa",
     "homePlayer2":"wilkinson,alice",
     "homePlayer3":"holmes,aja",
-    "homePlayer4":null,
+    "homePlayer4":"jumawan,zoiey",
     "homePlayer5":null,
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"forst,brailey",
@@ -27503,7 +27503,7 @@
       "wilkinson,alice",
       "holmes,aja",
       "brown,shanna",
-      null
+      "trejo,taysie"
     ],
     "timeSeconds":167,
     "Poss":"hendrix",
@@ -27525,13 +27525,13 @@
     "homePlayer2":"wilkinson,alice",
     "homePlayer3":"holmes,aja",
     "homePlayer4":"brown,shanna",
-    "homePlayer5":null,
+    "homePlayer5":"trejo,taysie",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"fernandez,izzy",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -27808,7 +27808,7 @@
       "crane,carter",
       "fernandez,izzy",
       "edmonson,natalie",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "romero,alexa",
@@ -27842,8 +27842,8 @@
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"fernandez,izzy",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -28361,7 +28361,7 @@
       "wilkinson,alice",
       "brown,shanna",
       "martinez,madison",
-      null
+      "holmes,aja"
     ],
     "timeSeconds":153,
     "Poss":"hendrix",
@@ -28383,13 +28383,13 @@
     "homePlayer2":"wilkinson,alice",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"martinez,madison",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,aja",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"fernandez,izzy",
     "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":"brown,chloey-rei",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -29446,7 +29446,7 @@
       "crane,carter",
       "edmonson,natalie",
       "brown,chloey-rei",
-      null
+      "fernandez,izzy"
     ],
     "homeLineup":[
       "romero,alexa",
@@ -29480,8 +29480,8 @@
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"brown,chloey-rei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fernandez,izzy",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -29992,7 +29992,7 @@
       "crane,carter",
       "edmonson,natalie",
       "manuel,megan",
-      null
+      "brown,chloey-rei"
     ],
     "homeLineup":[
       "romero,alexa",
@@ -30026,8 +30026,8 @@
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"manuel,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -30701,7 +30701,7 @@
       "brown,shanna",
       "martinez,madison",
       "ising,sam",
-      null
+      "romero,alexa"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -30723,13 +30723,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"martinez,madison",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"romero,alexa",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"manuel,megan",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -30778,7 +30778,7 @@
       "wilkinson,alice",
       "brown,shanna",
       "ising,sam",
-      null,
+      "martinez,madison",
       null
     ],
     "timeSeconds":600,
@@ -30800,7 +30800,7 @@
     "homePlayer1":"wilkinson,alice",
     "homePlayer2":"brown,shanna",
     "homePlayer3":"ising,sam",
-    "homePlayer4":null,
+    "homePlayer4":"martinez,madison",
     "homePlayer5":null,
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"crane,carter",
@@ -30857,7 +30857,7 @@
       "brown,shanna",
       "ising,sam",
       "trejo,taysie",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -30879,13 +30879,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"ising,sam",
     "homePlayer4":"trejo,taysie",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"manuel,megan",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -31006,7 +31006,7 @@
       "crane,carter",
       "edmonson,natalie",
       "cates,bella",
-      null
+      "manuel,megan"
     ],
     "homeLineup":[
       "wilkinson,alice",
@@ -31040,8 +31040,8 @@
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manuel,megan",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -31083,7 +31083,7 @@
       "forst,brailey",
       "crane,carter",
       "cates,bella",
-      null,
+      "edmonson,natalie",
       null
     ],
     "homeLineup":[
@@ -31117,7 +31117,7 @@
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"cates,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31160,7 +31160,7 @@
     "awayLineup":[
       "forst,brailey",
       "cates,bella",
-      null,
+      "crane,carter",
       null,
       null
     ],
@@ -31194,7 +31194,7 @@
     "homePlayer5":"hatcher,kiyah",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
-    "awayPlayer3":null,
+    "awayPlayer3":"crane,carter",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -31239,7 +31239,7 @@
       "forst,brailey",
       "cates,bella",
       "brown,chloey-rei",
-      null,
+      "brady,riley",
       null
     ],
     "homeLineup":[
@@ -31273,7 +31273,7 @@
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
-    "awayPlayer4":null,
+    "awayPlayer4":"brady,riley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31318,7 +31318,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "brady,riley",
-      null
+      "rowe,brooklyn"
     ],
     "homeLineup":[
       "wilkinson,alice",
@@ -31352,8 +31352,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rowe,brooklyn",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -32807,7 +32807,7 @@
       "brown,shanna",
       "ising,sam",
       "trejo,taysie",
-      null
+      "hatcher,kiyah"
     ],
     "timeSeconds":492,
     "Poss":"hendrix",
@@ -32829,13 +32829,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"ising,sam",
     "homePlayer4":"trejo,taysie",
-    "homePlayer5":null,
+    "homePlayer5":"hatcher,kiyah",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"rowe,brooklyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -34133,7 +34133,7 @@
       "ising,sam",
       "trejo,taysie",
       "romero,alexa",
-      null
+      "brown,shanna"
     ],
     "timeSeconds":427,
     "Poss":"hendrix",
@@ -34155,13 +34155,13 @@
     "homePlayer2":"ising,sam",
     "homePlayer3":"trejo,taysie",
     "homePlayer4":"romero,alexa",
-    "homePlayer5":null,
+    "homePlayer5":"brown,shanna",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"rowe,brooklyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -34282,7 +34282,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "brady,riley",
-      null
+      "rowe,brooklyn"
     ],
     "homeLineup":[
       "wilkinson,alice",
@@ -34316,8 +34316,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rowe,brooklyn",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -35147,7 +35147,7 @@
       "ising,sam",
       "trejo,taysie",
       "romero,alexa",
-      null
+      "jumawan,zoiey"
     ],
     "timeSeconds":373,
     "Poss":"concordia (tx)",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"ising,sam",
     "homePlayer3":"trejo,taysie",
     "homePlayer4":"romero,alexa",
-    "homePlayer5":null,
+    "homePlayer5":"jumawan,zoiey",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -35537,7 +35537,7 @@
       "trejo,taysie",
       "romero,alexa",
       "brown,shanna",
-      null
+      "ising,sam"
     ],
     "timeSeconds":339,
     "Poss":"hendrix",
@@ -35559,13 +35559,13 @@
     "homePlayer2":"trejo,taysie",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"brown,shanna",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -35849,7 +35849,7 @@
       "romero,alexa",
       "brown,shanna",
       "holmes,aja",
-      null
+      "wilkinson,alice"
     ],
     "timeSeconds":339,
     "Poss":"hendrix",
@@ -35871,13 +35871,13 @@
     "homePlayer2":"romero,alexa",
     "homePlayer3":"brown,shanna",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"wilkinson,alice",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -36161,7 +36161,7 @@
       "brown,shanna",
       "holmes,aja",
       "tietjen,katelyn",
-      null
+      "romero,alexa"
     ],
     "timeSeconds":310,
     "Poss":"hendrix",
@@ -36183,13 +36183,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"holmes,aja",
     "homePlayer4":"tietjen,katelyn",
-    "homePlayer5":null,
+    "homePlayer5":"romero,alexa",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -36238,7 +36238,7 @@
       "trejo,taysie",
       "brown,shanna",
       "tietjen,katelyn",
-      null,
+      "holmes,aja",
       null
     ],
     "timeSeconds":310,
@@ -36260,7 +36260,7 @@
     "homePlayer1":"trejo,taysie",
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
-    "homePlayer4":null,
+    "homePlayer4":"holmes,aja",
     "homePlayer5":null,
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
@@ -36317,7 +36317,7 @@
       "brown,shanna",
       "tietjen,katelyn",
       "hatcher,kiyah",
-      null
+      "ising,sam"
     ],
     "timeSeconds":310,
     "Poss":"hendrix",
@@ -36339,13 +36339,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"hatcher,kiyah",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -36863,7 +36863,7 @@
       "brown,shanna",
       "tietjen,katelyn",
       "hatcher,kiyah",
-      null
+      "ising,sam"
     ],
     "timeSeconds":286,
     "Poss":"hendrix",
@@ -36885,13 +36885,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"hatcher,kiyah",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -37019,7 +37019,7 @@
       "brown,shanna",
       "tietjen,katelyn",
       "holmes,aja",
-      null
+      "hatcher,kiyah"
     ],
     "timeSeconds":286,
     "Poss":"hendrix",
@@ -37041,13 +37041,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"hatcher,kiyah",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -37955,7 +37955,7 @@
       "brown,shanna",
       "tietjen,katelyn",
       "holmes,aja",
-      null
+      "jumawan,zoiey"
     ],
     "timeSeconds":186,
     "Poss":"hendrix",
@@ -37977,13 +37977,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"holmes,aja",
-    "homePlayer5":null,
+    "homePlayer5":"jumawan,zoiey",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -38267,7 +38267,7 @@
       "brown,shanna",
       "tietjen,katelyn",
       "romero,alexa",
-      null
+      "holmes,aja"
     ],
     "timeSeconds":186,
     "Poss":"hendrix",
@@ -38289,13 +38289,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"romero,alexa",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,aja",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -38501,7 +38501,7 @@
       "brown,shanna",
       "romero,alexa",
       "ising,sam",
-      null
+      "tietjen,katelyn"
     ],
     "timeSeconds":176,
     "Poss":"concordia (tx)",
@@ -38523,13 +38523,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"tietjen,katelyn",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -39983,7 +39983,7 @@
       "brown,shanna",
       "romero,alexa",
       "ising,sam",
-      null
+      "wilkinson,alice"
     ],
     "timeSeconds":91,
     "Poss":"hendrix",
@@ -40005,13 +40005,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"ising,sam",
-    "homePlayer5":null,
+    "homePlayer5":"wilkinson,alice",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -40132,7 +40132,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "edmonson,natalie",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -40166,8 +40166,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"brown,chloey-rei",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -40209,7 +40209,7 @@
       "cates,bella",
       "brown,chloey-rei",
       "edmonson,natalie",
-      null,
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -40243,7 +40243,7 @@
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"brown,chloey-rei",
     "awayPlayer3":"edmonson,natalie",
-    "awayPlayer4":null,
+    "awayPlayer4":"forst,brailey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40288,7 +40288,7 @@
       "brown,chloey-rei",
       "edmonson,natalie",
       "crane,carter",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -40322,8 +40322,8 @@
     "awayPlayer2":"brown,chloey-rei",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"crane,carter",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -40678,7 +40678,7 @@
       "edmonson,natalie",
       "crane,carter",
       "kestner,olivia",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -40712,8 +40712,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"crane,carter",
     "awayPlayer4":"kestner,olivia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -40755,7 +40755,7 @@
       "brown,chloey-rei",
       "crane,carter",
       "kestner,olivia",
-      null,
+      "edmonson,natalie",
       null
     ],
     "homeLineup":[
@@ -40789,7 +40789,7 @@
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"kestner,olivia",
-    "awayPlayer4":null,
+    "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40834,7 +40834,7 @@
       "crane,carter",
       "kestner,olivia",
       "davis,marlena",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "trejo,taysie",
@@ -40868,8 +40868,8 @@
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"kestner,olivia",
     "awayPlayer4":"davis,marlena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -41153,7 +41153,7 @@
       "brown,shanna",
       "romero,alexa",
       "tietjen,katelyn",
-      null
+      "ising,sam"
     ],
     "timeSeconds":74,
     "Poss":"hendrix",
@@ -41175,13 +41175,13 @@
     "homePlayer2":"brown,shanna",
     "homePlayer3":"romero,alexa",
     "homePlayer4":"tietjen,katelyn",
-    "homePlayer5":null,
+    "homePlayer5":"ising,sam",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"kestner,olivia",
     "awayPlayer4":"davis,marlena",
     "awayPlayer5":"bryan,lyndi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -42167,7 +42167,7 @@
       "romero,alexa",
       "tietjen,katelyn",
       "wright,kimora",
-      null
+      "trejo,taysie"
     ],
     "timeSeconds":51,
     "Poss":"hendrix",
@@ -42189,13 +42189,13 @@
     "homePlayer2":"romero,alexa",
     "homePlayer3":"tietjen,katelyn",
     "homePlayer4":"wright,kimora",
-    "homePlayer5":null,
+    "homePlayer5":"trejo,taysie",
     "awayPlayer1":"brown,chloey-rei",
     "awayPlayer2":"crane,carter",
     "awayPlayer3":"kestner,olivia",
     "awayPlayer4":"davis,marlena",
     "awayPlayer5":"bryan,lyndi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -42472,7 +42472,7 @@
       "kestner,olivia",
       "davis,marlena",
       "bryan,lyndi",
-      null
+      "brown,chloey-rei"
     ],
     "homeLineup":[
       "brown,shanna",
@@ -42506,8 +42506,8 @@
     "awayPlayer2":"kestner,olivia",
     "awayPlayer3":"davis,marlena",
     "awayPlayer4":"bryan,lyndi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brown,chloey-rei",
+    "playerMissing":0
   },
   {
     "gameID":"6648",
@@ -42549,7 +42549,7 @@
       "kestner,olivia",
       "davis,marlena",
       "bryan,lyndi",
-      null,
+      "crane,carter",
       null
     ],
     "homeLineup":[
@@ -42583,7 +42583,7 @@
     "awayPlayer1":"kestner,olivia",
     "awayPlayer2":"davis,marlena",
     "awayPlayer3":"bryan,lyndi",
-    "awayPlayer4":null,
+    "awayPlayer4":"crane,carter",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -42628,7 +42628,7 @@
       "davis,marlena",
       "bryan,lyndi",
       "fernandez,izzy",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "brown,shanna",
@@ -42662,8 +42662,8 @@
     "awayPlayer2":"davis,marlena",
     "awayPlayer3":"bryan,lyndi",
     "awayPlayer4":"fernandez,izzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"6648",

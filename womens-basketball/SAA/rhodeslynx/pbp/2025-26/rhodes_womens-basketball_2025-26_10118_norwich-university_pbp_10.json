@@ -2770,7 +2770,7 @@
       "briggs,lily",
       "o'brien,kiley",
       "zimmerman,jessie",
-      null
+      "chalmers,mallorie"
     ],
     "homeLineup":[
       "bongiovanni,alyssa",
@@ -2804,8 +2804,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'brien,kiley",
     "awayPlayer4":"zimmerman,jessie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chalmers,mallorie",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -2847,7 +2847,7 @@
       "o'donnell,siobhan",
       "o'brien,kiley",
       "zimmerman,jessie",
-      null,
+      "briggs,lily",
       null
     ],
     "homeLineup":[
@@ -2881,7 +2881,7 @@
     "awayPlayer1":"o'donnell,siobhan",
     "awayPlayer2":"o'brien,kiley",
     "awayPlayer3":"zimmerman,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"briggs,lily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2920,6 +2920,84 @@
     "shotOutcome":"",
     "Team":"norwich",
     "Player":"o'donnell,siobhan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "o'brien,kiley",
+      "zimmerman,jessie",
+      "o'donnell,siobhan",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "bongiovanni,alyssa",
+      "mckown,mackenzie",
+      "marsh,avery",
+      "vlahakos,giana",
+      "milam,ac"
+    ],
+    "timeSeconds":332,
+    "Poss":"rhodes",
+    "possNum":8,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":17,
+    "teamChanged":0,
+    "game":"RhodesNorwich12\/19\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"bongiovanni,alyssa",
+    "homePlayer2":"mckown,mackenzie",
+    "homePlayer3":"marsh,avery",
+    "homePlayer4":"vlahakos,giana",
+    "homePlayer5":"milam,ac",
+    "awayPlayer1":"o'brien,kiley",
+    "awayPlayer2":"zimmerman,jessie",
+    "awayPlayer3":"o'donnell,siobhan",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"10118",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Norwich",
+    "saaGame":"0",
+    "finalScore":"64-69",
+    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,17,21,18,13,69",
+    "awayScoreByPeriod":"\nNor\nNorwich\n,19,12,16,17,64",
+    "homeRecord":"4-6",
+    "awayRecord":"4-6",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/19\/25",
+    "startTime":"11:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Baruch College ARC Arena, New York, NY",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"227",
+    "isNeutral":"False",
+    "timeRemaining":"05:32",
+    "awayPlay":"SUB OUT by ZIMMERMAN,JESSIE",
+    "awayTeamScore":"6",
+    "playTeamIndicator":"",
+    "homeTeamScore":"9 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by ZIMMERMAN,JESSIE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"norwich",
+    "Player":"zimmerman,jessie",
     "pointsEarned":"",
     "awayLineup":[
       "o'brien,kiley",
@@ -2985,84 +3063,6 @@
     "attendance":"227",
     "isNeutral":"False",
     "timeRemaining":"05:32",
-    "awayPlay":"SUB OUT by ZIMMERMAN,JESSIE",
-    "awayTeamScore":"6",
-    "playTeamIndicator":"",
-    "homeTeamScore":"9 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ZIMMERMAN,JESSIE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"norwich",
-    "Player":"zimmerman,jessie",
-    "pointsEarned":"",
-    "awayLineup":[
-      "o'brien,kiley",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "bongiovanni,alyssa",
-      "mckown,mackenzie",
-      "marsh,avery",
-      "vlahakos,giana",
-      "milam,ac"
-    ],
-    "timeSeconds":332,
-    "Poss":"rhodes",
-    "possNum":8,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":17,
-    "teamChanged":0,
-    "game":"RhodesNorwich12\/19\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"bongiovanni,alyssa",
-    "homePlayer2":"mckown,mackenzie",
-    "homePlayer3":"marsh,avery",
-    "homePlayer4":"vlahakos,giana",
-    "homePlayer5":"milam,ac",
-    "awayPlayer1":"o'brien,kiley",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"10118",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Norwich",
-    "saaGame":"0",
-    "finalScore":"64-69",
-    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,17,21,18,13,69",
-    "awayScoreByPeriod":"\nNor\nNorwich\n,19,12,16,17,64",
-    "homeRecord":"4-6",
-    "awayRecord":"4-6",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/19\/25",
-    "startTime":"11:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Baruch College ARC Arena, New York, NY",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"227",
-    "isNeutral":"False",
-    "timeRemaining":"05:32",
     "awayPlay":"SUB IN by ELLSWORTH,MAGGI",
     "awayTeamScore":"6",
     "playTeamIndicator":"",
@@ -3080,7 +3080,7 @@
     "awayLineup":[
       "o'brien,kiley",
       "ellsworth,maggi",
-      null,
+      "kittredge,cassidy",
       null,
       null
     ],
@@ -3114,7 +3114,7 @@
     "homePlayer5":"milam,ac",
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"ellsworth,maggi",
-    "awayPlayer3":null,
+    "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3159,7 +3159,7 @@
       "o'brien,kiley",
       "ellsworth,maggi",
       "kittredge,cassidy",
-      null,
+      "briggs,lily",
       null
     ],
     "homeLineup":[
@@ -3193,7 +3193,7 @@
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"kittredge,cassidy",
-    "awayPlayer4":null,
+    "awayPlayer4":"briggs,lily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3238,7 +3238,7 @@
       "ellsworth,maggi",
       "kittredge,cassidy",
       "garceau,jade",
-      null
+      "briggs,lily"
     ],
     "homeLineup":[
       "bongiovanni,alyssa",
@@ -3272,8 +3272,8 @@
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":"garceau,jade",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"briggs,lily",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -5507,7 +5507,7 @@
       "mckown,mackenzie",
       "marsh,avery",
       "vlahakos,giana",
-      null
+      "milam,ac"
     ],
     "timeSeconds":156,
     "Poss":"rhodes",
@@ -5529,13 +5529,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":"garceau,jade",
     "awayPlayer5":"laster,gracie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -5584,7 +5584,7 @@
       "mckown,mackenzie",
       "marsh,avery",
       "vlahakos,giana",
-      null,
+      "bongiovanni,alyssa",
       null
     ],
     "timeSeconds":156,
@@ -5606,7 +5606,7 @@
     "homePlayer1":"mckown,mackenzie",
     "homePlayer2":"marsh,avery",
     "homePlayer3":"vlahakos,giana",
-    "homePlayer4":null,
+    "homePlayer4":"bongiovanni,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"ellsworth,maggi",
@@ -5663,7 +5663,7 @@
       "marsh,avery",
       "vlahakos,giana",
       "howell,juliet",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":156,
     "Poss":"rhodes",
@@ -5685,13 +5685,13 @@
     "homePlayer2":"marsh,avery",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":"garceau,jade",
     "awayPlayer5":"laster,gracie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -5812,7 +5812,7 @@
       "kittredge,cassidy",
       "garceau,jade",
       "laster,gracie",
-      null
+      "o'brien,kiley"
     ],
     "homeLineup":[
       "mckown,mackenzie",
@@ -5846,8 +5846,8 @@
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'brien,kiley",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -6131,7 +6131,7 @@
       "marsh,avery",
       "howell,juliet",
       "griffith,audrey",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":156,
     "Poss":"rhodes",
@@ -6153,13 +6153,13 @@
     "homePlayer2":"marsh,avery",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"collins,eleonore",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -7457,7 +7457,7 @@
       "howell,juliet",
       "griffith,audrey",
       "willingham,kelsey",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":18,
     "Poss":"norwich",
@@ -7479,13 +7479,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"collins,eleonore",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -7996,7 +7996,7 @@
       "garceau,jade",
       "laster,gracie",
       "collins,eleonore",
-      null
+      "ellsworth,maggi"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -8030,8 +8030,8 @@
     "awayPlayer2":"garceau,jade",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"collins,eleonore",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ellsworth,maggi",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -8073,7 +8073,7 @@
       "garceau,jade",
       "laster,gracie",
       "collins,eleonore",
-      null,
+      "kittredge,cassidy",
       null
     ],
     "homeLineup":[
@@ -8107,7 +8107,7 @@
     "awayPlayer1":"garceau,jade",
     "awayPlayer2":"laster,gracie",
     "awayPlayer3":"collins,eleonore",
-    "awayPlayer4":null,
+    "awayPlayer4":"kittredge,cassidy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8150,7 +8150,7 @@
     "awayLineup":[
       "laster,gracie",
       "collins,eleonore",
-      null,
+      "garceau,jade",
       null,
       null
     ],
@@ -8184,7 +8184,7 @@
     "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"laster,gracie",
     "awayPlayer2":"collins,eleonore",
-    "awayPlayer3":null,
+    "awayPlayer3":"garceau,jade",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -8227,7 +8227,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "collins,eleonore",
-      null,
+      "laster,gracie",
       null,
       null,
       null
@@ -8261,7 +8261,7 @@
     "homePlayer4":"willingham,kelsey",
     "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"collins,eleonore",
-    "awayPlayer2":null,
+    "awayPlayer2":"laster,gracie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -8383,7 +8383,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "chalmers,mallorie",
-      null,
+      "kittredge,cassidy",
       null,
       null,
       null
@@ -8417,7 +8417,7 @@
     "homePlayer4":"willingham,kelsey",
     "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"chalmers,mallorie",
-    "awayPlayer2":null,
+    "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -8462,7 +8462,7 @@
     "awayLineup":[
       "chalmers,mallorie",
       "briggs,lily",
-      null,
+      "kittredge,cassidy",
       null,
       null
     ],
@@ -8496,7 +8496,7 @@
     "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"chalmers,mallorie",
     "awayPlayer2":"briggs,lily",
-    "awayPlayer3":null,
+    "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -8541,7 +8541,7 @@
       "chalmers,mallorie",
       "briggs,lily",
       "o'donnell,siobhan",
-      null,
+      "kittredge,cassidy",
       null
     ],
     "homeLineup":[
@@ -8575,7 +8575,7 @@
     "awayPlayer1":"chalmers,mallorie",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
-    "awayPlayer4":null,
+    "awayPlayer4":"kittredge,cassidy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8620,7 +8620,7 @@
       "briggs,lily",
       "o'donnell,siobhan",
       "zimmerman,jessie",
-      null
+      "kittredge,cassidy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -8654,8 +8654,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"zimmerman,jessie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kittredge,cassidy",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -9797,7 +9797,7 @@
       "howell,juliet",
       "willingham,kelsey",
       "bongiovanni,alyssa",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":518,
     "Poss":"rhodes",
@@ -9819,13 +9819,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"chalmers,mallorie",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"zimmerman,jessie",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -11201,7 +11201,7 @@
       "howell,juliet",
       "willingham,kelsey",
       "mckown,mackenzie",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":452,
     "Poss":"rhodes",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"chalmers,mallorie",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"zimmerman,jessie",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -11350,7 +11350,7 @@
       "o'donnell,siobhan",
       "zimmerman,jessie",
       "o'brien,kiley",
-      null
+      "briggs,lily"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -11384,8 +11384,8 @@
     "awayPlayer2":"o'donnell,siobhan",
     "awayPlayer3":"zimmerman,jessie",
     "awayPlayer4":"o'brien,kiley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"briggs,lily",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -12208,7 +12208,7 @@
       "zimmerman,jessie",
       "o'brien,kiley",
       "kittredge,cassidy",
-      null
+      "chalmers,mallorie"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -12242,8 +12242,8 @@
     "awayPlayer2":"zimmerman,jessie",
     "awayPlayer3":"o'brien,kiley",
     "awayPlayer4":"kittredge,cassidy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chalmers,mallorie",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -12285,7 +12285,7 @@
       "zimmerman,jessie",
       "o'brien,kiley",
       "kittredge,cassidy",
-      null,
+      "o'donnell,siobhan",
       null
     ],
     "homeLineup":[
@@ -12319,7 +12319,7 @@
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"o'brien,kiley",
     "awayPlayer3":"kittredge,cassidy",
-    "awayPlayer4":null,
+    "awayPlayer4":"o'donnell,siobhan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12362,7 +12362,7 @@
     "awayLineup":[
       "o'brien,kiley",
       "kittredge,cassidy",
-      null,
+      "zimmerman,jessie",
       null,
       null
     ],
@@ -12396,7 +12396,7 @@
     "homePlayer5":"milam,ac",
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"kittredge,cassidy",
-    "awayPlayer3":null,
+    "awayPlayer3":"zimmerman,jessie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -12441,7 +12441,7 @@
       "o'brien,kiley",
       "kittredge,cassidy",
       "ellsworth,maggi",
-      null,
+      "briggs,lily",
       null
     ],
     "homeLineup":[
@@ -12475,7 +12475,7 @@
     "awayPlayer1":"o'brien,kiley",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"ellsworth,maggi",
-    "awayPlayer4":null,
+    "awayPlayer4":"briggs,lily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12520,7 +12520,7 @@
       "kittredge,cassidy",
       "ellsworth,maggi",
       "garceau,jade",
-      null
+      "briggs,lily"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -12554,8 +12554,8 @@
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"ellsworth,maggi",
     "awayPlayer4":"garceau,jade",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"briggs,lily",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -13222,7 +13222,7 @@
       "ellsworth,maggi",
       "garceau,jade",
       "collins,eleonore",
-      null
+      "o'brien,kiley"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -13256,8 +13256,8 @@
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"collins,eleonore",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'brien,kiley",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -14009,7 +14009,7 @@
       "howell,juliet",
       "mckown,mackenzie",
       "milam,ac",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":287,
     "Poss":"norwich",
@@ -14031,13 +14031,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"collins,eleonore",
     "awayPlayer5":"laster,gracie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -14477,7 +14477,7 @@
       "howell,juliet",
       "milam,ac",
       "vlahakos,giana",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":270,
     "Poss":"rhodes",
@@ -14499,13 +14499,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"milam,ac",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"collins,eleonore",
     "awayPlayer5":"laster,gracie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -14554,7 +14554,7 @@
       "marsh,avery",
       "milam,ac",
       "vlahakos,giana",
-      null,
+      "howell,juliet",
       null
     ],
     "timeSeconds":270,
@@ -14576,7 +14576,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"milam,ac",
     "homePlayer3":"vlahakos,giana",
-    "homePlayer4":null,
+    "homePlayer4":"howell,juliet",
     "homePlayer5":null,
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
@@ -14633,7 +14633,7 @@
       "milam,ac",
       "vlahakos,giana",
       "tobin,annabelle",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":270,
     "Poss":"rhodes",
@@ -14655,13 +14655,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"tobin,annabelle",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"collins,eleonore",
     "awayPlayer5":"laster,gracie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -15640,7 +15640,7 @@
       "ellsworth,maggi",
       "garceau,jade",
       "laster,gracie",
-      null
+      "collins,eleonore"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"collins,eleonore",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -17519,7 +17519,7 @@
       "vlahakos,giana",
       "tobin,annabelle",
       "bongiovanni,alyssa",
-      null
+      "milam,ac"
     ],
     "timeSeconds":151,
     "Poss":"norwich",
@@ -17541,13 +17541,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"tobin,annabelle",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"zimmerman,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -19469,7 +19469,7 @@
       "vlahakos,giana",
       "bongiovanni,alyssa",
       "howell,juliet",
-      null
+      "tobin,annabelle"
     ],
     "timeSeconds":600,
     "Poss":"norwich",
@@ -19491,13 +19491,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"tobin,annabelle",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"zimmerman,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -19546,7 +19546,7 @@
       "marsh,avery",
       "vlahakos,giana",
       "bongiovanni,alyssa",
-      null,
+      "howell,juliet",
       null
     ],
     "timeSeconds":600,
@@ -19568,7 +19568,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"bongiovanni,alyssa",
-    "homePlayer4":null,
+    "homePlayer4":"howell,juliet",
     "homePlayer5":null,
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
@@ -19625,7 +19625,7 @@
       "vlahakos,giana",
       "bongiovanni,alyssa",
       "mckown,mackenzie",
-      null
+      "milam,ac"
     ],
     "timeSeconds":600,
     "Poss":"norwich",
@@ -19647,13 +19647,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"zimmerman,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -19774,7 +19774,7 @@
       "garceau,jade",
       "laster,gracie",
       "zimmerman,jessie",
-      null
+      "ellsworth,maggi"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -19808,8 +19808,8 @@
     "awayPlayer2":"garceau,jade",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"zimmerman,jessie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ellsworth,maggi",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -19851,7 +19851,7 @@
       "garceau,jade",
       "laster,gracie",
       "zimmerman,jessie",
-      null,
+      "kittredge,cassidy",
       null
     ],
     "homeLineup":[
@@ -19885,7 +19885,7 @@
     "awayPlayer1":"garceau,jade",
     "awayPlayer2":"laster,gracie",
     "awayPlayer3":"zimmerman,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"kittredge,cassidy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19928,7 +19928,7 @@
     "awayLineup":[
       "laster,gracie",
       "zimmerman,jessie",
-      null,
+      "garceau,jade",
       null,
       null
     ],
@@ -19962,7 +19962,7 @@
     "homePlayer5":"milam,ac",
     "awayPlayer1":"laster,gracie",
     "awayPlayer2":"zimmerman,jessie",
-    "awayPlayer3":null,
+    "awayPlayer3":"garceau,jade",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -20005,7 +20005,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "zimmerman,jessie",
-      null,
+      "laster,gracie",
       null,
       null,
       null
@@ -20039,7 +20039,7 @@
     "homePlayer4":"mckown,mackenzie",
     "homePlayer5":"milam,ac",
     "awayPlayer1":"zimmerman,jessie",
-    "awayPlayer2":null,
+    "awayPlayer2":"laster,gracie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -20084,7 +20084,7 @@
     "awayLineup":[
       "zimmerman,jessie",
       "chalmers,mallorie",
-      null,
+      "kittredge,cassidy",
       null,
       null
     ],
@@ -20118,7 +20118,7 @@
     "homePlayer5":"milam,ac",
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
-    "awayPlayer3":null,
+    "awayPlayer3":"kittredge,cassidy",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -20163,7 +20163,7 @@
       "zimmerman,jessie",
       "chalmers,mallorie",
       "briggs,lily",
-      null,
+      "kittredge,cassidy",
       null
     ],
     "homeLineup":[
@@ -20197,7 +20197,7 @@
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
     "awayPlayer3":"briggs,lily",
-    "awayPlayer4":null,
+    "awayPlayer4":"kittredge,cassidy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20242,7 +20242,7 @@
       "chalmers,mallorie",
       "briggs,lily",
       "o'donnell,siobhan",
-      null
+      "kittredge,cassidy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -20276,8 +20276,8 @@
     "awayPlayer2":"chalmers,mallorie",
     "awayPlayer3":"briggs,lily",
     "awayPlayer4":"o'donnell,siobhan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kittredge,cassidy",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -23837,7 +23837,7 @@
       "vlahakos,giana",
       "bongiovanni,alyssa",
       "mckown,mackenzie",
-      null
+      "milam,ac"
     ],
     "timeSeconds":288,
     "Poss":"rhodes",
@@ -23859,13 +23859,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
     "awayPlayer3":"briggs,lily",
     "awayPlayer4":"o'donnell,siobhan",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -23914,7 +23914,7 @@
       "marsh,avery",
       "vlahakos,giana",
       "mckown,mackenzie",
-      null,
+      "bongiovanni,alyssa",
       null
     ],
     "timeSeconds":288,
@@ -23936,7 +23936,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"mckown,mackenzie",
-    "homePlayer4":null,
+    "homePlayer4":"bongiovanni,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
@@ -23991,7 +23991,7 @@
     "homeLineup":[
       "marsh,avery",
       "mckown,mackenzie",
-      null,
+      "vlahakos,giana",
       null,
       null
     ],
@@ -24013,7 +24013,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"marsh,avery",
     "homePlayer2":"mckown,mackenzie",
-    "homePlayer3":null,
+    "homePlayer3":"vlahakos,giana",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"zimmerman,jessie",
@@ -24070,7 +24070,7 @@
       "marsh,avery",
       "mckown,mackenzie",
       "willingham,kelsey",
-      null,
+      "bongiovanni,alyssa",
       null
     ],
     "timeSeconds":288,
@@ -24092,7 +24092,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"willingham,kelsey",
-    "homePlayer4":null,
+    "homePlayer4":"bongiovanni,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
@@ -24149,7 +24149,7 @@
       "mckown,mackenzie",
       "willingham,kelsey",
       "tobin,annabelle",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":288,
     "Poss":"rhodes",
@@ -24171,13 +24171,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"tobin,annabelle",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"chalmers,mallorie",
     "awayPlayer3":"briggs,lily",
     "awayPlayer4":"o'donnell,siobhan",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -24298,7 +24298,7 @@
       "briggs,lily",
       "o'donnell,siobhan",
       "o'brien,kiley",
-      null
+      "chalmers,mallorie"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -24332,8 +24332,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"o'brien,kiley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chalmers,mallorie",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -24375,7 +24375,7 @@
       "zimmerman,jessie",
       "o'donnell,siobhan",
       "o'brien,kiley",
-      null,
+      "briggs,lily",
       null
     ],
     "homeLineup":[
@@ -24409,7 +24409,7 @@
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"o'donnell,siobhan",
     "awayPlayer3":"o'brien,kiley",
-    "awayPlayer4":null,
+    "awayPlayer4":"briggs,lily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24452,7 +24452,7 @@
     "awayLineup":[
       "zimmerman,jessie",
       "o'brien,kiley",
-      null,
+      "o'donnell,siobhan",
       null,
       null
     ],
@@ -24486,7 +24486,7 @@
     "homePlayer5":"howell,juliet",
     "awayPlayer1":"zimmerman,jessie",
     "awayPlayer2":"o'brien,kiley",
-    "awayPlayer3":null,
+    "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24529,7 +24529,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "o'brien,kiley",
-      null,
+      "zimmerman,jessie",
       null,
       null,
       null
@@ -24563,7 +24563,7 @@
     "homePlayer4":"tobin,annabelle",
     "homePlayer5":"howell,juliet",
     "awayPlayer1":"o'brien,kiley",
-    "awayPlayer2":null,
+    "awayPlayer2":"zimmerman,jessie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -24685,7 +24685,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "ellsworth,maggi",
-      null,
+      "kittredge,cassidy",
       null,
       null,
       null
@@ -24719,7 +24719,7 @@
     "homePlayer4":"tobin,annabelle",
     "homePlayer5":"howell,juliet",
     "awayPlayer1":"ellsworth,maggi",
-    "awayPlayer2":null,
+    "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -24764,7 +24764,7 @@
     "awayLineup":[
       "ellsworth,maggi",
       "kittredge,cassidy",
-      null,
+      "briggs,lily",
       null,
       null
     ],
@@ -24798,7 +24798,7 @@
     "homePlayer5":"howell,juliet",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
-    "awayPlayer3":null,
+    "awayPlayer3":"briggs,lily",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24843,7 +24843,7 @@
       "ellsworth,maggi",
       "kittredge,cassidy",
       "garceau,jade",
-      null,
+      "briggs,lily",
       null
     ],
     "homeLineup":[
@@ -24877,7 +24877,7 @@
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
-    "awayPlayer4":null,
+    "awayPlayer4":"briggs,lily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24922,7 +24922,7 @@
       "kittredge,cassidy",
       "garceau,jade",
       "laster,gracie",
-      null
+      "briggs,lily"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -24956,8 +24956,8 @@
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"briggs,lily",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -26567,7 +26567,7 @@
       "mckown,mackenzie",
       "willingham,kelsey",
       "howell,juliet",
-      null
+      "tobin,annabelle"
     ],
     "timeSeconds":108,
     "Poss":"norwich",
@@ -26589,13 +26589,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"tobin,annabelle",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"garceau,jade",
     "awayPlayer4":"laster,gracie",
     "awayPlayer5":"collins,eleonore",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -26716,7 +26716,7 @@
       "kittredge,cassidy",
       "laster,gracie",
       "collins,eleonore",
-      null
+      "garceau,jade"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -26750,8 +26750,8 @@
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"collins,eleonore",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"garceau,jade",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -27581,7 +27581,7 @@
       "willingham,kelsey",
       "howell,juliet",
       "bongiovanni,alyssa",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":62,
     "Poss":"rhodes",
@@ -27603,13 +27603,13 @@
     "homePlayer2":"willingham,kelsey",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"collins,eleonore",
     "awayPlayer5":"zimmerman,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -28276,7 +28276,7 @@
       "kittredge,cassidy",
       "laster,gracie",
       "zimmerman,jessie",
-      null
+      "collins,eleonore"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -28310,8 +28310,8 @@
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"zimmerman,jessie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"collins,eleonore",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -29531,7 +29531,7 @@
       "howell,juliet",
       "bongiovanni,alyssa",
       "milam,ac",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":514,
     "Poss":"norwich",
@@ -29553,13 +29553,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"zimmerman,jessie",
     "awayPlayer5":"briggs,lily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -29608,7 +29608,7 @@
       "marsh,avery",
       "bongiovanni,alyssa",
       "milam,ac",
-      null,
+      "howell,juliet",
       null
     ],
     "timeSeconds":514,
@@ -29630,7 +29630,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"milam,ac",
-    "homePlayer4":null,
+    "homePlayer4":"howell,juliet",
     "homePlayer5":null,
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
@@ -29687,7 +29687,7 @@
       "bongiovanni,alyssa",
       "milam,ac",
       "mckown,mackenzie",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":514,
     "Poss":"norwich",
@@ -29709,13 +29709,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"milam,ac",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"ellsworth,maggi",
     "awayPlayer2":"kittredge,cassidy",
     "awayPlayer3":"laster,gracie",
     "awayPlayer4":"zimmerman,jessie",
     "awayPlayer5":"briggs,lily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -29836,7 +29836,7 @@
       "laster,gracie",
       "zimmerman,jessie",
       "briggs,lily",
-      null
+      "ellsworth,maggi"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -29870,8 +29870,8 @@
     "awayPlayer2":"laster,gracie",
     "awayPlayer3":"zimmerman,jessie",
     "awayPlayer4":"briggs,lily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ellsworth,maggi",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -29913,7 +29913,7 @@
       "kittredge,cassidy",
       "laster,gracie",
       "briggs,lily",
-      null,
+      "zimmerman,jessie",
       null
     ],
     "homeLineup":[
@@ -29947,7 +29947,7 @@
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"laster,gracie",
     "awayPlayer3":"briggs,lily",
-    "awayPlayer4":null,
+    "awayPlayer4":"zimmerman,jessie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29992,7 +29992,7 @@
       "laster,gracie",
       "briggs,lily",
       "o'donnell,siobhan",
-      null
+      "ellsworth,maggi"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -30026,8 +30026,8 @@
     "awayPlayer2":"laster,gracie",
     "awayPlayer3":"briggs,lily",
     "awayPlayer4":"o'donnell,siobhan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ellsworth,maggi",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -31162,7 +31162,7 @@
       "briggs,lily",
       "o'donnell,siobhan",
       "garceau,jade",
-      null
+      "laster,gracie"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -31196,8 +31196,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"garceau,jade",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"laster,gracie",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -32495,7 +32495,7 @@
       "bongiovanni,alyssa",
       "mckown,mackenzie",
       "vlahakos,giana",
-      null
+      "milam,ac"
     ],
     "timeSeconds":320,
     "Poss":"rhodes",
@@ -32517,13 +32517,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"garceau,jade",
     "awayPlayer5":"ellsworth,maggi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -32644,7 +32644,7 @@
       "briggs,lily",
       "o'donnell,siobhan",
       "ellsworth,maggi",
-      null
+      "garceau,jade"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -32678,8 +32678,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"ellsworth,maggi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"garceau,jade",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -33899,7 +33899,7 @@
       "bongiovanni,alyssa",
       "vlahakos,giana",
       "howell,juliet",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":175,
     "Poss":"rhodes",
@@ -33921,13 +33921,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"ellsworth,maggi",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -33976,7 +33976,7 @@
       "marsh,avery",
       "bongiovanni,alyssa",
       "howell,juliet",
-      null,
+      "vlahakos,giana",
       null
     ],
     "timeSeconds":175,
@@ -33998,7 +33998,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"howell,juliet",
-    "homePlayer4":null,
+    "homePlayer4":"vlahakos,giana",
     "homePlayer5":null,
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"briggs,lily",
@@ -34055,7 +34055,7 @@
       "bongiovanni,alyssa",
       "howell,juliet",
       "willingham,kelsey",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":175,
     "Poss":"rhodes",
@@ -34077,13 +34077,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"ellsworth,maggi",
     "awayPlayer5":"o'brien,kiley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -34204,7 +34204,7 @@
       "briggs,lily",
       "ellsworth,maggi",
       "o'brien,kiley",
-      null
+      "o'donnell,siobhan"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -34238,8 +34238,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"ellsworth,maggi",
     "awayPlayer4":"o'brien,kiley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'donnell,siobhan",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -35842,7 +35842,7 @@
       "briggs,lily",
       "ellsworth,maggi",
       "o'brien,kiley",
-      null
+      "laster,gracie"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -35876,8 +35876,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"ellsworth,maggi",
     "awayPlayer4":"o'brien,kiley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"laster,gracie",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -36083,7 +36083,7 @@
       "bongiovanni,alyssa",
       "willingham,kelsey",
       "griffith,audrey",
-      null
+      "howell,juliet"
     ],
     "timeSeconds":69,
     "Poss":"rhodes",
@@ -36105,13 +36105,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"howell,juliet",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"ellsworth,maggi",
     "awayPlayer4":"o'brien,kiley",
     "awayPlayer5":"o'donnell,siobhan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -36700,7 +36700,7 @@
       "briggs,lily",
       "ellsworth,maggi",
       "o'donnell,siobhan",
-      null
+      "o'brien,kiley"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -36734,8 +36734,8 @@
     "awayPlayer2":"briggs,lily",
     "awayPlayer3":"ellsworth,maggi",
     "awayPlayer4":"o'donnell,siobhan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'brien,kiley",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -36934,7 +36934,7 @@
       "ellsworth,maggi",
       "o'donnell,siobhan",
       "garceau,jade",
-      null
+      "briggs,lily"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -36968,8 +36968,8 @@
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"garceau,jade",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"briggs,lily",
+    "playerMissing":0
   },
   {
     "gameID":"10118",
@@ -37097,7 +37097,7 @@
       "bongiovanni,alyssa",
       "griffith,audrey",
       "milam,ac",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":10,
     "Poss":"rhodes",
@@ -37119,13 +37119,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"kittredge,cassidy",
     "awayPlayer2":"ellsworth,maggi",
     "awayPlayer3":"o'donnell,siobhan",
     "awayPlayer4":"garceau,jade",
     "awayPlayer5":"zimmerman,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10118",

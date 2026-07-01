@@ -742,7 +742,7 @@
       "flores,emma",
       "kellam,lizzy",
       "symons,kylee",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -776,8 +776,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"symons,kylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -1210,7 +1210,7 @@
       "kellam,lizzy",
       "symons,kylee",
       "tovar,layla",
-      null
+      "flores,emma"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -1225,6 +1225,84 @@
     "pppHome":0,
     "pppAway":0.0,
     "PlayOfPoss":1,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":7,
+    "teamChanged":0,
+    "game":"RhodesSouthwestern (TX)01\/18\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"marsh,avery",
+    "homePlayer2":"willingham,kelsey",
+    "homePlayer3":"bongiovanni,alyssa",
+    "homePlayer4":"mckown,mackenzie",
+    "homePlayer5":"milam,ac",
+    "awayPlayer1":"benitez,trinity",
+    "awayPlayer2":"kellam,lizzy",
+    "awayPlayer3":"symons,kylee",
+    "awayPlayer4":"tovar,layla",
+    "awayPlayer5":"flores,emma",
+    "playerMissing":0
+  },
+  {
+    "gameID":"10124",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Southwestern (TX)",
+    "saaGame":"1",
+    "finalScore":"58-70",
+    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
+    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
+    "homeRecord":"6-10",
+    "awayRecord":"10-6",
+    "homeConfRecord":"2-3",
+    "awayConfRecord":"1-4",
+    "gameDate":"01\/18\/26",
+    "startTime":"11:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"08:11",
+    "awayPlay":"SUB OUT by TOVAR,LAYLA",
+    "awayTeamScore":"",
+    "playTeamIndicator":"",
+    "homeTeamScore":"",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TOVAR,LAYLA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"southwestern (tx)",
+    "Player":"tovar,layla",
+    "pointsEarned":"",
+    "awayLineup":[
+      "benitez,trinity",
+      "kellam,lizzy",
+      "symons,kylee",
+      "tovar,layla",
+      null
+    ],
+    "homeLineup":[
+      "marsh,avery",
+      "willingham,kelsey",
+      "bongiovanni,alyssa",
+      "mckown,mackenzie",
+      "milam,ac"
+    ],
+    "timeSeconds":491,
+    "Poss":"rhodes",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
     "possTeam":"rhodes",
     "possStart":0.0,
     "possPoints":0,
@@ -1269,84 +1347,6 @@
     "attendance":"N\/A",
     "isNeutral":"False",
     "timeRemaining":"08:11",
-    "awayPlay":"SUB OUT by TOVAR,LAYLA",
-    "awayTeamScore":"",
-    "playTeamIndicator":"",
-    "homeTeamScore":"",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TOVAR,LAYLA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"southwestern (tx)",
-    "Player":"tovar,layla",
-    "pointsEarned":"",
-    "awayLineup":[
-      "benitez,trinity",
-      "kellam,lizzy",
-      "symons,kylee",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "marsh,avery",
-      "willingham,kelsey",
-      "bongiovanni,alyssa",
-      "mckown,mackenzie",
-      "milam,ac"
-    ],
-    "timeSeconds":491,
-    "Poss":"rhodes",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":7,
-    "teamChanged":0,
-    "game":"RhodesSouthwestern (TX)01\/18\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"marsh,avery",
-    "homePlayer2":"willingham,kelsey",
-    "homePlayer3":"bongiovanni,alyssa",
-    "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":"milam,ac",
-    "awayPlayer1":"benitez,trinity",
-    "awayPlayer2":"kellam,lizzy",
-    "awayPlayer3":"symons,kylee",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"10124",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Southwestern (TX)",
-    "saaGame":"1",
-    "finalScore":"58-70",
-    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
-    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
-    "homeRecord":"6-10",
-    "awayRecord":"10-6",
-    "homeConfRecord":"2-3",
-    "awayConfRecord":"1-4",
-    "gameDate":"01\/18\/26",
-    "startTime":"11:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"08:11",
     "awayPlay":"SUB IN by MENCHACA,KAYDENCE",
     "awayTeamScore":"",
     "playTeamIndicator":"",
@@ -1366,7 +1366,7 @@
       "kellam,lizzy",
       "symons,kylee",
       "menchaca,kaydence",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -1400,8 +1400,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -2380,7 +2380,7 @@
       "symons,kylee",
       "menchaca,kaydence",
       "lopez,cylee",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -2414,8 +2414,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"lopez,cylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -3940,7 +3940,7 @@
       "symons,kylee",
       "menchaca,kaydence",
       "castillo,neela",
-      null
+      "lopez,cylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -3974,8 +3974,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"castillo,neela",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lopez,cylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -4017,7 +4017,7 @@
       "benitez,trinity",
       "menchaca,kaydence",
       "castillo,neela",
-      null,
+      "symons,kylee",
       null
     ],
     "homeLineup":[
@@ -4051,7 +4051,7 @@
     "awayPlayer1":"benitez,trinity",
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"castillo,neela",
-    "awayPlayer4":null,
+    "awayPlayer4":"symons,kylee",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4096,7 +4096,7 @@
       "menchaca,kaydence",
       "castillo,neela",
       "flores,emma",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -4130,8 +4130,8 @@
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -4883,7 +4883,7 @@
       "bongiovanni,alyssa",
       "mckown,mackenzie",
       "milam,ac",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":273,
     "Poss":"rhodes",
@@ -4905,13 +4905,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"benitez,trinity",
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"flores,emma",
     "awayPlayer5":"kellam,lizzy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -5032,7 +5032,7 @@
       "castillo,neela",
       "flores,emma",
       "kellam,lizzy",
-      null
+      "menchaca,kaydence"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -5066,8 +5066,8 @@
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"kellam,lizzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"menchaca,kaydence",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -5422,7 +5422,7 @@
       "flores,emma",
       "kellam,lizzy",
       "tovar,layla",
-      null
+      "benitez,trinity"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -5456,8 +5456,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"benitez,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -6514,7 +6514,7 @@
       "flores,emma",
       "kellam,lizzy",
       "tovar,layla",
-      null
+      "stevens,lauren"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -6548,8 +6548,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stevens,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -7067,7 +7067,7 @@
       "bongiovanni,alyssa",
       "milam,ac",
       "howell,juliet",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":138,
     "Poss":"rhodes",
@@ -7089,13 +7089,13 @@
     "homePlayer2":"bongiovanni,alyssa",
     "homePlayer3":"milam,ac",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"tovar,layla",
     "awayPlayer5":"symons,kylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -7144,7 +7144,7 @@
       "marsh,avery",
       "milam,ac",
       "howell,juliet",
-      null,
+      "bongiovanni,alyssa",
       null
     ],
     "timeSeconds":138,
@@ -7166,7 +7166,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"milam,ac",
     "homePlayer3":"howell,juliet",
-    "homePlayer4":null,
+    "homePlayer4":"bongiovanni,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"flores,emma",
@@ -7223,7 +7223,7 @@
       "milam,ac",
       "howell,juliet",
       "willingham,kelsey",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":138,
     "Poss":"rhodes",
@@ -7245,13 +7245,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"tovar,layla",
     "awayPlayer5":"symons,kylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -7372,7 +7372,7 @@
       "flores,emma",
       "kellam,lizzy",
       "tovar,layla",
-      null
+      "symons,kylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -7406,8 +7406,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"symons,kylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -8308,7 +8308,7 @@
       "kellam,lizzy",
       "tovar,layla",
       "stevens,lauren",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -8342,8 +8342,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"stevens,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -8385,7 +8385,7 @@
       "flores,emma",
       "kellam,lizzy",
       "stevens,lauren",
-      null,
+      "tovar,layla",
       null
     ],
     "homeLineup":[
@@ -8419,7 +8419,7 @@
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"stevens,lauren",
-    "awayPlayer4":null,
+    "awayPlayer4":"tovar,layla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8464,7 +8464,7 @@
       "kellam,lizzy",
       "stevens,lauren",
       "lopez,cylee",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -8498,8 +8498,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"stevens,lauren",
     "awayPlayer4":"lopez,cylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -10265,7 +10265,7 @@
       "howell,juliet",
       "willingham,kelsey",
       "tobin,annabelle",
-      null
+      "milam,ac"
     ],
     "timeSeconds":542,
     "Poss":"rhodes",
@@ -10287,13 +10287,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"tobin,annabelle",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"stevens,lauren",
     "awayPlayer4":"lopez,cylee",
     "awayPlayer5":"symons,kylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -10414,7 +10414,7 @@
       "kellam,lizzy",
       "stevens,lauren",
       "symons,kylee",
-      null
+      "lopez,cylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -10448,8 +10448,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"stevens,lauren",
     "awayPlayer4":"symons,kylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lopez,cylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -10491,7 +10491,7 @@
       "flores,emma",
       "stevens,lauren",
       "symons,kylee",
-      null,
+      "kellam,lizzy",
       null
     ],
     "homeLineup":[
@@ -10525,7 +10525,7 @@
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"stevens,lauren",
     "awayPlayer3":"symons,kylee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,lizzy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10570,7 +10570,7 @@
       "stevens,lauren",
       "symons,kylee",
       "castillo,neela",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -10604,8 +10604,8 @@
     "awayPlayer2":"stevens,lauren",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"castillo,neela",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -11818,7 +11818,7 @@
       "stevens,lauren",
       "symons,kylee",
       "castillo,neela",
-      null
+      "halligan,adley"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -11852,8 +11852,8 @@
     "awayPlayer2":"stevens,lauren",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"castillo,neela",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"halligan,adley",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -11981,7 +11981,7 @@
       "howell,juliet",
       "willingham,kelsey",
       "mckown,mackenzie",
-      null
+      "tobin,annabelle"
     ],
     "timeSeconds":430,
     "Poss":"southwestern (tx)",
@@ -12003,13 +12003,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"tobin,annabelle",
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"stevens,lauren",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"castillo,neela",
     "awayPlayer5":"menchaca,kaydence",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -12208,7 +12208,7 @@
       "symons,kylee",
       "castillo,neela",
       "menchaca,kaydence",
-      null
+      "flores,emma"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -12242,8 +12242,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"flores,emma",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -13463,7 +13463,7 @@
       "howell,juliet",
       "mckown,mackenzie",
       "bongiovanni,alyssa",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":287,
     "Poss":"rhodes",
@@ -13485,13 +13485,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"stevens,lauren",
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"menchaca,kaydence",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -13612,7 +13612,7 @@
       "symons,kylee",
       "castillo,neela",
       "tovar,layla",
-      null
+      "menchaca,kaydence"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -13646,8 +13646,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"menchaca,kaydence",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -13689,7 +13689,7 @@
       "stevens,lauren",
       "castillo,neela",
       "tovar,layla",
-      null,
+      "symons,kylee",
       null
     ],
     "homeLineup":[
@@ -13723,7 +13723,7 @@
     "awayPlayer1":"stevens,lauren",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"tovar,layla",
-    "awayPlayer4":null,
+    "awayPlayer4":"symons,kylee",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13768,7 +13768,7 @@
       "castillo,neela",
       "tovar,layla",
       "lopez,cylee",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -13802,8 +13802,8 @@
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"lopez,cylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -13931,7 +13931,7 @@
       "mckown,mackenzie",
       "bongiovanni,alyssa",
       "caviness,omaida",
-      null
+      "howell,juliet"
     ],
     "timeSeconds":287,
     "Poss":"rhodes",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"caviness,omaida",
-    "homePlayer5":null,
+    "homePlayer5":"howell,juliet",
     "awayPlayer1":"stevens,lauren",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"lopez,cylee",
     "awayPlayer5":"kellam,lizzy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -15016,7 +15016,7 @@
       "castillo,neela",
       "lopez,cylee",
       "kellam,lizzy",
-      null
+      "tovar,layla"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -15050,8 +15050,8 @@
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"lopez,cylee",
     "awayPlayer4":"kellam,lizzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"tovar,layla",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -16349,7 +16349,7 @@
       "mckown,mackenzie",
       "caviness,omaida",
       "milam,ac",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":147,
     "Poss":"rhodes",
@@ -16371,13 +16371,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"caviness,omaida",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"stevens,lauren",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"lopez,cylee",
     "awayPlayer4":"kellam,lizzy",
     "awayPlayer5":"flores,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -16817,7 +16817,7 @@
       "mckown,mackenzie",
       "caviness,omaida",
       "willingham,kelsey",
-      null
+      "milam,ac"
     ],
     "timeSeconds":106,
     "Poss":"rhodes",
@@ -16839,13 +16839,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"caviness,omaida",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"stevens,lauren",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"lopez,cylee",
     "awayPlayer4":"kellam,lizzy",
     "awayPlayer5":"flores,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -16966,7 +16966,7 @@
       "lopez,cylee",
       "kellam,lizzy",
       "flores,emma",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -17000,8 +17000,8 @@
     "awayPlayer2":"lopez,cylee",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -17043,7 +17043,7 @@
       "lopez,cylee",
       "kellam,lizzy",
       "flores,emma",
-      null,
+      "stevens,lauren",
       null
     ],
     "homeLineup":[
@@ -17077,7 +17077,7 @@
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"flores,emma",
-    "awayPlayer4":null,
+    "awayPlayer4":"stevens,lauren",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17120,7 +17120,7 @@
     "awayLineup":[
       "lopez,cylee",
       "flores,emma",
-      null,
+      "kellam,lizzy",
       null,
       null
     ],
@@ -17154,7 +17154,7 @@
     "homePlayer5":"howell,juliet",
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
-    "awayPlayer3":null,
+    "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17199,7 +17199,7 @@
       "lopez,cylee",
       "flores,emma",
       "menchaca,kaydence",
-      null,
+      "castillo,neela",
       null
     ],
     "homeLineup":[
@@ -17233,7 +17233,7 @@
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
-    "awayPlayer4":null,
+    "awayPlayer4":"castillo,neela",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17278,7 +17278,7 @@
       "flores,emma",
       "menchaca,kaydence",
       "symons,kylee",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -17312,8 +17312,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"symons,kylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18221,7 +18221,7 @@
       "mckown,mackenzie",
       "caviness,omaida",
       "howell,juliet",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":16,
     "Poss":"southwestern (tx)",
@@ -18243,13 +18243,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"caviness,omaida",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18298,7 +18298,7 @@
       "marsh,avery",
       "mckown,mackenzie",
       "howell,juliet",
-      null,
+      "caviness,omaida",
       null
     ],
     "timeSeconds":16,
@@ -18320,7 +18320,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"howell,juliet",
-    "homePlayer4":null,
+    "homePlayer4":"caviness,omaida",
     "homePlayer5":null,
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
@@ -18377,7 +18377,7 @@
       "mckown,mackenzie",
       "howell,juliet",
       "tobin,annabelle",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":16,
     "Poss":"southwestern (tx)",
@@ -18399,13 +18399,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"tobin,annabelle",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18533,7 +18533,7 @@
       "mckown,mackenzie",
       "howell,juliet",
       "bongiovanni,alyssa",
-      null
+      "tobin,annabelle"
     ],
     "timeSeconds":600,
     "Poss":"southwestern (tx)",
@@ -18555,13 +18555,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"tobin,annabelle",
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18610,7 +18610,7 @@
       "marsh,avery",
       "mckown,mackenzie",
       "bongiovanni,alyssa",
-      null,
+      "howell,juliet",
       null
     ],
     "timeSeconds":600,
@@ -18632,7 +18632,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"bongiovanni,alyssa",
-    "homePlayer4":null,
+    "homePlayer4":"howell,juliet",
     "homePlayer5":null,
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
@@ -18689,7 +18689,7 @@
       "mckown,mackenzie",
       "bongiovanni,alyssa",
       "willingham,kelsey",
-      null
+      "milam,ac"
     ],
     "timeSeconds":600,
     "Poss":"southwestern (tx)",
@@ -18711,13 +18711,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"lopez,cylee",
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18838,7 +18838,7 @@
       "flores,emma",
       "symons,kylee",
       "tovar,layla",
-      null
+      "menchaca,kaydence"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -18872,8 +18872,8 @@
     "awayPlayer2":"flores,emma",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"menchaca,kaydence",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -18910,6 +18910,84 @@
     "shotOutcome":"",
     "Team":"southwestern (tx)",
     "Player":"lopez,cylee",
+    "pointsEarned":"",
+    "awayLineup":[
+      "flores,emma",
+      "symons,kylee",
+      "tovar,layla",
+      "lopez,cylee",
+      null
+    ],
+    "homeLineup":[
+      "marsh,avery",
+      "mckown,mackenzie",
+      "bongiovanni,alyssa",
+      "willingham,kelsey",
+      "milam,ac"
+    ],
+    "timeSeconds":600,
+    "Poss":"southwestern (tx)",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":75,
+    "teamChanged":0,
+    "game":"RhodesSouthwestern (TX)01\/18\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"marsh,avery",
+    "homePlayer2":"mckown,mackenzie",
+    "homePlayer3":"bongiovanni,alyssa",
+    "homePlayer4":"willingham,kelsey",
+    "homePlayer5":"milam,ac",
+    "awayPlayer1":"flores,emma",
+    "awayPlayer2":"symons,kylee",
+    "awayPlayer3":"tovar,layla",
+    "awayPlayer4":"lopez,cylee",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"10124",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Southwestern (TX)",
+    "saaGame":"1",
+    "finalScore":"58-70",
+    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
+    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
+    "homeRecord":"6-10",
+    "awayRecord":"10-6",
+    "homeConfRecord":"2-3",
+    "awayConfRecord":"1-4",
+    "gameDate":"01\/18\/26",
+    "startTime":"11:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by TOVAR,LAYLA",
+    "awayTeamScore":"26",
+    "playTeamIndicator":"",
+    "homeTeamScore":"36 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TOVAR,LAYLA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"southwestern (tx)",
+    "Player":"tovar,layla",
     "pointsEarned":"",
     "awayLineup":[
       "flores,emma",
@@ -18975,84 +19053,6 @@
     "attendance":"N\/A",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by TOVAR,LAYLA",
-    "awayTeamScore":"26",
-    "playTeamIndicator":"",
-    "homeTeamScore":"36 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TOVAR,LAYLA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"southwestern (tx)",
-    "Player":"tovar,layla",
-    "pointsEarned":"",
-    "awayLineup":[
-      "flores,emma",
-      "symons,kylee",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "marsh,avery",
-      "mckown,mackenzie",
-      "bongiovanni,alyssa",
-      "willingham,kelsey",
-      "milam,ac"
-    ],
-    "timeSeconds":600,
-    "Poss":"southwestern (tx)",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":75,
-    "teamChanged":0,
-    "game":"RhodesSouthwestern (TX)01\/18\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"marsh,avery",
-    "homePlayer2":"mckown,mackenzie",
-    "homePlayer3":"bongiovanni,alyssa",
-    "homePlayer4":"willingham,kelsey",
-    "homePlayer5":"milam,ac",
-    "awayPlayer1":"flores,emma",
-    "awayPlayer2":"symons,kylee",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"10124",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Southwestern (TX)",
-    "saaGame":"1",
-    "finalScore":"58-70",
-    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
-    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
-    "homeRecord":"6-10",
-    "awayRecord":"10-6",
-    "homeConfRecord":"2-3",
-    "awayConfRecord":"1-4",
-    "gameDate":"01\/18\/26",
-    "startTime":"11:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by CASTILLO,NEELA",
     "awayTeamScore":"26",
     "playTeamIndicator":"",
@@ -19071,7 +19071,7 @@
       "flores,emma",
       "symons,kylee",
       "castillo,neela",
-      null,
+      "kellam,lizzy",
       null
     ],
     "homeLineup":[
@@ -19105,7 +19105,7 @@
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"castillo,neela",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,lizzy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19150,7 +19150,7 @@
       "symons,kylee",
       "castillo,neela",
       "kellam,lizzy",
-      null
+      "benitez,trinity"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -19184,8 +19184,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"kellam,lizzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"benitez,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -21178,7 +21178,7 @@
       "symons,kylee",
       "kellam,lizzy",
       "benitez,trinity",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -21212,8 +21212,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"benitez,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -21255,7 +21255,7 @@
       "flores,emma",
       "kellam,lizzy",
       "benitez,trinity",
-      null,
+      "symons,kylee",
       null
     ],
     "homeLineup":[
@@ -21289,7 +21289,7 @@
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"benitez,trinity",
-    "awayPlayer4":null,
+    "awayPlayer4":"symons,kylee",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21334,7 +21334,7 @@
       "kellam,lizzy",
       "benitez,trinity",
       "menchaca,kaydence",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -21368,8 +21368,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"benitez,trinity",
     "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -23213,6 +23213,84 @@
       "mckown,mackenzie",
       "bongiovanni,alyssa",
       "milam,ac",
+      "willingham,kelsey"
+    ],
+    "timeSeconds":322,
+    "Poss":"southwestern (tx)",
+    "possNum":45,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"southwestern (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":94,
+    "teamChanged":0,
+    "game":"RhodesSouthwestern (TX)01\/18\/26",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"marsh,avery",
+    "homePlayer2":"mckown,mackenzie",
+    "homePlayer3":"bongiovanni,alyssa",
+    "homePlayer4":"milam,ac",
+    "homePlayer5":"willingham,kelsey",
+    "awayPlayer1":"flores,emma",
+    "awayPlayer2":"kellam,lizzy",
+    "awayPlayer3":"benitez,trinity",
+    "awayPlayer4":"menchaca,kaydence",
+    "awayPlayer5":"tovar,layla",
+    "playerMissing":0
+  },
+  {
+    "gameID":"10124",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Southwestern (TX)",
+    "saaGame":"1",
+    "finalScore":"58-70",
+    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
+    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
+    "homeRecord":"6-10",
+    "awayRecord":"10-6",
+    "homeConfRecord":"2-3",
+    "awayConfRecord":"1-4",
+    "gameDate":"01\/18\/26",
+    "startTime":"11:00 AM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"05:22",
+    "awayPlay":"",
+    "awayTeamScore":"37",
+    "playTeamIndicator":"",
+    "homeTeamScore":"46 ",
+    "homePlay":"SUB OUT by MILAM,AC",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MILAM,AC",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"milam,ac",
+    "pointsEarned":"",
+    "awayLineup":[
+      "flores,emma",
+      "kellam,lizzy",
+      "benitez,trinity",
+      "menchaca,kaydence",
+      "tovar,layla"
+    ],
+    "homeLineup":[
+      "marsh,avery",
+      "mckown,mackenzie",
+      "bongiovanni,alyssa",
+      "milam,ac",
       null
     ],
     "timeSeconds":322,
@@ -23269,84 +23347,6 @@
     "awayTeamScore":"37",
     "playTeamIndicator":"",
     "homeTeamScore":"46 ",
-    "homePlay":"SUB OUT by MILAM,AC",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MILAM,AC",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"milam,ac",
-    "pointsEarned":"",
-    "awayLineup":[
-      "flores,emma",
-      "kellam,lizzy",
-      "benitez,trinity",
-      "menchaca,kaydence",
-      "tovar,layla"
-    ],
-    "homeLineup":[
-      "marsh,avery",
-      "mckown,mackenzie",
-      "bongiovanni,alyssa",
-      null,
-      null
-    ],
-    "timeSeconds":322,
-    "Poss":"southwestern (tx)",
-    "possNum":45,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"southwestern (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":94,
-    "teamChanged":0,
-    "game":"RhodesSouthwestern (TX)01\/18\/26",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"marsh,avery",
-    "homePlayer2":"mckown,mackenzie",
-    "homePlayer3":"bongiovanni,alyssa",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"flores,emma",
-    "awayPlayer2":"kellam,lizzy",
-    "awayPlayer3":"benitez,trinity",
-    "awayPlayer4":"menchaca,kaydence",
-    "awayPlayer5":"tovar,layla",
-    "playerMissing":1
-  },
-  {
-    "gameID":"10124",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Southwestern (TX)",
-    "saaGame":"1",
-    "finalScore":"58-70",
-    "homeScoreByPeriod":"\nWinner\nRhodes\nRhodes\n,16,20,14,20,70",
-    "awayScoreByPeriod":"\nSU\nSouthwestern (TX)\n,9,17,17,15,58",
-    "homeRecord":"6-10",
-    "awayRecord":"10-6",
-    "homeConfRecord":"2-3",
-    "awayConfRecord":"1-4",
-    "gameDate":"01\/18\/26",
-    "startTime":"11:00 AM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"05:22",
-    "awayPlay":"",
-    "awayTeamScore":"37",
-    "playTeamIndicator":"",
-    "homeTeamScore":"46 ",
     "homePlay":"SUB IN by TOBIN,ANNABELLE",
     "gameScore":"",
     "teamIndicator":"",
@@ -23369,7 +23369,7 @@
       "mckown,mackenzie",
       "bongiovanni,alyssa",
       "tobin,annabelle",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":322,
     "Poss":"southwestern (tx)",
@@ -23391,13 +23391,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"tobin,annabelle",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"flores,emma",
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"benitez,trinity",
     "awayPlayer4":"menchaca,kaydence",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -23518,7 +23518,7 @@
       "benitez,trinity",
       "menchaca,kaydence",
       "tovar,layla",
-      null
+      "flores,emma"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -23552,8 +23552,8 @@
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"menchaca,kaydence",
     "awayPlayer4":"tovar,layla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"flores,emma",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -23595,7 +23595,7 @@
       "benitez,trinity",
       "menchaca,kaydence",
       "tovar,layla",
-      null,
+      "kellam,lizzy",
       null
     ],
     "homeLineup":[
@@ -23629,7 +23629,7 @@
     "awayPlayer1":"benitez,trinity",
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"tovar,layla",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,lizzy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23674,7 +23674,7 @@
       "menchaca,kaydence",
       "tovar,layla",
       "castillo,neela",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -23708,8 +23708,8 @@
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"castillo,neela",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -25397,7 +25397,7 @@
       "mckown,mackenzie",
       "tobin,annabelle",
       "howell,juliet",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":199,
     "Poss":"rhodes",
@@ -25419,13 +25419,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"tobin,annabelle",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"benitez,trinity",
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"castillo,neela",
     "awayPlayer5":"lopez,cylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -25546,7 +25546,7 @@
       "menchaca,kaydence",
       "tovar,layla",
       "castillo,neela",
-      null
+      "lopez,cylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -25580,8 +25580,8 @@
     "awayPlayer2":"menchaca,kaydence",
     "awayPlayer3":"tovar,layla",
     "awayPlayer4":"castillo,neela",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lopez,cylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -25623,7 +25623,7 @@
       "menchaca,kaydence",
       "tovar,layla",
       "castillo,neela",
-      null,
+      "benitez,trinity",
       null
     ],
     "homeLineup":[
@@ -25657,7 +25657,7 @@
     "awayPlayer1":"menchaca,kaydence",
     "awayPlayer2":"tovar,layla",
     "awayPlayer3":"castillo,neela",
-    "awayPlayer4":null,
+    "awayPlayer4":"benitez,trinity",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -25702,7 +25702,7 @@
       "tovar,layla",
       "castillo,neela",
       "flores,emma",
-      null
+      "kellam,lizzy"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -25736,8 +25736,8 @@
     "awayPlayer2":"tovar,layla",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,lizzy",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -26404,7 +26404,7 @@
       "tovar,layla",
       "castillo,neela",
       "flores,emma",
-      null
+      "stevens,lauren"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -26438,8 +26438,8 @@
     "awayPlayer2":"tovar,layla",
     "awayPlayer3":"castillo,neela",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stevens,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -26872,7 +26872,7 @@
       "castillo,neela",
       "flores,emma",
       "benitez,trinity",
-      null
+      "menchaca,kaydence"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"benitez,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"menchaca,kaydence",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -27269,7 +27269,7 @@
       "mckown,mackenzie",
       "tobin,annabelle",
       "willingham,kelsey",
-      null
+      "howell,juliet"
     ],
     "timeSeconds":109,
     "Poss":"southwestern (tx)",
@@ -27291,13 +27291,13 @@
     "homePlayer2":"mckown,mackenzie",
     "homePlayer3":"tobin,annabelle",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"howell,juliet",
     "awayPlayer1":"tovar,layla",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"benitez,trinity",
     "awayPlayer5":"kellam,lizzy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -28361,7 +28361,7 @@
       "tobin,annabelle",
       "willingham,kelsey",
       "milam,ac",
-      null
+      "mckown,mackenzie"
     ],
     "timeSeconds":64,
     "Poss":"southwestern (tx)",
@@ -28383,13 +28383,13 @@
     "homePlayer2":"tobin,annabelle",
     "homePlayer3":"willingham,kelsey",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"mckown,mackenzie",
     "awayPlayer1":"tovar,layla",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"benitez,trinity",
     "awayPlayer5":"kellam,lizzy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -29375,7 +29375,7 @@
       "tobin,annabelle",
       "milam,ac",
       "bongiovanni,alyssa",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":536,
     "Poss":"rhodes",
@@ -29397,13 +29397,13 @@
     "homePlayer2":"tobin,annabelle",
     "homePlayer3":"milam,ac",
     "homePlayer4":"bongiovanni,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"tovar,layla",
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"benitez,trinity",
     "awayPlayer5":"kellam,lizzy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -29524,7 +29524,7 @@
       "castillo,neela",
       "benitez,trinity",
       "kellam,lizzy",
-      null
+      "flores,emma"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -29558,8 +29558,8 @@
     "awayPlayer2":"castillo,neela",
     "awayPlayer3":"benitez,trinity",
     "awayPlayer4":"kellam,lizzy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"flores,emma",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -29601,7 +29601,7 @@
       "castillo,neela",
       "benitez,trinity",
       "kellam,lizzy",
-      null,
+      "tovar,layla",
       null
     ],
     "homeLineup":[
@@ -29635,7 +29635,7 @@
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
-    "awayPlayer4":null,
+    "awayPlayer4":"tovar,layla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29680,7 +29680,7 @@
       "benitez,trinity",
       "kellam,lizzy",
       "lopez,cylee",
-      null
+      "symons,kylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -29714,8 +29714,8 @@
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"lopez,cylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"symons,kylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -31013,7 +31013,7 @@
       "milam,ac",
       "bongiovanni,alyssa",
       "mckown,mackenzie",
-      null
+      "tobin,annabelle"
     ],
     "timeSeconds":462,
     "Poss":"southwestern (tx)",
@@ -31035,13 +31035,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"bongiovanni,alyssa",
     "homePlayer4":"mckown,mackenzie",
-    "homePlayer5":null,
+    "homePlayer5":"tobin,annabelle",
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"lopez,cylee",
     "awayPlayer5":"symons,kylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -31162,7 +31162,7 @@
       "benitez,trinity",
       "kellam,lizzy",
       "symons,kylee",
-      null
+      "lopez,cylee"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -31196,8 +31196,8 @@
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"symons,kylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lopez,cylee",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -31871,7 +31871,7 @@
       "milam,ac",
       "mckown,mackenzie",
       "howell,juliet",
-      null
+      "bongiovanni,alyssa"
     ],
     "timeSeconds":431,
     "Poss":"rhodes",
@@ -31893,13 +31893,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"bongiovanni,alyssa",
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -32729,7 +32729,7 @@
       "milam,ac",
       "mckown,mackenzie",
       "willingham,kelsey",
-      null
+      "howell,juliet"
     ],
     "timeSeconds":391,
     "Poss":"southwestern (tx)",
@@ -32751,13 +32751,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"mckown,mackenzie",
     "homePlayer4":"willingham,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"howell,juliet",
     "awayPlayer1":"castillo,neela",
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"symons,kylee",
     "awayPlayer5":"tovar,layla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -35842,7 +35842,7 @@
       "benitez,trinity",
       "kellam,lizzy",
       "symons,kylee",
-      null
+      "tovar,layla"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -35876,8 +35876,8 @@
     "awayPlayer2":"benitez,trinity",
     "awayPlayer3":"kellam,lizzy",
     "awayPlayer4":"symons,kylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"tovar,layla",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -36466,7 +36466,7 @@
       "kellam,lizzy",
       "symons,kylee",
       "flores,emma",
-      null
+      "benitez,trinity"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -36500,8 +36500,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"benitez,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -37948,7 +37948,7 @@
       "kellam,lizzy",
       "symons,kylee",
       "flores,emma",
-      null
+      "stevens,lauren"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -37982,8 +37982,8 @@
     "awayPlayer2":"kellam,lizzy",
     "awayPlayer3":"symons,kylee",
     "awayPlayer4":"flores,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stevens,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
@@ -38338,7 +38338,7 @@
       "symons,kylee",
       "flores,emma",
       "halligan,adley",
-      null
+      "castillo,neela"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -38372,8 +38372,8 @@
     "awayPlayer2":"symons,kylee",
     "awayPlayer3":"flores,emma",
     "awayPlayer4":"halligan,adley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"castillo,neela",
+    "playerMissing":0
   },
   {
     "gameID":"10124",
