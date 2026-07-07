@@ -2075,7 +2075,7 @@
       "phillips,lilly",
       "broussard,camryn",
       "humphrey,faith",
-      null
+      "conn,shay"
     ],
     "timeSeconds":449,
     "Poss":"asbury",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"humphrey,faith",
-    "homePlayer5":null,
+    "homePlayer5":"conn,shay",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harvey,spencer",
     "awayPlayer5":"harlow,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -3401,7 +3401,7 @@
       "broussard,camryn",
       "humphrey,faith",
       "falvey,olivia",
-      null
+      "phillips,lilly"
     ],
     "timeSeconds":352,
     "Poss":"asbury",
@@ -3423,13 +3423,13 @@
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"humphrey,faith",
     "homePlayer4":"falvey,olivia",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,lilly",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harvey,spencer",
     "awayPlayer5":"harlow,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -3550,7 +3550,7 @@
       "strunk,emma",
       "harvey,spencer",
       "harlow,kayla",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "antoine,kayla",
@@ -3584,8 +3584,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -3627,7 +3627,7 @@
       "shearer,trinity",
       "strunk,emma",
       "harlow,kayla",
-      null,
+      "harvey,spencer",
       null
     ],
     "homeLineup":[
@@ -3661,7 +3661,7 @@
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harlow,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"harvey,spencer",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3700,6 +3700,84 @@
     "shotOutcome":"",
     "Team":"asbury",
     "Player":"shearer,trinity",
+    "pointsEarned":"",
+    "awayLineup":[
+      "strunk,emma",
+      "harlow,kayla",
+      "shearer,trinity",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "antoine,kayla",
+      "broussard,camryn",
+      "humphrey,faith",
+      "falvey,olivia",
+      "hammock,natalie"
+    ],
+    "timeSeconds":352,
+    "Poss":"asbury",
+    "possNum":10,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":20,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/15\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"antoine,kayla",
+    "homePlayer2":"broussard,camryn",
+    "homePlayer3":"humphrey,faith",
+    "homePlayer4":"falvey,olivia",
+    "homePlayer5":"hammock,natalie",
+    "awayPlayer1":"strunk,emma",
+    "awayPlayer2":"harlow,kayla",
+    "awayPlayer3":"shearer,trinity",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"6423",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"85-66",
+    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
+    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
+    "homeRecord":"0-3",
+    "awayRecord":"1-0",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/15\/22",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"86",
+    "isNeutral":"False",
+    "timeRemaining":"05:52",
+    "awayPlay":"SUB OUT by HARLOW,KAYLA",
+    "awayTeamScore":"11 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"7",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HARLOW,KAYLA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"harlow,kayla",
     "pointsEarned":"",
     "awayLineup":[
       "strunk,emma",
@@ -3765,84 +3843,6 @@
     "attendance":"86",
     "isNeutral":"False",
     "timeRemaining":"05:52",
-    "awayPlay":"SUB OUT by HARLOW,KAYLA",
-    "awayTeamScore":"11 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"7",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HARLOW,KAYLA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"harlow,kayla",
-    "pointsEarned":"",
-    "awayLineup":[
-      "strunk,emma",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "antoine,kayla",
-      "broussard,camryn",
-      "humphrey,faith",
-      "falvey,olivia",
-      "hammock,natalie"
-    ],
-    "timeSeconds":352,
-    "Poss":"asbury",
-    "possNum":10,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":20,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/15\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"antoine,kayla",
-    "homePlayer2":"broussard,camryn",
-    "homePlayer3":"humphrey,faith",
-    "homePlayer4":"falvey,olivia",
-    "homePlayer5":"hammock,natalie",
-    "awayPlayer1":"strunk,emma",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6423",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"85-66",
-    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
-    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
-    "homeRecord":"0-3",
-    "awayRecord":"1-0",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/15\/22",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"86",
-    "isNeutral":"False",
-    "timeRemaining":"05:52",
     "awayPlay":"SUB IN by RILEY,TIFFANI",
     "awayTeamScore":"11 ",
     "playTeamIndicator":"",
@@ -3860,7 +3860,7 @@
     "awayLineup":[
       "strunk,emma",
       "riley,tiffani",
-      null,
+      "shearer,trinity",
       null,
       null
     ],
@@ -3894,7 +3894,7 @@
     "homePlayer5":"hammock,natalie",
     "awayPlayer1":"strunk,emma",
     "awayPlayer2":"riley,tiffani",
-    "awayPlayer3":null,
+    "awayPlayer3":"shearer,trinity",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3939,7 +3939,7 @@
       "strunk,emma",
       "riley,tiffani",
       "flannery,morgan",
-      null,
+      "shearer,trinity",
       null
     ],
     "homeLineup":[
@@ -3973,7 +3973,7 @@
     "awayPlayer1":"strunk,emma",
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"flannery,morgan",
-    "awayPlayer4":null,
+    "awayPlayer4":"shearer,trinity",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4018,7 +4018,7 @@
       "riley,tiffani",
       "flannery,morgan",
       "harris,abigail",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "antoine,kayla",
@@ -4052,8 +4052,8 @@
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"harris,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -4415,7 +4415,7 @@
       "broussard,camryn",
       "humphrey,faith",
       "hammock,natalie",
-      null
+      "falvey,olivia"
     ],
     "timeSeconds":352,
     "Poss":"asbury",
@@ -4437,13 +4437,13 @@
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"humphrey,faith",
     "homePlayer4":"hammock,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"falvey,olivia",
     "awayPlayer1":"strunk,emma",
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"harris,abigail",
     "awayPlayer5":"preston,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -4564,7 +4564,7 @@
       "flannery,morgan",
       "harris,abigail",
       "preston,camryn",
-      null
+      "strunk,emma"
     ],
     "homeLineup":[
       "antoine,kayla",
@@ -4598,8 +4598,8 @@
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"preston,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"strunk,emma",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -6677,7 +6677,7 @@
       "humphrey,faith",
       "hammock,natalie",
       "conn,shay",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":199,
     "Poss":"asbury",
@@ -6699,13 +6699,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"hammock,natalie",
     "homePlayer4":"conn,shay",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"preston,camryn",
     "awayPlayer5":"bellamy,meagan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -6754,7 +6754,7 @@
       "broussard,camryn",
       "hammock,natalie",
       "conn,shay",
-      null,
+      "humphrey,faith",
       null
     ],
     "timeSeconds":199,
@@ -6776,7 +6776,7 @@
     "homePlayer1":"broussard,camryn",
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"conn,shay",
-    "homePlayer4":null,
+    "homePlayer4":"humphrey,faith",
     "homePlayer5":null,
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"flannery,morgan",
@@ -6833,7 +6833,7 @@
       "hammock,natalie",
       "conn,shay",
       "wright,cydney",
-      null
+      "humphrey,faith"
     ],
     "timeSeconds":199,
     "Poss":"asbury",
@@ -6855,13 +6855,13 @@
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"conn,shay",
     "homePlayer4":"wright,cydney",
-    "homePlayer5":null,
+    "homePlayer5":"humphrey,faith",
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"preston,camryn",
     "awayPlayer5":"bellamy,meagan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -6982,6 +6982,84 @@
       "harris,abigail",
       "preston,camryn",
       "bellamy,meagan",
+      "riley,tiffani"
+    ],
+    "homeLineup":[
+      "broussard,camryn",
+      "hammock,natalie",
+      "conn,shay",
+      "wright,cydney",
+      "phillips,lilly"
+    ],
+    "timeSeconds":199,
+    "Poss":"asbury",
+    "possNum":20,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"asbury",
+    "possStart":0.0,
+    "possPoints":2,
+    "possSequence":31,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/15\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"broussard,camryn",
+    "homePlayer2":"hammock,natalie",
+    "homePlayer3":"conn,shay",
+    "homePlayer4":"wright,cydney",
+    "homePlayer5":"phillips,lilly",
+    "awayPlayer1":"flannery,morgan",
+    "awayPlayer2":"harris,abigail",
+    "awayPlayer3":"preston,camryn",
+    "awayPlayer4":"bellamy,meagan",
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6423",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"85-66",
+    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
+    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
+    "homeRecord":"0-3",
+    "awayRecord":"1-0",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/15\/22",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"86",
+    "isNeutral":"False",
+    "timeRemaining":"03:19",
+    "awayPlay":"SUB OUT by BELLAMY,MEAGAN",
+    "awayTeamScore":"14 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BELLAMY,MEAGAN",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"bellamy,meagan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "flannery,morgan",
+      "harris,abigail",
+      "preston,camryn",
+      "bellamy,meagan",
       null
     ],
     "homeLineup":[
@@ -7041,84 +7119,6 @@
     "attendance":"86",
     "isNeutral":"False",
     "timeRemaining":"03:19",
-    "awayPlay":"SUB OUT by BELLAMY,MEAGAN",
-    "awayTeamScore":"14 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BELLAMY,MEAGAN",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"bellamy,meagan",
-    "pointsEarned":"",
-    "awayLineup":[
-      "flannery,morgan",
-      "harris,abigail",
-      "preston,camryn",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "broussard,camryn",
-      "hammock,natalie",
-      "conn,shay",
-      "wright,cydney",
-      "phillips,lilly"
-    ],
-    "timeSeconds":199,
-    "Poss":"asbury",
-    "possNum":20,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"asbury",
-    "possStart":0.0,
-    "possPoints":2,
-    "possSequence":31,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/15\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"broussard,camryn",
-    "homePlayer2":"hammock,natalie",
-    "homePlayer3":"conn,shay",
-    "homePlayer4":"wright,cydney",
-    "homePlayer5":"phillips,lilly",
-    "awayPlayer1":"flannery,morgan",
-    "awayPlayer2":"harris,abigail",
-    "awayPlayer3":"preston,camryn",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6423",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"85-66",
-    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
-    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
-    "homeRecord":"0-3",
-    "awayRecord":"1-0",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/15\/22",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"86",
-    "isNeutral":"False",
-    "timeRemaining":"03:19",
     "awayPlay":"SUB OUT by FLANNERY,MORGAN",
     "awayTeamScore":"14 ",
     "playTeamIndicator":"",
@@ -7136,7 +7136,7 @@
     "awayLineup":[
       "harris,abigail",
       "preston,camryn",
-      null,
+      "flannery,morgan",
       null,
       null
     ],
@@ -7170,7 +7170,7 @@
     "homePlayer5":"phillips,lilly",
     "awayPlayer1":"harris,abigail",
     "awayPlayer2":"preston,camryn",
-    "awayPlayer3":null,
+    "awayPlayer3":"flannery,morgan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -7213,7 +7213,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "preston,camryn",
-      null,
+      "harris,abigail",
       null,
       null,
       null
@@ -7247,7 +7247,7 @@
     "homePlayer4":"wright,cydney",
     "homePlayer5":"phillips,lilly",
     "awayPlayer1":"preston,camryn",
-    "awayPlayer2":null,
+    "awayPlayer2":"harris,abigail",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -7292,7 +7292,7 @@
     "awayLineup":[
       "preston,camryn",
       "releford,haleigh",
-      null,
+      "shearer,trinity",
       null,
       null
     ],
@@ -7326,7 +7326,7 @@
     "homePlayer5":"phillips,lilly",
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"releford,haleigh",
-    "awayPlayer3":null,
+    "awayPlayer3":"shearer,trinity",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -7371,7 +7371,7 @@
       "preston,camryn",
       "releford,haleigh",
       "harvey,spencer",
-      null,
+      "shearer,trinity",
       null
     ],
     "homeLineup":[
@@ -7405,7 +7405,7 @@
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
-    "awayPlayer4":null,
+    "awayPlayer4":"shearer,trinity",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7450,7 +7450,7 @@
       "releford,haleigh",
       "harvey,spencer",
       "shearer,trinity",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -7484,8 +7484,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -9095,7 +9095,7 @@
       "hammock,natalie",
       "wright,cydney",
       "phillips,lilly",
-      null
+      "conn,shay"
     ],
     "timeSeconds":71,
     "Poss":"asbury",
@@ -9117,13 +9117,13 @@
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"wright,cydney",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"conn,shay",
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -9244,7 +9244,7 @@
       "harvey,spencer",
       "shearer,trinity",
       "strunk,emma",
-      null
+      "preston,camryn"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -9278,8 +9278,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"preston,camryn",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -9641,7 +9641,7 @@
       "wright,cydney",
       "phillips,lilly",
       "humphrey,faith",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":50,
     "Poss":"asbury",
@@ -9663,13 +9663,13 @@
     "homePlayer2":"wright,cydney",
     "homePlayer3":"phillips,lilly",
     "homePlayer4":"humphrey,faith",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
     "awayPlayer5":"harlow,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -9790,7 +9790,7 @@
       "harvey,spencer",
       "strunk,emma",
       "harlow,kayla",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -9824,8 +9824,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -10570,7 +10570,7 @@
       "strunk,emma",
       "harlow,kayla",
       "flannery,morgan",
-      null
+      "harvey,spencer"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -10604,8 +10604,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -11194,7 +11194,7 @@
       "strunk,emma",
       "harlow,kayla",
       "flannery,morgan",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -11228,8 +11228,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -11271,7 +11271,7 @@
       "releford,haleigh",
       "strunk,emma",
       "harlow,kayla",
-      null,
+      "flannery,morgan",
       null
     ],
     "homeLineup":[
@@ -11305,7 +11305,7 @@
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harlow,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"flannery,morgan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11350,7 +11350,7 @@
       "strunk,emma",
       "harlow,kayla",
       "shearer,trinity",
-      null
+      "preston,camryn"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -11384,8 +11384,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"preston,camryn",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -12208,7 +12208,7 @@
       "harlow,kayla",
       "shearer,trinity",
       "harris,abigail",
-      null
+      "strunk,emma"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -12242,8 +12242,8 @@
     "awayPlayer2":"harlow,kayla",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"harris,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"strunk,emma",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -12285,7 +12285,7 @@
       "releford,haleigh",
       "shearer,trinity",
       "harris,abigail",
-      null,
+      "harlow,kayla",
       null
     ],
     "homeLineup":[
@@ -12319,7 +12319,7 @@
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"harris,abigail",
-    "awayPlayer4":null,
+    "awayPlayer4":"harlow,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12364,7 +12364,7 @@
       "shearer,trinity",
       "harris,abigail",
       "bellamy,meagan",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "hammock,natalie",
@@ -12398,8 +12398,8 @@
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"bellamy,meagan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -13463,7 +13463,7 @@
       "phillips,lilly",
       "humphrey,faith",
       "falvey,olivia",
-      null
+      "hammock,natalie"
     ],
     "timeSeconds":427,
     "Poss":"sewanee",
@@ -13485,13 +13485,13 @@
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"humphrey,faith",
     "homePlayer4":"falvey,olivia",
-    "homePlayer5":null,
+    "homePlayer5":"hammock,natalie",
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"bellamy,meagan",
     "awayPlayer5":"preston,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -13612,7 +13612,7 @@
       "harris,abigail",
       "bellamy,meagan",
       "preston,camryn",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "wright,cydney",
@@ -13646,8 +13646,8 @@
     "awayPlayer2":"harris,abigail",
     "awayPlayer3":"bellamy,meagan",
     "awayPlayer4":"preston,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -14009,7 +14009,7 @@
       "humphrey,faith",
       "falvey,olivia",
       "conn,shay",
-      null
+      "wright,cydney"
     ],
     "timeSeconds":396,
     "Poss":"sewanee",
@@ -14031,13 +14031,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"conn,shay",
-    "homePlayer5":null,
+    "homePlayer5":"wright,cydney",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"harris,abigail",
     "awayPlayer3":"bellamy,meagan",
     "awayPlayer4":"preston,camryn",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -14158,7 +14158,7 @@
       "bellamy,meagan",
       "preston,camryn",
       "riley,tiffani",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -14192,8 +14192,8 @@
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"preston,camryn",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -14860,7 +14860,7 @@
       "preston,camryn",
       "riley,tiffani",
       "flannery,morgan",
-      null
+      "harris,abigail"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -14894,8 +14894,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harris,abigail",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -15484,7 +15484,7 @@
       "preston,camryn",
       "flannery,morgan",
       "releford,haleigh",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -15518,8 +15518,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"releford,haleigh",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -15561,7 +15561,7 @@
       "preston,camryn",
       "flannery,morgan",
       "releford,haleigh",
-      null,
+      "bellamy,meagan",
       null
     ],
     "homeLineup":[
@@ -15595,7 +15595,7 @@
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"releford,haleigh",
-    "awayPlayer4":null,
+    "awayPlayer4":"bellamy,meagan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15640,7 +15640,7 @@
       "flannery,morgan",
       "releford,haleigh",
       "hinshaw,carley",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"hinshaw,carley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -16583,7 +16583,7 @@
       "humphrey,faith",
       "falvey,olivia",
       "conn,shay",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":300,
     "Poss":"asbury",
@@ -16605,13 +16605,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"conn,shay",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"hinshaw,carley",
     "awayPlayer5":"shearer,trinity",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -16888,7 +16888,7 @@
       "releford,haleigh",
       "hinshaw,carley",
       "shearer,trinity",
-      null
+      "flannery,morgan"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -16922,8 +16922,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"hinshaw,carley",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"flannery,morgan",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -17980,7 +17980,7 @@
       "releford,haleigh",
       "hinshaw,carley",
       "shearer,trinity",
-      null
+      "strunk,emma"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -18014,8 +18014,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"hinshaw,carley",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"strunk,emma",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -18057,7 +18057,7 @@
       "releford,haleigh",
       "hinshaw,carley",
       "shearer,trinity",
-      null,
+      "preston,camryn",
       null
     ],
     "homeLineup":[
@@ -18091,7 +18091,7 @@
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"hinshaw,carley",
     "awayPlayer3":"shearer,trinity",
-    "awayPlayer4":null,
+    "awayPlayer4":"preston,camryn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18136,7 +18136,7 @@
       "hinshaw,carley",
       "shearer,trinity",
       "bellamy,meagan",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -18170,8 +18170,8 @@
     "awayPlayer2":"hinshaw,carley",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"bellamy,meagan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -18994,7 +18994,7 @@
       "hinshaw,carley",
       "bellamy,meagan",
       "harlow,kayla",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -19028,8 +19028,8 @@
     "awayPlayer2":"hinshaw,carley",
     "awayPlayer3":"bellamy,meagan",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -20242,7 +20242,7 @@
       "bellamy,meagan",
       "harlow,kayla",
       "flannery,morgan",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -20276,8 +20276,8 @@
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -21419,7 +21419,7 @@
       "humphrey,faith",
       "falvey,olivia",
       "conn,shay",
-      null
+      "wright,cydney"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -21441,13 +21441,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"conn,shay",
-    "homePlayer5":null,
+    "homePlayer5":"wright,cydney",
     "awayPlayer1":"hinshaw,carley",
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -21496,7 +21496,7 @@
       "phillips,lilly",
       "humphrey,faith",
       "conn,shay",
-      null,
+      "falvey,olivia",
       null
     ],
     "timeSeconds":600,
@@ -21518,7 +21518,7 @@
     "homePlayer1":"phillips,lilly",
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"conn,shay",
-    "homePlayer4":null,
+    "homePlayer4":"falvey,olivia",
     "homePlayer5":null,
     "awayPlayer1":"hinshaw,carley",
     "awayPlayer2":"bellamy,meagan",
@@ -21575,7 +21575,7 @@
       "humphrey,faith",
       "conn,shay",
       "broussard,camryn",
-      null
+      "falvey,olivia"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -21597,13 +21597,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"conn,shay",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"falvey,olivia",
     "awayPlayer1":"hinshaw,carley",
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -21724,7 +21724,7 @@
       "bellamy,meagan",
       "harlow,kayla",
       "flannery,morgan",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -21758,8 +21758,8 @@
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -21801,7 +21801,7 @@
       "hinshaw,carley",
       "harlow,kayla",
       "flannery,morgan",
-      null,
+      "bellamy,meagan",
       null
     ],
     "homeLineup":[
@@ -21835,7 +21835,7 @@
     "awayPlayer1":"hinshaw,carley",
     "awayPlayer2":"harlow,kayla",
     "awayPlayer3":"flannery,morgan",
-    "awayPlayer4":null,
+    "awayPlayer4":"bellamy,meagan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21874,6 +21874,84 @@
     "shotOutcome":"",
     "Team":"asbury",
     "Player":"hinshaw,carley",
+    "pointsEarned":"",
+    "awayLineup":[
+      "harlow,kayla",
+      "flannery,morgan",
+      "hinshaw,carley",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "phillips,lilly",
+      "humphrey,faith",
+      "conn,shay",
+      "broussard,camryn",
+      "antoine,kayla"
+    ],
+    "timeSeconds":600,
+    "Poss":"sewanee",
+    "possNum":49,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"asbury",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":81,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/15\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"phillips,lilly",
+    "homePlayer2":"humphrey,faith",
+    "homePlayer3":"conn,shay",
+    "homePlayer4":"broussard,camryn",
+    "homePlayer5":"antoine,kayla",
+    "awayPlayer1":"harlow,kayla",
+    "awayPlayer2":"flannery,morgan",
+    "awayPlayer3":"hinshaw,carley",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"6423",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"85-66",
+    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
+    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
+    "homeRecord":"0-3",
+    "awayRecord":"1-0",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/15\/22",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"86",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by FLANNERY,MORGAN",
+    "awayTeamScore":"38 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"26",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FLANNERY,MORGAN",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"flannery,morgan",
     "pointsEarned":"",
     "awayLineup":[
       "harlow,kayla",
@@ -21939,84 +22017,6 @@
     "attendance":"86",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by FLANNERY,MORGAN",
-    "awayTeamScore":"38 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"26",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FLANNERY,MORGAN",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"flannery,morgan",
-    "pointsEarned":"",
-    "awayLineup":[
-      "harlow,kayla",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "phillips,lilly",
-      "humphrey,faith",
-      "conn,shay",
-      "broussard,camryn",
-      "antoine,kayla"
-    ],
-    "timeSeconds":600,
-    "Poss":"sewanee",
-    "possNum":49,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"asbury",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":81,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/15\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"phillips,lilly",
-    "homePlayer2":"humphrey,faith",
-    "homePlayer3":"conn,shay",
-    "homePlayer4":"broussard,camryn",
-    "homePlayer5":"antoine,kayla",
-    "awayPlayer1":"harlow,kayla",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6423",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"85-66",
-    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
-    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
-    "homeRecord":"0-3",
-    "awayRecord":"1-0",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/15\/22",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"86",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by RELEFORD,HALEIGH",
     "awayTeamScore":"38 ",
     "playTeamIndicator":"",
@@ -22034,7 +22034,7 @@
     "awayLineup":[
       "harlow,kayla",
       "releford,haleigh",
-      null,
+      "shearer,trinity",
       null,
       null
     ],
@@ -22068,7 +22068,7 @@
     "homePlayer5":"antoine,kayla",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"releford,haleigh",
-    "awayPlayer3":null,
+    "awayPlayer3":"shearer,trinity",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -22113,7 +22113,7 @@
       "harlow,kayla",
       "releford,haleigh",
       "harvey,spencer",
-      null,
+      "shearer,trinity",
       null
     ],
     "homeLineup":[
@@ -22147,7 +22147,7 @@
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
-    "awayPlayer4":null,
+    "awayPlayer4":"shearer,trinity",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22192,7 +22192,7 @@
       "releford,haleigh",
       "harvey,spencer",
       "shearer,trinity",
-      null
+      "preston,camryn"
     ],
     "homeLineup":[
       "phillips,lilly",
@@ -22226,8 +22226,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"preston,camryn",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -22589,7 +22589,7 @@
       "humphrey,faith",
       "broussard,camryn",
       "antoine,kayla",
-      null
+      "conn,shay"
     ],
     "timeSeconds":570,
     "Poss":"asbury",
@@ -22611,13 +22611,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"antoine,kayla",
-    "homePlayer5":null,
+    "homePlayer5":"conn,shay",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -24149,7 +24149,7 @@
       "humphrey,faith",
       "broussard,camryn",
       "falvey,olivia",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":473,
     "Poss":"asbury",
@@ -24171,13 +24171,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"falvey,olivia",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -26177,7 +26177,7 @@
       "broussard,camryn",
       "falvey,olivia",
       "wright,cydney",
-      null
+      "phillips,lilly"
     ],
     "timeSeconds":353,
     "Poss":"asbury",
@@ -26199,13 +26199,13 @@
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"wright,cydney",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,lilly",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -26326,6 +26326,84 @@
       "releford,haleigh",
       "shearer,trinity",
       "strunk,emma",
+      "harvey,spencer"
+    ],
+    "homeLineup":[
+      "humphrey,faith",
+      "broussard,camryn",
+      "falvey,olivia",
+      "wright,cydney",
+      "hammock,natalie"
+    ],
+    "timeSeconds":353,
+    "Poss":"asbury",
+    "possNum":56,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"asbury",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":97,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/15\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"humphrey,faith",
+    "homePlayer2":"broussard,camryn",
+    "homePlayer3":"falvey,olivia",
+    "homePlayer4":"wright,cydney",
+    "homePlayer5":"hammock,natalie",
+    "awayPlayer1":"harlow,kayla",
+    "awayPlayer2":"releford,haleigh",
+    "awayPlayer3":"shearer,trinity",
+    "awayPlayer4":"strunk,emma",
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6423",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"85-66",
+    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
+    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
+    "homeRecord":"0-3",
+    "awayRecord":"1-0",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/15\/22",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"86",
+    "isNeutral":"False",
+    "timeRemaining":"05:53",
+    "awayPlay":"SUB OUT by STRUNK,EMMA",
+    "awayTeamScore":"48 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"35",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by STRUNK,EMMA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"strunk,emma",
+    "pointsEarned":"",
+    "awayLineup":[
+      "harlow,kayla",
+      "releford,haleigh",
+      "shearer,trinity",
+      "strunk,emma",
       null
     ],
     "homeLineup":[
@@ -26385,84 +26463,6 @@
     "attendance":"86",
     "isNeutral":"False",
     "timeRemaining":"05:53",
-    "awayPlay":"SUB OUT by STRUNK,EMMA",
-    "awayTeamScore":"48 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"35",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by STRUNK,EMMA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"strunk,emma",
-    "pointsEarned":"",
-    "awayLineup":[
-      "harlow,kayla",
-      "releford,haleigh",
-      "shearer,trinity",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "humphrey,faith",
-      "broussard,camryn",
-      "falvey,olivia",
-      "wright,cydney",
-      "hammock,natalie"
-    ],
-    "timeSeconds":353,
-    "Poss":"asbury",
-    "possNum":56,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"asbury",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":97,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/15\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"humphrey,faith",
-    "homePlayer2":"broussard,camryn",
-    "homePlayer3":"falvey,olivia",
-    "homePlayer4":"wright,cydney",
-    "homePlayer5":"hammock,natalie",
-    "awayPlayer1":"harlow,kayla",
-    "awayPlayer2":"releford,haleigh",
-    "awayPlayer3":"shearer,trinity",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6423",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"85-66",
-    "homeScoreByPeriod":"\nF-652\nSewanee\n,13,13,15,25,66",
-    "awayScoreByPeriod":"\nWinner\nF-30243\nAsbury\n,21,17,28,19,85",
-    "homeRecord":"0-3",
-    "awayRecord":"1-0",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/15\/22",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"86",
-    "isNeutral":"False",
-    "timeRemaining":"05:53",
     "awayPlay":"SUB IN by BELLAMY,MEAGAN",
     "awayTeamScore":"48 ",
     "playTeamIndicator":"",
@@ -26482,7 +26482,7 @@
       "releford,haleigh",
       "shearer,trinity",
       "bellamy,meagan",
-      null
+      "preston,camryn"
     ],
     "homeLineup":[
       "humphrey,faith",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"bellamy,meagan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"preston,camryn",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -26872,7 +26872,7 @@
       "shearer,trinity",
       "bellamy,meagan",
       "harris,abigail",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "humphrey,faith",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"bellamy,meagan",
     "awayPlayer4":"harris,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -26949,7 +26949,7 @@
       "shearer,trinity",
       "bellamy,meagan",
       "harris,abigail",
-      null,
+      "harlow,kayla",
       null
     ],
     "homeLineup":[
@@ -26983,7 +26983,7 @@
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harris,abigail",
-    "awayPlayer4":null,
+    "awayPlayer4":"harlow,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27028,7 +27028,7 @@
       "bellamy,meagan",
       "harris,abigail",
       "harvey,spencer",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "humphrey,faith",
@@ -27062,8 +27062,8 @@
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"harvey,spencer",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -28283,7 +28283,7 @@
       "falvey,olivia",
       "wright,cydney",
       "hammock,natalie",
-      null
+      "humphrey,faith"
     ],
     "timeSeconds":255,
     "Poss":"sewanee",
@@ -28305,13 +28305,13 @@
     "homePlayer2":"falvey,olivia",
     "homePlayer3":"wright,cydney",
     "homePlayer4":"hammock,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"humphrey,faith",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"bellamy,meagan",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"harvey,spencer",
     "awayPlayer5":"preston,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -28432,7 +28432,7 @@
       "harris,abigail",
       "harvey,spencer",
       "preston,camryn",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -28466,8 +28466,8 @@
     "awayPlayer2":"harris,abigail",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"preston,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -29063,7 +29063,7 @@
       "wright,cydney",
       "hammock,natalie",
       "phillips,lilly",
-      null
+      "falvey,olivia"
     ],
     "timeSeconds":237,
     "Poss":"asbury",
@@ -29085,13 +29085,13 @@
     "homePlayer2":"wright,cydney",
     "homePlayer3":"hammock,natalie",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"falvey,olivia",
     "awayPlayer1":"bellamy,meagan",
     "awayPlayer2":"harris,abigail",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"preston,camryn",
     "awayPlayer5":"flannery,morgan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -29212,7 +29212,7 @@
       "harvey,spencer",
       "preston,camryn",
       "flannery,morgan",
-      null
+      "harris,abigail"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -29246,8 +29246,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"preston,camryn",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harris,abigail",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -30701,7 +30701,7 @@
       "hammock,natalie",
       "phillips,lilly",
       "conn,shay",
-      null
+      "wright,cydney"
     ],
     "timeSeconds":134,
     "Poss":"asbury",
@@ -30723,13 +30723,13 @@
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"phillips,lilly",
     "homePlayer4":"conn,shay",
-    "homePlayer5":null,
+    "homePlayer5":"wright,cydney",
     "awayPlayer1":"bellamy,meagan",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"preston,camryn",
     "awayPlayer4":"flannery,morgan",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -30778,7 +30778,7 @@
       "broussard,camryn",
       "phillips,lilly",
       "conn,shay",
-      null,
+      "hammock,natalie",
       null
     ],
     "timeSeconds":134,
@@ -30800,7 +30800,7 @@
     "homePlayer1":"broussard,camryn",
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"conn,shay",
-    "homePlayer4":null,
+    "homePlayer4":"hammock,natalie",
     "homePlayer5":null,
     "awayPlayer1":"bellamy,meagan",
     "awayPlayer2":"harvey,spencer",
@@ -30857,7 +30857,7 @@
       "phillips,lilly",
       "conn,shay",
       "antoine,kayla",
-      null
+      "humphrey,faith"
     ],
     "timeSeconds":134,
     "Poss":"asbury",
@@ -30879,13 +30879,13 @@
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"conn,shay",
     "homePlayer4":"antoine,kayla",
-    "homePlayer5":null,
+    "homePlayer5":"humphrey,faith",
     "awayPlayer1":"bellamy,meagan",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"preston,camryn",
     "awayPlayer4":"flannery,morgan",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -31006,7 +31006,7 @@
       "preston,camryn",
       "flannery,morgan",
       "riley,tiffani",
-      null
+      "harvey,spencer"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -31040,8 +31040,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -31871,7 +31871,7 @@
       "phillips,lilly",
       "antoine,kayla",
       "humphrey,faith",
-      null
+      "conn,shay"
     ],
     "timeSeconds":107,
     "Poss":"asbury",
@@ -31893,13 +31893,13 @@
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"humphrey,faith",
-    "homePlayer5":null,
+    "homePlayer5":"conn,shay",
     "awayPlayer1":"bellamy,meagan",
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"riley,tiffani",
     "awayPlayer5":"harlow,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -33580,7 +33580,7 @@
       "preston,camryn",
       "flannery,morgan",
       "harlow,kayla",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -33614,8 +33614,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -33657,7 +33657,7 @@
       "preston,camryn",
       "flannery,morgan",
       "harlow,kayla",
-      null,
+      "bellamy,meagan",
       null
     ],
     "homeLineup":[
@@ -33691,7 +33691,7 @@
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"harlow,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"bellamy,meagan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33734,7 +33734,7 @@
     "awayLineup":[
       "preston,camryn",
       "harlow,kayla",
-      null,
+      "flannery,morgan",
       null,
       null
     ],
@@ -33768,7 +33768,7 @@
     "homePlayer5":"falvey,olivia",
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"harlow,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"flannery,morgan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -33811,7 +33811,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "harlow,kayla",
-      null,
+      "preston,camryn",
       null,
       null,
       null
@@ -33845,7 +33845,7 @@
     "homePlayer4":"humphrey,faith",
     "homePlayer5":"falvey,olivia",
     "awayPlayer1":"harlow,kayla",
-    "awayPlayer2":null,
+    "awayPlayer2":"preston,camryn",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -33890,7 +33890,7 @@
     "awayLineup":[
       "harlow,kayla",
       "hinshaw,carley",
-      null,
+      "shearer,trinity",
       null,
       null
     ],
@@ -33924,7 +33924,7 @@
     "homePlayer5":"falvey,olivia",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"hinshaw,carley",
-    "awayPlayer3":null,
+    "awayPlayer3":"shearer,trinity",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -33969,7 +33969,7 @@
       "harlow,kayla",
       "hinshaw,carley",
       "releford,haleigh",
-      null,
+      "shearer,trinity",
       null
     ],
     "homeLineup":[
@@ -34003,7 +34003,7 @@
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"hinshaw,carley",
     "awayPlayer3":"releford,haleigh",
-    "awayPlayer4":null,
+    "awayPlayer4":"shearer,trinity",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34048,7 +34048,7 @@
       "hinshaw,carley",
       "releford,haleigh",
       "harvey,spencer",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -34082,8 +34082,8 @@
     "awayPlayer2":"hinshaw,carley",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"harvey,spencer",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -34204,7 +34204,7 @@
       "releford,haleigh",
       "harvey,spencer",
       "shearer,trinity",
-      null
+      "hinshaw,carley"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -34238,8 +34238,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hinshaw,carley",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -35218,7 +35218,7 @@
       "harvey,spencer",
       "shearer,trinity",
       "strunk,emma",
-      null
+      "releford,haleigh"
     ],
     "homeLineup":[
       "broussard,camryn",
@@ -35252,8 +35252,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"releford,haleigh",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -35771,7 +35771,7 @@
       "antoine,kayla",
       "humphrey,faith",
       "falvey,olivia",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":457,
     "Poss":"asbury",
@@ -35793,13 +35793,13 @@
     "homePlayer2":"antoine,kayla",
     "homePlayer3":"humphrey,faith",
     "homePlayer4":"falvey,olivia",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
     "awayPlayer5":"harris,abigail",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -35848,7 +35848,7 @@
       "antoine,kayla",
       "humphrey,faith",
       "falvey,olivia",
-      null,
+      "phillips,lilly",
       null
     ],
     "timeSeconds":457,
@@ -35870,7 +35870,7 @@
     "homePlayer1":"antoine,kayla",
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
-    "homePlayer4":null,
+    "homePlayer4":"phillips,lilly",
     "homePlayer5":null,
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
@@ -35927,7 +35927,7 @@
       "humphrey,faith",
       "falvey,olivia",
       "hammock,natalie",
-      null
+      "phillips,lilly"
     ],
     "timeSeconds":457,
     "Poss":"asbury",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"hammock,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,lilly",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
     "awayPlayer5":"harris,abigail",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -36863,7 +36863,7 @@
       "humphrey,faith",
       "falvey,olivia",
       "hammock,natalie",
-      null
+      "conn,shay"
     ],
     "timeSeconds":348,
     "Poss":"sewanee",
@@ -36885,13 +36885,13 @@
     "homePlayer2":"humphrey,faith",
     "homePlayer3":"falvey,olivia",
     "homePlayer4":"hammock,natalie",
-    "homePlayer5":null,
+    "homePlayer5":"conn,shay",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
     "awayPlayer5":"harris,abigail",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -36940,7 +36940,7 @@
       "antoine,kayla",
       "falvey,olivia",
       "hammock,natalie",
-      null,
+      "humphrey,faith",
       null
     ],
     "timeSeconds":348,
@@ -36962,7 +36962,7 @@
     "homePlayer1":"antoine,kayla",
     "homePlayer2":"falvey,olivia",
     "homePlayer3":"hammock,natalie",
-    "homePlayer4":null,
+    "homePlayer4":"humphrey,faith",
     "homePlayer5":null,
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
@@ -37019,7 +37019,7 @@
       "falvey,olivia",
       "hammock,natalie",
       "broussard,camryn",
-      null
+      "humphrey,faith"
     ],
     "timeSeconds":348,
     "Poss":"sewanee",
@@ -37041,13 +37041,13 @@
     "homePlayer2":"falvey,olivia",
     "homePlayer3":"hammock,natalie",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"humphrey,faith",
     "awayPlayer1":"harlow,kayla",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"strunk,emma",
     "awayPlayer5":"harris,abigail",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -37168,7 +37168,7 @@
       "shearer,trinity",
       "strunk,emma",
       "harris,abigail",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "antoine,kayla",
@@ -37202,8 +37202,8 @@
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harris,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -37409,7 +37409,7 @@
       "hammock,natalie",
       "broussard,camryn",
       "phillips,lilly",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":348,
     "Poss":"sewanee",
@@ -37431,13 +37431,13 @@
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harris,abigail",
     "awayPlayer5":"preston,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -37870,7 +37870,7 @@
       "shearer,trinity",
       "harris,abigail",
       "preston,camryn",
-      null
+      "strunk,emma"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -37904,8 +37904,8 @@
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"harris,abigail",
     "awayPlayer4":"preston,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"strunk,emma",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -39118,7 +39118,7 @@
       "harris,abigail",
       "preston,camryn",
       "releford,haleigh",
-      null
+      "harvey,spencer"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -39152,8 +39152,8 @@
     "awayPlayer2":"harris,abigail",
     "awayPlayer3":"preston,camryn",
     "awayPlayer4":"releford,haleigh",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -39195,7 +39195,7 @@
       "shearer,trinity",
       "preston,camryn",
       "releford,haleigh",
-      null,
+      "harris,abigail",
       null
     ],
     "homeLineup":[
@@ -39229,7 +39229,7 @@
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"releford,haleigh",
-    "awayPlayer4":null,
+    "awayPlayer4":"harris,abigail",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39274,7 +39274,7 @@
       "preston,camryn",
       "releford,haleigh",
       "riley,tiffani",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -39308,8 +39308,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -39983,7 +39983,7 @@
       "hammock,natalie",
       "broussard,camryn",
       "phillips,lilly",
-      null
+      "wright,cydney"
     ],
     "timeSeconds":252,
     "Poss":"sewanee",
@@ -40005,13 +40005,13 @@
     "homePlayer2":"hammock,natalie",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"wright,cydney",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"riley,tiffani",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -40060,7 +40060,7 @@
       "falvey,olivia",
       "broussard,camryn",
       "phillips,lilly",
-      null,
+      "hammock,natalie",
       null
     ],
     "timeSeconds":252,
@@ -40082,7 +40082,7 @@
     "homePlayer1":"falvey,olivia",
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"phillips,lilly",
-    "homePlayer4":null,
+    "homePlayer4":"hammock,natalie",
     "homePlayer5":null,
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"preston,camryn",
@@ -40139,7 +40139,7 @@
       "broussard,camryn",
       "phillips,lilly",
       "antoine,kayla",
-      null
+      "humphrey,faith"
     ],
     "timeSeconds":252,
     "Poss":"sewanee",
@@ -40161,13 +40161,13 @@
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"phillips,lilly",
     "homePlayer4":"antoine,kayla",
-    "homePlayer5":null,
+    "homePlayer5":"humphrey,faith",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"riley,tiffani",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -40600,7 +40600,7 @@
       "preston,camryn",
       "releford,haleigh",
       "strunk,emma",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -40634,8 +40634,8 @@
     "awayPlayer2":"preston,camryn",
     "awayPlayer3":"releford,haleigh",
     "awayPlayer4":"strunk,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -40834,7 +40834,7 @@
       "releford,haleigh",
       "strunk,emma",
       "harlow,kayla",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -40868,8 +40868,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -42167,7 +42167,7 @@
       "broussard,camryn",
       "phillips,lilly",
       "humphrey,faith",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":163,
     "Poss":"asbury",
@@ -42189,13 +42189,13 @@
     "homePlayer2":"broussard,camryn",
     "homePlayer3":"phillips,lilly",
     "homePlayer4":"humphrey,faith",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"harlow,kayla",
     "awayPlayer5":"flannery,morgan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -42316,7 +42316,7 @@
       "releford,haleigh",
       "harlow,kayla",
       "flannery,morgan",
-      null
+      "strunk,emma"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -42350,8 +42350,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"harlow,kayla",
     "awayPlayer4":"flannery,morgan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"strunk,emma",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -42393,7 +42393,7 @@
       "preston,camryn",
       "releford,haleigh",
       "flannery,morgan",
-      null,
+      "harlow,kayla",
       null
     ],
     "homeLineup":[
@@ -42427,7 +42427,7 @@
     "awayPlayer1":"preston,camryn",
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"flannery,morgan",
-    "awayPlayer4":null,
+    "awayPlayer4":"harlow,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -42472,7 +42472,7 @@
       "releford,haleigh",
       "flannery,morgan",
       "harvey,spencer",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -42506,8 +42506,8 @@
     "awayPlayer2":"releford,haleigh",
     "awayPlayer3":"flannery,morgan",
     "awayPlayer4":"harvey,spencer",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -44032,7 +44032,7 @@
       "flannery,morgan",
       "harvey,spencer",
       "shearer,trinity",
-      null
+      "preston,camryn"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -44066,8 +44066,8 @@
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"preston,camryn",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -44500,7 +44500,7 @@
       "flannery,morgan",
       "shearer,trinity",
       "harlow,kayla",
-      null
+      "harvey,spencer"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -44534,8 +44534,8 @@
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -45124,7 +45124,7 @@
       "flannery,morgan",
       "shearer,trinity",
       "preston,camryn",
-      null
+      "harlow,kayla"
     ],
     "homeLineup":[
       "falvey,olivia",
@@ -45158,8 +45158,8 @@
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"preston,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harlow,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"6423",
@@ -46223,7 +46223,7 @@
       "phillips,lilly",
       "humphrey,faith",
       "wright,cydney",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":0,
     "Poss":"asbury",
@@ -46245,13 +46245,13 @@
     "homePlayer2":"phillips,lilly",
     "homePlayer3":"humphrey,faith",
     "homePlayer4":"wright,cydney",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"releford,haleigh",
     "awayPlayer2":"flannery,morgan",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"preston,camryn",
     "awayPlayer5":"hinshaw,carley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6423",

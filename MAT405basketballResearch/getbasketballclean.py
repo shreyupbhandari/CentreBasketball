@@ -1705,7 +1705,18 @@ def makeHeaderPBP(sport, school, year_str):
             logger.warning("Header file not found: %s", str(header_dir / header_file))
             continue
  
-        html_file = str(html_dir / (header_file.split('_header')[0] + '.html'))
+        prefix = header_file.split('_header')[0]
+        html_path = html_dir / (prefix + '.html')
+        if not html_path.exists():
+            # The header/table CSV filename sometimes truncates the opponent
+            # name by a character (e.g. "mount-st-josep" for "mount-st-joseph"),
+            # which broke the exact-name match and silently skipped the game.
+            # Fall back to matching the HTML by its unique game id.
+            gid = next((t for t in prefix.split('_') if t.isdigit()), None)
+            matches = sorted(html_dir.glob(f'*_{gid}_*.html')) if gid else []
+            if matches:
+                html_path = matches[0]
+        html_file = str(html_path)
         try:
             with open(html_file, 'r', encoding='utf-8', errors='replace') as html_file_h:
                 soup = bs(html_file_h, 'lxml')

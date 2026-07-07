@@ -1061,7 +1061,7 @@
       "lee,taya",
       "long,libby",
       "hagen,ellen",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":455,
     "Poss":"centre",
@@ -1083,13 +1083,13 @@
     "homePlayer2":"lee,taya",
     "homePlayer3":"long,libby",
     "homePlayer4":"hagen,ellen",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"herold,payton",
     "awayPlayer5":"jennings,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -3401,7 +3401,7 @@
       "lee,taya",
       "hagen,ellen",
       "althoff,catherine",
-      null
+      "long,libby"
     ],
     "timeSeconds":258,
     "Poss":"centre",
@@ -3423,13 +3423,13 @@
     "homePlayer2":"lee,taya",
     "homePlayer3":"hagen,ellen",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"herold,payton",
     "awayPlayer5":"jennings,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -3478,7 +3478,7 @@
       "mayeux,alli",
       "hagen,ellen",
       "althoff,catherine",
-      null,
+      "lee,taya",
       null
     ],
     "timeSeconds":258,
@@ -3500,7 +3500,7 @@
     "homePlayer1":"mayeux,alli",
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
-    "homePlayer4":null,
+    "homePlayer4":"lee,taya",
     "homePlayer5":null,
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"duggins,natalie",
@@ -3557,7 +3557,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "schiff,hallie",
-      null
+      "totals"
     ],
     "timeSeconds":258,
     "Poss":"centre",
@@ -3579,13 +3579,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"herold,payton",
     "awayPlayer5":"jennings,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -3706,6 +3706,84 @@
       "vincent,emma rose",
       "herold,payton",
       "jennings,rachel",
+      "chirico,presley"
+    ],
+    "homeLineup":[
+      "mayeux,alli",
+      "hagen,ellen",
+      "althoff,catherine",
+      "schiff,hallie",
+      "lagarde,a'niya"
+    ],
+    "timeSeconds":258,
+    "Poss":"centre",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":20,
+    "teamChanged":0,
+    "game":"RhodesCentre01\/23\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"mayeux,alli",
+    "homePlayer2":"hagen,ellen",
+    "homePlayer3":"althoff,catherine",
+    "homePlayer4":"schiff,hallie",
+    "homePlayer5":"lagarde,a'niya",
+    "awayPlayer1":"duggins,natalie",
+    "awayPlayer2":"vincent,emma rose",
+    "awayPlayer3":"herold,payton",
+    "awayPlayer4":"jennings,rachel",
+    "awayPlayer5":"chirico,presley",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7960",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"56-76",
+    "homeScoreByPeriod":"21,13,24,18,76",
+    "awayScoreByPeriod":"14,15,16,11,56",
+    "homeRecord":"13-2",
+    "awayRecord":"6-10",
+    "homeConfRecord":"5-0",
+    "awayConfRecord":"3-3",
+    "gameDate":"01\/23\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"60",
+    "isNeutral":"False",
+    "timeRemaining":"04:18",
+    "awayPlay":"SUB OUT by JENNINGS,RACHEL",
+    "awayTeamScore":"6",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by JENNINGS,RACHEL",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"jennings,rachel",
+    "pointsEarned":"",
+    "awayLineup":[
+      "duggins,natalie",
+      "vincent,emma rose",
+      "herold,payton",
+      "jennings,rachel",
       null
     ],
     "homeLineup":[
@@ -3765,84 +3843,6 @@
     "attendance":"60",
     "isNeutral":"False",
     "timeRemaining":"04:18",
-    "awayPlay":"SUB OUT by JENNINGS,RACHEL",
-    "awayTeamScore":"6",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by JENNINGS,RACHEL",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"jennings,rachel",
-    "pointsEarned":"",
-    "awayLineup":[
-      "duggins,natalie",
-      "vincent,emma rose",
-      "herold,payton",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "mayeux,alli",
-      "hagen,ellen",
-      "althoff,catherine",
-      "schiff,hallie",
-      "lagarde,a'niya"
-    ],
-    "timeSeconds":258,
-    "Poss":"centre",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":20,
-    "teamChanged":0,
-    "game":"RhodesCentre01\/23\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"mayeux,alli",
-    "homePlayer2":"hagen,ellen",
-    "homePlayer3":"althoff,catherine",
-    "homePlayer4":"schiff,hallie",
-    "homePlayer5":"lagarde,a'niya",
-    "awayPlayer1":"duggins,natalie",
-    "awayPlayer2":"vincent,emma rose",
-    "awayPlayer3":"herold,payton",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7960",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"56-76",
-    "homeScoreByPeriod":"21,13,24,18,76",
-    "awayScoreByPeriod":"14,15,16,11,56",
-    "homeRecord":"13-2",
-    "awayRecord":"6-10",
-    "homeConfRecord":"5-0",
-    "awayConfRecord":"3-3",
-    "gameDate":"01\/23\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"60",
-    "isNeutral":"False",
-    "timeRemaining":"04:18",
     "awayPlay":"SUB OUT by VINCENT,EMMA ROSE",
     "awayTeamScore":"6",
     "playTeamIndicator":"",
@@ -3860,7 +3860,7 @@
     "awayLineup":[
       "duggins,natalie",
       "herold,payton",
-      null,
+      "vincent,emma rose",
       null,
       null
     ],
@@ -3894,7 +3894,7 @@
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"herold,payton",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3937,7 +3937,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "herold,payton",
-      null,
+      "duggins,natalie",
       null,
       null,
       null
@@ -3971,7 +3971,7 @@
     "homePlayer4":"schiff,hallie",
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"herold,payton",
-    "awayPlayer2":null,
+    "awayPlayer2":"duggins,natalie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -4093,7 +4093,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "rucker,bailey",
-      null,
+      "totals",
       null,
       null,
       null
@@ -4127,7 +4127,7 @@
     "homePlayer4":"schiff,hallie",
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"rucker,bailey",
-    "awayPlayer2":null,
+    "awayPlayer2":"totals",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -4172,7 +4172,7 @@
     "awayLineup":[
       "rucker,bailey",
       "marovich,mackenzie",
-      null,
+      "totals",
       null,
       null
     ],
@@ -4206,7 +4206,7 @@
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"marovich,mackenzie",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -4251,7 +4251,7 @@
       "rucker,bailey",
       "marovich,mackenzie",
       "garrett,taylor",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4285,7 +4285,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"marovich,mackenzie",
     "awayPlayer3":"garrett,taylor",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4330,7 +4330,7 @@
       "marovich,mackenzie",
       "garrett,taylor",
       "thomas,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -4364,8 +4364,8 @@
     "awayPlayer2":"marovich,mackenzie",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -5422,7 +5422,7 @@
       "marovich,mackenzie",
       "garrett,taylor",
       "thomas,anna",
-      null
+      "stiltner,katelyn"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -5456,8 +5456,8 @@
     "awayPlayer2":"marovich,mackenzie",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stiltner,katelyn",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -5897,7 +5897,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "lagarde,a'niya",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":93,
     "Poss":"rhodes",
@@ -5919,13 +5919,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"marovich,mackenzie",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"chirico,presley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -6209,7 +6209,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "long,libby",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":89,
     "Poss":"centre",
@@ -6231,13 +6231,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"marovich,mackenzie",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"chirico,presley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -6358,7 +6358,7 @@
       "garrett,taylor",
       "thomas,anna",
       "chirico,presley",
-      null
+      "marovich,mackenzie"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -6392,8 +6392,8 @@
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"chirico,presley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"marovich,mackenzie",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -6435,7 +6435,7 @@
       "rucker,bailey",
       "thomas,anna",
       "chirico,presley",
-      null,
+      "garrett,taylor",
       null
     ],
     "homeLineup":[
@@ -6469,7 +6469,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"chirico,presley",
-    "awayPlayer4":null,
+    "awayPlayer4":"garrett,taylor",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6514,7 +6514,7 @@
       "thomas,anna",
       "chirico,presley",
       "vincent,emma rose",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -6548,8 +6548,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"chirico,presley",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -7450,7 +7450,7 @@
       "chirico,presley",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "thomas,anna"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -7484,8 +7484,8 @@
     "awayPlayer2":"chirico,presley",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,anna",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -7918,7 +7918,7 @@
       "vincent,emma rose",
       "duggins,natalie",
       "jennings,rachel",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -7952,8 +7952,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"jennings,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -9017,7 +9017,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "long,libby",
-      null
+      "lee,taya"
     ],
     "timeSeconds":509,
     "Poss":"rhodes",
@@ -9039,13 +9039,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"jennings,rachel",
     "awayPlayer5":"herold,payton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -9797,7 +9797,7 @@
       "hagen,ellen",
       "long,libby",
       "lagarde,a'niya",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":461,
     "Poss":"centre",
@@ -9819,13 +9819,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"long,libby",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"jennings,rachel",
     "awayPlayer5":"herold,payton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -10804,7 +10804,7 @@
       "duggins,natalie",
       "jennings,rachel",
       "herold,payton",
-      null
+      "chirico,presley"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -10838,8 +10838,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"jennings,rachel",
     "awayPlayer4":"herold,payton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chirico,presley",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -10881,7 +10881,7 @@
       "vincent,emma rose",
       "duggins,natalie",
       "herold,payton",
-      null,
+      "jennings,rachel",
       null
     ],
     "homeLineup":[
@@ -10915,7 +10915,7 @@
     "awayPlayer1":"vincent,emma rose",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"herold,payton",
-    "awayPlayer4":null,
+    "awayPlayer4":"jennings,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10954,6 +10954,84 @@
     "shotOutcome":"",
     "Team":"centre",
     "Player":"vincent,emma rose",
+    "pointsEarned":"",
+    "awayLineup":[
+      "duggins,natalie",
+      "herold,payton",
+      "vincent,emma rose",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "mayeux,alli",
+      "hagen,ellen",
+      "long,libby",
+      "lagarde,a'niya",
+      "lee,taya"
+    ],
+    "timeSeconds":394,
+    "Poss":"centre",
+    "possNum":20,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":47,
+    "teamChanged":0,
+    "game":"RhodesCentre01\/23\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"mayeux,alli",
+    "homePlayer2":"hagen,ellen",
+    "homePlayer3":"long,libby",
+    "homePlayer4":"lagarde,a'niya",
+    "homePlayer5":"lee,taya",
+    "awayPlayer1":"duggins,natalie",
+    "awayPlayer2":"herold,payton",
+    "awayPlayer3":"vincent,emma rose",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7960",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"56-76",
+    "homeScoreByPeriod":"21,13,24,18,76",
+    "awayScoreByPeriod":"14,15,16,11,56",
+    "homeRecord":"13-2",
+    "awayRecord":"6-10",
+    "homeConfRecord":"5-0",
+    "awayConfRecord":"3-3",
+    "gameDate":"01\/23\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"60",
+    "isNeutral":"False",
+    "timeRemaining":"06:34",
+    "awayPlay":"SUB OUT by HEROLD,PAYTON",
+    "awayTeamScore":"20",
+    "playTeamIndicator":"",
+    "homeTeamScore":"27 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HEROLD,PAYTON",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"herold,payton",
     "pointsEarned":"",
     "awayLineup":[
       "duggins,natalie",
@@ -11019,84 +11097,6 @@
     "attendance":"60",
     "isNeutral":"False",
     "timeRemaining":"06:34",
-    "awayPlay":"SUB OUT by HEROLD,PAYTON",
-    "awayTeamScore":"20",
-    "playTeamIndicator":"",
-    "homeTeamScore":"27 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HEROLD,PAYTON",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"herold,payton",
-    "pointsEarned":"",
-    "awayLineup":[
-      "duggins,natalie",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "mayeux,alli",
-      "hagen,ellen",
-      "long,libby",
-      "lagarde,a'niya",
-      "lee,taya"
-    ],
-    "timeSeconds":394,
-    "Poss":"centre",
-    "possNum":20,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":47,
-    "teamChanged":0,
-    "game":"RhodesCentre01\/23\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"mayeux,alli",
-    "homePlayer2":"hagen,ellen",
-    "homePlayer3":"long,libby",
-    "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":"lee,taya",
-    "awayPlayer1":"duggins,natalie",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7960",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"56-76",
-    "homeScoreByPeriod":"21,13,24,18,76",
-    "awayScoreByPeriod":"14,15,16,11,56",
-    "homeRecord":"13-2",
-    "awayRecord":"6-10",
-    "homeConfRecord":"5-0",
-    "awayConfRecord":"3-3",
-    "gameDate":"01\/23\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"60",
-    "isNeutral":"False",
-    "timeRemaining":"06:34",
     "awayPlay":"SUB IN by HENSLEY,PIPER",
     "awayTeamScore":"20",
     "playTeamIndicator":"",
@@ -11114,7 +11114,7 @@
     "awayLineup":[
       "duggins,natalie",
       "hensley,piper",
-      null,
+      "totals",
       null,
       null
     ],
@@ -11148,7 +11148,7 @@
     "homePlayer5":"lee,taya",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"hensley,piper",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -11193,7 +11193,7 @@
       "duggins,natalie",
       "hensley,piper",
       "rucker,bailey",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -11227,7 +11227,7 @@
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"hensley,piper",
     "awayPlayer3":"rucker,bailey",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11272,7 +11272,7 @@
       "hensley,piper",
       "rucker,bailey",
       "garrett,taylor",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -11306,8 +11306,8 @@
     "awayPlayer2":"hensley,piper",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"garrett,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -12917,7 +12917,7 @@
       "long,libby",
       "lagarde,a'niya",
       "lee,taya",
-      null
+      "mayeux,alli"
     ],
     "timeSeconds":266,
     "Poss":"centre",
@@ -12939,13 +12939,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"mayeux,alli",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"hensley,piper",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"garrett,taylor",
     "awayPlayer5":"thomas,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -13066,7 +13066,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "thomas,anna",
-      null
+      "hensley,piper"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -13100,8 +13100,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hensley,piper",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -13143,7 +13143,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "thomas,anna",
-      null,
+      "duggins,natalie",
       null
     ],
     "homeLineup":[
@@ -13177,7 +13177,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"thomas,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"duggins,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13222,7 +13222,7 @@
       "garrett,taylor",
       "thomas,anna",
       "chirico,presley",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -13256,8 +13256,8 @@
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"chirico,presley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -13768,7 +13768,7 @@
       "garrett,taylor",
       "thomas,anna",
       "herold,payton",
-      null
+      "chirico,presley"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -13802,8 +13802,8 @@
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"herold,payton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chirico,presley",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -14477,7 +14477,7 @@
       "long,libby",
       "lagarde,a'niya",
       "althoff,catherine",
-      null
+      "lee,taya"
     ],
     "timeSeconds":194,
     "Poss":"centre",
@@ -14499,13 +14499,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"herold,payton",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -14626,7 +14626,7 @@
       "thomas,anna",
       "herold,payton",
       "duggins,natalie",
-      null
+      "garrett,taylor"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -14660,8 +14660,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"herold,payton",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"garrett,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -15328,7 +15328,7 @@
       "thomas,anna",
       "herold,payton",
       "vincent,emma rose",
-      null
+      "duggins,natalie"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -15362,8 +15362,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"herold,payton",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"duggins,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -15405,7 +15405,7 @@
       "rucker,bailey",
       "herold,payton",
       "vincent,emma rose",
-      null,
+      "thomas,anna",
       null
     ],
     "homeLineup":[
@@ -15439,7 +15439,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"herold,payton",
     "awayPlayer3":"vincent,emma rose",
-    "awayPlayer4":null,
+    "awayPlayer4":"thomas,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15482,7 +15482,7 @@
     "awayLineup":[
       "rucker,bailey",
       "vincent,emma rose",
-      null,
+      "herold,payton",
       null,
       null
     ],
@@ -15516,7 +15516,7 @@
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
-    "awayPlayer3":null,
+    "awayPlayer3":"herold,payton",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -15561,7 +15561,7 @@
       "rucker,bailey",
       "vincent,emma rose",
       "hensley,piper",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -15595,7 +15595,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"hensley,piper",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15640,7 +15640,7 @@
       "vincent,emma rose",
       "hensley,piper",
       "jennings,rachel",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"hensley,piper",
     "awayPlayer4":"jennings,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -15959,7 +15959,7 @@
       "lagarde,a'niya",
       "althoff,catherine",
       "mayeux,alli",
-      null
+      "long,libby"
     ],
     "timeSeconds":129,
     "Poss":"rhodes",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"hensley,piper",
     "awayPlayer4":"jennings,rachel",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -16342,7 +16342,7 @@
       "hensley,piper",
       "jennings,rachel",
       "stiltner,katelyn",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -16376,8 +16376,8 @@
     "awayPlayer2":"hensley,piper",
     "awayPlayer3":"jennings,rachel",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -16654,7 +16654,7 @@
       "jennings,rachel",
       "stiltner,katelyn",
       "chirico,presley",
-      null
+      "hensley,piper"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -16688,8 +16688,8 @@
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"chirico,presley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hensley,piper",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -16895,7 +16895,7 @@
       "lagarde,a'niya",
       "althoff,catherine",
       "mayeux,alli",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":101,
     "Poss":"rhodes",
@@ -16917,13 +16917,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"vincent,emma rose",
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"chirico,presley",
     "awayPlayer5":"herold,payton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -18299,7 +18299,7 @@
       "lagarde,a'niya",
       "mayeux,alli",
       "long,libby",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -18321,13 +18321,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"vincent,emma rose",
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"chirico,presley",
     "awayPlayer5":"herold,payton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -18448,7 +18448,7 @@
       "jennings,rachel",
       "chirico,presley",
       "herold,payton",
-      null
+      "stiltner,katelyn"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -18482,8 +18482,8 @@
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"chirico,presley",
     "awayPlayer4":"herold,payton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stiltner,katelyn",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -20093,7 +20093,7 @@
       "lagarde,a'niya",
       "mayeux,alli",
       "long,libby",
-      null
+      "lee,taya"
     ],
     "timeSeconds":451,
     "Poss":"centre",
@@ -20115,13 +20115,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"vincent,emma rose",
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"chirico,presley",
     "awayPlayer4":"herold,payton",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -20788,7 +20788,7 @@
       "jennings,rachel",
       "herold,payton",
       "duggins,natalie",
-      null
+      "chirico,presley"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -20822,8 +20822,8 @@
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"herold,payton",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chirico,presley",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -20865,7 +20865,7 @@
       "vincent,emma rose",
       "herold,payton",
       "duggins,natalie",
-      null,
+      "jennings,rachel",
       null
     ],
     "homeLineup":[
@@ -20899,7 +20899,7 @@
     "awayPlayer1":"vincent,emma rose",
     "awayPlayer2":"herold,payton",
     "awayPlayer3":"duggins,natalie",
-    "awayPlayer4":null,
+    "awayPlayer4":"jennings,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20938,6 +20938,84 @@
     "shotOutcome":"",
     "Team":"centre",
     "Player":"vincent,emma rose",
+    "pointsEarned":"",
+    "awayLineup":[
+      "herold,payton",
+      "duggins,natalie",
+      "vincent,emma rose",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "hagen,ellen",
+      "lagarde,a'niya",
+      "mayeux,alli",
+      "long,libby",
+      "althoff,catherine"
+    ],
+    "timeSeconds":363,
+    "Poss":"rhodes",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"centre",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":78,
+    "teamChanged":0,
+    "game":"RhodesCentre01\/23\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"hagen,ellen",
+    "homePlayer2":"lagarde,a'niya",
+    "homePlayer3":"mayeux,alli",
+    "homePlayer4":"long,libby",
+    "homePlayer5":"althoff,catherine",
+    "awayPlayer1":"herold,payton",
+    "awayPlayer2":"duggins,natalie",
+    "awayPlayer3":"vincent,emma rose",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7960",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"56-76",
+    "homeScoreByPeriod":"21,13,24,18,76",
+    "awayScoreByPeriod":"14,15,16,11,56",
+    "homeRecord":"13-2",
+    "awayRecord":"6-10",
+    "homeConfRecord":"5-0",
+    "awayConfRecord":"3-3",
+    "gameDate":"01\/23\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"60",
+    "isNeutral":"False",
+    "timeRemaining":"06:03",
+    "awayPlay":"SUB OUT by DUGGINS,NATALIE",
+    "awayTeamScore":"38",
+    "playTeamIndicator":"",
+    "homeTeamScore":"40 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by DUGGINS,NATALIE",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"duggins,natalie",
     "pointsEarned":"",
     "awayLineup":[
       "herold,payton",
@@ -21003,84 +21081,6 @@
     "attendance":"60",
     "isNeutral":"False",
     "timeRemaining":"06:03",
-    "awayPlay":"SUB OUT by DUGGINS,NATALIE",
-    "awayTeamScore":"38",
-    "playTeamIndicator":"",
-    "homeTeamScore":"40 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by DUGGINS,NATALIE",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"duggins,natalie",
-    "pointsEarned":"",
-    "awayLineup":[
-      "herold,payton",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "hagen,ellen",
-      "lagarde,a'niya",
-      "mayeux,alli",
-      "long,libby",
-      "althoff,catherine"
-    ],
-    "timeSeconds":363,
-    "Poss":"rhodes",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"centre",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":78,
-    "teamChanged":0,
-    "game":"RhodesCentre01\/23\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"hagen,ellen",
-    "homePlayer2":"lagarde,a'niya",
-    "homePlayer3":"mayeux,alli",
-    "homePlayer4":"long,libby",
-    "homePlayer5":"althoff,catherine",
-    "awayPlayer1":"herold,payton",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7960",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"56-76",
-    "homeScoreByPeriod":"21,13,24,18,76",
-    "awayScoreByPeriod":"14,15,16,11,56",
-    "homeRecord":"13-2",
-    "awayRecord":"6-10",
-    "homeConfRecord":"5-0",
-    "awayConfRecord":"3-3",
-    "gameDate":"01\/23\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"60",
-    "isNeutral":"False",
-    "timeRemaining":"06:03",
     "awayPlay":"SUB IN by RUCKER,BAILEY",
     "awayTeamScore":"38",
     "playTeamIndicator":"",
@@ -21098,7 +21098,7 @@
     "awayLineup":[
       "herold,payton",
       "rucker,bailey",
-      null,
+      "totals",
       null,
       null
     ],
@@ -21132,7 +21132,7 @@
     "homePlayer5":"althoff,catherine",
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"rucker,bailey",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -21177,7 +21177,7 @@
       "herold,payton",
       "rucker,bailey",
       "garrett,taylor",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -21211,7 +21211,7 @@
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21256,7 +21256,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "thomas,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -21290,8 +21290,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -22114,7 +22114,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "thomas,anna",
-      null
+      "stiltner,katelyn"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -22148,8 +22148,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stiltner,katelyn",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -22823,7 +22823,7 @@
       "mayeux,alli",
       "long,libby",
       "althoff,catherine",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":290,
     "Poss":"rhodes",
@@ -22845,13 +22845,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"chirico,presley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -23050,7 +23050,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "chirico,presley",
-      null
+      "thomas,anna"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -23084,8 +23084,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"garrett,taylor",
     "awayPlayer4":"chirico,presley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,anna",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -23127,7 +23127,7 @@
       "rucker,bailey",
       "garrett,taylor",
       "chirico,presley",
-      null,
+      "herold,payton",
       null
     ],
     "homeLineup":[
@@ -23161,7 +23161,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"chirico,presley",
-    "awayPlayer4":null,
+    "awayPlayer4":"herold,payton",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23206,7 +23206,7 @@
       "garrett,taylor",
       "chirico,presley",
       "jennings,rachel",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -23240,8 +23240,8 @@
     "awayPlayer2":"garrett,taylor",
     "awayPlayer3":"chirico,presley",
     "awayPlayer4":"jennings,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -23986,7 +23986,7 @@
       "chirico,presley",
       "jennings,rachel",
       "duggins,natalie",
-      null
+      "garrett,taylor"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -24020,8 +24020,8 @@
     "awayPlayer2":"chirico,presley",
     "awayPlayer3":"jennings,rachel",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"garrett,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -24695,7 +24695,7 @@
       "mayeux,alli",
       "althoff,catherine",
       "lee,taya",
-      null
+      "long,libby"
     ],
     "timeSeconds":196,
     "Poss":"rhodes",
@@ -24717,13 +24717,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"chirico,presley",
     "awayPlayer3":"jennings,rachel",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"vincent,emma rose",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -25865,7 +25865,7 @@
       "mayeux,alli",
       "althoff,catherine",
       "lagarde,a'niya",
-      null
+      "lee,taya"
     ],
     "timeSeconds":65,
     "Poss":"rhodes",
@@ -25887,13 +25887,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"chirico,presley",
     "awayPlayer3":"jennings,rachel",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"vincent,emma rose",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -26014,7 +26014,7 @@
       "jennings,rachel",
       "duggins,natalie",
       "vincent,emma rose",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -26048,8 +26048,8 @@
     "awayPlayer2":"jennings,rachel",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -26091,7 +26091,7 @@
       "chirico,presley",
       "duggins,natalie",
       "vincent,emma rose",
-      null,
+      "jennings,rachel",
       null
     ],
     "homeLineup":[
@@ -26125,7 +26125,7 @@
     "awayPlayer1":"chirico,presley",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
-    "awayPlayer4":null,
+    "awayPlayer4":"jennings,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26170,7 +26170,7 @@
       "duggins,natalie",
       "vincent,emma rose",
       "hensley,piper",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -26204,8 +26204,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"hensley,piper",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -26872,7 +26872,7 @@
       "duggins,natalie",
       "vincent,emma rose",
       "herold,payton",
-      null
+      "hensley,piper"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"herold,payton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hensley,piper",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -27262,7 +27262,7 @@
       "vincent,emma rose",
       "herold,payton",
       "jennings,rachel",
-      null
+      "chirico,presley"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -27296,8 +27296,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"herold,payton",
     "awayPlayer4":"jennings,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chirico,presley",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -28042,7 +28042,7 @@
       "vincent,emma rose",
       "herold,payton",
       "rucker,bailey",
-      null
+      "jennings,rachel"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -28076,8 +28076,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"herold,payton",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jennings,rachel",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -28119,7 +28119,7 @@
       "duggins,natalie",
       "herold,payton",
       "rucker,bailey",
-      null,
+      "vincent,emma rose",
       null
     ],
     "homeLineup":[
@@ -28153,7 +28153,7 @@
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"herold,payton",
     "awayPlayer3":"rucker,bailey",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28198,7 +28198,7 @@
       "herold,payton",
       "rucker,bailey",
       "thomas,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -28232,8 +28232,8 @@
     "awayPlayer2":"herold,payton",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -28595,7 +28595,7 @@
       "mayeux,alli",
       "lagarde,a'niya",
       "long,libby",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":490,
     "Poss":"rhodes",
@@ -28617,13 +28617,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"herold,payton",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -29212,7 +29212,7 @@
       "rucker,bailey",
       "thomas,anna",
       "stiltner,katelyn",
-      null
+      "duggins,natalie"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -29246,8 +29246,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"duggins,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -30701,7 +30701,7 @@
       "mayeux,alli",
       "lagarde,a'niya",
       "lee,taya",
-      null
+      "long,libby"
     ],
     "timeSeconds":310,
     "Poss":"rhodes",
@@ -30723,13 +30723,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"stiltner,katelyn",
     "awayPlayer5":"riccobene,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -30850,7 +30850,7 @@
       "thomas,anna",
       "stiltner,katelyn",
       "riccobene,emma",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -30884,8 +30884,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"riccobene,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -30927,7 +30927,7 @@
       "herold,payton",
       "stiltner,katelyn",
       "riccobene,emma",
-      null,
+      "thomas,anna",
       null
     ],
     "homeLineup":[
@@ -30961,7 +30961,7 @@
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"stiltner,katelyn",
     "awayPlayer3":"riccobene,emma",
-    "awayPlayer4":null,
+    "awayPlayer4":"thomas,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31004,7 +31004,7 @@
     "awayLineup":[
       "herold,payton",
       "riccobene,emma",
-      null,
+      "stiltner,katelyn",
       null,
       null
     ],
@@ -31038,7 +31038,7 @@
     "homePlayer5":"althoff,catherine",
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"riccobene,emma",
-    "awayPlayer3":null,
+    "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -31083,7 +31083,7 @@
       "herold,payton",
       "riccobene,emma",
       "vincent,emma rose",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -31117,7 +31117,7 @@
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"riccobene,emma",
     "awayPlayer3":"vincent,emma rose",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31162,7 +31162,7 @@
       "riccobene,emma",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -31196,8 +31196,8 @@
     "awayPlayer2":"riccobene,emma",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -32417,7 +32417,7 @@
       "mayeux,alli",
       "lagarde,a'niya",
       "althoff,catherine",
-      null
+      "lee,taya"
     ],
     "timeSeconds":183,
     "Poss":"rhodes",
@@ -32439,13 +32439,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"herold,payton",
     "awayPlayer2":"riccobene,emma",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"tremblay,madison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -32566,7 +32566,7 @@
       "vincent,emma rose",
       "duggins,natalie",
       "tremblay,madison",
-      null
+      "herold,payton"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -32600,8 +32600,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"tremblay,madison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"herold,payton",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -33509,7 +33509,7 @@
       "lagarde,a'niya",
       "althoff,catherine",
       "schiff,hallie",
-      null
+      "hagen,ellen"
     ],
     "timeSeconds":109,
     "Poss":"rhodes",
@@ -33531,13 +33531,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"hagen,ellen",
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"tremblay,madison",
     "awayPlayer5":"jennings,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -33586,7 +33586,7 @@
       "lagarde,a'niya",
       "althoff,catherine",
       "schiff,hallie",
-      null,
+      "mayeux,alli",
       null
     ],
     "timeSeconds":109,
@@ -33608,7 +33608,7 @@
     "homePlayer1":"lagarde,a'niya",
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"schiff,hallie",
-    "homePlayer4":null,
+    "homePlayer4":"mayeux,alli",
     "homePlayer5":null,
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"vincent,emma rose",
@@ -33665,7 +33665,7 @@
       "althoff,catherine",
       "schiff,hallie",
       "williams,trinity",
-      null
+      "totals"
     ],
     "timeSeconds":109,
     "Poss":"rhodes",
@@ -33687,13 +33687,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"williams,trinity",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"tremblay,madison",
     "awayPlayer5":"jennings,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -33814,7 +33814,7 @@
       "vincent,emma rose",
       "duggins,natalie",
       "tremblay,madison",
-      null
+      "jennings,rachel"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -33848,8 +33848,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"tremblay,madison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jennings,rachel",
+    "playerMissing":0
   },
   {
     "gameID":"7960",
@@ -33891,7 +33891,7 @@
       "riccobene,emma",
       "duggins,natalie",
       "tremblay,madison",
-      null,
+      "vincent,emma rose",
       null
     ],
     "homeLineup":[
@@ -33925,7 +33925,7 @@
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"tremblay,madison",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33968,7 +33968,7 @@
     "awayLineup":[
       "riccobene,emma",
       "tremblay,madison",
-      null,
+      "duggins,natalie",
       null,
       null
     ],
@@ -34002,7 +34002,7 @@
     "homePlayer5":"lee,taya",
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"tremblay,madison",
-    "awayPlayer3":null,
+    "awayPlayer3":"duggins,natalie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34047,7 +34047,7 @@
       "riccobene,emma",
       "tremblay,madison",
       "maynard,emma",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -34081,7 +34081,7 @@
     "awayPlayer1":"riccobene,emma",
     "awayPlayer2":"tremblay,madison",
     "awayPlayer3":"maynard,emma",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34126,7 +34126,7 @@
       "tremblay,madison",
       "maynard,emma",
       "thomas,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -34160,8 +34160,8 @@
     "awayPlayer2":"tremblay,madison",
     "awayPlayer3":"maynard,emma",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7960",

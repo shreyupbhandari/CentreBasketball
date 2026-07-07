@@ -664,7 +664,7 @@
       "brown,kelsey",
       "dupree,bria",
       "peursem,laura",
-      null
+      "curry,ashley"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -698,8 +698,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dupree,bria",
     "awayPlayer4":"peursem,laura",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"curry,ashley",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -3160,7 +3160,7 @@
       "brown,kelsey",
       "peursem,laura",
       "dixon,jothani",
-      null
+      "dupree,bria"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -3194,8 +3194,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"peursem,laura",
     "awayPlayer4":"dixon,jothani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dupree,bria",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -3238,7 +3238,7 @@
       "brown,kelsey",
       "peursem,laura",
       "dixon,jothani",
-      null
+      "dupree,bria"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -3272,8 +3272,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"peursem,laura",
     "awayPlayer4":"dixon,jothani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dupree,bria",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -3315,7 +3315,7 @@
       "bromirski,elizabeth",
       "peursem,laura",
       "dixon,jothani",
-      null,
+      "brown,kelsey",
       null
     ],
     "homeLineup":[
@@ -3349,7 +3349,7 @@
     "awayPlayer1":"bromirski,elizabeth",
     "awayPlayer2":"peursem,laura",
     "awayPlayer3":"dixon,jothani",
-    "awayPlayer4":null,
+    "awayPlayer4":"brown,kelsey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3394,7 +3394,7 @@
       "peursem,laura",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "totals"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -3428,8 +3428,8 @@
     "awayPlayer2":"peursem,laura",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -4415,6 +4415,84 @@
       "perez,sam",
       "freeman,kala",
       "holmes,beverly",
+      "brooks,miah"
+    ],
+    "timeSeconds":845,
+    "Poss":"birmingham southern",
+    "possNum":12,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":20,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham Southern01\/18\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"johnson,velvet",
+    "homePlayer2":"perez,sam",
+    "homePlayer3":"freeman,kala",
+    "homePlayer4":"holmes,beverly",
+    "homePlayer5":"brooks,miah",
+    "awayPlayer1":"peursem,laura",
+    "awayPlayer2":"dixon,jothani",
+    "awayPlayer3":"ford,kayla",
+    "awayPlayer4":"holmes,jameice",
+    "awayPlayer5":"romano,jane",
+    "playerMissing":0
+  },
+  {
+    "gameID":"2343",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham Southern",
+    "saaGame":"1",
+    "finalScore":"48-59",
+    "homeScoreByPeriod":"30,29,59",
+    "awayScoreByPeriod":"10,38,48",
+    "homeRecord":"6-6-",
+    "awayRecord":"6-7",
+    "homeConfRecord":"1-2",
+    "awayConfRecord":"2-1",
+    "gameDate":"01\/18\/14",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"JACKSON MS",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"14:05",
+    "awayPlay":"",
+    "awayTeamScore":"5",
+    "playTeamIndicator":"",
+    "homeTeamScore":"5",
+    "homePlay":"SUB OUT by HOLMES,BEVERLY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HOLMES,BEVERLY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"holmes,beverly",
+    "pointsEarned":"",
+    "awayLineup":[
+      "peursem,laura",
+      "dixon,jothani",
+      "ford,kayla",
+      "holmes,jameice",
+      "romano,jane"
+    ],
+    "homeLineup":[
+      "johnson,velvet",
+      "perez,sam",
+      "freeman,kala",
+      "holmes,beverly",
       null
     ],
     "timeSeconds":845,
@@ -4471,15 +4549,15 @@
     "awayTeamScore":"5",
     "playTeamIndicator":"",
     "homeTeamScore":"5",
-    "homePlay":"SUB OUT by HOLMES,BEVERLY",
+    "homePlay":"SUB OUT by FREEMAN,KALA",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by HOLMES,BEVERLY",
+    "Play":"SUB OUT by FREEMAN,KALA",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"holmes,beverly",
+    "Player":"freeman,kala",
     "pointsEarned":"",
     "awayLineup":[
       "peursem,laura",
@@ -4549,84 +4627,6 @@
     "awayTeamScore":"5",
     "playTeamIndicator":"",
     "homeTeamScore":"5",
-    "homePlay":"SUB OUT by FREEMAN,KALA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FREEMAN,KALA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"freeman,kala",
-    "pointsEarned":"",
-    "awayLineup":[
-      "peursem,laura",
-      "dixon,jothani",
-      "ford,kayla",
-      "holmes,jameice",
-      "romano,jane"
-    ],
-    "homeLineup":[
-      "johnson,velvet",
-      "perez,sam",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":845,
-    "Poss":"birmingham southern",
-    "possNum":12,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":20,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham Southern01\/18\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"johnson,velvet",
-    "homePlayer2":"perez,sam",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"peursem,laura",
-    "awayPlayer2":"dixon,jothani",
-    "awayPlayer3":"ford,kayla",
-    "awayPlayer4":"holmes,jameice",
-    "awayPlayer5":"romano,jane",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2343",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham Southern",
-    "saaGame":"1",
-    "finalScore":"48-59",
-    "homeScoreByPeriod":"30,29,59",
-    "awayScoreByPeriod":"10,38,48",
-    "homeRecord":"6-6-",
-    "awayRecord":"6-7",
-    "homeConfRecord":"1-2",
-    "awayConfRecord":"2-1",
-    "gameDate":"01\/18\/14",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"JACKSON MS",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"14:05",
-    "awayPlay":"",
-    "awayTeamScore":"5",
-    "playTeamIndicator":"",
-    "homeTeamScore":"5",
     "homePlay":"SUB IN by KLUNK,KIM",
     "gameScore":"",
     "teamIndicator":"",
@@ -4648,7 +4648,7 @@
       "johnson,velvet",
       "perez,sam",
       "klunk,kim",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":845,
@@ -4670,7 +4670,7 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"perez,sam",
     "homePlayer3":"klunk,kim",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"dixon,jothani",
@@ -4727,7 +4727,7 @@
       "perez,sam",
       "klunk,kim",
       "johnson,bria",
-      null
+      "totals"
     ],
     "timeSeconds":845,
     "Poss":"birmingham southern",
@@ -4749,13 +4749,13 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
     "awayPlayer4":"holmes,jameice",
     "awayPlayer5":"romano,jane",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -6358,7 +6358,7 @@
       "dixon,jothani",
       "ford,kayla",
       "romano,jane",
-      null
+      "bromirski,elizabeth"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -6392,8 +6392,8 @@
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
     "awayPlayer4":"romano,jane",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bromirski,elizabeth",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -6435,7 +6435,7 @@
       "peursem,laura",
       "dixon,jothani",
       "ford,kayla",
-      null,
+      "bromirski,elizabeth",
       null
     ],
     "homeLineup":[
@@ -6469,7 +6469,7 @@
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"bromirski,elizabeth",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6512,7 +6512,7 @@
     "awayLineup":[
       "peursem,laura",
       "ford,kayla",
-      null,
+      "bromirski,elizabeth",
       null,
       null
     ],
@@ -6546,7 +6546,7 @@
     "homePlayer5":"crawford,mahalia",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"bromirski,elizabeth",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6590,7 +6590,7 @@
     "awayLineup":[
       "peursem,laura",
       "ford,kayla",
-      null,
+      "bromirski,elizabeth",
       null,
       null
     ],
@@ -6599,7 +6599,7 @@
       "perez,sam",
       "johnson,bria",
       "crawford,mahalia",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":713,
     "Poss":"millsaps",
@@ -6621,10 +6621,10 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"johnson,bria",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"bromirski,elizabeth",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6668,7 +6668,7 @@
     "awayLineup":[
       "peursem,laura",
       "ford,kayla",
-      null,
+      "bromirski,elizabeth",
       null,
       null
     ],
@@ -6676,7 +6676,7 @@
       "johnson,velvet",
       "perez,sam",
       "johnson,bria",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":713,
@@ -6698,11 +6698,11 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"perez,sam",
     "homePlayer3":"johnson,bria",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"bromirski,elizabeth",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6746,14 +6746,14 @@
     "awayLineup":[
       "peursem,laura",
       "ford,kayla",
-      null,
+      "bromirski,elizabeth",
       null,
       null
     ],
     "homeLineup":[
       "johnson,velvet",
       "johnson,bria",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -6775,12 +6775,12 @@
     "secondsPerPoss":0,
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"johnson,bria",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"bromirski,elizabeth",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6825,13 +6825,13 @@
       "peursem,laura",
       "ford,kayla",
       "peursem,laura van",
-      null,
+      "bromirski,elizabeth",
       null
     ],
     "homeLineup":[
       "johnson,velvet",
       "johnson,bria",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -6853,13 +6853,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"johnson,bria",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
-    "awayPlayer4":null,
+    "awayPlayer4":"bromirski,elizabeth",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6904,12 +6904,12 @@
       "ford,kayla",
       "peursem,laura van",
       "brown,kelsey",
-      null
+      "bromirski,elizabeth"
     ],
     "homeLineup":[
       "johnson,velvet",
       "johnson,bria",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -6931,14 +6931,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"johnson,bria",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
     "awayPlayer4":"brown,kelsey",
-    "awayPlayer5":null,
+    "awayPlayer5":"bromirski,elizabeth",
     "playerMissing":1
   },
   {
@@ -6987,7 +6987,7 @@
     "homeLineup":[
       "johnson,velvet",
       "johnson,bria",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -7009,7 +7009,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"johnson,bria",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
@@ -7066,7 +7066,7 @@
       "johnson,velvet",
       "johnson,bria",
       "randle,kelli",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":713,
@@ -7088,7 +7088,7 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"johnson,bria",
     "homePlayer3":"randle,kelli",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
@@ -7145,7 +7145,7 @@
       "johnson,bria",
       "randle,kelli",
       "brooks,miah",
-      null
+      "totals"
     ],
     "timeSeconds":713,
     "Poss":"millsaps",
@@ -7167,13 +7167,13 @@
     "homePlayer2":"johnson,bria",
     "homePlayer3":"randle,kelli",
     "homePlayer4":"brooks,miah",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"curry,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -7847,7 +7847,7 @@
       "randle,kelli",
       "brooks,miah",
       "freeman,kala",
-      null
+      "johnson,velvet"
     ],
     "timeSeconds":675,
     "Poss":"millsaps",
@@ -7869,13 +7869,13 @@
     "homePlayer2":"randle,kelli",
     "homePlayer3":"brooks,miah",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,velvet",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"curry,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -8783,7 +8783,7 @@
       "brooks,miah",
       "freeman,kala",
       "perez,sam",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":601,
     "Poss":"birmingham southern",
@@ -8805,13 +8805,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"perez,sam",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"curry,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -8860,7 +8860,7 @@
       "johnson,bria",
       "freeman,kala",
       "perez,sam",
-      null,
+      "brooks,miah",
       null
     ],
     "timeSeconds":601,
@@ -8882,7 +8882,7 @@
     "homePlayer1":"johnson,bria",
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"brooks,miah",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
@@ -8937,7 +8937,7 @@
     "homeLineup":[
       "freeman,kala",
       "perez,sam",
-      null,
+      "johnson,bria",
       null,
       null
     ],
@@ -8959,7 +8959,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
     "homePlayer2":"perez,sam",
-    "homePlayer3":null,
+    "homePlayer3":"johnson,bria",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
@@ -9014,7 +9014,7 @@
     ],
     "homeLineup":[
       "perez,sam",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -9036,7 +9036,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
-    "homePlayer2":null,
+    "homePlayer2":"freeman,kala",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -9093,7 +9093,7 @@
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
-      null,
+      "totals",
       null,
       null
     ],
@@ -9115,7 +9115,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
@@ -9172,7 +9172,7 @@
       "perez,sam",
       "klunk,kim",
       "crawford,mahalia",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":601,
@@ -9194,7 +9194,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
@@ -9251,7 +9251,7 @@
       "klunk,kim",
       "crawford,mahalia",
       "johnson,velvet",
-      null
+      "totals"
     ],
     "timeSeconds":601,
     "Poss":"birmingham southern",
@@ -9273,13 +9273,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"johnson,velvet",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"peursem,laura van",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"curry,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -10492,7 +10492,7 @@
       "peursem,laura van",
       "brown,kelsey",
       "curry,ashley",
-      null
+      "bromirski,elizabeth"
     ],
     "homeLineup":[
       "perez,sam",
@@ -10526,8 +10526,8 @@
     "awayPlayer2":"peursem,laura van",
     "awayPlayer3":"brown,kelsey",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bromirski,elizabeth",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -10564,6 +10564,84 @@
     "shotOutcome":"",
     "Team":"birmingham southern",
     "Player":"bromirski,elizabeth",
+    "pointsEarned":"",
+    "awayLineup":[
+      "peursem,laura",
+      "peursem,laura van",
+      "brown,kelsey",
+      "curry,ashley",
+      "bromirski,elizabeth"
+    ],
+    "homeLineup":[
+      "perez,sam",
+      "klunk,kim",
+      "crawford,mahalia",
+      "johnson,velvet",
+      "holmes,beverly"
+    ],
+    "timeSeconds":463,
+    "Poss":"millsaps",
+    "possNum":19,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":36,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham Southern01\/18\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"perez,sam",
+    "homePlayer2":"klunk,kim",
+    "homePlayer3":"crawford,mahalia",
+    "homePlayer4":"johnson,velvet",
+    "homePlayer5":"holmes,beverly",
+    "awayPlayer1":"peursem,laura",
+    "awayPlayer2":"peursem,laura van",
+    "awayPlayer3":"brown,kelsey",
+    "awayPlayer4":"curry,ashley",
+    "awayPlayer5":"bromirski,elizabeth",
+    "playerMissing":0
+  },
+  {
+    "gameID":"2343",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham Southern",
+    "saaGame":"1",
+    "finalScore":"48-59",
+    "homeScoreByPeriod":"30,29,59",
+    "awayScoreByPeriod":"10,38,48",
+    "homeRecord":"6-6-",
+    "awayRecord":"6-7",
+    "homeConfRecord":"1-2",
+    "awayConfRecord":"2-1",
+    "gameDate":"01\/18\/14",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"JACKSON MS",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"07:43",
+    "awayPlay":"SUB OUT by CURRY,ASHLEY",
+    "awayTeamScore":"7",
+    "playTeamIndicator":"",
+    "homeTeamScore":"17 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CURRY,ASHLEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"birmingham southern",
+    "Player":"curry,ashley",
     "pointsEarned":"",
     "awayLineup":[
       "peursem,laura",
@@ -10629,84 +10707,6 @@
     "attendance":"N\/A",
     "isNeutral":"False",
     "timeRemaining":"07:43",
-    "awayPlay":"SUB OUT by CURRY,ASHLEY",
-    "awayTeamScore":"7",
-    "playTeamIndicator":"",
-    "homeTeamScore":"17 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CURRY,ASHLEY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"birmingham southern",
-    "Player":"curry,ashley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "peursem,laura",
-      "peursem,laura van",
-      "brown,kelsey",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "perez,sam",
-      "klunk,kim",
-      "crawford,mahalia",
-      "johnson,velvet",
-      "holmes,beverly"
-    ],
-    "timeSeconds":463,
-    "Poss":"millsaps",
-    "possNum":19,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":36,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham Southern01\/18\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"perez,sam",
-    "homePlayer2":"klunk,kim",
-    "homePlayer3":"crawford,mahalia",
-    "homePlayer4":"johnson,velvet",
-    "homePlayer5":"holmes,beverly",
-    "awayPlayer1":"peursem,laura",
-    "awayPlayer2":"peursem,laura van",
-    "awayPlayer3":"brown,kelsey",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"2343",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham Southern",
-    "saaGame":"1",
-    "finalScore":"48-59",
-    "homeScoreByPeriod":"30,29,59",
-    "awayScoreByPeriod":"10,38,48",
-    "homeRecord":"6-6-",
-    "awayRecord":"6-7",
-    "homeConfRecord":"1-2",
-    "awayConfRecord":"2-1",
-    "gameDate":"01\/18\/14",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"JACKSON MS",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"07:43",
     "awayPlay":"",
     "awayTeamScore":"7",
     "playTeamIndicator":"",
@@ -10725,7 +10725,7 @@
       "peursem,laura",
       "peursem,laura van",
       "brown,kelsey",
-      null,
+      "curry,ashley",
       null
     ],
     "homeLineup":[
@@ -10733,7 +10733,7 @@
       "crawford,mahalia",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":463,
     "Poss":"millsaps",
@@ -10755,11 +10755,11 @@
     "homePlayer2":"crawford,mahalia",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"peursem,laura van",
     "awayPlayer3":"brown,kelsey",
-    "awayPlayer4":null,
+    "awayPlayer4":"curry,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10803,14 +10803,14 @@
       "peursem,laura",
       "peursem,laura van",
       "brown,kelsey",
-      null,
+      "curry,ashley",
       null
     ],
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
       "holmes,beverly",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":463,
@@ -10832,12 +10832,12 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"holmes,beverly",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"peursem,laura van",
     "awayPlayer3":"brown,kelsey",
-    "awayPlayer4":null,
+    "awayPlayer4":"curry,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10881,13 +10881,13 @@
       "peursem,laura",
       "peursem,laura van",
       "brown,kelsey",
-      null,
+      "curry,ashley",
       null
     ],
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -10909,13 +10909,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"peursem,laura van",
     "awayPlayer3":"brown,kelsey",
-    "awayPlayer4":null,
+    "awayPlayer4":"curry,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10960,12 +10960,12 @@
       "peursem,laura van",
       "brown,kelsey",
       "carter,camillia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -10987,14 +10987,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
     "awayPlayer2":"peursem,laura van",
     "awayPlayer3":"brown,kelsey",
     "awayPlayer4":"carter,camillia",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -11043,7 +11043,7 @@
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -11065,7 +11065,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura",
@@ -11121,7 +11121,7 @@
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -11143,7 +11143,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
@@ -11200,7 +11200,7 @@
       "perez,sam",
       "johnson,velvet",
       "brooks,miah",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":463,
@@ -11222,7 +11222,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"brooks,miah",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
@@ -11279,7 +11279,7 @@
       "johnson,velvet",
       "brooks,miah",
       "johnson,bria",
-      null
+      "totals"
     ],
     "timeSeconds":463,
     "Poss":"millsaps",
@@ -11301,13 +11301,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"brooks,miah",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"carter,camillia",
     "awayPlayer4":"debaets,breanne",
     "awayPlayer5":"dixon,jothani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -12676,7 +12676,7 @@
       "brown,kelsey",
       "debaets,breanne",
       "dixon,jothani",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -12710,8 +12710,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"debaets,breanne",
     "awayPlayer4":"dixon,jothani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -12753,7 +12753,7 @@
       "peursem,laura van",
       "brown,kelsey",
       "dixon,jothani",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -12787,7 +12787,7 @@
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12832,7 +12832,7 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -12866,8 +12866,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -13073,7 +13073,7 @@
       "johnson,velvet",
       "brooks,miah",
       "freeman,kala",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":349,
     "Poss":"birmingham southern",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"brooks,miah",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
     "awayPlayer5":"bromirski,elizabeth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -13690,7 +13690,7 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -13724,8 +13724,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -14782,7 +14782,7 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -14816,8 +14816,8 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -14860,14 +14860,14 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "johnson,velvet",
       "freeman,kala",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "timeSeconds":168,
     "Poss":"millsaps",
@@ -14889,13 +14889,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"brooks,miah",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -14938,13 +14938,13 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "freeman,kala",
       "holmes,beverly",
-      null,
+      "johnson,velvet",
       null
     ],
     "timeSeconds":168,
@@ -14966,13 +14966,13 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"freeman,kala",
     "homePlayer3":"holmes,beverly",
-    "homePlayer4":null,
+    "homePlayer4":"johnson,velvet",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
+    "awayPlayer5":"peursem,laura",
     "playerMissing":1
   },
   {
@@ -15016,12 +15016,12 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -15043,14 +15043,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"freeman,kala",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
+    "awayPlayer5":"peursem,laura",
     "playerMissing":1
   },
   {
@@ -15094,11 +15094,11 @@
       "brown,kelsey",
       "dixon,jothani",
       "ford,kayla",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -15120,7 +15120,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
-    "homePlayer2":null,
+    "homePlayer2":"freeman,kala",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -15128,7 +15128,7 @@
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
-    "awayPlayer5":null,
+    "awayPlayer5":"peursem,laura",
     "playerMissing":1
   },
   {
@@ -15176,7 +15176,7 @@
     ],
     "homeLineup":[
       "perez,sam",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -15198,7 +15198,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
-    "homePlayer2":null,
+    "homePlayer2":"freeman,kala",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -15255,7 +15255,7 @@
     "homeLineup":[
       "perez,sam",
       "randle,kelli",
-      null,
+      "totals",
       null,
       null
     ],
@@ -15277,7 +15277,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"randle,kelli",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
@@ -15334,7 +15334,7 @@
       "perez,sam",
       "randle,kelli",
       "klunk,kim",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":168,
@@ -15356,7 +15356,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"randle,kelli",
     "homePlayer3":"klunk,kim",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
@@ -15413,7 +15413,7 @@
       "randle,kelli",
       "klunk,kim",
       "johnson,bria",
-      null
+      "totals"
     ],
     "timeSeconds":168,
     "Poss":"millsaps",
@@ -15435,13 +15435,13 @@
     "homePlayer2":"randle,kelli",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
     "awayPlayer5":"niedermair,elizabeth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -16271,7 +16271,7 @@
       "klunk,kim",
       "johnson,bria",
       "crawford,mahalia",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":132,
     "Poss":"birmingham southern",
@@ -16293,13 +16293,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"johnson,bria",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
     "awayPlayer5":"niedermair,elizabeth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -16348,7 +16348,7 @@
       "perez,sam",
       "johnson,bria",
       "crawford,mahalia",
-      null,
+      "klunk,kim",
       null
     ],
     "timeSeconds":132,
@@ -16370,7 +16370,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,bria",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"klunk,kim",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
@@ -16414,6 +16414,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"johnson,bria",
+    "pointsEarned":"",
+    "awayLineup":[
+      "peursem,laura van",
+      "brown,kelsey",
+      "dixon,jothani",
+      "ford,kayla",
+      "niedermair,elizabeth"
+    ],
+    "homeLineup":[
+      "perez,sam",
+      "crawford,mahalia",
+      "johnson,bria",
+      null,
+      null
+    ],
+    "timeSeconds":132,
+    "Poss":"birmingham southern",
+    "possNum":26,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham southern",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":53,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham Southern01\/18\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"perez,sam",
+    "homePlayer2":"crawford,mahalia",
+    "homePlayer3":"johnson,bria",
+    "homePlayer4":null,
+    "homePlayer5":null,
+    "awayPlayer1":"peursem,laura van",
+    "awayPlayer2":"brown,kelsey",
+    "awayPlayer3":"dixon,jothani",
+    "awayPlayer4":"ford,kayla",
+    "awayPlayer5":"niedermair,elizabeth",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2343",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham Southern",
+    "saaGame":"1",
+    "finalScore":"48-59",
+    "homeScoreByPeriod":"30,29,59",
+    "awayScoreByPeriod":"10,38,48",
+    "homeRecord":"6-6-",
+    "awayRecord":"6-7",
+    "homeConfRecord":"1-2",
+    "awayConfRecord":"2-1",
+    "gameDate":"01\/18\/14",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"JACKSON MS",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"02:12",
+    "awayPlay":"",
+    "awayTeamScore":"10",
+    "playTeamIndicator":"",
+    "homeTeamScore":"26 ",
+    "homePlay":"SUB OUT by CRAWFORD,MAHALIA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CRAWFORD,MAHALIA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"crawford,mahalia",
     "pointsEarned":"",
     "awayLineup":[
       "peursem,laura van",
@@ -16483,84 +16561,6 @@
     "awayTeamScore":"10",
     "playTeamIndicator":"",
     "homeTeamScore":"26 ",
-    "homePlay":"SUB OUT by CRAWFORD,MAHALIA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CRAWFORD,MAHALIA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"crawford,mahalia",
-    "pointsEarned":"",
-    "awayLineup":[
-      "peursem,laura van",
-      "brown,kelsey",
-      "dixon,jothani",
-      "ford,kayla",
-      "niedermair,elizabeth"
-    ],
-    "homeLineup":[
-      "perez,sam",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":132,
-    "Poss":"birmingham southern",
-    "possNum":26,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham southern",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":53,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham Southern01\/18\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"perez,sam",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"peursem,laura van",
-    "awayPlayer2":"brown,kelsey",
-    "awayPlayer3":"dixon,jothani",
-    "awayPlayer4":"ford,kayla",
-    "awayPlayer5":"niedermair,elizabeth",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2343",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham Southern",
-    "saaGame":"1",
-    "finalScore":"48-59",
-    "homeScoreByPeriod":"30,29,59",
-    "awayScoreByPeriod":"10,38,48",
-    "homeRecord":"6-6-",
-    "awayRecord":"6-7",
-    "homeConfRecord":"1-2",
-    "awayConfRecord":"2-1",
-    "gameDate":"01\/18\/14",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"JACKSON MS",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"02:12",
-    "awayPlay":"",
-    "awayTeamScore":"10",
-    "playTeamIndicator":"",
-    "homeTeamScore":"26 ",
     "homePlay":"SUB IN by BROOKS,MIAH",
     "gameScore":"",
     "teamIndicator":"",
@@ -16581,7 +16581,7 @@
     "homeLineup":[
       "perez,sam",
       "brooks,miah",
-      null,
+      "totals",
       null,
       null
     ],
@@ -16603,7 +16603,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"brooks,miah",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
@@ -16660,7 +16660,7 @@
       "perez,sam",
       "brooks,miah",
       "johnson,velvet",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":132,
@@ -16682,7 +16682,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
@@ -16739,7 +16739,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "totals"
     ],
     "timeSeconds":132,
     "Poss":"birmingham southern",
@@ -16761,13 +16761,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
     "awayPlayer5":"niedermair,elizabeth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -18065,7 +18065,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "freeman,kala"
     ],
     "timeSeconds":1192,
     "Poss":"millsaps",
@@ -18087,13 +18087,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,kala",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"brown,kelsey",
     "awayPlayer3":"dixon,jothani",
     "awayPlayer4":"ford,kayla",
     "awayPlayer5":"niedermair,elizabeth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -18994,7 +18994,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -19028,8 +19028,8 @@
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
     "awayPlayer4":"niedermair,elizabeth",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -19625,7 +19625,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":1064,
     "Poss":"birmingham southern",
@@ -19647,13 +19647,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
     "awayPlayer4":"niedermair,elizabeth",
     "awayPlayer5":"mclendon,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -20873,7 +20873,7 @@
       "brooks,miah",
       "johnson,velvet",
       "freeman,kala",
-      null
+      "holmes,beverly"
     ],
     "timeSeconds":940,
     "Poss":"birmingham southern",
@@ -20895,13 +20895,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,beverly",
     "awayPlayer1":"peursem,laura van",
     "awayPlayer2":"dixon,jothani",
     "awayPlayer3":"ford,kayla",
     "awayPlayer4":"niedermair,elizabeth",
     "awayPlayer5":"mclendon,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -20951,7 +20951,7 @@
       "brooks,miah",
       "johnson,velvet",
       "freeman,kala",
-      null
+      "holmes,beverly"
     ],
     "timeSeconds":940,
     "Poss":"birmingham southern",
@@ -20973,13 +20973,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,beverly",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"mclendon,sydney",
     "awayPlayer5":"romano,jane",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -21731,7 +21731,7 @@
       "brooks,miah",
       "johnson,velvet",
       "johnson,bria",
-      null
+      "freeman,kala"
     ],
     "timeSeconds":882,
     "Poss":"birmingham southern",
@@ -21753,13 +21753,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,kala",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"mclendon,sydney",
     "awayPlayer5":"romano,jane",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -23135,6 +23135,162 @@
       "brooks,miah",
       "johnson,velvet",
       "johnson,bria",
+      "klunk,kim"
+    ],
+    "timeSeconds":739,
+    "Poss":"birmingham southern",
+    "possNum":38,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":82,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham Southern01\/18\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"perez,sam",
+    "homePlayer2":"brooks,miah",
+    "homePlayer3":"johnson,velvet",
+    "homePlayer4":"johnson,bria",
+    "homePlayer5":"klunk,kim",
+    "awayPlayer1":"dixon,jothani",
+    "awayPlayer2":"ford,kayla",
+    "awayPlayer3":"niedermair,elizabeth",
+    "awayPlayer4":"mclendon,sydney",
+    "awayPlayer5":"romano,jane",
+    "playerMissing":0
+  },
+  {
+    "gameID":"2343",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham Southern",
+    "saaGame":"1",
+    "finalScore":"48-59",
+    "homeScoreByPeriod":"30,29,59",
+    "awayScoreByPeriod":"10,38,48",
+    "homeRecord":"6-6-",
+    "awayRecord":"6-7",
+    "homeConfRecord":"1-2",
+    "awayConfRecord":"2-1",
+    "gameDate":"01\/18\/14",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"JACKSON MS",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"12:19",
+    "awayPlay":"",
+    "awayTeamScore":"25",
+    "playTeamIndicator":"",
+    "homeTeamScore":"36 ",
+    "homePlay":"SUB OUT by JOHNSON,BRIA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by JOHNSON,BRIA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"johnson,bria",
+    "pointsEarned":"",
+    "awayLineup":[
+      "dixon,jothani",
+      "ford,kayla",
+      "niedermair,elizabeth",
+      "mclendon,sydney",
+      "romano,jane"
+    ],
+    "homeLineup":[
+      "perez,sam",
+      "brooks,miah",
+      "johnson,velvet",
+      "johnson,bria",
+      null
+    ],
+    "timeSeconds":739,
+    "Poss":"birmingham southern",
+    "possNum":38,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":82,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham Southern01\/18\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"perez,sam",
+    "homePlayer2":"brooks,miah",
+    "homePlayer3":"johnson,velvet",
+    "homePlayer4":"johnson,bria",
+    "homePlayer5":null,
+    "awayPlayer1":"dixon,jothani",
+    "awayPlayer2":"ford,kayla",
+    "awayPlayer3":"niedermair,elizabeth",
+    "awayPlayer4":"mclendon,sydney",
+    "awayPlayer5":"romano,jane",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2343",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham Southern",
+    "saaGame":"1",
+    "finalScore":"48-59",
+    "homeScoreByPeriod":"30,29,59",
+    "awayScoreByPeriod":"10,38,48",
+    "homeRecord":"6-6-",
+    "awayRecord":"6-7",
+    "homeConfRecord":"1-2",
+    "awayConfRecord":"2-1",
+    "gameDate":"01\/18\/14",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"JACKSON MS",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"12:19",
+    "awayPlay":"SUB IN by DIXON,JOTHANI",
+    "awayTeamScore":"25",
+    "playTeamIndicator":"",
+    "homeTeamScore":"36 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB IN by DIXON,JOTHANI",
+    "Period":"2",
+    "playType":"subbing in",
+    "shotOutcome":"",
+    "Team":"birmingham southern",
+    "Player":"dixon,jothani",
+    "pointsEarned":"",
+    "awayLineup":[
+      "dixon,jothani",
+      "ford,kayla",
+      "niedermair,elizabeth",
+      "mclendon,sydney",
+      "romano,jane"
+    ],
+    "homeLineup":[
+      "perez,sam",
+      "brooks,miah",
+      "johnson,velvet",
+      "johnson,bria",
       null
     ],
     "timeSeconds":739,
@@ -23191,162 +23347,6 @@
     "awayTeamScore":"25",
     "playTeamIndicator":"",
     "homeTeamScore":"36 ",
-    "homePlay":"SUB OUT by JOHNSON,BRIA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by JOHNSON,BRIA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"johnson,bria",
-    "pointsEarned":"",
-    "awayLineup":[
-      "dixon,jothani",
-      "ford,kayla",
-      "niedermair,elizabeth",
-      "mclendon,sydney",
-      "romano,jane"
-    ],
-    "homeLineup":[
-      "perez,sam",
-      "brooks,miah",
-      "johnson,velvet",
-      null,
-      null
-    ],
-    "timeSeconds":739,
-    "Poss":"birmingham southern",
-    "possNum":38,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":82,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham Southern01\/18\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"perez,sam",
-    "homePlayer2":"brooks,miah",
-    "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"dixon,jothani",
-    "awayPlayer2":"ford,kayla",
-    "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":"mclendon,sydney",
-    "awayPlayer5":"romano,jane",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2343",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham Southern",
-    "saaGame":"1",
-    "finalScore":"48-59",
-    "homeScoreByPeriod":"30,29,59",
-    "awayScoreByPeriod":"10,38,48",
-    "homeRecord":"6-6-",
-    "awayRecord":"6-7",
-    "homeConfRecord":"1-2",
-    "awayConfRecord":"2-1",
-    "gameDate":"01\/18\/14",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"JACKSON MS",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"12:19",
-    "awayPlay":"SUB IN by DIXON,JOTHANI",
-    "awayTeamScore":"25",
-    "playTeamIndicator":"",
-    "homeTeamScore":"36 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB IN by DIXON,JOTHANI",
-    "Period":"2",
-    "playType":"subbing in",
-    "shotOutcome":"",
-    "Team":"birmingham southern",
-    "Player":"dixon,jothani",
-    "pointsEarned":"",
-    "awayLineup":[
-      "dixon,jothani",
-      "ford,kayla",
-      "niedermair,elizabeth",
-      "mclendon,sydney",
-      "romano,jane"
-    ],
-    "homeLineup":[
-      "perez,sam",
-      "brooks,miah",
-      "johnson,velvet",
-      null,
-      null
-    ],
-    "timeSeconds":739,
-    "Poss":"birmingham southern",
-    "possNum":38,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":82,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham Southern01\/18\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"perez,sam",
-    "homePlayer2":"brooks,miah",
-    "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"dixon,jothani",
-    "awayPlayer2":"ford,kayla",
-    "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":"mclendon,sydney",
-    "awayPlayer5":"romano,jane",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2343",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham Southern",
-    "saaGame":"1",
-    "finalScore":"48-59",
-    "homeScoreByPeriod":"30,29,59",
-    "awayScoreByPeriod":"10,38,48",
-    "homeRecord":"6-6-",
-    "awayRecord":"6-7",
-    "homeConfRecord":"1-2",
-    "awayConfRecord":"2-1",
-    "gameDate":"01\/18\/14",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"JACKSON MS",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"12:19",
-    "awayPlay":"",
-    "awayTeamScore":"25",
-    "playTeamIndicator":"",
-    "homeTeamScore":"36 ",
     "homePlay":"SUB IN by CRAWFORD,MAHALIA",
     "gameScore":"",
     "teamIndicator":"",
@@ -23369,7 +23369,7 @@
       "brooks,miah",
       "johnson,velvet",
       "crawford,mahalia",
-      null
+      "totals"
     ],
     "timeSeconds":739,
     "Poss":"birmingham southern",
@@ -23391,13 +23391,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"mclendon,sydney",
     "awayPlayer5":"romano,jane",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -23915,7 +23915,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "crawford,mahalia"
     ],
     "timeSeconds":714,
     "Poss":"birmingham southern",
@@ -23937,13 +23937,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"crawford,mahalia",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"mclendon,sydney",
     "awayPlayer5":"romano,jane",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -26482,7 +26482,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "romano,jane",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"romano,jane",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -26559,7 +26559,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -26593,7 +26593,7 @@
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26637,7 +26637,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -26645,7 +26645,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":529,
     "Poss":"birmingham southern",
@@ -26667,11 +26667,11 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26715,7 +26715,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -26723,7 +26723,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":529,
     "Poss":"birmingham southern",
@@ -26745,11 +26745,11 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26801,7 +26801,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":529,
     "Poss":"birmingham southern",
@@ -26823,13 +26823,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"peursem,laura van",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -27347,7 +27347,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "freeman,kala"
     ],
     "timeSeconds":497,
     "Poss":"millsaps",
@@ -27369,13 +27369,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,kala",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"brown,kelsey",
     "awayPlayer5":"peursem,laura van",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28041,7 +28041,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -28075,7 +28075,7 @@
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28119,7 +28119,7 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -28127,7 +28127,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":429,
     "Poss":"millsaps",
@@ -28149,11 +28149,11 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28197,14 +28197,14 @@
       "dixon,jothani",
       "ford,kayla",
       "niedermair,elizabeth",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
       "perez,sam",
       "brooks,miah",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null
     ],
     "timeSeconds":429,
@@ -28226,12 +28226,12 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
+    "homePlayer4":"holmes,beverly",
     "homePlayer5":null,
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28276,13 +28276,13 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "brooks,miah",
       "johnson,velvet",
-      null,
+      "holmes,beverly",
       null
     ],
     "timeSeconds":429,
@@ -28304,13 +28304,13 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
+    "homePlayer4":"holmes,beverly",
     "homePlayer5":null,
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
+    "awayPlayer5":"peursem,laura",
     "playerMissing":1
   },
   {
@@ -28354,14 +28354,14 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "totals"
     ],
     "timeSeconds":429,
     "Poss":"millsaps",
@@ -28383,13 +28383,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"dixon,jothani",
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28432,7 +28432,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28466,8 +28466,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28510,7 +28510,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28544,8 +28544,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28588,7 +28588,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28622,8 +28622,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28666,7 +28666,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28700,8 +28700,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28744,7 +28744,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28778,8 +28778,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28822,7 +28822,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
@@ -28856,8 +28856,8 @@
     "awayPlayer2":"ford,kayla",
     "awayPlayer3":"niedermair,elizabeth",
     "awayPlayer4":"curry,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -28899,7 +28899,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -28933,7 +28933,7 @@
     "awayPlayer1":"ford,kayla",
     "awayPlayer2":"niedermair,elizabeth",
     "awayPlayer3":"curry,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28977,7 +28977,7 @@
       "ford,kayla",
       "niedermair,elizabeth",
       "curry,ashley",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -29011,7 +29011,7 @@
     "awayPlayer1":"ford,kayla",
     "awayPlayer2":"niedermair,elizabeth",
     "awayPlayer3":"curry,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29054,7 +29054,7 @@
     "awayLineup":[
       "niedermair,elizabeth",
       "curry,ashley",
-      null,
+      "peursem,laura",
       null,
       null
     ],
@@ -29088,7 +29088,7 @@
     "homePlayer5":"johnson,bria",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
-    "awayPlayer3":null,
+    "awayPlayer3":"peursem,laura",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -29132,7 +29132,7 @@
     "awayLineup":[
       "niedermair,elizabeth",
       "curry,ashley",
-      null,
+      "peursem,laura",
       null,
       null
     ],
@@ -29141,7 +29141,7 @@
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":407,
     "Poss":"millsaps",
@@ -29163,10 +29163,10 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
-    "awayPlayer3":null,
+    "awayPlayer3":"peursem,laura",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -29211,7 +29211,7 @@
       "niedermair,elizabeth",
       "curry,ashley",
       "mclendon,sydney",
-      null,
+      "peursem,laura",
       null
     ],
     "homeLineup":[
@@ -29219,7 +29219,7 @@
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":407,
     "Poss":"millsaps",
@@ -29241,11 +29241,11 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
-    "awayPlayer4":null,
+    "awayPlayer4":"peursem,laura",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29290,14 +29290,14 @@
       "curry,ashley",
       "mclendon,sydney",
       "romano,jane",
-      null
+      "peursem,laura"
     ],
     "homeLineup":[
       "perez,sam",
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":407,
     "Poss":"millsaps",
@@ -29319,13 +29319,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"peursem,laura",
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -29375,7 +29375,7 @@
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":407,
     "Poss":"millsaps",
@@ -29397,13 +29397,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -29765,7 +29765,7 @@
       "brooks,miah",
       "johnson,velvet",
       "klunk,kim",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":392,
     "Poss":"millsaps",
@@ -29787,13 +29787,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -31949,7 +31949,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":153,
     "Poss":"birmingham southern",
@@ -31971,13 +31971,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -32183,7 +32183,7 @@
       "brooks,miah",
       "johnson,velvet",
       "holmes,beverly",
-      null
+      "freeman,kala"
     ],
     "timeSeconds":129,
     "Poss":"birmingham southern",
@@ -32205,13 +32205,13 @@
     "homePlayer2":"brooks,miah",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,kala",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -33665,7 +33665,7 @@
       "johnson,velvet",
       "holmes,beverly",
       "randle,kelli",
-      null
+      "perez,sam"
     ],
     "timeSeconds":32,
     "Poss":"millsaps",
@@ -33687,13 +33687,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"randle,kelli",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",
@@ -33742,7 +33742,7 @@
       "brooks,miah",
       "johnson,velvet",
       "randle,kelli",
-      null,
+      "holmes,beverly",
       null
     ],
     "timeSeconds":32,
@@ -33764,7 +33764,7 @@
     "homePlayer1":"brooks,miah",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"randle,kelli",
-    "homePlayer4":null,
+    "homePlayer4":"holmes,beverly",
     "homePlayer5":null,
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
@@ -33819,7 +33819,7 @@
     "homeLineup":[
       "johnson,velvet",
       "randle,kelli",
-      null,
+      "brooks,miah",
       null,
       null
     ],
@@ -33841,7 +33841,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"randle,kelli",
-    "homePlayer3":null,
+    "homePlayer3":"brooks,miah",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"niedermair,elizabeth",
@@ -33898,7 +33898,7 @@
       "johnson,velvet",
       "randle,kelli",
       "connor,katie",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":32,
@@ -33920,7 +33920,7 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"randle,kelli",
     "homePlayer3":"connor,katie",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
@@ -33977,7 +33977,7 @@
       "randle,kelli",
       "connor,katie",
       "burks,mary",
-      null
+      "totals"
     ],
     "timeSeconds":32,
     "Poss":"millsaps",
@@ -33999,13 +33999,13 @@
     "homePlayer2":"randle,kelli",
     "homePlayer3":"connor,katie",
     "homePlayer4":"burks,mary",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"niedermair,elizabeth",
     "awayPlayer2":"curry,ashley",
     "awayPlayer3":"mclendon,sydney",
     "awayPlayer4":"romano,jane",
     "awayPlayer5":"brown,kelsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2343",

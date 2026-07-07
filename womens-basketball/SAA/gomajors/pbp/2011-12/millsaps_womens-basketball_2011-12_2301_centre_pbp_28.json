@@ -2075,7 +2075,7 @@
       "benham,chelsea",
       "winstead,bridget",
       "burke,alyson",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":1040,
     "Poss":"millsaps",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"winstead,bridget",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"okeke,janice",
     "awayPlayer4":"love,lovie",
     "awayPlayer5":"white,shatoya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -3238,7 +3238,7 @@
       "okeke,janice",
       "love,lovie",
       "white,shatoya",
-      null
+      "morton,shante"
     ],
     "homeLineup":[
       "prewitt,maggie",
@@ -3272,8 +3272,8 @@
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"white,shatoya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"morton,shante",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -3310,6 +3310,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"okeke,janice",
+    "pointsEarned":"",
+    "awayLineup":[
+      "johnson,velvet",
+      "love,lovie",
+      "white,shatoya",
+      "okeke,janice",
+      null
+    ],
+    "homeLineup":[
+      "prewitt,maggie",
+      "benham,chelsea",
+      "winstead,bridget",
+      "burke,alyson",
+      "west,cailynn"
+    ],
+    "timeSeconds":960,
+    "Poss":"millsaps",
+    "possNum":11,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":18,
+    "teamChanged":0,
+    "game":"CentreMillsaps02\/26\/12",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"prewitt,maggie",
+    "homePlayer2":"benham,chelsea",
+    "homePlayer3":"winstead,bridget",
+    "homePlayer4":"burke,alyson",
+    "homePlayer5":"west,cailynn",
+    "awayPlayer1":"johnson,velvet",
+    "awayPlayer2":"love,lovie",
+    "awayPlayer3":"white,shatoya",
+    "awayPlayer4":"okeke,janice",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"2301",
+    "homeTeam":"Centre",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"48-60",
+    "homeScoreByPeriod":"31,29",
+    "awayScoreByPeriod":"23,25",
+    "homeRecord":"N\/A",
+    "awayRecord":"N\/A",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"02\/26\/12",
+    "startTime":"2:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
+    "homeWin":"Win",
+    "numPeriods":"2",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"16:00",
+    "awayPlay":"SUB OUT by WHITE,SHATOYA",
+    "awayTeamScore":"4",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WHITE,SHATOYA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"white,shatoya",
     "pointsEarned":"",
     "awayLineup":[
       "johnson,velvet",
@@ -3375,84 +3453,6 @@
     "attendance":"N\/A",
     "isNeutral":"False",
     "timeRemaining":"16:00",
-    "awayPlay":"SUB OUT by WHITE,SHATOYA",
-    "awayTeamScore":"4",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WHITE,SHATOYA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"white,shatoya",
-    "pointsEarned":"",
-    "awayLineup":[
-      "johnson,velvet",
-      "love,lovie",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "prewitt,maggie",
-      "benham,chelsea",
-      "winstead,bridget",
-      "burke,alyson",
-      "west,cailynn"
-    ],
-    "timeSeconds":960,
-    "Poss":"millsaps",
-    "possNum":11,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":18,
-    "teamChanged":0,
-    "game":"CentreMillsaps02\/26\/12",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"prewitt,maggie",
-    "homePlayer2":"benham,chelsea",
-    "homePlayer3":"winstead,bridget",
-    "homePlayer4":"burke,alyson",
-    "homePlayer5":"west,cailynn",
-    "awayPlayer1":"johnson,velvet",
-    "awayPlayer2":"love,lovie",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"2301",
-    "homeTeam":"Centre",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"48-60",
-    "homeScoreByPeriod":"31,29",
-    "awayScoreByPeriod":"23,25",
-    "homeRecord":"N\/A",
-    "awayRecord":"N\/A",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"02\/26\/12",
-    "startTime":"2:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
-    "homeWin":"Win",
-    "numPeriods":"2",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"16:00",
     "awayPlay":"",
     "awayTeamScore":"4",
     "playTeamIndicator":"",
@@ -3470,7 +3470,7 @@
     "awayLineup":[
       "johnson,velvet",
       "love,lovie",
-      null,
+      "white,shatoya",
       null,
       null
     ],
@@ -3479,7 +3479,7 @@
       "benham,chelsea",
       "winstead,bridget",
       "west,cailynn",
-      null
+      "burke,alyson"
     ],
     "timeSeconds":960,
     "Poss":"millsaps",
@@ -3501,10 +3501,10 @@
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"winstead,bridget",
     "homePlayer4":"west,cailynn",
-    "homePlayer5":null,
+    "homePlayer5":"burke,alyson",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
-    "awayPlayer3":null,
+    "awayPlayer3":"white,shatoya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3548,7 +3548,7 @@
     "awayLineup":[
       "johnson,velvet",
       "love,lovie",
-      null,
+      "white,shatoya",
       null,
       null
     ],
@@ -3556,7 +3556,7 @@
       "prewitt,maggie",
       "benham,chelsea",
       "west,cailynn",
-      null,
+      "winstead,bridget",
       null
     ],
     "timeSeconds":960,
@@ -3578,11 +3578,11 @@
     "homePlayer1":"prewitt,maggie",
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"west,cailynn",
-    "homePlayer4":null,
+    "homePlayer4":"winstead,bridget",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
-    "awayPlayer3":null,
+    "awayPlayer3":"white,shatoya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3627,14 +3627,14 @@
       "johnson,velvet",
       "love,lovie",
       "earl,brittnei",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "prewitt,maggie",
       "benham,chelsea",
       "west,cailynn",
-      null,
+      "winstead,bridget",
       null
     ],
     "timeSeconds":960,
@@ -3656,12 +3656,12 @@
     "homePlayer1":"prewitt,maggie",
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"west,cailynn",
-    "homePlayer4":null,
+    "homePlayer4":"winstead,bridget",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3706,13 +3706,13 @@
       "love,lovie",
       "earl,brittnei",
       "mbenza,natasha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "prewitt,maggie",
       "benham,chelsea",
       "west,cailynn",
-      null,
+      "winstead,bridget",
       null
     ],
     "timeSeconds":960,
@@ -3734,13 +3734,13 @@
     "homePlayer1":"prewitt,maggie",
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"west,cailynn",
-    "homePlayer4":null,
+    "homePlayer4":"winstead,bridget",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
     "awayPlayer4":"mbenza,natasha",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -3790,7 +3790,7 @@
       "prewitt,maggie",
       "benham,chelsea",
       "west,cailynn",
-      null,
+      "winstead,bridget",
       null
     ],
     "timeSeconds":960,
@@ -3812,7 +3812,7 @@
     "homePlayer1":"prewitt,maggie",
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"west,cailynn",
-    "homePlayer4":null,
+    "homePlayer4":"winstead,bridget",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
@@ -3869,7 +3869,7 @@
       "benham,chelsea",
       "west,cailynn",
       "hartlage,maggie",
-      null
+      "totals"
     ],
     "timeSeconds":960,
     "Poss":"millsaps",
@@ -3891,13 +3891,13 @@
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"west,cailynn",
     "homePlayer4":"hartlage,maggie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
     "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":"perez,samantha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -4259,7 +4259,7 @@
       "benham,chelsea",
       "hartlage,maggie",
       "goatley,jane",
-      null
+      "west,cailynn"
     ],
     "timeSeconds":927,
     "Poss":"centre",
@@ -4281,13 +4281,13 @@
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"hartlage,maggie",
     "homePlayer4":"goatley,jane",
-    "homePlayer5":null,
+    "homePlayer5":"west,cailynn",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
     "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":"perez,samantha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -4336,7 +4336,7 @@
       "prewitt,maggie",
       "hartlage,maggie",
       "goatley,jane",
-      null,
+      "benham,chelsea",
       null
     ],
     "timeSeconds":927,
@@ -4358,7 +4358,7 @@
     "homePlayer1":"prewitt,maggie",
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"goatley,jane",
-    "homePlayer4":null,
+    "homePlayer4":"benham,chelsea",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
@@ -4415,7 +4415,7 @@
       "hartlage,maggie",
       "goatley,jane",
       "baechle,paige",
-      null
+      "totals"
     ],
     "timeSeconds":927,
     "Poss":"centre",
@@ -4437,13 +4437,13 @@
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"goatley,jane",
     "homePlayer4":"baechle,paige",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
     "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":"perez,samantha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -5422,7 +5422,7 @@
       "love,lovie",
       "mbenza,natasha",
       "perez,samantha",
-      null
+      "earl,brittnei"
     ],
     "homeLineup":[
       "prewitt,maggie",
@@ -5456,8 +5456,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"mbenza,natasha",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -5499,7 +5499,7 @@
       "johnson,velvet",
       "love,lovie",
       "perez,samantha",
-      null,
+      "mbenza,natasha",
       null
     ],
     "homeLineup":[
@@ -5533,7 +5533,7 @@
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"perez,samantha",
-    "awayPlayer4":null,
+    "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5576,7 +5576,7 @@
     "awayLineup":[
       "love,lovie",
       "perez,samantha",
-      null,
+      "johnson,velvet",
       null,
       null
     ],
@@ -5610,7 +5610,7 @@
     "homePlayer5":"huter,lauren",
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"perez,samantha",
-    "awayPlayer3":null,
+    "awayPlayer3":"johnson,velvet",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -5653,7 +5653,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "perez,samantha",
-      null,
+      "love,lovie",
       null,
       null,
       null
@@ -5687,7 +5687,7 @@
     "homePlayer4":"baechle,paige",
     "homePlayer5":"huter,lauren",
     "awayPlayer1":"perez,samantha",
-    "awayPlayer2":null,
+    "awayPlayer2":"love,lovie",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -5732,7 +5732,7 @@
     "awayLineup":[
       "perez,samantha",
       "morton,shante",
-      null,
+      "totals",
       null,
       null
     ],
@@ -5766,7 +5766,7 @@
     "homePlayer5":"huter,lauren",
     "awayPlayer1":"perez,samantha",
     "awayPlayer2":"morton,shante",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -5811,7 +5811,7 @@
       "perez,samantha",
       "morton,shante",
       "okeke,janice",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -5845,7 +5845,7 @@
     "awayPlayer1":"perez,samantha",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"okeke,janice",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5890,7 +5890,7 @@
       "morton,shante",
       "okeke,janice",
       "white,shatoya",
-      null
+      "totals"
     ],
     "homeLineup":[
       "prewitt,maggie",
@@ -5924,8 +5924,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"okeke,janice",
     "awayPlayer4":"white,shatoya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -7372,7 +7372,7 @@
       "morton,shante",
       "okeke,janice",
       "white,shatoya",
-      null
+      "sigafoose,elizabeth"
     ],
     "homeLineup":[
       "prewitt,maggie",
@@ -7406,8 +7406,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"okeke,janice",
     "awayPlayer4":"white,shatoya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sigafoose,elizabeth",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -7449,7 +7449,7 @@
       "morton,shante",
       "okeke,janice",
       "white,shatoya",
-      null,
+      "perez,samantha",
       null
     ],
     "homeLineup":[
@@ -7483,7 +7483,7 @@
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"white,shatoya",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,samantha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7527,7 +7527,7 @@
       "morton,shante",
       "okeke,janice",
       "white,shatoya",
-      null,
+      "perez,samantha",
       null
     ],
     "homeLineup":[
@@ -7535,7 +7535,7 @@
       "hartlage,maggie",
       "goatley,jane",
       "baechle,paige",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":699,
     "Poss":"millsaps",
@@ -7557,11 +7557,11 @@
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"goatley,jane",
     "homePlayer4":"baechle,paige",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"white,shatoya",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,samantha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7606,14 +7606,14 @@
       "okeke,janice",
       "white,shatoya",
       "johnson,velvet",
-      null
+      "totals"
     ],
     "homeLineup":[
       "prewitt,maggie",
       "hartlage,maggie",
       "goatley,jane",
       "baechle,paige",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":699,
     "Poss":"millsaps",
@@ -7635,13 +7635,13 @@
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"goatley,jane",
     "homePlayer4":"baechle,paige",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"johnson,velvet",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -7691,7 +7691,7 @@
       "hartlage,maggie",
       "goatley,jane",
       "baechle,paige",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":699,
     "Poss":"millsaps",
@@ -7713,13 +7713,13 @@
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"goatley,jane",
     "homePlayer4":"baechle,paige",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"johnson,velvet",
     "awayPlayer5":"love,lovie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -7847,7 +7847,7 @@
       "hartlage,maggie",
       "baechle,paige",
       "benham,chelsea",
-      null
+      "goatley,jane"
     ],
     "timeSeconds":692,
     "Poss":"millsaps",
@@ -7869,13 +7869,13 @@
     "homePlayer2":"hartlage,maggie",
     "homePlayer3":"baechle,paige",
     "homePlayer4":"benham,chelsea",
-    "homePlayer5":null,
+    "homePlayer5":"goatley,jane",
     "awayPlayer1":"morton,shante",
     "awayPlayer2":"okeke,janice",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"johnson,velvet",
     "awayPlayer5":"love,lovie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -9088,7 +9088,7 @@
       "white,shatoya",
       "johnson,velvet",
       "love,lovie",
-      null
+      "morton,shante"
     ],
     "homeLineup":[
       "prewitt,maggie",
@@ -9122,8 +9122,8 @@
     "awayPlayer2":"white,shatoya",
     "awayPlayer3":"johnson,velvet",
     "awayPlayer4":"love,lovie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"morton,shante",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -9165,7 +9165,7 @@
       "white,shatoya",
       "johnson,velvet",
       "love,lovie",
-      null,
+      "okeke,janice",
       null
     ],
     "homeLineup":[
@@ -9199,7 +9199,7 @@
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
-    "awayPlayer4":null,
+    "awayPlayer4":"okeke,janice",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9243,7 +9243,7 @@
       "white,shatoya",
       "johnson,velvet",
       "love,lovie",
-      null,
+      "okeke,janice",
       null
     ],
     "homeLineup":[
@@ -9251,7 +9251,7 @@
       "baechle,paige",
       "benham,chelsea",
       "burke,alyson",
-      null
+      "hartlage,maggie"
     ],
     "timeSeconds":593,
     "Poss":"centre",
@@ -9273,11 +9273,11 @@
     "homePlayer2":"baechle,paige",
     "homePlayer3":"benham,chelsea",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"hartlage,maggie",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
-    "awayPlayer4":null,
+    "awayPlayer4":"okeke,janice",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9322,14 +9322,14 @@
       "johnson,velvet",
       "love,lovie",
       "earl,brittnei",
-      null
+      "totals"
     ],
     "homeLineup":[
       "prewitt,maggie",
       "baechle,paige",
       "benham,chelsea",
       "burke,alyson",
-      null
+      "hartlage,maggie"
     ],
     "timeSeconds":593,
     "Poss":"centre",
@@ -9351,13 +9351,13 @@
     "homePlayer2":"baechle,paige",
     "homePlayer3":"benham,chelsea",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"hartlage,maggie",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"earl,brittnei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -9407,7 +9407,7 @@
       "baechle,paige",
       "benham,chelsea",
       "burke,alyson",
-      null
+      "hartlage,maggie"
     ],
     "timeSeconds":593,
     "Poss":"centre",
@@ -9429,13 +9429,13 @@
     "homePlayer2":"baechle,paige",
     "homePlayer3":"benham,chelsea",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"hartlage,maggie",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"earl,brittnei",
     "awayPlayer5":"mbenza,natasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -9797,7 +9797,7 @@
       "benham,chelsea",
       "burke,alyson",
       "winstead,bridget",
-      null
+      "prewitt,maggie"
     ],
     "timeSeconds":551,
     "Poss":"centre",
@@ -9819,13 +9819,13 @@
     "homePlayer2":"benham,chelsea",
     "homePlayer3":"burke,alyson",
     "homePlayer4":"winstead,bridget",
-    "homePlayer5":null,
+    "homePlayer5":"prewitt,maggie",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"earl,brittnei",
     "awayPlayer5":"mbenza,natasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -10414,7 +10414,7 @@
       "johnson,velvet",
       "love,lovie",
       "mbenza,natasha",
-      null
+      "earl,brittnei"
     ],
     "homeLineup":[
       "baechle,paige",
@@ -10448,8 +10448,8 @@
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"mbenza,natasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -10491,7 +10491,7 @@
       "white,shatoya",
       "johnson,velvet",
       "love,lovie",
-      null,
+      "mbenza,natasha",
       null
     ],
     "homeLineup":[
@@ -10525,7 +10525,7 @@
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
-    "awayPlayer4":null,
+    "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10570,7 +10570,7 @@
       "johnson,velvet",
       "love,lovie",
       "morton,shante",
-      null
+      "totals"
     ],
     "homeLineup":[
       "baechle,paige",
@@ -10604,8 +10604,8 @@
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"morton,shante",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -11045,7 +11045,7 @@
       "burke,alyson",
       "winstead,bridget",
       "mire,jenna",
-      null
+      "baechle,paige"
     ],
     "timeSeconds":435,
     "Poss":"centre",
@@ -11067,13 +11067,13 @@
     "homePlayer2":"burke,alyson",
     "homePlayer3":"winstead,bridget",
     "homePlayer4":"mire,jenna",
-    "homePlayer5":null,
+    "homePlayer5":"baechle,paige",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"morton,shante",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -11122,7 +11122,7 @@
       "benham,chelsea",
       "winstead,bridget",
       "mire,jenna",
-      null,
+      "burke,alyson",
       null
     ],
     "timeSeconds":435,
@@ -11144,7 +11144,7 @@
     "homePlayer1":"benham,chelsea",
     "homePlayer2":"winstead,bridget",
     "homePlayer3":"mire,jenna",
-    "homePlayer4":null,
+    "homePlayer4":"burke,alyson",
     "homePlayer5":null,
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
@@ -11201,7 +11201,7 @@
       "winstead,bridget",
       "mire,jenna",
       "huter,lauren",
-      null
+      "totals"
     ],
     "timeSeconds":435,
     "Poss":"centre",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"winstead,bridget",
     "homePlayer3":"mire,jenna",
     "homePlayer4":"huter,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"morton,shante",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -11350,7 +11350,7 @@
       "johnson,velvet",
       "love,lovie",
       "morton,shante",
-      null
+      "okeke,janice"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -11384,8 +11384,8 @@
     "awayPlayer2":"johnson,velvet",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"morton,shante",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"okeke,janice",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -11427,7 +11427,7 @@
       "white,shatoya",
       "love,lovie",
       "morton,shante",
-      null,
+      "johnson,velvet",
       null
     ],
     "homeLineup":[
@@ -11461,7 +11461,7 @@
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"morton,shante",
-    "awayPlayer4":null,
+    "awayPlayer4":"johnson,velvet",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11506,7 +11506,7 @@
       "love,lovie",
       "morton,shante",
       "earl,brittnei",
-      null
+      "totals"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -11540,8 +11540,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"earl,brittnei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -12520,7 +12520,7 @@
       "love,lovie",
       "morton,shante",
       "mbenza,natasha",
-      null
+      "earl,brittnei"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -12554,8 +12554,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"mbenza,natasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -12598,14 +12598,14 @@
       "love,lovie",
       "morton,shante",
       "mbenza,natasha",
-      null
+      "earl,brittnei"
     ],
     "homeLineup":[
       "benham,chelsea",
       "winstead,bridget",
       "mire,jenna",
       "hartlage,maggie",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":362,
     "Poss":"millsaps",
@@ -12627,13 +12627,13 @@
     "homePlayer2":"winstead,bridget",
     "homePlayer3":"mire,jenna",
     "homePlayer4":"hartlage,maggie",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"mbenza,natasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -12683,7 +12683,7 @@
       "winstead,bridget",
       "mire,jenna",
       "hartlage,maggie",
-      null
+      "huter,lauren"
     ],
     "timeSeconds":362,
     "Poss":"millsaps",
@@ -12705,13 +12705,13 @@
     "homePlayer2":"winstead,bridget",
     "homePlayer3":"mire,jenna",
     "homePlayer4":"hartlage,maggie",
-    "homePlayer5":null,
+    "homePlayer5":"huter,lauren",
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"mbenza,natasha",
     "awayPlayer5":"perez,samantha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -13066,7 +13066,7 @@
       "love,lovie",
       "mbenza,natasha",
       "perez,samantha",
-      null
+      "morton,shante"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -13100,8 +13100,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"mbenza,natasha",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"morton,shante",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -13612,7 +13612,7 @@
       "love,lovie",
       "perez,samantha",
       "earl,brittnei",
-      null
+      "mbenza,natasha"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -13646,8 +13646,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"perez,samantha",
     "awayPlayer4":"earl,brittnei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mbenza,natasha",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -13689,7 +13689,7 @@
       "white,shatoya",
       "love,lovie",
       "earl,brittnei",
-      null,
+      "perez,samantha",
       null
     ],
     "homeLineup":[
@@ -13723,7 +13723,7 @@
     "awayPlayer1":"white,shatoya",
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,samantha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13768,7 +13768,7 @@
       "love,lovie",
       "earl,brittnei",
       "morton,shante",
-      null
+      "totals"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -13802,8 +13802,8 @@
     "awayPlayer2":"love,lovie",
     "awayPlayer3":"earl,brittnei",
     "awayPlayer4":"morton,shante",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -15796,7 +15796,7 @@
       "earl,brittnei",
       "morton,shante",
       "sigafoose,elizabeth",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "benham,chelsea",
@@ -15830,8 +15830,8 @@
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"white,shatoya",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -15874,14 +15874,14 @@
       "earl,brittnei",
       "morton,shante",
       "sigafoose,elizabeth",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "benham,chelsea",
       "winstead,bridget",
       "mire,jenna",
       "hartlage,maggie",
-      null
+      "west,cailynn"
     ],
     "timeSeconds":68,
     "Poss":"millsaps",
@@ -15903,13 +15903,13 @@
     "homePlayer2":"winstead,bridget",
     "homePlayer3":"mire,jenna",
     "homePlayer4":"hartlage,maggie",
-    "homePlayer5":null,
+    "homePlayer5":"west,cailynn",
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"white,shatoya",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -15952,13 +15952,13 @@
       "earl,brittnei",
       "morton,shante",
       "sigafoose,elizabeth",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "winstead,bridget",
       "mire,jenna",
       "hartlage,maggie",
-      null,
+      "benham,chelsea",
       null
     ],
     "timeSeconds":68,
@@ -15980,13 +15980,13 @@
     "homePlayer1":"winstead,bridget",
     "homePlayer2":"mire,jenna",
     "homePlayer3":"hartlage,maggie",
-    "homePlayer4":null,
+    "homePlayer4":"benham,chelsea",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
-    "awayPlayer5":null,
+    "awayPlayer5":"white,shatoya",
     "playerMissing":1
   },
   {
@@ -16030,12 +16030,12 @@
       "earl,brittnei",
       "morton,shante",
       "sigafoose,elizabeth",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "winstead,bridget",
       "mire,jenna",
-      null,
+      "hartlage,maggie",
       null,
       null
     ],
@@ -16057,14 +16057,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"winstead,bridget",
     "homePlayer2":"mire,jenna",
-    "homePlayer3":null,
+    "homePlayer3":"hartlage,maggie",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
-    "awayPlayer5":null,
+    "awayPlayer5":"white,shatoya",
     "playerMissing":1
   },
   {
@@ -16108,11 +16108,11 @@
       "earl,brittnei",
       "morton,shante",
       "sigafoose,elizabeth",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "mire,jenna",
-      null,
+      "winstead,bridget",
       null,
       null,
       null
@@ -16134,7 +16134,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"mire,jenna",
-    "homePlayer2":null,
+    "homePlayer2":"winstead,bridget",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -16142,7 +16142,7 @@
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
-    "awayPlayer5":null,
+    "awayPlayer5":"white,shatoya",
     "playerMissing":1
   },
   {
@@ -16190,7 +16190,7 @@
     ],
     "homeLineup":[
       "mire,jenna",
-      null,
+      "winstead,bridget",
       null,
       null,
       null
@@ -16212,7 +16212,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"mire,jenna",
-    "homePlayer2":null,
+    "homePlayer2":"winstead,bridget",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -16269,7 +16269,7 @@
     "homeLineup":[
       "mire,jenna",
       "baechle,paige",
-      null,
+      "totals",
       null,
       null
     ],
@@ -16291,7 +16291,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
@@ -16348,7 +16348,7 @@
       "mire,jenna",
       "baechle,paige",
       "huter,lauren",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":68,
@@ -16370,7 +16370,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"huter,lauren",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
@@ -16427,7 +16427,7 @@
       "baechle,paige",
       "huter,lauren",
       "goatley,jane",
-      null
+      "totals"
     ],
     "timeSeconds":68,
     "Poss":"millsaps",
@@ -16449,13 +16449,13 @@
     "homePlayer2":"baechle,paige",
     "homePlayer3":"huter,lauren",
     "homePlayer4":"goatley,jane",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"sigafoose,elizabeth",
     "awayPlayer5":"perez,samantha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -19312,7 +19312,7 @@
       "mire,jenna",
       "baechle,paige",
       "goatley,jane",
-      null,
+      "burke,alyson",
       null
     ],
     "timeSeconds":976,
@@ -19334,7 +19334,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"goatley,jane",
-    "homePlayer4":null,
+    "homePlayer4":"burke,alyson",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
@@ -19390,7 +19390,7 @@
       "mire,jenna",
       "baechle,paige",
       "goatley,jane",
-      null,
+      "burke,alyson",
       null
     ],
     "timeSeconds":976,
@@ -19412,7 +19412,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"goatley,jane",
-    "homePlayer4":null,
+    "homePlayer4":"burke,alyson",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
@@ -19468,7 +19468,7 @@
       "mire,jenna",
       "baechle,paige",
       "goatley,jane",
-      null,
+      "burke,alyson",
       null
     ],
     "timeSeconds":976,
@@ -19490,7 +19490,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"goatley,jane",
-    "homePlayer4":null,
+    "homePlayer4":"burke,alyson",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"earl,brittnei",
@@ -21021,7 +21021,7 @@
       "love,lovie",
       "sigafoose,elizabeth",
       "perez,samantha",
-      null,
+      "earl,brittnei",
       null
     ],
     "homeLineup":[
@@ -21055,7 +21055,7 @@
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
     "awayPlayer3":"perez,samantha",
-    "awayPlayer4":null,
+    "awayPlayer4":"earl,brittnei",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21098,7 +21098,7 @@
     "awayLineup":[
       "love,lovie",
       "sigafoose,elizabeth",
-      null,
+      "perez,samantha",
       null,
       null
     ],
@@ -21132,7 +21132,7 @@
     "homePlayer5":"benham,chelsea",
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
-    "awayPlayer3":null,
+    "awayPlayer3":"perez,samantha",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -21177,7 +21177,7 @@
       "love,lovie",
       "sigafoose,elizabeth",
       "morton,shante",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -21211,7 +21211,7 @@
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
     "awayPlayer3":"morton,shante",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21808,7 +21808,7 @@
       "mire,jenna",
       "baechle,paige",
       "hartlage,maggie",
-      null,
+      "goatley,jane",
       null
     ],
     "timeSeconds":745,
@@ -21830,7 +21830,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"hartlage,maggie",
-    "homePlayer4":null,
+    "homePlayer4":"goatley,jane",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
@@ -21874,6 +21874,84 @@
     "shotOutcome":"",
     "Team":"centre",
     "Player":"benham,chelsea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "love,lovie",
+      "sigafoose,elizabeth",
+      "morton,shante",
+      "white,shatoya",
+      "okeke,janice"
+    ],
+    "homeLineup":[
+      "mire,jenna",
+      "baechle,paige",
+      "hartlage,maggie",
+      "goatley,jane",
+      null
+    ],
+    "timeSeconds":745,
+    "Poss":"centre",
+    "possNum":38,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"centre",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":80,
+    "teamChanged":0,
+    "game":"CentreMillsaps02\/26\/12",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"mire,jenna",
+    "homePlayer2":"baechle,paige",
+    "homePlayer3":"hartlage,maggie",
+    "homePlayer4":"goatley,jane",
+    "homePlayer5":null,
+    "awayPlayer1":"love,lovie",
+    "awayPlayer2":"sigafoose,elizabeth",
+    "awayPlayer3":"morton,shante",
+    "awayPlayer4":"white,shatoya",
+    "awayPlayer5":"okeke,janice",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2301",
+    "homeTeam":"Centre",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"48-60",
+    "homeScoreByPeriod":"31,29",
+    "awayScoreByPeriod":"23,25",
+    "homeRecord":"N\/A",
+    "awayRecord":"N\/A",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"02\/26\/12",
+    "startTime":"2:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
+    "homeWin":"Win",
+    "numPeriods":"2",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"12:25",
+    "awayPlay":"",
+    "awayTeamScore":"39",
+    "playTeamIndicator":"",
+    "homeTeamScore":"41 ",
+    "homePlay":"SUB OUT by HARTLAGE,MAGGIE",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HARTLAGE,MAGGIE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"hartlage,maggie",
     "pointsEarned":"",
     "awayLineup":[
       "love,lovie",
@@ -21943,84 +22021,6 @@
     "awayTeamScore":"39",
     "playTeamIndicator":"",
     "homeTeamScore":"41 ",
-    "homePlay":"SUB OUT by HARTLAGE,MAGGIE",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HARTLAGE,MAGGIE",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"hartlage,maggie",
-    "pointsEarned":"",
-    "awayLineup":[
-      "love,lovie",
-      "sigafoose,elizabeth",
-      "morton,shante",
-      "white,shatoya",
-      "okeke,janice"
-    ],
-    "homeLineup":[
-      "mire,jenna",
-      "baechle,paige",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":745,
-    "Poss":"centre",
-    "possNum":38,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"centre",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":80,
-    "teamChanged":0,
-    "game":"CentreMillsaps02\/26\/12",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"mire,jenna",
-    "homePlayer2":"baechle,paige",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"love,lovie",
-    "awayPlayer2":"sigafoose,elizabeth",
-    "awayPlayer3":"morton,shante",
-    "awayPlayer4":"white,shatoya",
-    "awayPlayer5":"okeke,janice",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2301",
-    "homeTeam":"Centre",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"48-60",
-    "homeScoreByPeriod":"31,29",
-    "awayScoreByPeriod":"23,25",
-    "homeRecord":"N\/A",
-    "awayRecord":"N\/A",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"02\/26\/12",
-    "startTime":"2:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
-    "homeWin":"Win",
-    "numPeriods":"2",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"12:25",
-    "awayPlay":"",
-    "awayTeamScore":"39",
-    "playTeamIndicator":"",
-    "homeTeamScore":"41 ",
     "homePlay":"SUB IN by HUTER,LAUREN",
     "gameScore":"",
     "teamIndicator":"",
@@ -22042,7 +22042,7 @@
       "mire,jenna",
       "baechle,paige",
       "huter,lauren",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":745,
@@ -22064,7 +22064,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"baechle,paige",
     "homePlayer3":"huter,lauren",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
@@ -22121,7 +22121,7 @@
       "baechle,paige",
       "huter,lauren",
       "winstead,bridget",
-      null
+      "totals"
     ],
     "timeSeconds":745,
     "Poss":"centre",
@@ -22143,13 +22143,13 @@
     "homePlayer2":"baechle,paige",
     "homePlayer3":"huter,lauren",
     "homePlayer4":"winstead,bridget",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"love,lovie",
     "awayPlayer2":"sigafoose,elizabeth",
     "awayPlayer3":"morton,shante",
     "awayPlayer4":"white,shatoya",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -22737,7 +22737,7 @@
       "sigafoose,elizabeth",
       "morton,shante",
       "white,shatoya",
-      null,
+      "love,lovie",
       null
     ],
     "homeLineup":[
@@ -22771,7 +22771,7 @@
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
-    "awayPlayer4":null,
+    "awayPlayer4":"love,lovie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22816,7 +22816,7 @@
       "morton,shante",
       "white,shatoya",
       "mbenza,natasha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mire,jenna",
@@ -22850,8 +22850,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"mbenza,natasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -23440,7 +23440,7 @@
       "morton,shante",
       "white,shatoya",
       "perez,samantha",
-      null
+      "mbenza,natasha"
     ],
     "homeLineup":[
       "mire,jenna",
@@ -23474,8 +23474,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mbenza,natasha",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -23518,14 +23518,14 @@
       "morton,shante",
       "white,shatoya",
       "perez,samantha",
-      null
+      "mbenza,natasha"
     ],
     "homeLineup":[
       "mire,jenna",
       "huter,lauren",
       "winstead,bridget",
       "burke,alyson",
-      null
+      "baechle,paige"
     ],
     "timeSeconds":669,
     "Poss":"centre",
@@ -23547,13 +23547,13 @@
     "homePlayer2":"huter,lauren",
     "homePlayer3":"winstead,bridget",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"baechle,paige",
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mbenza,natasha",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -23603,7 +23603,7 @@
       "huter,lauren",
       "winstead,bridget",
       "burke,alyson",
-      null
+      "baechle,paige"
     ],
     "timeSeconds":669,
     "Poss":"centre",
@@ -23625,13 +23625,13 @@
     "homePlayer2":"huter,lauren",
     "homePlayer3":"winstead,bridget",
     "homePlayer4":"burke,alyson",
-    "homePlayer5":null,
+    "homePlayer5":"baechle,paige",
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"perez,samantha",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -23908,7 +23908,7 @@
       "morton,shante",
       "white,shatoya",
       "perez,samantha",
-      null
+      "okeke,janice"
     ],
     "homeLineup":[
       "mire,jenna",
@@ -23942,8 +23942,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"okeke,janice",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -25163,6 +25163,84 @@
       "winstead,bridget",
       "burke,alyson",
       "benham,chelsea",
+      "huter,lauren"
+    ],
+    "timeSeconds":531,
+    "Poss":"centre",
+    "possNum":42,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"centre",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":90,
+    "teamChanged":0,
+    "game":"CentreMillsaps02\/26\/12",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"mire,jenna",
+    "homePlayer2":"winstead,bridget",
+    "homePlayer3":"burke,alyson",
+    "homePlayer4":"benham,chelsea",
+    "homePlayer5":"huter,lauren",
+    "awayPlayer1":"sigafoose,elizabeth",
+    "awayPlayer2":"morton,shante",
+    "awayPlayer3":"white,shatoya",
+    "awayPlayer4":"perez,samantha",
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
+  },
+  {
+    "gameID":"2301",
+    "homeTeam":"Centre",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"48-60",
+    "homeScoreByPeriod":"31,29",
+    "awayScoreByPeriod":"23,25",
+    "homeRecord":"N\/A",
+    "awayRecord":"N\/A",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"02\/26\/12",
+    "startTime":"2:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
+    "homeWin":"Win",
+    "numPeriods":"2",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"08:51",
+    "awayPlay":"",
+    "awayTeamScore":"41",
+    "playTeamIndicator":"",
+    "homeTeamScore":"45 ",
+    "homePlay":"SUB OUT by BENHAM,CHELSEA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BENHAM,CHELSEA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"benham,chelsea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "sigafoose,elizabeth",
+      "morton,shante",
+      "white,shatoya",
+      "perez,samantha",
+      "earl,brittnei"
+    ],
+    "homeLineup":[
+      "mire,jenna",
+      "winstead,bridget",
+      "burke,alyson",
+      "benham,chelsea",
       null
     ],
     "timeSeconds":531,
@@ -25219,15 +25297,15 @@
     "awayTeamScore":"41",
     "playTeamIndicator":"",
     "homeTeamScore":"45 ",
-    "homePlay":"SUB OUT by BENHAM,CHELSEA",
+    "homePlay":"SUB OUT by WINSTEAD,BRIDGET",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by BENHAM,CHELSEA",
+    "Play":"SUB OUT by WINSTEAD,BRIDGET",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"centre",
-    "Player":"benham,chelsea",
+    "Player":"winstead,bridget",
     "pointsEarned":"",
     "awayLineup":[
       "sigafoose,elizabeth",
@@ -25238,8 +25316,8 @@
     ],
     "homeLineup":[
       "mire,jenna",
-      "winstead,bridget",
       "burke,alyson",
+      "winstead,bridget",
       null,
       null
     ],
@@ -25260,8 +25338,8 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"mire,jenna",
-    "homePlayer2":"winstead,bridget",
-    "homePlayer3":"burke,alyson",
+    "homePlayer2":"burke,alyson",
+    "homePlayer3":"winstead,bridget",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"sigafoose,elizabeth",
@@ -25297,15 +25375,15 @@
     "awayTeamScore":"41",
     "playTeamIndicator":"",
     "homeTeamScore":"45 ",
-    "homePlay":"SUB OUT by WINSTEAD,BRIDGET",
+    "homePlay":"SUB OUT by BURKE,ALYSON",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by WINSTEAD,BRIDGET",
+    "Play":"SUB OUT by BURKE,ALYSON",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"centre",
-    "Player":"winstead,bridget",
+    "Player":"burke,alyson",
     "pointsEarned":"",
     "awayLineup":[
       "sigafoose,elizabeth",
@@ -25375,84 +25453,6 @@
     "awayTeamScore":"41",
     "playTeamIndicator":"",
     "homeTeamScore":"45 ",
-    "homePlay":"SUB OUT by BURKE,ALYSON",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BURKE,ALYSON",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"burke,alyson",
-    "pointsEarned":"",
-    "awayLineup":[
-      "sigafoose,elizabeth",
-      "morton,shante",
-      "white,shatoya",
-      "perez,samantha",
-      "earl,brittnei"
-    ],
-    "homeLineup":[
-      "mire,jenna",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":531,
-    "Poss":"centre",
-    "possNum":42,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"centre",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":90,
-    "teamChanged":0,
-    "game":"CentreMillsaps02\/26\/12",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"mire,jenna",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"sigafoose,elizabeth",
-    "awayPlayer2":"morton,shante",
-    "awayPlayer3":"white,shatoya",
-    "awayPlayer4":"perez,samantha",
-    "awayPlayer5":"earl,brittnei",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2301",
-    "homeTeam":"Centre",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"48-60",
-    "homeScoreByPeriod":"31,29",
-    "awayScoreByPeriod":"23,25",
-    "homeRecord":"N\/A",
-    "awayRecord":"N\/A",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"02\/26\/12",
-    "startTime":"2:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Birmingham, Ala. (Bill Battle Coliseum)",
-    "homeWin":"Win",
-    "numPeriods":"2",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"08:51",
-    "awayPlay":"",
-    "awayTeamScore":"41",
-    "playTeamIndicator":"",
-    "homeTeamScore":"45 ",
     "homePlay":"SUB IN by WEST,CAILYNN",
     "gameScore":"",
     "teamIndicator":"",
@@ -25473,7 +25473,7 @@
     "homeLineup":[
       "mire,jenna",
       "west,cailynn",
-      null,
+      "totals",
       null,
       null
     ],
@@ -25495,7 +25495,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"mire,jenna",
     "homePlayer2":"west,cailynn",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"sigafoose,elizabeth",
@@ -25552,7 +25552,7 @@
       "mire,jenna",
       "west,cailynn",
       "baechle,paige",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":531,
@@ -25574,7 +25574,7 @@
     "homePlayer1":"mire,jenna",
     "homePlayer2":"west,cailynn",
     "homePlayer3":"baechle,paige",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
@@ -25631,7 +25631,7 @@
       "west,cailynn",
       "baechle,paige",
       "goatley,jane",
-      null
+      "totals"
     ],
     "timeSeconds":531,
     "Poss":"centre",
@@ -25653,13 +25653,13 @@
     "homePlayer2":"west,cailynn",
     "homePlayer3":"baechle,paige",
     "homePlayer4":"goatley,jane",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"perez,samantha",
     "awayPlayer5":"earl,brittnei",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -26248,7 +26248,7 @@
       "morton,shante",
       "white,shatoya",
       "earl,brittnei",
-      null
+      "perez,samantha"
     ],
     "homeLineup":[
       "west,cailynn",
@@ -26282,8 +26282,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"earl,brittnei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,samantha",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -26794,7 +26794,7 @@
       "morton,shante",
       "white,shatoya",
       "love,lovie",
-      null
+      "earl,brittnei"
     ],
     "homeLineup":[
       "west,cailynn",
@@ -26828,8 +26828,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"love,lovie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"earl,brittnei",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -27503,7 +27503,7 @@
       "goatley,jane",
       "hartlage,maggie",
       "benham,chelsea",
-      null
+      "mire,jenna"
     ],
     "timeSeconds":427,
     "Poss":"centre",
@@ -27525,13 +27525,13 @@
     "homePlayer2":"goatley,jane",
     "homePlayer3":"hartlage,maggie",
     "homePlayer4":"benham,chelsea",
-    "homePlayer5":null,
+    "homePlayer5":"mire,jenna",
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"love,lovie",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -27580,7 +27580,7 @@
       "baechle,paige",
       "goatley,jane",
       "hartlage,maggie",
-      null,
+      "benham,chelsea",
       null
     ],
     "timeSeconds":427,
@@ -27602,7 +27602,7 @@
     "homePlayer1":"baechle,paige",
     "homePlayer2":"goatley,jane",
     "homePlayer3":"hartlage,maggie",
-    "homePlayer4":null,
+    "homePlayer4":"benham,chelsea",
     "homePlayer5":null,
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
@@ -27659,7 +27659,7 @@
       "goatley,jane",
       "hartlage,maggie",
       "prewitt,maggie",
-      null
+      "mire,jenna"
     ],
     "timeSeconds":427,
     "Poss":"centre",
@@ -27681,13 +27681,13 @@
     "homePlayer2":"goatley,jane",
     "homePlayer3":"hartlage,maggie",
     "homePlayer4":"prewitt,maggie",
-    "homePlayer5":null,
+    "homePlayer5":"mire,jenna",
     "awayPlayer1":"sigafoose,elizabeth",
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"white,shatoya",
     "awayPlayer4":"love,lovie",
     "awayPlayer5":"okeke,janice",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -28510,7 +28510,7 @@
       "morton,shante",
       "love,lovie",
       "okeke,janice",
-      null
+      "white,shatoya"
     ],
     "homeLineup":[
       "baechle,paige",
@@ -28544,8 +28544,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"okeke,janice",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"white,shatoya",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -29290,7 +29290,7 @@
       "morton,shante",
       "love,lovie",
       "perez,samantha",
-      null
+      "okeke,janice"
     ],
     "homeLineup":[
       "baechle,paige",
@@ -29324,8 +29324,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"perez,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"okeke,janice",
+    "playerMissing":0
   },
   {
     "gameID":"2301",
@@ -29914,7 +29914,7 @@
       "morton,shante",
       "love,lovie",
       "earl,brittnei",
-      null
+      "perez,samantha"
     ],
     "homeLineup":[
       "baechle,paige",
@@ -29948,8 +29948,8 @@
     "awayPlayer2":"morton,shante",
     "awayPlayer3":"love,lovie",
     "awayPlayer4":"earl,brittnei",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,samantha",
+    "playerMissing":0
   },
   {
     "gameID":"2301",

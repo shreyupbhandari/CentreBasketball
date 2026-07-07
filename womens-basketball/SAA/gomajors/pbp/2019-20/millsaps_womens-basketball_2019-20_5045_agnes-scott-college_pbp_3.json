@@ -1912,7 +1912,7 @@
       "king,briasha",
       "rayford,andrea",
       "wilson,anna",
-      null
+      "manning,taelor"
     ],
     "homeLineup":[
       "olson,emma",
@@ -1946,8 +1946,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"wilson,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manning,taelor",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -1989,7 +1989,7 @@
       "fortenberry,dia",
       "rayford,andrea",
       "wilson,anna",
-      null,
+      "king,briasha",
       null
     ],
     "homeLineup":[
@@ -2023,7 +2023,7 @@
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"wilson,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"king,briasha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2062,6 +2062,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"fortenberry,dia",
+    "pointsEarned":"",
+    "awayLineup":[
+      "rayford,andrea",
+      "wilson,anna",
+      "fortenberry,dia",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "lane,kamiyla",
+      "sweat,shay",
+      "weimerskirch,anna",
+      "smith,kalin"
+    ],
+    "timeSeconds":379,
+    "Poss":"agnes scott",
+    "possNum":13,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":15,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"lane,kamiyla",
+    "homePlayer3":"sweat,shay",
+    "homePlayer4":"weimerskirch,anna",
+    "homePlayer5":"smith,kalin",
+    "awayPlayer1":"rayford,andrea",
+    "awayPlayer2":"wilson,anna",
+    "awayPlayer3":"fortenberry,dia",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"06:19",
+    "awayPlay":"SUB OUT by WILSON,ANNA",
+    "awayTeamScore":"2 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"1",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WILSON,ANNA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"wilson,anna",
     "pointsEarned":"",
     "awayLineup":[
       "rayford,andrea",
@@ -2127,84 +2205,6 @@
     "attendance":"33",
     "isNeutral":"False",
     "timeRemaining":"06:19",
-    "awayPlay":"SUB OUT by WILSON,ANNA",
-    "awayTeamScore":"2 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"1",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "rayford,andrea",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "lane,kamiyla",
-      "sweat,shay",
-      "weimerskirch,anna",
-      "smith,kalin"
-    ],
-    "timeSeconds":379,
-    "Poss":"agnes scott",
-    "possNum":13,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":15,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"lane,kamiyla",
-    "homePlayer3":"sweat,shay",
-    "homePlayer4":"weimerskirch,anna",
-    "homePlayer5":"smith,kalin",
-    "awayPlayer1":"rayford,andrea",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"06:19",
     "awayPlay":"SUB IN by SIMS,EMILY",
     "awayTeamScore":"2 ",
     "playTeamIndicator":"",
@@ -2222,7 +2222,7 @@
     "awayLineup":[
       "rayford,andrea",
       "sims,emily",
-      null,
+      "totals",
       null,
       null
     ],
@@ -2256,7 +2256,7 @@
     "homePlayer5":"smith,kalin",
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -2301,7 +2301,7 @@
       "rayford,andrea",
       "sims,emily",
       "donaldson,megan",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -2335,7 +2335,7 @@
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"donaldson,megan",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2380,7 +2380,7 @@
       "sims,emily",
       "donaldson,megan",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -2414,8 +2414,8 @@
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -3011,7 +3011,7 @@
       "lane,kamiyla",
       "sweat,shay",
       "weimerskirch,anna",
-      null
+      "smith,kalin"
     ],
     "timeSeconds":310,
     "Poss":"agnes scott",
@@ -3033,13 +3033,13 @@
     "homePlayer2":"lane,kamiyla",
     "homePlayer3":"sweat,shay",
     "homePlayer4":"weimerskirch,anna",
-    "homePlayer5":null,
+    "homePlayer5":"smith,kalin",
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -3088,7 +3088,7 @@
       "olson,emma",
       "sweat,shay",
       "weimerskirch,anna",
-      null,
+      "lane,kamiyla",
       null
     ],
     "timeSeconds":310,
@@ -3110,7 +3110,7 @@
     "homePlayer1":"olson,emma",
     "homePlayer2":"sweat,shay",
     "homePlayer3":"weimerskirch,anna",
-    "homePlayer4":null,
+    "homePlayer4":"lane,kamiyla",
     "homePlayer5":null,
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
@@ -3167,7 +3167,7 @@
       "sweat,shay",
       "weimerskirch,anna",
       "perry,chloe",
-      null
+      "totals"
     ],
     "timeSeconds":310,
     "Poss":"agnes scott",
@@ -3189,13 +3189,13 @@
     "homePlayer2":"sweat,shay",
     "homePlayer3":"weimerskirch,anna",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -3713,7 +3713,7 @@
       "weimerskirch,anna",
       "perry,chloe",
       "galoia,musumaulai",
-      null
+      "sweat,shay"
     ],
     "timeSeconds":266,
     "Poss":"millsaps",
@@ -3735,13 +3735,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"perry,chloe",
     "homePlayer4":"galoia,musumaulai",
-    "homePlayer5":null,
+    "homePlayer5":"sweat,shay",
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -4720,7 +4720,7 @@
       "donaldson,megan",
       "lartigue,elecia",
       "laster,mikenzi",
-      null
+      "sims,emily"
     ],
     "homeLineup":[
       "olson,emma",
@@ -4754,8 +4754,8 @@
     "awayPlayer2":"donaldson,megan",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"laster,mikenzi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sims,emily",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -4797,7 +4797,7 @@
       "rayford,andrea",
       "lartigue,elecia",
       "laster,mikenzi",
-      null,
+      "donaldson,megan",
       null
     ],
     "homeLineup":[
@@ -4831,7 +4831,7 @@
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"lartigue,elecia",
     "awayPlayer3":"laster,mikenzi",
-    "awayPlayer4":null,
+    "awayPlayer4":"donaldson,megan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4870,6 +4870,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"rayford,andrea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "lartigue,elecia",
+      "laster,mikenzi",
+      "rayford,andrea",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "weimerskirch,anna",
+      "perry,chloe",
+      "galoia,musumaulai",
+      "smith,kalin"
+    ],
+    "timeSeconds":172,
+    "Poss":"millsaps",
+    "possNum":20,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"agnes scott",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":26,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"weimerskirch,anna",
+    "homePlayer3":"perry,chloe",
+    "homePlayer4":"galoia,musumaulai",
+    "homePlayer5":"smith,kalin",
+    "awayPlayer1":"lartigue,elecia",
+    "awayPlayer2":"laster,mikenzi",
+    "awayPlayer3":"rayford,andrea",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"02:52",
+    "awayPlay":"SUB OUT by LASTER,MIKENZI",
+    "awayTeamScore":"4 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"3",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LASTER,MIKENZI",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"laster,mikenzi",
     "pointsEarned":"",
     "awayLineup":[
       "lartigue,elecia",
@@ -4935,84 +5013,6 @@
     "attendance":"33",
     "isNeutral":"False",
     "timeRemaining":"02:52",
-    "awayPlay":"SUB OUT by LASTER,MIKENZI",
-    "awayTeamScore":"4 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"3",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LASTER,MIKENZI",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"laster,mikenzi",
-    "pointsEarned":"",
-    "awayLineup":[
-      "lartigue,elecia",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "weimerskirch,anna",
-      "perry,chloe",
-      "galoia,musumaulai",
-      "smith,kalin"
-    ],
-    "timeSeconds":172,
-    "Poss":"millsaps",
-    "possNum":20,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"agnes scott",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":26,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"weimerskirch,anna",
-    "homePlayer3":"perry,chloe",
-    "homePlayer4":"galoia,musumaulai",
-    "homePlayer5":"smith,kalin",
-    "awayPlayer1":"lartigue,elecia",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"02:52",
     "awayPlay":"SUB IN by MANNING,TAELOR",
     "awayTeamScore":"4 ",
     "playTeamIndicator":"",
@@ -5030,7 +5030,7 @@
     "awayLineup":[
       "lartigue,elecia",
       "manning,taelor",
-      null,
+      "totals",
       null,
       null
     ],
@@ -5064,7 +5064,7 @@
     "homePlayer5":"smith,kalin",
     "awayPlayer1":"lartigue,elecia",
     "awayPlayer2":"manning,taelor",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -5109,7 +5109,7 @@
       "lartigue,elecia",
       "manning,taelor",
       "king,briasha",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -5143,7 +5143,7 @@
     "awayPlayer1":"lartigue,elecia",
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"king,briasha",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5188,7 +5188,7 @@
       "manning,taelor",
       "king,briasha",
       "fortenberry,dia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -5222,8 +5222,8 @@
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"fortenberry,dia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -6365,7 +6365,7 @@
       "weimerskirch,anna",
       "galoia,musumaulai",
       "smith,kalin",
-      null
+      "perry,chloe"
     ],
     "timeSeconds":121,
     "Poss":"millsaps",
@@ -6387,13 +6387,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"galoia,musumaulai",
     "homePlayer4":"smith,kalin",
-    "homePlayer5":null,
+    "homePlayer5":"perry,chloe",
     "awayPlayer1":"lartigue,elecia",
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"wilson,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -6911,7 +6911,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "sweat,shay",
-      null
+      "galoia,musumaulai"
     ],
     "timeSeconds":84,
     "Poss":"agnes scott",
@@ -6933,13 +6933,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"sweat,shay",
-    "homePlayer5":null,
+    "homePlayer5":"galoia,musumaulai",
     "awayPlayer1":"lartigue,elecia",
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"wilson,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -7294,7 +7294,7 @@
       "king,briasha",
       "fortenberry,dia",
       "wilson,anna",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "olson,emma",
@@ -7328,8 +7328,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"wilson,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -8698,6 +8698,84 @@
       "king,briasha",
       "fortenberry,dia",
       "wilson,anna",
+      "donaldson,megan"
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "weimerskirch,anna",
+      "smith,kalin",
+      "sweat,shay",
+      "lane,kamiyla"
+    ],
+    "timeSeconds":545,
+    "Poss":"agnes scott",
+    "possNum":29,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":39,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"weimerskirch,anna",
+    "homePlayer3":"smith,kalin",
+    "homePlayer4":"sweat,shay",
+    "homePlayer5":"lane,kamiyla",
+    "awayPlayer1":"manning,taelor",
+    "awayPlayer2":"king,briasha",
+    "awayPlayer3":"fortenberry,dia",
+    "awayPlayer4":"wilson,anna",
+    "awayPlayer5":"donaldson,megan",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"09:05",
+    "awayPlay":"SUB OUT by WILSON,ANNA",
+    "awayTeamScore":"7 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"3",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WILSON,ANNA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"wilson,anna",
+    "pointsEarned":"",
+    "awayLineup":[
+      "manning,taelor",
+      "king,briasha",
+      "fortenberry,dia",
+      "wilson,anna",
       null
     ],
     "homeLineup":[
@@ -8757,84 +8835,6 @@
     "attendance":"33",
     "isNeutral":"False",
     "timeRemaining":"09:05",
-    "awayPlay":"SUB OUT by WILSON,ANNA",
-    "awayTeamScore":"7 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"3",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "manning,taelor",
-      "king,briasha",
-      "fortenberry,dia",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "weimerskirch,anna",
-      "smith,kalin",
-      "sweat,shay",
-      "lane,kamiyla"
-    ],
-    "timeSeconds":545,
-    "Poss":"agnes scott",
-    "possNum":29,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":39,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"weimerskirch,anna",
-    "homePlayer3":"smith,kalin",
-    "homePlayer4":"sweat,shay",
-    "homePlayer5":"lane,kamiyla",
-    "awayPlayer1":"manning,taelor",
-    "awayPlayer2":"king,briasha",
-    "awayPlayer3":"fortenberry,dia",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"09:05",
     "awayPlay":"SUB IN by LARTIGUE,ELECIA",
     "awayTeamScore":"7 ",
     "playTeamIndicator":"",
@@ -8854,7 +8854,7 @@
       "king,briasha",
       "fortenberry,dia",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -8888,8 +8888,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -11740,7 +11740,7 @@
       "fortenberry,dia",
       "lartigue,elecia",
       "rayford,andrea",
-      null
+      "manning,taelor"
     ],
     "homeLineup":[
       "olson,emma",
@@ -11774,8 +11774,8 @@
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manning,taelor",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -12208,7 +12208,7 @@
       "lartigue,elecia",
       "rayford,andrea",
       "donaldson,megan",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "olson,emma",
@@ -12242,8 +12242,8 @@
     "awayPlayer2":"lartigue,elecia",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"donaldson,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -12520,7 +12520,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "manning,taelor",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "olson,emma",
@@ -12554,8 +12554,8 @@
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"manning,taelor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -12839,7 +12839,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "sweat,shay",
-      null
+      "lane,kamiyla"
     ],
     "timeSeconds":245,
     "Poss":"millsaps",
@@ -12861,13 +12861,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"sweat,shay",
-    "homePlayer5":null,
+    "homePlayer5":"lane,kamiyla",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"manning,taelor",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -13931,7 +13931,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "sweat,shay",
-      null
+      "galoia,musumaulai"
     ],
     "timeSeconds":128,
     "Poss":"agnes scott",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"sweat,shay",
-    "homePlayer5":null,
+    "homePlayer5":"galoia,musumaulai",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"manning,taelor",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -14080,6 +14080,84 @@
       "donaldson,megan",
       "manning,taelor",
       "laster,mikenzi",
+      "king,briasha"
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "weimerskirch,anna",
+      "smith,kalin",
+      "sweat,shay",
+      "lane,kamiyla"
+    ],
+    "timeSeconds":128,
+    "Poss":"agnes scott",
+    "possNum":43,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":63,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"weimerskirch,anna",
+    "homePlayer3":"smith,kalin",
+    "homePlayer4":"sweat,shay",
+    "homePlayer5":"lane,kamiyla",
+    "awayPlayer1":"rayford,andrea",
+    "awayPlayer2":"donaldson,megan",
+    "awayPlayer3":"manning,taelor",
+    "awayPlayer4":"laster,mikenzi",
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"02:08",
+    "awayPlay":"SUB OUT by LASTER,MIKENZI",
+    "awayTeamScore":"17 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"8",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LASTER,MIKENZI",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"laster,mikenzi",
+    "pointsEarned":"",
+    "awayLineup":[
+      "rayford,andrea",
+      "donaldson,megan",
+      "manning,taelor",
+      "laster,mikenzi",
       null
     ],
     "homeLineup":[
@@ -14139,84 +14217,6 @@
     "attendance":"33",
     "isNeutral":"False",
     "timeRemaining":"02:08",
-    "awayPlay":"SUB OUT by LASTER,MIKENZI",
-    "awayTeamScore":"17 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"8",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LASTER,MIKENZI",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"laster,mikenzi",
-    "pointsEarned":"",
-    "awayLineup":[
-      "rayford,andrea",
-      "donaldson,megan",
-      "manning,taelor",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "weimerskirch,anna",
-      "smith,kalin",
-      "sweat,shay",
-      "lane,kamiyla"
-    ],
-    "timeSeconds":128,
-    "Poss":"agnes scott",
-    "possNum":43,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":63,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"weimerskirch,anna",
-    "homePlayer3":"smith,kalin",
-    "homePlayer4":"sweat,shay",
-    "homePlayer5":"lane,kamiyla",
-    "awayPlayer1":"rayford,andrea",
-    "awayPlayer2":"donaldson,megan",
-    "awayPlayer3":"manning,taelor",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"02:08",
     "awayPlay":"SUB IN by SIMS,EMILY",
     "awayTeamScore":"17 ",
     "playTeamIndicator":"",
@@ -14236,7 +14236,7 @@
       "donaldson,megan",
       "manning,taelor",
       "sims,emily",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -14270,8 +14270,8 @@
     "awayPlayer2":"donaldson,megan",
     "awayPlayer3":"manning,taelor",
     "awayPlayer4":"sims,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -15718,7 +15718,7 @@
       "manning,taelor",
       "sims,emily",
       "lartigue,elecia",
-      null
+      "donaldson,megan"
     ],
     "homeLineup":[
       "olson,emma",
@@ -15752,8 +15752,8 @@
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"sims,emily",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donaldson,megan",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -16186,7 +16186,7 @@
       "manning,taelor",
       "lartigue,elecia",
       "fortenberry,dia",
-      null
+      "sims,emily"
     ],
     "homeLineup":[
       "olson,emma",
@@ -16220,8 +16220,8 @@
     "awayPlayer2":"manning,taelor",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"fortenberry,dia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sims,emily",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -16576,7 +16576,7 @@
       "lartigue,elecia",
       "fortenberry,dia",
       "donaldson,megan",
-      null
+      "manning,taelor"
     ],
     "homeLineup":[
       "olson,emma",
@@ -16610,8 +16610,8 @@
     "awayPlayer2":"lartigue,elecia",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"donaldson,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manning,taelor",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -16888,7 +16888,7 @@
       "lartigue,elecia",
       "fortenberry,dia",
       "king,briasha",
-      null
+      "donaldson,megan"
     ],
     "homeLineup":[
       "olson,emma",
@@ -16922,8 +16922,8 @@
     "awayPlayer2":"lartigue,elecia",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"king,briasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donaldson,megan",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -16965,7 +16965,7 @@
       "rayford,andrea",
       "fortenberry,dia",
       "king,briasha",
-      null,
+      "lartigue,elecia",
       null
     ],
     "homeLineup":[
@@ -16999,7 +16999,7 @@
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"king,briasha",
-    "awayPlayer4":null,
+    "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17044,7 +17044,7 @@
       "fortenberry,dia",
       "king,briasha",
       "manning,taelor",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -17078,8 +17078,8 @@
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"manning,taelor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -19469,7 +19469,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "lane,kamiyla",
-      null
+      "sweat,shay"
     ],
     "timeSeconds":390,
     "Poss":"agnes scott",
@@ -19491,13 +19491,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"lane,kamiyla",
-    "homePlayer5":null,
+    "homePlayer5":"sweat,shay",
     "awayPlayer1":"rayford,andrea",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"manning,taelor",
     "awayPlayer5":"wilson,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -19618,7 +19618,7 @@
       "fortenberry,dia",
       "king,briasha",
       "wilson,anna",
-      null
+      "manning,taelor"
     ],
     "homeLineup":[
       "olson,emma",
@@ -19652,8 +19652,8 @@
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"wilson,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manning,taelor",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -19690,6 +19690,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"rayford,andrea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "fortenberry,dia",
+      "king,briasha",
+      "wilson,anna",
+      "rayford,andrea",
+      null
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "weimerskirch,anna",
+      "smith,kalin",
+      "lane,kamiyla",
+      "perry,chloe"
+    ],
+    "timeSeconds":385,
+    "Poss":"agnes scott",
+    "possNum":51,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":79,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"weimerskirch,anna",
+    "homePlayer3":"smith,kalin",
+    "homePlayer4":"lane,kamiyla",
+    "homePlayer5":"perry,chloe",
+    "awayPlayer1":"fortenberry,dia",
+    "awayPlayer2":"king,briasha",
+    "awayPlayer3":"wilson,anna",
+    "awayPlayer4":"rayford,andrea",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"06:25",
+    "awayPlay":"SUB OUT by WILSON,ANNA",
+    "awayTeamScore":"30 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WILSON,ANNA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"wilson,anna",
     "pointsEarned":"",
     "awayLineup":[
       "fortenberry,dia",
@@ -19755,84 +19833,6 @@
     "attendance":"33",
     "isNeutral":"False",
     "timeRemaining":"06:25",
-    "awayPlay":"SUB OUT by WILSON,ANNA",
-    "awayTeamScore":"30 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "fortenberry,dia",
-      "king,briasha",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "weimerskirch,anna",
-      "smith,kalin",
-      "lane,kamiyla",
-      "perry,chloe"
-    ],
-    "timeSeconds":385,
-    "Poss":"agnes scott",
-    "possNum":51,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":79,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"weimerskirch,anna",
-    "homePlayer3":"smith,kalin",
-    "homePlayer4":"lane,kamiyla",
-    "homePlayer5":"perry,chloe",
-    "awayPlayer1":"fortenberry,dia",
-    "awayPlayer2":"king,briasha",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"06:25",
     "awayPlay":"SUB IN by DONALDSON,MEGAN",
     "awayTeamScore":"30 ",
     "playTeamIndicator":"",
@@ -19851,7 +19851,7 @@
       "fortenberry,dia",
       "king,briasha",
       "donaldson,megan",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -19885,7 +19885,7 @@
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"donaldson,megan",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19930,7 +19930,7 @@
       "king,briasha",
       "donaldson,megan",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -19964,8 +19964,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -20327,7 +20327,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "perry,chloe",
-      null
+      "lane,kamiyla"
     ],
     "timeSeconds":366,
     "Poss":"millsaps",
@@ -20349,13 +20349,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"lane,kamiyla",
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -22121,7 +22121,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "perry,chloe",
-      null
+      "galoia,musumaulai"
     ],
     "timeSeconds":204,
     "Poss":"agnes scott",
@@ -22143,13 +22143,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"galoia,musumaulai",
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"donaldson,megan",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -22270,7 +22270,7 @@
       "donaldson,megan",
       "lartigue,elecia",
       "laster,mikenzi",
-      null
+      "king,briasha"
     ],
     "homeLineup":[
       "olson,emma",
@@ -22304,8 +22304,8 @@
     "awayPlayer2":"donaldson,megan",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"laster,mikenzi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -22823,6 +22823,84 @@
       "weimerskirch,anna",
       "smith,kalin",
       "lane,kamiyla",
+      "perry,chloe"
+    ],
+    "timeSeconds":113,
+    "Poss":"agnes scott",
+    "possNum":55,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":91,
+    "teamChanged":0,
+    "game":"Agnes ScottMillsaps11\/16\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"olson,emma",
+    "homePlayer2":"weimerskirch,anna",
+    "homePlayer3":"smith,kalin",
+    "homePlayer4":"lane,kamiyla",
+    "homePlayer5":"perry,chloe",
+    "awayPlayer1":"fortenberry,dia",
+    "awayPlayer2":"donaldson,megan",
+    "awayPlayer3":"lartigue,elecia",
+    "awayPlayer4":"laster,mikenzi",
+    "awayPlayer5":"sims,emily",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5045",
+    "homeTeam":"Agnes Scott",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"61-28",
+    "homeScoreByPeriod":"3,5,6,14,28",
+    "awayScoreByPeriod":"7,15,24,15,61",
+    "homeRecord":"0-4",
+    "awayRecord":"2-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/16\/19",
+    "startTime":"4:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"33",
+    "isNeutral":"False",
+    "timeRemaining":"01:53",
+    "awayPlay":"",
+    "awayTeamScore":"41 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11",
+    "homePlay":"SUB OUT by LANE,KAMIYLA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LANE,KAMIYLA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"agnes scott",
+    "Player":"lane,kamiyla",
+    "pointsEarned":"",
+    "awayLineup":[
+      "fortenberry,dia",
+      "donaldson,megan",
+      "lartigue,elecia",
+      "laster,mikenzi",
+      "sims,emily"
+    ],
+    "homeLineup":[
+      "olson,emma",
+      "weimerskirch,anna",
+      "smith,kalin",
+      "lane,kamiyla",
       null
     ],
     "timeSeconds":113,
@@ -22879,84 +22957,6 @@
     "awayTeamScore":"41 ",
     "playTeamIndicator":"",
     "homeTeamScore":"11",
-    "homePlay":"SUB OUT by LANE,KAMIYLA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LANE,KAMIYLA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"agnes scott",
-    "Player":"lane,kamiyla",
-    "pointsEarned":"",
-    "awayLineup":[
-      "fortenberry,dia",
-      "donaldson,megan",
-      "lartigue,elecia",
-      "laster,mikenzi",
-      "sims,emily"
-    ],
-    "homeLineup":[
-      "olson,emma",
-      "weimerskirch,anna",
-      "smith,kalin",
-      null,
-      null
-    ],
-    "timeSeconds":113,
-    "Poss":"agnes scott",
-    "possNum":55,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":91,
-    "teamChanged":0,
-    "game":"Agnes ScottMillsaps11\/16\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"olson,emma",
-    "homePlayer2":"weimerskirch,anna",
-    "homePlayer3":"smith,kalin",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"fortenberry,dia",
-    "awayPlayer2":"donaldson,megan",
-    "awayPlayer3":"lartigue,elecia",
-    "awayPlayer4":"laster,mikenzi",
-    "awayPlayer5":"sims,emily",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5045",
-    "homeTeam":"Agnes Scott",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"61-28",
-    "homeScoreByPeriod":"3,5,6,14,28",
-    "awayScoreByPeriod":"7,15,24,15,61",
-    "homeRecord":"0-4",
-    "awayRecord":"2-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/16\/19",
-    "startTime":"4:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"33",
-    "isNeutral":"False",
-    "timeRemaining":"01:53",
-    "awayPlay":"",
-    "awayTeamScore":"41 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11",
     "homePlay":"SUB IN by SWEAT,SHAY",
     "gameScore":"",
     "teamIndicator":"",
@@ -22979,7 +22979,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "sweat,shay",
-      null
+      "totals"
     ],
     "timeSeconds":113,
     "Poss":"agnes scott",
@@ -23001,13 +23001,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"sweat,shay",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"donaldson,megan",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"laster,mikenzi",
     "awayPlayer5":"sims,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -24149,7 +24149,7 @@
       "weimerskirch,anna",
       "sweat,shay",
       "galoia,musumaulai",
-      null
+      "smith,kalin"
     ],
     "timeSeconds":64,
     "Poss":"millsaps",
@@ -24171,13 +24171,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"sweat,shay",
     "homePlayer4":"galoia,musumaulai",
-    "homePlayer5":null,
+    "homePlayer5":"smith,kalin",
     "awayPlayer1":"fortenberry,dia",
     "awayPlayer2":"donaldson,megan",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"laster,mikenzi",
     "awayPlayer5":"sims,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -24298,7 +24298,7 @@
       "lartigue,elecia",
       "laster,mikenzi",
       "sims,emily",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "olson,emma",
@@ -24332,8 +24332,8 @@
     "awayPlayer2":"lartigue,elecia",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"sims,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -24375,7 +24375,7 @@
       "donaldson,megan",
       "laster,mikenzi",
       "sims,emily",
-      null,
+      "lartigue,elecia",
       null
     ],
     "homeLineup":[
@@ -24409,7 +24409,7 @@
     "awayPlayer1":"donaldson,megan",
     "awayPlayer2":"laster,mikenzi",
     "awayPlayer3":"sims,emily",
-    "awayPlayer4":null,
+    "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24454,7 +24454,7 @@
       "laster,mikenzi",
       "sims,emily",
       "navarre,alyssa",
-      null
+      "totals"
     ],
     "homeLineup":[
       "olson,emma",
@@ -24488,8 +24488,8 @@
     "awayPlayer2":"laster,mikenzi",
     "awayPlayer3":"sims,emily",
     "awayPlayer4":"navarre,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -24929,7 +24929,7 @@
       "weimerskirch,anna",
       "galoia,musumaulai",
       "perry,chloe",
-      null
+      "sweat,shay"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -24951,13 +24951,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"galoia,musumaulai",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"sweat,shay",
     "awayPlayer1":"donaldson,megan",
     "awayPlayer2":"laster,mikenzi",
     "awayPlayer3":"sims,emily",
     "awayPlayer4":"navarre,alyssa",
     "awayPlayer5":"hawkins,beth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -25078,7 +25078,7 @@
       "sims,emily",
       "navarre,alyssa",
       "hawkins,beth",
-      null
+      "laster,mikenzi"
     ],
     "homeLineup":[
       "olson,emma",
@@ -25112,8 +25112,8 @@
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"navarre,alyssa",
     "awayPlayer4":"hawkins,beth",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"laster,mikenzi",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -26333,7 +26333,7 @@
       "weimerskirch,anna",
       "perry,chloe",
       "smith,kalin",
-      null
+      "galoia,musumaulai"
     ],
     "timeSeconds":469,
     "Poss":"millsaps",
@@ -26355,13 +26355,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"perry,chloe",
     "homePlayer4":"smith,kalin",
-    "homePlayer5":null,
+    "homePlayer5":"galoia,musumaulai",
     "awayPlayer1":"donaldson,megan",
     "awayPlayer2":"sims,emily",
     "awayPlayer3":"navarre,alyssa",
     "awayPlayer4":"hawkins,beth",
     "awayPlayer5":"hill,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -26482,7 +26482,7 @@
       "navarre,alyssa",
       "hawkins,beth",
       "hill,lauren",
-      null
+      "donaldson,megan"
     ],
     "homeLineup":[
       "olson,emma",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"navarre,alyssa",
     "awayPlayer3":"hawkins,beth",
     "awayPlayer4":"hill,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donaldson,megan",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -27340,7 +27340,7 @@
       "hawkins,beth",
       "hill,lauren",
       "bickmann,meagan",
-      null
+      "sims,emily"
     ],
     "homeLineup":[
       "olson,emma",
@@ -27374,8 +27374,8 @@
     "awayPlayer2":"hawkins,beth",
     "awayPlayer3":"hill,lauren",
     "awayPlayer4":"bickmann,meagan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sims,emily",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -27659,7 +27659,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "lane,kamiyla",
-      null
+      "perry,chloe"
     ],
     "timeSeconds":383,
     "Poss":"millsaps",
@@ -27681,13 +27681,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"lane,kamiyla",
-    "homePlayer5":null,
+    "homePlayer5":"perry,chloe",
     "awayPlayer1":"navarre,alyssa",
     "awayPlayer2":"hawkins,beth",
     "awayPlayer3":"hill,lauren",
     "awayPlayer4":"bickmann,meagan",
     "awayPlayer5":"parker,cyler",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -29290,7 +29290,7 @@
       "hill,lauren",
       "bickmann,meagan",
       "parker,cyler",
-      null
+      "hawkins,beth"
     ],
     "homeLineup":[
       "olson,emma",
@@ -29324,8 +29324,8 @@
     "awayPlayer2":"hill,lauren",
     "awayPlayer3":"bickmann,meagan",
     "awayPlayer4":"parker,cyler",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hawkins,beth",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -30226,7 +30226,7 @@
       "bickmann,meagan",
       "parker,cyler",
       "mccurdy,maddie grace",
-      null
+      "navarre,alyssa"
     ],
     "homeLineup":[
       "olson,emma",
@@ -30260,8 +30260,8 @@
     "awayPlayer2":"bickmann,meagan",
     "awayPlayer3":"parker,cyler",
     "awayPlayer4":"mccurdy,maddie grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"navarre,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -30935,7 +30935,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "lane,kamiyla",
-      null
+      "sweat,shay"
     ],
     "timeSeconds":134,
     "Poss":"agnes scott",
@@ -30957,13 +30957,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"lane,kamiyla",
-    "homePlayer5":null,
+    "homePlayer5":"sweat,shay",
     "awayPlayer1":"hill,lauren",
     "awayPlayer2":"bickmann,meagan",
     "awayPlayer3":"parker,cyler",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"hawkins,beth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -31012,7 +31012,7 @@
       "olson,emma",
       "weimerskirch,anna",
       "smith,kalin",
-      null,
+      "lane,kamiyla",
       null
     ],
     "timeSeconds":134,
@@ -31034,7 +31034,7 @@
     "homePlayer1":"olson,emma",
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
-    "homePlayer4":null,
+    "homePlayer4":"lane,kamiyla",
     "homePlayer5":null,
     "awayPlayer1":"hill,lauren",
     "awayPlayer2":"bickmann,meagan",
@@ -31091,7 +31091,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "perry,chloe",
-      null
+      "totals"
     ],
     "timeSeconds":134,
     "Poss":"agnes scott",
@@ -31113,13 +31113,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"hill,lauren",
     "awayPlayer2":"bickmann,meagan",
     "awayPlayer3":"parker,cyler",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"hawkins,beth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",
@@ -32027,7 +32027,7 @@
       "weimerskirch,anna",
       "smith,kalin",
       "perry,chloe",
-      null
+      "galoia,musumaulai"
     ],
     "timeSeconds":64,
     "Poss":"agnes scott",
@@ -32049,13 +32049,13 @@
     "homePlayer2":"weimerskirch,anna",
     "homePlayer3":"smith,kalin",
     "homePlayer4":"perry,chloe",
-    "homePlayer5":null,
+    "homePlayer5":"galoia,musumaulai",
     "awayPlayer1":"hill,lauren",
     "awayPlayer2":"bickmann,meagan",
     "awayPlayer3":"parker,cyler",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"hawkins,beth",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5045",

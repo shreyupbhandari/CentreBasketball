@@ -2699,7 +2699,7 @@
       "kramer,bailey",
       "young,allie",
       "giesen,sara",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":371,
     "Poss":"trinity (tx)",
@@ -2721,13 +2721,13 @@
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"young,allie",
     "homePlayer4":"giesen,sara",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"staley,allison",
     "awayPlayer5":"horn,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -2776,7 +2776,7 @@
       "ustick,jessie",
       "kramer,bailey",
       "giesen,sara",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":371,
@@ -2798,7 +2798,7 @@
     "homePlayer1":"ustick,jessie",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"giesen,sara",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
@@ -2855,7 +2855,7 @@
       "kramer,bailey",
       "giesen,sara",
       "summers,danielle",
-      null
+      "totals"
     ],
     "timeSeconds":371,
     "Poss":"trinity (tx)",
@@ -2877,13 +2877,13 @@
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"summers,danielle",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"staley,allison",
     "awayPlayer5":"horn,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -3947,7 +3947,7 @@
       "kramer,bailey",
       "giesen,sara",
       "foret,ashley",
-      null
+      "summers,danielle"
     ],
     "timeSeconds":314,
     "Poss":"trinity (tx)",
@@ -3969,13 +3969,13 @@
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"summers,danielle",
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"staley,allison",
     "awayPlayer5":"horn,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -4024,7 +4024,7 @@
       "kramer,bailey",
       "giesen,sara",
       "foret,ashley",
-      null,
+      "ustick,jessie",
       null
     ],
     "timeSeconds":314,
@@ -4046,7 +4046,7 @@
     "homePlayer1":"kramer,bailey",
     "homePlayer2":"giesen,sara",
     "homePlayer3":"foret,ashley",
-    "homePlayer4":null,
+    "homePlayer4":"ustick,jessie",
     "homePlayer5":null,
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
@@ -4090,6 +4090,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"giesen,sara",
+    "pointsEarned":"",
+    "awayLineup":[
+      "holguin,monica",
+      "hughes,mollie",
+      "holland,abby",
+      "staley,allison",
+      "horn,grace"
+    ],
+    "homeLineup":[
+      "kramer,bailey",
+      "foret,ashley",
+      "giesen,sara",
+      null,
+      null
+    ],
+    "timeSeconds":314,
+    "Poss":"trinity (tx)",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":20,
+    "teamChanged":0,
+    "game":"RhodesTrinity (TX)12\/04\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"kramer,bailey",
+    "homePlayer2":"foret,ashley",
+    "homePlayer3":"giesen,sara",
+    "homePlayer4":null,
+    "homePlayer5":null,
+    "awayPlayer1":"holguin,monica",
+    "awayPlayer2":"hughes,mollie",
+    "awayPlayer3":"holland,abby",
+    "awayPlayer4":"staley,allison",
+    "awayPlayer5":"horn,grace",
+    "playerMissing":1
+  },
+  {
+    "gameID":"4678",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Trinity (TX)",
+    "saaGame":"0",
+    "finalScore":"74-53",
+    "homeScoreByPeriod":"6,14,13,20,53",
+    "awayScoreByPeriod":"21,21,23,9,74",
+    "homeRecord":"1-5",
+    "awayRecord":"7-0",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/16",
+    "startTime":"11 a.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"117",
+    "isNeutral":"False",
+    "timeRemaining":"05:14",
+    "awayPlay":"",
+    "awayTeamScore":"17 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"4",
+    "homePlay":"SUB OUT by FORET,ASHLEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FORET,ASHLEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"foret,ashley",
     "pointsEarned":"",
     "awayLineup":[
       "holguin,monica",
@@ -4159,84 +4237,6 @@
     "awayTeamScore":"17 ",
     "playTeamIndicator":"",
     "homeTeamScore":"4",
-    "homePlay":"SUB OUT by FORET,ASHLEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FORET,ASHLEY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"foret,ashley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "holguin,monica",
-      "hughes,mollie",
-      "holland,abby",
-      "staley,allison",
-      "horn,grace"
-    ],
-    "homeLineup":[
-      "kramer,bailey",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":314,
-    "Poss":"trinity (tx)",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":20,
-    "teamChanged":0,
-    "game":"RhodesTrinity (TX)12\/04\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"kramer,bailey",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"holguin,monica",
-    "awayPlayer2":"hughes,mollie",
-    "awayPlayer3":"holland,abby",
-    "awayPlayer4":"staley,allison",
-    "awayPlayer5":"horn,grace",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4678",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Trinity (TX)",
-    "saaGame":"0",
-    "finalScore":"74-53",
-    "homeScoreByPeriod":"6,14,13,20,53",
-    "awayScoreByPeriod":"21,21,23,9,74",
-    "homeRecord":"1-5",
-    "awayRecord":"7-0",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/16",
-    "startTime":"11 a.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"117",
-    "isNeutral":"False",
-    "timeRemaining":"05:14",
-    "awayPlay":"",
-    "awayTeamScore":"17 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"4",
     "homePlay":"SUB IN by SMITH,BLAIRE",
     "gameScore":"",
     "teamIndicator":"",
@@ -4257,7 +4257,7 @@
     "homeLineup":[
       "kramer,bailey",
       "smith,blaire",
-      null,
+      "totals",
       null,
       null
     ],
@@ -4279,7 +4279,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"kramer,bailey",
     "homePlayer2":"smith,blaire",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"holguin,monica",
@@ -4336,7 +4336,7 @@
       "kramer,bailey",
       "smith,blaire",
       "overfield,kaelee",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":314,
@@ -4358,7 +4358,7 @@
     "homePlayer1":"kramer,bailey",
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
@@ -4415,7 +4415,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "parker,lakyia",
-      null
+      "totals"
     ],
     "timeSeconds":314,
     "Poss":"trinity (tx)",
@@ -4437,13 +4437,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"parker,lakyia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"holguin,monica",
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"staley,allison",
     "awayPlayer5":"horn,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -5812,7 +5812,7 @@
       "hughes,mollie",
       "staley,allison",
       "horn,grace",
-      null
+      "holland,abby"
     ],
     "homeLineup":[
       "kramer,bailey",
@@ -5846,8 +5846,8 @@
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"staley,allison",
     "awayPlayer4":"horn,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holland,abby",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -5889,7 +5889,7 @@
       "hughes,mollie",
       "staley,allison",
       "horn,grace",
-      null,
+      "holguin,monica",
       null
     ],
     "homeLineup":[
@@ -5923,7 +5923,7 @@
     "awayPlayer1":"hughes,mollie",
     "awayPlayer2":"staley,allison",
     "awayPlayer3":"horn,grace",
-    "awayPlayer4":null,
+    "awayPlayer4":"holguin,monica",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5966,7 +5966,7 @@
     "awayLineup":[
       "staley,allison",
       "horn,grace",
-      null,
+      "hughes,mollie",
       null,
       null
     ],
@@ -6000,7 +6000,7 @@
     "homePlayer5":"young,allie",
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"horn,grace",
-    "awayPlayer3":null,
+    "awayPlayer3":"hughes,mollie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6043,7 +6043,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "horn,grace",
-      null,
+      "staley,allison",
       null,
       null,
       null
@@ -6077,7 +6077,7 @@
     "homePlayer4":"parker,lakyia",
     "homePlayer5":"young,allie",
     "awayPlayer1":"horn,grace",
-    "awayPlayer2":null,
+    "awayPlayer2":"staley,allison",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -6121,7 +6121,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "horn,grace",
-      null,
+      "staley,allison",
       null,
       null,
       null
@@ -6131,7 +6131,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "young,allie",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":209,
     "Poss":"trinity (tx)",
@@ -6153,9 +6153,9 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"horn,grace",
-    "awayPlayer2":null,
+    "awayPlayer2":"staley,allison",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -6200,7 +6200,7 @@
     "awayLineup":[
       "horn,grace",
       "cready,jillian",
-      null,
+      "totals",
       null,
       null
     ],
@@ -6209,7 +6209,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "young,allie",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":209,
     "Poss":"trinity (tx)",
@@ -6231,10 +6231,10 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"horn,grace",
     "awayPlayer2":"cready,jillian",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6279,7 +6279,7 @@
       "horn,grace",
       "cready,jillian",
       "chavez,rachel",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -6287,7 +6287,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "young,allie",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":209,
     "Poss":"trinity (tx)",
@@ -6309,11 +6309,11 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"horn,grace",
     "awayPlayer2":"cready,jillian",
     "awayPlayer3":"chavez,rachel",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6358,14 +6358,14 @@
       "cready,jillian",
       "chavez,rachel",
       "weaver,micah",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kramer,bailey",
       "smith,blaire",
       "overfield,kaelee",
       "young,allie",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":209,
     "Poss":"trinity (tx)",
@@ -6387,13 +6387,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"horn,grace",
     "awayPlayer2":"cready,jillian",
     "awayPlayer3":"chavez,rachel",
     "awayPlayer4":"weaver,micah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -6443,7 +6443,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "young,allie",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":209,
     "Poss":"trinity (tx)",
@@ -6465,13 +6465,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"horn,grace",
     "awayPlayer2":"cready,jillian",
     "awayPlayer3":"chavez,rachel",
     "awayPlayer4":"weaver,micah",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -7223,7 +7223,7 @@
       "overfield,kaelee",
       "young,allie",
       "foret,ashley",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":142,
     "Poss":"rhodes",
@@ -7245,13 +7245,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"young,allie",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"horn,grace",
     "awayPlayer2":"cready,jillian",
     "awayPlayer3":"chavez,rachel",
     "awayPlayer4":"weaver,micah",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -7528,7 +7528,7 @@
       "chavez,rachel",
       "weaver,micah",
       "irvin,kate",
-      null
+      "horn,grace"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -7562,8 +7562,8 @@
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"horn,grace",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -8471,7 +8471,7 @@
       "overfield,kaelee",
       "foret,ashley",
       "ustick,jessie",
-      null
+      "young,allie"
     ],
     "timeSeconds":45,
     "Poss":"rhodes",
@@ -8493,13 +8493,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
     "awayPlayer5":"gordon,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -9329,7 +9329,7 @@
       "foret,ashley",
       "ustick,jessie",
       "kramer,bailey",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -9351,13 +9351,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
     "awayPlayer5":"gordon,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -9407,7 +9407,7 @@
       "foret,ashley",
       "ustick,jessie",
       "kramer,bailey",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -9429,13 +9429,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
     "awayPlayer5":"gordon,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -11669,7 +11669,7 @@
       "ustick,jessie",
       "kramer,bailey",
       "parker,lakyia",
-      null
+      "overfield,kaelee"
     ],
     "timeSeconds":429,
     "Poss":"trinity (tx)",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"parker,lakyia",
-    "homePlayer5":null,
+    "homePlayer5":"overfield,kaelee",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
     "awayPlayer5":"gordon,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -12371,7 +12371,7 @@
       "ustick,jessie",
       "parker,lakyia",
       "smith,blaire",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":390,
     "Poss":"trinity (tx)",
@@ -12393,13 +12393,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"parker,lakyia",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"irvin,kate",
     "awayPlayer5":"gordon,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -12449,7 +12449,7 @@
       "ustick,jessie",
       "parker,lakyia",
       "smith,blaire",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":390,
     "Poss":"trinity (tx)",
@@ -12471,13 +12471,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"parker,lakyia",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"chavez,rachel",
     "awayPlayer2":"weaver,micah",
     "awayPlayer3":"irvin,kate",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"reed,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -12995,7 +12995,7 @@
       "parker,lakyia",
       "smith,blaire",
       "young,allie",
-      null
+      "overfield,kaelee"
     ],
     "timeSeconds":379,
     "Poss":"trinity (tx)",
@@ -13017,13 +13017,13 @@
     "homePlayer2":"parker,lakyia",
     "homePlayer3":"smith,blaire",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"overfield,kaelee",
     "awayPlayer1":"chavez,rachel",
     "awayPlayer2":"weaver,micah",
     "awayPlayer3":"irvin,kate",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"reed,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -13073,7 +13073,7 @@
       "parker,lakyia",
       "smith,blaire",
       "young,allie",
-      null
+      "overfield,kaelee"
     ],
     "timeSeconds":379,
     "Poss":"trinity (tx)",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"parker,lakyia",
     "homePlayer3":"smith,blaire",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"overfield,kaelee",
     "awayPlayer1":"chavez,rachel",
     "awayPlayer2":"weaver,micah",
     "awayPlayer3":"irvin,kate",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"reed,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -15257,7 +15257,7 @@
       "smith,blaire",
       "young,allie",
       "overfield,kaelee",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":224,
     "Poss":"trinity (tx)",
@@ -15279,13 +15279,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"young,allie",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"weaver,micah",
     "awayPlayer2":"irvin,kate",
     "awayPlayer3":"gordon,rebecca",
     "awayPlayer4":"reed,emily",
     "awayPlayer5":"trabysh,victoria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -15335,7 +15335,7 @@
       "smith,blaire",
       "young,allie",
       "overfield,kaelee",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":224,
     "Poss":"trinity (tx)",
@@ -15357,13 +15357,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"young,allie",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"gordon,rebecca",
     "awayPlayer3":"reed,emily",
     "awayPlayer4":"trabysh,victoria",
     "awayPlayer5":"cready,jillian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -16037,7 +16037,7 @@
       "young,allie",
       "overfield,kaelee",
       "kramer,bailey",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":190,
     "Poss":"trinity (tx)",
@@ -16059,13 +16059,13 @@
     "homePlayer2":"young,allie",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"gordon,rebecca",
     "awayPlayer3":"reed,emily",
     "awayPlayer4":"trabysh,victoria",
     "awayPlayer5":"cready,jillian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -17278,7 +17278,7 @@
       "reed,emily",
       "trabysh,victoria",
       "cready,jillian",
-      null
+      "gordon,rebecca"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -17312,8 +17312,8 @@
     "awayPlayer2":"reed,emily",
     "awayPlayer3":"trabysh,victoria",
     "awayPlayer4":"cready,jillian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"gordon,rebecca",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -17350,6 +17350,84 @@
     "shotOutcome":"",
     "Team":"trinity (tx)",
     "Player":"trabysh,victoria",
+    "pointsEarned":"",
+    "awayLineup":[
+      "irvin,kate",
+      "reed,emily",
+      "cready,jillian",
+      "chavez,rachel",
+      null
+    ],
+    "homeLineup":[
+      "smith,blaire",
+      "young,allie",
+      "overfield,kaelee",
+      "kramer,bailey",
+      "summers,danielle"
+    ],
+    "timeSeconds":103,
+    "Poss":"trinity (tx)",
+    "possNum":28,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"trinity (tx)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":66,
+    "teamChanged":0,
+    "game":"RhodesTrinity (TX)12\/04\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"smith,blaire",
+    "homePlayer2":"young,allie",
+    "homePlayer3":"overfield,kaelee",
+    "homePlayer4":"kramer,bailey",
+    "homePlayer5":"summers,danielle",
+    "awayPlayer1":"irvin,kate",
+    "awayPlayer2":"reed,emily",
+    "awayPlayer3":"cready,jillian",
+    "awayPlayer4":"chavez,rachel",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"4678",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Trinity (TX)",
+    "saaGame":"0",
+    "finalScore":"74-53",
+    "homeScoreByPeriod":"6,14,13,20,53",
+    "awayScoreByPeriod":"21,21,23,9,74",
+    "homeRecord":"1-5",
+    "awayRecord":"7-0",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/16",
+    "startTime":"11 a.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"117",
+    "isNeutral":"False",
+    "timeRemaining":"01:43",
+    "awayPlay":"SUB OUT by CREADY,JILLIAN",
+    "awayTeamScore":"40 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"18",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CREADY,JILLIAN",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"trinity (tx)",
+    "Player":"cready,jillian",
     "pointsEarned":"",
     "awayLineup":[
       "irvin,kate",
@@ -17415,84 +17493,6 @@
     "attendance":"117",
     "isNeutral":"False",
     "timeRemaining":"01:43",
-    "awayPlay":"SUB OUT by CREADY,JILLIAN",
-    "awayTeamScore":"40 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"18",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CREADY,JILLIAN",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"trinity (tx)",
-    "Player":"cready,jillian",
-    "pointsEarned":"",
-    "awayLineup":[
-      "irvin,kate",
-      "reed,emily",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "smith,blaire",
-      "young,allie",
-      "overfield,kaelee",
-      "kramer,bailey",
-      "summers,danielle"
-    ],
-    "timeSeconds":103,
-    "Poss":"trinity (tx)",
-    "possNum":28,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"trinity (tx)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":66,
-    "teamChanged":0,
-    "game":"RhodesTrinity (TX)12\/04\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"smith,blaire",
-    "homePlayer2":"young,allie",
-    "homePlayer3":"overfield,kaelee",
-    "homePlayer4":"kramer,bailey",
-    "homePlayer5":"summers,danielle",
-    "awayPlayer1":"irvin,kate",
-    "awayPlayer2":"reed,emily",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"4678",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Trinity (TX)",
-    "saaGame":"0",
-    "finalScore":"74-53",
-    "homeScoreByPeriod":"6,14,13,20,53",
-    "awayScoreByPeriod":"21,21,23,9,74",
-    "homeRecord":"1-5",
-    "awayRecord":"7-0",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/16",
-    "startTime":"11 a.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"117",
-    "isNeutral":"False",
-    "timeRemaining":"01:43",
     "awayPlay":"SUB OUT by REED,EMILY",
     "awayTeamScore":"40 ",
     "playTeamIndicator":"",
@@ -17509,7 +17509,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "irvin,kate",
-      null,
+      "chavez,rachel",
       null,
       null,
       null
@@ -17543,7 +17543,7 @@
     "homePlayer4":"kramer,bailey",
     "homePlayer5":"summers,danielle",
     "awayPlayer1":"irvin,kate",
-    "awayPlayer2":null,
+    "awayPlayer2":"chavez,rachel",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17587,7 +17587,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "irvin,kate",
-      null,
+      "chavez,rachel",
       null,
       null,
       null
@@ -17597,7 +17597,7 @@
       "young,allie",
       "kramer,bailey",
       "summers,danielle",
-      null
+      "overfield,kaelee"
     ],
     "timeSeconds":103,
     "Poss":"trinity (tx)",
@@ -17619,9 +17619,9 @@
     "homePlayer2":"young,allie",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"summers,danielle",
-    "homePlayer5":null,
+    "homePlayer5":"overfield,kaelee",
     "awayPlayer1":"irvin,kate",
-    "awayPlayer2":null,
+    "awayPlayer2":"chavez,rachel",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17665,7 +17665,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "irvin,kate",
-      null,
+      "chavez,rachel",
       null,
       null,
       null
@@ -17674,7 +17674,7 @@
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -17696,10 +17696,10 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"irvin,kate",
-    "awayPlayer2":null,
+    "awayPlayer2":"chavez,rachel",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17744,7 +17744,7 @@
     "awayLineup":[
       "irvin,kate",
       "staley,allison",
-      null,
+      "chavez,rachel",
       null,
       null
     ],
@@ -17752,7 +17752,7 @@
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -17774,11 +17774,11 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"staley,allison",
-    "awayPlayer3":null,
+    "awayPlayer3":"chavez,rachel",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17823,14 +17823,14 @@
       "irvin,kate",
       "staley,allison",
       "holguin,monica",
-      null,
+      "chavez,rachel",
       null
     ],
     "homeLineup":[
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -17852,12 +17852,12 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"staley,allison",
     "awayPlayer3":"holguin,monica",
-    "awayPlayer4":null,
+    "awayPlayer4":"chavez,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17902,13 +17902,13 @@
       "staley,allison",
       "holguin,monica",
       "holland,abby",
-      null
+      "chavez,rachel"
     ],
     "homeLineup":[
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -17930,13 +17930,13 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"staley,allison",
     "awayPlayer3":"holguin,monica",
     "awayPlayer4":"holland,abby",
-    "awayPlayer5":null,
+    "awayPlayer5":"chavez,rachel",
     "playerMissing":1
   },
   {
@@ -17986,7 +17986,7 @@
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -18008,7 +18008,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"irvin,kate",
     "awayPlayer2":"staley,allison",
@@ -18064,7 +18064,7 @@
       "smith,blaire",
       "kramer,bailey",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":103,
@@ -18086,7 +18086,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"holguin,monica",
@@ -18143,7 +18143,7 @@
       "kramer,bailey",
       "summers,danielle",
       "ustick,jessie",
-      null
+      "totals"
     ],
     "timeSeconds":103,
     "Poss":"trinity (tx)",
@@ -18165,13 +18165,13 @@
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"holguin,monica",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"horn,grace",
     "awayPlayer5":"hughes,mollie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -18923,7 +18923,7 @@
       "summers,danielle",
       "ustick,jessie",
       "giesen,sara",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":37,
     "Poss":"trinity (tx)",
@@ -18945,13 +18945,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"giesen,sara",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"holguin,monica",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"horn,grace",
     "awayPlayer5":"hughes,mollie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -20951,7 +20951,7 @@
       "summers,danielle",
       "ustick,jessie",
       "muller,anna",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":485,
     "Poss":"rhodes",
@@ -20973,13 +20973,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"holguin,monica",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"horn,grace",
     "awayPlayer5":"hughes,mollie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -23128,7 +23128,7 @@
       "holguin,monica",
       "holland,abby",
       "hughes,mollie",
-      null
+      "horn,grace"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -23162,8 +23162,8 @@
     "awayPlayer2":"holguin,monica",
     "awayPlayer3":"holland,abby",
     "awayPlayer4":"hughes,mollie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"horn,grace",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -23205,7 +23205,7 @@
       "staley,allison",
       "holland,abby",
       "hughes,mollie",
-      null,
+      "chavez,rachel",
       null
     ],
     "homeLineup":[
@@ -23239,7 +23239,7 @@
     "awayPlayer1":"staley,allison",
     "awayPlayer2":"holland,abby",
     "awayPlayer3":"hughes,mollie",
-    "awayPlayer4":null,
+    "awayPlayer4":"chavez,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23282,7 +23282,7 @@
     "awayLineup":[
       "holland,abby",
       "hughes,mollie",
-      null,
+      "staley,allison",
       null,
       null
     ],
@@ -23316,7 +23316,7 @@
     "homePlayer5":"foret,ashley",
     "awayPlayer1":"holland,abby",
     "awayPlayer2":"hughes,mollie",
-    "awayPlayer3":null,
+    "awayPlayer3":"staley,allison",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -23360,7 +23360,7 @@
     "awayLineup":[
       "holland,abby",
       "hughes,mollie",
-      null,
+      "staley,allison",
       null,
       null
     ],
@@ -23394,7 +23394,7 @@
     "homePlayer5":"foret,ashley",
     "awayPlayer1":"holland,abby",
     "awayPlayer2":"hughes,mollie",
-    "awayPlayer3":null,
+    "awayPlayer3":"staley,allison",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -23439,7 +23439,7 @@
       "holland,abby",
       "hughes,mollie",
       "cready,jillian",
-      null,
+      "chavez,rachel",
       null
     ],
     "homeLineup":[
@@ -23473,7 +23473,7 @@
     "awayPlayer1":"holland,abby",
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"cready,jillian",
-    "awayPlayer4":null,
+    "awayPlayer4":"chavez,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23518,7 +23518,7 @@
       "hughes,mollie",
       "cready,jillian",
       "chavez,rachel",
-      null
+      "irvin,kate"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -23552,8 +23552,8 @@
     "awayPlayer2":"hughes,mollie",
     "awayPlayer3":"cready,jillian",
     "awayPlayer4":"chavez,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"irvin,kate",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -27815,7 +27815,7 @@
       "muller,anna",
       "foret,ashley",
       "overfield,kaelee",
-      null
+      "parker,lakyia"
     ],
     "timeSeconds":97,
     "Poss":"trinity (tx)",
@@ -27837,13 +27837,13 @@
     "homePlayer2":"muller,anna",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"parker,lakyia",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -27892,7 +27892,7 @@
       "ustick,jessie",
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "foret,ashley",
       null
     ],
     "timeSeconds":97,
@@ -27914,7 +27914,7 @@
     "homePlayer1":"ustick,jessie",
     "homePlayer2":"muller,anna",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"foret,ashley",
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
@@ -27969,7 +27969,7 @@
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "ustick,jessie",
       null,
       null
     ],
@@ -27991,7 +27991,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"ustick,jessie",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
@@ -28048,7 +28048,7 @@
       "muller,anna",
       "overfield,kaelee",
       "summers,danielle",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":97,
@@ -28070,7 +28070,7 @@
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
@@ -28127,7 +28127,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "totals"
     ],
     "timeSeconds":97,
     "Poss":"trinity (tx)",
@@ -28149,13 +28149,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30155,7 +30155,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30177,13 +30177,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30233,7 +30233,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30255,13 +30255,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30311,7 +30311,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30333,13 +30333,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30389,7 +30389,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30411,13 +30411,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30467,7 +30467,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30489,13 +30489,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -30545,7 +30545,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "smith,blaire",
-      null
+      "young,allie"
     ],
     "timeSeconds":600,
     "Poss":"trinity (tx)",
@@ -30567,13 +30567,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"weaver,micah",
     "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":"irvin,kate",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -32722,7 +32722,7 @@
       "chavez,rachel",
       "gordon,rebecca",
       "irvin,kate",
-      null
+      "weaver,micah"
     ],
     "homeLineup":[
       "muller,anna",
@@ -32756,8 +32756,8 @@
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"gordon,rebecca",
     "awayPlayer4":"irvin,kate",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"weaver,micah",
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -32799,7 +32799,7 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
@@ -32833,7 +32833,7 @@
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32877,7 +32877,7 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
@@ -32885,7 +32885,7 @@
       "overfield,kaelee",
       "summers,danielle",
       "muhammad,moriah",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":413,
     "Poss":"trinity (tx)",
@@ -32907,11 +32907,11 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"muhammad,moriah",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32955,14 +32955,14 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
       "summers,danielle",
-      null,
+      "muhammad,moriah",
       null
     ],
     "timeSeconds":413,
@@ -32984,12 +32984,12 @@
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"muhammad,moriah",
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33033,14 +33033,14 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
       "summers,danielle",
-      null,
+      "muhammad,moriah",
       null
     ],
     "timeSeconds":413,
@@ -33062,12 +33062,12 @@
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"muhammad,moriah",
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33111,13 +33111,13 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "summers,danielle",
       null,
       null
     ],
@@ -33139,13 +33139,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"summers,danielle",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33189,13 +33189,13 @@
       "cready,jillian",
       "chavez,rachel",
       "irvin,kate",
-      null,
+      "gordon,rebecca",
       null
     ],
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "summers,danielle",
       null,
       null
     ],
@@ -33217,13 +33217,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"summers,danielle",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
-    "awayPlayer4":null,
+    "awayPlayer4":"gordon,rebecca",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33268,12 +33268,12 @@
       "chavez,rachel",
       "irvin,kate",
       "trabysh,victoria",
-      null
+      "totals"
     ],
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "summers,danielle",
       null,
       null
     ],
@@ -33295,14 +33295,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"summers,danielle",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
     "awayPlayer4":"trabysh,victoria",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -33351,7 +33351,7 @@
     "homeLineup":[
       "muller,anna",
       "overfield,kaelee",
-      null,
+      "summers,danielle",
       null,
       null
     ],
@@ -33373,7 +33373,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"summers,danielle",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
@@ -33430,7 +33430,7 @@
       "muller,anna",
       "overfield,kaelee",
       "hill,morgan",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":413,
@@ -33452,7 +33452,7 @@
     "homePlayer1":"muller,anna",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"hill,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
@@ -33509,7 +33509,7 @@
       "overfield,kaelee",
       "hill,morgan",
       "parker,lakyia",
-      null
+      "totals"
     ],
     "timeSeconds":413,
     "Poss":"trinity (tx)",
@@ -33531,13 +33531,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"hill,morgan",
     "homePlayer4":"parker,lakyia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"cready,jillian",
     "awayPlayer2":"chavez,rachel",
     "awayPlayer3":"irvin,kate",
     "awayPlayer4":"trabysh,victoria",
     "awayPlayer5":"reed,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4678",
@@ -37870,7 +37870,7 @@
       "irvin,kate",
       "trabysh,victoria",
       "reed,emily",
-      null
+      "cready,jillian"
     ],
     "homeLineup":[
       "overfield,kaelee",
@@ -37904,8 +37904,8 @@
     "awayPlayer2":"irvin,kate",
     "awayPlayer3":"trabysh,victoria",
     "awayPlayer4":"reed,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cready,jillian",
+    "playerMissing":0
   },
   {
     "gameID":"4678",

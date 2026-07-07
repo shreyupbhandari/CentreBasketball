@@ -1373,7 +1373,7 @@
       "freeman,kala",
       "perez,sam",
       "klunk,kim",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":1040,
     "Poss":"millsaps",
@@ -1395,13 +1395,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"lowe,paige",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"rose,savannah",
     "awayPlayer5":"medley,clarissa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -1912,7 +1912,7 @@
       "chauvin,jamie",
       "sewell,kayla",
       "rose,savannah",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -1946,8 +1946,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"rose,savannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -3394,7 +3394,7 @@
       "chauvin,jamie",
       "sewell,kayla",
       "rose,savannah",
-      null
+      "hassett,casey"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -3428,8 +3428,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"rose,savannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hassett,casey",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -3471,7 +3471,7 @@
       "lowe,paige",
       "chauvin,jamie",
       "rose,savannah",
-      null,
+      "sewell,kayla",
       null
     ],
     "homeLineup":[
@@ -3505,7 +3505,7 @@
     "awayPlayer1":"lowe,paige",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"rose,savannah",
-    "awayPlayer4":null,
+    "awayPlayer4":"sewell,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3548,7 +3548,7 @@
     "awayLineup":[
       "lowe,paige",
       "rose,savannah",
-      null,
+      "chauvin,jamie",
       null,
       null
     ],
@@ -3582,7 +3582,7 @@
     "homePlayer5":"holmes,beverly",
     "awayPlayer1":"lowe,paige",
     "awayPlayer2":"rose,savannah",
-    "awayPlayer3":null,
+    "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3625,7 +3625,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "lowe,paige",
-      null,
+      "rose,savannah",
       null,
       null,
       null
@@ -3659,7 +3659,7 @@
     "homePlayer4":"klunk,kim",
     "homePlayer5":"holmes,beverly",
     "awayPlayer1":"lowe,paige",
-    "awayPlayer2":null,
+    "awayPlayer2":"rose,savannah",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -3791,7 +3791,7 @@
       "freeman,kala",
       "perez,sam",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":896,
     "Poss":"millsaps",
@@ -3813,7 +3813,7 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":null,
     "awayPlayer2":null,
     "awayPlayer3":null,
@@ -3856,6 +3856,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"johnson,velvet",
+    "pointsEarned":"",
+    "awayLineup":[
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "homeLineup":[
+      "freeman,kala",
+      "perez,sam",
+      "holmes,beverly",
+      "johnson,velvet",
+      null
+    ],
+    "timeSeconds":896,
+    "Poss":"millsaps",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":18,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/14\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,kala",
+    "homePlayer2":"perez,sam",
+    "homePlayer3":"holmes,beverly",
+    "homePlayer4":"johnson,velvet",
+    "homePlayer5":null,
+    "awayPlayer1":null,
+    "awayPlayer2":null,
+    "awayPlayer3":null,
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"2351",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"48-63",
+    "homeScoreByPeriod":"39,24,63",
+    "awayScoreByPeriod":"23,25,48",
+    "homeRecord":"12-8",
+    "awayRecord":"9-12",
+    "homeConfRecord":"6-4",
+    "awayConfRecord":"2-8",
+    "gameDate":"02\/14\/14",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"MILLSAPS HANGAR DOME",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"14:56",
+    "awayPlay":"",
+    "awayTeamScore":"4",
+    "playTeamIndicator":"",
+    "homeTeamScore":"14 ",
+    "homePlay":"SUB OUT by HOLMES,BEVERLY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HOLMES,BEVERLY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"holmes,beverly",
     "pointsEarned":"",
     "awayLineup":[
       null,
@@ -3925,84 +4003,6 @@
     "awayTeamScore":"4",
     "playTeamIndicator":"",
     "homeTeamScore":"14 ",
-    "homePlay":"SUB OUT by HOLMES,BEVERLY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HOLMES,BEVERLY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"holmes,beverly",
-    "pointsEarned":"",
-    "awayLineup":[
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "freeman,kala",
-      "perez,sam",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":896,
-    "Poss":"millsaps",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":18,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/14\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,kala",
-    "homePlayer2":"perez,sam",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":null,
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"2351",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"48-63",
-    "homeScoreByPeriod":"39,24,63",
-    "awayScoreByPeriod":"23,25,48",
-    "homeRecord":"12-8",
-    "awayRecord":"9-12",
-    "homeConfRecord":"6-4",
-    "awayConfRecord":"2-8",
-    "gameDate":"02\/14\/14",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"MILLSAPS HANGAR DOME",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"14:56",
-    "awayPlay":"",
-    "awayTeamScore":"4",
-    "playTeamIndicator":"",
-    "homeTeamScore":"14 ",
     "homePlay":"SUB OUT by FREEMAN,KALA",
     "gameScore":"",
     "teamIndicator":"",
@@ -4022,7 +4022,7 @@
     ],
     "homeLineup":[
       "perez,sam",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -4044,7 +4044,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
-    "homePlayer2":null,
+    "homePlayer2":"freeman,kala",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -4171,7 +4171,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "hassett,casey",
-      null,
+      "totals",
       null,
       null,
       null
@@ -4205,7 +4205,7 @@
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
-    "awayPlayer2":null,
+    "awayPlayer2":"totals",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -4250,7 +4250,7 @@
     "awayLineup":[
       "hassett,casey",
       "medley,clarissa",
-      null,
+      "totals",
       null,
       null
     ],
@@ -4284,7 +4284,7 @@
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -4329,7 +4329,7 @@
       "hassett,casey",
       "medley,clarissa",
       "rose,savannah",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4363,7 +4363,7 @@
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"rose,savannah",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4408,7 +4408,7 @@
       "medley,clarissa",
       "rose,savannah",
       "lowe,paige",
-      null
+      "totals"
     ],
     "homeLineup":[
       null,
@@ -4442,7 +4442,7 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -4568,7 +4568,7 @@
     ],
     "homeLineup":[
       "randle,kelli",
-      null,
+      "totals",
       null,
       null,
       null
@@ -4590,7 +4590,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"randle,kelli",
-    "homePlayer2":null,
+    "homePlayer2":"totals",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -4647,7 +4647,7 @@
     "homeLineup":[
       "randle,kelli",
       "johnson,bria",
-      null,
+      "totals",
       null,
       null
     ],
@@ -4669,7 +4669,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"randle,kelli",
     "homePlayer2":"johnson,bria",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
@@ -4726,7 +4726,7 @@
       "randle,kelli",
       "johnson,bria",
       "crawford,mahalia",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":896,
@@ -4748,7 +4748,7 @@
     "homePlayer1":"randle,kelli",
     "homePlayer2":"johnson,bria",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
@@ -4805,7 +4805,7 @@
       "johnson,bria",
       "crawford,mahalia",
       "freeman,kala",
-      null
+      "totals"
     ],
     "timeSeconds":896,
     "Poss":"millsaps",
@@ -4827,13 +4827,13 @@
     "homePlayer2":"johnson,bria",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"lyerly,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -5812,7 +5812,7 @@
       "medley,clarissa",
       "lowe,paige",
       "lyerly,haley",
-      null
+      "rose,savannah"
     ],
     "homeLineup":[
       "randle,kelli",
@@ -5846,8 +5846,8 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rose,savannah",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -5889,7 +5889,7 @@
       "hassett,casey",
       "medley,clarissa",
       "lyerly,haley",
-      null,
+      "lowe,paige",
       null
     ],
     "homeLineup":[
@@ -5923,7 +5923,7 @@
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"lowe,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5967,7 +5967,7 @@
       "hassett,casey",
       "medley,clarissa",
       "lyerly,haley",
-      null,
+      "lowe,paige",
       null
     ],
     "homeLineup":[
@@ -5975,7 +5975,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "perez,sam",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":826,
     "Poss":"millsaps",
@@ -5997,11 +5997,11 @@
     "homePlayer2":"crawford,mahalia",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"perez,sam",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"lowe,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6045,14 +6045,14 @@
       "hassett,casey",
       "medley,clarissa",
       "lyerly,haley",
-      null,
+      "lowe,paige",
       null
     ],
     "homeLineup":[
       "johnson,bria",
       "freeman,kala",
       "perez,sam",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":826,
@@ -6074,12 +6074,12 @@
     "homePlayer1":"johnson,bria",
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"lowe,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6124,13 +6124,13 @@
       "medley,clarissa",
       "lyerly,haley",
       "chauvin,jamie",
-      null
+      "totals"
     ],
     "homeLineup":[
       "johnson,bria",
       "freeman,kala",
       "perez,sam",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":826,
@@ -6152,13 +6152,13 @@
     "homePlayer1":"johnson,bria",
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
     "awayPlayer4":"chauvin,jamie",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -6208,7 +6208,7 @@
       "johnson,bria",
       "freeman,kala",
       "perez,sam",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":826,
@@ -6230,7 +6230,7 @@
     "homePlayer1":"johnson,bria",
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
@@ -6287,7 +6287,7 @@
       "freeman,kala",
       "perez,sam",
       "klunk,kim",
-      null
+      "totals"
     ],
     "timeSeconds":826,
     "Poss":"millsaps",
@@ -6309,13 +6309,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"hassett,casey",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
     "awayPlayer4":"chauvin,jamie",
     "awayPlayer5":"jones,mckenzie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -7138,7 +7138,7 @@
       "lyerly,haley",
       "chauvin,jamie",
       "jones,mckenzie",
-      null
+      "hassett,casey"
     ],
     "homeLineup":[
       "johnson,bria",
@@ -7172,8 +7172,8 @@
     "awayPlayer2":"lyerly,haley",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"jones,mckenzie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hassett,casey",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -7216,14 +7216,14 @@
       "lyerly,haley",
       "chauvin,jamie",
       "jones,mckenzie",
-      null
+      "hassett,casey"
     ],
     "homeLineup":[
       "johnson,bria",
       "freeman,kala",
       "perez,sam",
       "johnson,velvet",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":751,
     "Poss":"sewanee",
@@ -7245,13 +7245,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
     "homePlayer4":"johnson,velvet",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"lyerly,haley",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"jones,mckenzie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hassett,casey",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -7301,7 +7301,7 @@
       "freeman,kala",
       "perez,sam",
       "johnson,velvet",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":751,
     "Poss":"sewanee",
@@ -7323,13 +7323,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"perez,sam",
     "homePlayer4":"johnson,velvet",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"lyerly,haley",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"jones,mckenzie",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -7847,7 +7847,7 @@
       "perez,sam",
       "johnson,velvet",
       "crawford,mahalia",
-      null
+      "freeman,kala"
     ],
     "timeSeconds":750,
     "Poss":"millsaps",
@@ -7869,13 +7869,13 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"johnson,velvet",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,kala",
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"lyerly,haley",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"jones,mckenzie",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -7924,7 +7924,7 @@
       "perez,sam",
       "johnson,velvet",
       "crawford,mahalia",
-      null,
+      "johnson,bria",
       null
     ],
     "timeSeconds":750,
@@ -7946,7 +7946,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"johnson,bria",
     "homePlayer5":null,
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"lyerly,haley",
@@ -8003,7 +8003,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "earl,brittnei",
-      null
+      "totals"
     ],
     "timeSeconds":750,
     "Poss":"millsaps",
@@ -8025,13 +8025,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"lyerly,haley",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"jones,mckenzie",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -8308,7 +8308,7 @@
       "chauvin,jamie",
       "jones,mckenzie",
       "mcdonough,haley",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "perez,sam",
@@ -8342,8 +8342,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"jones,mckenzie",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -9173,7 +9173,7 @@
       "crawford,mahalia",
       "earl,brittnei",
       "holmes,beverly",
-      null
+      "johnson,velvet"
     ],
     "timeSeconds":708,
     "Poss":"sewanee",
@@ -9195,13 +9195,13 @@
     "homePlayer2":"crawford,mahalia",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,velvet",
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"jones,mckenzie",
     "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -9875,7 +9875,7 @@
       "earl,brittnei",
       "holmes,beverly",
       "randle,kelli",
-      null
+      "perez,sam"
     ],
     "timeSeconds":664,
     "Poss":"millsaps",
@@ -9897,13 +9897,13 @@
     "homePlayer2":"earl,brittnei",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"randle,kelli",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"jones,mckenzie",
     "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -10180,7 +10180,7 @@
       "chauvin,jamie",
       "mcdonough,haley",
       "sewell,kayla",
-      null
+      "jones,mckenzie"
     ],
     "homeLineup":[
       "crawford,mahalia",
@@ -10214,8 +10214,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"mcdonough,haley",
     "awayPlayer4":"sewell,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jones,mckenzie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -10257,7 +10257,7 @@
       "lyerly,haley",
       "chauvin,jamie",
       "sewell,kayla",
-      null,
+      "mcdonough,haley",
       null
     ],
     "homeLineup":[
@@ -10291,7 +10291,7 @@
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10335,7 +10335,7 @@
       "lyerly,haley",
       "chauvin,jamie",
       "sewell,kayla",
-      null,
+      "mcdonough,haley",
       null
     ],
     "homeLineup":[
@@ -10343,7 +10343,7 @@
       "earl,brittnei",
       "holmes,beverly",
       "johnson,velvet",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":645,
     "Poss":"sewanee",
@@ -10365,11 +10365,11 @@
     "homePlayer2":"earl,brittnei",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"johnson,velvet",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10413,14 +10413,14 @@
       "lyerly,haley",
       "chauvin,jamie",
       "sewell,kayla",
-      null,
+      "mcdonough,haley",
       null
     ],
     "homeLineup":[
       "crawford,mahalia",
       "holmes,beverly",
       "johnson,velvet",
-      null,
+      "earl,brittnei",
       null
     ],
     "timeSeconds":645,
@@ -10442,12 +10442,12 @@
     "homePlayer1":"crawford,mahalia",
     "homePlayer2":"holmes,beverly",
     "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
+    "homePlayer4":"earl,brittnei",
     "homePlayer5":null,
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10491,13 +10491,13 @@
       "lyerly,haley",
       "chauvin,jamie",
       "sewell,kayla",
-      null,
+      "mcdonough,haley",
       null
     ],
     "homeLineup":[
       "holmes,beverly",
       "johnson,velvet",
-      null,
+      "crawford,mahalia",
       null,
       null
     ],
@@ -10519,13 +10519,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"holmes,beverly",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"crawford,mahalia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10570,12 +10570,12 @@
       "chauvin,jamie",
       "sewell,kayla",
       "rose,savannah",
-      null
+      "totals"
     ],
     "homeLineup":[
       "holmes,beverly",
       "johnson,velvet",
-      null,
+      "crawford,mahalia",
       null,
       null
     ],
@@ -10597,14 +10597,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"holmes,beverly",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"crawford,mahalia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"rose,savannah",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -10653,7 +10653,7 @@
     "homeLineup":[
       "holmes,beverly",
       "johnson,velvet",
-      null,
+      "crawford,mahalia",
       null,
       null
     ],
@@ -10675,7 +10675,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"holmes,beverly",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"crawford,mahalia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"lyerly,haley",
@@ -10732,7 +10732,7 @@
       "holmes,beverly",
       "johnson,velvet",
       "klunk,kim",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":645,
@@ -10754,7 +10754,7 @@
     "homePlayer1":"holmes,beverly",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
@@ -10811,7 +10811,7 @@
       "johnson,velvet",
       "klunk,kim",
       "freeman,kala",
-      null
+      "totals"
     ],
     "timeSeconds":645,
     "Poss":"sewanee",
@@ -10833,13 +10833,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"lyerly,haley",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"rose,savannah",
     "awayPlayer5":"lowe,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -12208,7 +12208,7 @@
       "sewell,kayla",
       "rose,savannah",
       "lowe,paige",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "holmes,beverly",
@@ -12242,8 +12242,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lyerly,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -12286,14 +12286,14 @@
       "sewell,kayla",
       "rose,savannah",
       "lowe,paige",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "johnson,velvet",
       "klunk,kim",
       "freeman,kala",
       "perez,sam",
-      null
+      "holmes,beverly"
     ],
     "timeSeconds":534,
     "Poss":"sewanee",
@@ -12315,13 +12315,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"perez,sam",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,beverly",
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lyerly,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -12364,13 +12364,13 @@
       "sewell,kayla",
       "rose,savannah",
       "lowe,paige",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "johnson,velvet",
       "klunk,kim",
       "perez,sam",
-      null,
+      "freeman,kala",
       null
     ],
     "timeSeconds":534,
@@ -12392,13 +12392,13 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"freeman,kala",
     "homePlayer5":null,
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
+    "awayPlayer5":"lyerly,haley",
     "playerMissing":1
   },
   {
@@ -12448,7 +12448,7 @@
       "johnson,velvet",
       "klunk,kim",
       "perez,sam",
-      null,
+      "freeman,kala",
       null
     ],
     "timeSeconds":534,
@@ -12470,7 +12470,7 @@
     "homePlayer1":"johnson,velvet",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
-    "homePlayer4":null,
+    "homePlayer4":"freeman,kala",
     "homePlayer5":null,
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
@@ -12527,7 +12527,7 @@
       "klunk,kim",
       "perez,sam",
       "earl,brittnei",
-      null
+      "totals"
     ],
     "timeSeconds":534,
     "Poss":"sewanee",
@@ -12549,13 +12549,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -12761,7 +12761,7 @@
       "klunk,kim",
       "perez,sam",
       "earl,brittnei",
-      null
+      "johnson,bria"
     ],
     "timeSeconds":514,
     "Poss":"sewanee",
@@ -12783,13 +12783,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bria",
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -13385,7 +13385,7 @@
       "klunk,kim",
       "perez,sam",
       "earl,brittnei",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":486,
     "Poss":"sewanee",
@@ -13407,13 +13407,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -13853,7 +13853,7 @@
       "klunk,kim",
       "perez,sam",
       "holmes,beverly",
-      null
+      "earl,brittnei"
     ],
     "timeSeconds":466,
     "Poss":"millsaps",
@@ -13875,13 +13875,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"perez,sam",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"earl,brittnei",
     "awayPlayer1":"chauvin,jamie",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"rose,savannah",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -14236,7 +14236,7 @@
       "rose,savannah",
       "lowe,paige",
       "hassett,casey",
-      null
+      "sewell,kayla"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -14270,8 +14270,8 @@
     "awayPlayer2":"rose,savannah",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sewell,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -15172,7 +15172,7 @@
       "lowe,paige",
       "hassett,casey",
       "medley,clarissa",
-      null
+      "chauvin,jamie"
     ],
     "homeLineup":[
       "johnson,velvet",
@@ -15206,8 +15206,8 @@
     "awayPlayer2":"lowe,paige",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chauvin,jamie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -15250,14 +15250,14 @@
       "lowe,paige",
       "hassett,casey",
       "medley,clarissa",
-      null
+      "chauvin,jamie"
     ],
     "homeLineup":[
       "johnson,velvet",
       "perez,sam",
       "holmes,beverly",
       "freeman,kala",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":384,
     "Poss":"sewanee",
@@ -15279,13 +15279,13 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"lowe,paige",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chauvin,jamie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -15335,7 +15335,7 @@
       "perez,sam",
       "holmes,beverly",
       "freeman,kala",
-      null
+      "klunk,kim"
     ],
     "timeSeconds":384,
     "Poss":"sewanee",
@@ -15357,13 +15357,13 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"klunk,kim",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"lowe,paige",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"lyerly,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -15569,7 +15569,7 @@
       "holmes,beverly",
       "freeman,kala",
       "crawford,mahalia",
-      null
+      "johnson,velvet"
     ],
     "timeSeconds":375,
     "Poss":"sewanee",
@@ -15591,13 +15591,13 @@
     "homePlayer2":"holmes,beverly",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,velvet",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"lowe,paige",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"lyerly,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -16498,7 +16498,7 @@
       "hassett,casey",
       "medley,clarissa",
       "lyerly,haley",
-      null
+      "lowe,paige"
     ],
     "homeLineup":[
       "perez,sam",
@@ -16532,8 +16532,8 @@
     "awayPlayer2":"hassett,casey",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lowe,paige",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -16575,7 +16575,7 @@
       "rose,savannah",
       "medley,clarissa",
       "lyerly,haley",
-      null,
+      "hassett,casey",
       null
     ],
     "homeLineup":[
@@ -16609,7 +16609,7 @@
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"lyerly,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"hassett,casey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16648,6 +16648,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"medley,clarissa",
+    "pointsEarned":"",
+    "awayLineup":[
+      "rose,savannah",
+      "lyerly,haley",
+      "medley,clarissa",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "perez,sam",
+      "holmes,beverly",
+      "freeman,kala",
+      "crawford,mahalia",
+      "randle,kelli"
+    ],
+    "timeSeconds":307,
+    "Poss":"millsaps",
+    "possNum":22,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":53,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/14\/14",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"perez,sam",
+    "homePlayer2":"holmes,beverly",
+    "homePlayer3":"freeman,kala",
+    "homePlayer4":"crawford,mahalia",
+    "homePlayer5":"randle,kelli",
+    "awayPlayer1":"rose,savannah",
+    "awayPlayer2":"lyerly,haley",
+    "awayPlayer3":"medley,clarissa",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"2351",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"48-63",
+    "homeScoreByPeriod":"39,24,63",
+    "awayScoreByPeriod":"23,25,48",
+    "homeRecord":"12-8",
+    "awayRecord":"9-12",
+    "homeConfRecord":"6-4",
+    "awayConfRecord":"2-8",
+    "gameDate":"02\/14\/14",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"MILLSAPS HANGAR DOME",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"N\/A",
+    "isNeutral":"False",
+    "timeRemaining":"05:07",
+    "awayPlay":"SUB OUT by LYERLY,HALEY",
+    "awayTeamScore":"13",
+    "playTeamIndicator":"",
+    "homeTeamScore":"33 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LYERLY,HALEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"lyerly,haley",
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
@@ -16713,23 +16791,23 @@
     "attendance":"N\/A",
     "isNeutral":"False",
     "timeRemaining":"05:07",
-    "awayPlay":"SUB OUT by LYERLY,HALEY",
+    "awayPlay":"",
     "awayTeamScore":"13",
     "playTeamIndicator":"",
     "homeTeamScore":"33 ",
-    "homePlay":"",
+    "homePlay":"SUB OUT by RANDLE,KELLI",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by LYERLY,HALEY",
+    "Play":"SUB OUT by RANDLE,KELLI",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"lyerly,haley",
+    "Team":"millsaps",
+    "Player":"randle,kelli",
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
-      null,
+      "lyerly,haley",
       null,
       null,
       null
@@ -16763,85 +16841,7 @@
     "homePlayer4":"crawford,mahalia",
     "homePlayer5":"randle,kelli",
     "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"2351",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"48-63",
-    "homeScoreByPeriod":"39,24,63",
-    "awayScoreByPeriod":"23,25,48",
-    "homeRecord":"12-8",
-    "awayRecord":"9-12",
-    "homeConfRecord":"6-4",
-    "awayConfRecord":"2-8",
-    "gameDate":"02\/14\/14",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"MILLSAPS HANGAR DOME",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"N\/A",
-    "isNeutral":"False",
-    "timeRemaining":"05:07",
-    "awayPlay":"",
-    "awayTeamScore":"13",
-    "playTeamIndicator":"",
-    "homeTeamScore":"33 ",
-    "homePlay":"SUB OUT by RANDLE,KELLI",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by RANDLE,KELLI",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"randle,kelli",
-    "pointsEarned":"",
-    "awayLineup":[
-      "rose,savannah",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "perez,sam",
-      "holmes,beverly",
-      "freeman,kala",
-      "crawford,mahalia",
-      null
-    ],
-    "timeSeconds":307,
-    "Poss":"millsaps",
-    "possNum":22,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":53,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/14\/14",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"perez,sam",
-    "homePlayer2":"holmes,beverly",
-    "homePlayer3":"freeman,kala",
-    "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
-    "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
+    "awayPlayer2":"lyerly,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -16885,7 +16885,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
-      null,
+      "lyerly,haley",
       null,
       null,
       null
@@ -16895,7 +16895,7 @@
       "holmes,beverly",
       "freeman,kala",
       "crawford,mahalia",
-      null
+      "randle,kelli"
     ],
     "timeSeconds":307,
     "Poss":"millsaps",
@@ -16917,9 +16917,9 @@
     "homePlayer2":"holmes,beverly",
     "homePlayer3":"freeman,kala",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"randle,kelli",
     "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
+    "awayPlayer2":"lyerly,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -16963,7 +16963,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
-      null,
+      "lyerly,haley",
       null,
       null,
       null
@@ -16972,7 +16972,7 @@
       "perez,sam",
       "holmes,beverly",
       "freeman,kala",
-      null,
+      "crawford,mahalia",
       null
     ],
     "timeSeconds":307,
@@ -16994,10 +16994,10 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"holmes,beverly",
     "homePlayer3":"freeman,kala",
-    "homePlayer4":null,
+    "homePlayer4":"crawford,mahalia",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
+    "awayPlayer2":"lyerly,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17041,7 +17041,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
-      null,
+      "lyerly,haley",
       null,
       null,
       null
@@ -17049,7 +17049,7 @@
     "homeLineup":[
       "perez,sam",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null,
       null
     ],
@@ -17071,11 +17071,11 @@
     "secondsPerPoss":0,
     "homePlayer1":"perez,sam",
     "homePlayer2":"freeman,kala",
-    "homePlayer3":null,
+    "homePlayer3":"holmes,beverly",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
+    "awayPlayer2":"lyerly,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17119,14 +17119,14 @@
     "pointsEarned":"",
     "awayLineup":[
       "rose,savannah",
-      null,
+      "lyerly,haley",
       null,
       null,
       null
     ],
     "homeLineup":[
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -17148,12 +17148,12 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
-    "awayPlayer2":null,
+    "awayPlayer2":"lyerly,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17198,13 +17198,13 @@
     "awayLineup":[
       "rose,savannah",
       "jones,mckenzie",
-      null,
+      "totals",
       null,
       null
     ],
     "homeLineup":[
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -17226,13 +17226,13 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"jones,mckenzie",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17277,12 +17277,12 @@
       "rose,savannah",
       "jones,mckenzie",
       "sewell,kayla",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -17304,14 +17304,14 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"jones,mckenzie",
     "awayPlayer3":"sewell,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17356,11 +17356,11 @@
       "jones,mckenzie",
       "sewell,kayla",
       "chauvin,jamie",
-      null
+      "totals"
     ],
     "homeLineup":[
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -17382,7 +17382,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -17390,7 +17390,7 @@
     "awayPlayer2":"jones,mckenzie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"chauvin,jamie",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -17438,7 +17438,7 @@
     ],
     "homeLineup":[
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -17460,7 +17460,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -17517,7 +17517,7 @@
     "homeLineup":[
       "freeman,kala",
       "perez,sam",
-      null,
+      "totals",
       null,
       null
     ],
@@ -17539,7 +17539,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"freeman,kala",
     "homePlayer2":"perez,sam",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
@@ -17596,7 +17596,7 @@
       "freeman,kala",
       "perez,sam",
       "klunk,kim",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":307,
@@ -17618,7 +17618,7 @@
     "homePlayer1":"freeman,kala",
     "homePlayer2":"perez,sam",
     "homePlayer3":"klunk,kim",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"jones,mckenzie",
@@ -17675,7 +17675,7 @@
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
-      null
+      "totals"
     ],
     "timeSeconds":307,
     "Poss":"millsaps",
@@ -17697,13 +17697,13 @@
     "homePlayer2":"perez,sam",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"jones,mckenzie",
     "awayPlayer3":"sewell,kayla",
     "awayPlayer4":"chauvin,jamie",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -18916,7 +18916,7 @@
       "sewell,kayla",
       "chauvin,jamie",
       "mcdonough,haley",
-      null
+      "jones,mckenzie"
     ],
     "homeLineup":[
       "perez,sam",
@@ -18950,8 +18950,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jones,mckenzie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -18994,14 +18994,14 @@
       "sewell,kayla",
       "chauvin,jamie",
       "mcdonough,haley",
-      null
+      "jones,mckenzie"
     ],
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
       "johnson,bria",
-      null
+      "johnson,velvet"
     ],
     "timeSeconds":224,
     "Poss":"millsaps",
@@ -19023,13 +19023,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,velvet",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jones,mckenzie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -19072,13 +19072,13 @@
       "sewell,kayla",
       "chauvin,jamie",
       "mcdonough,haley",
-      null
+      "jones,mckenzie"
     ],
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
-      null,
+      "freeman,kala",
       null
     ],
     "timeSeconds":224,
@@ -19100,13 +19100,13 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
-    "homePlayer4":null,
+    "homePlayer4":"freeman,kala",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
+    "awayPlayer5":"jones,mckenzie",
     "playerMissing":1
   },
   {
@@ -19150,13 +19150,13 @@
       "sewell,kayla",
       "chauvin,jamie",
       "mcdonough,haley",
-      null
+      "jones,mckenzie"
     ],
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
-      null,
+      "freeman,kala",
       null
     ],
     "timeSeconds":224,
@@ -19178,13 +19178,13 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
-    "homePlayer4":null,
+    "homePlayer4":"freeman,kala",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
+    "awayPlayer5":"jones,mckenzie",
     "playerMissing":1
   },
   {
@@ -19234,7 +19234,7 @@
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
-      null,
+      "freeman,kala",
       null
     ],
     "timeSeconds":224,
@@ -19256,7 +19256,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
-    "homePlayer4":null,
+    "homePlayer4":"freeman,kala",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
@@ -19313,7 +19313,7 @@
       "klunk,kim",
       "earl,brittnei",
       "marshall,samantha",
-      null
+      "totals"
     ],
     "timeSeconds":224,
     "Poss":"millsaps",
@@ -19335,13 +19335,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"marshall,samantha",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":"lowe,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -19391,7 +19391,7 @@
       "klunk,kim",
       "earl,brittnei",
       "marshall,samantha",
-      null
+      "totals"
     ],
     "timeSeconds":224,
     "Poss":"millsaps",
@@ -19413,13 +19413,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"marshall,samantha",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":"lowe,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -20008,7 +20008,7 @@
       "sewell,kayla",
       "chauvin,jamie",
       "lowe,paige",
-      null
+      "mcdonough,haley"
     ],
     "homeLineup":[
       "perez,sam",
@@ -20042,8 +20042,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mcdonough,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -20086,14 +20086,14 @@
       "sewell,kayla",
       "chauvin,jamie",
       "lowe,paige",
-      null
+      "mcdonough,haley"
     ],
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
       "earl,brittnei",
       "holmes,beverly",
-      null
+      "marshall,samantha"
     ],
     "timeSeconds":196,
     "Poss":"sewanee",
@@ -20115,13 +20115,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"marshall,samantha",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mcdonough,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -20164,13 +20164,13 @@
       "sewell,kayla",
       "chauvin,jamie",
       "lowe,paige",
-      null
+      "mcdonough,haley"
     ],
     "homeLineup":[
       "perez,sam",
       "klunk,kim",
       "holmes,beverly",
-      null,
+      "earl,brittnei",
       null
     ],
     "timeSeconds":196,
@@ -20192,13 +20192,13 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"holmes,beverly",
-    "homePlayer4":null,
+    "homePlayer4":"earl,brittnei",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
+    "awayPlayer5":"mcdonough,haley",
     "playerMissing":1
   },
   {
@@ -20248,7 +20248,7 @@
       "perez,sam",
       "klunk,kim",
       "holmes,beverly",
-      null,
+      "earl,brittnei",
       null
     ],
     "timeSeconds":196,
@@ -20270,7 +20270,7 @@
     "homePlayer1":"perez,sam",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"holmes,beverly",
-    "homePlayer4":null,
+    "homePlayer4":"earl,brittnei",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
@@ -20327,7 +20327,7 @@
       "klunk,kim",
       "holmes,beverly",
       "johnson,bria",
-      null
+      "totals"
     ],
     "timeSeconds":196,
     "Poss":"sewanee",
@@ -20349,13 +20349,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"holmes,beverly",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"lowe,paige",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -21490,7 +21490,7 @@
       "sewell,kayla",
       "lowe,paige",
       "hassett,casey",
-      null
+      "chauvin,jamie"
     ],
     "homeLineup":[
       "perez,sam",
@@ -21524,8 +21524,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chauvin,jamie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -21646,7 +21646,7 @@
       "sewell,kayla",
       "lowe,paige",
       "hassett,casey",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "perez,sam",
@@ -21680,8 +21680,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lyerly,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -22511,7 +22511,7 @@
       "klunk,kim",
       "johnson,bria",
       "freeman,kala",
-      null
+      "holmes,beverly"
     ],
     "timeSeconds":9,
     "Poss":"sewanee",
@@ -22533,13 +22533,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"johnson,bria",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"holmes,beverly",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -24695,7 +24695,7 @@
       "freeman,kala",
       "burks,mary",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":1052,
     "Poss":"millsaps",
@@ -24717,13 +24717,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"burks,mary",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -25007,7 +25007,7 @@
       "freeman,kala",
       "burks,mary",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":1027,
     "Poss":"millsaps",
@@ -25029,13 +25029,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"burks,mary",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -25085,7 +25085,7 @@
       "freeman,kala",
       "burks,mary",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":1027,
     "Poss":"millsaps",
@@ -25107,13 +25107,13 @@
     "homePlayer2":"freeman,kala",
     "homePlayer3":"burks,mary",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -26092,7 +26092,7 @@
       "sewell,kayla",
       "lowe,paige",
       "hassett,casey",
-      null
+      "chauvin,jamie"
     ],
     "homeLineup":[
       "johnson,bria",
@@ -26126,8 +26126,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chauvin,jamie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -26170,7 +26170,7 @@
       "sewell,kayla",
       "lowe,paige",
       "hassett,casey",
-      null
+      "chauvin,jamie"
     ],
     "homeLineup":[
       "johnson,bria",
@@ -26204,8 +26204,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"chauvin,jamie",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -27425,7 +27425,7 @@
       "burks,mary",
       "klunk,kim",
       "randle,kelli",
-      null
+      "perez,sam"
     ],
     "timeSeconds":884,
     "Poss":"sewanee",
@@ -27447,13 +27447,13 @@
     "homePlayer2":"burks,mary",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"randle,kelli",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"lyerly,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -27502,7 +27502,7 @@
       "freeman,kala",
       "burks,mary",
       "klunk,kim",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":884,
@@ -27524,7 +27524,7 @@
     "homePlayer1":"freeman,kala",
     "homePlayer2":"burks,mary",
     "homePlayer3":"klunk,kim",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
@@ -27579,7 +27579,7 @@
     "homeLineup":[
       "burks,mary",
       "klunk,kim",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -27601,7 +27601,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
     "homePlayer2":"klunk,kim",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
@@ -27658,7 +27658,7 @@
       "burks,mary",
       "klunk,kim",
       "johnson,bria",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":884,
@@ -27680,7 +27680,7 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"klunk,kim",
     "homePlayer3":"johnson,bria",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
@@ -27737,7 +27737,7 @@
       "klunk,kim",
       "johnson,bria",
       "earl,brittnei",
-      null
+      "perez,sam"
     ],
     "timeSeconds":884,
     "Poss":"sewanee",
@@ -27759,13 +27759,13 @@
     "homePlayer2":"klunk,kim",
     "homePlayer3":"johnson,bria",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"lyerly,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -28900,7 +28900,7 @@
       "sewell,kayla",
       "hassett,casey",
       "lyerly,haley",
-      null
+      "lowe,paige"
     ],
     "homeLineup":[
       "burks,mary",
@@ -28934,8 +28934,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lowe,paige",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -28978,14 +28978,14 @@
       "sewell,kayla",
       "hassett,casey",
       "lyerly,haley",
-      null
+      "lowe,paige"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,bria",
       "earl,brittnei",
       "johnson,velvet",
-      null
+      "perez,sam"
     ],
     "timeSeconds":771,
     "Poss":"sewanee",
@@ -29007,13 +29007,13 @@
     "homePlayer2":"johnson,bria",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"johnson,velvet",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lowe,paige",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -29056,13 +29056,13 @@
       "sewell,kayla",
       "hassett,casey",
       "lyerly,haley",
-      null
+      "lowe,paige"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,bria",
       "johnson,velvet",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":771,
@@ -29084,13 +29084,13 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,bria",
     "homePlayer3":"johnson,velvet",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
+    "awayPlayer5":"lowe,paige",
     "playerMissing":1
   },
   {
@@ -29134,12 +29134,12 @@
       "sewell,kayla",
       "hassett,casey",
       "lyerly,haley",
-      null
+      "lowe,paige"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -29161,14 +29161,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
-    "awayPlayer5":null,
+    "awayPlayer5":"lowe,paige",
     "playerMissing":1
   },
   {
@@ -29217,7 +29217,7 @@
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -29239,7 +29239,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
@@ -29296,7 +29296,7 @@
       "burks,mary",
       "johnson,velvet",
       "crawford,mahalia",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":771,
@@ -29318,7 +29318,7 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
@@ -29375,7 +29375,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":771,
     "Poss":"sewanee",
@@ -29397,13 +29397,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -29921,7 +29921,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":712,
     "Poss":"sewanee",
@@ -29943,13 +29943,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"lyerly,haley",
     "awayPlayer5":"chauvin,jamie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -30382,7 +30382,7 @@
       "sewell,kayla",
       "hassett,casey",
       "chauvin,jamie",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "burks,mary",
@@ -30416,8 +30416,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"chauvin,jamie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lyerly,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -30460,14 +30460,14 @@
       "sewell,kayla",
       "hassett,casey",
       "chauvin,jamie",
-      null
+      "lyerly,haley"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
       "crawford,mahalia",
       "earl,brittnei",
-      null
+      "perez,sam"
     ],
     "timeSeconds":666,
     "Poss":"sewanee",
@@ -30489,13 +30489,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"chauvin,jamie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lyerly,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -30545,7 +30545,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "earl,brittnei",
-      null
+      "perez,sam"
     ],
     "timeSeconds":666,
     "Poss":"sewanee",
@@ -30567,13 +30567,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"hassett,casey",
     "awayPlayer4":"chauvin,jamie",
     "awayPlayer5":"lowe,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -31318,7 +31318,7 @@
       "sewell,kayla",
       "chauvin,jamie",
       "lowe,paige",
-      null
+      "hassett,casey"
     ],
     "homeLineup":[
       "burks,mary",
@@ -31352,8 +31352,8 @@
     "awayPlayer2":"sewell,kayla",
     "awayPlayer3":"chauvin,jamie",
     "awayPlayer4":"lowe,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hassett,casey",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -31395,7 +31395,7 @@
       "rose,savannah",
       "chauvin,jamie",
       "lowe,paige",
-      null,
+      "sewell,kayla",
       null
     ],
     "homeLineup":[
@@ -31429,7 +31429,7 @@
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"sewell,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31473,7 +31473,7 @@
       "rose,savannah",
       "chauvin,jamie",
       "lowe,paige",
-      null,
+      "sewell,kayla",
       null
     ],
     "homeLineup":[
@@ -31481,7 +31481,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "johnson,bria",
-      null
+      "perez,sam"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -31503,11 +31503,11 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"sewell,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31551,14 +31551,14 @@
       "rose,savannah",
       "chauvin,jamie",
       "lowe,paige",
-      null,
+      "sewell,kayla",
       null
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
       "crawford,mahalia",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":600,
@@ -31580,12 +31580,12 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"sewell,kayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31630,13 +31630,13 @@
       "chauvin,jamie",
       "lowe,paige",
       "medley,clarissa",
-      null
+      "totals"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
       "crawford,mahalia",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":600,
@@ -31658,13 +31658,13 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -31714,7 +31714,7 @@
       "burks,mary",
       "johnson,velvet",
       "crawford,mahalia",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":600,
@@ -31736,7 +31736,7 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
@@ -31793,7 +31793,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "randle,kelli",
-      null
+      "perez,sam"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -31815,13 +31815,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"randle,kelli",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -32261,7 +32261,7 @@
       "johnson,velvet",
       "crawford,mahalia",
       "klunk,kim",
-      null
+      "perez,sam"
     ],
     "timeSeconds":570,
     "Poss":"millsaps",
@@ -32283,13 +32283,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"crawford,mahalia",
     "homePlayer4":"klunk,kim",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"mcdonough,haley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -32644,7 +32644,7 @@
       "chauvin,jamie",
       "lowe,paige",
       "mcdonough,haley",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "burks,mary",
@@ -32678,8 +32678,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"mcdonough,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -33353,7 +33353,7 @@
       "johnson,velvet",
       "klunk,kim",
       "johnson,bria",
-      null
+      "perez,sam"
     ],
     "timeSeconds":502,
     "Poss":"sewanee",
@@ -33375,13 +33375,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"johnson,bria",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"mcdonough,haley",
     "awayPlayer5":"hassett,casey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -34516,7 +34516,7 @@
       "chauvin,jamie",
       "lowe,paige",
       "hassett,casey",
-      null
+      "mcdonough,haley"
     ],
     "homeLineup":[
       "burks,mary",
@@ -34550,8 +34550,8 @@
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mcdonough,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -34594,14 +34594,14 @@
       "chauvin,jamie",
       "lowe,paige",
       "hassett,casey",
-      null
+      "mcdonough,haley"
     ],
     "homeLineup":[
       "burks,mary",
       "johnson,velvet",
       "klunk,kim",
       "earl,brittnei",
-      null
+      "perez,sam"
     ],
     "timeSeconds":407,
     "Poss":"sewanee",
@@ -34623,13 +34623,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mcdonough,haley",
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -34679,7 +34679,7 @@
       "johnson,velvet",
       "klunk,kim",
       "earl,brittnei",
-      null
+      "perez,sam"
     ],
     "timeSeconds":407,
     "Poss":"sewanee",
@@ -34701,13 +34701,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"earl,brittnei",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -35147,7 +35147,7 @@
       "johnson,velvet",
       "klunk,kim",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "timeSeconds":402,
     "Poss":"sewanee",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"holmes,beverly",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -35537,7 +35537,7 @@
       "johnson,velvet",
       "klunk,kim",
       "randle,kelli",
-      null
+      "perez,sam"
     ],
     "timeSeconds":389,
     "Poss":"sewanee",
@@ -35559,13 +35559,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"randle,kelli",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -38735,7 +38735,7 @@
       "johnson,velvet",
       "klunk,kim",
       "freeman,kala",
-      null
+      "perez,sam"
     ],
     "timeSeconds":58,
     "Poss":"millsaps",
@@ -38757,13 +38757,13 @@
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"klunk,kim",
     "homePlayer4":"freeman,kala",
-    "homePlayer5":null,
+    "homePlayer5":"perez,sam",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",
@@ -38812,7 +38812,7 @@
       "burks,mary",
       "johnson,velvet",
       "freeman,kala",
-      null,
+      "perez,sam",
       null
     ],
     "timeSeconds":58,
@@ -38834,7 +38834,7 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"johnson,velvet",
     "homePlayer3":"freeman,kala",
-    "homePlayer4":null,
+    "homePlayer4":"perez,sam",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
@@ -38889,7 +38889,7 @@
     "homeLineup":[
       "burks,mary",
       "freeman,kala",
-      null,
+      "perez,sam",
       null,
       null
     ],
@@ -38911,7 +38911,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
     "homePlayer2":"freeman,kala",
-    "homePlayer3":null,
+    "homePlayer3":"perez,sam",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
@@ -38966,7 +38966,7 @@
     ],
     "homeLineup":[
       "burks,mary",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -38988,7 +38988,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -39044,7 +39044,7 @@
     ],
     "homeLineup":[
       "burks,mary",
-      null,
+      "perez,sam",
       null,
       null,
       null
@@ -39066,7 +39066,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
-    "homePlayer2":null,
+    "homePlayer2":"perez,sam",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -39123,7 +39123,7 @@
     "homeLineup":[
       "burks,mary",
       "marshall,samantha",
-      null,
+      "totals",
       null,
       null
     ],
@@ -39145,7 +39145,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"burks,mary",
     "homePlayer2":"marshall,samantha",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
@@ -39202,7 +39202,7 @@
       "burks,mary",
       "marshall,samantha",
       "earl,brittnei",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":58,
@@ -39224,7 +39224,7 @@
     "homePlayer1":"burks,mary",
     "homePlayer2":"marshall,samantha",
     "homePlayer3":"earl,brittnei",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
@@ -39281,7 +39281,7 @@
       "marshall,samantha",
       "earl,brittnei",
       "crawford,mahalia",
-      null
+      "totals"
     ],
     "timeSeconds":58,
     "Poss":"millsaps",
@@ -39303,13 +39303,13 @@
     "homePlayer2":"marshall,samantha",
     "homePlayer3":"earl,brittnei",
     "homePlayer4":"crawford,mahalia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"rose,savannah",
     "awayPlayer2":"chauvin,jamie",
     "awayPlayer3":"lowe,paige",
     "awayPlayer4":"hassett,casey",
     "awayPlayer5":"sewell,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2351",

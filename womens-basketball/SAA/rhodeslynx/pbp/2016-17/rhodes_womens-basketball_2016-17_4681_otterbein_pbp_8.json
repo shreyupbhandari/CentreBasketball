@@ -1685,7 +1685,7 @@
       "smith,blaire",
       "giesen,sara",
       "kramer,bailey",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":429,
     "Poss":"otterbein",
@@ -1707,13 +1707,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"kissel,dani",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -1762,7 +1762,7 @@
       "smith,blaire",
       "giesen,sara",
       "kramer,bailey",
-      null,
+      "deery,erin",
       null
     ],
     "timeSeconds":429,
@@ -1784,7 +1784,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"giesen,sara",
     "homePlayer3":"kramer,bailey",
-    "homePlayer4":null,
+    "homePlayer4":"deery,erin",
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
@@ -1840,6 +1840,84 @@
       "smith,blaire",
       "giesen,sara",
       "kramer,bailey",
+      "deery,erin",
+      null
+    ],
+    "timeSeconds":429,
+    "Poss":"otterbein",
+    "possNum":8,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"otterbein",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":13,
+    "teamChanged":0,
+    "game":"RhodesOtterbein12\/17\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"smith,blaire",
+    "homePlayer2":"giesen,sara",
+    "homePlayer3":"kramer,bailey",
+    "homePlayer4":"deery,erin",
+    "homePlayer5":null,
+    "awayPlayer1":"miduri,abby",
+    "awayPlayer2":"taylor,kiersten",
+    "awayPlayer3":"kissel,dani",
+    "awayPlayer4":"pifher,taylor",
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":1
+  },
+  {
+    "gameID":"4681",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Otterbein",
+    "saaGame":"0",
+    "finalScore":"66-47",
+    "homeScoreByPeriod":"10,21,8,8,47",
+    "awayScoreByPeriod":"11,19,14,22,66",
+    "homeRecord":"1-7",
+    "awayRecord":"4-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/17\/16",
+    "startTime":"1:34 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Memphis, Tenn.",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"63",
+    "isNeutral":"False",
+    "timeRemaining":"07:09",
+    "awayPlay":"",
+    "awayTeamScore":"4 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"2",
+    "homePlay":"SUB OUT by KRAMER,BAILEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KRAMER,BAILEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"kramer,bailey",
+    "pointsEarned":"",
+    "awayLineup":[
+      "miduri,abby",
+      "taylor,kiersten",
+      "kissel,dani",
+      "pifher,taylor",
+      "cartnal,ali"
+    ],
+    "homeLineup":[
+      "smith,blaire",
+      "giesen,sara",
+      "kramer,bailey",
       null,
       null
     ],
@@ -1897,84 +1975,6 @@
     "awayTeamScore":"4 ",
     "playTeamIndicator":"",
     "homeTeamScore":"2",
-    "homePlay":"SUB OUT by KRAMER,BAILEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KRAMER,BAILEY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"kramer,bailey",
-    "pointsEarned":"",
-    "awayLineup":[
-      "miduri,abby",
-      "taylor,kiersten",
-      "kissel,dani",
-      "pifher,taylor",
-      "cartnal,ali"
-    ],
-    "homeLineup":[
-      "smith,blaire",
-      "giesen,sara",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":429,
-    "Poss":"otterbein",
-    "possNum":8,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"otterbein",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":13,
-    "teamChanged":0,
-    "game":"RhodesOtterbein12\/17\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"smith,blaire",
-    "homePlayer2":"giesen,sara",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"miduri,abby",
-    "awayPlayer2":"taylor,kiersten",
-    "awayPlayer3":"kissel,dani",
-    "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4681",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Otterbein",
-    "saaGame":"0",
-    "finalScore":"66-47",
-    "homeScoreByPeriod":"10,21,8,8,47",
-    "awayScoreByPeriod":"11,19,14,22,66",
-    "homeRecord":"1-7",
-    "awayRecord":"4-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/17\/16",
-    "startTime":"1:34 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Memphis, Tenn.",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"63",
-    "isNeutral":"False",
-    "timeRemaining":"07:09",
-    "awayPlay":"",
-    "awayTeamScore":"4 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"2",
     "homePlay":"SUB OUT by FORET,ASHLEY",
     "gameScore":"",
     "teamIndicator":"",
@@ -1995,7 +1995,7 @@
     "homeLineup":[
       "smith,blaire",
       "giesen,sara",
-      null,
+      "kramer,bailey",
       null,
       null
     ],
@@ -2017,7 +2017,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"smith,blaire",
     "homePlayer2":"giesen,sara",
-    "homePlayer3":null,
+    "homePlayer3":"kramer,bailey",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
@@ -2074,7 +2074,7 @@
       "smith,blaire",
       "giesen,sara",
       "ustick,jessie",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":429,
@@ -2096,7 +2096,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"giesen,sara",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
@@ -2153,7 +2153,7 @@
       "giesen,sara",
       "ustick,jessie",
       "deery,erin",
-      null
+      "totals"
     ],
     "timeSeconds":429,
     "Poss":"otterbein",
@@ -2175,13 +2175,13 @@
     "homePlayer2":"giesen,sara",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"deery,erin",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"kissel,dani",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -3323,7 +3323,7 @@
       "summers,danielle",
       "foret,ashley",
       "kramer,bailey",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":372,
     "Poss":"otterbein",
@@ -3345,13 +3345,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"kissel,dani",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -3400,7 +3400,7 @@
       "summers,danielle",
       "foret,ashley",
       "kramer,bailey",
-      null,
+      "deery,erin",
       null
     ],
     "timeSeconds":372,
@@ -3422,7 +3422,7 @@
     "homePlayer1":"summers,danielle",
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
-    "homePlayer4":null,
+    "homePlayer4":"deery,erin",
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
@@ -3477,7 +3477,7 @@
     "homeLineup":[
       "foret,ashley",
       "kramer,bailey",
-      null,
+      "smith,blaire",
       null,
       null
     ],
@@ -3499,7 +3499,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"foret,ashley",
     "homePlayer2":"kramer,bailey",
-    "homePlayer3":null,
+    "homePlayer3":"smith,blaire",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
@@ -3554,7 +3554,7 @@
     ],
     "homeLineup":[
       "foret,ashley",
-      null,
+      "kramer,bailey",
       null,
       null,
       null
@@ -3576,7 +3576,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"foret,ashley",
-    "homePlayer2":null,
+    "homePlayer2":"kramer,bailey",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -3710,7 +3710,7 @@
     ],
     "homeLineup":[
       "summers,danielle",
-      null,
+      "smith,blaire",
       null,
       null,
       null
@@ -3732,7 +3732,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"summers,danielle",
-    "homePlayer2":null,
+    "homePlayer2":"smith,blaire",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -3789,7 +3789,7 @@
     "homeLineup":[
       "summers,danielle",
       "foret,ashley",
-      null,
+      "smith,blaire",
       null,
       null
     ],
@@ -3811,7 +3811,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"summers,danielle",
     "homePlayer2":"foret,ashley",
-    "homePlayer3":null,
+    "homePlayer3":"smith,blaire",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
@@ -3868,7 +3868,7 @@
       "summers,danielle",
       "foret,ashley",
       "overfield,kaelee",
-      null,
+      "smith,blaire",
       null
     ],
     "timeSeconds":372,
@@ -3890,7 +3890,7 @@
     "homePlayer1":"summers,danielle",
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"smith,blaire",
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
@@ -3947,7 +3947,7 @@
       "foret,ashley",
       "overfield,kaelee",
       "young,allie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":372,
     "Poss":"otterbein",
@@ -3969,13 +3969,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"kissel,dani",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -4642,7 +4642,7 @@
       "kissel,dani",
       "cartnal,ali",
       "cutteridge,delaney",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "summers,danielle",
@@ -4676,8 +4676,8 @@
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"cutteridge,delaney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -5429,7 +5429,7 @@
       "foret,ashley",
       "overfield,kaelee",
       "young,allie",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":321,
     "Poss":"otterbein",
@@ -5451,13 +5451,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"taylor,kiersten",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"scholz,abbie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -5500,14 +5500,14 @@
       "kissel,dani",
       "cutteridge,delaney",
       "scholz,abbie",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "summers,danielle",
       "foret,ashley",
       "overfield,kaelee",
       "young,allie",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":321,
     "Poss":"otterbein",
@@ -5529,13 +5529,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"taylor,kiersten",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"scholz,abbie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -5578,7 +5578,7 @@
       "kissel,dani",
       "cutteridge,delaney",
       "scholz,abbie",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "summers,danielle",
@@ -5612,8 +5612,8 @@
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"scholz,abbie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -6046,7 +6046,7 @@
       "cutteridge,delaney",
       "scholz,abbie",
       "miduri,abby",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "summers,danielle",
@@ -6080,8 +6080,8 @@
     "awayPlayer2":"cutteridge,delaney",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -6755,7 +6755,7 @@
       "overfield,kaelee",
       "young,allie",
       "muller,anna",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":238,
     "Poss":"rhodes",
@@ -6777,13 +6777,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"young,allie",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"kissel,dani",
     "awayPlayer2":"cutteridge,delaney",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"miduri,abby",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -8627,7 +8627,7 @@
       "young,allie",
       "muller,anna",
       "smith,blaire",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":113,
     "Poss":"rhodes",
@@ -8649,13 +8649,13 @@
     "homePlayer2":"young,allie",
     "homePlayer3":"muller,anna",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"kissel,dani",
     "awayPlayer2":"cutteridge,delaney",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"miduri,abby",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -8705,7 +8705,7 @@
       "young,allie",
       "muller,anna",
       "smith,blaire",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":113,
     "Poss":"rhodes",
@@ -8727,13 +8727,13 @@
     "homePlayer2":"young,allie",
     "homePlayer3":"muller,anna",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"kissel,dani",
     "awayPlayer2":"cutteridge,delaney",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"miduri,abby",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -9400,7 +9400,7 @@
       "cutteridge,delaney",
       "scholz,abbie",
       "miduri,abby",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "muller,anna",
@@ -9434,8 +9434,8 @@
     "awayPlayer2":"cutteridge,delaney",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -10343,7 +10343,7 @@
       "smith,blaire",
       "foret,ashley",
       "kramer,bailey",
-      null
+      "deery,erin"
     ],
     "timeSeconds":68,
     "Poss":"otterbein",
@@ -10365,13 +10365,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -10408,6 +10408,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"summers,danielle",
+    "pointsEarned":"",
+    "awayLineup":[
+      "scholz,abbie",
+      "miduri,abby",
+      "cartnal,ali",
+      "campbell-muriente,ni",
+      "taylor,kiersten"
+    ],
+    "homeLineup":[
+      "muller,anna",
+      "smith,blaire",
+      "foret,ashley",
+      "kramer,bailey",
+      "deery,erin"
+    ],
+    "timeSeconds":68,
+    "Poss":"otterbein",
+    "possNum":28,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"otterbein",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":39,
+    "teamChanged":0,
+    "game":"RhodesOtterbein12\/17\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"muller,anna",
+    "homePlayer2":"smith,blaire",
+    "homePlayer3":"foret,ashley",
+    "homePlayer4":"kramer,bailey",
+    "homePlayer5":"deery,erin",
+    "awayPlayer1":"scholz,abbie",
+    "awayPlayer2":"miduri,abby",
+    "awayPlayer3":"cartnal,ali",
+    "awayPlayer4":"campbell-muriente,ni",
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
+  },
+  {
+    "gameID":"4681",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Otterbein",
+    "saaGame":"0",
+    "finalScore":"66-47",
+    "homeScoreByPeriod":"10,21,8,8,47",
+    "awayScoreByPeriod":"11,19,14,22,66",
+    "homeRecord":"1-7",
+    "awayRecord":"4-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/17\/16",
+    "startTime":"1:34 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Memphis, Tenn.",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"63",
+    "isNeutral":"False",
+    "timeRemaining":"01:08",
+    "awayPlay":"",
+    "awayTeamScore":"11 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"7",
+    "homePlay":"SUB OUT by KRAMER,BAILEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KRAMER,BAILEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"kramer,bailey",
     "pointsEarned":"",
     "awayLineup":[
       "scholz,abbie",
@@ -10477,15 +10555,15 @@
     "awayTeamScore":"11 ",
     "playTeamIndicator":"",
     "homeTeamScore":"7",
-    "homePlay":"SUB OUT by KRAMER,BAILEY",
+    "homePlay":"SUB OUT by FORET,ASHLEY",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by KRAMER,BAILEY",
+    "Play":"SUB OUT by FORET,ASHLEY",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"rhodes",
-    "Player":"kramer,bailey",
+    "Player":"foret,ashley",
     "pointsEarned":"",
     "awayLineup":[
       "scholz,abbie",
@@ -10555,84 +10633,6 @@
     "awayTeamScore":"11 ",
     "playTeamIndicator":"",
     "homeTeamScore":"7",
-    "homePlay":"SUB OUT by FORET,ASHLEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FORET,ASHLEY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"foret,ashley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "scholz,abbie",
-      "miduri,abby",
-      "cartnal,ali",
-      "campbell-muriente,ni",
-      "taylor,kiersten"
-    ],
-    "homeLineup":[
-      "muller,anna",
-      "smith,blaire",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":68,
-    "Poss":"otterbein",
-    "possNum":28,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"otterbein",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":39,
-    "teamChanged":0,
-    "game":"RhodesOtterbein12\/17\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"muller,anna",
-    "homePlayer2":"smith,blaire",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"scholz,abbie",
-    "awayPlayer2":"miduri,abby",
-    "awayPlayer3":"cartnal,ali",
-    "awayPlayer4":"campbell-muriente,ni",
-    "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4681",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Otterbein",
-    "saaGame":"0",
-    "finalScore":"66-47",
-    "homeScoreByPeriod":"10,21,8,8,47",
-    "awayScoreByPeriod":"11,19,14,22,66",
-    "homeRecord":"1-7",
-    "awayRecord":"4-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/17\/16",
-    "startTime":"1:34 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Memphis, Tenn.",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"63",
-    "isNeutral":"False",
-    "timeRemaining":"01:08",
-    "awayPlay":"",
-    "awayTeamScore":"11 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"7",
     "homePlay":"SUB IN by SMITH,BLAIRE",
     "gameScore":"",
     "teamIndicator":"",
@@ -10653,7 +10653,7 @@
     "homeLineup":[
       "muller,anna",
       "smith,blaire",
-      null,
+      "foret,ashley",
       null,
       null
     ],
@@ -10675,7 +10675,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"muller,anna",
     "homePlayer2":"smith,blaire",
-    "homePlayer3":null,
+    "homePlayer3":"foret,ashley",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
@@ -10732,7 +10732,7 @@
       "muller,anna",
       "smith,blaire",
       "ustick,jessie",
-      null,
+      "giesen,sara",
       null
     ],
     "timeSeconds":68,
@@ -10754,7 +10754,7 @@
     "homePlayer1":"muller,anna",
     "homePlayer2":"smith,blaire",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"giesen,sara",
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
@@ -10811,7 +10811,7 @@
       "smith,blaire",
       "ustick,jessie",
       "deery,erin",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":68,
     "Poss":"otterbein",
@@ -10833,13 +10833,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"deery,erin",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -11669,7 +11669,7 @@
       "deery,erin",
       "giesen,sara",
       "kramer,bailey",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":10,
     "Poss":"rhodes",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"deery,erin",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -12761,7 +12761,7 @@
       "deery,erin",
       "giesen,sara",
       "kramer,bailey",
-      null
+      "young,allie"
     ],
     "timeSeconds":557,
     "Poss":"otterbein",
@@ -12783,13 +12783,13 @@
     "homePlayer2":"deery,erin",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -13541,7 +13541,7 @@
       "giesen,sara",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":507,
     "Poss":"otterbein",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"giesen,sara",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -14243,7 +14243,7 @@
       "giesen,sara",
       "kramer,bailey",
       "summers,danielle",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":451,
     "Poss":"otterbein",
@@ -14265,13 +14265,13 @@
     "homePlayer2":"giesen,sara",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"summers,danielle",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -14308,6 +14308,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"deery,erin",
+    "pointsEarned":"",
+    "awayLineup":[
+      "scholz,abbie",
+      "miduri,abby",
+      "cartnal,ali",
+      "campbell-muriente,ni",
+      "taylor,kiersten"
+    ],
+    "homeLineup":[
+      "giesen,sara",
+      "kramer,bailey",
+      "summers,danielle",
+      "deery,erin",
+      null
+    ],
+    "timeSeconds":451,
+    "Poss":"otterbein",
+    "possNum":34,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"otterbein",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":51,
+    "teamChanged":0,
+    "game":"RhodesOtterbein12\/17\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"giesen,sara",
+    "homePlayer2":"kramer,bailey",
+    "homePlayer3":"summers,danielle",
+    "homePlayer4":"deery,erin",
+    "homePlayer5":null,
+    "awayPlayer1":"scholz,abbie",
+    "awayPlayer2":"miduri,abby",
+    "awayPlayer3":"cartnal,ali",
+    "awayPlayer4":"campbell-muriente,ni",
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":1
+  },
+  {
+    "gameID":"4681",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Otterbein",
+    "saaGame":"0",
+    "finalScore":"66-47",
+    "homeScoreByPeriod":"10,21,8,8,47",
+    "awayScoreByPeriod":"11,19,14,22,66",
+    "homeRecord":"1-7",
+    "awayRecord":"4-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/17\/16",
+    "startTime":"1:34 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Memphis, Tenn.",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"63",
+    "isNeutral":"False",
+    "timeRemaining":"07:31",
+    "awayPlay":"",
+    "awayTeamScore":"19 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"16",
+    "homePlay":"SUB OUT by SUMMERS,DANIELLE",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by SUMMERS,DANIELLE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"summers,danielle",
     "pointsEarned":"",
     "awayLineup":[
       "scholz,abbie",
@@ -14377,15 +14455,15 @@
     "awayTeamScore":"19 ",
     "playTeamIndicator":"",
     "homeTeamScore":"16",
-    "homePlay":"SUB OUT by SUMMERS,DANIELLE",
+    "homePlay":"SUB OUT by KRAMER,BAILEY",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by SUMMERS,DANIELLE",
+    "Play":"SUB OUT by KRAMER,BAILEY",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"rhodes",
-    "Player":"summers,danielle",
+    "Player":"kramer,bailey",
     "pointsEarned":"",
     "awayLineup":[
       "scholz,abbie",
@@ -14455,84 +14533,6 @@
     "awayTeamScore":"19 ",
     "playTeamIndicator":"",
     "homeTeamScore":"16",
-    "homePlay":"SUB OUT by KRAMER,BAILEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KRAMER,BAILEY",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"kramer,bailey",
-    "pointsEarned":"",
-    "awayLineup":[
-      "scholz,abbie",
-      "miduri,abby",
-      "cartnal,ali",
-      "campbell-muriente,ni",
-      "taylor,kiersten"
-    ],
-    "homeLineup":[
-      "giesen,sara",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":451,
-    "Poss":"otterbein",
-    "possNum":34,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"otterbein",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":51,
-    "teamChanged":0,
-    "game":"RhodesOtterbein12\/17\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"giesen,sara",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"scholz,abbie",
-    "awayPlayer2":"miduri,abby",
-    "awayPlayer3":"cartnal,ali",
-    "awayPlayer4":"campbell-muriente,ni",
-    "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4681",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Otterbein",
-    "saaGame":"0",
-    "finalScore":"66-47",
-    "homeScoreByPeriod":"10,21,8,8,47",
-    "awayScoreByPeriod":"11,19,14,22,66",
-    "homeRecord":"1-7",
-    "awayRecord":"4-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/17\/16",
-    "startTime":"1:34 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Memphis, Tenn.",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"63",
-    "isNeutral":"False",
-    "timeRemaining":"07:31",
-    "awayPlay":"",
-    "awayTeamScore":"19 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"16",
     "homePlay":"SUB OUT by FORET,ASHLEY",
     "gameScore":"",
     "teamIndicator":"",
@@ -14552,7 +14552,7 @@
     ],
     "homeLineup":[
       "giesen,sara",
-      null,
+      "kramer,bailey",
       null,
       null,
       null
@@ -14574,7 +14574,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"giesen,sara",
-    "homePlayer2":null,
+    "homePlayer2":"kramer,bailey",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -14631,7 +14631,7 @@
     "homeLineup":[
       "giesen,sara",
       "ustick,jessie",
-      null,
+      "overfield,kaelee",
       null,
       null
     ],
@@ -14653,7 +14653,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"giesen,sara",
     "homePlayer2":"ustick,jessie",
-    "homePlayer3":null,
+    "homePlayer3":"overfield,kaelee",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
@@ -14710,7 +14710,7 @@
       "giesen,sara",
       "ustick,jessie",
       "summers,danielle",
-      null,
+      "overfield,kaelee",
       null
     ],
     "timeSeconds":451,
@@ -14732,7 +14732,7 @@
     "homePlayer1":"giesen,sara",
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"summers,danielle",
-    "homePlayer4":null,
+    "homePlayer4":"overfield,kaelee",
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
@@ -14789,7 +14789,7 @@
       "ustick,jessie",
       "summers,danielle",
       "foret,ashley",
-      null
+      "overfield,kaelee"
     ],
     "timeSeconds":451,
     "Poss":"otterbein",
@@ -14811,13 +14811,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"overfield,kaelee",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"campbell-muriente,ni",
     "awayPlayer5":"taylor,kiersten",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -15881,7 +15881,7 @@
       "summers,danielle",
       "foret,ashley",
       "overfield,kaelee",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":388,
     "Poss":"otterbein",
@@ -15903,13 +15903,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -15959,7 +15959,7 @@
       "summers,danielle",
       "foret,ashley",
       "overfield,kaelee",
-      null
+      "kramer,bailey"
     ],
     "timeSeconds":388,
     "Poss":"otterbein",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"kramer,bailey",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -16427,7 +16427,7 @@
       "foret,ashley",
       "overfield,kaelee",
       "muller,anna",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":356,
     "Poss":"rhodes",
@@ -16449,13 +16449,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"scholz,abbie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -16505,7 +16505,7 @@
       "foret,ashley",
       "overfield,kaelee",
       "muller,anna",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":356,
     "Poss":"rhodes",
@@ -16527,13 +16527,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"overfield,kaelee",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"scholz,abbie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -16582,7 +16582,7 @@
       "foret,ashley",
       "overfield,kaelee",
       "muller,anna",
-      null,
+      "summers,danielle",
       null
     ],
     "timeSeconds":356,
@@ -16604,7 +16604,7 @@
     "homePlayer1":"foret,ashley",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"muller,anna",
-    "homePlayer4":null,
+    "homePlayer4":"summers,danielle",
     "homePlayer5":null,
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
@@ -16661,7 +16661,7 @@
       "overfield,kaelee",
       "muller,anna",
       "young,allie",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":356,
     "Poss":"rhodes",
@@ -16683,13 +16683,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"muller,anna",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"miduri,abby",
     "awayPlayer2":"campbell-muriente,ni",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"scholz,abbie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -16739,7 +16739,7 @@
       "overfield,kaelee",
       "muller,anna",
       "young,allie",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":356,
     "Poss":"rhodes",
@@ -16761,13 +16761,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"muller,anna",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"campbell-muriente,ni",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -17831,7 +17831,7 @@
       "muller,anna",
       "young,allie",
       "smith,blaire",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":287,
     "Poss":"otterbein",
@@ -17853,13 +17853,13 @@
     "homePlayer2":"muller,anna",
     "homePlayer3":"young,allie",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"campbell-muriente,ni",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -17909,7 +17909,7 @@
       "muller,anna",
       "young,allie",
       "smith,blaire",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":287,
     "Poss":"otterbein",
@@ -17931,13 +17931,13 @@
     "homePlayer2":"muller,anna",
     "homePlayer3":"young,allie",
     "homePlayer4":"smith,blaire",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"campbell-muriente,ni",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"cartnal,ali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -19859,7 +19859,7 @@
       "smith,blaire",
       "foret,ashley",
       "kramer,bailey",
-      null
+      "deery,erin"
     ],
     "timeSeconds":215,
     "Poss":"rhodes",
@@ -19881,13 +19881,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -19924,6 +19924,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"summers,danielle",
+    "pointsEarned":"",
+    "awayLineup":[
+      "cutteridge,delaney",
+      "scholz,abbie",
+      "cartnal,ali",
+      "pifher,taylor",
+      "miduri,abby"
+    ],
+    "homeLineup":[
+      "young,allie",
+      "smith,blaire",
+      "foret,ashley",
+      "kramer,bailey",
+      "deery,erin"
+    ],
+    "timeSeconds":215,
+    "Poss":"rhodes",
+    "possNum":45,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":68,
+    "teamChanged":0,
+    "game":"RhodesOtterbein12\/17\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"young,allie",
+    "homePlayer2":"smith,blaire",
+    "homePlayer3":"foret,ashley",
+    "homePlayer4":"kramer,bailey",
+    "homePlayer5":"deery,erin",
+    "awayPlayer1":"cutteridge,delaney",
+    "awayPlayer2":"scholz,abbie",
+    "awayPlayer3":"cartnal,ali",
+    "awayPlayer4":"pifher,taylor",
+    "awayPlayer5":"miduri,abby",
+    "playerMissing":0
+  },
+  {
+    "gameID":"4681",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Otterbein",
+    "saaGame":"0",
+    "finalScore":"66-47",
+    "homeScoreByPeriod":"10,21,8,8,47",
+    "awayScoreByPeriod":"11,19,14,22,66",
+    "homeRecord":"1-7",
+    "awayRecord":"4-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/17\/16",
+    "startTime":"1:34 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Memphis, Tenn.",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"63",
+    "isNeutral":"False",
+    "timeRemaining":"03:35",
+    "awayPlay":"",
+    "awayTeamScore":"27 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"21",
+    "homePlay":"SUB OUT by KRAMER,BAILEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KRAMER,BAILEY",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"kramer,bailey",
     "pointsEarned":"",
     "awayLineup":[
       "cutteridge,delaney",
@@ -19993,15 +20071,15 @@
     "awayTeamScore":"27 ",
     "playTeamIndicator":"",
     "homeTeamScore":"21",
-    "homePlay":"SUB OUT by KRAMER,BAILEY",
+    "homePlay":"SUB OUT by FORET,ASHLEY",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by KRAMER,BAILEY",
+    "Play":"SUB OUT by FORET,ASHLEY",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"rhodes",
-    "Player":"kramer,bailey",
+    "Player":"foret,ashley",
     "pointsEarned":"",
     "awayLineup":[
       "cutteridge,delaney",
@@ -20071,84 +20149,6 @@
     "awayTeamScore":"27 ",
     "playTeamIndicator":"",
     "homeTeamScore":"21",
-    "homePlay":"SUB OUT by FORET,ASHLEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FORET,ASHLEY",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"foret,ashley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "cutteridge,delaney",
-      "scholz,abbie",
-      "cartnal,ali",
-      "pifher,taylor",
-      "miduri,abby"
-    ],
-    "homeLineup":[
-      "young,allie",
-      "smith,blaire",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":215,
-    "Poss":"rhodes",
-    "possNum":45,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":68,
-    "teamChanged":0,
-    "game":"RhodesOtterbein12\/17\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"young,allie",
-    "homePlayer2":"smith,blaire",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"cutteridge,delaney",
-    "awayPlayer2":"scholz,abbie",
-    "awayPlayer3":"cartnal,ali",
-    "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":"miduri,abby",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4681",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Otterbein",
-    "saaGame":"0",
-    "finalScore":"66-47",
-    "homeScoreByPeriod":"10,21,8,8,47",
-    "awayScoreByPeriod":"11,19,14,22,66",
-    "homeRecord":"1-7",
-    "awayRecord":"4-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/17\/16",
-    "startTime":"1:34 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Memphis, Tenn.",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"63",
-    "isNeutral":"False",
-    "timeRemaining":"03:35",
-    "awayPlay":"",
-    "awayTeamScore":"27 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"21",
     "homePlay":"SUB IN by SMITH,BLAIRE",
     "gameScore":"",
     "teamIndicator":"",
@@ -20169,7 +20169,7 @@
     "homeLineup":[
       "young,allie",
       "smith,blaire",
-      null,
+      "foret,ashley",
       null,
       null
     ],
@@ -20191,7 +20191,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"young,allie",
     "homePlayer2":"smith,blaire",
-    "homePlayer3":null,
+    "homePlayer3":"foret,ashley",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cutteridge,delaney",
@@ -20248,7 +20248,7 @@
       "young,allie",
       "smith,blaire",
       "ustick,jessie",
-      null,
+      "giesen,sara",
       null
     ],
     "timeSeconds":215,
@@ -20270,7 +20270,7 @@
     "homePlayer1":"young,allie",
     "homePlayer2":"smith,blaire",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"giesen,sara",
     "homePlayer5":null,
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"scholz,abbie",
@@ -20327,7 +20327,7 @@
       "smith,blaire",
       "ustick,jessie",
       "deery,erin",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":215,
     "Poss":"rhodes",
@@ -20349,13 +20349,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"deery,erin",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -20865,7 +20865,7 @@
       "cutteridge,delaney",
       "scholz,abbie",
       "cartnal,ali",
-      null,
+      "miduri,abby",
       null
     ],
     "homeLineup":[
@@ -20899,7 +20899,7 @@
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"cartnal,ali",
-    "awayPlayer4":null,
+    "awayPlayer4":"miduri,abby",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20943,7 +20943,7 @@
       "cutteridge,delaney",
       "scholz,abbie",
       "cartnal,ali",
-      null,
+      "miduri,abby",
       null
     ],
     "homeLineup":[
@@ -20977,7 +20977,7 @@
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"cartnal,ali",
-    "awayPlayer4":null,
+    "awayPlayer4":"miduri,abby",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21022,7 +21022,7 @@
       "scholz,abbie",
       "cartnal,ali",
       "taylor,kiersten",
-      null
+      "miduri,abby"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -21056,8 +21056,8 @@
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"cartnal,ali",
     "awayPlayer4":"taylor,kiersten",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miduri,abby",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -22114,7 +22114,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "miduri,abby",
-      null
+      "kissel,dani"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -22148,8 +22148,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kissel,dani",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -22589,7 +22589,7 @@
       "ustick,jessie",
       "deery,erin",
       "kramer,bailey",
-      null
+      "summers,danielle"
     ],
     "timeSeconds":138,
     "Poss":"otterbein",
@@ -22611,13 +22611,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"deery,erin",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"summers,danielle",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -23752,7 +23752,7 @@
       "cartnal,ali",
       "miduri,abby",
       "cutteridge,delaney",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -23786,8 +23786,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"cutteridge,delaney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -23830,14 +23830,14 @@
       "cartnal,ali",
       "miduri,abby",
       "cutteridge,delaney",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "smith,blaire",
       "ustick,jessie",
       "deery,erin",
       "kramer,bailey",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":25,
     "Poss":"rhodes",
@@ -23859,13 +23859,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"deery,erin",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"cutteridge,delaney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -23915,7 +23915,7 @@
       "ustick,jessie",
       "deery,erin",
       "kramer,bailey",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":25,
     "Poss":"rhodes",
@@ -23937,13 +23937,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"deery,erin",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"cutteridge,delaney",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -25078,7 +25078,7 @@
       "miduri,abby",
       "cutteridge,delaney",
       "pifher,taylor",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "smith,blaire",
@@ -25112,8 +25112,8 @@
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -26489,7 +26489,7 @@
       "deery,erin",
       "kramer,bailey",
       "overfield,kaelee",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":400,
     "Poss":"rhodes",
@@ -26511,13 +26511,13 @@
     "homePlayer2":"deery,erin",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"merk,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -26566,7 +26566,7 @@
       "smith,blaire",
       "kramer,bailey",
       "overfield,kaelee",
-      null,
+      "deery,erin",
       null
     ],
     "timeSeconds":400,
@@ -26588,7 +26588,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"deery,erin",
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
@@ -26644,7 +26644,7 @@
       "smith,blaire",
       "kramer,bailey",
       "overfield,kaelee",
-      null,
+      "deery,erin",
       null
     ],
     "timeSeconds":400,
@@ -26666,7 +26666,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"kramer,bailey",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"deery,erin",
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
@@ -26721,7 +26721,7 @@
     "homeLineup":[
       "smith,blaire",
       "overfield,kaelee",
-      null,
+      "kramer,bailey",
       null,
       null
     ],
@@ -26743,7 +26743,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"smith,blaire",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"kramer,bailey",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
@@ -26799,7 +26799,7 @@
     "homeLineup":[
       "smith,blaire",
       "overfield,kaelee",
-      null,
+      "kramer,bailey",
       null,
       null
     ],
@@ -26821,7 +26821,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"smith,blaire",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"kramer,bailey",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
@@ -26877,7 +26877,7 @@
     "homeLineup":[
       "smith,blaire",
       "overfield,kaelee",
-      null,
+      "kramer,bailey",
       null,
       null
     ],
@@ -26899,7 +26899,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"smith,blaire",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"kramer,bailey",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
@@ -26956,7 +26956,7 @@
       "smith,blaire",
       "overfield,kaelee",
       "deery,erin",
-      null,
+      "giesen,sara",
       null
     ],
     "timeSeconds":400,
@@ -26978,7 +26978,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"deery,erin",
-    "homePlayer4":null,
+    "homePlayer4":"giesen,sara",
     "homePlayer5":null,
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
@@ -27035,7 +27035,7 @@
       "overfield,kaelee",
       "deery,erin",
       "foret,ashley",
-      null
+      "giesen,sara"
     ],
     "timeSeconds":400,
     "Poss":"rhodes",
@@ -27057,13 +27057,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"deery,erin",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"giesen,sara",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"merk,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -29843,7 +29843,7 @@
       "foret,ashley",
       "young,allie",
       "muller,anna",
-      null
+      "deery,erin"
     ],
     "timeSeconds":282,
     "Poss":"otterbein",
@@ -29865,13 +29865,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"young,allie",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"merk,sydney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -29921,7 +29921,7 @@
       "foret,ashley",
       "young,allie",
       "muller,anna",
-      null
+      "deery,erin"
     ],
     "timeSeconds":282,
     "Poss":"otterbein",
@@ -29943,13 +29943,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"young,allie",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"merk,sydney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -29999,7 +29999,7 @@
       "foret,ashley",
       "young,allie",
       "muller,anna",
-      null
+      "deery,erin"
     ],
     "timeSeconds":282,
     "Poss":"otterbein",
@@ -30021,13 +30021,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"young,allie",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"merk,sydney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -30076,7 +30076,7 @@
       "overfield,kaelee",
       "young,allie",
       "muller,anna",
-      null,
+      "smith,blaire",
       null
     ],
     "timeSeconds":282,
@@ -30098,7 +30098,7 @@
     "homePlayer1":"overfield,kaelee",
     "homePlayer2":"young,allie",
     "homePlayer3":"muller,anna",
-    "homePlayer4":null,
+    "homePlayer4":"smith,blaire",
     "homePlayer5":null,
     "awayPlayer1":"merk,sydney",
     "awayPlayer2":"cartnal,ali",
@@ -30155,7 +30155,7 @@
       "young,allie",
       "muller,anna",
       "summers,danielle",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":282,
     "Poss":"otterbein",
@@ -30177,13 +30177,13 @@
     "homePlayer2":"young,allie",
     "homePlayer3":"muller,anna",
     "homePlayer4":"summers,danielle",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"merk,sydney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -31637,7 +31637,7 @@
       "summers,danielle",
       "foret,ashley",
       "kramer,bailey",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":256,
     "Poss":"otterbein",
@@ -31659,13 +31659,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"kramer,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"taylor,kiersten",
     "awayPlayer2":"scholz,abbie",
     "awayPlayer3":"kissel,dani",
     "awayPlayer4":"miduri,abby",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -32963,7 +32963,7 @@
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -32985,13 +32985,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33041,7 +33041,7 @@
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -33063,13 +33063,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33119,7 +33119,7 @@
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -33141,13 +33141,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33197,7 +33197,7 @@
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -33219,13 +33219,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33275,7 +33275,7 @@
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -33297,13 +33297,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"cutteridge,delaney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33346,14 +33346,14 @@
       "kissel,dani",
       "miduri,abby",
       "cutteridge,delaney",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "muller,anna",
       "foret,ashley",
       "kramer,bailey",
       "ustick,jessie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":166,
     "Poss":"rhodes",
@@ -33375,13 +33375,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"kramer,bailey",
     "homePlayer4":"ustick,jessie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"cutteridge,delaney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -33424,7 +33424,7 @@
       "kissel,dani",
       "miduri,abby",
       "cutteridge,delaney",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "muller,anna",
@@ -33458,8 +33458,8 @@
     "awayPlayer2":"kissel,dani",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"cutteridge,delaney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -34211,7 +34211,7 @@
       "ustick,jessie",
       "smith,blaire",
       "giesen,sara",
-      null
+      "foret,ashley"
     ],
     "timeSeconds":117,
     "Poss":"rhodes",
@@ -34233,13 +34233,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"smith,blaire",
     "homePlayer4":"giesen,sara",
-    "homePlayer5":null,
+    "homePlayer5":"foret,ashley",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -35218,7 +35218,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "pifher,taylor",
-      null
+      "miduri,abby"
     ],
     "homeLineup":[
       "kramer,bailey",
@@ -35252,8 +35252,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miduri,abby",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -35771,7 +35771,7 @@
       "ustick,jessie",
       "smith,blaire",
       "giesen,sara",
-      null
+      "deery,erin"
     ],
     "timeSeconds":551,
     "Poss":"otterbein",
@@ -35793,13 +35793,13 @@
     "homePlayer2":"ustick,jessie",
     "homePlayer3":"smith,blaire",
     "homePlayer4":"giesen,sara",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -36707,7 +36707,7 @@
       "smith,blaire",
       "giesen,sara",
       "foret,ashley",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":467,
     "Poss":"otterbein",
@@ -36729,13 +36729,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -36785,7 +36785,7 @@
       "smith,blaire",
       "giesen,sara",
       "foret,ashley",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":467,
     "Poss":"otterbein",
@@ -36807,13 +36807,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -36863,7 +36863,7 @@
       "smith,blaire",
       "giesen,sara",
       "foret,ashley",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":467,
     "Poss":"otterbein",
@@ -36885,13 +36885,13 @@
     "homePlayer2":"smith,blaire",
     "homePlayer3":"giesen,sara",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -36928,6 +36928,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"kramer,bailey",
+    "pointsEarned":"",
+    "awayLineup":[
+      "cutteridge,delaney",
+      "cartnal,ali",
+      "taylor,kiersten",
+      "pifher,taylor",
+      "miduri,abby"
+    ],
+    "homeLineup":[
+      "smith,blaire",
+      "giesen,sara",
+      "foret,ashley",
+      "kramer,bailey",
+      null
+    ],
+    "timeSeconds":467,
+    "Poss":"otterbein",
+    "possNum":68,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":118,
+    "teamChanged":0,
+    "game":"RhodesOtterbein12\/17\/16",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"smith,blaire",
+    "homePlayer2":"giesen,sara",
+    "homePlayer3":"foret,ashley",
+    "homePlayer4":"kramer,bailey",
+    "homePlayer5":null,
+    "awayPlayer1":"cutteridge,delaney",
+    "awayPlayer2":"cartnal,ali",
+    "awayPlayer3":"taylor,kiersten",
+    "awayPlayer4":"pifher,taylor",
+    "awayPlayer5":"miduri,abby",
+    "playerMissing":1
+  },
+  {
+    "gameID":"4681",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Otterbein",
+    "saaGame":"0",
+    "finalScore":"66-47",
+    "homeScoreByPeriod":"10,21,8,8,47",
+    "awayScoreByPeriod":"11,19,14,22,66",
+    "homeRecord":"1-7",
+    "awayRecord":"4-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/17\/16",
+    "startTime":"1:34 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Memphis, Tenn.",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"63",
+    "isNeutral":"False",
+    "timeRemaining":"07:47",
+    "awayPlay":"",
+    "awayTeamScore":"48 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"41",
+    "homePlay":"SUB OUT by FORET,ASHLEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FORET,ASHLEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"foret,ashley",
     "pointsEarned":"",
     "awayLineup":[
       "cutteridge,delaney",
@@ -36997,84 +37075,6 @@
     "awayTeamScore":"48 ",
     "playTeamIndicator":"",
     "homeTeamScore":"41",
-    "homePlay":"SUB OUT by FORET,ASHLEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FORET,ASHLEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"foret,ashley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "cutteridge,delaney",
-      "cartnal,ali",
-      "taylor,kiersten",
-      "pifher,taylor",
-      "miduri,abby"
-    ],
-    "homeLineup":[
-      "smith,blaire",
-      "giesen,sara",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":467,
-    "Poss":"otterbein",
-    "possNum":68,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":118,
-    "teamChanged":0,
-    "game":"RhodesOtterbein12\/17\/16",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"smith,blaire",
-    "homePlayer2":"giesen,sara",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"cutteridge,delaney",
-    "awayPlayer2":"cartnal,ali",
-    "awayPlayer3":"taylor,kiersten",
-    "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":"miduri,abby",
-    "playerMissing":1
-  },
-  {
-    "gameID":"4681",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Otterbein",
-    "saaGame":"0",
-    "finalScore":"66-47",
-    "homeScoreByPeriod":"10,21,8,8,47",
-    "awayScoreByPeriod":"11,19,14,22,66",
-    "homeRecord":"1-7",
-    "awayRecord":"4-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/17\/16",
-    "startTime":"1:34 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Memphis, Tenn.",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"63",
-    "isNeutral":"False",
-    "timeRemaining":"07:47",
-    "awayPlay":"",
-    "awayTeamScore":"48 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"41",
     "homePlay":"SUB IN by USTICK,JESSIE",
     "gameScore":"",
     "teamIndicator":"",
@@ -37096,7 +37096,7 @@
       "smith,blaire",
       "giesen,sara",
       "ustick,jessie",
-      null,
+      "muller,anna",
       null
     ],
     "timeSeconds":467,
@@ -37118,7 +37118,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"giesen,sara",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"muller,anna",
     "homePlayer5":null,
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
@@ -37174,7 +37174,7 @@
       "smith,blaire",
       "giesen,sara",
       "ustick,jessie",
-      null,
+      "muller,anna",
       null
     ],
     "timeSeconds":467,
@@ -37196,7 +37196,7 @@
     "homePlayer1":"smith,blaire",
     "homePlayer2":"giesen,sara",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"muller,anna",
     "homePlayer5":null,
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
@@ -37253,7 +37253,7 @@
       "giesen,sara",
       "ustick,jessie",
       "summers,danielle",
-      null
+      "muller,anna"
     ],
     "timeSeconds":467,
     "Poss":"otterbein",
@@ -37275,13 +37275,13 @@
     "homePlayer2":"giesen,sara",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"summers,danielle",
-    "homePlayer5":null,
+    "homePlayer5":"muller,anna",
     "awayPlayer1":"cutteridge,delaney",
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"pifher,taylor",
     "awayPlayer5":"miduri,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -37792,7 +37792,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "miduri,abby",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "giesen,sara",
@@ -37826,8 +37826,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -37870,7 +37870,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "miduri,abby",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "giesen,sara",
@@ -37904,8 +37904,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -37948,7 +37948,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "miduri,abby",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "giesen,sara",
@@ -37982,8 +37982,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -38026,7 +38026,7 @@
       "cartnal,ali",
       "taylor,kiersten",
       "miduri,abby",
-      null
+      "pifher,taylor"
     ],
     "homeLineup":[
       "giesen,sara",
@@ -38060,8 +38060,8 @@
     "awayPlayer2":"cartnal,ali",
     "awayPlayer3":"taylor,kiersten",
     "awayPlayer4":"miduri,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pifher,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -38501,7 +38501,7 @@
       "summers,danielle",
       "foret,ashley",
       "young,allie",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":448,
     "Poss":"otterbein",
@@ -38523,13 +38523,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"foret,ashley",
     "homePlayer4":"young,allie",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -40061,7 +40061,7 @@
       "foret,ashley",
       "young,allie",
       "overfield,kaelee",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":330,
     "Poss":"otterbein",
@@ -40083,13 +40083,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"young,allie",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -40139,7 +40139,7 @@
       "foret,ashley",
       "young,allie",
       "overfield,kaelee",
-      null
+      "ustick,jessie"
     ],
     "timeSeconds":330,
     "Poss":"otterbein",
@@ -40161,13 +40161,13 @@
     "homePlayer2":"foret,ashley",
     "homePlayer3":"young,allie",
     "homePlayer4":"overfield,kaelee",
-    "homePlayer5":null,
+    "homePlayer5":"ustick,jessie",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -40216,7 +40216,7 @@
       "foret,ashley",
       "young,allie",
       "overfield,kaelee",
-      null,
+      "smith,blaire",
       null
     ],
     "timeSeconds":330,
@@ -40238,7 +40238,7 @@
     "homePlayer1":"foret,ashley",
     "homePlayer2":"young,allie",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"smith,blaire",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
@@ -40294,7 +40294,7 @@
       "foret,ashley",
       "young,allie",
       "overfield,kaelee",
-      null,
+      "smith,blaire",
       null
     ],
     "timeSeconds":330,
@@ -40316,7 +40316,7 @@
     "homePlayer1":"foret,ashley",
     "homePlayer2":"young,allie",
     "homePlayer3":"overfield,kaelee",
-    "homePlayer4":null,
+    "homePlayer4":"smith,blaire",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
@@ -40371,7 +40371,7 @@
     "homeLineup":[
       "young,allie",
       "overfield,kaelee",
-      null,
+      "smith,blaire",
       null,
       null
     ],
@@ -40393,7 +40393,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"young,allie",
     "homePlayer2":"overfield,kaelee",
-    "homePlayer3":null,
+    "homePlayer3":"smith,blaire",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
@@ -40450,7 +40450,7 @@
       "young,allie",
       "overfield,kaelee",
       "smith,blaire",
-      null,
+      "muller,anna",
       null
     ],
     "timeSeconds":330,
@@ -40472,7 +40472,7 @@
     "homePlayer1":"young,allie",
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"smith,blaire",
-    "homePlayer4":null,
+    "homePlayer4":"muller,anna",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
@@ -40529,7 +40529,7 @@
       "overfield,kaelee",
       "smith,blaire",
       "deery,erin",
-      null
+      "muller,anna"
     ],
     "timeSeconds":330,
     "Poss":"otterbein",
@@ -40551,13 +40551,13 @@
     "homePlayer2":"overfield,kaelee",
     "homePlayer3":"smith,blaire",
     "homePlayer4":"deery,erin",
-    "homePlayer5":null,
+    "homePlayer5":"muller,anna",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"miduri,abby",
     "awayPlayer4":"scholz,abbie",
     "awayPlayer5":"kissel,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -41068,7 +41068,7 @@
       "miduri,abby",
       "scholz,abbie",
       "kissel,dani",
-      null
+      "taylor,kiersten"
     ],
     "homeLineup":[
       "overfield,kaelee",
@@ -41102,8 +41102,8 @@
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"kissel,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,kiersten",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -42089,7 +42089,7 @@
       "deery,erin",
       "summers,danielle",
       "muller,anna",
-      null
+      "smith,blaire"
     ],
     "timeSeconds":259,
     "Poss":"otterbein",
@@ -42111,13 +42111,13 @@
     "homePlayer2":"deery,erin",
     "homePlayer3":"summers,danielle",
     "homePlayer4":"muller,anna",
-    "homePlayer5":null,
+    "homePlayer5":"smith,blaire",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"kissel,dani",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -42557,7 +42557,7 @@
       "summers,danielle",
       "muller,anna",
       "foret,ashley",
-      null
+      "deery,erin"
     ],
     "timeSeconds":244,
     "Poss":"rhodes",
@@ -42579,13 +42579,13 @@
     "homePlayer2":"summers,danielle",
     "homePlayer3":"muller,anna",
     "homePlayer4":"foret,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"deery,erin",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"kissel,dani",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -42634,7 +42634,7 @@
       "overfield,kaelee",
       "muller,anna",
       "foret,ashley",
-      null,
+      "summers,danielle",
       null
     ],
     "timeSeconds":244,
@@ -42656,7 +42656,7 @@
     "homePlayer1":"overfield,kaelee",
     "homePlayer2":"muller,anna",
     "homePlayer3":"foret,ashley",
-    "homePlayer4":null,
+    "homePlayer4":"summers,danielle",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
@@ -42712,7 +42712,7 @@
       "overfield,kaelee",
       "muller,anna",
       "foret,ashley",
-      null,
+      "summers,danielle",
       null
     ],
     "timeSeconds":244,
@@ -42734,7 +42734,7 @@
     "homePlayer1":"overfield,kaelee",
     "homePlayer2":"muller,anna",
     "homePlayer3":"foret,ashley",
-    "homePlayer4":null,
+    "homePlayer4":"summers,danielle",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
@@ -42789,7 +42789,7 @@
     "homeLineup":[
       "overfield,kaelee",
       "muller,anna",
-      null,
+      "foret,ashley",
       null,
       null
     ],
@@ -42811,7 +42811,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"overfield,kaelee",
     "homePlayer2":"muller,anna",
-    "homePlayer3":null,
+    "homePlayer3":"foret,ashley",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
@@ -42868,7 +42868,7 @@
       "overfield,kaelee",
       "muller,anna",
       "ustick,jessie",
-      null,
+      "young,allie",
       null
     ],
     "timeSeconds":244,
@@ -42890,7 +42890,7 @@
     "homePlayer1":"overfield,kaelee",
     "homePlayer2":"muller,anna",
     "homePlayer3":"ustick,jessie",
-    "homePlayer4":null,
+    "homePlayer4":"young,allie",
     "homePlayer5":null,
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
@@ -42947,7 +42947,7 @@
       "muller,anna",
       "ustick,jessie",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "timeSeconds":244,
     "Poss":"rhodes",
@@ -42969,13 +42969,13 @@
     "homePlayer2":"muller,anna",
     "homePlayer3":"ustick,jessie",
     "homePlayer4":"deery,erin",
-    "homePlayer5":null,
+    "homePlayer5":"young,allie",
     "awayPlayer1":"cartnal,ali",
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"kissel,dani",
     "awayPlayer5":"pifher,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -43486,7 +43486,7 @@
       "miduri,abby",
       "scholz,abbie",
       "kissel,dani",
-      null
+      "cutteridge,delaney"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -43520,8 +43520,8 @@
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"kissel,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cutteridge,delaney",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -45514,7 +45514,7 @@
       "miduri,abby",
       "scholz,abbie",
       "taylor,kiersten",
-      null
+      "kissel,dani"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -45548,8 +45548,8 @@
     "awayPlayer2":"miduri,abby",
     "awayPlayer3":"scholz,abbie",
     "awayPlayer4":"taylor,kiersten",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kissel,dani",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -47386,7 +47386,7 @@
       "taylor,kiersten",
       "cutteridge,delaney",
       "pifher,taylor",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -47420,8 +47420,8 @@
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -47464,7 +47464,7 @@
       "taylor,kiersten",
       "cutteridge,delaney",
       "pifher,taylor",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -47498,8 +47498,8 @@
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -47542,7 +47542,7 @@
       "taylor,kiersten",
       "cutteridge,delaney",
       "pifher,taylor",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -47576,8 +47576,8 @@
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"pifher,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -47619,7 +47619,7 @@
       "scholz,abbie",
       "taylor,kiersten",
       "cutteridge,delaney",
-      null,
+      "cartnal,ali",
       null
     ],
     "homeLineup":[
@@ -47653,7 +47653,7 @@
     "awayPlayer1":"scholz,abbie",
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
-    "awayPlayer4":null,
+    "awayPlayer4":"cartnal,ali",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -47698,7 +47698,7 @@
       "taylor,kiersten",
       "cutteridge,delaney",
       "royer,ronni",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -47732,8 +47732,8 @@
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"royer,ronni",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",
@@ -47776,7 +47776,7 @@
       "taylor,kiersten",
       "cutteridge,delaney",
       "royer,ronni",
-      null
+      "cartnal,ali"
     ],
     "homeLineup":[
       "ustick,jessie",
@@ -47810,8 +47810,8 @@
     "awayPlayer2":"taylor,kiersten",
     "awayPlayer3":"cutteridge,delaney",
     "awayPlayer4":"royer,ronni",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cartnal,ali",
+    "playerMissing":0
   },
   {
     "gameID":"4681",

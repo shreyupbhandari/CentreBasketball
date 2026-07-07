@@ -1217,7 +1217,7 @@
       "joseph,abbi",
       "carruthers,courtney",
       "gardner,libby",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":484,
     "Poss":"sewanee",
@@ -1239,13 +1239,13 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"young,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -1294,7 +1294,7 @@
       "eckenrod,elsa",
       "joseph,abbi",
       "carruthers,courtney",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":484,
@@ -1316,7 +1316,7 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
@@ -1373,7 +1373,7 @@
       "joseph,abbi",
       "carruthers,courtney",
       "wandell,kelley",
-      null
+      "totals"
     ],
     "timeSeconds":484,
     "Poss":"sewanee",
@@ -1395,13 +1395,13 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"young,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -2309,7 +2309,7 @@
       "carruthers,courtney",
       "wandell,kelley",
       "varney,klaire",
-      null
+      "joseph,abbi"
     ],
     "timeSeconds":376,
     "Poss":"maryville (tn)",
@@ -2331,13 +2331,13 @@
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"joseph,abbi",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"young,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -2386,7 +2386,7 @@
       "eckenrod,elsa",
       "wandell,kelley",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":376,
@@ -2408,7 +2408,7 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"wandell,kelley",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
@@ -2465,7 +2465,7 @@
       "wandell,kelley",
       "varney,klaire",
       "hix,shelby",
-      null
+      "totals"
     ],
     "timeSeconds":376,
     "Poss":"maryville (tn)",
@@ -2487,13 +2487,13 @@
     "homePlayer2":"wandell,kelley",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"bombassi,bella",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"young,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -3862,6 +3862,84 @@
       "waller,raquel",
       "treanton,ellie",
       "young,abby",
+      "bombassi,bella"
+    ],
+    "homeLineup":[
+      "eckenrod,elsa",
+      "wandell,kelley",
+      "varney,klaire",
+      "hix,shelby",
+      "gardner,libby"
+    ],
+    "timeSeconds":282,
+    "Poss":"maryville (tn)",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":18,
+    "teamChanged":0,
+    "game":"Maryville (TN)Sewanee01\/01\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"eckenrod,elsa",
+    "homePlayer2":"wandell,kelley",
+    "homePlayer3":"varney,klaire",
+    "homePlayer4":"hix,shelby",
+    "homePlayer5":"gardner,libby",
+    "awayPlayer1":"logan,kinsley",
+    "awayPlayer2":"waller,raquel",
+    "awayPlayer3":"treanton,ellie",
+    "awayPlayer4":"young,abby",
+    "awayPlayer5":"bombassi,bella",
+    "playerMissing":0
+  },
+  {
+    "gameID":"3308",
+    "homeTeam":"Maryville (TN)",
+    "awayTeam":"Sewanee",
+    "saaGame":"0",
+    "finalScore":"47-76",
+    "homeScoreByPeriod":"18,19,26,13,76",
+    "awayScoreByPeriod":"9,7,24,7,47",
+    "homeRecord":"9-4",
+    "awayRecord":"5-6",
+    "homeConfRecord":"2-2",
+    "awayConfRecord":"1-0",
+    "gameDate":"01\/01\/20",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"N\/A",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"288",
+    "isNeutral":"False",
+    "timeRemaining":"04:42",
+    "awayPlay":"SUB OUT by YOUNG,ABBY",
+    "awayTeamScore":"5",
+    "playTeamIndicator":"",
+    "homeTeamScore":"15 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by YOUNG,ABBY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"young,abby",
+    "pointsEarned":"",
+    "awayLineup":[
+      "logan,kinsley",
+      "waller,raquel",
+      "treanton,ellie",
+      "young,abby",
       null
     ],
     "homeLineup":[
@@ -3921,84 +3999,6 @@
     "attendance":"288",
     "isNeutral":"False",
     "timeRemaining":"04:42",
-    "awayPlay":"SUB OUT by YOUNG,ABBY",
-    "awayTeamScore":"5",
-    "playTeamIndicator":"",
-    "homeTeamScore":"15 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by YOUNG,ABBY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"young,abby",
-    "pointsEarned":"",
-    "awayLineup":[
-      "logan,kinsley",
-      "waller,raquel",
-      "treanton,ellie",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "eckenrod,elsa",
-      "wandell,kelley",
-      "varney,klaire",
-      "hix,shelby",
-      "gardner,libby"
-    ],
-    "timeSeconds":282,
-    "Poss":"maryville (tn)",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":18,
-    "teamChanged":0,
-    "game":"Maryville (TN)Sewanee01\/01\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"eckenrod,elsa",
-    "homePlayer2":"wandell,kelley",
-    "homePlayer3":"varney,klaire",
-    "homePlayer4":"hix,shelby",
-    "homePlayer5":"gardner,libby",
-    "awayPlayer1":"logan,kinsley",
-    "awayPlayer2":"waller,raquel",
-    "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3308",
-    "homeTeam":"Maryville (TN)",
-    "awayTeam":"Sewanee",
-    "saaGame":"0",
-    "finalScore":"47-76",
-    "homeScoreByPeriod":"18,19,26,13,76",
-    "awayScoreByPeriod":"9,7,24,7,47",
-    "homeRecord":"9-4",
-    "awayRecord":"5-6",
-    "homeConfRecord":"2-2",
-    "awayConfRecord":"1-0",
-    "gameDate":"01\/01\/20",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"N\/A",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"288",
-    "isNeutral":"False",
-    "timeRemaining":"04:42",
     "awayPlay":"SUB OUT by WALLER,RAQUEL",
     "awayTeamScore":"5",
     "playTeamIndicator":"",
@@ -4016,7 +4016,7 @@
     "awayLineup":[
       "logan,kinsley",
       "treanton,ellie",
-      null,
+      "waller,raquel",
       null,
       null
     ],
@@ -4050,7 +4050,7 @@
     "homePlayer5":"gardner,libby",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
-    "awayPlayer3":null,
+    "awayPlayer3":"waller,raquel",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -4095,7 +4095,7 @@
       "logan,kinsley",
       "treanton,ellie",
       "phillips,lakeisha",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4129,7 +4129,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"phillips,lakeisha",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4174,7 +4174,7 @@
       "treanton,ellie",
       "phillips,lakeisha",
       "stewart,ashley",
-      null
+      "totals"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -4208,8 +4208,8 @@
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"stewart,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -4961,7 +4961,7 @@
       "varney,klaire",
       "hix,shelby",
       "gardner,libby",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":229,
     "Poss":"maryville (tn)",
@@ -4983,13 +4983,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -5038,7 +5038,7 @@
       "varney,klaire",
       "hix,shelby",
       "gardner,libby",
-      null,
+      "eckenrod,elsa",
       null
     ],
     "timeSeconds":229,
@@ -5060,7 +5060,7 @@
     "homePlayer1":"varney,klaire",
     "homePlayer2":"hix,shelby",
     "homePlayer3":"gardner,libby",
-    "homePlayer4":null,
+    "homePlayer4":"eckenrod,elsa",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
@@ -5117,7 +5117,7 @@
       "hix,shelby",
       "gardner,libby",
       "jerrolds,holland",
-      null
+      "totals"
     ],
     "timeSeconds":229,
     "Poss":"maryville (tn)",
@@ -5139,13 +5139,13 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"jerrolds,holland",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -6209,7 +6209,7 @@
       "gardner,libby",
       "jerrolds,holland",
       "carruthers,courtney",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":166,
     "Poss":"maryville (tn)",
@@ -6231,13 +6231,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"jerrolds,holland",
     "homePlayer4":"carruthers,courtney",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -6592,7 +6592,7 @@
       "treanton,ellie",
       "stewart,ashley",
       "broussard,camryn",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -6626,8 +6626,8 @@
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -6669,7 +6669,7 @@
       "logan,kinsley",
       "stewart,ashley",
       "broussard,camryn",
-      null,
+      "treanton,ellie",
       null
     ],
     "homeLineup":[
@@ -6703,7 +6703,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"broussard,camryn",
-    "awayPlayer4":null,
+    "awayPlayer4":"treanton,ellie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6748,7 +6748,7 @@
       "stewart,ashley",
       "broussard,camryn",
       "bombassi,bella",
-      null
+      "totals"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -6782,8 +6782,8 @@
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"broussard,camryn",
     "awayPlayer4":"bombassi,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -7067,7 +7067,7 @@
       "jerrolds,holland",
       "carruthers,courtney",
       "joseph,abbi",
-      null
+      "varney,klaire"
     ],
     "timeSeconds":135,
     "Poss":"maryville (tn)",
@@ -7089,13 +7089,13 @@
     "homePlayer2":"jerrolds,holland",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"varney,klaire",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"broussard,camryn",
     "awayPlayer4":"bombassi,bella",
     "awayPlayer5":"waller,raquel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -8308,7 +8308,7 @@
       "stewart,ashley",
       "broussard,camryn",
       "waller,raquel",
-      null
+      "bombassi,bella"
     ],
     "homeLineup":[
       "gardner,libby",
@@ -8342,8 +8342,8 @@
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"broussard,camryn",
     "awayPlayer4":"waller,raquel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bombassi,bella",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -8385,7 +8385,7 @@
       "logan,kinsley",
       "broussard,camryn",
       "waller,raquel",
-      null,
+      "stewart,ashley",
       null
     ],
     "homeLineup":[
@@ -8419,7 +8419,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"broussard,camryn",
     "awayPlayer3":"waller,raquel",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8462,7 +8462,7 @@
     "awayLineup":[
       "broussard,camryn",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null,
       null
     ],
@@ -8496,7 +8496,7 @@
     "homePlayer5":"harmon,hayley",
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
-    "awayPlayer3":null,
+    "awayPlayer3":"logan,kinsley",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -8541,7 +8541,7 @@
       "broussard,camryn",
       "waller,raquel",
       "hitchcock,allison",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -8575,7 +8575,7 @@
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"hitchcock,allison",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8620,7 +8620,7 @@
       "waller,raquel",
       "hitchcock,allison",
       "young,abby",
-      null
+      "totals"
     ],
     "homeLineup":[
       "gardner,libby",
@@ -8654,8 +8654,8 @@
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"young,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -9017,7 +9017,7 @@
       "jerrolds,holland",
       "carruthers,courtney",
       "joseph,abbi",
-      null
+      "harmon,hayley"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -9039,13 +9039,13 @@
     "homePlayer2":"jerrolds,holland",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"harmon,hayley",
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"young,abby",
     "awayPlayer5":"treanton,ellie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -9094,7 +9094,7 @@
       "gardner,libby",
       "jerrolds,holland",
       "carruthers,courtney",
-      null,
+      "joseph,abbi",
       null
     ],
     "timeSeconds":600,
@@ -9116,7 +9116,7 @@
     "homePlayer1":"gardner,libby",
     "homePlayer2":"jerrolds,holland",
     "homePlayer3":"carruthers,courtney",
-    "homePlayer4":null,
+    "homePlayer4":"joseph,abbi",
     "homePlayer5":null,
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
@@ -9171,7 +9171,7 @@
     "homeLineup":[
       "gardner,libby",
       "carruthers,courtney",
-      null,
+      "jerrolds,holland",
       null,
       null
     ],
@@ -9193,7 +9193,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"gardner,libby",
     "homePlayer2":"carruthers,courtney",
-    "homePlayer3":null,
+    "homePlayer3":"jerrolds,holland",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"broussard,camryn",
@@ -9248,7 +9248,7 @@
     ],
     "homeLineup":[
       "carruthers,courtney",
-      null,
+      "gardner,libby",
       null,
       null,
       null
@@ -9270,7 +9270,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"carruthers,courtney",
-    "homePlayer2":null,
+    "homePlayer2":"gardner,libby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -9327,7 +9327,7 @@
     "homeLineup":[
       "carruthers,courtney",
       "hix,shelby",
-      null,
+      "totals",
       null,
       null
     ],
@@ -9349,7 +9349,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"carruthers,courtney",
     "homePlayer2":"hix,shelby",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"broussard,camryn",
@@ -9406,7 +9406,7 @@
       "carruthers,courtney",
       "hix,shelby",
       "wandell,kelley",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":600,
@@ -9428,7 +9428,7 @@
     "homePlayer1":"carruthers,courtney",
     "homePlayer2":"hix,shelby",
     "homePlayer3":"wandell,kelley",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
@@ -9485,7 +9485,7 @@
       "hix,shelby",
       "wandell,kelley",
       "eckenrod,elsa",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -9507,13 +9507,13 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"eckenrod,elsa",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"broussard,camryn",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"young,abby",
     "awayPlayer5":"treanton,ellie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -10024,7 +10024,7 @@
       "waller,raquel",
       "hitchcock,allison",
       "treanton,ellie",
-      null
+      "young,abby"
     ],
     "homeLineup":[
       "carruthers,courtney",
@@ -10058,8 +10058,8 @@
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"treanton,ellie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,abby",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -10101,7 +10101,7 @@
       "waller,raquel",
       "hitchcock,allison",
       "treanton,ellie",
-      null,
+      "broussard,camryn",
       null
     ],
     "homeLineup":[
@@ -10135,7 +10135,7 @@
     "awayPlayer1":"waller,raquel",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
+    "awayPlayer4":"broussard,camryn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10180,7 +10180,7 @@
       "hitchcock,allison",
       "treanton,ellie",
       "phillips,lakeisha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "carruthers,courtney",
@@ -10214,8 +10214,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"phillips,lakeisha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -11045,7 +11045,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":519,
     "Poss":"maryville (tn)",
@@ -11067,13 +11067,13 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"eckenrod,elsa",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"waller,raquel",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"phillips,lakeisha",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -11122,7 +11122,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":519,
@@ -11144,7 +11144,7 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"waller,raquel",
     "awayPlayer2":"hitchcock,allison",
@@ -11201,7 +11201,7 @@
       "eckenrod,elsa",
       "varney,klaire",
       "joseph,abbi",
-      null
+      "totals"
     ],
     "timeSeconds":519,
     "Poss":"maryville (tn)",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"waller,raquel",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"phillips,lakeisha",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -11662,7 +11662,7 @@
       "hitchcock,allison",
       "treanton,ellie",
       "logan,kinsley",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "hix,shelby",
@@ -11696,8 +11696,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"logan,kinsley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -12130,7 +12130,7 @@
       "treanton,ellie",
       "logan,kinsley",
       "young,abby",
-      null
+      "hitchcock,allison"
     ],
     "homeLineup":[
       "hix,shelby",
@@ -12164,8 +12164,8 @@
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"logan,kinsley",
     "awayPlayer4":"young,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hitchcock,allison",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -12207,7 +12207,7 @@
       "treanton,ellie",
       "logan,kinsley",
       "young,abby",
-      null,
+      "waller,raquel",
       null
     ],
     "homeLineup":[
@@ -12241,7 +12241,7 @@
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
-    "awayPlayer4":null,
+    "awayPlayer4":"waller,raquel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12286,7 +12286,7 @@
       "logan,kinsley",
       "young,abby",
       "bombassi,bella",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hix,shelby",
@@ -12320,8 +12320,8 @@
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"bombassi,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -13385,7 +13385,7 @@
       "varney,klaire",
       "joseph,abbi",
       "gardner,libby",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":387,
     "Poss":"maryville (tn)",
@@ -13407,13 +13407,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"joseph,abbi",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"bombassi,bella",
     "awayPlayer5":"stewart,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -13462,7 +13462,7 @@
       "varney,klaire",
       "joseph,abbi",
       "gardner,libby",
-      null,
+      "eckenrod,elsa",
       null
     ],
     "timeSeconds":387,
@@ -13484,7 +13484,7 @@
     "homePlayer1":"varney,klaire",
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"gardner,libby",
-    "homePlayer4":null,
+    "homePlayer4":"eckenrod,elsa",
     "homePlayer5":null,
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
@@ -13541,7 +13541,7 @@
       "joseph,abbi",
       "gardner,libby",
       "jerrolds,holland",
-      null
+      "totals"
     ],
     "timeSeconds":387,
     "Poss":"maryville (tn)",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"jerrolds,holland",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"bombassi,bella",
     "awayPlayer5":"stewart,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -14477,7 +14477,7 @@
       "gardner,libby",
       "jerrolds,holland",
       "carruthers,courtney",
-      null
+      "joseph,abbi"
     ],
     "timeSeconds":334,
     "Poss":"sewanee",
@@ -14499,13 +14499,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"jerrolds,holland",
     "homePlayer4":"carruthers,courtney",
-    "homePlayer5":null,
+    "homePlayer5":"joseph,abbi",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"bombassi,bella",
     "awayPlayer5":"stewart,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -15016,7 +15016,7 @@
       "logan,kinsley",
       "young,abby",
       "stewart,ashley",
-      null
+      "bombassi,bella"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -15050,8 +15050,8 @@
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"stewart,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bombassi,bella",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -15640,7 +15640,7 @@
       "logan,kinsley",
       "stewart,ashley",
       "phillips,lakeisha",
-      null
+      "young,abby"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"phillips,lakeisha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,abby",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -15718,14 +15718,14 @@
       "logan,kinsley",
       "stewart,ashley",
       "phillips,lakeisha",
-      null
+      "young,abby"
     ],
     "homeLineup":[
       "varney,klaire",
       "gardner,libby",
       "carruthers,courtney",
       "hix,shelby",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":273,
     "Poss":"sewanee",
@@ -15747,13 +15747,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"phillips,lakeisha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,abby",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -15803,7 +15803,7 @@
       "gardner,libby",
       "carruthers,courtney",
       "hix,shelby",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":273,
     "Poss":"sewanee",
@@ -15825,13 +15825,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"phillips,lakeisha",
     "awayPlayer5":"hitchcock,allison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -16505,7 +16505,7 @@
       "carruthers,courtney",
       "hix,shelby",
       "wandell,kelley",
-      null
+      "varney,klaire"
     ],
     "timeSeconds":248,
     "Poss":"sewanee",
@@ -16527,13 +16527,13 @@
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"varney,klaire",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"phillips,lakeisha",
     "awayPlayer5":"hitchcock,allison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -17044,7 +17044,7 @@
       "logan,kinsley",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null
+      "stewart,ashley"
     ],
     "homeLineup":[
       "gardner,libby",
@@ -17078,8 +17078,8 @@
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"hitchcock,allison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stewart,ashley",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -17980,7 +17980,7 @@
       "phillips,lakeisha",
       "hitchcock,allison",
       "waller,raquel",
-      null
+      "treanton,ellie"
     ],
     "homeLineup":[
       "gardner,libby",
@@ -18014,8 +18014,8 @@
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"treanton,ellie",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -18377,7 +18377,7 @@
       "carruthers,courtney",
       "hix,shelby",
       "eckenrod,elsa",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":163,
     "Poss":"maryville (tn)",
@@ -18399,13 +18399,13 @@
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"eckenrod,elsa",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"stewart,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -18454,7 +18454,7 @@
       "carruthers,courtney",
       "hix,shelby",
       "eckenrod,elsa",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":163,
@@ -18476,7 +18476,7 @@
     "homePlayer1":"carruthers,courtney",
     "homePlayer2":"hix,shelby",
     "homePlayer3":"eckenrod,elsa",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
@@ -18533,7 +18533,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null
+      "totals"
     ],
     "timeSeconds":163,
     "Poss":"maryville (tn)",
@@ -18555,13 +18555,13 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"eckenrod,elsa",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"stewart,ashley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -19618,7 +19618,7 @@
       "hitchcock,allison",
       "waller,raquel",
       "stewart,ashley",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "carruthers,courtney",
@@ -19652,8 +19652,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"stewart,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -19695,7 +19695,7 @@
       "logan,kinsley",
       "hitchcock,allison",
       "stewart,ashley",
-      null,
+      "waller,raquel",
       null
     ],
     "homeLineup":[
@@ -19729,7 +19729,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"waller,raquel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19773,7 +19773,7 @@
       "logan,kinsley",
       "hitchcock,allison",
       "stewart,ashley",
-      null,
+      "waller,raquel",
       null
     ],
     "homeLineup":[
@@ -19781,7 +19781,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":100,
     "Poss":"maryville (tn)",
@@ -19803,11 +19803,11 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"eckenrod,elsa",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"waller,raquel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19851,14 +19851,14 @@
       "logan,kinsley",
       "hitchcock,allison",
       "stewart,ashley",
-      null,
+      "waller,raquel",
       null
     ],
     "homeLineup":[
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":100,
@@ -19880,12 +19880,12 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"waller,raquel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19930,13 +19930,13 @@
       "hitchcock,allison",
       "stewart,ashley",
       "bombassi,bella",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":100,
@@ -19958,13 +19958,13 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"bombassi,bella",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -20014,7 +20014,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":100,
@@ -20036,7 +20036,7 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
@@ -20092,7 +20092,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "varney,klaire",
-      null,
+      "carruthers,courtney",
       null
     ],
     "timeSeconds":100,
@@ -20114,7 +20114,7 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"carruthers,courtney",
     "homePlayer5":null,
     "awayPlayer1":"hitchcock,allison",
     "awayPlayer2":"stewart,ashley",
@@ -20171,7 +20171,7 @@
       "eckenrod,elsa",
       "varney,klaire",
       "wandell,kelley",
-      null
+      "totals"
     ],
     "timeSeconds":100,
     "Poss":"maryville (tn)",
@@ -20193,13 +20193,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"hitchcock,allison",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"bombassi,bella",
     "awayPlayer4":"young,abby",
     "awayPlayer5":"treanton,ellie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -21412,7 +21412,7 @@
       "bombassi,bella",
       "young,abby",
       "treanton,ellie",
-      null
+      "logan,kinsley"
     ],
     "homeLineup":[
       "hix,shelby",
@@ -21446,8 +21446,8 @@
     "awayPlayer2":"bombassi,bella",
     "awayPlayer3":"young,abby",
     "awayPlayer4":"treanton,ellie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"logan,kinsley",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -21489,7 +21489,7 @@
       "bombassi,bella",
       "young,abby",
       "treanton,ellie",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -21523,7 +21523,7 @@
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21567,7 +21567,7 @@
       "bombassi,bella",
       "young,abby",
       "treanton,ellie",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -21575,7 +21575,7 @@
       "eckenrod,elsa",
       "varney,klaire",
       "gardner,libby",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -21597,11 +21597,11 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21645,14 +21645,14 @@
       "bombassi,bella",
       "young,abby",
       "treanton,ellie",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
       "hix,shelby",
       "eckenrod,elsa",
       "gardner,libby",
-      null,
+      "varney,klaire",
       null
     ],
     "timeSeconds":600,
@@ -21674,12 +21674,12 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
-    "homePlayer4":null,
+    "homePlayer4":"varney,klaire",
     "homePlayer5":null,
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21723,14 +21723,14 @@
       "bombassi,bella",
       "young,abby",
       "treanton,ellie",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
       "hix,shelby",
       "eckenrod,elsa",
       "gardner,libby",
-      null,
+      "varney,klaire",
       null
     ],
     "timeSeconds":600,
@@ -21752,12 +21752,12 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
-    "homePlayer4":null,
+    "homePlayer4":"varney,klaire",
     "homePlayer5":null,
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21808,7 +21808,7 @@
       "hix,shelby",
       "eckenrod,elsa",
       "gardner,libby",
-      null,
+      "varney,klaire",
       null
     ],
     "timeSeconds":600,
@@ -21830,7 +21830,7 @@
     "homePlayer1":"hix,shelby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
-    "homePlayer4":null,
+    "homePlayer4":"varney,klaire",
     "homePlayer5":null,
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
@@ -21887,7 +21887,7 @@
       "eckenrod,elsa",
       "gardner,libby",
       "joseph,abbi",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -21909,13 +21909,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -22433,7 +22433,7 @@
       "eckenrod,elsa",
       "gardner,libby",
       "carruthers,courtney",
-      null
+      "joseph,abbi"
     ],
     "timeSeconds":540,
     "Poss":"sewanee",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"carruthers,courtney",
-    "homePlayer5":null,
+    "homePlayer5":"joseph,abbi",
     "awayPlayer1":"bombassi,bella",
     "awayPlayer2":"young,abby",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -23751,7 +23751,7 @@
       "young,abby",
       "treanton,ellie",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -23785,7 +23785,7 @@
     "awayPlayer1":"young,abby",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"waller,raquel",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23828,7 +23828,7 @@
     "awayLineup":[
       "treanton,ellie",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null,
       null
     ],
@@ -23862,7 +23862,7 @@
     "homePlayer5":"wandell,kelley",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"waller,raquel",
-    "awayPlayer3":null,
+    "awayPlayer3":"logan,kinsley",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -23906,7 +23906,7 @@
     "awayLineup":[
       "treanton,ellie",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null,
       null
     ],
@@ -23915,7 +23915,7 @@
       "eckenrod,elsa",
       "gardner,libby",
       "wandell,kelley",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":454,
     "Poss":"maryville (tn)",
@@ -23937,10 +23937,10 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"waller,raquel",
-    "awayPlayer3":null,
+    "awayPlayer3":"logan,kinsley",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -23985,7 +23985,7 @@
       "treanton,ellie",
       "waller,raquel",
       "phillips,lakeisha",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -23993,7 +23993,7 @@
       "eckenrod,elsa",
       "gardner,libby",
       "wandell,kelley",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":454,
     "Poss":"maryville (tn)",
@@ -24015,11 +24015,11 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"phillips,lakeisha",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24071,7 +24071,7 @@
       "eckenrod,elsa",
       "gardner,libby",
       "wandell,kelley",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":454,
     "Poss":"maryville (tn)",
@@ -24093,13 +24093,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"hitchcock,allison",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -25389,7 +25389,7 @@
       "treanton,ellie",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -25423,7 +25423,7 @@
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -25467,7 +25467,7 @@
       "treanton,ellie",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -25475,7 +25475,7 @@
       "eckenrod,elsa",
       "wandell,kelley",
       "varney,klaire",
-      null
+      "gardner,libby"
     ],
     "timeSeconds":364,
     "Poss":"maryville (tn)",
@@ -25497,11 +25497,11 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"gardner,libby",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -25553,7 +25553,7 @@
       "eckenrod,elsa",
       "wandell,kelley",
       "varney,klaire",
-      null
+      "gardner,libby"
     ],
     "timeSeconds":364,
     "Poss":"maryville (tn)",
@@ -25575,13 +25575,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"gardner,libby",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -26099,7 +26099,7 @@
       "eckenrod,elsa",
       "wandell,kelley",
       "varney,klaire",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":347,
     "Poss":"sewanee",
@@ -26121,13 +26121,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -26871,7 +26871,7 @@
       "phillips,lakeisha",
       "hitchcock,allison",
       "stewart,ashley",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -26905,7 +26905,7 @@
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26949,7 +26949,7 @@
       "phillips,lakeisha",
       "hitchcock,allison",
       "stewart,ashley",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -26957,7 +26957,7 @@
       "wandell,kelley",
       "varney,klaire",
       "gardner,libby",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":261,
     "Poss":"maryville (tn)",
@@ -26979,11 +26979,11 @@
     "homePlayer2":"wandell,kelley",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27035,7 +27035,7 @@
       "wandell,kelley",
       "varney,klaire",
       "gardner,libby",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":261,
     "Poss":"maryville (tn)",
@@ -27057,13 +27057,13 @@
     "homePlayer2":"wandell,kelley",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -27503,7 +27503,7 @@
       "varney,klaire",
       "gardner,libby",
       "joseph,abbi",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":236,
     "Poss":"maryville (tn)",
@@ -27525,13 +27525,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -28431,7 +28431,7 @@
       "phillips,lakeisha",
       "stewart,ashley",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -28465,7 +28465,7 @@
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"waller,raquel",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28509,7 +28509,7 @@
       "phillips,lakeisha",
       "stewart,ashley",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -28543,7 +28543,7 @@
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"waller,raquel",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28587,7 +28587,7 @@
       "phillips,lakeisha",
       "stewart,ashley",
       "waller,raquel",
-      null,
+      "logan,kinsley",
       null
     ],
     "homeLineup":[
@@ -28595,7 +28595,7 @@
       "varney,klaire",
       "gardner,libby",
       "joseph,abbi",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":193,
     "Poss":"sewanee",
@@ -28617,11 +28617,11 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"waller,raquel",
-    "awayPlayer4":null,
+    "awayPlayer4":"logan,kinsley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28666,14 +28666,14 @@
       "stewart,ashley",
       "waller,raquel",
       "treanton,ellie",
-      null
+      "totals"
     ],
     "homeLineup":[
       "eckenrod,elsa",
       "varney,klaire",
       "gardner,libby",
       "joseph,abbi",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":193,
     "Poss":"sewanee",
@@ -28695,13 +28695,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -28751,7 +28751,7 @@
       "varney,klaire",
       "gardner,libby",
       "joseph,abbi",
-      null
+      "jerrolds,holland"
     ],
     "timeSeconds":193,
     "Poss":"sewanee",
@@ -28773,13 +28773,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"jerrolds,holland",
     "awayPlayer1":"phillips,lakeisha",
     "awayPlayer2":"stewart,ashley",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -28900,7 +28900,7 @@
       "hitchcock,allison",
       "stewart,ashley",
       "waller,raquel",
-      null
+      "treanton,ellie"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -28934,8 +28934,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"waller,raquel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"treanton,ellie",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -29524,7 +29524,7 @@
       "waller,raquel",
       "treanton,ellie",
       "broussard,camryn",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -29558,8 +29558,8 @@
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -29602,14 +29602,14 @@
       "waller,raquel",
       "treanton,ellie",
       "broussard,camryn",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "eckenrod,elsa",
       "gardner,libby",
       "joseph,abbi",
       "hix,shelby",
-      null
+      "varney,klaire"
     ],
     "timeSeconds":148,
     "Poss":"maryville (tn)",
@@ -29631,13 +29631,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"joseph,abbi",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"varney,klaire",
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -29687,7 +29687,7 @@
       "gardner,libby",
       "joseph,abbi",
       "hix,shelby",
-      null
+      "varney,klaire"
     ],
     "timeSeconds":148,
     "Poss":"maryville (tn)",
@@ -29709,13 +29709,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"joseph,abbi",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"varney,klaire",
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"broussard,camryn",
     "awayPlayer5":"young,abby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -30382,7 +30382,7 @@
       "waller,raquel",
       "treanton,ellie",
       "broussard,camryn",
-      null
+      "young,abby"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -30416,8 +30416,8 @@
     "awayPlayer2":"waller,raquel",
     "awayPlayer3":"treanton,ellie",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,abby",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -31318,7 +31318,7 @@
       "treanton,ellie",
       "broussard,camryn",
       "bombassi,bella",
-      null
+      "waller,raquel"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -31352,8 +31352,8 @@
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"broussard,camryn",
     "awayPlayer4":"bombassi,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"waller,raquel",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -31395,7 +31395,7 @@
       "stewart,ashley",
       "treanton,ellie",
       "bombassi,bella",
-      null,
+      "broussard,camryn",
       null
     ],
     "homeLineup":[
@@ -31429,7 +31429,7 @@
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"bombassi,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"broussard,camryn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31473,7 +31473,7 @@
       "stewart,ashley",
       "treanton,ellie",
       "bombassi,bella",
-      null,
+      "broussard,camryn",
       null
     ],
     "homeLineup":[
@@ -31481,7 +31481,7 @@
       "gardner,libby",
       "joseph,abbi",
       "carruthers,courtney",
-      null
+      "hix,shelby"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -31503,11 +31503,11 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"joseph,abbi",
     "homePlayer4":"carruthers,courtney",
-    "homePlayer5":null,
+    "homePlayer5":"hix,shelby",
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"bombassi,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"broussard,camryn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31551,14 +31551,14 @@
       "stewart,ashley",
       "treanton,ellie",
       "bombassi,bella",
-      null,
+      "broussard,camryn",
       null
     ],
     "homeLineup":[
       "eckenrod,elsa",
       "joseph,abbi",
       "carruthers,courtney",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":600,
@@ -31580,12 +31580,12 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"bombassi,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"broussard,camryn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31630,13 +31630,13 @@
       "treanton,ellie",
       "bombassi,bella",
       "morris,mary emily",
-      null
+      "totals"
     ],
     "homeLineup":[
       "eckenrod,elsa",
       "joseph,abbi",
       "carruthers,courtney",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":600,
@@ -31658,13 +31658,13 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"bombassi,bella",
     "awayPlayer4":"morris,mary emily",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -31714,7 +31714,7 @@
       "eckenrod,elsa",
       "joseph,abbi",
       "carruthers,courtney",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":600,
@@ -31736,7 +31736,7 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
@@ -31793,7 +31793,7 @@
       "joseph,abbi",
       "carruthers,courtney",
       "wandell,kelley",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -31815,13 +31815,13 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"stewart,ashley",
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"bombassi,bella",
     "awayPlayer4":"morris,mary emily",
     "awayPlayer5":"logan,kinsley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -33502,7 +33502,7 @@
       "treanton,ellie",
       "morris,mary emily",
       "logan,kinsley",
-      null
+      "bombassi,bella"
     ],
     "homeLineup":[
       "eckenrod,elsa",
@@ -33536,8 +33536,8 @@
     "awayPlayer2":"treanton,ellie",
     "awayPlayer3":"morris,mary emily",
     "awayPlayer4":"logan,kinsley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bombassi,bella",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -33579,7 +33579,7 @@
       "treanton,ellie",
       "morris,mary emily",
       "logan,kinsley",
-      null,
+      "stewart,ashley",
       null
     ],
     "homeLineup":[
@@ -33613,7 +33613,7 @@
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
     "awayPlayer3":"logan,kinsley",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33657,7 +33657,7 @@
       "treanton,ellie",
       "morris,mary emily",
       "logan,kinsley",
-      null,
+      "stewart,ashley",
       null
     ],
     "homeLineup":[
@@ -33665,7 +33665,7 @@
       "joseph,abbi",
       "carruthers,courtney",
       "varney,klaire",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":433,
     "Poss":"maryville (tn)",
@@ -33687,11 +33687,11 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"varney,klaire",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
     "awayPlayer3":"logan,kinsley",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33735,14 +33735,14 @@
       "treanton,ellie",
       "morris,mary emily",
       "logan,kinsley",
-      null,
+      "stewart,ashley",
       null
     ],
     "homeLineup":[
       "joseph,abbi",
       "carruthers,courtney",
       "varney,klaire",
-      null,
+      "eckenrod,elsa",
       null
     ],
     "timeSeconds":433,
@@ -33764,12 +33764,12 @@
     "homePlayer1":"joseph,abbi",
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"eckenrod,elsa",
     "homePlayer5":null,
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
     "awayPlayer3":"logan,kinsley",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,ashley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33814,13 +33814,13 @@
       "morris,mary emily",
       "logan,kinsley",
       "phillips,lakeisha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "joseph,abbi",
       "carruthers,courtney",
       "varney,klaire",
-      null,
+      "eckenrod,elsa",
       null
     ],
     "timeSeconds":433,
@@ -33842,13 +33842,13 @@
     "homePlayer1":"joseph,abbi",
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"eckenrod,elsa",
     "homePlayer5":null,
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
     "awayPlayer3":"logan,kinsley",
     "awayPlayer4":"phillips,lakeisha",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -33898,7 +33898,7 @@
       "joseph,abbi",
       "carruthers,courtney",
       "varney,klaire",
-      null,
+      "eckenrod,elsa",
       null
     ],
     "timeSeconds":433,
@@ -33920,7 +33920,7 @@
     "homePlayer1":"joseph,abbi",
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"varney,klaire",
-    "homePlayer4":null,
+    "homePlayer4":"eckenrod,elsa",
     "homePlayer5":null,
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
@@ -33977,7 +33977,7 @@
       "carruthers,courtney",
       "varney,klaire",
       "hix,shelby",
-      null
+      "totals"
     ],
     "timeSeconds":433,
     "Poss":"maryville (tn)",
@@ -33999,13 +33999,13 @@
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"varney,klaire",
     "homePlayer4":"hix,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"treanton,ellie",
     "awayPlayer2":"morris,mary emily",
     "awayPlayer3":"logan,kinsley",
     "awayPlayer4":"phillips,lakeisha",
     "awayPlayer5":"hitchcock,allison",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -35140,7 +35140,7 @@
       "logan,kinsley",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null
+      "totals"
     ],
     "homeLineup":[
       "joseph,abbi",
@@ -35174,8 +35174,8 @@
     "awayPlayer2":"logan,kinsley",
     "awayPlayer3":"phillips,lakeisha",
     "awayPlayer4":"hitchcock,allison",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -35217,7 +35217,7 @@
       "logan,kinsley",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null,
+      "treanton,ellie",
       null
     ],
     "homeLineup":[
@@ -35251,7 +35251,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
-    "awayPlayer4":null,
+    "awayPlayer4":"treanton,ellie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35295,7 +35295,7 @@
       "logan,kinsley",
       "phillips,lakeisha",
       "hitchcock,allison",
-      null,
+      "treanton,ellie",
       null
     ],
     "homeLineup":[
@@ -35303,7 +35303,7 @@
       "varney,klaire",
       "hix,shelby",
       "gardner,libby",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":319,
     "Poss":"maryville (tn)",
@@ -35325,11 +35325,11 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
-    "awayPlayer4":null,
+    "awayPlayer4":"treanton,ellie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35374,14 +35374,14 @@
       "phillips,lakeisha",
       "hitchcock,allison",
       "waller,raquel",
-      null
+      "totals"
     ],
     "homeLineup":[
       "joseph,abbi",
       "varney,klaire",
       "hix,shelby",
       "gardner,libby",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":319,
     "Poss":"maryville (tn)",
@@ -35403,13 +35403,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -35459,7 +35459,7 @@
       "varney,klaire",
       "hix,shelby",
       "gardner,libby",
-      null
+      "carruthers,courtney"
     ],
     "timeSeconds":319,
     "Poss":"maryville (tn)",
@@ -35481,13 +35481,13 @@
     "homePlayer2":"varney,klaire",
     "homePlayer3":"hix,shelby",
     "homePlayer4":"gardner,libby",
-    "homePlayer5":null,
+    "homePlayer5":"carruthers,courtney",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -35927,7 +35927,7 @@
       "hix,shelby",
       "gardner,libby",
       "eckenrod,elsa",
-      null
+      "joseph,abbi"
     ],
     "timeSeconds":312,
     "Poss":"sewanee",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"hix,shelby",
     "homePlayer3":"gardner,libby",
     "homePlayer4":"eckenrod,elsa",
-    "homePlayer5":null,
+    "homePlayer5":"joseph,abbi",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"phillips,lakeisha",
     "awayPlayer3":"hitchcock,allison",
     "awayPlayer4":"waller,raquel",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -37168,7 +37168,7 @@
       "hitchcock,allison",
       "waller,raquel",
       "broussard,camryn",
-      null
+      "phillips,lakeisha"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -37202,8 +37202,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"waller,raquel",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lakeisha",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -37240,6 +37240,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"waller,raquel",
+    "pointsEarned":"",
+    "awayLineup":[
+      "logan,kinsley",
+      "hitchcock,allison",
+      "broussard,camryn",
+      "waller,raquel",
+      null
+    ],
+    "homeLineup":[
+      "varney,klaire",
+      "hix,shelby",
+      "gardner,libby",
+      "eckenrod,elsa",
+      "wandell,kelley"
+    ],
+    "timeSeconds":228,
+    "Poss":"maryville (tn)",
+    "possNum":62,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":125,
+    "teamChanged":0,
+    "game":"Maryville (TN)Sewanee01\/01\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"varney,klaire",
+    "homePlayer2":"hix,shelby",
+    "homePlayer3":"gardner,libby",
+    "homePlayer4":"eckenrod,elsa",
+    "homePlayer5":"wandell,kelley",
+    "awayPlayer1":"logan,kinsley",
+    "awayPlayer2":"hitchcock,allison",
+    "awayPlayer3":"broussard,camryn",
+    "awayPlayer4":"waller,raquel",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3308",
+    "homeTeam":"Maryville (TN)",
+    "awayTeam":"Sewanee",
+    "saaGame":"0",
+    "finalScore":"47-76",
+    "homeScoreByPeriod":"18,19,26,13,76",
+    "awayScoreByPeriod":"9,7,24,7,47",
+    "homeRecord":"9-4",
+    "awayRecord":"5-6",
+    "homeConfRecord":"2-2",
+    "awayConfRecord":"1-0",
+    "gameDate":"01\/01\/20",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"N\/A",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"288",
+    "isNeutral":"False",
+    "timeRemaining":"03:48",
+    "awayPlay":"SUB OUT by BROUSSARD,CAMRYN",
+    "awayTeamScore":"45",
+    "playTeamIndicator":"",
+    "homeTeamScore":"70 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BROUSSARD,CAMRYN",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"broussard,camryn",
     "pointsEarned":"",
     "awayLineup":[
       "logan,kinsley",
@@ -37305,84 +37383,6 @@
     "attendance":"288",
     "isNeutral":"False",
     "timeRemaining":"03:48",
-    "awayPlay":"SUB OUT by BROUSSARD,CAMRYN",
-    "awayTeamScore":"45",
-    "playTeamIndicator":"",
-    "homeTeamScore":"70 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BROUSSARD,CAMRYN",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"broussard,camryn",
-    "pointsEarned":"",
-    "awayLineup":[
-      "logan,kinsley",
-      "hitchcock,allison",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "varney,klaire",
-      "hix,shelby",
-      "gardner,libby",
-      "eckenrod,elsa",
-      "wandell,kelley"
-    ],
-    "timeSeconds":228,
-    "Poss":"maryville (tn)",
-    "possNum":62,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":125,
-    "teamChanged":0,
-    "game":"Maryville (TN)Sewanee01\/01\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"varney,klaire",
-    "homePlayer2":"hix,shelby",
-    "homePlayer3":"gardner,libby",
-    "homePlayer4":"eckenrod,elsa",
-    "homePlayer5":"wandell,kelley",
-    "awayPlayer1":"logan,kinsley",
-    "awayPlayer2":"hitchcock,allison",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3308",
-    "homeTeam":"Maryville (TN)",
-    "awayTeam":"Sewanee",
-    "saaGame":"0",
-    "finalScore":"47-76",
-    "homeScoreByPeriod":"18,19,26,13,76",
-    "awayScoreByPeriod":"9,7,24,7,47",
-    "homeRecord":"9-4",
-    "awayRecord":"5-6",
-    "homeConfRecord":"2-2",
-    "awayConfRecord":"1-0",
-    "gameDate":"01\/01\/20",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"N\/A",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"288",
-    "isNeutral":"False",
-    "timeRemaining":"03:48",
     "awayPlay":"SUB IN by KONRADI,ELIZABETH",
     "awayTeamScore":"45",
     "playTeamIndicator":"",
@@ -37401,7 +37401,7 @@
       "logan,kinsley",
       "hitchcock,allison",
       "konradi,elizabeth",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -37435,7 +37435,7 @@
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"konradi,elizabeth",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37480,7 +37480,7 @@
       "hitchcock,allison",
       "konradi,elizabeth",
       "stewart,ashley",
-      null
+      "totals"
     ],
     "homeLineup":[
       "varney,klaire",
@@ -37514,8 +37514,8 @@
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"konradi,elizabeth",
     "awayPlayer4":"stewart,ashley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -38345,7 +38345,7 @@
       "gardner,libby",
       "eckenrod,elsa",
       "wandell,kelley",
-      null
+      "varney,klaire"
     ],
     "timeSeconds":195,
     "Poss":"maryville (tn)",
@@ -38367,13 +38367,13 @@
     "homePlayer2":"gardner,libby",
     "homePlayer3":"eckenrod,elsa",
     "homePlayer4":"wandell,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"varney,klaire",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"konradi,elizabeth",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"treanton,ellie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -38422,7 +38422,7 @@
       "gardner,libby",
       "eckenrod,elsa",
       "wandell,kelley",
-      null,
+      "hix,shelby",
       null
     ],
     "timeSeconds":195,
@@ -38444,7 +38444,7 @@
     "homePlayer1":"gardner,libby",
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"wandell,kelley",
-    "homePlayer4":null,
+    "homePlayer4":"hix,shelby",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
@@ -38501,7 +38501,7 @@
       "eckenrod,elsa",
       "wandell,kelley",
       "carruthers,courtney",
-      null
+      "totals"
     ],
     "timeSeconds":195,
     "Poss":"maryville (tn)",
@@ -38523,13 +38523,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"wandell,kelley",
     "homePlayer4":"carruthers,courtney",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"hitchcock,allison",
     "awayPlayer3":"konradi,elizabeth",
     "awayPlayer4":"stewart,ashley",
     "awayPlayer5":"treanton,ellie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -39040,7 +39040,7 @@
       "konradi,elizabeth",
       "stewart,ashley",
       "treanton,ellie",
-      null
+      "hitchcock,allison"
     ],
     "homeLineup":[
       "gardner,libby",
@@ -39074,8 +39074,8 @@
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"treanton,ellie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hitchcock,allison",
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -39437,7 +39437,7 @@
       "eckenrod,elsa",
       "carruthers,courtney",
       "joseph,abbi",
-      null
+      "wandell,kelley"
     ],
     "timeSeconds":138,
     "Poss":"maryville (tn)",
@@ -39459,13 +39459,13 @@
     "homePlayer2":"eckenrod,elsa",
     "homePlayer3":"carruthers,courtney",
     "homePlayer4":"joseph,abbi",
-    "homePlayer5":null,
+    "homePlayer5":"wandell,kelley",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -39514,7 +39514,7 @@
       "eckenrod,elsa",
       "carruthers,courtney",
       "joseph,abbi",
-      null,
+      "gardner,libby",
       null
     ],
     "timeSeconds":138,
@@ -39536,7 +39536,7 @@
     "homePlayer1":"eckenrod,elsa",
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"joseph,abbi",
-    "homePlayer4":null,
+    "homePlayer4":"gardner,libby",
     "homePlayer5":null,
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"konradi,elizabeth",
@@ -39593,7 +39593,7 @@
       "carruthers,courtney",
       "joseph,abbi",
       "harmon,hayley",
-      null
+      "totals"
     ],
     "timeSeconds":138,
     "Poss":"maryville (tn)",
@@ -39615,13 +39615,13 @@
     "homePlayer2":"carruthers,courtney",
     "homePlayer3":"joseph,abbi",
     "homePlayer4":"harmon,hayley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -40607,7 +40607,7 @@
       "joseph,abbi",
       "harmon,hayley",
       "jerrolds,holland",
-      null
+      "eckenrod,elsa"
     ],
     "timeSeconds":88,
     "Poss":"maryville (tn)",
@@ -40629,13 +40629,13 @@
     "homePlayer2":"joseph,abbi",
     "homePlayer3":"harmon,hayley",
     "homePlayer4":"jerrolds,holland",
-    "homePlayer5":null,
+    "homePlayer5":"eckenrod,elsa",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -41387,7 +41387,7 @@
       "harmon,hayley",
       "jerrolds,holland",
       "collier,kaylee",
-      null
+      "joseph,abbi"
     ],
     "timeSeconds":54,
     "Poss":"sewanee",
@@ -41409,13 +41409,13 @@
     "homePlayer2":"harmon,hayley",
     "homePlayer3":"jerrolds,holland",
     "homePlayer4":"collier,kaylee",
-    "homePlayer5":null,
+    "homePlayer5":"joseph,abbi",
     "awayPlayer1":"logan,kinsley",
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"treanton,ellie",
     "awayPlayer5":"broussard,camryn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3308",
@@ -42238,7 +42238,7 @@
       "konradi,elizabeth",
       "stewart,ashley",
       "broussard,camryn",
-      null
+      "treanton,ellie"
     ],
     "homeLineup":[
       "carruthers,courtney",
@@ -42272,8 +42272,8 @@
     "awayPlayer2":"konradi,elizabeth",
     "awayPlayer3":"stewart,ashley",
     "awayPlayer4":"broussard,camryn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"treanton,ellie",
+    "playerMissing":0
   },
   {
     "gameID":"3308",

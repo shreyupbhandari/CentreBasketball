@@ -1288,7 +1288,7 @@
       "stewart,abigail",
       "miller,lakken",
       "andreassen,caroline",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -1322,8 +1322,8 @@
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vance,day",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -1365,7 +1365,7 @@
       "schad,olivia",
       "miller,lakken",
       "andreassen,caroline",
-      null,
+      "stewart,abigail",
       null
     ],
     "homeLineup":[
@@ -1399,7 +1399,7 @@
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"andreassen,caroline",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,abigail",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -1444,7 +1444,7 @@
       "miller,lakken",
       "andreassen,caroline",
       "moore,lauren",
-      null
+      "totals"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -1478,8 +1478,8 @@
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"moore,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -2614,7 +2614,7 @@
       "andreassen,caroline",
       "moore,lauren",
       "bunner,cheyenne",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -2631,6 +2631,84 @@
     "PlayOfPoss":0,
     "possTeam":"sewanee",
     "possStart":1.0,
+    "possPoints":0,
+    "possSequence":15,
+    "teamChanged":0,
+    "game":"SewaneeCentre02\/18\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"taylor,bella",
+    "homePlayer2":"caulder,corey",
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"lyerly,haley",
+    "awayPlayer1":"schad,olivia",
+    "awayPlayer2":"andreassen,caroline",
+    "awayPlayer3":"moore,lauren",
+    "awayPlayer4":"bunner,cheyenne",
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
+  },
+  {
+    "gameID":"3245",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"73-66",
+    "homeScoreByPeriod":"21,11,16,18,66",
+    "awayScoreByPeriod":"23,16,17,17,73",
+    "homeRecord":"9-15",
+    "awayRecord":"7-18",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"5-9",
+    "gameDate":"02\/18\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"230",
+    "isNeutral":"False",
+    "timeRemaining":"05:35",
+    "awayPlay":"SUB OUT by BUNNER,CHEYENNE",
+    "awayTeamScore":"16 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"9",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BUNNER,CHEYENNE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"bunner,cheyenne",
+    "pointsEarned":"",
+    "awayLineup":[
+      "schad,olivia",
+      "andreassen,caroline",
+      "moore,lauren",
+      "bunner,cheyenne",
+      null
+    ],
+    "homeLineup":[
+      "taylor,bella",
+      "caulder,corey",
+      "rose,savannah",
+      "mccormack,hannah",
+      "lyerly,haley"
+    ],
+    "timeSeconds":335,
+    "Poss":"centre",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
     "possPoints":0,
     "possSequence":15,
     "teamChanged":0,
@@ -2673,19 +2751,19 @@
     "attendance":"230",
     "isNeutral":"False",
     "timeRemaining":"05:35",
-    "awayPlay":"SUB OUT by BUNNER,CHEYENNE",
+    "awayPlay":"SUB OUT by MOORE,LAUREN",
     "awayTeamScore":"16 ",
     "playTeamIndicator":"",
     "homeTeamScore":"9",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by BUNNER,CHEYENNE",
+    "Play":"SUB OUT by MOORE,LAUREN",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"centre",
-    "Player":"bunner,cheyenne",
+    "Player":"moore,lauren",
     "pointsEarned":"",
     "awayLineup":[
       "schad,olivia",
@@ -2751,84 +2829,6 @@
     "attendance":"230",
     "isNeutral":"False",
     "timeRemaining":"05:35",
-    "awayPlay":"SUB OUT by MOORE,LAUREN",
-    "awayTeamScore":"16 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"9",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MOORE,LAUREN",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"moore,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "schad,olivia",
-      "andreassen,caroline",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "taylor,bella",
-      "caulder,corey",
-      "rose,savannah",
-      "mccormack,hannah",
-      "lyerly,haley"
-    ],
-    "timeSeconds":335,
-    "Poss":"centre",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":15,
-    "teamChanged":0,
-    "game":"SewaneeCentre02\/18\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"caulder,corey",
-    "homePlayer3":"rose,savannah",
-    "homePlayer4":"mccormack,hannah",
-    "homePlayer5":"lyerly,haley",
-    "awayPlayer1":"schad,olivia",
-    "awayPlayer2":"andreassen,caroline",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3245",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"73-66",
-    "homeScoreByPeriod":"21,11,16,18,66",
-    "awayScoreByPeriod":"23,16,17,17,73",
-    "homeRecord":"9-15",
-    "awayRecord":"7-18",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"5-9",
-    "gameDate":"02\/18\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"230",
-    "isNeutral":"False",
-    "timeRemaining":"05:35",
     "awayPlay":"SUB OUT by SCHAD,OLIVIA",
     "awayTeamScore":"16 ",
     "playTeamIndicator":"",
@@ -2845,7 +2845,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "andreassen,caroline",
-      null,
+      "schad,olivia",
       null,
       null,
       null
@@ -2879,7 +2879,7 @@
     "homePlayer4":"mccormack,hannah",
     "homePlayer5":"lyerly,haley",
     "awayPlayer1":"andreassen,caroline",
-    "awayPlayer2":null,
+    "awayPlayer2":"schad,olivia",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -2924,7 +2924,7 @@
     "awayLineup":[
       "andreassen,caroline",
       "ballard,ami",
-      null,
+      "totals",
       null,
       null
     ],
@@ -2958,7 +2958,7 @@
     "homePlayer5":"lyerly,haley",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"ballard,ami",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3003,7 +3003,7 @@
       "andreassen,caroline",
       "ballard,ami",
       "fee,mikayla",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -3037,7 +3037,7 @@
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"fee,mikayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3082,7 +3082,7 @@
       "ballard,ami",
       "fee,mikayla",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -3116,8 +3116,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"fee,mikayla",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -3479,6 +3479,84 @@
       "caulder,corey",
       "mccormack,hannah",
       "lyerly,haley",
+      "rose,savannah"
+    ],
+    "timeSeconds":285,
+    "Poss":"centre",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":17,
+    "teamChanged":0,
+    "game":"SewaneeCentre02\/18\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"taylor,bella",
+    "homePlayer2":"caulder,corey",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"lyerly,haley",
+    "homePlayer5":"rose,savannah",
+    "awayPlayer1":"andreassen,caroline",
+    "awayPlayer2":"ballard,ami",
+    "awayPlayer3":"fee,mikayla",
+    "awayPlayer4":"stewart,abigail",
+    "awayPlayer5":"kellam,paige",
+    "playerMissing":0
+  },
+  {
+    "gameID":"3245",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"73-66",
+    "homeScoreByPeriod":"21,11,16,18,66",
+    "awayScoreByPeriod":"23,16,17,17,73",
+    "homeRecord":"9-15",
+    "awayRecord":"7-18",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"5-9",
+    "gameDate":"02\/18\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"230",
+    "isNeutral":"False",
+    "timeRemaining":"04:45",
+    "awayPlay":"",
+    "awayTeamScore":"18 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"9",
+    "homePlay":"SUB OUT by LYERLY,HALEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LYERLY,HALEY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"lyerly,haley",
+    "pointsEarned":"",
+    "awayLineup":[
+      "andreassen,caroline",
+      "ballard,ami",
+      "fee,mikayla",
+      "stewart,abigail",
+      "kellam,paige"
+    ],
+    "homeLineup":[
+      "taylor,bella",
+      "caulder,corey",
+      "mccormack,hannah",
+      "lyerly,haley",
       null
     ],
     "timeSeconds":285,
@@ -3535,84 +3613,6 @@
     "awayTeamScore":"18 ",
     "playTeamIndicator":"",
     "homeTeamScore":"9",
-    "homePlay":"SUB OUT by LYERLY,HALEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LYERLY,HALEY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"lyerly,haley",
-    "pointsEarned":"",
-    "awayLineup":[
-      "andreassen,caroline",
-      "ballard,ami",
-      "fee,mikayla",
-      "stewart,abigail",
-      "kellam,paige"
-    ],
-    "homeLineup":[
-      "taylor,bella",
-      "caulder,corey",
-      "mccormack,hannah",
-      null,
-      null
-    ],
-    "timeSeconds":285,
-    "Poss":"centre",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":17,
-    "teamChanged":0,
-    "game":"SewaneeCentre02\/18\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"caulder,corey",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"andreassen,caroline",
-    "awayPlayer2":"ballard,ami",
-    "awayPlayer3":"fee,mikayla",
-    "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":"kellam,paige",
-    "playerMissing":1
-  },
-  {
-    "gameID":"3245",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"73-66",
-    "homeScoreByPeriod":"21,11,16,18,66",
-    "awayScoreByPeriod":"23,16,17,17,73",
-    "homeRecord":"9-15",
-    "awayRecord":"7-18",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"5-9",
-    "gameDate":"02\/18\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"230",
-    "isNeutral":"False",
-    "timeRemaining":"04:45",
-    "awayPlay":"",
-    "awayTeamScore":"18 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"9",
     "homePlay":"SUB IN by HITCHCOCK,ALLISON",
     "gameScore":"",
     "teamIndicator":"",
@@ -3635,7 +3635,7 @@
       "caulder,corey",
       "mccormack,hannah",
       "hitchcock,allison",
-      null
+      "totals"
     ],
     "timeSeconds":285,
     "Poss":"centre",
@@ -3657,13 +3657,13 @@
     "homePlayer2":"caulder,corey",
     "homePlayer3":"mccormack,hannah",
     "homePlayer4":"hitchcock,allison",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"fee,mikayla",
     "awayPlayer4":"stewart,abigail",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -4564,7 +4564,7 @@
       "ballard,ami",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -4598,8 +4598,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fee,mikayla",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -4641,7 +4641,7 @@
       "ballard,ami",
       "stewart,abigail",
       "kellam,paige",
-      null,
+      "andreassen,caroline",
       null
     ],
     "homeLineup":[
@@ -4675,7 +4675,7 @@
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4718,7 +4718,7 @@
     "awayLineup":[
       "stewart,abigail",
       "kellam,paige",
-      null,
+      "ballard,ami",
       null,
       null
     ],
@@ -4752,7 +4752,7 @@
     "homePlayer5":"kim,sue",
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"kellam,paige",
-    "awayPlayer3":null,
+    "awayPlayer3":"ballard,ami",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -4797,7 +4797,7 @@
       "stewart,abigail",
       "kellam,paige",
       "miller,lakken",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4831,7 +4831,7 @@
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"miller,lakken",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4876,7 +4876,7 @@
       "kellam,paige",
       "miller,lakken",
       "schad,olivia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -4910,8 +4910,8 @@
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"schad,olivia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -5429,7 +5429,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "kim,sue",
-      null
+      "caulder,corey"
     ],
     "timeSeconds":114,
     "Poss":"sewanee",
@@ -5451,13 +5451,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer5":"caulder,corey",
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"schad,olivia",
     "awayPlayer5":"bunner,cheyenne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -5656,7 +5656,7 @@
       "miller,lakken",
       "schad,olivia",
       "bunner,cheyenne",
-      null
+      "stewart,abigail"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -5690,8 +5690,8 @@
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"schad,olivia",
     "awayPlayer4":"bunner,cheyenne",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"stewart,abigail",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -5733,7 +5733,7 @@
       "miller,lakken",
       "schad,olivia",
       "bunner,cheyenne",
-      null,
+      "kellam,paige",
       null
     ],
     "homeLineup":[
@@ -5767,7 +5767,7 @@
     "awayPlayer1":"miller,lakken",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"bunner,cheyenne",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5812,7 +5812,7 @@
       "schad,olivia",
       "bunner,cheyenne",
       "andreassen,caroline",
-      null
+      "totals"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -5846,8 +5846,8 @@
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"bunner,cheyenne",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -6592,7 +6592,7 @@
       "bunner,cheyenne",
       "andreassen,caroline",
       "fee,mikayla",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -6626,8 +6626,8 @@
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"fee,mikayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -6670,14 +6670,14 @@
       "bunner,cheyenne",
       "andreassen,caroline",
       "fee,mikayla",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
       "mccormack,hannah",
       "hitchcock,allison",
       "kim,sue",
       "smith,marlee",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":48,
     "Poss":"sewanee",
@@ -6699,13 +6699,13 @@
     "homePlayer2":"hitchcock,allison",
     "homePlayer3":"kim,sue",
     "homePlayer4":"smith,marlee",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"miller,lakken",
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"fee,mikayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -6755,7 +6755,7 @@
       "hitchcock,allison",
       "kim,sue",
       "smith,marlee",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":48,
     "Poss":"sewanee",
@@ -6777,13 +6777,13 @@
     "homePlayer2":"hitchcock,allison",
     "homePlayer3":"kim,sue",
     "homePlayer4":"smith,marlee",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"miller,lakken",
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"ballard,ami",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -7769,7 +7769,7 @@
       "kim,sue",
       "smith,marlee",
       "roth,katie",
-      null
+      "mccormack,hannah"
     ],
     "timeSeconds":591,
     "Poss":"sewanee",
@@ -7791,13 +7791,13 @@
     "homePlayer2":"kim,sue",
     "homePlayer3":"smith,marlee",
     "homePlayer4":"roth,katie",
-    "homePlayer5":null,
+    "homePlayer5":"mccormack,hannah",
     "awayPlayer1":"miller,lakken",
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"ballard,ami",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -7847,7 +7847,7 @@
       "kim,sue",
       "smith,marlee",
       "roth,katie",
-      null
+      "mccormack,hannah"
     ],
     "timeSeconds":591,
     "Poss":"sewanee",
@@ -7869,13 +7869,13 @@
     "homePlayer2":"kim,sue",
     "homePlayer3":"smith,marlee",
     "homePlayer4":"roth,katie",
-    "homePlayer5":null,
+    "homePlayer5":"mccormack,hannah",
     "awayPlayer1":"miller,lakken",
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"ballard,ami",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -8464,7 +8464,7 @@
       "andreassen,caroline",
       "fee,mikayla",
       "ballard,ami",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -8498,8 +8498,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"fee,mikayla",
     "awayPlayer4":"ballard,ami",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -10804,7 +10804,7 @@
       "fee,mikayla",
       "ballard,ami",
       "kellam,paige",
-      null
+      "andreassen,caroline"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -10838,8 +10838,8 @@
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"andreassen,caroline",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -10876,6 +10876,84 @@
     "shotOutcome":"",
     "Team":"centre",
     "Player":"stewart,abigail",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bunner,cheyenne",
+      "fee,mikayla",
+      "ballard,ami",
+      "kellam,paige",
+      "andreassen,caroline"
+    ],
+    "homeLineup":[
+      "hitchcock,allison",
+      "kim,sue",
+      "smith,marlee",
+      "roth,katie",
+      "taylor,bella"
+    ],
+    "timeSeconds":371,
+    "Poss":"centre",
+    "possNum":21,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":45,
+    "teamChanged":0,
+    "game":"SewaneeCentre02\/18\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"hitchcock,allison",
+    "homePlayer2":"kim,sue",
+    "homePlayer3":"smith,marlee",
+    "homePlayer4":"roth,katie",
+    "homePlayer5":"taylor,bella",
+    "awayPlayer1":"bunner,cheyenne",
+    "awayPlayer2":"fee,mikayla",
+    "awayPlayer3":"ballard,ami",
+    "awayPlayer4":"kellam,paige",
+    "awayPlayer5":"andreassen,caroline",
+    "playerMissing":0
+  },
+  {
+    "gameID":"3245",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"73-66",
+    "homeScoreByPeriod":"21,11,16,18,66",
+    "awayScoreByPeriod":"23,16,17,17,73",
+    "homeRecord":"9-15",
+    "awayRecord":"7-18",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"5-9",
+    "gameDate":"02\/18\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"230",
+    "isNeutral":"False",
+    "timeRemaining":"06:11",
+    "awayPlay":"SUB OUT by KELLAM,PAIGE",
+    "awayTeamScore":"23",
+    "playTeamIndicator":"",
+    "homeTeamScore":"25 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KELLAM,PAIGE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"kellam,paige",
     "pointsEarned":"",
     "awayLineup":[
       "bunner,cheyenne",
@@ -10941,84 +11019,6 @@
     "attendance":"230",
     "isNeutral":"False",
     "timeRemaining":"06:11",
-    "awayPlay":"SUB OUT by KELLAM,PAIGE",
-    "awayTeamScore":"23",
-    "playTeamIndicator":"",
-    "homeTeamScore":"25 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KELLAM,PAIGE",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"kellam,paige",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bunner,cheyenne",
-      "fee,mikayla",
-      "ballard,ami",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "hitchcock,allison",
-      "kim,sue",
-      "smith,marlee",
-      "roth,katie",
-      "taylor,bella"
-    ],
-    "timeSeconds":371,
-    "Poss":"centre",
-    "possNum":21,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":45,
-    "teamChanged":0,
-    "game":"SewaneeCentre02\/18\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"hitchcock,allison",
-    "homePlayer2":"kim,sue",
-    "homePlayer3":"smith,marlee",
-    "homePlayer4":"roth,katie",
-    "homePlayer5":"taylor,bella",
-    "awayPlayer1":"bunner,cheyenne",
-    "awayPlayer2":"fee,mikayla",
-    "awayPlayer3":"ballard,ami",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3245",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"73-66",
-    "homeScoreByPeriod":"21,11,16,18,66",
-    "awayScoreByPeriod":"23,16,17,17,73",
-    "homeRecord":"9-15",
-    "awayRecord":"7-18",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"5-9",
-    "gameDate":"02\/18\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"230",
-    "isNeutral":"False",
-    "timeRemaining":"06:11",
     "awayPlay":"SUB IN by BALLARD,AMI",
     "awayTeamScore":"23",
     "playTeamIndicator":"",
@@ -11037,7 +11037,7 @@
       "bunner,cheyenne",
       "fee,mikayla",
       "ballard,ami",
-      null,
+      "kellam,paige",
       null
     ],
     "homeLineup":[
@@ -11071,7 +11071,7 @@
     "awayPlayer1":"bunner,cheyenne",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11116,7 +11116,7 @@
       "fee,mikayla",
       "ballard,ami",
       "moore,lauren",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -11150,8 +11150,8 @@
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
     "awayPlayer4":"moore,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12137,7 +12137,7 @@
       "smith,marlee",
       "roth,katie",
       "taylor,bella",
-      null
+      "hitchcock,allison"
     ],
     "timeSeconds":315,
     "Poss":"centre",
@@ -12159,13 +12159,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"roth,katie",
     "homePlayer4":"taylor,bella",
-    "homePlayer5":null,
+    "homePlayer5":"hitchcock,allison",
     "awayPlayer1":"bunner,cheyenne",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
     "awayPlayer4":"moore,lauren",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12520,7 +12520,7 @@
       "ballard,ami",
       "moore,lauren",
       "miller,lakken",
-      null
+      "bunner,cheyenne"
     ],
     "homeLineup":[
       "kim,sue",
@@ -12554,8 +12554,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"miller,lakken",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bunner,cheyenne",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12597,7 +12597,7 @@
       "fee,mikayla",
       "ballard,ami",
       "miller,lakken",
-      null,
+      "moore,lauren",
       null
     ],
     "homeLineup":[
@@ -12631,7 +12631,7 @@
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
-    "awayPlayer4":null,
+    "awayPlayer4":"moore,lauren",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12675,7 +12675,7 @@
       "fee,mikayla",
       "ballard,ami",
       "miller,lakken",
-      null,
+      "moore,lauren",
       null
     ],
     "homeLineup":[
@@ -12683,7 +12683,7 @@
       "smith,marlee",
       "taylor,bella",
       "mccormack,hannah",
-      null
+      "roth,katie"
     ],
     "timeSeconds":293,
     "Poss":"sewanee",
@@ -12705,11 +12705,11 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"taylor,bella",
     "homePlayer4":"mccormack,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"roth,katie",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
-    "awayPlayer4":null,
+    "awayPlayer4":"moore,lauren",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12754,14 +12754,14 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
       "smith,marlee",
       "taylor,bella",
       "mccormack,hannah",
-      null
+      "roth,katie"
     ],
     "timeSeconds":293,
     "Poss":"sewanee",
@@ -12783,13 +12783,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"taylor,bella",
     "homePlayer4":"mccormack,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"roth,katie",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12832,14 +12832,14 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
       "smith,marlee",
       "taylor,bella",
       "mccormack,hannah",
-      null
+      "roth,katie"
     ],
     "timeSeconds":293,
     "Poss":"sewanee",
@@ -12861,13 +12861,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"taylor,bella",
     "homePlayer4":"mccormack,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"roth,katie",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12910,7 +12910,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -12944,8 +12944,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -12988,7 +12988,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13022,8 +13022,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13066,7 +13066,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13100,8 +13100,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13144,7 +13144,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13178,8 +13178,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13222,7 +13222,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13256,8 +13256,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13300,7 +13300,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13334,8 +13334,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13378,7 +13378,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13412,8 +13412,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13456,7 +13456,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13490,8 +13490,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13534,7 +13534,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13568,8 +13568,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13612,7 +13612,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13646,8 +13646,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13690,7 +13690,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13724,8 +13724,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13768,7 +13768,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13802,8 +13802,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13846,7 +13846,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13880,8 +13880,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -13924,7 +13924,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -13958,8 +13958,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -14002,7 +14002,7 @@
       "ballard,ami",
       "miller,lakken",
       "stewart,abigail",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -14036,8 +14036,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -14074,6 +14074,84 @@
     "shotOutcome":"",
     "Team":"centre",
     "Player":"fee,mikayla",
+    "pointsEarned":"",
+    "awayLineup":[
+      "ballard,ami",
+      "miller,lakken",
+      "stewart,abigail",
+      "fee,mikayla",
+      null
+    ],
+    "homeLineup":[
+      "kim,sue",
+      "smith,marlee",
+      "taylor,bella",
+      "mccormack,hannah",
+      "caulder,corey"
+    ],
+    "timeSeconds":197,
+    "Poss":"sewanee",
+    "possNum":26,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"centre",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":54,
+    "teamChanged":0,
+    "game":"SewaneeCentre02\/18\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"kim,sue",
+    "homePlayer2":"smith,marlee",
+    "homePlayer3":"taylor,bella",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"caulder,corey",
+    "awayPlayer1":"ballard,ami",
+    "awayPlayer2":"miller,lakken",
+    "awayPlayer3":"stewart,abigail",
+    "awayPlayer4":"fee,mikayla",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3245",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"73-66",
+    "homeScoreByPeriod":"21,11,16,18,66",
+    "awayScoreByPeriod":"23,16,17,17,73",
+    "homeRecord":"9-15",
+    "awayRecord":"7-18",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"5-9",
+    "gameDate":"02\/18\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"230",
+    "isNeutral":"False",
+    "timeRemaining":"03:17",
+    "awayPlay":"SUB OUT by STEWART,ABIGAIL",
+    "awayTeamScore":"31 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"27",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by STEWART,ABIGAIL",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"centre",
+    "Player":"stewart,abigail",
     "pointsEarned":"",
     "awayLineup":[
       "ballard,ami",
@@ -14139,84 +14217,6 @@
     "attendance":"230",
     "isNeutral":"False",
     "timeRemaining":"03:17",
-    "awayPlay":"SUB OUT by STEWART,ABIGAIL",
-    "awayTeamScore":"31 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"27",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by STEWART,ABIGAIL",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"centre",
-    "Player":"stewart,abigail",
-    "pointsEarned":"",
-    "awayLineup":[
-      "ballard,ami",
-      "miller,lakken",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "kim,sue",
-      "smith,marlee",
-      "taylor,bella",
-      "mccormack,hannah",
-      "caulder,corey"
-    ],
-    "timeSeconds":197,
-    "Poss":"sewanee",
-    "possNum":26,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"centre",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":54,
-    "teamChanged":0,
-    "game":"SewaneeCentre02\/18\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"kim,sue",
-    "homePlayer2":"smith,marlee",
-    "homePlayer3":"taylor,bella",
-    "homePlayer4":"mccormack,hannah",
-    "homePlayer5":"caulder,corey",
-    "awayPlayer1":"ballard,ami",
-    "awayPlayer2":"miller,lakken",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3245",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"73-66",
-    "homeScoreByPeriod":"21,11,16,18,66",
-    "awayScoreByPeriod":"23,16,17,17,73",
-    "homeRecord":"9-15",
-    "awayRecord":"7-18",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"5-9",
-    "gameDate":"02\/18\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Sewanee, Tenn. (Juhan Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"230",
-    "isNeutral":"False",
-    "timeRemaining":"03:17",
     "awayPlay":"SUB OUT by SCHAD,OLIVIA",
     "awayTeamScore":"31 ",
     "playTeamIndicator":"",
@@ -14234,7 +14234,7 @@
     "awayLineup":[
       "ballard,ami",
       "miller,lakken",
-      null,
+      "stewart,abigail",
       null,
       null
     ],
@@ -14268,7 +14268,7 @@
     "homePlayer5":"caulder,corey",
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"miller,lakken",
-    "awayPlayer3":null,
+    "awayPlayer3":"stewart,abigail",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -14313,7 +14313,7 @@
       "ballard,ami",
       "miller,lakken",
       "vance,day",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -14347,7 +14347,7 @@
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"vance,day",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14392,7 +14392,7 @@
       "miller,lakken",
       "vance,day",
       "andreassen,caroline",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -14426,8 +14426,8 @@
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"vance,day",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -15484,7 +15484,7 @@
       "vance,day",
       "andreassen,caroline",
       "moore,lauren",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "kim,sue",
@@ -15518,8 +15518,8 @@
     "awayPlayer2":"vance,day",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"moore,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -15561,7 +15561,7 @@
       "vance,day",
       "andreassen,caroline",
       "moore,lauren",
-      null,
+      "ballard,ami",
       null
     ],
     "homeLineup":[
@@ -15595,7 +15595,7 @@
     "awayPlayer1":"vance,day",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
-    "awayPlayer4":null,
+    "awayPlayer4":"ballard,ami",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15640,7 +15640,7 @@
       "andreassen,caroline",
       "moore,lauren",
       "kellam,paige",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -16186,7 +16186,7 @@
       "andreassen,caroline",
       "moore,lauren",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
       "kim,sue",
@@ -16220,8 +16220,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -16264,14 +16264,14 @@
       "andreassen,caroline",
       "moore,lauren",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
       "kim,sue",
       "smith,marlee",
       "mccormack,hannah",
       "caulder,corey",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":90,
     "Poss":"sewanee",
@@ -16293,13 +16293,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"mccormack,hannah",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -16349,7 +16349,7 @@
       "smith,marlee",
       "mccormack,hannah",
       "caulder,corey",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":90,
     "Poss":"sewanee",
@@ -16371,13 +16371,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"mccormack,hannah",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -16895,7 +16895,7 @@
       "smith,marlee",
       "mccormack,hannah",
       "caulder,corey",
-      null
+      "lyerly,haley"
     ],
     "timeSeconds":50,
     "Poss":"centre",
@@ -16917,13 +16917,13 @@
     "homePlayer2":"smith,marlee",
     "homePlayer3":"mccormack,hannah",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"lyerly,haley",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -19540,7 +19540,7 @@
       "andreassen,caroline",
       "moore,lauren",
       "kellam,paige",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "kim,sue",
@@ -19574,8 +19574,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"moore,lauren",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -20554,7 +20554,7 @@
       "moore,lauren",
       "kellam,paige",
       "ballard,ami",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "kim,sue",
@@ -20588,8 +20588,8 @@
     "awayPlayer2":"moore,lauren",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"ballard,ami",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vance,day",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -20631,7 +20631,7 @@
       "moore,lauren",
       "kellam,paige",
       "ballard,ami",
-      null,
+      "andreassen,caroline",
       null
     ],
     "homeLineup":[
@@ -20665,7 +20665,7 @@
     "awayPlayer1":"moore,lauren",
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"ballard,ami",
-    "awayPlayer4":null,
+    "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20709,7 +20709,7 @@
       "moore,lauren",
       "kellam,paige",
       "ballard,ami",
-      null,
+      "andreassen,caroline",
       null
     ],
     "homeLineup":[
@@ -20743,7 +20743,7 @@
     "awayPlayer1":"moore,lauren",
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"ballard,ami",
-    "awayPlayer4":null,
+    "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20788,7 +20788,7 @@
       "kellam,paige",
       "ballard,ami",
       "bunner,cheyenne",
-      null
+      "totals"
     ],
     "homeLineup":[
       "kim,sue",
@@ -20822,8 +20822,8 @@
     "awayPlayer2":"kellam,paige",
     "awayPlayer3":"ballard,ami",
     "awayPlayer4":"bunner,cheyenne",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -21958,7 +21958,7 @@
       "ballard,ami",
       "bunner,cheyenne",
       "miller,lakken",
-      null
+      "moore,lauren"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -21992,8 +21992,8 @@
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"bunner,cheyenne",
     "awayPlayer4":"miller,lakken",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moore,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -22035,7 +22035,7 @@
       "ballard,ami",
       "bunner,cheyenne",
       "miller,lakken",
-      null,
+      "kellam,paige",
       null
     ],
     "homeLineup":[
@@ -22069,7 +22069,7 @@
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"miller,lakken",
-    "awayPlayer4":null,
+    "awayPlayer4":"kellam,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22114,7 +22114,7 @@
       "bunner,cheyenne",
       "miller,lakken",
       "fee,mikayla",
-      null
+      "totals"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -22148,8 +22148,8 @@
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"fee,mikayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -22972,7 +22972,7 @@
       "bunner,cheyenne",
       "miller,lakken",
       "andreassen,caroline",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -23006,8 +23006,8 @@
     "awayPlayer2":"bunner,cheyenne",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fee,mikayla",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -23049,7 +23049,7 @@
       "ballard,ami",
       "miller,lakken",
       "andreassen,caroline",
-      null,
+      "bunner,cheyenne",
       null
     ],
     "homeLineup":[
@@ -23083,7 +23083,7 @@
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"andreassen,caroline",
-    "awayPlayer4":null,
+    "awayPlayer4":"bunner,cheyenne",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23127,7 +23127,7 @@
       "ballard,ami",
       "miller,lakken",
       "andreassen,caroline",
-      null,
+      "bunner,cheyenne",
       null
     ],
     "homeLineup":[
@@ -23161,7 +23161,7 @@
     "awayPlayer1":"ballard,ami",
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"andreassen,caroline",
-    "awayPlayer4":null,
+    "awayPlayer4":"bunner,cheyenne",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23206,7 +23206,7 @@
       "miller,lakken",
       "andreassen,caroline",
       "vance,day",
-      null
+      "totals"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -23240,8 +23240,8 @@
     "awayPlayer2":"miller,lakken",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"vance,day",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -24220,7 +24220,7 @@
       "andreassen,caroline",
       "vance,day",
       "stewart,abigail",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -24254,8 +24254,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"vance,day",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -24297,7 +24297,7 @@
       "andreassen,caroline",
       "vance,day",
       "stewart,abigail",
-      null,
+      "ballard,ami",
       null
     ],
     "homeLineup":[
@@ -24331,7 +24331,7 @@
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
-    "awayPlayer4":null,
+    "awayPlayer4":"ballard,ami",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24376,7 +24376,7 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "totals"
     ],
     "homeLineup":[
       "smith,marlee",
@@ -24410,8 +24410,8 @@
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25396,7 +25396,7 @@
       "smith,marlee",
       "taylor,bella",
       "hitchcock,allison",
-      null,
+      "mccormack,hannah",
       null
     ],
     "timeSeconds":35,
@@ -25418,7 +25418,7 @@
     "homePlayer1":"smith,marlee",
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":null,
+    "homePlayer4":"mccormack,hannah",
     "homePlayer5":null,
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
@@ -25475,7 +25475,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":35,
     "Poss":"sewanee",
@@ -25497,13 +25497,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25553,7 +25553,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":30,
     "Poss":"sewanee",
@@ -25575,13 +25575,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25631,7 +25631,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -25653,13 +25653,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25709,7 +25709,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":12,
     "Poss":"centre",
@@ -25731,13 +25731,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25787,7 +25787,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -25809,13 +25809,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25865,7 +25865,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":8,
     "Poss":"centre",
@@ -25887,13 +25887,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -25943,7 +25943,7 @@
       "taylor,bella",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":1,
     "Poss":"centre",
@@ -25965,13 +25965,13 @@
     "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26017,11 +26017,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "caulder,corey",
-      "mccormack,hannah",
-      "taylor,bella",
       "smith,marlee",
-      null
+      "taylor,bella",
+      "hitchcock,allison",
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26039,17 +26039,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"caulder,corey",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"taylor,bella",
-    "homePlayer4":"smith,marlee",
-    "homePlayer5":null,
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
+    "homePlayer3":"hitchcock,allison",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26095,11 +26095,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "mccormack,hannah",
-      "taylor,bella",
       "smith,marlee",
-      null,
-      null
+      "taylor,bella",
+      "hitchcock,allison",
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26117,17 +26117,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"mccormack,hannah",
+    "homePlayer1":"smith,marlee",
     "homePlayer2":"taylor,bella",
-    "homePlayer3":"smith,marlee",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"hitchcock,allison",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26173,11 +26173,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
-      null,
-      null,
-      null
+      "taylor,bella",
+      "hitchcock,allison",
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26195,17 +26195,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
+    "homePlayer3":"hitchcock,allison",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26251,11 +26251,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
-      null,
-      null,
-      null
+      "taylor,bella",
+      "hitchcock,allison",
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26273,17 +26273,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
+    "homePlayer3":"hitchcock,allison",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26329,11 +26329,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26351,17 +26351,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26407,11 +26407,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -26429,17 +26429,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26485,11 +26485,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":578,
     "Poss":"centre",
@@ -26507,17 +26507,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26563,11 +26563,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -26585,17 +26585,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":-577,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26641,11 +26641,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":562,
     "Poss":"centre",
@@ -26663,17 +26663,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26719,11 +26719,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":559,
     "Poss":"sewanee",
@@ -26741,17 +26741,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26797,11 +26797,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -26819,17 +26819,17 @@
     "OREB":1,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26875,11 +26875,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":556,
     "Poss":"sewanee",
@@ -26897,17 +26897,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":22,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -26953,11 +26953,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":555,
     "Poss":"sewanee",
@@ -26975,17 +26975,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27031,11 +27031,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":535,
     "Poss":"centre",
@@ -27053,17 +27053,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27109,11 +27109,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -27131,17 +27131,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":21,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27187,11 +27187,11 @@
       "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":520,
     "Poss":"centre",
@@ -27209,17 +27209,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27262,14 +27262,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":520,
     "Poss":"sewanee",
@@ -27287,17 +27287,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27340,14 +27340,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":520,
     "Poss":"sewanee",
@@ -27365,17 +27365,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27418,14 +27418,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":516,
     "Poss":"sewanee",
@@ -27443,17 +27443,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27496,14 +27496,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":516,
     "Poss":"sewanee",
@@ -27521,17 +27521,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27574,14 +27574,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":516,
     "Poss":"sewanee",
@@ -27599,17 +27599,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":19,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27652,14 +27652,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":494,
     "Poss":"sewanee",
@@ -27677,17 +27677,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27730,14 +27730,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -27755,17 +27755,17 @@
     "OREB":0,
     "DREB":1,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27808,14 +27808,14 @@
       "vance,day",
       "stewart,abigail",
       "kellam,paige",
-      null
+      "schad,olivia"
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":490,
     "Poss":"sewanee",
@@ -27833,17 +27833,17 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"schad,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -27885,15 +27885,15 @@
       "andreassen,caroline",
       "vance,day",
       "kellam,paige",
-      null,
+      "stewart,abigail",
       null
     ],
     "homeLineup":[
-      "taylor,bella",
       "smith,marlee",
+      "taylor,bella",
       "hitchcock,allison",
-      "kim,sue",
-      null
+      "rose,savannah",
+      "kim,sue"
     ],
     "timeSeconds":490,
     "Poss":"sewanee",
@@ -27911,15 +27911,15 @@
     "OREB":0,
     "DREB":0,
     "secondsPerPoss":0,
-    "homePlayer1":"taylor,bella",
-    "homePlayer2":"smith,marlee",
+    "homePlayer1":"smith,marlee",
+    "homePlayer2":"taylor,bella",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":null,
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,abigail",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27963,14 +27963,14 @@
       "andreassen,caroline",
       "vance,day",
       "kellam,paige",
-      null,
+      "stewart,abigail",
       null
     ],
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
-      null,
-      null,
+      "rose,savannah",
+      "smith,marlee",
       null
     ],
     "timeSeconds":490,
@@ -27991,13 +27991,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":null,
-    "homePlayer4":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"smith,marlee",
     "homePlayer5":null,
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"stewart,abigail",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28047,8 +28047,8 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
-      null,
-      null,
+      "rose,savannah",
+      "smith,marlee",
       null
     ],
     "timeSeconds":490,
@@ -28069,8 +28069,8 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":null,
-    "homePlayer4":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"smith,marlee",
     "homePlayer5":null,
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
@@ -28125,9 +28125,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":490,
     "Poss":"sewanee",
@@ -28147,15 +28147,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28203,9 +28203,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":479,
     "Poss":"sewanee",
@@ -28225,15 +28225,15 @@
     "secondsPerPoss":37,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28281,9 +28281,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":460,
     "Poss":"sewanee",
@@ -28303,15 +28303,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28359,9 +28359,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -28381,15 +28381,15 @@
     "secondsPerPoss":19,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28437,9 +28437,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":438,
     "Poss":"sewanee",
@@ -28459,15 +28459,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28515,9 +28515,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -28537,15 +28537,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28593,9 +28593,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":413,
     "Poss":"centre",
@@ -28615,15 +28615,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28671,9 +28671,9 @@
     "homeLineup":[
       "taylor,bella",
       "hitchcock,allison",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null
+      "kim,sue"
     ],
     "timeSeconds":413,
     "Poss":"centre",
@@ -28693,15 +28693,15 @@
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
     "homePlayer2":"hitchcock,allison",
-    "homePlayer3":"mccormack,hannah",
-    "homePlayer4":null,
-    "homePlayer5":null,
+    "homePlayer3":"rose,savannah",
+    "homePlayer4":"mccormack,hannah",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -28748,9 +28748,9 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null,
+      "hitchcock,allison",
       null
     ],
     "timeSeconds":413,
@@ -28770,9 +28770,9 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":null,
-    "homePlayer4":null,
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"hitchcock,allison",
     "homePlayer5":null,
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
@@ -28826,9 +28826,9 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
-      null,
-      null,
+      "hitchcock,allison",
       null
     ],
     "timeSeconds":413,
@@ -28848,9 +28848,9 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":null,
-    "homePlayer4":null,
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"hitchcock,allison",
     "homePlayer5":null,
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
@@ -28904,10 +28904,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":413,
     "Poss":"centre",
@@ -28926,10 +28926,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -28982,10 +28982,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":410,
     "Poss":"centre",
@@ -29004,10 +29004,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29060,10 +29060,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -29082,10 +29082,10 @@
     "DREB":0,
     "secondsPerPoss":50,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29138,10 +29138,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":392,
     "Poss":"centre",
@@ -29160,10 +29160,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29216,10 +29216,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":392,
     "Poss":"centre",
@@ -29238,10 +29238,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29294,10 +29294,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -29316,10 +29316,10 @@
     "DREB":1,
     "secondsPerPoss":18,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29372,10 +29372,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":368,
     "Poss":"centre",
@@ -29394,10 +29394,10 @@
     "DREB":0,
     "secondsPerPoss":24,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29450,10 +29450,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":353,
     "Poss":"sewanee",
@@ -29472,10 +29472,10 @@
     "DREB":0,
     "secondsPerPoss":15,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"kellam,paige",
@@ -29524,14 +29524,14 @@
       "vance,day",
       "fee,mikayla",
       "ballard,ami",
-      null
+      "kellam,paige"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":353,
     "Poss":"centre",
@@ -29550,16 +29550,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
     "awayPlayer4":"ballard,ami",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,paige",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -29606,10 +29606,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":353,
     "Poss":"centre",
@@ -29628,10 +29628,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -29684,10 +29684,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":338,
     "Poss":"centre",
@@ -29706,10 +29706,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -29762,10 +29762,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":338,
     "Poss":"centre",
@@ -29784,10 +29784,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -29840,10 +29840,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -29862,10 +29862,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -29918,10 +29918,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":338,
     "Poss":"centre",
@@ -29940,10 +29940,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -29996,10 +29996,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -30018,10 +30018,10 @@
     "DREB":1,
     "secondsPerPoss":15,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"andreassen,caroline",
     "awayPlayer2":"vance,day",
     "awayPlayer3":"fee,mikayla",
@@ -30070,14 +30070,14 @@
       "fee,mikayla",
       "ballard,ami",
       "schad,olivia",
-      null
+      "andreassen,caroline"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":338,
     "Poss":"sewanee",
@@ -30096,16 +30096,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
     "awayPlayer4":"schad,olivia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"andreassen,caroline",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -30152,10 +30152,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":338,
     "Poss":"sewanee",
@@ -30174,10 +30174,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30230,10 +30230,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":315,
     "Poss":"sewanee",
@@ -30252,10 +30252,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30308,10 +30308,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -30330,10 +30330,10 @@
     "DREB":1,
     "secondsPerPoss":23,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30386,10 +30386,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":298,
     "Poss":"centre",
@@ -30408,10 +30408,10 @@
     "DREB":0,
     "secondsPerPoss":17,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30464,10 +30464,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":297,
     "Poss":"centre",
@@ -30486,10 +30486,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30542,10 +30542,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"sewanee",
@@ -30564,10 +30564,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30620,10 +30620,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"sewanee",
@@ -30642,10 +30642,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30698,10 +30698,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"sewanee",
@@ -30720,10 +30720,10 @@
     "DREB":0,
     "secondsPerPoss":4,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30776,10 +30776,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"sewanee",
@@ -30798,10 +30798,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30854,10 +30854,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -30876,10 +30876,10 @@
     "DREB":1,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"vance,day",
     "awayPlayer2":"fee,mikayla",
     "awayPlayer3":"ballard,ami",
@@ -30928,14 +30928,14 @@
       "ballard,ami",
       "schad,olivia",
       "miller,lakken",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"centre",
@@ -30954,16 +30954,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"ballard,ami",
     "awayPlayer3":"schad,olivia",
     "awayPlayer4":"miller,lakken",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vance,day",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -31005,15 +31005,15 @@
       "fee,mikayla",
       "schad,olivia",
       "miller,lakken",
-      null,
+      "ballard,ami",
       null
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"centre",
@@ -31032,14 +31032,14 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
-    "awayPlayer4":null,
+    "awayPlayer4":"ballard,ami",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31084,14 +31084,14 @@
       "schad,olivia",
       "miller,lakken",
       "moore,lauren",
-      null
+      "totals"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"centre",
@@ -31110,16 +31110,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"moore,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -31166,10 +31166,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":294,
     "Poss":"centre",
@@ -31188,10 +31188,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31244,10 +31244,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":267,
     "Poss":"centre",
@@ -31266,10 +31266,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31322,10 +31322,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -31344,10 +31344,10 @@
     "DREB":1,
     "secondsPerPoss":27,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31400,10 +31400,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":259,
     "Poss":"sewanee",
@@ -31422,10 +31422,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31478,10 +31478,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -31500,10 +31500,10 @@
     "DREB":1,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31556,10 +31556,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":253,
     "Poss":"centre",
@@ -31578,10 +31578,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31630,14 +31630,14 @@
       "schad,olivia",
       "miller,lakken",
       "kellam,paige",
-      null
+      "moore,lauren"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":253,
     "Poss":"centre",
@@ -31656,16 +31656,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moore,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -31712,10 +31712,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":253,
     "Poss":"centre",
@@ -31734,10 +31734,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31790,10 +31790,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":238,
     "Poss":"centre",
@@ -31812,10 +31812,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"miller,lakken",
@@ -31864,14 +31864,14 @@
       "schad,olivia",
       "kellam,paige",
       "stewart,abigail",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":238,
     "Poss":"centre",
@@ -31890,16 +31890,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"stewart,abigail",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -31946,10 +31946,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":238,
     "Poss":"centre",
@@ -31968,10 +31968,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"kellam,paige",
@@ -32024,10 +32024,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32046,10 +32046,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"kellam,paige",
@@ -32102,10 +32102,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32124,10 +32124,10 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"kellam,paige",
@@ -32180,10 +32180,10 @@
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32202,10 +32202,10 @@
     "DREB":0,
     "secondsPerPoss":39,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"kellam,paige",
@@ -32254,14 +32254,14 @@
       "schad,olivia",
       "stewart,abigail",
       "andreassen,caroline",
-      null
+      "kellam,paige"
     ],
     "homeLineup":[
       "taylor,bella",
+      "rose,savannah",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "kim,sue"
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32280,16 +32280,16 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"taylor,bella",
-    "homePlayer2":"mccormack,hannah",
-    "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer2":"rose,savannah",
+    "homePlayer3":"mccormack,hannah",
+    "homePlayer4":"caulder,corey",
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kellam,paige",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -32332,14 +32332,14 @@
       "schad,olivia",
       "stewart,abigail",
       "andreassen,caroline",
-      null
+      "kellam,paige"
     ],
     "homeLineup":[
       "taylor,bella",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "rose,savannah",
+      null
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32360,13 +32360,13 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":null,
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
+    "awayPlayer5":"kellam,paige",
     "playerMissing":1
   },
   {
@@ -32416,8 +32416,8 @@
       "taylor,bella",
       "mccormack,hannah",
       "caulder,corey",
-      "kim,sue",
-      "rose,savannah"
+      "rose,savannah",
+      null
     ],
     "timeSeconds":228,
     "Poss":"centre",
@@ -32438,14 +32438,14 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"caulder,corey",
-    "homePlayer4":"kim,sue",
-    "homePlayer5":"rose,savannah",
+    "homePlayer4":"rose,savannah",
+    "homePlayer5":null,
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"miller,lakken",
-    "playerMissing":0
+    "playerMissing":1
   },
   {
     "gameID":"3245",
@@ -33034,7 +33034,7 @@
       "schad,olivia",
       "stewart,abigail",
       "andreassen,caroline",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -33068,8 +33068,8 @@
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -33586,7 +33586,7 @@
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
-      null,
+      "caulder,corey",
       null
     ],
     "timeSeconds":143,
@@ -33608,7 +33608,7 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":null,
+    "homePlayer4":"caulder,corey",
     "homePlayer5":null,
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
@@ -33665,7 +33665,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":143,
     "Poss":"sewanee",
@@ -33687,13 +33687,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -33743,7 +33743,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "rose,savannah",
-      null
+      "kim,sue"
     ],
     "timeSeconds":134,
     "Poss":"sewanee",
@@ -33765,13 +33765,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"rose,savannah",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -33820,7 +33820,7 @@
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
-      null,
+      "rose,savannah",
       null
     ],
     "timeSeconds":130,
@@ -33842,7 +33842,7 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":null,
+    "homePlayer4":"rose,savannah",
     "homePlayer5":null,
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
@@ -33899,7 +33899,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":130,
     "Poss":"sewanee",
@@ -33921,13 +33921,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -33977,7 +33977,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":120,
     "Poss":"sewanee",
@@ -33999,13 +33999,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34055,7 +34055,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -34077,13 +34077,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34133,7 +34133,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":103,
     "Poss":"sewanee",
@@ -34155,13 +34155,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"fee,mikayla",
     "awayPlayer2":"schad,olivia",
     "awayPlayer3":"stewart,abigail",
     "awayPlayer4":"andreassen,caroline",
     "awayPlayer5":"kellam,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34204,14 +34204,14 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":103,
     "Poss":"sewanee",
@@ -34233,13 +34233,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fee,mikayla",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34289,7 +34289,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":103,
     "Poss":"sewanee",
@@ -34311,13 +34311,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34367,7 +34367,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":93,
     "Poss":"sewanee",
@@ -34389,13 +34389,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34445,7 +34445,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -34467,13 +34467,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34523,7 +34523,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":83,
     "Poss":"sewanee",
@@ -34545,13 +34545,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34601,7 +34601,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":82,
     "Poss":"sewanee",
@@ -34623,13 +34623,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34679,7 +34679,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":61,
     "Poss":"centre",
@@ -34701,13 +34701,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34757,7 +34757,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":46,
     "Poss":"centre",
@@ -34779,13 +34779,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34835,7 +34835,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":46,
     "Poss":"sewanee",
@@ -34857,13 +34857,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34913,7 +34913,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":46,
     "Poss":"sewanee",
@@ -34935,13 +34935,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -34991,7 +34991,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":46,
     "Poss":"sewanee",
@@ -35013,13 +35013,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -35062,14 +35062,14 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
       "caulder,corey",
-      null
+      "kim,sue"
     ],
     "timeSeconds":46,
     "Poss":"sewanee",
@@ -35091,13 +35091,13 @@
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vance,day",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -35140,13 +35140,13 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
-      null,
+      "caulder,corey",
       null
     ],
     "timeSeconds":46,
@@ -35168,13 +35168,13 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":null,
+    "homePlayer4":"caulder,corey",
     "homePlayer5":null,
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
+    "awayPlayer5":"vance,day",
     "playerMissing":1
   },
   {
@@ -35224,7 +35224,7 @@
       "taylor,bella",
       "mccormack,hannah",
       "hitchcock,allison",
-      null,
+      "caulder,corey",
       null
     ],
     "timeSeconds":46,
@@ -35246,7 +35246,7 @@
     "homePlayer1":"taylor,bella",
     "homePlayer2":"mccormack,hannah",
     "homePlayer3":"hitchcock,allison",
-    "homePlayer4":null,
+    "homePlayer4":"caulder,corey",
     "homePlayer5":null,
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
@@ -35764,7 +35764,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -35798,8 +35798,8 @@
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fee,mikayla",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -35842,7 +35842,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "taylor,bella",
@@ -35876,8 +35876,8 @@
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fee,mikayla",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -35920,13 +35920,13 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "fee,mikayla"
     ],
     "homeLineup":[
       "mccormack,hannah",
       "hitchcock,allison",
       "rose,savannah",
-      null,
+      "taylor,bella",
       null
     ],
     "timeSeconds":45,
@@ -35948,13 +35948,13 @@
     "homePlayer1":"mccormack,hannah",
     "homePlayer2":"hitchcock,allison",
     "homePlayer3":"rose,savannah",
-    "homePlayer4":null,
+    "homePlayer4":"taylor,bella",
     "homePlayer5":null,
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
+    "awayPlayer5":"fee,mikayla",
     "playerMissing":1
   },
   {
@@ -36004,7 +36004,7 @@
       "mccormack,hannah",
       "hitchcock,allison",
       "rose,savannah",
-      null,
+      "taylor,bella",
       null
     ],
     "timeSeconds":45,
@@ -36026,7 +36026,7 @@
     "homePlayer1":"mccormack,hannah",
     "homePlayer2":"hitchcock,allison",
     "homePlayer3":"rose,savannah",
-    "homePlayer4":null,
+    "homePlayer4":"taylor,bella",
     "homePlayer5":null,
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
@@ -36083,7 +36083,7 @@
       "hitchcock,allison",
       "rose,savannah",
       "taylor,bella",
-      null
+      "kim,sue"
     ],
     "timeSeconds":45,
     "Poss":"centre",
@@ -36105,13 +36105,13 @@
     "homePlayer2":"hitchcock,allison",
     "homePlayer3":"rose,savannah",
     "homePlayer4":"taylor,bella",
-    "homePlayer5":null,
+    "homePlayer5":"kim,sue",
     "awayPlayer1":"schad,olivia",
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
     "awayPlayer5":"vance,day",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -37246,7 +37246,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null
+      "vance,day"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -37280,8 +37280,8 @@
     "awayPlayer2":"stewart,abigail",
     "awayPlayer3":"andreassen,caroline",
     "awayPlayer4":"kellam,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vance,day",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -37323,7 +37323,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null,
+      "schad,olivia",
       null
     ],
     "homeLineup":[
@@ -37357,7 +37357,7 @@
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"schad,olivia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37401,7 +37401,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null,
+      "schad,olivia",
       null
     ],
     "homeLineup":[
@@ -37435,7 +37435,7 @@
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"schad,olivia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37480,7 +37480,7 @@
       "andreassen,caroline",
       "kellam,paige",
       "miller,lakken",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -37514,8 +37514,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"miller,lakken",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -37870,7 +37870,7 @@
       "andreassen,caroline",
       "kellam,paige",
       "fee,mikayla",
-      null
+      "miller,lakken"
     ],
     "homeLineup":[
       "hitchcock,allison",
@@ -37904,8 +37904,8 @@
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"fee,mikayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,lakken",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -37947,7 +37947,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null,
+      "fee,mikayla",
       null
     ],
     "homeLineup":[
@@ -37981,7 +37981,7 @@
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"fee,mikayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38025,7 +38025,7 @@
       "stewart,abigail",
       "andreassen,caroline",
       "kellam,paige",
-      null,
+      "fee,mikayla",
       null
     ],
     "homeLineup":[
@@ -38033,7 +38033,7 @@
       "rose,savannah",
       "lyerly,haley",
       "caulder,corey",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":7,
     "Poss":"centre",
@@ -38055,11 +38055,11 @@
     "homePlayer2":"rose,savannah",
     "homePlayer3":"lyerly,haley",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"fee,mikayla",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38104,14 +38104,14 @@
       "andreassen,caroline",
       "kellam,paige",
       "vance,day",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hitchcock,allison",
       "rose,savannah",
       "lyerly,haley",
       "caulder,corey",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":7,
     "Poss":"centre",
@@ -38133,13 +38133,13 @@
     "homePlayer2":"rose,savannah",
     "homePlayer3":"lyerly,haley",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"vance,day",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3245",
@@ -38189,7 +38189,7 @@
       "rose,savannah",
       "lyerly,haley",
       "caulder,corey",
-      null
+      "taylor,bella"
     ],
     "timeSeconds":7,
     "Poss":"centre",
@@ -38211,13 +38211,13 @@
     "homePlayer2":"rose,savannah",
     "homePlayer3":"lyerly,haley",
     "homePlayer4":"caulder,corey",
-    "homePlayer5":null,
+    "homePlayer5":"taylor,bella",
     "awayPlayer1":"stewart,abigail",
     "awayPlayer2":"andreassen,caroline",
     "awayPlayer3":"kellam,paige",
     "awayPlayer4":"vance,day",
     "awayPlayer5":"schad,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3245",

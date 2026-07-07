@@ -1217,7 +1217,7 @@
       "woppman,rachel",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null
+      "mojaver,zoe"
     ],
     "timeSeconds":471,
     "Poss":"hendrix",
@@ -1239,13 +1239,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"mojaver,zoe",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -1678,7 +1678,7 @@
       "fortenberry,dia",
       "caldwell,devan",
       "laster,mikenzi",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -1712,8 +1712,8 @@
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"laster,mikenzi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -1750,6 +1750,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"caldwell,devan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "manning,taelor",
+      "fortenberry,dia",
+      "laster,mikenzi",
+      "caldwell,devan",
+      null
+    ],
+    "homeLineup":[
+      "burns,kennedi",
+      "woppman,rachel",
+      "jenkins,kessie",
+      "gutierrez,anissa",
+      "salyer,cassidy"
+    ],
+    "timeSeconds":459,
+    "Poss":"hendrix",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":9,
+    "teamChanged":0,
+    "game":"HendrixMillsaps01\/16\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"burns,kennedi",
+    "homePlayer2":"woppman,rachel",
+    "homePlayer3":"jenkins,kessie",
+    "homePlayer4":"gutierrez,anissa",
+    "homePlayer5":"salyer,cassidy",
+    "awayPlayer1":"manning,taelor",
+    "awayPlayer2":"fortenberry,dia",
+    "awayPlayer3":"laster,mikenzi",
+    "awayPlayer4":"caldwell,devan",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3692",
+    "homeTeam":"Hendrix",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"69-66",
+    "homeScoreByPeriod":"10,19,14,23,66",
+    "awayScoreByPeriod":"14,22,21,12,69",
+    "homeRecord":"0-1",
+    "awayRecord":"2-0",
+    "homeConfRecord":"0-1",
+    "awayConfRecord":"1-0",
+    "gameDate":"01\/16\/21",
+    "startTime":"4:05 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"100",
+    "isNeutral":"False",
+    "timeRemaining":"07:39",
+    "awayPlay":"SUB OUT by LASTER,MIKENZI",
+    "awayTeamScore":"2 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"0",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LASTER,MIKENZI",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"laster,mikenzi",
     "pointsEarned":"",
     "awayLineup":[
       "manning,taelor",
@@ -1815,84 +1893,6 @@
     "attendance":"100",
     "isNeutral":"False",
     "timeRemaining":"07:39",
-    "awayPlay":"SUB OUT by LASTER,MIKENZI",
-    "awayTeamScore":"2 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"0",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LASTER,MIKENZI",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"laster,mikenzi",
-    "pointsEarned":"",
-    "awayLineup":[
-      "manning,taelor",
-      "fortenberry,dia",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "burns,kennedi",
-      "woppman,rachel",
-      "jenkins,kessie",
-      "gutierrez,anissa",
-      "salyer,cassidy"
-    ],
-    "timeSeconds":459,
-    "Poss":"hendrix",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":9,
-    "teamChanged":0,
-    "game":"HendrixMillsaps01\/16\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"burns,kennedi",
-    "homePlayer2":"woppman,rachel",
-    "homePlayer3":"jenkins,kessie",
-    "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":"salyer,cassidy",
-    "awayPlayer1":"manning,taelor",
-    "awayPlayer2":"fortenberry,dia",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3692",
-    "homeTeam":"Hendrix",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"69-66",
-    "homeScoreByPeriod":"10,19,14,23,66",
-    "awayScoreByPeriod":"14,22,21,12,69",
-    "homeRecord":"0-1",
-    "awayRecord":"2-0",
-    "homeConfRecord":"0-1",
-    "awayConfRecord":"1-0",
-    "gameDate":"01\/16\/21",
-    "startTime":"4:05 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"100",
-    "isNeutral":"False",
-    "timeRemaining":"07:39",
     "awayPlay":"",
     "awayTeamScore":"2 ",
     "playTeamIndicator":"",
@@ -1910,7 +1910,7 @@
     "awayLineup":[
       "manning,taelor",
       "fortenberry,dia",
-      null,
+      "laster,mikenzi",
       null,
       null
     ],
@@ -1919,7 +1919,7 @@
       "jenkins,kessie",
       "gutierrez,anissa",
       "salyer,cassidy",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":459,
     "Poss":"hendrix",
@@ -1941,10 +1941,10 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"fortenberry,dia",
-    "awayPlayer3":null,
+    "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -1989,7 +1989,7 @@
       "manning,taelor",
       "fortenberry,dia",
       "rayford,andrea",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -1997,7 +1997,7 @@
       "jenkins,kessie",
       "gutierrez,anissa",
       "salyer,cassidy",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":459,
     "Poss":"hendrix",
@@ -2019,11 +2019,11 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"rayford,andrea",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2068,14 +2068,14 @@
       "fortenberry,dia",
       "rayford,andrea",
       "king,briasha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "burns,kennedi",
       "jenkins,kessie",
       "gutierrez,anissa",
       "salyer,cassidy",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":459,
     "Poss":"hendrix",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"king,briasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -2153,7 +2153,7 @@
       "jenkins,kessie",
       "gutierrez,anissa",
       "salyer,cassidy",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":459,
     "Poss":"hendrix",
@@ -2175,13 +2175,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"king,briasha",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -3089,7 +3089,7 @@
       "gutierrez,anissa",
       "salyer,cassidy",
       "mccloria,alicia",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":385,
     "Poss":"hendrix",
@@ -3111,13 +3111,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"salyer,cassidy",
     "homePlayer4":"mccloria,alicia",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"king,briasha",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -3550,7 +3550,7 @@
       "rayford,andrea",
       "king,briasha",
       "thigpen,anna",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -3584,8 +3584,8 @@
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -3628,14 +3628,14 @@
       "rayford,andrea",
       "king,briasha",
       "thigpen,anna",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "gutierrez,anissa",
       "salyer,cassidy",
       "mccloria,alicia",
       "pierce,madi",
-      null
+      "burns,kennedi"
     ],
     "timeSeconds":379,
     "Poss":"millsaps",
@@ -3657,13 +3657,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"mccloria,alicia",
     "homePlayer4":"pierce,madi",
-    "homePlayer5":null,
+    "homePlayer5":"burns,kennedi",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -3713,7 +3713,7 @@
       "salyer,cassidy",
       "mccloria,alicia",
       "pierce,madi",
-      null
+      "burns,kennedi"
     ],
     "timeSeconds":379,
     "Poss":"millsaps",
@@ -3735,13 +3735,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"mccloria,alicia",
     "homePlayer4":"pierce,madi",
-    "homePlayer5":null,
+    "homePlayer5":"burns,kennedi",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -4649,7 +4649,7 @@
       "salyer,cassidy",
       "pierce,madi",
       "woppman,rachel",
-      null
+      "mccloria,alicia"
     ],
     "timeSeconds":327,
     "Poss":"hendrix",
@@ -4671,13 +4671,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"pierce,madi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"mccloria,alicia",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -4726,7 +4726,7 @@
       "salyer,cassidy",
       "pierce,madi",
       "woppman,rachel",
-      null,
+      "gutierrez,anissa",
       null
     ],
     "timeSeconds":327,
@@ -4748,7 +4748,7 @@
     "homePlayer1":"salyer,cassidy",
     "homePlayer2":"pierce,madi",
     "homePlayer3":"woppman,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"gutierrez,anissa",
     "homePlayer5":null,
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"rayford,andrea",
@@ -4805,7 +4805,7 @@
       "pierce,madi",
       "woppman,rachel",
       "wendt,caroline",
-      null
+      "totals"
     ],
     "timeSeconds":327,
     "Poss":"hendrix",
@@ -4827,13 +4827,13 @@
     "homePlayer2":"pierce,madi",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"wendt,caroline",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"manning,taelor",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -5344,7 +5344,7 @@
       "king,briasha",
       "thigpen,anna",
       "roe,helena",
-      null
+      "manning,taelor"
     ],
     "homeLineup":[
       "salyer,cassidy",
@@ -5378,8 +5378,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manning,taelor",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -5421,7 +5421,7 @@
       "king,briasha",
       "thigpen,anna",
       "roe,helena",
-      null,
+      "rayford,andrea",
       null
     ],
     "homeLineup":[
@@ -5455,7 +5455,7 @@
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"roe,helena",
-    "awayPlayer4":null,
+    "awayPlayer4":"rayford,andrea",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5498,7 +5498,7 @@
     "awayLineup":[
       "king,briasha",
       "roe,helena",
-      null,
+      "thigpen,anna",
       null,
       null
     ],
@@ -5532,7 +5532,7 @@
     "homePlayer5":"woods,isis",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
-    "awayPlayer3":null,
+    "awayPlayer3":"thigpen,anna",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -5577,7 +5577,7 @@
       "king,briasha",
       "roe,helena",
       "fortenberry,dia",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -5611,7 +5611,7 @@
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"fortenberry,dia",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5656,7 +5656,7 @@
       "roe,helena",
       "fortenberry,dia",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "salyer,cassidy",
@@ -5690,8 +5690,8 @@
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -5975,7 +5975,7 @@
       "pierce,madi",
       "wendt,caroline",
       "woods,isis",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":258,
     "Poss":"hendrix",
@@ -5997,13 +5997,13 @@
     "homePlayer2":"pierce,madi",
     "homePlayer3":"wendt,caroline",
     "homePlayer4":"woods,isis",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"mccurdy,maddie grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -6052,7 +6052,7 @@
       "salyer,cassidy",
       "wendt,caroline",
       "woods,isis",
-      null,
+      "pierce,madi",
       null
     ],
     "timeSeconds":258,
@@ -6074,7 +6074,7 @@
     "homePlayer1":"salyer,cassidy",
     "homePlayer2":"wendt,caroline",
     "homePlayer3":"woods,isis",
-    "homePlayer4":null,
+    "homePlayer4":"pierce,madi",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
@@ -6131,7 +6131,7 @@
       "wendt,caroline",
       "woods,isis",
       "burns,kennedi",
-      null
+      "totals"
     ],
     "timeSeconds":258,
     "Poss":"hendrix",
@@ -6153,13 +6153,13 @@
     "homePlayer2":"wendt,caroline",
     "homePlayer3":"woods,isis",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"mccurdy,maddie grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -6436,7 +6436,7 @@
       "roe,helena",
       "lartigue,elecia",
       "mccurdy,maddie grace",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "salyer,cassidy",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"mccurdy,maddie grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -6514,14 +6514,14 @@
       "roe,helena",
       "lartigue,elecia",
       "mccurdy,maddie grace",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "salyer,cassidy",
       "woods,isis",
       "burns,kennedi",
       "jenkins,kessie",
-      null
+      "wendt,caroline"
     ],
     "timeSeconds":232,
     "Poss":"millsaps",
@@ -6543,13 +6543,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"wendt,caroline",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"mccurdy,maddie grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -6599,7 +6599,7 @@
       "woods,isis",
       "burns,kennedi",
       "jenkins,kessie",
-      null
+      "wendt,caroline"
     ],
     "timeSeconds":232,
     "Poss":"millsaps",
@@ -6621,13 +6621,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"wendt,caroline",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"caldwell,devan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -8081,7 +8081,7 @@
       "burns,kennedi",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null
+      "salyer,cassidy"
     ],
     "timeSeconds":111,
     "Poss":"millsaps",
@@ -8103,13 +8103,13 @@
     "homePlayer2":"burns,kennedi",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"salyer,cassidy",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"caldwell,devan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -8158,7 +8158,7 @@
       "burns,kennedi",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null,
+      "woods,isis",
       null
     ],
     "timeSeconds":111,
@@ -8180,7 +8180,7 @@
     "homePlayer1":"burns,kennedi",
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
-    "homePlayer4":null,
+    "homePlayer4":"woods,isis",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
@@ -8237,7 +8237,7 @@
       "jenkins,kessie",
       "gutierrez,anissa",
       "mojaver,zoe",
-      null
+      "totals"
     ],
     "timeSeconds":111,
     "Poss":"millsaps",
@@ -8259,13 +8259,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"mojaver,zoe",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"mccurdy,maddie grace",
     "awayPlayer5":"caldwell,devan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -8776,7 +8776,7 @@
       "roe,helena",
       "mccurdy,maddie grace",
       "caldwell,devan",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -8810,8 +8810,8 @@
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"mccurdy,maddie grace",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -9173,7 +9173,7 @@
       "gutierrez,anissa",
       "mojaver,zoe",
       "pierce,madi",
-      null
+      "burns,kennedi"
     ],
     "timeSeconds":50,
     "Poss":"millsaps",
@@ -9195,13 +9195,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"mojaver,zoe",
     "homePlayer4":"pierce,madi",
-    "homePlayer5":null,
+    "homePlayer5":"burns,kennedi",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"mccurdy,maddie grace",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -11357,7 +11357,7 @@
       "mojaver,zoe",
       "pierce,madi",
       "woppman,rachel",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":541,
     "Poss":"millsaps",
@@ -11379,13 +11379,13 @@
     "homePlayer2":"mojaver,zoe",
     "homePlayer3":"pierce,madi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -11434,7 +11434,7 @@
       "mojaver,zoe",
       "pierce,madi",
       "woppman,rachel",
-      null,
+      "gutierrez,anissa",
       null
     ],
     "timeSeconds":541,
@@ -11456,7 +11456,7 @@
     "homePlayer1":"mojaver,zoe",
     "homePlayer2":"pierce,madi",
     "homePlayer3":"woppman,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"gutierrez,anissa",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -11513,7 +11513,7 @@
       "pierce,madi",
       "woppman,rachel",
       "burns,kennedi",
-      null
+      "totals"
     ],
     "timeSeconds":541,
     "Poss":"millsaps",
@@ -11535,13 +11535,13 @@
     "homePlayer2":"pierce,madi",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -12285,7 +12285,7 @@
       "king,briasha",
       "mccurdy,maddie grace",
       "caldwell,devan",
-      null,
+      "rayford,andrea",
       null
     ],
     "homeLineup":[
@@ -12319,7 +12319,7 @@
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"rayford,andrea",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12362,7 +12362,7 @@
     "awayLineup":[
       "king,briasha",
       "mccurdy,maddie grace",
-      null,
+      "caldwell,devan",
       null,
       null
     ],
@@ -12396,7 +12396,7 @@
     "homePlayer5":"mccloria,alicia",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
-    "awayPlayer3":null,
+    "awayPlayer3":"caldwell,devan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -12440,7 +12440,7 @@
     "awayLineup":[
       "king,briasha",
       "mccurdy,maddie grace",
-      null,
+      "caldwell,devan",
       null,
       null
     ],
@@ -12449,7 +12449,7 @@
       "woppman,rachel",
       "burns,kennedi",
       "mccloria,alicia",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":498,
     "Poss":"millsaps",
@@ -12471,10 +12471,10 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"mccloria,alicia",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
-    "awayPlayer3":null,
+    "awayPlayer3":"caldwell,devan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -12527,7 +12527,7 @@
       "woppman,rachel",
       "burns,kennedi",
       "mccloria,alicia",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":498,
     "Poss":"millsaps",
@@ -12549,13 +12549,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"mccloria,alicia",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -12605,7 +12605,7 @@
       "woppman,rachel",
       "burns,kennedi",
       "mccloria,alicia",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":498,
     "Poss":"millsaps",
@@ -12627,13 +12627,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"mccloria,alicia",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -12917,7 +12917,7 @@
       "burns,kennedi",
       "mccloria,alicia",
       "salyer,cassidy",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":487,
     "Poss":"millsaps",
@@ -12939,13 +12939,13 @@
     "homePlayer2":"burns,kennedi",
     "homePlayer3":"mccloria,alicia",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -12994,7 +12994,7 @@
       "burns,kennedi",
       "mccloria,alicia",
       "salyer,cassidy",
-      null,
+      "mojaver,zoe",
       null
     ],
     "timeSeconds":487,
@@ -13016,7 +13016,7 @@
     "homePlayer1":"burns,kennedi",
     "homePlayer2":"mccloria,alicia",
     "homePlayer3":"salyer,cassidy",
-    "homePlayer4":null,
+    "homePlayer4":"mojaver,zoe",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -13073,7 +13073,7 @@
       "mccloria,alicia",
       "salyer,cassidy",
       "woods,isis",
-      null
+      "totals"
     ],
     "timeSeconds":487,
     "Poss":"millsaps",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"mccloria,alicia",
     "homePlayer3":"salyer,cassidy",
     "homePlayer4":"woods,isis",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -13853,7 +13853,7 @@
       "salyer,cassidy",
       "woods,isis",
       "gutierrez,anissa",
-      null
+      "mccloria,alicia"
     ],
     "timeSeconds":458,
     "Poss":"millsaps",
@@ -13875,13 +13875,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"mccloria,alicia",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"fortenberry,dia",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -13931,7 +13931,7 @@
       "salyer,cassidy",
       "woods,isis",
       "gutierrez,anissa",
-      null
+      "mccloria,alicia"
     ],
     "timeSeconds":458,
     "Poss":"millsaps",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"mccloria,alicia",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -16341,7 +16341,7 @@
       "king,briasha",
       "mccurdy,maddie grace",
       "rayford,andrea",
-      null,
+      "roe,helena",
       null
     ],
     "homeLineup":[
@@ -16375,7 +16375,7 @@
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
-    "awayPlayer4":null,
+    "awayPlayer4":"roe,helena",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16419,7 +16419,7 @@
       "king,briasha",
       "mccurdy,maddie grace",
       "rayford,andrea",
-      null,
+      "roe,helena",
       null
     ],
     "homeLineup":[
@@ -16427,7 +16427,7 @@
       "salyer,cassidy",
       "woods,isis",
       "jenkins,kessie",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":344,
     "Poss":"millsaps",
@@ -16449,11 +16449,11 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
-    "awayPlayer4":null,
+    "awayPlayer4":"roe,helena",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16497,14 +16497,14 @@
       "king,briasha",
       "mccurdy,maddie grace",
       "rayford,andrea",
-      null,
+      "roe,helena",
       null
     ],
     "homeLineup":[
       "salyer,cassidy",
       "woods,isis",
       "jenkins,kessie",
-      null,
+      "burns,kennedi",
       null
     ],
     "timeSeconds":344,
@@ -16526,12 +16526,12 @@
     "homePlayer1":"salyer,cassidy",
     "homePlayer2":"woods,isis",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"burns,kennedi",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
-    "awayPlayer4":null,
+    "awayPlayer4":"roe,helena",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16582,7 +16582,7 @@
       "salyer,cassidy",
       "woods,isis",
       "jenkins,kessie",
-      null,
+      "burns,kennedi",
       null
     ],
     "timeSeconds":344,
@@ -16604,7 +16604,7 @@
     "homePlayer1":"salyer,cassidy",
     "homePlayer2":"woods,isis",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"burns,kennedi",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -16661,7 +16661,7 @@
       "woods,isis",
       "jenkins,kessie",
       "pierce,madi",
-      null
+      "totals"
     ],
     "timeSeconds":344,
     "Poss":"millsaps",
@@ -16683,13 +16683,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"pierce,madi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"fortenberry,dia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -17207,7 +17207,7 @@
       "pierce,madi",
       "mccloria,alicia",
       "neilson,belle",
-      null
+      "woods,isis"
     ],
     "timeSeconds":298,
     "Poss":"millsaps",
@@ -17229,13 +17229,13 @@
     "homePlayer2":"pierce,madi",
     "homePlayer3":"mccloria,alicia",
     "homePlayer4":"neilson,belle",
-    "homePlayer5":null,
+    "homePlayer5":"woods,isis",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"fortenberry,dia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -17519,7 +17519,7 @@
       "pierce,madi",
       "neilson,belle",
       "mojaver,zoe",
-      null
+      "salyer,cassidy"
     ],
     "timeSeconds":286,
     "Poss":"hendrix",
@@ -17541,13 +17541,13 @@
     "homePlayer2":"pierce,madi",
     "homePlayer3":"neilson,belle",
     "homePlayer4":"mojaver,zoe",
-    "homePlayer5":null,
+    "homePlayer5":"salyer,cassidy",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"fortenberry,dia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -18923,7 +18923,7 @@
       "neilson,belle",
       "woppman,rachel",
       "gutierrez,anissa",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":169,
     "Poss":"hendrix",
@@ -18945,13 +18945,13 @@
     "homePlayer2":"neilson,belle",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -19000,7 +19000,7 @@
       "neilson,belle",
       "woppman,rachel",
       "gutierrez,anissa",
-      null,
+      "jenkins,kessie",
       null
     ],
     "timeSeconds":169,
@@ -19022,7 +19022,7 @@
     "homePlayer1":"neilson,belle",
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
-    "homePlayer4":null,
+    "homePlayer4":"jenkins,kessie",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -19079,7 +19079,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "burns,kennedi",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":169,
     "Poss":"hendrix",
@@ -19101,13 +19101,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -19469,7 +19469,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "mccloria,alicia",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":155,
     "Poss":"hendrix",
@@ -19491,13 +19491,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"mccloria,alicia",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -20008,7 +20008,7 @@
       "mccurdy,maddie grace",
       "rayford,andrea",
       "caldwell,devan",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "neilson,belle",
@@ -20042,8 +20042,8 @@
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -20086,14 +20086,14 @@
       "mccurdy,maddie grace",
       "rayford,andrea",
       "caldwell,devan",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "neilson,belle",
       "woppman,rachel",
       "gutierrez,anissa",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":133,
     "Poss":"hendrix",
@@ -20115,13 +20115,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -20171,7 +20171,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":133,
     "Poss":"hendrix",
@@ -20193,13 +20193,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
     "awayPlayer5":"fortenberry,dia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -20554,7 +20554,7 @@
       "mccurdy,maddie grace",
       "rayford,andrea",
       "fortenberry,dia",
-      null
+      "caldwell,devan"
     ],
     "homeLineup":[
       "neilson,belle",
@@ -20588,8 +20588,8 @@
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"fortenberry,dia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"caldwell,devan",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -20631,7 +20631,7 @@
       "king,briasha",
       "mccurdy,maddie grace",
       "fortenberry,dia",
-      null,
+      "rayford,andrea",
       null
     ],
     "homeLineup":[
@@ -20665,7 +20665,7 @@
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
-    "awayPlayer4":null,
+    "awayPlayer4":"rayford,andrea",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20710,7 +20710,7 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "neilson,belle",
@@ -20744,8 +20744,8 @@
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -21497,7 +21497,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":66,
     "Poss":"hendrix",
@@ -21519,13 +21519,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -21574,7 +21574,7 @@
       "neilson,belle",
       "woppman,rachel",
       "korb,kelsey",
-      null,
+      "jenkins,kessie",
       null
     ],
     "timeSeconds":66,
@@ -21596,7 +21596,7 @@
     "homePlayer1":"neilson,belle",
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"korb,kelsey",
-    "homePlayer4":null,
+    "homePlayer4":"jenkins,kessie",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -21652,7 +21652,7 @@
       "neilson,belle",
       "woppman,rachel",
       "korb,kelsey",
-      null,
+      "jenkins,kessie",
       null
     ],
     "timeSeconds":66,
@@ -21674,7 +21674,7 @@
     "homePlayer1":"neilson,belle",
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"korb,kelsey",
-    "homePlayer4":null,
+    "homePlayer4":"jenkins,kessie",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -21731,7 +21731,7 @@
       "woppman,rachel",
       "korb,kelsey",
       "woods,isis",
-      null
+      "totals"
     ],
     "timeSeconds":66,
     "Poss":"hendrix",
@@ -21753,13 +21753,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"korb,kelsey",
     "homePlayer4":"woods,isis",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -22121,7 +22121,7 @@
       "woods,isis",
       "pierce,madi",
       "salyer,cassidy",
-      null
+      "korb,kelsey"
     ],
     "timeSeconds":39,
     "Poss":"hendrix",
@@ -22143,13 +22143,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"pierce,madi",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"korb,kelsey",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -22198,7 +22198,7 @@
       "woppman,rachel",
       "pierce,madi",
       "salyer,cassidy",
-      null,
+      "woods,isis",
       null
     ],
     "timeSeconds":39,
@@ -22220,7 +22220,7 @@
     "homePlayer1":"woppman,rachel",
     "homePlayer2":"pierce,madi",
     "homePlayer3":"salyer,cassidy",
-    "homePlayer4":null,
+    "homePlayer4":"woods,isis",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -22275,7 +22275,7 @@
     "homeLineup":[
       "pierce,madi",
       "salyer,cassidy",
-      null,
+      "woppman,rachel",
       null,
       null
     ],
@@ -22297,7 +22297,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
-    "homePlayer3":null,
+    "homePlayer3":"woppman,rachel",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
@@ -22354,7 +22354,7 @@
       "pierce,madi",
       "salyer,cassidy",
       "gutierrez,anissa",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":39,
@@ -22376,7 +22376,7 @@
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"gutierrez,anissa",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
@@ -22433,7 +22433,7 @@
       "salyer,cassidy",
       "gutierrez,anissa",
       "jenkins,kessie",
-      null
+      "totals"
     ],
     "timeSeconds":39,
     "Poss":"hendrix",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"king,briasha",
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"thigpen,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -22972,7 +22972,7 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "thigpen,anna",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "pierce,madi",
@@ -23006,8 +23006,8 @@
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"fortenberry,dia",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -23284,7 +23284,7 @@
       "fortenberry,dia",
       "thigpen,anna",
       "caldwell,devan",
-      null
+      "king,briasha"
     ],
     "homeLineup":[
       "pierce,madi",
@@ -23318,8 +23318,8 @@
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -23361,7 +23361,7 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "caldwell,devan",
-      null,
+      "thigpen,anna",
       null
     ],
     "homeLineup":[
@@ -23395,7 +23395,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"thigpen,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23439,7 +23439,7 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "caldwell,devan",
-      null,
+      "thigpen,anna",
       null
     ],
     "homeLineup":[
@@ -23447,7 +23447,7 @@
       "salyer,cassidy",
       "jenkins,kessie",
       "burns,kennedi",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":6,
     "Poss":"millsaps",
@@ -23469,11 +23469,11 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"thigpen,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23517,14 +23517,14 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "caldwell,devan",
-      null,
+      "thigpen,anna",
       null
     ],
     "homeLineup":[
       "pierce,madi",
       "salyer,cassidy",
       "burns,kennedi",
-      null,
+      "jenkins,kessie",
       null
     ],
     "timeSeconds":6,
@@ -23546,12 +23546,12 @@
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"burns,kennedi",
-    "homePlayer4":null,
+    "homePlayer4":"jenkins,kessie",
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"thigpen,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23595,13 +23595,13 @@
       "mccurdy,maddie grace",
       "fortenberry,dia",
       "caldwell,devan",
-      null,
+      "thigpen,anna",
       null
     ],
     "homeLineup":[
       "pierce,madi",
       "salyer,cassidy",
-      null,
+      "burns,kennedi",
       null,
       null
     ],
@@ -23623,13 +23623,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
-    "homePlayer3":null,
+    "homePlayer3":"burns,kennedi",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"thigpen,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23674,12 +23674,12 @@
       "fortenberry,dia",
       "caldwell,devan",
       "roe,helena",
-      null
+      "totals"
     ],
     "homeLineup":[
       "pierce,madi",
       "salyer,cassidy",
-      null,
+      "burns,kennedi",
       null,
       null
     ],
@@ -23701,14 +23701,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
-    "homePlayer3":null,
+    "homePlayer3":"burns,kennedi",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -23757,7 +23757,7 @@
     "homeLineup":[
       "pierce,madi",
       "salyer,cassidy",
-      null,
+      "burns,kennedi",
       null,
       null
     ],
@@ -23779,7 +23779,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
-    "homePlayer3":null,
+    "homePlayer3":"burns,kennedi",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
@@ -23836,7 +23836,7 @@
       "pierce,madi",
       "salyer,cassidy",
       "woods,isis",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":6,
@@ -23858,7 +23858,7 @@
     "homePlayer1":"pierce,madi",
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
@@ -23915,7 +23915,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":6,
     "Poss":"millsaps",
@@ -23937,13 +23937,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"fortenberry,dia",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -24220,7 +24220,7 @@
       "mccurdy,maddie grace",
       "caldwell,devan",
       "rayford,andrea",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "mojaver,zoe",
@@ -24254,8 +24254,8 @@
     "awayPlayer2":"mccurdy,maddie grace",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -24454,7 +24454,7 @@
       "caldwell,devan",
       "roe,helena",
       "howell,maddie",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "pierce,madi",
@@ -24488,8 +24488,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -25709,7 +25709,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":557,
     "Poss":"hendrix",
@@ -25731,13 +25731,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -25787,7 +25787,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":557,
     "Poss":"hendrix",
@@ -25809,13 +25809,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -25865,7 +25865,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":557,
     "Poss":"hendrix",
@@ -25887,13 +25887,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -25943,7 +25943,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":557,
     "Poss":"hendrix",
@@ -25965,13 +25965,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26021,7 +26021,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":459,
     "Poss":"hendrix",
@@ -26043,13 +26043,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26099,7 +26099,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -26121,13 +26121,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26177,7 +26177,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":449,
     "Poss":"millsaps",
@@ -26199,13 +26199,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26255,7 +26255,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -26277,13 +26277,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26333,7 +26333,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":443,
     "Poss":"millsaps",
@@ -26355,13 +26355,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26411,7 +26411,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -26433,13 +26433,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26489,7 +26489,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":437,
     "Poss":"hendrix",
@@ -26511,13 +26511,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26567,7 +26567,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":437,
     "Poss":"hendrix",
@@ -26589,13 +26589,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26723,7 +26723,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":433,
     "Poss":"hendrix",
@@ -26745,13 +26745,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26801,7 +26801,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":433,
     "Poss":"hendrix",
@@ -26823,13 +26823,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26879,7 +26879,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":427,
     "Poss":"hendrix",
@@ -26901,13 +26901,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -26957,7 +26957,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":407,
     "Poss":"millsaps",
@@ -26979,13 +26979,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -27035,7 +27035,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -27057,13 +27057,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -27113,7 +27113,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "totals"
     ],
     "timeSeconds":403,
     "Poss":"millsaps",
@@ -27135,13 +27135,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -27190,7 +27190,7 @@
       "pierce,madi",
       "woods,isis",
       "korb,kelsey",
-      null,
+      "salyer,cassidy",
       null
     ],
     "timeSeconds":403,
@@ -27212,7 +27212,7 @@
     "homePlayer1":"pierce,madi",
     "homePlayer2":"woods,isis",
     "homePlayer3":"korb,kelsey",
-    "homePlayer4":null,
+    "homePlayer4":"salyer,cassidy",
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
@@ -28276,7 +28276,7 @@
       "caldwell,devan",
       "roe,helena",
       "howell,maddie",
-      null
+      "rayford,andrea"
     ],
     "homeLineup":[
       "pierce,madi",
@@ -28310,8 +28310,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,andrea",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -28353,7 +28353,7 @@
       "mccurdy,maddie grace",
       "roe,helena",
       "howell,maddie",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -28387,7 +28387,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28431,7 +28431,7 @@
       "mccurdy,maddie grace",
       "roe,helena",
       "howell,maddie",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -28465,7 +28465,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28509,7 +28509,7 @@
       "mccurdy,maddie grace",
       "roe,helena",
       "howell,maddie",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -28543,7 +28543,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28587,7 +28587,7 @@
       "mccurdy,maddie grace",
       "roe,helena",
       "howell,maddie",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -28621,7 +28621,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28666,7 +28666,7 @@
       "roe,helena",
       "howell,maddie",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "pierce,madi",
@@ -28700,8 +28700,8 @@
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -29453,7 +29453,7 @@
       "korb,kelsey",
       "mccloria,alicia",
       "gutierrez,anissa",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":287,
     "Poss":"millsaps",
@@ -29475,13 +29475,13 @@
     "homePlayer2":"korb,kelsey",
     "homePlayer3":"mccloria,alicia",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -29530,7 +29530,7 @@
       "korb,kelsey",
       "mccloria,alicia",
       "gutierrez,anissa",
-      null,
+      "woods,isis",
       null
     ],
     "timeSeconds":287,
@@ -29552,7 +29552,7 @@
     "homePlayer1":"korb,kelsey",
     "homePlayer2":"mccloria,alicia",
     "homePlayer3":"gutierrez,anissa",
-    "homePlayer4":null,
+    "homePlayer4":"woods,isis",
     "homePlayer5":null,
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
@@ -29609,7 +29609,7 @@
       "mccloria,alicia",
       "gutierrez,anissa",
       "burns,kennedi",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":287,
     "Poss":"millsaps",
@@ -29631,13 +29631,13 @@
     "homePlayer2":"mccloria,alicia",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"howell,maddie",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -30460,7 +30460,7 @@
       "howell,maddie",
       "lartigue,elecia",
       "king,briasha",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "korb,kelsey",
@@ -30494,8 +30494,8 @@
     "awayPlayer2":"howell,maddie",
     "awayPlayer3":"lartigue,elecia",
     "awayPlayer4":"king,briasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -30537,7 +30537,7 @@
       "mccurdy,maddie grace",
       "howell,maddie",
       "king,briasha",
-      null,
+      "lartigue,elecia",
       null
     ],
     "homeLineup":[
@@ -30571,7 +30571,7 @@
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"howell,maddie",
     "awayPlayer3":"king,briasha",
-    "awayPlayer4":null,
+    "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -30614,7 +30614,7 @@
     "awayLineup":[
       "howell,maddie",
       "king,briasha",
-      null,
+      "totals",
       null,
       null
     ],
@@ -30648,7 +30648,7 @@
     "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -30693,7 +30693,7 @@
       "howell,maddie",
       "king,briasha",
       "rayford,andrea",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -30727,7 +30727,7 @@
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"rayford,andrea",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -30772,7 +30772,7 @@
       "king,briasha",
       "rayford,andrea",
       "caldwell,devan",
-      null
+      "totals"
     ],
     "homeLineup":[
       "korb,kelsey",
@@ -30806,8 +30806,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"rayford,andrea",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -31091,7 +31091,7 @@
       "salyer,cassidy",
       "woods,isis",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -31113,13 +31113,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"woods,isis",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"mccurdy,maddie grace",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"howell,maddie",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -31474,7 +31474,7 @@
       "rayford,andrea",
       "caldwell,devan",
       "thigpen,anna",
-      null
+      "king,briasha"
     ],
     "homeLineup":[
       "korb,kelsey",
@@ -31508,8 +31508,8 @@
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -31552,14 +31552,14 @@
       "rayford,andrea",
       "caldwell,devan",
       "thigpen,anna",
-      null
+      "king,briasha"
     ],
     "homeLineup":[
       "korb,kelsey",
       "gutierrez,anissa",
       "burns,kennedi",
       "jenkins,kessie",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":166,
     "Poss":"millsaps",
@@ -31581,13 +31581,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -31630,14 +31630,14 @@
       "rayford,andrea",
       "caldwell,devan",
       "thigpen,anna",
-      null
+      "king,briasha"
     ],
     "homeLineup":[
       "korb,kelsey",
       "gutierrez,anissa",
       "burns,kennedi",
       "jenkins,kessie",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":166,
     "Poss":"millsaps",
@@ -31659,13 +31659,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"king,briasha",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -31715,7 +31715,7 @@
       "gutierrez,anissa",
       "burns,kennedi",
       "jenkins,kessie",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":166,
     "Poss":"millsaps",
@@ -31737,13 +31737,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"sims,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -32651,7 +32651,7 @@
       "jenkins,kessie",
       "mojaver,zoe",
       "woods,isis",
-      null
+      "burns,kennedi"
     ],
     "timeSeconds":150,
     "Poss":"millsaps",
@@ -32673,13 +32673,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"mojaver,zoe",
     "homePlayer4":"woods,isis",
-    "homePlayer5":null,
+    "homePlayer5":"burns,kennedi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"rayford,andrea",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"sims,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -32878,7 +32878,7 @@
       "caldwell,devan",
       "thigpen,anna",
       "sims,emily",
-      null
+      "rayford,andrea"
     ],
     "homeLineup":[
       "gutierrez,anissa",
@@ -32912,8 +32912,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"sims,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,andrea",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -34055,7 +34055,7 @@
       "jenkins,kessie",
       "woods,isis",
       "salyer,cassidy",
-      null
+      "mojaver,zoe"
     ],
     "timeSeconds":33,
     "Poss":"hendrix",
@@ -34077,13 +34077,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"woods,isis",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"mojaver,zoe",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"sims,emily",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -34132,7 +34132,7 @@
       "gutierrez,anissa",
       "jenkins,kessie",
       "salyer,cassidy",
-      null,
+      "woods,isis",
       null
     ],
     "timeSeconds":33,
@@ -34154,7 +34154,7 @@
     "homePlayer1":"gutierrez,anissa",
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"salyer,cassidy",
-    "homePlayer4":null,
+    "homePlayer4":"woods,isis",
     "homePlayer5":null,
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
@@ -34209,7 +34209,7 @@
     "homeLineup":[
       "gutierrez,anissa",
       "salyer,cassidy",
-      null,
+      "jenkins,kessie",
       null,
       null
     ],
@@ -34231,7 +34231,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"gutierrez,anissa",
     "homePlayer2":"salyer,cassidy",
-    "homePlayer3":null,
+    "homePlayer3":"jenkins,kessie",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"howell,maddie",
@@ -34288,7 +34288,7 @@
       "gutierrez,anissa",
       "salyer,cassidy",
       "korb,kelsey",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":33,
@@ -34310,7 +34310,7 @@
     "homePlayer1":"gutierrez,anissa",
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"korb,kelsey",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
@@ -34367,7 +34367,7 @@
       "salyer,cassidy",
       "korb,kelsey",
       "burns,kennedi",
-      null
+      "totals"
     ],
     "timeSeconds":33,
     "Poss":"hendrix",
@@ -34389,13 +34389,13 @@
     "homePlayer2":"salyer,cassidy",
     "homePlayer3":"korb,kelsey",
     "homePlayer4":"burns,kennedi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"sims,emily",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -34594,7 +34594,7 @@
       "caldwell,devan",
       "thigpen,anna",
       "roe,helena",
-      null
+      "sims,emily"
     ],
     "homeLineup":[
       "gutierrez,anissa",
@@ -34628,8 +34628,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sims,emily",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -35147,7 +35147,7 @@
       "korb,kelsey",
       "burns,kennedi",
       "woppman,rachel",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"korb,kelsey",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -35225,7 +35225,7 @@
       "korb,kelsey",
       "burns,kennedi",
       "woppman,rachel",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -35247,13 +35247,13 @@
     "homePlayer2":"korb,kelsey",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -35303,7 +35303,7 @@
       "korb,kelsey",
       "burns,kennedi",
       "woppman,rachel",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -35325,13 +35325,13 @@
     "homePlayer2":"korb,kelsey",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -35381,7 +35381,7 @@
       "korb,kelsey",
       "burns,kennedi",
       "woppman,rachel",
-      null
+      "gutierrez,anissa"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -35403,13 +35403,13 @@
     "homePlayer2":"korb,kelsey",
     "homePlayer3":"burns,kennedi",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"gutierrez,anissa",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"king,briasha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -36154,7 +36154,7 @@
       "caldwell,devan",
       "roe,helena",
       "king,briasha",
-      null
+      "thigpen,anna"
     ],
     "homeLineup":[
       "salyer,cassidy",
@@ -36188,8 +36188,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"king,briasha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thigpen,anna",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -39359,7 +39359,7 @@
       "woppman,rachel",
       "woods,isis",
       "jenkins,kessie",
-      null
+      "pierce,madi"
     ],
     "timeSeconds":336,
     "Poss":"hendrix",
@@ -39381,13 +39381,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"woods,isis",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"pierce,madi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"king,briasha",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -40054,7 +40054,7 @@
       "caldwell,devan",
       "king,briasha",
       "laster,mikenzi",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -40088,8 +40088,8 @@
     "awayPlayer2":"caldwell,devan",
     "awayPlayer3":"king,briasha",
     "awayPlayer4":"laster,mikenzi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -40131,7 +40131,7 @@
       "howell,maddie",
       "king,briasha",
       "laster,mikenzi",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -40165,7 +40165,7 @@
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40209,7 +40209,7 @@
       "howell,maddie",
       "king,briasha",
       "laster,mikenzi",
-      null,
+      "caldwell,devan",
       null
     ],
     "homeLineup":[
@@ -40217,7 +40217,7 @@
       "woppman,rachel",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null
+      "woods,isis"
     ],
     "timeSeconds":284,
     "Poss":"hendrix",
@@ -40239,11 +40239,11 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"woods,isis",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
-    "awayPlayer4":null,
+    "awayPlayer4":"caldwell,devan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40288,14 +40288,14 @@
       "king,briasha",
       "laster,mikenzi",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "burns,kennedi",
       "woppman,rachel",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null
+      "woods,isis"
     ],
     "timeSeconds":284,
     "Poss":"hendrix",
@@ -40317,13 +40317,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"woods,isis",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"lartigue,elecia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -40373,7 +40373,7 @@
       "woppman,rachel",
       "jenkins,kessie",
       "gutierrez,anissa",
-      null
+      "woods,isis"
     ],
     "timeSeconds":284,
     "Poss":"hendrix",
@@ -40395,13 +40395,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"gutierrez,anissa",
-    "homePlayer5":null,
+    "homePlayer5":"woods,isis",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"lartigue,elecia",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -40990,7 +40990,7 @@
       "king,briasha",
       "laster,mikenzi",
       "rayford,andrea",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -41024,8 +41024,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -41068,14 +41068,14 @@
       "king,briasha",
       "laster,mikenzi",
       "rayford,andrea",
-      null
+      "lartigue,elecia"
     ],
     "homeLineup":[
       "burns,kennedi",
       "woppman,rachel",
       "gutierrez,anissa",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":240,
     "Poss":"hendrix",
@@ -41097,13 +41097,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lartigue,elecia",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -41153,7 +41153,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "korb,kelsey",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":240,
     "Poss":"hendrix",
@@ -41175,13 +41175,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"korb,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"caldwell,devan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -42004,7 +42004,7 @@
       "king,briasha",
       "laster,mikenzi",
       "caldwell,devan",
-      null
+      "rayford,andrea"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -42038,8 +42038,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"laster,mikenzi",
     "awayPlayer4":"caldwell,devan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,andrea",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -42081,7 +42081,7 @@
       "howell,maddie",
       "king,briasha",
       "caldwell,devan",
-      null,
+      "laster,mikenzi",
       null
     ],
     "homeLineup":[
@@ -42115,7 +42115,7 @@
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"caldwell,devan",
-    "awayPlayer4":null,
+    "awayPlayer4":"laster,mikenzi",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -42160,7 +42160,7 @@
       "king,briasha",
       "caldwell,devan",
       "thigpen,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -42194,8 +42194,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -42401,7 +42401,7 @@
       "woppman,rachel",
       "gutierrez,anissa",
       "woods,isis",
-      null
+      "korb,kelsey"
     ],
     "timeSeconds":210,
     "Poss":"millsaps",
@@ -42423,13 +42423,13 @@
     "homePlayer2":"woppman,rachel",
     "homePlayer3":"gutierrez,anissa",
     "homePlayer4":"woods,isis",
-    "homePlayer5":null,
+    "homePlayer5":"korb,kelsey",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -42791,7 +42791,7 @@
       "gutierrez,anissa",
       "woods,isis",
       "jenkins,kessie",
-      null
+      "woppman,rachel"
     ],
     "timeSeconds":185,
     "Poss":"millsaps",
@@ -42813,13 +42813,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"woods,isis",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"woppman,rachel",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"caldwell,devan",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -43798,7 +43798,7 @@
       "king,briasha",
       "thigpen,anna",
       "roe,helena",
-      null
+      "caldwell,devan"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -43832,8 +43832,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"caldwell,devan",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -44741,7 +44741,7 @@
       "gutierrez,anissa",
       "woods,isis",
       "jenkins,kessie",
-      null
+      "salyer,cassidy"
     ],
     "timeSeconds":90,
     "Poss":"millsaps",
@@ -44763,13 +44763,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"woods,isis",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"salyer,cassidy",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"rayford,andrea",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -46606,7 +46606,7 @@
       "king,briasha",
       "roe,helena",
       "rayford,andrea",
-      null
+      "thigpen,anna"
     ],
     "homeLineup":[
       "burns,kennedi",
@@ -46640,8 +46640,8 @@
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thigpen,anna",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -46684,14 +46684,14 @@
       "king,briasha",
       "roe,helena",
       "rayford,andrea",
-      null
+      "thigpen,anna"
     ],
     "homeLineup":[
       "burns,kennedi",
       "gutierrez,anissa",
       "woods,isis",
       "woppman,rachel",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":19,
     "Poss":"hendrix",
@@ -46713,13 +46713,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"woods,isis",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thigpen,anna",
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -46769,7 +46769,7 @@
       "gutierrez,anissa",
       "woods,isis",
       "woppman,rachel",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":19,
     "Poss":"hendrix",
@@ -46791,13 +46791,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"woods,isis",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -47315,6 +47315,84 @@
       "gutierrez,anissa",
       "woods,isis",
       "korb,kelsey",
+      "woppman,rachel"
+    ],
+    "timeSeconds":17,
+    "Poss":"millsaps",
+    "possNum":81,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":146,
+    "teamChanged":0,
+    "game":"HendrixMillsaps01\/16\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"burns,kennedi",
+    "homePlayer2":"gutierrez,anissa",
+    "homePlayer3":"woods,isis",
+    "homePlayer4":"korb,kelsey",
+    "homePlayer5":"woppman,rachel",
+    "awayPlayer1":"howell,maddie",
+    "awayPlayer2":"king,briasha",
+    "awayPlayer3":"roe,helena",
+    "awayPlayer4":"rayford,andrea",
+    "awayPlayer5":"laster,mikenzi",
+    "playerMissing":0
+  },
+  {
+    "gameID":"3692",
+    "homeTeam":"Hendrix",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"69-66",
+    "homeScoreByPeriod":"10,19,14,23,66",
+    "awayScoreByPeriod":"14,22,21,12,69",
+    "homeRecord":"0-1",
+    "awayRecord":"2-0",
+    "homeConfRecord":"0-1",
+    "awayConfRecord":"1-0",
+    "gameDate":"01\/16\/21",
+    "startTime":"4:05 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"100",
+    "isNeutral":"False",
+    "timeRemaining":"00:17",
+    "awayPlay":"",
+    "awayTeamScore":"67 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"65",
+    "homePlay":"SUB OUT by KORB,KELSEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KORB,KELSEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"korb,kelsey",
+    "pointsEarned":"",
+    "awayLineup":[
+      "howell,maddie",
+      "king,briasha",
+      "roe,helena",
+      "rayford,andrea",
+      "laster,mikenzi"
+    ],
+    "homeLineup":[
+      "burns,kennedi",
+      "gutierrez,anissa",
+      "woods,isis",
+      "korb,kelsey",
       null
     ],
     "timeSeconds":17,
@@ -47371,84 +47449,6 @@
     "awayTeamScore":"67 ",
     "playTeamIndicator":"",
     "homeTeamScore":"65",
-    "homePlay":"SUB OUT by KORB,KELSEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KORB,KELSEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"korb,kelsey",
-    "pointsEarned":"",
-    "awayLineup":[
-      "howell,maddie",
-      "king,briasha",
-      "roe,helena",
-      "rayford,andrea",
-      "laster,mikenzi"
-    ],
-    "homeLineup":[
-      "burns,kennedi",
-      "gutierrez,anissa",
-      "woods,isis",
-      null,
-      null
-    ],
-    "timeSeconds":17,
-    "Poss":"millsaps",
-    "possNum":81,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":146,
-    "teamChanged":0,
-    "game":"HendrixMillsaps01\/16\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"burns,kennedi",
-    "homePlayer2":"gutierrez,anissa",
-    "homePlayer3":"woods,isis",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"howell,maddie",
-    "awayPlayer2":"king,briasha",
-    "awayPlayer3":"roe,helena",
-    "awayPlayer4":"rayford,andrea",
-    "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
-  },
-  {
-    "gameID":"3692",
-    "homeTeam":"Hendrix",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"69-66",
-    "homeScoreByPeriod":"10,19,14,23,66",
-    "awayScoreByPeriod":"14,22,21,12,69",
-    "homeRecord":"0-1",
-    "awayRecord":"2-0",
-    "homeConfRecord":"0-1",
-    "awayConfRecord":"1-0",
-    "gameDate":"01\/16\/21",
-    "startTime":"4:05 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"100",
-    "isNeutral":"False",
-    "timeRemaining":"00:17",
-    "awayPlay":"",
-    "awayTeamScore":"67 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"65",
     "homePlay":"SUB IN by SALYER,CASSIDY",
     "gameScore":"",
     "teamIndicator":"",
@@ -47471,7 +47471,7 @@
       "gutierrez,anissa",
       "woods,isis",
       "salyer,cassidy",
-      null
+      "totals"
     ],
     "timeSeconds":17,
     "Poss":"millsaps",
@@ -47493,13 +47493,13 @@
     "homePlayer2":"gutierrez,anissa",
     "homePlayer3":"woods,isis",
     "homePlayer4":"salyer,cassidy",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -48017,7 +48017,7 @@
       "woods,isis",
       "salyer,cassidy",
       "jenkins,kessie",
-      null
+      "burns,kennedi"
     ],
     "timeSeconds":4,
     "Poss":"millsaps",
@@ -48039,13 +48039,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"salyer,cassidy",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"burns,kennedi",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -48641,7 +48641,7 @@
       "woods,isis",
       "jenkins,kessie",
       "woppman,rachel",
-      null
+      "salyer,cassidy"
     ],
     "timeSeconds":1,
     "Poss":"hendrix",
@@ -48663,13 +48663,13 @@
     "homePlayer2":"woods,isis",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"salyer,cassidy",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",
@@ -48718,7 +48718,7 @@
       "woods,isis",
       "jenkins,kessie",
       "woppman,rachel",
-      null,
+      "gutierrez,anissa",
       null
     ],
     "timeSeconds":1,
@@ -48740,7 +48740,7 @@
     "homePlayer1":"woods,isis",
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"woppman,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"gutierrez,anissa",
     "homePlayer5":null,
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
@@ -48797,7 +48797,7 @@
       "jenkins,kessie",
       "woppman,rachel",
       "pierce,madi",
-      null
+      "totals"
     ],
     "timeSeconds":1,
     "Poss":"hendrix",
@@ -48819,13 +48819,13 @@
     "homePlayer2":"jenkins,kessie",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"pierce,madi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"howell,maddie",
     "awayPlayer2":"king,briasha",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"rayford,andrea",
     "awayPlayer5":"laster,mikenzi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3692",

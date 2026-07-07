@@ -281,7 +281,7 @@
       "morvant,natosha",
       "jones,neka",
       "stewart,shelby",
-      null
+      "allison,danisha"
     ],
     "timeSeconds":1187,
     "Poss":"louisiana college",
@@ -303,13 +303,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"allison,danisha",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -1295,7 +1295,7 @@
       "jones,neka",
       "stewart,shelby",
       "willis,kaci",
-      null
+      "thornton,karylon"
     ],
     "timeSeconds":1130,
     "Poss":"louisiana college",
@@ -1317,13 +1317,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"thornton,karylon",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -1372,7 +1372,7 @@
       "morvant,natosha",
       "jones,neka",
       "willis,kaci",
-      null,
+      "stewart,shelby",
       null
     ],
     "timeSeconds":1130,
@@ -1394,7 +1394,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
-    "homePlayer4":null,
+    "homePlayer4":"stewart,shelby",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -1451,7 +1451,7 @@
       "jones,neka",
       "willis,kaci",
       "chenevert,skylar",
-      null
+      "totals"
     ],
     "timeSeconds":1130,
     "Poss":"louisiana college",
@@ -1473,13 +1473,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"chenevert,skylar",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -2075,7 +2075,7 @@
       "jones,neka",
       "willis,kaci",
       "frank,keana",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":1080,
     "Poss":"millsaps",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -2140,6 +2140,84 @@
     "shotOutcome":"",
     "Team":"louisiana college",
     "Player":"morvant,natosha",
+    "pointsEarned":"",
+    "awayLineup":[
+      "johnson,velvet",
+      "freeman,kala",
+      "holmes,beverly",
+      "perez,sam",
+      "brooks,miah"
+    ],
+    "homeLineup":[
+      "jones,neka",
+      "willis,kaci",
+      "frank,keana",
+      "morvant,natosha",
+      null
+    ],
+    "timeSeconds":1080,
+    "Poss":"millsaps",
+    "possNum":2,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"louisiana college",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":8,
+    "teamChanged":0,
+    "game":"Louisiana CollegeMillsaps11\/18\/13",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jones,neka",
+    "homePlayer2":"willis,kaci",
+    "homePlayer3":"frank,keana",
+    "homePlayer4":"morvant,natosha",
+    "homePlayer5":null,
+    "awayPlayer1":"johnson,velvet",
+    "awayPlayer2":"freeman,kala",
+    "awayPlayer3":"holmes,beverly",
+    "awayPlayer4":"perez,sam",
+    "awayPlayer5":"brooks,miah",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2332",
+    "homeTeam":"Louisiana College",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"67-72",
+    "homeScoreByPeriod":"36,36,72",
+    "awayScoreByPeriod":"33,34,67",
+    "homeRecord":"1-0",
+    "awayRecord":"2-1",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"11\/18\/13",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"917",
+    "isNeutral":"False",
+    "timeRemaining":"18:00",
+    "awayPlay":"",
+    "awayTeamScore":"2",
+    "playTeamIndicator":"",
+    "homeTeamScore":"8 ",
+    "homePlay":"SUB OUT by FRANK,KEANA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,KEANA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"louisiana college",
+    "Player":"frank,keana",
     "pointsEarned":"",
     "awayLineup":[
       "johnson,velvet",
@@ -2209,84 +2287,6 @@
     "awayTeamScore":"2",
     "playTeamIndicator":"",
     "homeTeamScore":"8 ",
-    "homePlay":"SUB OUT by FRANK,KEANA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,KEANA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"louisiana college",
-    "Player":"frank,keana",
-    "pointsEarned":"",
-    "awayLineup":[
-      "johnson,velvet",
-      "freeman,kala",
-      "holmes,beverly",
-      "perez,sam",
-      "brooks,miah"
-    ],
-    "homeLineup":[
-      "jones,neka",
-      "willis,kaci",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":1080,
-    "Poss":"millsaps",
-    "possNum":2,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"louisiana college",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":8,
-    "teamChanged":0,
-    "game":"Louisiana CollegeMillsaps11\/18\/13",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jones,neka",
-    "homePlayer2":"willis,kaci",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"johnson,velvet",
-    "awayPlayer2":"freeman,kala",
-    "awayPlayer3":"holmes,beverly",
-    "awayPlayer4":"perez,sam",
-    "awayPlayer5":"brooks,miah",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2332",
-    "homeTeam":"Louisiana College",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"67-72",
-    "homeScoreByPeriod":"36,36,72",
-    "awayScoreByPeriod":"33,34,67",
-    "homeRecord":"1-0",
-    "awayRecord":"2-1",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"11\/18\/13",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"917",
-    "isNeutral":"False",
-    "timeRemaining":"18:00",
-    "awayPlay":"",
-    "awayTeamScore":"2",
-    "playTeamIndicator":"",
-    "homeTeamScore":"8 ",
     "homePlay":"SUB IN by ALLISON,DANISHA",
     "gameScore":"",
     "teamIndicator":"",
@@ -2308,7 +2308,7 @@
       "jones,neka",
       "willis,kaci",
       "allison,danisha",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":1080,
@@ -2330,7 +2330,7 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"willis,kaci",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -2387,7 +2387,7 @@
       "willis,kaci",
       "allison,danisha",
       "thornton,karylon",
-      null
+      "totals"
     ],
     "timeSeconds":1080,
     "Poss":"millsaps",
@@ -2409,13 +2409,13 @@
     "homePlayer2":"willis,kaci",
     "homePlayer3":"allison,danisha",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -2621,7 +2621,7 @@
       "willis,kaci",
       "thornton,karylon",
       "stewart,shelby",
-      null
+      "allison,danisha"
     ],
     "timeSeconds":1074,
     "Poss":"millsaps",
@@ -2643,13 +2643,13 @@
     "homePlayer2":"willis,kaci",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"allison,danisha",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -3160,7 +3160,7 @@
       "freeman,kala",
       "holmes,beverly",
       "brooks,miah",
-      null
+      "perez,sam"
     ],
     "homeLineup":[
       "jones,neka",
@@ -3194,8 +3194,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"brooks,miah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,sam",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -4259,7 +4259,7 @@
       "thornton,karylon",
       "stewart,shelby",
       "morvant,natosha",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":984,
     "Poss":"millsaps",
@@ -4281,13 +4281,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"brooks,miah",
     "awayPlayer5":"randle,kelli",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -4336,7 +4336,7 @@
       "thornton,karylon",
       "stewart,shelby",
       "morvant,natosha",
-      null,
+      "jones,neka",
       null
     ],
     "timeSeconds":984,
@@ -4358,7 +4358,7 @@
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"stewart,shelby",
     "homePlayer3":"morvant,natosha",
-    "homePlayer4":null,
+    "homePlayer4":"jones,neka",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -4413,7 +4413,7 @@
     "homeLineup":[
       "thornton,karylon",
       "morvant,natosha",
-      null,
+      "stewart,shelby",
       null,
       null
     ],
@@ -4435,7 +4435,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"morvant,natosha",
-    "homePlayer3":null,
+    "homePlayer3":"stewart,shelby",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
@@ -4492,7 +4492,7 @@
       "thornton,karylon",
       "morvant,natosha",
       "kling,kortney",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":984,
@@ -4514,7 +4514,7 @@
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"kling,kortney",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -4571,7 +4571,7 @@
       "morvant,natosha",
       "kling,kortney",
       "chenevert,skylar",
-      null
+      "totals"
     ],
     "timeSeconds":984,
     "Poss":"millsaps",
@@ -4593,13 +4593,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"kling,kortney",
     "homePlayer4":"chenevert,skylar",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"brooks,miah",
     "awayPlayer5":"randle,kelli",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -6280,7 +6280,7 @@
       "freeman,kala",
       "brooks,miah",
       "randle,kelli",
-      null
+      "holmes,beverly"
     ],
     "homeLineup":[
       "thornton,karylon",
@@ -6314,8 +6314,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holmes,beverly",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -6358,14 +6358,14 @@
       "freeman,kala",
       "brooks,miah",
       "randle,kelli",
-      null
+      "holmes,beverly"
     ],
     "homeLineup":[
       "thornton,karylon",
       "kling,kortney",
       "chenevert,skylar",
       "frank,keana",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":898,
     "Poss":"millsaps",
@@ -6387,13 +6387,13 @@
     "homePlayer2":"kling,kortney",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holmes,beverly",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -6436,13 +6436,13 @@
       "freeman,kala",
       "brooks,miah",
       "randle,kelli",
-      null
+      "holmes,beverly"
     ],
     "homeLineup":[
       "kling,kortney",
       "chenevert,skylar",
       "frank,keana",
-      null,
+      "thornton,karylon",
       null
     ],
     "timeSeconds":898,
@@ -6464,13 +6464,13 @@
     "homePlayer1":"kling,kortney",
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"frank,keana",
-    "homePlayer4":null,
+    "homePlayer4":"thornton,karylon",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
-    "awayPlayer5":null,
+    "awayPlayer5":"holmes,beverly",
     "playerMissing":1
   },
   {
@@ -6520,7 +6520,7 @@
       "kling,kortney",
       "chenevert,skylar",
       "frank,keana",
-      null,
+      "thornton,karylon",
       null
     ],
     "timeSeconds":898,
@@ -6542,7 +6542,7 @@
     "homePlayer1":"kling,kortney",
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"frank,keana",
-    "homePlayer4":null,
+    "homePlayer4":"thornton,karylon",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -6599,7 +6599,7 @@
       "chenevert,skylar",
       "frank,keana",
       "willis,kaci",
-      null
+      "totals"
     ],
     "timeSeconds":898,
     "Poss":"millsaps",
@@ -6621,13 +6621,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"frank,keana",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -7691,7 +7691,7 @@
       "frank,keana",
       "willis,kaci",
       "west,karli",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":844,
     "Poss":"millsaps",
@@ -7713,13 +7713,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"west,karli",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -7768,7 +7768,7 @@
       "frank,keana",
       "willis,kaci",
       "west,karli",
-      null,
+      "chenevert,skylar",
       null
     ],
     "timeSeconds":844,
@@ -7790,7 +7790,7 @@
     "homePlayer1":"frank,keana",
     "homePlayer2":"willis,kaci",
     "homePlayer3":"west,karli",
-    "homePlayer4":null,
+    "homePlayer4":"chenevert,skylar",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -7845,7 +7845,7 @@
     "homeLineup":[
       "willis,kaci",
       "west,karli",
-      null,
+      "frank,keana",
       null,
       null
     ],
@@ -7867,7 +7867,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"willis,kaci",
     "homePlayer2":"west,karli",
-    "homePlayer3":null,
+    "homePlayer3":"frank,keana",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
@@ -7924,7 +7924,7 @@
       "willis,kaci",
       "west,karli",
       "morvant,natosha",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":844,
@@ -7946,7 +7946,7 @@
     "homePlayer1":"willis,kaci",
     "homePlayer2":"west,karli",
     "homePlayer3":"morvant,natosha",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -8003,7 +8003,7 @@
       "west,karli",
       "morvant,natosha",
       "thornton,karylon",
-      null
+      "totals"
     ],
     "timeSeconds":844,
     "Poss":"millsaps",
@@ -8025,13 +8025,13 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -8471,7 +8471,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "stewart,shelby",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":830,
     "Poss":"millsaps",
@@ -8493,13 +8493,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -8783,7 +8783,7 @@
       "thornton,karylon",
       "stewart,shelby",
       "kling,kortney",
-      null
+      "west,karli"
     ],
     "timeSeconds":804,
     "Poss":"louisiana college",
@@ -8805,13 +8805,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"kling,kortney",
-    "homePlayer5":null,
+    "homePlayer5":"west,karli",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -9322,7 +9322,7 @@
       "freeman,kala",
       "randle,kelli",
       "johnson,bria",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -9356,8 +9356,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"johnson,bria",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brooks,miah",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -9399,7 +9399,7 @@
       "johnson,velvet",
       "freeman,kala",
       "randle,kelli",
-      null,
+      "johnson,bria",
       null
     ],
     "homeLineup":[
@@ -9433,7 +9433,7 @@
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
-    "awayPlayer4":null,
+    "awayPlayer4":"johnson,bria",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9478,7 +9478,7 @@
       "freeman,kala",
       "randle,kelli",
       "klunk,kim",
-      null
+      "totals"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -9512,8 +9512,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -10343,7 +10343,7 @@
       "thornton,karylon",
       "stewart,shelby",
       "jones,neka",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":748,
     "Poss":"millsaps",
@@ -10365,13 +10365,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"holmes,beverly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -10420,7 +10420,7 @@
       "morvant,natosha",
       "stewart,shelby",
       "jones,neka",
-      null,
+      "thornton,karylon",
       null
     ],
     "timeSeconds":748,
@@ -10442,7 +10442,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"stewart,shelby",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"thornton,karylon",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -10497,7 +10497,7 @@
     "homeLineup":[
       "morvant,natosha",
       "jones,neka",
-      null,
+      "stewart,shelby",
       null,
       null
     ],
@@ -10519,7 +10519,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"jones,neka",
-    "homePlayer3":null,
+    "homePlayer3":"stewart,shelby",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
@@ -10576,7 +10576,7 @@
       "morvant,natosha",
       "jones,neka",
       "harris,briana",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":748,
@@ -10598,7 +10598,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"jones,neka",
     "homePlayer3":"harris,briana",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -10655,7 +10655,7 @@
       "jones,neka",
       "harris,briana",
       "chenevert,skylar",
-      null
+      "totals"
     ],
     "timeSeconds":748,
     "Poss":"millsaps",
@@ -10677,13 +10677,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"harris,briana",
     "homePlayer4":"chenevert,skylar",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"holmes,beverly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -11584,7 +11584,7 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -11618,8 +11618,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"klunk,kim",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -11662,14 +11662,14 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "homeLineup":[
       "morvant,natosha",
       "jones,neka",
       "harris,briana",
       "frank,keana",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":698,
     "Poss":"millsaps",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"harris,briana",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"klunk,kim",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -11740,13 +11740,13 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "klunk,kim"
     ],
     "homeLineup":[
       "jones,neka",
       "harris,briana",
       "frank,keana",
-      null,
+      "morvant,natosha",
       null
     ],
     "timeSeconds":698,
@@ -11768,13 +11768,13 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"harris,briana",
     "homePlayer3":"frank,keana",
-    "homePlayer4":null,
+    "homePlayer4":"morvant,natosha",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
+    "awayPlayer5":"klunk,kim",
     "playerMissing":1
   },
   {
@@ -11824,7 +11824,7 @@
       "jones,neka",
       "harris,briana",
       "frank,keana",
-      null,
+      "morvant,natosha",
       null
     ],
     "timeSeconds":698,
@@ -11846,7 +11846,7 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"harris,briana",
     "homePlayer3":"frank,keana",
-    "homePlayer4":null,
+    "homePlayer4":"morvant,natosha",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -11903,7 +11903,7 @@
       "harris,briana",
       "frank,keana",
       "phillips,anna",
-      null
+      "totals"
     ],
     "timeSeconds":698,
     "Poss":"millsaps",
@@ -11925,13 +11925,13 @@
     "homePlayer2":"harris,briana",
     "homePlayer3":"frank,keana",
     "homePlayer4":"phillips,anna",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -12371,7 +12371,7 @@
       "frank,keana",
       "phillips,anna",
       "stewart,shelby",
-      null
+      "harris,briana"
     ],
     "timeSeconds":652,
     "Poss":"millsaps",
@@ -12393,13 +12393,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"phillips,anna",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"harris,briana",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -12448,7 +12448,7 @@
       "jones,neka",
       "frank,keana",
       "stewart,shelby",
-      null,
+      "phillips,anna",
       null
     ],
     "timeSeconds":652,
@@ -12470,7 +12470,7 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"frank,keana",
     "homePlayer3":"stewart,shelby",
-    "homePlayer4":null,
+    "homePlayer4":"phillips,anna",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -12514,6 +12514,84 @@
     "shotOutcome":"",
     "Team":"louisiana college",
     "Player":"frank,keana",
+    "pointsEarned":"",
+    "awayLineup":[
+      "johnson,velvet",
+      "freeman,kala",
+      "randle,kelli",
+      "holmes,beverly",
+      "brooks,miah"
+    ],
+    "homeLineup":[
+      "jones,neka",
+      "stewart,shelby",
+      "frank,keana",
+      null,
+      null
+    ],
+    "timeSeconds":652,
+    "Poss":"millsaps",
+    "possNum":18,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":39,
+    "teamChanged":0,
+    "game":"Louisiana CollegeMillsaps11\/18\/13",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jones,neka",
+    "homePlayer2":"stewart,shelby",
+    "homePlayer3":"frank,keana",
+    "homePlayer4":null,
+    "homePlayer5":null,
+    "awayPlayer1":"johnson,velvet",
+    "awayPlayer2":"freeman,kala",
+    "awayPlayer3":"randle,kelli",
+    "awayPlayer4":"holmes,beverly",
+    "awayPlayer5":"brooks,miah",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2332",
+    "homeTeam":"Louisiana College",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"67-72",
+    "homeScoreByPeriod":"36,36,72",
+    "awayScoreByPeriod":"33,34,67",
+    "homeRecord":"1-0",
+    "awayRecord":"2-1",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"11\/18\/13",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"917",
+    "isNeutral":"False",
+    "timeRemaining":"10:52",
+    "awayPlay":"",
+    "awayTeamScore":"14",
+    "playTeamIndicator":"",
+    "homeTeamScore":"16 ",
+    "homePlay":"SUB OUT by STEWART,SHELBY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by STEWART,SHELBY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"louisiana college",
+    "Player":"stewart,shelby",
     "pointsEarned":"",
     "awayLineup":[
       "johnson,velvet",
@@ -12583,84 +12661,6 @@
     "awayTeamScore":"14",
     "playTeamIndicator":"",
     "homeTeamScore":"16 ",
-    "homePlay":"SUB OUT by STEWART,SHELBY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by STEWART,SHELBY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"louisiana college",
-    "Player":"stewart,shelby",
-    "pointsEarned":"",
-    "awayLineup":[
-      "johnson,velvet",
-      "freeman,kala",
-      "randle,kelli",
-      "holmes,beverly",
-      "brooks,miah"
-    ],
-    "homeLineup":[
-      "jones,neka",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":652,
-    "Poss":"millsaps",
-    "possNum":18,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":39,
-    "teamChanged":0,
-    "game":"Louisiana CollegeMillsaps11\/18\/13",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jones,neka",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"johnson,velvet",
-    "awayPlayer2":"freeman,kala",
-    "awayPlayer3":"randle,kelli",
-    "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"brooks,miah",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2332",
-    "homeTeam":"Louisiana College",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"67-72",
-    "homeScoreByPeriod":"36,36,72",
-    "awayScoreByPeriod":"33,34,67",
-    "homeRecord":"1-0",
-    "awayRecord":"2-1",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"11\/18\/13",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"917",
-    "isNeutral":"False",
-    "timeRemaining":"10:52",
-    "awayPlay":"",
-    "awayTeamScore":"14",
-    "playTeamIndicator":"",
-    "homeTeamScore":"16 ",
     "homePlay":"SUB IN by KLING,KORTNEY",
     "gameScore":"",
     "teamIndicator":"",
@@ -12681,7 +12681,7 @@
     "homeLineup":[
       "jones,neka",
       "kling,kortney",
-      null,
+      "totals",
       null,
       null
     ],
@@ -12703,7 +12703,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"jones,neka",
     "homePlayer2":"kling,kortney",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
@@ -12760,7 +12760,7 @@
       "jones,neka",
       "kling,kortney",
       "chenevert,skylar",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":652,
@@ -12782,7 +12782,7 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"kling,kortney",
     "homePlayer3":"chenevert,skylar",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -12839,7 +12839,7 @@
       "kling,kortney",
       "chenevert,skylar",
       "morvant,natosha",
-      null
+      "totals"
     ],
     "timeSeconds":652,
     "Poss":"millsaps",
@@ -12861,13 +12861,13 @@
     "homePlayer2":"kling,kortney",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -13541,7 +13541,7 @@
       "kling,kortney",
       "morvant,natosha",
       "thornton,karylon",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":592,
     "Poss":"millsaps",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"kling,kortney",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -13618,7 +13618,7 @@
       "kling,kortney",
       "morvant,natosha",
       "thornton,karylon",
-      null,
+      "jones,neka",
       null
     ],
     "timeSeconds":592,
@@ -13640,7 +13640,7 @@
     "homePlayer1":"kling,kortney",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
-    "homePlayer4":null,
+    "homePlayer4":"jones,neka",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -13697,7 +13697,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "west,karli",
-      null
+      "totals"
     ],
     "timeSeconds":592,
     "Poss":"millsaps",
@@ -13719,13 +13719,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"west,karli",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"brooks,miah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -15328,7 +15328,7 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "kling,kortney",
@@ -15362,8 +15362,8 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brooks,miah",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -15406,14 +15406,14 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "morvant,natosha",
       "thornton,karylon",
       "west,karli",
       "stewart,shelby",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":516,
     "Poss":"millsaps",
@@ -15435,13 +15435,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"west,karli",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brooks,miah",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -15484,13 +15484,13 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "morvant,natosha",
       "thornton,karylon",
       "stewart,shelby",
-      null,
+      "west,karli",
       null
     ],
     "timeSeconds":516,
@@ -15512,13 +15512,13 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"stewart,shelby",
-    "homePlayer4":null,
+    "homePlayer4":"west,karli",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
+    "awayPlayer5":"brooks,miah",
     "playerMissing":1
   },
   {
@@ -15562,12 +15562,12 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "morvant,natosha",
       "stewart,shelby",
-      null,
+      "thornton,karylon",
       null,
       null
     ],
@@ -15589,14 +15589,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"stewart,shelby",
-    "homePlayer3":null,
+    "homePlayer3":"thornton,karylon",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
+    "awayPlayer5":"brooks,miah",
     "playerMissing":1
   },
   {
@@ -15640,11 +15640,11 @@
       "freeman,kala",
       "randle,kelli",
       "holmes,beverly",
-      null
+      "brooks,miah"
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -15666,7 +15666,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -15674,7 +15674,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
+    "awayPlayer5":"brooks,miah",
     "playerMissing":1
   },
   {
@@ -15722,7 +15722,7 @@
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -15744,7 +15744,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -15801,7 +15801,7 @@
     "homeLineup":[
       "morvant,natosha",
       "harris,briana",
-      null,
+      "totals",
       null,
       null
     ],
@@ -15823,7 +15823,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"harris,briana",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
@@ -15880,7 +15880,7 @@
       "morvant,natosha",
       "harris,briana",
       "chenevert,skylar",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":516,
@@ -15902,7 +15902,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"harris,briana",
     "homePlayer3":"chenevert,skylar",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -15959,7 +15959,7 @@
       "harris,briana",
       "chenevert,skylar",
       "frank,keana",
-      null
+      "totals"
     ],
     "timeSeconds":516,
     "Poss":"millsaps",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"harris,briana",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -16349,7 +16349,7 @@
       "chenevert,skylar",
       "frank,keana",
       "jones,neka",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":485,
     "Poss":"millsaps",
@@ -16371,13 +16371,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"frank,keana",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -16817,7 +16817,7 @@
       "chenevert,skylar",
       "frank,keana",
       "jones,neka",
-      null
+      "phillips,anna"
     ],
     "timeSeconds":453,
     "Poss":"louisiana college",
@@ -16839,13 +16839,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"frank,keana",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,anna",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -16882,6 +16882,84 @@
     "shotOutcome":"",
     "Team":"louisiana college",
     "Player":"chenevert,skylar",
+    "pointsEarned":"",
+    "awayLineup":[
+      "johnson,velvet",
+      "freeman,kala",
+      "randle,kelli",
+      "holmes,beverly",
+      "klunk,kim"
+    ],
+    "homeLineup":[
+      "harris,briana",
+      "frank,keana",
+      "jones,neka",
+      "chenevert,skylar",
+      null
+    ],
+    "timeSeconds":453,
+    "Poss":"louisiana college",
+    "possNum":23,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":53,
+    "teamChanged":0,
+    "game":"Louisiana CollegeMillsaps11\/18\/13",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"harris,briana",
+    "homePlayer2":"frank,keana",
+    "homePlayer3":"jones,neka",
+    "homePlayer4":"chenevert,skylar",
+    "homePlayer5":null,
+    "awayPlayer1":"johnson,velvet",
+    "awayPlayer2":"freeman,kala",
+    "awayPlayer3":"randle,kelli",
+    "awayPlayer4":"holmes,beverly",
+    "awayPlayer5":"klunk,kim",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2332",
+    "homeTeam":"Louisiana College",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"67-72",
+    "homeScoreByPeriod":"36,36,72",
+    "awayScoreByPeriod":"33,34,67",
+    "homeRecord":"1-0",
+    "awayRecord":"2-1",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"11\/18\/13",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"917",
+    "isNeutral":"False",
+    "timeRemaining":"07:33",
+    "awayPlay":"",
+    "awayTeamScore":"19",
+    "playTeamIndicator":"",
+    "homeTeamScore":"22 ",
+    "homePlay":"SUB OUT by JONES,NEKA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by JONES,NEKA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"louisiana college",
+    "Player":"jones,neka",
     "pointsEarned":"",
     "awayLineup":[
       "johnson,velvet",
@@ -16951,84 +17029,6 @@
     "awayTeamScore":"19",
     "playTeamIndicator":"",
     "homeTeamScore":"22 ",
-    "homePlay":"SUB OUT by JONES,NEKA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by JONES,NEKA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"louisiana college",
-    "Player":"jones,neka",
-    "pointsEarned":"",
-    "awayLineup":[
-      "johnson,velvet",
-      "freeman,kala",
-      "randle,kelli",
-      "holmes,beverly",
-      "klunk,kim"
-    ],
-    "homeLineup":[
-      "harris,briana",
-      "frank,keana",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":453,
-    "Poss":"louisiana college",
-    "possNum":23,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":53,
-    "teamChanged":0,
-    "game":"Louisiana CollegeMillsaps11\/18\/13",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"harris,briana",
-    "homePlayer2":"frank,keana",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"johnson,velvet",
-    "awayPlayer2":"freeman,kala",
-    "awayPlayer3":"randle,kelli",
-    "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"klunk,kim",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2332",
-    "homeTeam":"Louisiana College",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"67-72",
-    "homeScoreByPeriod":"36,36,72",
-    "awayScoreByPeriod":"33,34,67",
-    "homeRecord":"1-0",
-    "awayRecord":"2-1",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"11\/18\/13",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"917",
-    "isNeutral":"False",
-    "timeRemaining":"07:33",
-    "awayPlay":"",
-    "awayTeamScore":"19",
-    "playTeamIndicator":"",
-    "homeTeamScore":"22 ",
     "homePlay":"SUB IN by MORVANT,NATOSHA",
     "gameScore":"",
     "teamIndicator":"",
@@ -17050,7 +17050,7 @@
       "harris,briana",
       "frank,keana",
       "morvant,natosha",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":453,
@@ -17072,7 +17072,7 @@
     "homePlayer1":"harris,briana",
     "homePlayer2":"frank,keana",
     "homePlayer3":"morvant,natosha",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
@@ -17129,7 +17129,7 @@
       "frank,keana",
       "morvant,natosha",
       "thornton,karylon",
-      null
+      "totals"
     ],
     "timeSeconds":453,
     "Poss":"louisiana college",
@@ -17151,13 +17151,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"johnson,velvet",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -17278,7 +17278,7 @@
       "randle,kelli",
       "holmes,beverly",
       "klunk,kim",
-      null
+      "johnson,velvet"
     ],
     "homeLineup":[
       "harris,briana",
@@ -17312,8 +17312,8 @@
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"johnson,velvet",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -17753,7 +17753,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "stewart,shelby",
-      null
+      "harris,briana"
     ],
     "timeSeconds":414,
     "Poss":"millsaps",
@@ -17775,13 +17775,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"harris,briana",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -18143,7 +18143,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "kling,kortney",
-      null
+      "stewart,shelby"
     ],
     "timeSeconds":393,
     "Poss":"louisiana college",
@@ -18165,13 +18165,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"kling,kortney",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,shelby",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -19001,7 +19001,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "kling,kortney",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":349,
     "Poss":"louisiana college",
@@ -19023,13 +19023,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"kling,kortney",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -20171,7 +20171,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "evans,latoya",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":307,
     "Poss":"millsaps",
@@ -20193,13 +20193,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"evans,latoya",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -20248,7 +20248,7 @@
       "morvant,natosha",
       "thornton,karylon",
       "evans,latoya",
-      null,
+      "frank,keana",
       null
     ],
     "timeSeconds":307,
@@ -20270,7 +20270,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"evans,latoya",
-    "homePlayer4":null,
+    "homePlayer4":"frank,keana",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
@@ -20327,7 +20327,7 @@
       "thornton,karylon",
       "evans,latoya",
       "harris,briana",
-      null
+      "totals"
     ],
     "timeSeconds":307,
     "Poss":"millsaps",
@@ -20349,13 +20349,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"evans,latoya",
     "homePlayer4":"harris,briana",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -20788,7 +20788,7 @@
       "randle,kelli",
       "holmes,beverly",
       "klunk,kim",
-      null
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -20822,8 +20822,8 @@
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,sam",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -20866,14 +20866,14 @@
       "randle,kelli",
       "holmes,beverly",
       "klunk,kim",
-      null
+      "perez,sam"
     ],
     "homeLineup":[
       "thornton,karylon",
       "evans,latoya",
       "harris,briana",
       "jones,neka",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":304,
     "Poss":"millsaps",
@@ -20895,13 +20895,13 @@
     "homePlayer2":"evans,latoya",
     "homePlayer3":"harris,briana",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,sam",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -20951,7 +20951,7 @@
       "evans,latoya",
       "harris,briana",
       "jones,neka",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":304,
     "Poss":"millsaps",
@@ -20973,13 +20973,13 @@
     "homePlayer2":"evans,latoya",
     "homePlayer3":"harris,briana",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -21880,7 +21880,7 @@
       "randle,kelli",
       "holmes,beverly",
       "klunk,kim",
-      null
+      "johnson,velvet"
     ],
     "homeLineup":[
       "thornton,karylon",
@@ -21914,8 +21914,8 @@
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"johnson,velvet",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -22667,7 +22667,7 @@
       "evans,latoya",
       "jones,neka",
       "phillips,anna",
-      null
+      "harris,briana"
     ],
     "timeSeconds":226,
     "Poss":"louisiana college",
@@ -22689,13 +22689,13 @@
     "homePlayer2":"evans,latoya",
     "homePlayer3":"jones,neka",
     "homePlayer4":"phillips,anna",
-    "homePlayer5":null,
+    "homePlayer5":"harris,briana",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -22732,6 +22732,84 @@
     "shotOutcome":"",
     "Team":"louisiana college",
     "Player":"evans,latoya",
+    "pointsEarned":"",
+    "awayLineup":[
+      "freeman,kala",
+      "randle,kelli",
+      "holmes,beverly",
+      "klunk,kim",
+      "perez,sam"
+    ],
+    "homeLineup":[
+      "thornton,karylon",
+      "jones,neka",
+      "phillips,anna",
+      "evans,latoya",
+      null
+    ],
+    "timeSeconds":226,
+    "Poss":"louisiana college",
+    "possNum":29,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":69,
+    "teamChanged":0,
+    "game":"Louisiana CollegeMillsaps11\/18\/13",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"thornton,karylon",
+    "homePlayer2":"jones,neka",
+    "homePlayer3":"phillips,anna",
+    "homePlayer4":"evans,latoya",
+    "homePlayer5":null,
+    "awayPlayer1":"freeman,kala",
+    "awayPlayer2":"randle,kelli",
+    "awayPlayer3":"holmes,beverly",
+    "awayPlayer4":"klunk,kim",
+    "awayPlayer5":"perez,sam",
+    "playerMissing":1
+  },
+  {
+    "gameID":"2332",
+    "homeTeam":"Louisiana College",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"67-72",
+    "homeScoreByPeriod":"36,36,72",
+    "awayScoreByPeriod":"33,34,67",
+    "homeRecord":"1-0",
+    "awayRecord":"2-1",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"11\/18\/13",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"917",
+    "isNeutral":"False",
+    "timeRemaining":"03:46",
+    "awayPlay":"",
+    "awayTeamScore":"28 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"26",
+    "homePlay":"SUB OUT by PHILLIPS,ANNA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by PHILLIPS,ANNA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"louisiana college",
+    "Player":"phillips,anna",
     "pointsEarned":"",
     "awayLineup":[
       "freeman,kala",
@@ -22801,84 +22879,6 @@
     "awayTeamScore":"28 ",
     "playTeamIndicator":"",
     "homeTeamScore":"26",
-    "homePlay":"SUB OUT by PHILLIPS,ANNA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by PHILLIPS,ANNA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"louisiana college",
-    "Player":"phillips,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "freeman,kala",
-      "randle,kelli",
-      "holmes,beverly",
-      "klunk,kim",
-      "perez,sam"
-    ],
-    "homeLineup":[
-      "thornton,karylon",
-      "jones,neka",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":226,
-    "Poss":"louisiana college",
-    "possNum":29,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":69,
-    "teamChanged":0,
-    "game":"Louisiana CollegeMillsaps11\/18\/13",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"thornton,karylon",
-    "homePlayer2":"jones,neka",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"freeman,kala",
-    "awayPlayer2":"randle,kelli",
-    "awayPlayer3":"holmes,beverly",
-    "awayPlayer4":"klunk,kim",
-    "awayPlayer5":"perez,sam",
-    "playerMissing":1
-  },
-  {
-    "gameID":"2332",
-    "homeTeam":"Louisiana College",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"67-72",
-    "homeScoreByPeriod":"36,36,72",
-    "awayScoreByPeriod":"33,34,67",
-    "homeRecord":"1-0",
-    "awayRecord":"2-1",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"11\/18\/13",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"917",
-    "isNeutral":"False",
-    "timeRemaining":"03:46",
-    "awayPlay":"",
-    "awayTeamScore":"28 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"26",
     "homePlay":"SUB IN by KLING,KORTNEY",
     "gameScore":"",
     "teamIndicator":"",
@@ -22900,7 +22900,7 @@
       "thornton,karylon",
       "jones,neka",
       "kling,kortney",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":226,
@@ -22922,7 +22922,7 @@
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"jones,neka",
     "homePlayer3":"kling,kortney",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
@@ -22979,7 +22979,7 @@
       "jones,neka",
       "kling,kortney",
       "morvant,natosha",
-      null
+      "totals"
     ],
     "timeSeconds":226,
     "Poss":"louisiana college",
@@ -23001,13 +23001,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"kling,kortney",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -24142,7 +24142,7 @@
       "randle,kelli",
       "holmes,beverly",
       "perez,sam",
-      null
+      "klunk,kim"
     ],
     "homeLineup":[
       "thornton,karylon",
@@ -24176,8 +24176,8 @@
     "awayPlayer2":"randle,kelli",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"perez,sam",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"klunk,kim",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -24844,7 +24844,7 @@
       "holmes,beverly",
       "perez,sam",
       "crawford,mahalia",
-      null
+      "randle,kelli"
     ],
     "homeLineup":[
       "thornton,karylon",
@@ -24878,8 +24878,8 @@
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"randle,kelli",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -25553,7 +25553,7 @@
       "jones,neka",
       "kling,kortney",
       "morvant,natosha",
-      null
+      "payne,taylor"
     ],
     "timeSeconds":102,
     "Poss":"louisiana college",
@@ -25575,13 +25575,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"kling,kortney",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"payne,taylor",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -25630,7 +25630,7 @@
       "jones,neka",
       "kling,kortney",
       "morvant,natosha",
-      null,
+      "thornton,karylon",
       null
     ],
     "timeSeconds":102,
@@ -25652,7 +25652,7 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"kling,kortney",
     "homePlayer3":"morvant,natosha",
-    "homePlayer4":null,
+    "homePlayer4":"thornton,karylon",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -25707,7 +25707,7 @@
     "homeLineup":[
       "kling,kortney",
       "morvant,natosha",
-      null,
+      "jones,neka",
       null,
       null
     ],
@@ -25729,7 +25729,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"kling,kortney",
     "homePlayer2":"morvant,natosha",
-    "homePlayer3":null,
+    "homePlayer3":"jones,neka",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
@@ -25786,7 +25786,7 @@
       "kling,kortney",
       "morvant,natosha",
       "chenevert,skylar",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":102,
@@ -25808,7 +25808,7 @@
     "homePlayer1":"kling,kortney",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"chenevert,skylar",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -25865,7 +25865,7 @@
       "morvant,natosha",
       "chenevert,skylar",
       "frank,keana",
-      null
+      "totals"
     ],
     "timeSeconds":102,
     "Poss":"louisiana college",
@@ -25887,13 +25887,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -26021,7 +26021,7 @@
       "morvant,natosha",
       "frank,keana",
       "stewart,shelby",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":95,
     "Poss":"louisiana college",
@@ -26043,13 +26043,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"frank,keana",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -29063,7 +29063,7 @@
       "morvant,natosha",
       "frank,keana",
       "west,karli",
-      null
+      "stewart,shelby"
     ],
     "timeSeconds":1123,
     "Poss":"louisiana college",
@@ -29085,13 +29085,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"frank,keana",
     "homePlayer4":"west,karli",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,shelby",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -30155,7 +30155,7 @@
       "frank,keana",
       "west,karli",
       "willis,kaci",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":1054,
     "Poss":"louisiana college",
@@ -30177,13 +30177,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"west,karli",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -30467,7 +30467,7 @@
       "west,karli",
       "willis,kaci",
       "stewart,shelby",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":1043,
     "Poss":"millsaps",
@@ -30489,13 +30489,13 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -31715,7 +31715,7 @@
       "west,karli",
       "stewart,shelby",
       "allison,danisha",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":946,
     "Poss":"louisiana college",
@@ -31737,13 +31737,13 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -31792,7 +31792,7 @@
       "frank,keana",
       "stewart,shelby",
       "allison,danisha",
-      null,
+      "west,karli",
       null
     ],
     "timeSeconds":946,
@@ -31814,7 +31814,7 @@
     "homePlayer1":"frank,keana",
     "homePlayer2":"stewart,shelby",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"west,karli",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -31870,7 +31870,7 @@
       "frank,keana",
       "stewart,shelby",
       "allison,danisha",
-      null,
+      "west,karli",
       null
     ],
     "timeSeconds":946,
@@ -31892,7 +31892,7 @@
     "homePlayer1":"frank,keana",
     "homePlayer2":"stewart,shelby",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"west,karli",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -31947,7 +31947,7 @@
     "homeLineup":[
       "frank,keana",
       "allison,danisha",
-      null,
+      "stewart,shelby",
       null,
       null
     ],
@@ -31969,7 +31969,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"frank,keana",
     "homePlayer2":"allison,danisha",
-    "homePlayer3":null,
+    "homePlayer3":"stewart,shelby",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
@@ -32026,7 +32026,7 @@
       "frank,keana",
       "allison,danisha",
       "chenevert,skylar",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":946,
@@ -32048,7 +32048,7 @@
     "homePlayer1":"frank,keana",
     "homePlayer2":"allison,danisha",
     "homePlayer3":"chenevert,skylar",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -32105,7 +32105,7 @@
       "allison,danisha",
       "chenevert,skylar",
       "morvant,natosha",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":946,
     "Poss":"louisiana college",
@@ -32127,13 +32127,13 @@
     "homePlayer2":"allison,danisha",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -32183,7 +32183,7 @@
       "allison,danisha",
       "chenevert,skylar",
       "morvant,natosha",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":946,
     "Poss":"louisiana college",
@@ -32205,13 +32205,13 @@
     "homePlayer2":"allison,danisha",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"morvant,natosha",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -33119,7 +33119,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "jones,neka",
-      null
+      "frank,keana"
     ],
     "timeSeconds":886,
     "Poss":"millsaps",
@@ -33141,13 +33141,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"frank,keana",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -33196,7 +33196,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "jones,neka",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":886,
@@ -33218,7 +33218,7 @@
     "homePlayer1":"chenevert,skylar",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
@@ -33275,7 +33275,7 @@
       "morvant,natosha",
       "jones,neka",
       "willis,kaci",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":886,
     "Poss":"millsaps",
@@ -33297,13 +33297,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"perez,sam",
     "awayPlayer4":"crawford,mahalia",
     "awayPlayer5":"johnson,bria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -33970,7 +33970,7 @@
       "perez,sam",
       "crawford,mahalia",
       "johnson,bria",
-      null
+      "holmes,beverly"
     ],
     "homeLineup":[
       "chenevert,skylar",
@@ -34004,8 +34004,8 @@
     "awayPlayer2":"perez,sam",
     "awayPlayer3":"crawford,mahalia",
     "awayPlayer4":"johnson,bria",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holmes,beverly",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -34048,14 +34048,14 @@
       "perez,sam",
       "crawford,mahalia",
       "johnson,bria",
-      null
+      "holmes,beverly"
     ],
     "homeLineup":[
       "chenevert,skylar",
       "morvant,natosha",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "jones,neka"
     ],
     "timeSeconds":863,
     "Poss":"louisiana college",
@@ -34077,13 +34077,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"jones,neka",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"perez,sam",
     "awayPlayer3":"crawford,mahalia",
     "awayPlayer4":"johnson,bria",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"holmes,beverly",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -34133,7 +34133,7 @@
       "morvant,natosha",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "jones,neka"
     ],
     "timeSeconds":863,
     "Poss":"louisiana college",
@@ -34155,13 +34155,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"jones,neka",
     "awayPlayer1":"freeman,kala",
     "awayPlayer2":"perez,sam",
     "awayPlayer3":"crawford,mahalia",
     "awayPlayer4":"johnson,bria",
     "awayPlayer5":"randle,kelli",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -34211,7 +34211,7 @@
       "morvant,natosha",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "jones,neka"
     ],
     "timeSeconds":863,
     "Poss":"louisiana college",
@@ -34233,13 +34233,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"jones,neka",
     "awayPlayer1":"perez,sam",
     "awayPlayer2":"crawford,mahalia",
     "awayPlayer3":"johnson,bria",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -34757,7 +34757,7 @@
       "willis,kaci",
       "thornton,karylon",
       "west,karli",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":822,
     "Poss":"millsaps",
@@ -34779,13 +34779,13 @@
     "homePlayer2":"willis,kaci",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"west,karli",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"perez,sam",
     "awayPlayer2":"crawford,mahalia",
     "awayPlayer3":"johnson,bria",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -35303,7 +35303,7 @@
       "thornton,karylon",
       "west,karli",
       "stewart,shelby",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":808,
     "Poss":"millsaps",
@@ -35325,13 +35325,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"west,karli",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"perez,sam",
     "awayPlayer2":"crawford,mahalia",
     "awayPlayer3":"johnson,bria",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -36239,7 +36239,7 @@
       "west,karli",
       "stewart,shelby",
       "allison,danisha",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":739,
     "Poss":"louisiana college",
@@ -36261,13 +36261,13 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"stewart,shelby",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"perez,sam",
     "awayPlayer2":"crawford,mahalia",
     "awayPlayer3":"johnson,bria",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"klunk,kim",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -36316,7 +36316,7 @@
       "thornton,karylon",
       "stewart,shelby",
       "allison,danisha",
-      null,
+      "west,karli",
       null
     ],
     "timeSeconds":739,
@@ -36338,7 +36338,7 @@
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"stewart,shelby",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"west,karli",
     "homePlayer5":null,
     "awayPlayer1":"perez,sam",
     "awayPlayer2":"crawford,mahalia",
@@ -36393,7 +36393,7 @@
     "homeLineup":[
       "stewart,shelby",
       "allison,danisha",
-      null,
+      "thornton,karylon",
       null,
       null
     ],
@@ -36415,7 +36415,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"stewart,shelby",
     "homePlayer2":"allison,danisha",
-    "homePlayer3":null,
+    "homePlayer3":"thornton,karylon",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"perez,sam",
@@ -36470,7 +36470,7 @@
     ],
     "homeLineup":[
       "allison,danisha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -36492,7 +36492,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"allison,danisha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -36548,7 +36548,7 @@
     ],
     "homeLineup":[
       "allison,danisha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -36570,7 +36570,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"allison,danisha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -36627,7 +36627,7 @@
     "homeLineup":[
       "allison,danisha",
       "chenevert,skylar",
-      null,
+      "kling,kortney",
       null,
       null
     ],
@@ -36649,7 +36649,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"allison,danisha",
     "homePlayer2":"chenevert,skylar",
-    "homePlayer3":null,
+    "homePlayer3":"kling,kortney",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -36706,7 +36706,7 @@
       "allison,danisha",
       "chenevert,skylar",
       "morvant,natosha",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":739,
@@ -36728,7 +36728,7 @@
     "homePlayer1":"allison,danisha",
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"morvant,natosha",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
@@ -36785,7 +36785,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "frank,keana",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":739,
     "Poss":"louisiana college",
@@ -36807,13 +36807,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"frank,keana",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"holmes,beverly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -37565,7 +37565,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "jones,neka",
-      null
+      "frank,keana"
     ],
     "timeSeconds":666,
     "Poss":"louisiana college",
@@ -37587,13 +37587,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"morvant,natosha",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"frank,keana",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"holmes,beverly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -37642,7 +37642,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "jones,neka",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":666,
@@ -37664,7 +37664,7 @@
     "homePlayer1":"chenevert,skylar",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
@@ -37719,7 +37719,7 @@
     "homeLineup":[
       "chenevert,skylar",
       "morvant,natosha",
-      null,
+      "jones,neka",
       null,
       null
     ],
@@ -37741,7 +37741,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"chenevert,skylar",
     "homePlayer2":"morvant,natosha",
-    "homePlayer3":null,
+    "homePlayer3":"jones,neka",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -37798,7 +37798,7 @@
       "chenevert,skylar",
       "morvant,natosha",
       "jones,neka",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":666,
@@ -37820,7 +37820,7 @@
     "homePlayer1":"chenevert,skylar",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
@@ -37877,7 +37877,7 @@
       "morvant,natosha",
       "jones,neka",
       "willis,kaci",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":666,
     "Poss":"louisiana college",
@@ -37899,13 +37899,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"jones,neka",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"klunk,kim",
     "awayPlayer5":"holmes,beverly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -38728,7 +38728,7 @@
       "johnson,bria",
       "klunk,kim",
       "holmes,beverly",
-      null
+      "perez,sam"
     ],
     "homeLineup":[
       "chenevert,skylar",
@@ -38762,8 +38762,8 @@
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"klunk,kim",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,sam",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -39664,7 +39664,7 @@
       "johnson,bria",
       "holmes,beverly",
       "freeman,kala",
-      null
+      "perez,sam"
     ],
     "homeLineup":[
       "chenevert,skylar",
@@ -39698,8 +39698,8 @@
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"holmes,beverly",
     "awayPlayer4":"freeman,kala",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perez,sam",
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -39741,7 +39741,7 @@
       "crawford,mahalia",
       "johnson,bria",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -39775,7 +39775,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39819,7 +39819,7 @@
       "crawford,mahalia",
       "johnson,bria",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -39827,7 +39827,7 @@
       "jones,neka",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":573,
     "Poss":"louisiana college",
@@ -39849,11 +39849,11 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39897,14 +39897,14 @@
       "crawford,mahalia",
       "johnson,bria",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
       "jones,neka",
       "thornton,karylon",
-      null,
+      "willis,kaci",
       null
     ],
     "timeSeconds":573,
@@ -39926,12 +39926,12 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"jones,neka",
     "homePlayer3":"thornton,karylon",
-    "homePlayer4":null,
+    "homePlayer4":"willis,kaci",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39975,13 +39975,13 @@
       "crawford,mahalia",
       "johnson,bria",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
       "jones,neka",
-      null,
+      "thornton,karylon",
       null,
       null
     ],
@@ -40003,13 +40003,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"jones,neka",
-    "homePlayer3":null,
+    "homePlayer3":"thornton,karylon",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40053,12 +40053,12 @@
       "crawford,mahalia",
       "johnson,bria",
       "freeman,kala",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "jones,neka",
       null,
       null,
       null
@@ -40080,14 +40080,14 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"jones,neka",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40136,7 +40136,7 @@
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "jones,neka",
       null,
       null,
       null
@@ -40158,7 +40158,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"jones,neka",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -40214,7 +40214,7 @@
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "jones,neka",
       null,
       null,
       null
@@ -40236,7 +40236,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"jones,neka",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -40293,7 +40293,7 @@
     "homeLineup":[
       "morvant,natosha",
       "frank,keana",
-      null,
+      "kling,kortney",
       null,
       null
     ],
@@ -40315,7 +40315,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"frank,keana",
-    "homePlayer3":null,
+    "homePlayer3":"kling,kortney",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -40372,7 +40372,7 @@
       "morvant,natosha",
       "frank,keana",
       "west,karli",
-      null,
+      "kling,kortney",
       null
     ],
     "timeSeconds":573,
@@ -40394,7 +40394,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"frank,keana",
     "homePlayer3":"west,karli",
-    "homePlayer4":null,
+    "homePlayer4":"kling,kortney",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
@@ -40451,7 +40451,7 @@
       "frank,keana",
       "west,karli",
       "allison,danisha",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":573,
     "Poss":"louisiana college",
@@ -40473,13 +40473,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"west,karli",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"johnson,bria",
     "awayPlayer3":"freeman,kala",
     "awayPlayer4":"brooks,miah",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -41613,7 +41613,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -41647,7 +41647,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41691,7 +41691,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -41699,7 +41699,7 @@
       "west,karli",
       "allison,danisha",
       "stewart,shelby",
-      null
+      "frank,keana"
     ],
     "timeSeconds":529,
     "Poss":"millsaps",
@@ -41721,11 +41721,11 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"allison,danisha",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"frank,keana",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41769,14 +41769,14 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
       "allison,danisha",
       "stewart,shelby",
-      null,
+      "west,karli",
       null
     ],
     "timeSeconds":529,
@@ -41798,12 +41798,12 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"allison,danisha",
     "homePlayer3":"stewart,shelby",
-    "homePlayer4":null,
+    "homePlayer4":"west,karli",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41847,13 +41847,13 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
       "stewart,shelby",
-      null,
+      "kling,kortney",
       null,
       null
     ],
@@ -41875,13 +41875,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"stewart,shelby",
-    "homePlayer3":null,
+    "homePlayer3":"kling,kortney",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41925,12 +41925,12 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -41952,14 +41952,14 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -42008,7 +42008,7 @@
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "stewart,shelby",
       null,
       null,
       null
@@ -42030,7 +42030,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"stewart,shelby",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -42087,7 +42087,7 @@
     "homeLineup":[
       "morvant,natosha",
       "kling,kortney",
-      null,
+      "totals",
       null,
       null
     ],
@@ -42109,7 +42109,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"kling,kortney",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -42166,7 +42166,7 @@
       "morvant,natosha",
       "kling,kortney",
       "chenevert,skylar",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":529,
@@ -42188,7 +42188,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"kling,kortney",
     "homePlayer3":"chenevert,skylar",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
@@ -42245,7 +42245,7 @@
       "kling,kortney",
       "chenevert,skylar",
       "thornton,karylon",
-      null
+      "totals"
     ],
     "timeSeconds":529,
     "Poss":"millsaps",
@@ -42267,13 +42267,13 @@
     "homePlayer2":"kling,kortney",
     "homePlayer3":"chenevert,skylar",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -42713,7 +42713,7 @@
       "chenevert,skylar",
       "thornton,karylon",
       "jones,neka",
-      null
+      "kling,kortney"
     ],
     "timeSeconds":486,
     "Poss":"millsaps",
@@ -42735,13 +42735,13 @@
     "homePlayer2":"chenevert,skylar",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"kling,kortney",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -42790,7 +42790,7 @@
       "chenevert,skylar",
       "thornton,karylon",
       "jones,neka",
-      null,
+      "morvant,natosha",
       null
     ],
     "timeSeconds":486,
@@ -42812,7 +42812,7 @@
     "homePlayer1":"chenevert,skylar",
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"morvant,natosha",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
@@ -42869,7 +42869,7 @@
       "thornton,karylon",
       "jones,neka",
       "willis,kaci",
-      null
+      "totals"
     ],
     "timeSeconds":486,
     "Poss":"millsaps",
@@ -42891,13 +42891,13 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"jones,neka",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -43025,7 +43025,7 @@
       "jones,neka",
       "willis,kaci",
       "payne,taylor",
-      null
+      "chenevert,skylar"
     ],
     "timeSeconds":460,
     "Poss":"millsaps",
@@ -43047,13 +43047,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"payne,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"chenevert,skylar",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -44117,7 +44117,7 @@
       "jones,neka",
       "payne,taylor",
       "stewart,shelby",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":386,
     "Poss":"louisiana college",
@@ -44139,13 +44139,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"payne,taylor",
     "homePlayer4":"stewart,shelby",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -44194,7 +44194,7 @@
       "thornton,karylon",
       "jones,neka",
       "stewart,shelby",
-      null,
+      "payne,taylor",
       null
     ],
     "timeSeconds":386,
@@ -44216,7 +44216,7 @@
     "homePlayer1":"thornton,karylon",
     "homePlayer2":"jones,neka",
     "homePlayer3":"stewart,shelby",
-    "homePlayer4":null,
+    "homePlayer4":"payne,taylor",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
@@ -44271,7 +44271,7 @@
     "homeLineup":[
       "jones,neka",
       "stewart,shelby",
-      null,
+      "thornton,karylon",
       null,
       null
     ],
@@ -44293,7 +44293,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"jones,neka",
     "homePlayer2":"stewart,shelby",
-    "homePlayer3":null,
+    "homePlayer3":"thornton,karylon",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -44348,7 +44348,7 @@
     ],
     "homeLineup":[
       "stewart,shelby",
-      null,
+      "jones,neka",
       null,
       null,
       null
@@ -44370,7 +44370,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"stewart,shelby",
-    "homePlayer2":null,
+    "homePlayer2":"jones,neka",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -44427,7 +44427,7 @@
     "homeLineup":[
       "stewart,shelby",
       "morvant,natosha",
-      null,
+      "totals",
       null,
       null
     ],
@@ -44449,7 +44449,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"stewart,shelby",
     "homePlayer2":"morvant,natosha",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
@@ -44506,7 +44506,7 @@
       "stewart,shelby",
       "morvant,natosha",
       "frank,keana",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":386,
@@ -44528,7 +44528,7 @@
     "homePlayer1":"stewart,shelby",
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"frank,keana",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
@@ -44585,7 +44585,7 @@
       "morvant,natosha",
       "frank,keana",
       "west,karli",
-      null
+      "totals"
     ],
     "timeSeconds":386,
     "Poss":"louisiana college",
@@ -44607,13 +44607,13 @@
     "homePlayer2":"morvant,natosha",
     "homePlayer3":"frank,keana",
     "homePlayer4":"west,karli",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -44811,7 +44811,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -44845,7 +44845,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -45365,7 +45365,7 @@
       "frank,keana",
       "west,karli",
       "allison,danisha",
-      null
+      "stewart,shelby"
     ],
     "timeSeconds":320,
     "Poss":"millsaps",
@@ -45387,13 +45387,13 @@
     "homePlayer2":"frank,keana",
     "homePlayer3":"west,karli",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,shelby",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -45825,7 +45825,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -45859,7 +45859,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -45903,7 +45903,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -45911,7 +45911,7 @@
       "west,karli",
       "allison,danisha",
       "jones,neka",
-      null
+      "frank,keana"
     ],
     "timeSeconds":279,
     "Poss":"millsaps",
@@ -45933,11 +45933,11 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"allison,danisha",
     "homePlayer4":"jones,neka",
-    "homePlayer5":null,
+    "homePlayer5":"frank,keana",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -45981,14 +45981,14 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
       "morvant,natosha",
       "west,karli",
       "jones,neka",
-      null,
+      "allison,danisha",
       null
     ],
     "timeSeconds":279,
@@ -46010,12 +46010,12 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"west,karli",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"allison,danisha",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -46066,7 +46066,7 @@
       "morvant,natosha",
       "west,karli",
       "jones,neka",
-      null,
+      "allison,danisha",
       null
     ],
     "timeSeconds":279,
@@ -46088,7 +46088,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"west,karli",
     "homePlayer3":"jones,neka",
-    "homePlayer4":null,
+    "homePlayer4":"allison,danisha",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
@@ -46145,7 +46145,7 @@
       "west,karli",
       "jones,neka",
       "willis,kaci",
-      null
+      "totals"
     ],
     "timeSeconds":279,
     "Poss":"millsaps",
@@ -46167,13 +46167,13 @@
     "homePlayer2":"west,karli",
     "homePlayer3":"jones,neka",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -46840,7 +46840,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -46874,7 +46874,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -46918,7 +46918,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -46952,7 +46952,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -46996,7 +46996,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47030,7 +47030,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47074,7 +47074,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47108,7 +47108,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47152,7 +47152,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47186,7 +47186,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47230,7 +47230,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47264,7 +47264,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47308,7 +47308,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47342,7 +47342,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47386,7 +47386,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47420,7 +47420,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47464,7 +47464,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47498,7 +47498,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47542,7 +47542,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47576,7 +47576,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47620,7 +47620,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47654,7 +47654,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47698,7 +47698,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47732,7 +47732,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47776,7 +47776,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47810,7 +47810,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47854,7 +47854,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47888,7 +47888,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -47932,7 +47932,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -47966,7 +47966,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -48010,7 +48010,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -48044,7 +48044,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -48088,7 +48088,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -48122,7 +48122,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -48166,7 +48166,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -48200,7 +48200,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -48244,7 +48244,7 @@
       "freeman,kala",
       "brooks,miah",
       "holmes,beverly",
-      "perez,sam(fastbreak)"
+      "perez,sam"
     ],
     "homeLineup":[
       "morvant,natosha",
@@ -48278,7 +48278,7 @@
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
-    "awayPlayer5":"perez,sam(fastbreak)",
+    "awayPlayer5":"perez,sam",
     "playerMissing":0
   },
   {
@@ -48321,7 +48321,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -48355,7 +48355,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -48399,7 +48399,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -48407,7 +48407,7 @@
       "jones,neka",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "west,karli"
     ],
     "timeSeconds":120,
     "Poss":"millsaps",
@@ -48429,11 +48429,11 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"west,karli",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -48485,7 +48485,7 @@
       "jones,neka",
       "willis,kaci",
       "thornton,karylon",
-      null
+      "west,karli"
     ],
     "timeSeconds":120,
     "Poss":"millsaps",
@@ -48507,13 +48507,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"willis,kaci",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"west,karli",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -49881,7 +49881,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -49915,7 +49915,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -49959,7 +49959,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -49967,7 +49967,7 @@
       "jones,neka",
       "thornton,karylon",
       "allison,danisha",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":41,
     "Poss":"louisiana college",
@@ -49989,11 +49989,11 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50045,7 +50045,7 @@
       "jones,neka",
       "thornton,karylon",
       "allison,danisha",
-      null
+      "willis,kaci"
     ],
     "timeSeconds":41,
     "Poss":"louisiana college",
@@ -50067,13 +50067,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"willis,kaci",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"holmes,beverly",
     "awayPlayer5":"johnson,velvet",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -50583,7 +50583,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -50617,7 +50617,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50661,7 +50661,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "holmes,beverly",
       null
     ],
     "homeLineup":[
@@ -50669,7 +50669,7 @@
       "jones,neka",
       "thornton,karylon",
       "allison,danisha",
-      null
+      "west,karli"
     ],
     "timeSeconds":32,
     "Poss":"millsaps",
@@ -50691,11 +50691,11 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"west,karli",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"holmes,beverly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50747,7 +50747,7 @@
       "jones,neka",
       "thornton,karylon",
       "allison,danisha",
-      null
+      "west,karli"
     ],
     "timeSeconds":32,
     "Poss":"millsaps",
@@ -50769,13 +50769,13 @@
     "homePlayer2":"jones,neka",
     "homePlayer3":"thornton,karylon",
     "homePlayer4":"allison,danisha",
-    "homePlayer5":null,
+    "homePlayer5":"west,karli",
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
     "awayPlayer4":"randle,kelli",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",
@@ -51207,7 +51207,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "brooks,miah",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -51241,7 +51241,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"brooks,miah",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -51909,7 +51909,7 @@
       "crawford,mahalia",
       "freeman,kala",
       "holmes,beverly",
-      null,
+      "perez,sam",
       null
     ],
     "homeLineup":[
@@ -51943,7 +51943,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"freeman,kala",
     "awayPlayer3":"holmes,beverly",
-    "awayPlayer4":null,
+    "awayPlayer4":"perez,sam",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -51982,6 +51982,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"johnson,velvet",
+    "pointsEarned":"",
+    "awayLineup":[
+      "crawford,mahalia",
+      "freeman,kala",
+      "holmes,beverly",
+      "perez,sam",
+      null
+    ],
+    "homeLineup":[
+      "morvant,natosha",
+      "jones,neka",
+      "thornton,karylon",
+      "allison,danisha",
+      "willis,kaci"
+    ],
+    "timeSeconds":14,
+    "Poss":"millsaps",
+    "possNum":66,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"louisiana college",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":158,
+    "teamChanged":0,
+    "game":"Louisiana CollegeMillsaps11\/18\/13",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"morvant,natosha",
+    "homePlayer2":"jones,neka",
+    "homePlayer3":"thornton,karylon",
+    "homePlayer4":"allison,danisha",
+    "homePlayer5":"willis,kaci",
+    "awayPlayer1":"crawford,mahalia",
+    "awayPlayer2":"freeman,kala",
+    "awayPlayer3":"holmes,beverly",
+    "awayPlayer4":"perez,sam",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"2332",
+    "homeTeam":"Louisiana College",
+    "awayTeam":"Millsaps",
+    "saaGame":"0",
+    "finalScore":"67-72",
+    "homeScoreByPeriod":"36,36,72",
+    "awayScoreByPeriod":"33,34,67",
+    "homeRecord":"1-0",
+    "awayRecord":"2-1",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"11\/18\/13",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"917",
+    "isNeutral":"False",
+    "timeRemaining":"00:14",
+    "awayPlay":"SUB OUT by HOLMES,BEVERLY",
+    "awayTeamScore":"67",
+    "playTeamIndicator":"",
+    "homeTeamScore":"71 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HOLMES,BEVERLY",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"holmes,beverly",
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
@@ -52047,19 +52125,19 @@
     "attendance":"917",
     "isNeutral":"False",
     "timeRemaining":"00:14",
-    "awayPlay":"SUB OUT by HOLMES,BEVERLY",
+    "awayPlay":"SUB OUT by FREEMAN,KALA",
     "awayTeamScore":"67",
     "playTeamIndicator":"",
     "homeTeamScore":"71 ",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by HOLMES,BEVERLY",
+    "Play":"SUB OUT by FREEMAN,KALA",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"holmes,beverly",
+    "Player":"freeman,kala",
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
@@ -52125,84 +52203,6 @@
     "attendance":"917",
     "isNeutral":"False",
     "timeRemaining":"00:14",
-    "awayPlay":"SUB OUT by FREEMAN,KALA",
-    "awayTeamScore":"67",
-    "playTeamIndicator":"",
-    "homeTeamScore":"71 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FREEMAN,KALA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"freeman,kala",
-    "pointsEarned":"",
-    "awayLineup":[
-      "crawford,mahalia",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "morvant,natosha",
-      "jones,neka",
-      "thornton,karylon",
-      "allison,danisha",
-      "willis,kaci"
-    ],
-    "timeSeconds":14,
-    "Poss":"millsaps",
-    "possNum":66,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"louisiana college",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":158,
-    "teamChanged":0,
-    "game":"Louisiana CollegeMillsaps11\/18\/13",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"morvant,natosha",
-    "homePlayer2":"jones,neka",
-    "homePlayer3":"thornton,karylon",
-    "homePlayer4":"allison,danisha",
-    "homePlayer5":"willis,kaci",
-    "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"2332",
-    "homeTeam":"Louisiana College",
-    "awayTeam":"Millsaps",
-    "saaGame":"0",
-    "finalScore":"67-72",
-    "homeScoreByPeriod":"36,36,72",
-    "awayScoreByPeriod":"33,34,67",
-    "homeRecord":"1-0",
-    "awayRecord":"2-1",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"11\/18\/13",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Pineville, LA (H.O. West Fieldhouse)",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"917",
-    "isNeutral":"False",
-    "timeRemaining":"00:14",
     "awayPlay":"SUB OUT by PEREZ,SAM",
     "awayTeamScore":"67",
     "playTeamIndicator":"",
@@ -52219,7 +52219,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -52253,7 +52253,7 @@
     "homePlayer4":"allison,danisha",
     "homePlayer5":"willis,kaci",
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52297,7 +52297,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -52307,7 +52307,7 @@
       "thornton,karylon",
       "allison,danisha",
       "willis,kaci",
-      null
+      "morvant,natosha"
     ],
     "timeSeconds":14,
     "Poss":"millsaps",
@@ -52329,9 +52329,9 @@
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"allison,danisha",
     "homePlayer4":"willis,kaci",
-    "homePlayer5":null,
+    "homePlayer5":"morvant,natosha",
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52375,7 +52375,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -52384,7 +52384,7 @@
       "jones,neka",
       "thornton,karylon",
       "allison,danisha",
-      null,
+      "willis,kaci",
       null
     ],
     "timeSeconds":14,
@@ -52406,10 +52406,10 @@
     "homePlayer1":"jones,neka",
     "homePlayer2":"thornton,karylon",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"willis,kaci",
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52453,7 +52453,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -52461,7 +52461,7 @@
     "homeLineup":[
       "jones,neka",
       "thornton,karylon",
-      null,
+      "allison,danisha",
       null,
       null
     ],
@@ -52483,11 +52483,11 @@
     "secondsPerPoss":0,
     "homePlayer1":"jones,neka",
     "homePlayer2":"thornton,karylon",
-    "homePlayer3":null,
+    "homePlayer3":"allison,danisha",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52531,14 +52531,14 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
     ],
     "homeLineup":[
       "jones,neka",
-      null,
+      "thornton,karylon",
       null,
       null,
       null
@@ -52560,12 +52560,12 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"jones,neka",
-    "homePlayer2":null,
+    "homePlayer2":"thornton,karylon",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52609,7 +52609,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "crawford,mahalia",
-      null,
+      "freeman,kala",
       null,
       null,
       null
@@ -52643,7 +52643,7 @@
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,kala",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -52688,7 +52688,7 @@
     "awayLineup":[
       "crawford,mahalia",
       "holmes,beverly",
-      null,
+      "totals",
       null,
       null
     ],
@@ -52722,7 +52722,7 @@
     "homePlayer5":null,
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"holmes,beverly",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -52767,7 +52767,7 @@
       "crawford,mahalia",
       "holmes,beverly",
       "randle,kelli",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -52801,7 +52801,7 @@
     "awayPlayer1":"crawford,mahalia",
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"randle,kelli",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -52846,7 +52846,7 @@
       "holmes,beverly",
       "randle,kelli",
       "brooks,miah",
-      null
+      "totals"
     ],
     "homeLineup":[
       null,
@@ -52880,7 +52880,7 @@
     "awayPlayer2":"holmes,beverly",
     "awayPlayer3":"randle,kelli",
     "awayPlayer4":"brooks,miah",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -53162,7 +53162,7 @@
     ],
     "homeLineup":[
       "morvant,natosha",
-      null,
+      "totals",
       null,
       null,
       null
@@ -53184,7 +53184,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
-    "homePlayer2":null,
+    "homePlayer2":"totals",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -53241,7 +53241,7 @@
     "homeLineup":[
       "morvant,natosha",
       "willis,kaci",
-      null,
+      "totals",
       null,
       null
     ],
@@ -53263,7 +53263,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"willis,kaci",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"randle,kelli",
@@ -53320,7 +53320,7 @@
       "morvant,natosha",
       "willis,kaci",
       "allison,danisha",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":14,
@@ -53342,7 +53342,7 @@
     "homePlayer1":"morvant,natosha",
     "homePlayer2":"willis,kaci",
     "homePlayer3":"allison,danisha",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"randle,kelli",
     "awayPlayer2":"brooks,miah",
@@ -53399,7 +53399,7 @@
       "willis,kaci",
       "allison,danisha",
       "thornton,karylon",
-      null
+      "totals"
     ],
     "timeSeconds":14,
     "Poss":"millsaps",
@@ -53421,13 +53421,13 @@
     "homePlayer2":"willis,kaci",
     "homePlayer3":"allison,danisha",
     "homePlayer4":"thornton,karylon",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"randle,kelli",
     "awayPlayer2":"brooks,miah",
     "awayPlayer3":"johnson,velvet",
     "awayPlayer4":"freeman,kala",
     "awayPlayer5":"perez,sam",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"2332",

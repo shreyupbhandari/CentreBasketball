@@ -2770,7 +2770,7 @@
       "novak,whitney",
       "roe,helena",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "althoff,catherine",
@@ -2804,8 +2804,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -2842,6 +2842,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "roe,helena",
+      "frank,taylor",
+      "novak,whitney",
+      null
+    ],
+    "homeLineup":[
+      "althoff,catherine",
+      "seay,kearstyn",
+      "vlahakos,giana",
+      "marsh,avery",
+      "griffith,audrey"
+    ],
+    "timeSeconds":367,
+    "Poss":"rhodes",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":11,
+    "teamChanged":0,
+    "game":"RhodesMillsaps01\/12\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"althoff,catherine",
+    "homePlayer2":"seay,kearstyn",
+    "homePlayer3":"vlahakos,giana",
+    "homePlayer4":"marsh,avery",
+    "homePlayer5":"griffith,audrey",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"roe,helena",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"novak,whitney",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"9177",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"61-55",
+    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
+    "homeRecord":"8-6",
+    "awayRecord":"14-2",
+    "homeConfRecord":"3-1",
+    "awayConfRecord":"5-0",
+    "gameDate":"01\/12\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"250",
+    "isNeutral":"False",
+    "timeRemaining":"06:07",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"7 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"3",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -2907,84 +2985,6 @@
     "attendance":"250",
     "isNeutral":"False",
     "timeRemaining":"06:07",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"7 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"3",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "roe,helena",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "althoff,catherine",
-      "seay,kearstyn",
-      "vlahakos,giana",
-      "marsh,avery",
-      "griffith,audrey"
-    ],
-    "timeSeconds":367,
-    "Poss":"rhodes",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":11,
-    "teamChanged":0,
-    "game":"RhodesMillsaps01\/12\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"althoff,catherine",
-    "homePlayer2":"seay,kearstyn",
-    "homePlayer3":"vlahakos,giana",
-    "homePlayer4":"marsh,avery",
-    "homePlayer5":"griffith,audrey",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"roe,helena",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"9177",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"61-55",
-    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
-    "homeRecord":"8-6",
-    "awayRecord":"14-2",
-    "homeConfRecord":"3-1",
-    "awayConfRecord":"5-0",
-    "gameDate":"01\/12\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"250",
-    "isNeutral":"False",
-    "timeRemaining":"06:07",
     "awayPlay":"SUB IN by FREEMAN,GARIN",
     "awayTeamScore":"7 ",
     "playTeamIndicator":"",
@@ -3003,7 +3003,7 @@
       "franklin,haley",
       "roe,helena",
       "freeman,garin",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -3037,7 +3037,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3082,7 +3082,7 @@
       "roe,helena",
       "freeman,garin",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "althoff,catherine",
@@ -3116,8 +3116,8 @@
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -3401,7 +3401,7 @@
       "vlahakos,giana",
       "marsh,avery",
       "griffith,audrey",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":365,
     "Poss":"rhodes",
@@ -3423,13 +3423,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -4025,7 +4025,7 @@
       "vlahakos,giana",
       "marsh,avery",
       "milam,ac",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":330,
     "Poss":"millsaps",
@@ -4047,13 +4047,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"roe,helena",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -4408,7 +4408,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -4442,8 +4442,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -5663,7 +5663,7 @@
       "vlahakos,giana",
       "marsh,avery",
       "milam,ac",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":232,
     "Poss":"rhodes",
@@ -5685,13 +5685,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -5740,7 +5740,7 @@
       "seay,kearstyn",
       "marsh,avery",
       "milam,ac",
-      null,
+      "vlahakos,giana",
       null
     ],
     "timeSeconds":232,
@@ -5762,7 +5762,7 @@
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"marsh,avery",
     "homePlayer3":"milam,ac",
-    "homePlayer4":null,
+    "homePlayer4":"vlahakos,giana",
     "homePlayer5":null,
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
@@ -5819,7 +5819,7 @@
       "marsh,avery",
       "milam,ac",
       "griffith,audrey",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":232,
     "Poss":"rhodes",
@@ -5841,13 +5841,13 @@
     "homePlayer2":"marsh,avery",
     "homePlayer3":"milam,ac",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -5968,7 +5968,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -6002,8 +6002,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -6911,7 +6911,7 @@
       "milam,ac",
       "griffith,audrey",
       "althoff,catherine",
-      null
+      "marsh,avery"
     ],
     "timeSeconds":154,
     "Poss":"millsaps",
@@ -6933,13 +6933,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,avery",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -7613,7 +7613,7 @@
       "griffith,audrey",
       "althoff,catherine",
       "lagarde,a'niya",
-      null
+      "milam,ac"
     ],
     "timeSeconds":121,
     "Poss":"rhodes",
@@ -7635,13 +7635,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -8159,7 +8159,7 @@
       "althoff,catherine",
       "lagarde,a'niya",
       "vlahakos,giana",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":90,
     "Poss":"rhodes",
@@ -8181,13 +8181,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -8308,7 +8308,7 @@
       "freeman,garin",
       "anderson,tia",
       "adams,emily",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -8342,8 +8342,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -9095,7 +9095,7 @@
       "lagarde,a'niya",
       "vlahakos,giana",
       "howell,juliet",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":45,
     "Poss":"millsaps",
@@ -9117,13 +9117,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -9244,7 +9244,7 @@
       "anderson,tia",
       "adams,emily",
       "frank,taylor",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -9278,8 +9278,8 @@
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -10031,7 +10031,7 @@
       "lagarde,a'niya",
       "vlahakos,giana",
       "howell,juliet",
-      null
+      "willingham,kelsey"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -10053,13 +10053,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"willingham,kelsey",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -10108,7 +10108,7 @@
       "seay,kearstyn",
       "lagarde,a'niya",
       "vlahakos,giana",
-      null,
+      "howell,juliet",
       null
     ],
     "timeSeconds":600,
@@ -10130,7 +10130,7 @@
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"vlahakos,giana",
-    "homePlayer4":null,
+    "homePlayer4":"howell,juliet",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
@@ -10185,7 +10185,7 @@
     "homeLineup":[
       "seay,kearstyn",
       "vlahakos,giana",
-      null,
+      "althoff,catherine",
       null,
       null
     ],
@@ -10207,7 +10207,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"vlahakos,giana",
-    "homePlayer3":null,
+    "homePlayer3":"althoff,catherine",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
@@ -10264,7 +10264,7 @@
       "seay,kearstyn",
       "vlahakos,giana",
       "marsh,avery",
-      null,
+      "althoff,catherine",
       null
     ],
     "timeSeconds":600,
@@ -10286,7 +10286,7 @@
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
-    "homePlayer4":null,
+    "homePlayer4":"althoff,catherine",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
@@ -10343,7 +10343,7 @@
       "vlahakos,giana",
       "marsh,avery",
       "griffith,audrey",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -10365,13 +10365,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -10889,7 +10889,7 @@
       "vlahakos,giana",
       "marsh,avery",
       "althoff,catherine",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":567,
     "Poss":"millsaps",
@@ -10911,13 +10911,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -11513,7 +11513,7 @@
       "vlahakos,giana",
       "althoff,catherine",
       "milam,ac",
-      null
+      "marsh,avery"
     ],
     "timeSeconds":538,
     "Poss":"millsaps",
@@ -11535,13 +11535,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,avery",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -11590,7 +11590,7 @@
       "seay,kearstyn",
       "althoff,catherine",
       "milam,ac",
-      null,
+      "vlahakos,giana",
       null
     ],
     "timeSeconds":538,
@@ -11612,7 +11612,7 @@
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
-    "homePlayer4":null,
+    "homePlayer4":"vlahakos,giana",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
@@ -11669,7 +11669,7 @@
       "althoff,catherine",
       "milam,ac",
       "griffith,audrey",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":538,
     "Poss":"millsaps",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -11818,7 +11818,7 @@
       "anderson,tia",
       "adams,emily",
       "frank,taylor",
-      null
+      "howell,maddie"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -11852,8 +11852,8 @@
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"howell,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -13144,7 +13144,7 @@
       "adams,emily",
       "frank,taylor",
       "franklin,haley",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -13178,8 +13178,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"franklin,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -13221,7 +13221,7 @@
       "freeman,garin",
       "adams,emily",
       "franklin,haley",
-      null,
+      "frank,taylor",
       null
     ],
     "homeLineup":[
@@ -13255,7 +13255,7 @@
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"frank,taylor",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13300,7 +13300,7 @@
       "adams,emily",
       "franklin,haley",
       "warren,elyse",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -13334,8 +13334,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -14704,7 +14704,7 @@
       "franklin,haley",
       "warren,elyse",
       "novak,whitney",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -14738,8 +14738,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -15491,7 +15491,7 @@
       "althoff,catherine",
       "milam,ac",
       "griffith,audrey",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":173,
     "Poss":"rhodes",
@@ -15513,13 +15513,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -15725,7 +15725,7 @@
       "althoff,catherine",
       "milam,ac",
       "vlahakos,giana",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":160,
     "Poss":"millsaps",
@@ -15747,13 +15747,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"howell,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -15874,7 +15874,7 @@
       "franklin,haley",
       "novak,whitney",
       "howell,maddie",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -15908,8 +15908,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"howell,maddie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -15951,7 +15951,7 @@
       "adams,emily",
       "franklin,haley",
       "howell,maddie",
-      null,
+      "novak,whitney",
       null
     ],
     "homeLineup":[
@@ -15985,7 +15985,7 @@
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"howell,maddie",
-    "awayPlayer4":null,
+    "awayPlayer4":"novak,whitney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16030,7 +16030,7 @@
       "franklin,haley",
       "howell,maddie",
       "freeman,garin",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -16064,8 +16064,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"howell,maddie",
     "awayPlayer4":"freeman,garin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -16810,7 +16810,7 @@
       "franklin,haley",
       "freeman,garin",
       "frank,taylor",
-      null
+      "howell,maddie"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -16844,8 +16844,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"howell,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -17512,7 +17512,7 @@
       "franklin,haley",
       "freeman,garin",
       "novak,whitney",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -17546,8 +17546,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -18221,7 +18221,7 @@
       "althoff,catherine",
       "milam,ac",
       "howell,juliet",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":3,
     "Poss":"rhodes",
@@ -18243,13 +18243,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"pflum,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -18448,7 +18448,7 @@
       "franklin,haley",
       "novak,whitney",
       "pflum,rachel",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -18482,8 +18482,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"pflum,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -18525,7 +18525,7 @@
       "adams,emily",
       "franklin,haley",
       "novak,whitney",
-      null,
+      "pflum,rachel",
       null
     ],
     "homeLineup":[
@@ -18559,7 +18559,7 @@
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
-    "awayPlayer4":null,
+    "awayPlayer4":"pflum,rachel",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18604,7 +18604,7 @@
       "franklin,haley",
       "novak,whitney",
       "roe,helena",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -18638,8 +18638,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -18767,7 +18767,7 @@
       "althoff,catherine",
       "milam,ac",
       "lagarde,a'niya",
-      null
+      "howell,juliet"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -18789,13 +18789,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"howell,juliet",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -18844,7 +18844,7 @@
       "seay,kearstyn",
       "althoff,catherine",
       "lagarde,a'niya",
-      null,
+      "milam,ac",
       null
     ],
     "timeSeconds":600,
@@ -18866,7 +18866,7 @@
     "homePlayer1":"seay,kearstyn",
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lagarde,a'niya",
-    "homePlayer4":null,
+    "homePlayer4":"milam,ac",
     "homePlayer5":null,
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
@@ -18923,7 +18923,7 @@
       "althoff,catherine",
       "lagarde,a'niya",
       "griffith,audrey",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -18945,13 +18945,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -21575,7 +21575,7 @@
       "althoff,catherine",
       "griffith,audrey",
       "vlahakos,giana",
-      null
+      "marsh,avery"
     ],
     "timeSeconds":363,
     "Poss":"millsaps",
@@ -21597,13 +21597,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,avery",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -21965,7 +21965,7 @@
       "griffith,audrey",
       "vlahakos,giana",
       "marsh,avery",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":339,
     "Poss":"millsaps",
@@ -21987,13 +21987,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"marsh,avery",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -22660,7 +22660,7 @@
       "novak,whitney",
       "roe,helena",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -22694,8 +22694,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -22732,6 +22732,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"roe,helena",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "novak,whitney",
+      "frank,taylor",
+      "roe,helena",
+      null
+    ],
+    "homeLineup":[
+      "seay,kearstyn",
+      "griffith,audrey",
+      "vlahakos,giana",
+      "marsh,avery",
+      "milam,ac"
+    ],
+    "timeSeconds":320,
+    "Poss":"millsaps",
+    "possNum":38,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":73,
+    "teamChanged":0,
+    "game":"RhodesMillsaps01\/12\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"seay,kearstyn",
+    "homePlayer2":"griffith,audrey",
+    "homePlayer3":"vlahakos,giana",
+    "homePlayer4":"marsh,avery",
+    "homePlayer5":"milam,ac",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"novak,whitney",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"roe,helena",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"9177",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"61-55",
+    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
+    "homeRecord":"8-6",
+    "awayRecord":"14-2",
+    "homeConfRecord":"3-1",
+    "awayConfRecord":"5-0",
+    "gameDate":"01\/12\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"250",
+    "isNeutral":"False",
+    "timeRemaining":"05:20",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"37 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"36",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -22797,84 +22875,6 @@
     "attendance":"250",
     "isNeutral":"False",
     "timeRemaining":"05:20",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"37 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"36",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "novak,whitney",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "seay,kearstyn",
-      "griffith,audrey",
-      "vlahakos,giana",
-      "marsh,avery",
-      "milam,ac"
-    ],
-    "timeSeconds":320,
-    "Poss":"millsaps",
-    "possNum":38,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":73,
-    "teamChanged":0,
-    "game":"RhodesMillsaps01\/12\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"seay,kearstyn",
-    "homePlayer2":"griffith,audrey",
-    "homePlayer3":"vlahakos,giana",
-    "homePlayer4":"marsh,avery",
-    "homePlayer5":"milam,ac",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"novak,whitney",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"9177",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"61-55",
-    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
-    "homeRecord":"8-6",
-    "awayRecord":"14-2",
-    "homeConfRecord":"3-1",
-    "awayConfRecord":"5-0",
-    "gameDate":"01\/12\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"250",
-    "isNeutral":"False",
-    "timeRemaining":"05:20",
     "awayPlay":"SUB IN by FREEMAN,GARIN",
     "awayTeamScore":"37 ",
     "playTeamIndicator":"",
@@ -22893,7 +22893,7 @@
       "franklin,haley",
       "novak,whitney",
       "freeman,garin",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -22927,7 +22927,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22972,7 +22972,7 @@
       "novak,whitney",
       "freeman,garin",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -23006,8 +23006,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -23291,7 +23291,7 @@
       "griffith,audrey",
       "vlahakos,giana",
       "milam,ac",
-      null
+      "marsh,avery"
     ],
     "timeSeconds":305,
     "Poss":"rhodes",
@@ -23313,13 +23313,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,avery",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -23447,7 +23447,7 @@
       "vlahakos,giana",
       "milam,ac",
       "howell,juliet",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":301,
     "Poss":"rhodes",
@@ -23469,13 +23469,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"milam,ac",
     "homePlayer4":"howell,juliet",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -23915,7 +23915,7 @@
       "milam,ac",
       "howell,juliet",
       "marsh,avery",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":290,
     "Poss":"millsaps",
@@ -23937,13 +23937,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"howell,juliet",
     "homePlayer4":"marsh,avery",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -24064,7 +24064,7 @@
       "novak,whitney",
       "freeman,garin",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -24098,8 +24098,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -25000,7 +25000,7 @@
       "novak,whitney",
       "freeman,garin",
       "anderson,tia",
-      null
+      "pflum,rachel"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -25034,8 +25034,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pflum,rachel",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -25546,7 +25546,7 @@
       "freeman,garin",
       "anderson,tia",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -25580,8 +25580,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -26326,7 +26326,7 @@
       "freeman,garin",
       "frank,taylor",
       "roe,helena",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "seay,kearstyn",
@@ -26360,8 +26360,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -27113,7 +27113,7 @@
       "howell,juliet",
       "marsh,avery",
       "althoff,catherine",
-      null
+      "seay,kearstyn"
     ],
     "timeSeconds":129,
     "Poss":"millsaps",
@@ -27135,13 +27135,13 @@
     "homePlayer2":"howell,juliet",
     "homePlayer3":"marsh,avery",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"seay,kearstyn",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -27178,6 +27178,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"howell,juliet",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "frank,taylor",
+      "roe,helena",
+      "adams,emily"
+    ],
+    "homeLineup":[
+      "milam,ac",
+      "marsh,avery",
+      "althoff,catherine",
+      "howell,juliet",
+      null
+    ],
+    "timeSeconds":129,
+    "Poss":"millsaps",
+    "possNum":48,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":85,
+    "teamChanged":0,
+    "game":"RhodesMillsaps01\/12\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"milam,ac",
+    "homePlayer2":"marsh,avery",
+    "homePlayer3":"althoff,catherine",
+    "homePlayer4":"howell,juliet",
+    "homePlayer5":null,
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"roe,helena",
+    "awayPlayer5":"adams,emily",
+    "playerMissing":1
+  },
+  {
+    "gameID":"9177",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"61-55",
+    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
+    "homeRecord":"8-6",
+    "awayRecord":"14-2",
+    "homeConfRecord":"3-1",
+    "awayConfRecord":"5-0",
+    "gameDate":"01\/12\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"250",
+    "isNeutral":"False",
+    "timeRemaining":"02:09",
+    "awayPlay":"",
+    "awayTeamScore":"43 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"38",
+    "homePlay":"SUB OUT by ALTHOFF,CATHERINE",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by ALTHOFF,CATHERINE",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"althoff,catherine",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -27247,84 +27325,6 @@
     "awayTeamScore":"43 ",
     "playTeamIndicator":"",
     "homeTeamScore":"38",
-    "homePlay":"SUB OUT by ALTHOFF,CATHERINE",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ALTHOFF,CATHERINE",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"althoff,catherine",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      "frank,taylor",
-      "roe,helena",
-      "adams,emily"
-    ],
-    "homeLineup":[
-      "milam,ac",
-      "marsh,avery",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":129,
-    "Poss":"millsaps",
-    "possNum":48,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":85,
-    "teamChanged":0,
-    "game":"RhodesMillsaps01\/12\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"milam,ac",
-    "homePlayer2":"marsh,avery",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":"frank,taylor",
-    "awayPlayer4":"roe,helena",
-    "awayPlayer5":"adams,emily",
-    "playerMissing":1
-  },
-  {
-    "gameID":"9177",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"61-55",
-    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
-    "homeRecord":"8-6",
-    "awayRecord":"14-2",
-    "homeConfRecord":"3-1",
-    "awayConfRecord":"5-0",
-    "gameDate":"01\/12\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"250",
-    "isNeutral":"False",
-    "timeRemaining":"02:09",
-    "awayPlay":"",
-    "awayTeamScore":"43 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"38",
     "homePlay":"SUB IN by GRIFFITH,AUDREY",
     "gameScore":"",
     "teamIndicator":"",
@@ -27346,7 +27346,7 @@
       "milam,ac",
       "marsh,avery",
       "griffith,audrey",
-      null,
+      "seay,kearstyn",
       null
     ],
     "timeSeconds":129,
@@ -27368,7 +27368,7 @@
     "homePlayer1":"milam,ac",
     "homePlayer2":"marsh,avery",
     "homePlayer3":"griffith,audrey",
-    "homePlayer4":null,
+    "homePlayer4":"seay,kearstyn",
     "homePlayer5":null,
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
@@ -27425,7 +27425,7 @@
       "marsh,avery",
       "griffith,audrey",
       "lagarde,a'niya",
-      null
+      "seay,kearstyn"
     ],
     "timeSeconds":129,
     "Poss":"millsaps",
@@ -27447,13 +27447,13 @@
     "homePlayer2":"marsh,avery",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"seay,kearstyn",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"roe,helena",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -28276,7 +28276,7 @@
       "freeman,garin",
       "roe,helena",
       "adams,emily",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "milam,ac",
@@ -28310,8 +28310,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -30155,7 +30155,7 @@
       "griffith,audrey",
       "lagarde,a'niya",
       "vlahakos,giana",
-      null
+      "milam,ac"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -30177,13 +30177,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"pflum,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -30232,7 +30232,7 @@
       "marsh,avery",
       "griffith,audrey",
       "vlahakos,giana",
-      null,
+      "seay,kearstyn",
       null
     ],
     "timeSeconds":600,
@@ -30254,7 +30254,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"vlahakos,giana",
-    "homePlayer4":null,
+    "homePlayer4":"seay,kearstyn",
     "homePlayer5":null,
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
@@ -30311,7 +30311,7 @@
       "griffith,audrey",
       "vlahakos,giana",
       "seay,kearstyn",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -30333,13 +30333,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"seay,kearstyn",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"pflum,rachel",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -30460,7 +30460,7 @@
       "freeman,garin",
       "roe,helena",
       "adams,emily",
-      null
+      "pflum,rachel"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -30494,8 +30494,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pflum,rachel",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -31013,7 +31013,7 @@
       "griffith,audrey",
       "seay,kearstyn",
       "althoff,catherine",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":571,
     "Poss":"millsaps",
@@ -31035,13 +31035,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"seay,kearstyn",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"warren,elyse",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -32573,7 +32573,7 @@
       "griffith,audrey",
       "seay,kearstyn",
       "althoff,catherine",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":454,
     "Poss":"rhodes",
@@ -32595,13 +32595,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"seay,kearstyn",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"warren,elyse",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -32722,7 +32722,7 @@
       "freeman,garin",
       "roe,helena",
       "adams,emily",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -32756,8 +32756,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -33665,7 +33665,7 @@
       "griffith,audrey",
       "althoff,catherine",
       "milam,ac",
-      null
+      "seay,kearstyn"
     ],
     "timeSeconds":396,
     "Poss":"rhodes",
@@ -33687,13 +33687,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"milam,ac",
-    "homePlayer5":null,
+    "homePlayer5":"seay,kearstyn",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"roe,helena",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -33814,7 +33814,7 @@
       "freeman,garin",
       "adams,emily",
       "novak,whitney",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -33848,8 +33848,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -34991,7 +34991,7 @@
       "althoff,catherine",
       "milam,ac",
       "lagarde,a'niya",
-      null
+      "griffith,audrey"
     ],
     "timeSeconds":318,
     "Poss":"rhodes",
@@ -35013,13 +35013,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"milam,ac",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"griffith,audrey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -35140,6 +35140,84 @@
       "freeman,garin",
       "novak,whitney",
       "frank,taylor",
+      "adams,emily"
+    ],
+    "homeLineup":[
+      "marsh,avery",
+      "althoff,catherine",
+      "milam,ac",
+      "lagarde,a'niya",
+      "vlahakos,giana"
+    ],
+    "timeSeconds":318,
+    "Poss":"rhodes",
+    "possNum":61,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":110,
+    "teamChanged":0,
+    "game":"RhodesMillsaps01\/12\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"marsh,avery",
+    "homePlayer2":"althoff,catherine",
+    "homePlayer3":"milam,ac",
+    "homePlayer4":"lagarde,a'niya",
+    "homePlayer5":"vlahakos,giana",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"novak,whitney",
+    "awayPlayer4":"frank,taylor",
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
+  },
+  {
+    "gameID":"9177",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"61-55",
+    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
+    "homeRecord":"8-6",
+    "awayRecord":"14-2",
+    "homeConfRecord":"3-1",
+    "awayConfRecord":"5-0",
+    "gameDate":"01\/12\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"250",
+    "isNeutral":"False",
+    "timeRemaining":"05:18",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"54 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"49",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "novak,whitney",
+      "frank,taylor",
       null
     ],
     "homeLineup":[
@@ -35199,84 +35277,6 @@
     "attendance":"250",
     "isNeutral":"False",
     "timeRemaining":"05:18",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"54 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"49",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      "novak,whitney",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "marsh,avery",
-      "althoff,catherine",
-      "milam,ac",
-      "lagarde,a'niya",
-      "vlahakos,giana"
-    ],
-    "timeSeconds":318,
-    "Poss":"rhodes",
-    "possNum":61,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":110,
-    "teamChanged":0,
-    "game":"RhodesMillsaps01\/12\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"marsh,avery",
-    "homePlayer2":"althoff,catherine",
-    "homePlayer3":"milam,ac",
-    "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":"vlahakos,giana",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":"novak,whitney",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"9177",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"61-55",
-    "homeScoreByPeriod":"\nRhodes\nRhodes\n,15,16,14,10,55",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,8,20,13,61",
-    "homeRecord":"8-6",
-    "awayRecord":"14-2",
-    "homeConfRecord":"3-1",
-    "awayConfRecord":"5-0",
-    "gameDate":"01\/12\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"250",
-    "isNeutral":"False",
-    "timeRemaining":"05:18",
     "awayPlay":"SUB IN by WARREN,ELYSE",
     "awayTeamScore":"54 ",
     "playTeamIndicator":"",
@@ -35296,7 +35296,7 @@
       "freeman,garin",
       "novak,whitney",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -35330,8 +35330,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -35615,7 +35615,7 @@
       "milam,ac",
       "lagarde,a'niya",
       "vlahakos,giana",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":302,
     "Poss":"millsaps",
@@ -35637,13 +35637,13 @@
     "homePlayer2":"milam,ac",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"vlahakos,giana",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -36310,7 +36310,7 @@
       "novak,whitney",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -36344,8 +36344,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -36466,7 +36466,7 @@
       "novak,whitney",
       "warren,elyse",
       "adams,emily",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -36500,8 +36500,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -37090,7 +37090,7 @@
       "warren,elyse",
       "adams,emily",
       "franklin,haley",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -37124,8 +37124,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"franklin,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -37643,7 +37643,7 @@
       "lagarde,a'niya",
       "vlahakos,giana",
       "seay,kearstyn",
-      null
+      "milam,ac"
     ],
     "timeSeconds":153,
     "Poss":"rhodes",
@@ -37665,13 +37665,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"vlahakos,giana",
     "homePlayer4":"seay,kearstyn",
-    "homePlayer5":null,
+    "homePlayer5":"milam,ac",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"franklin,haley",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -37720,7 +37720,7 @@
       "marsh,avery",
       "vlahakos,giana",
       "seay,kearstyn",
-      null,
+      "althoff,catherine",
       null
     ],
     "timeSeconds":153,
@@ -37742,7 +37742,7 @@
     "homePlayer1":"marsh,avery",
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"seay,kearstyn",
-    "homePlayer4":null,
+    "homePlayer4":"althoff,catherine",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"warren,elyse",
@@ -37799,7 +37799,7 @@
       "vlahakos,giana",
       "seay,kearstyn",
       "griffith,audrey",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":153,
     "Poss":"rhodes",
@@ -37821,13 +37821,13 @@
     "homePlayer2":"vlahakos,giana",
     "homePlayer3":"seay,kearstyn",
     "homePlayer4":"griffith,audrey",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"franklin,haley",
     "awayPlayer5":"roe,helena",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -38494,7 +38494,7 @@
       "adams,emily",
       "franklin,haley",
       "roe,helena",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -38528,8 +38528,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
     "awayPlayer4":"roe,helena",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -38884,7 +38884,7 @@
       "adams,emily",
       "franklin,haley",
       "novak,whitney",
-      null
+      "roe,helena"
     ],
     "homeLineup":[
       "marsh,avery",
@@ -38918,8 +38918,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"roe,helena",
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -39671,7 +39671,7 @@
       "seay,kearstyn",
       "griffith,audrey",
       "althoff,catherine",
-      null
+      "vlahakos,giana"
     ],
     "timeSeconds":44,
     "Poss":"millsaps",
@@ -39693,13 +39693,13 @@
     "homePlayer2":"seay,kearstyn",
     "homePlayer3":"griffith,audrey",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"vlahakos,giana",
     "awayPlayer1":"warren,elyse",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",
@@ -40295,7 +40295,7 @@
       "griffith,audrey",
       "althoff,catherine",
       "lagarde,a'niya",
-      null
+      "seay,kearstyn"
     ],
     "timeSeconds":24,
     "Poss":"millsaps",
@@ -40317,13 +40317,13 @@
     "homePlayer2":"griffith,audrey",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"seay,kearstyn",
     "awayPlayer1":"warren,elyse",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"9177",

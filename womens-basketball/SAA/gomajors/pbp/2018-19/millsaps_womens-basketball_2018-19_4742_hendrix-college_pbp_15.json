@@ -2614,7 +2614,7 @@
       "wilson,anna",
       "mccrea,morgan",
       "manning,taelor",
-      null
+      "fortenberry,dia"
     ],
     "homeLineup":[
       "daniel,vinessa",
@@ -2648,8 +2648,8 @@
     "awayPlayer2":"wilson,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"manning,taelor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fortenberry,dia",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -2686,6 +2686,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"wilson,anna",
+    "pointsEarned":"",
+    "awayLineup":[
+      "butler,millicent",
+      "mccrea,morgan",
+      "manning,taelor",
+      "wilson,anna",
+      null
+    ],
+    "homeLineup":[
+      "daniel,vinessa",
+      "turner,amber",
+      "jenkins,kessie",
+      "anderson,maddie",
+      "pruitt,serena"
+    ],
+    "timeSeconds":374,
+    "Poss":"hendrix",
+    "possNum":12,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":16,
+    "teamChanged":0,
+    "game":"HendrixMillsaps01\/11\/19",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"daniel,vinessa",
+    "homePlayer2":"turner,amber",
+    "homePlayer3":"jenkins,kessie",
+    "homePlayer4":"anderson,maddie",
+    "homePlayer5":"pruitt,serena",
+    "awayPlayer1":"butler,millicent",
+    "awayPlayer2":"mccrea,morgan",
+    "awayPlayer3":"manning,taelor",
+    "awayPlayer4":"wilson,anna",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"4742",
+    "homeTeam":"Hendrix",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"60-46",
+    "homeScoreByPeriod":"3,8,13,22,46",
+    "awayScoreByPeriod":"9,21,19,11,60",
+    "homeRecord":"9-6",
+    "awayRecord":"13-2",
+    "homeConfRecord":"2-2",
+    "awayConfRecord":"4-0",
+    "gameDate":"01\/11\/19",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"143",
+    "isNeutral":"False",
+    "timeRemaining":"06:14",
+    "awayPlay":"SUB OUT by MANNING,TAELOR",
+    "awayTeamScore":"2",
+    "playTeamIndicator":"",
+    "homeTeamScore":"3 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MANNING,TAELOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"manning,taelor",
     "pointsEarned":"",
     "awayLineup":[
       "butler,millicent",
@@ -2751,24 +2829,24 @@
     "attendance":"143",
     "isNeutral":"False",
     "timeRemaining":"06:14",
-    "awayPlay":"SUB OUT by MANNING,TAELOR",
+    "awayPlay":"",
     "awayTeamScore":"2",
     "playTeamIndicator":"",
     "homeTeamScore":"3 ",
-    "homePlay":"",
+    "homePlay":"SUB OUT by PRUITT,SERENA",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by MANNING,TAELOR",
+    "Play":"SUB OUT by PRUITT,SERENA",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"manning,taelor",
+    "Team":"hendrix",
+    "Player":"pruitt,serena",
     "pointsEarned":"",
     "awayLineup":[
       "butler,millicent",
       "mccrea,morgan",
-      null,
+      "manning,taelor",
       null,
       null
     ],
@@ -2802,85 +2880,7 @@
     "homePlayer5":"pruitt,serena",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"4742",
-    "homeTeam":"Hendrix",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"60-46",
-    "homeScoreByPeriod":"3,8,13,22,46",
-    "awayScoreByPeriod":"9,21,19,11,60",
-    "homeRecord":"9-6",
-    "awayRecord":"13-2",
-    "homeConfRecord":"2-2",
-    "awayConfRecord":"4-0",
-    "gameDate":"01\/11\/19",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Conway, Ark. (Grove Gymnasium)",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"143",
-    "isNeutral":"False",
-    "timeRemaining":"06:14",
-    "awayPlay":"",
-    "awayTeamScore":"2",
-    "playTeamIndicator":"",
-    "homeTeamScore":"3 ",
-    "homePlay":"SUB OUT by PRUITT,SERENA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by PRUITT,SERENA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"pruitt,serena",
-    "pointsEarned":"",
-    "awayLineup":[
-      "butler,millicent",
-      "mccrea,morgan",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "daniel,vinessa",
-      "turner,amber",
-      "jenkins,kessie",
-      "anderson,maddie",
-      null
-    ],
-    "timeSeconds":374,
-    "Poss":"hendrix",
-    "possNum":12,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":16,
-    "teamChanged":0,
-    "game":"HendrixMillsaps01\/11\/19",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"daniel,vinessa",
-    "homePlayer2":"turner,amber",
-    "homePlayer3":"jenkins,kessie",
-    "homePlayer4":"anderson,maddie",
-    "homePlayer5":null,
-    "awayPlayer1":"butler,millicent",
-    "awayPlayer2":"mccrea,morgan",
-    "awayPlayer3":null,
+    "awayPlayer3":"manning,taelor",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -2924,7 +2924,7 @@
     "awayLineup":[
       "butler,millicent",
       "mccrea,morgan",
-      null,
+      "manning,taelor",
       null,
       null
     ],
@@ -2932,7 +2932,7 @@
       "daniel,vinessa",
       "turner,amber",
       "jenkins,kessie",
-      null,
+      "anderson,maddie",
       null
     ],
     "timeSeconds":374,
@@ -2954,11 +2954,11 @@
     "homePlayer1":"daniel,vinessa",
     "homePlayer2":"turner,amber",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,maddie",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
-    "awayPlayer3":null,
+    "awayPlayer3":"manning,taelor",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3003,14 +3003,14 @@
       "butler,millicent",
       "mccrea,morgan",
       "thigpen,anna",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "daniel,vinessa",
       "turner,amber",
       "jenkins,kessie",
-      null,
+      "anderson,maddie",
       null
     ],
     "timeSeconds":374,
@@ -3032,12 +3032,12 @@
     "homePlayer1":"daniel,vinessa",
     "homePlayer2":"turner,amber",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,maddie",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"thigpen,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3082,13 +3082,13 @@
       "mccrea,morgan",
       "thigpen,anna",
       "thomas,braxton",
-      null
+      "totals"
     ],
     "homeLineup":[
       "daniel,vinessa",
       "turner,amber",
       "jenkins,kessie",
-      null,
+      "anderson,maddie",
       null
     ],
     "timeSeconds":374,
@@ -3110,13 +3110,13 @@
     "homePlayer1":"daniel,vinessa",
     "homePlayer2":"turner,amber",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,maddie",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"thomas,braxton",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -3166,7 +3166,7 @@
       "daniel,vinessa",
       "turner,amber",
       "jenkins,kessie",
-      null,
+      "anderson,maddie",
       null
     ],
     "timeSeconds":374,
@@ -3188,7 +3188,7 @@
     "homePlayer1":"daniel,vinessa",
     "homePlayer2":"turner,amber",
     "homePlayer3":"jenkins,kessie",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,maddie",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -3245,7 +3245,7 @@
       "turner,amber",
       "jenkins,kessie",
       "moody,macy",
-      null
+      "totals"
     ],
     "timeSeconds":374,
     "Poss":"hendrix",
@@ -3267,13 +3267,13 @@
     "homePlayer2":"turner,amber",
     "homePlayer3":"jenkins,kessie",
     "homePlayer4":"moody,macy",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"thomas,braxton",
     "awayPlayer5":"harris,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -11045,7 +11045,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":382,
     "Poss":"hendrix",
@@ -11067,13 +11067,13 @@
     "homePlayer2":"turner,amber",
     "homePlayer3":"moody,macy",
     "homePlayer4":"king,jayla",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"thomas,braxton",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -11122,7 +11122,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":382,
@@ -11144,7 +11144,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11200,7 +11200,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":382,
@@ -11222,7 +11222,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11278,7 +11278,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":382,
@@ -11300,7 +11300,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11356,7 +11356,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":371,
@@ -11378,7 +11378,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11434,7 +11434,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":"",
@@ -11456,7 +11456,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11512,7 +11512,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":364,
@@ -11534,7 +11534,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11590,7 +11590,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":"",
@@ -11612,7 +11612,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11668,7 +11668,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":347,
@@ -11690,7 +11690,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11746,7 +11746,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":"",
@@ -11768,7 +11768,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11824,7 +11824,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":336,
@@ -11846,7 +11846,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11902,7 +11902,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":"",
@@ -11924,7 +11924,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -11980,7 +11980,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":325,
@@ -12002,7 +12002,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -12058,7 +12058,7 @@
       "turner,amber",
       "moody,macy",
       "king,jayla",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":316,
@@ -12080,7 +12080,7 @@
     "homePlayer1":"turner,amber",
     "homePlayer2":"moody,macy",
     "homePlayer3":"king,jayla",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
@@ -13073,7 +13073,7 @@
       "king,jayla",
       "daniel,vinessa",
       "anderson,maddie",
-      null
+      "moody,macy"
     ],
     "timeSeconds":251,
     "Poss":"millsaps",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"king,jayla",
     "homePlayer3":"daniel,vinessa",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":null,
+    "homePlayer5":"moody,macy",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"thomas,braxton",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -18292,7 +18292,7 @@
       "hawkins,beth",
       "butler,millicent",
       "wilson,anna",
-      null
+      "thomas,braxton"
     ],
     "homeLineup":[
       "turner,amber",
@@ -18326,8 +18326,8 @@
     "awayPlayer2":"hawkins,beth",
     "awayPlayer3":"butler,millicent",
     "awayPlayer4":"wilson,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,braxton",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -19781,7 +19781,7 @@
       "daniel,vinessa",
       "anderson,maddie",
       "vogel,sarah",
-      null
+      "turner,amber"
     ],
     "timeSeconds":354,
     "Poss":"millsaps",
@@ -19803,13 +19803,13 @@
     "homePlayer2":"daniel,vinessa",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"vogel,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"turner,amber",
     "awayPlayer1":"mccrea,morgan",
     "awayPlayer2":"hawkins,beth",
     "awayPlayer3":"butler,millicent",
     "awayPlayer4":"wilson,anna",
     "awayPlayer5":"harris,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -19859,7 +19859,7 @@
       "daniel,vinessa",
       "anderson,maddie",
       "vogel,sarah",
-      null
+      "turner,amber"
     ],
     "timeSeconds":354,
     "Poss":"millsaps",
@@ -19881,13 +19881,13 @@
     "homePlayer2":"daniel,vinessa",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"vogel,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"turner,amber",
     "awayPlayer1":"hawkins,beth",
     "awayPlayer2":"butler,millicent",
     "awayPlayer3":"wilson,anna",
     "awayPlayer4":"harris,rebecca",
     "awayPlayer5":"thomas,braxton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -22348,7 +22348,7 @@
       "butler,millicent",
       "wilson,anna",
       "harris,rebecca",
-      null
+      "mccrea,morgan"
     ],
     "homeLineup":[
       "king,jayla",
@@ -22382,8 +22382,8 @@
     "awayPlayer2":"butler,millicent",
     "awayPlayer3":"wilson,anna",
     "awayPlayer4":"harris,rebecca",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mccrea,morgan",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -22426,7 +22426,7 @@
       "butler,millicent",
       "wilson,anna",
       "harris,rebecca",
-      null
+      "mccrea,morgan"
     ],
     "homeLineup":[
       "king,jayla",
@@ -22460,8 +22460,8 @@
     "awayPlayer2":"butler,millicent",
     "awayPlayer3":"wilson,anna",
     "awayPlayer4":"harris,rebecca",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mccrea,morgan",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -22504,14 +22504,14 @@
       "butler,millicent",
       "wilson,anna",
       "harris,rebecca",
-      null
+      "mccrea,morgan"
     ],
     "homeLineup":[
       "king,jayla",
       "anderson,maddie",
       "vogel,sarah",
       "moody,macy",
-      null
+      "daniel,vinessa"
     ],
     "timeSeconds":131,
     "Poss":"hendrix",
@@ -22533,13 +22533,13 @@
     "homePlayer2":"anderson,maddie",
     "homePlayer3":"vogel,sarah",
     "homePlayer4":"moody,macy",
-    "homePlayer5":null,
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"hawkins,beth",
     "awayPlayer2":"butler,millicent",
     "awayPlayer3":"wilson,anna",
     "awayPlayer4":"harris,rebecca",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mccrea,morgan",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -22589,7 +22589,7 @@
       "anderson,maddie",
       "vogel,sarah",
       "moody,macy",
-      null
+      "daniel,vinessa"
     ],
     "timeSeconds":131,
     "Poss":"hendrix",
@@ -22611,13 +22611,13 @@
     "homePlayer2":"anderson,maddie",
     "homePlayer3":"vogel,sarah",
     "homePlayer4":"moody,macy",
-    "homePlayer5":null,
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"hawkins,beth",
     "awayPlayer2":"butler,millicent",
     "awayPlayer3":"wilson,anna",
     "awayPlayer4":"harris,rebecca",
     "awayPlayer5":"manning,taelor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -22667,7 +22667,7 @@
       "anderson,maddie",
       "vogel,sarah",
       "moody,macy",
-      null
+      "daniel,vinessa"
     ],
     "timeSeconds":131,
     "Poss":"hendrix",
@@ -22689,13 +22689,13 @@
     "homePlayer2":"anderson,maddie",
     "homePlayer3":"vogel,sarah",
     "homePlayer4":"moody,macy",
-    "homePlayer5":null,
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"wilson,anna",
     "awayPlayer3":"harris,rebecca",
     "awayPlayer4":"manning,taelor",
     "awayPlayer5":"moore,gabrielle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -23440,7 +23440,7 @@
       "harris,rebecca",
       "manning,taelor",
       "moore,gabrielle",
-      null
+      "thigpen,anna"
     ],
     "homeLineup":[
       "king,jayla",
@@ -23474,8 +23474,8 @@
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"manning,taelor",
     "awayPlayer4":"moore,gabrielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thigpen,anna",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -23517,7 +23517,7 @@
       "butler,millicent",
       "harris,rebecca",
       "moore,gabrielle",
-      null,
+      "manning,taelor",
       null
     ],
     "homeLineup":[
@@ -23551,7 +23551,7 @@
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"manning,taelor",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23596,7 +23596,7 @@
       "harris,rebecca",
       "moore,gabrielle",
       "thomas,braxton",
-      null
+      "thigpen,anna"
     ],
     "homeLineup":[
       "king,jayla",
@@ -23630,8 +23630,8 @@
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thomas,braxton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thigpen,anna",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -24298,7 +24298,7 @@
       "harris,rebecca",
       "moore,gabrielle",
       "thigpen,anna",
-      null
+      "thomas,braxton"
     ],
     "homeLineup":[
       "king,jayla",
@@ -24332,8 +24332,8 @@
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,braxton",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -24376,14 +24376,14 @@
       "harris,rebecca",
       "moore,gabrielle",
       "thigpen,anna",
-      null
+      "thomas,braxton"
     ],
     "homeLineup":[
       "king,jayla",
       "vogel,sarah",
       "moody,macy",
       "jenkins,kessie",
-      null
+      "anderson,maddie"
     ],
     "timeSeconds":76,
     "Poss":"millsaps",
@@ -24405,13 +24405,13 @@
     "homePlayer2":"vogel,sarah",
     "homePlayer3":"moody,macy",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,maddie",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,braxton",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -24461,7 +24461,7 @@
       "vogel,sarah",
       "moody,macy",
       "jenkins,kessie",
-      null
+      "anderson,maddie"
     ],
     "timeSeconds":76,
     "Poss":"millsaps",
@@ -24483,13 +24483,13 @@
     "homePlayer2":"vogel,sarah",
     "homePlayer3":"moody,macy",
     "homePlayer4":"jenkins,kessie",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,maddie",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"mccrea,morgan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -27340,7 +27340,7 @@
       "harris,rebecca",
       "moore,gabrielle",
       "thigpen,anna",
-      null
+      "mccrea,morgan"
     ],
     "homeLineup":[
       "king,jayla",
@@ -27374,8 +27374,8 @@
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mccrea,morgan",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -27815,7 +27815,7 @@
       "vogel,sarah",
       "moody,macy",
       "woppman,rachel",
-      null
+      "jenkins,kessie"
     ],
     "timeSeconds":368,
     "Poss":"millsaps",
@@ -27837,13 +27837,13 @@
     "homePlayer2":"vogel,sarah",
     "homePlayer3":"moody,macy",
     "homePlayer4":"woppman,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"jenkins,kessie",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"thomas,braxton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -27892,7 +27892,7 @@
       "king,jayla",
       "moody,macy",
       "woppman,rachel",
-      null,
+      "vogel,sarah",
       null
     ],
     "timeSeconds":368,
@@ -27914,7 +27914,7 @@
     "homePlayer1":"king,jayla",
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"vogel,sarah",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
@@ -27970,7 +27970,7 @@
       "king,jayla",
       "moody,macy",
       "woppman,rachel",
-      null,
+      "vogel,sarah",
       null
     ],
     "timeSeconds":368,
@@ -27992,7 +27992,7 @@
     "homePlayer1":"king,jayla",
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"vogel,sarah",
     "homePlayer5":null,
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
@@ -28049,7 +28049,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":368,
     "Poss":"millsaps",
@@ -28071,7 +28071,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28127,7 +28127,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":359,
     "Poss":"millsaps",
@@ -28149,7 +28149,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28205,7 +28205,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":358,
     "Poss":"hendrix",
@@ -28227,7 +28227,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28283,7 +28283,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":346,
     "Poss":"hendrix",
@@ -28305,7 +28305,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28361,7 +28361,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -28383,7 +28383,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28439,7 +28439,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":339,
     "Poss":"hendrix",
@@ -28461,7 +28461,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28517,7 +28517,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":322,
     "Poss":"hendrix",
@@ -28539,7 +28539,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28595,7 +28595,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"millsaps",
@@ -28617,7 +28617,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28673,7 +28673,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"millsaps",
@@ -28695,7 +28695,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28751,7 +28751,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"millsaps",
@@ -28773,7 +28773,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28829,7 +28829,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"millsaps",
@@ -28851,7 +28851,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28907,7 +28907,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -28929,7 +28929,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -28985,7 +28985,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"millsaps",
@@ -29007,7 +29007,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29063,7 +29063,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29085,7 +29085,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29141,7 +29141,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29163,7 +29163,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29219,7 +29219,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29241,7 +29241,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29297,7 +29297,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29319,7 +29319,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29375,7 +29375,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29397,7 +29397,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29453,7 +29453,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -29475,7 +29475,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29531,7 +29531,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29553,7 +29553,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29609,7 +29609,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29631,7 +29631,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
@@ -29680,14 +29680,14 @@
       "moore,gabrielle",
       "thigpen,anna",
       "thomas,braxton",
-      null
+      "butler,millicent"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29709,13 +29709,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"harris,rebecca",
     "awayPlayer2":"moore,gabrielle",
     "awayPlayer3":"thigpen,anna",
     "awayPlayer4":"thomas,braxton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"butler,millicent",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -29765,7 +29765,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29787,7 +29787,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"harris,rebecca",
     "awayPlayer2":"moore,gabrielle",
     "awayPlayer3":"thigpen,anna",
@@ -29843,7 +29843,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      "anderson,maddie(fastbreak)"
+      "daniel,vinessa"
     ],
     "timeSeconds":299,
     "Poss":"hendrix",
@@ -29865,7 +29865,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":"anderson,maddie(fastbreak)",
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"harris,rebecca",
     "awayPlayer2":"moore,gabrielle",
     "awayPlayer3":"thigpen,anna",
@@ -30622,7 +30622,7 @@
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
-      null,
+      "daniel,vinessa",
       null
     ],
     "timeSeconds":286,
@@ -30644,7 +30644,7 @@
     "homePlayer1":"king,jayla",
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
-    "homePlayer4":null,
+    "homePlayer4":"daniel,vinessa",
     "homePlayer5":null,
     "awayPlayer1":"harris,rebecca",
     "awayPlayer2":"moore,gabrielle",
@@ -32020,7 +32020,7 @@
       "thigpen,anna",
       "mccrea,morgan",
       "butler,millicent",
-      null
+      "thomas,braxton"
     ],
     "homeLineup":[
       "king,jayla",
@@ -32054,8 +32054,8 @@
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thomas,braxton",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -32098,13 +32098,13 @@
       "thigpen,anna",
       "mccrea,morgan",
       "butler,millicent",
-      null
+      "thomas,braxton"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
-      null,
+      "woppman,rachel",
       null
     ],
     "timeSeconds":205,
@@ -32126,13 +32126,13 @@
     "homePlayer1":"king,jayla",
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
-    "homePlayer4":null,
+    "homePlayer4":"woppman,rachel",
     "homePlayer5":null,
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
-    "awayPlayer5":null,
+    "awayPlayer5":"thomas,braxton",
     "playerMissing":1
   },
   {
@@ -32182,7 +32182,7 @@
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
-      null,
+      "woppman,rachel",
       null
     ],
     "timeSeconds":205,
@@ -32204,7 +32204,7 @@
     "homePlayer1":"king,jayla",
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
-    "homePlayer4":null,
+    "homePlayer4":"woppman,rachel",
     "homePlayer5":null,
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
@@ -32261,7 +32261,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      null
+      "totals"
     ],
     "timeSeconds":205,
     "Poss":"millsaps",
@@ -32283,13 +32283,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
     "awayPlayer5":"harris,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -32339,7 +32339,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      null
+      "totals"
     ],
     "timeSeconds":197,
     "Poss":"millsaps",
@@ -32361,13 +32361,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
     "awayPlayer5":"harris,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -32417,7 +32417,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      null
+      "totals"
     ],
     "timeSeconds":197,
     "Poss":"millsaps",
@@ -32439,13 +32439,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
     "awayPlayer5":"harris,rebecca",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -32495,7 +32495,7 @@
       "moody,macy",
       "woppman,rachel",
       "anderson,maddie",
-      null
+      "daniel,vinessa"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -32517,13 +32517,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"woppman,rachel",
     "homePlayer4":"anderson,maddie",
-    "homePlayer5":null,
+    "homePlayer5":"daniel,vinessa",
     "awayPlayer1":"butler,millicent",
     "awayPlayer2":"harris,rebecca",
     "awayPlayer3":"moore,gabrielle",
     "awayPlayer4":"thigpen,anna",
     "awayPlayer5":"thomas,braxton",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -32573,7 +32573,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":178,
     "Poss":"millsaps",
@@ -32595,7 +32595,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -32651,7 +32651,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -32673,7 +32673,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -32729,7 +32729,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":159,
     "Poss":"millsaps",
@@ -32751,7 +32751,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -32807,7 +32807,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":155,
     "Poss":"millsaps",
@@ -32829,7 +32829,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -32885,7 +32885,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -32907,7 +32907,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -32963,7 +32963,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":141,
     "Poss":"millsaps",
@@ -32985,7 +32985,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -33041,7 +33041,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":139,
     "Poss":"millsaps",
@@ -33063,7 +33063,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -33119,7 +33119,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":135,
     "Poss":"hendrix",
@@ -33141,7 +33141,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -33197,7 +33197,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":121,
     "Poss":"hendrix",
@@ -33219,7 +33219,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
@@ -33268,14 +33268,14 @@
       "thigpen,anna",
       "mccrea,morgan",
       "butler,millicent",
-      null
+      "harris,rebecca"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":113,
     "Poss":"hendrix",
@@ -33297,13 +33297,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"thigpen,anna",
     "awayPlayer3":"mccrea,morgan",
     "awayPlayer4":"butler,millicent",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"harris,rebecca",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -33345,7 +33345,7 @@
       "moore,gabrielle",
       "mccrea,morgan",
       "butler,millicent",
-      null,
+      "thigpen,anna",
       null
     ],
     "homeLineup":[
@@ -33353,7 +33353,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":113,
     "Poss":"hendrix",
@@ -33375,11 +33375,11 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
-    "awayPlayer4":null,
+    "awayPlayer4":"thigpen,anna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33424,14 +33424,14 @@
       "mccrea,morgan",
       "butler,millicent",
       "wilson,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":113,
     "Poss":"hendrix",
@@ -33453,13 +33453,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
     "awayPlayer4":"wilson,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -33509,7 +33509,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":113,
     "Poss":"hendrix",
@@ -33531,7 +33531,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33587,7 +33587,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":111,
     "Poss":"hendrix",
@@ -33609,7 +33609,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33665,7 +33665,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -33687,7 +33687,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33743,7 +33743,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":100,
     "Poss":"hendrix",
@@ -33765,7 +33765,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33821,7 +33821,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":87,
     "Poss":"hendrix",
@@ -33843,7 +33843,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33899,7 +33899,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -33921,7 +33921,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -33977,7 +33977,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":74,
     "Poss":"hendrix",
@@ -33999,7 +33999,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34055,7 +34055,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -34077,7 +34077,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34133,7 +34133,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":64,
     "Poss":"hendrix",
@@ -34155,7 +34155,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34211,7 +34211,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -34233,7 +34233,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34289,7 +34289,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":56,
     "Poss":"millsaps",
@@ -34311,7 +34311,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34367,7 +34367,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -34389,7 +34389,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34445,7 +34445,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":45,
     "Poss":"millsaps",
@@ -34467,7 +34467,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34523,7 +34523,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":32,
     "Poss":"millsaps",
@@ -34545,7 +34545,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34601,7 +34601,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -34623,7 +34623,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34679,7 +34679,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"hendrix",
@@ -34701,7 +34701,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34757,7 +34757,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"hendrix",
@@ -34779,7 +34779,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34835,7 +34835,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":"",
     "Poss":"hendrix",
@@ -34857,7 +34857,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
@@ -34906,14 +34906,14 @@
       "mccrea,morgan",
       "butler,millicent",
       "thomas,braxton",
-      null
+      "wilson,anna"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"millsaps",
@@ -34935,13 +34935,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
     "awayPlayer4":"thomas,braxton",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wilson,anna",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -34983,7 +34983,7 @@
       "moore,gabrielle",
       "mccrea,morgan",
       "butler,millicent",
-      null,
+      "thomas,braxton",
       null
     ],
     "homeLineup":[
@@ -34991,7 +34991,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"millsaps",
@@ -35013,11 +35013,11 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
-    "awayPlayer4":null,
+    "awayPlayer4":"thomas,braxton",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35062,14 +35062,14 @@
       "mccrea,morgan",
       "butler,millicent",
       "thigpen,anna",
-      null
+      "totals"
     ],
     "homeLineup":[
       "king,jayla",
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"millsaps",
@@ -35091,13 +35091,13 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",
     "awayPlayer4":"thigpen,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"4742",
@@ -35147,7 +35147,7 @@
       "moody,macy",
       "anderson,maddie",
       "daniel,vinessa",
-      "daniel,vinessa(fastbreak)"
+      "totals"
     ],
     "timeSeconds":26,
     "Poss":"millsaps",
@@ -35169,7 +35169,7 @@
     "homePlayer2":"moody,macy",
     "homePlayer3":"anderson,maddie",
     "homePlayer4":"daniel,vinessa",
-    "homePlayer5":"daniel,vinessa(fastbreak)",
+    "homePlayer5":"totals",
     "awayPlayer1":"moore,gabrielle",
     "awayPlayer2":"mccrea,morgan",
     "awayPlayer3":"butler,millicent",

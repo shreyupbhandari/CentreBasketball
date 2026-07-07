@@ -1912,7 +1912,7 @@
       "novak,whitney",
       "frank,taylor",
       "freeman,garin",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -1946,8 +1946,8 @@
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"freeman,garin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -1989,7 +1989,7 @@
       "franklin,haley",
       "frank,taylor",
       "freeman,garin",
-      null,
+      "novak,whitney",
       null
     ],
     "homeLineup":[
@@ -2023,7 +2023,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"frank,taylor",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"novak,whitney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2066,7 +2066,7 @@
     "awayLineup":[
       "franklin,haley",
       "freeman,garin",
-      null,
+      "frank,taylor",
       null,
       null
     ],
@@ -2100,7 +2100,7 @@
     "homePlayer5":"haas,bailey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
-    "awayPlayer3":null,
+    "awayPlayer3":"frank,taylor",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -2145,7 +2145,7 @@
       "franklin,haley",
       "freeman,garin",
       "keyes,lexus",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -2179,7 +2179,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2224,7 +2224,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -2258,8 +2258,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -4181,6 +4181,84 @@
       "jones,aaliyah",
       "alvarez,adryan",
       "triolet,madison",
+      "haas,bailey"
+    ],
+    "timeSeconds":270,
+    "Poss":"dallas",
+    "possNum":8,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":18,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"sullivan,alyssa",
+    "homePlayer2":"jones,aaliyah",
+    "homePlayer3":"alvarez,adryan",
+    "homePlayer4":"triolet,madison",
+    "homePlayer5":"haas,bailey",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"keyes,lexus",
+    "awayPlayer4":"warren,elyse",
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"04:30",
+    "awayPlay":"",
+    "awayTeamScore":"11 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"4",
+    "homePlay":"SUB OUT by TRIOLET,MADISON",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TRIOLET,MADISON",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"dallas",
+    "Player":"triolet,madison",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "keyes,lexus",
+      "warren,elyse",
+      "anderson,tia"
+    ],
+    "homeLineup":[
+      "sullivan,alyssa",
+      "jones,aaliyah",
+      "alvarez,adryan",
+      "triolet,madison",
       null
     ],
     "timeSeconds":270,
@@ -4237,84 +4315,6 @@
     "awayTeamScore":"11 ",
     "playTeamIndicator":"",
     "homeTeamScore":"4",
-    "homePlay":"SUB OUT by TRIOLET,MADISON",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TRIOLET,MADISON",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"dallas",
-    "Player":"triolet,madison",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      "keyes,lexus",
-      "warren,elyse",
-      "anderson,tia"
-    ],
-    "homeLineup":[
-      "sullivan,alyssa",
-      "jones,aaliyah",
-      "alvarez,adryan",
-      null,
-      null
-    ],
-    "timeSeconds":270,
-    "Poss":"dallas",
-    "possNum":8,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":18,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"sullivan,alyssa",
-    "homePlayer2":"jones,aaliyah",
-    "homePlayer3":"alvarez,adryan",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":"keyes,lexus",
-    "awayPlayer4":"warren,elyse",
-    "awayPlayer5":"anderson,tia",
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"04:30",
-    "awayPlay":"",
-    "awayTeamScore":"11 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"4",
     "homePlay":"SUB IN by CHEVALIER,ISABELLE",
     "gameScore":"",
     "teamIndicator":"",
@@ -4337,7 +4337,7 @@
       "jones,aaliyah",
       "alvarez,adryan",
       "chevalier,isabelle",
-      null
+      "medina,adriana"
     ],
     "timeSeconds":270,
     "Poss":"dallas",
@@ -4359,13 +4359,13 @@
     "homePlayer2":"jones,aaliyah",
     "homePlayer3":"alvarez,adryan",
     "homePlayer4":"chevalier,isabelle",
-    "homePlayer5":null,
+    "homePlayer5":"medina,adriana",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -5344,7 +5344,7 @@
       "keyes,lexus",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -5378,8 +5378,8 @@
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -7457,7 +7457,7 @@
       "alvarez,adryan",
       "chevalier,isabelle",
       "medina,adriana",
-      null
+      "jones,aaliyah"
     ],
     "timeSeconds":600,
     "Poss":"dallas",
@@ -7479,13 +7479,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"chevalier,isabelle",
     "homePlayer4":"medina,adriana",
-    "homePlayer5":null,
+    "homePlayer5":"jones,aaliyah",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -7606,6 +7606,84 @@
       "warren,elyse",
       "anderson,tia",
       "adams,emily",
+      "freeman,garin"
+    ],
+    "homeLineup":[
+      "sullivan,alyssa",
+      "alvarez,adryan",
+      "chevalier,isabelle",
+      "medina,adriana",
+      "arzate,lexi"
+    ],
+    "timeSeconds":600,
+    "Poss":"dallas",
+    "possNum":16,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":36,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"sullivan,alyssa",
+    "homePlayer2":"alvarez,adryan",
+    "homePlayer3":"chevalier,isabelle",
+    "homePlayer4":"medina,adriana",
+    "homePlayer5":"arzate,lexi",
+    "awayPlayer1":"keyes,lexus",
+    "awayPlayer2":"warren,elyse",
+    "awayPlayer3":"anderson,tia",
+    "awayPlayer4":"adams,emily",
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by ADAMS,EMILY",
+    "awayTeamScore":"22 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"12",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by ADAMS,EMILY",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"adams,emily",
+    "pointsEarned":"",
+    "awayLineup":[
+      "keyes,lexus",
+      "warren,elyse",
+      "anderson,tia",
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -7665,24 +7743,24 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by ADAMS,EMILY",
+    "awayPlay":"SUB OUT by WARREN,ELYSE",
     "awayTeamScore":"22 ",
     "playTeamIndicator":"",
     "homeTeamScore":"12",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by ADAMS,EMILY",
+    "Play":"SUB OUT by WARREN,ELYSE",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"adams,emily",
+    "Player":"warren,elyse",
     "pointsEarned":"",
     "awayLineup":[
       "keyes,lexus",
-      "warren,elyse",
       "anderson,tia",
+      "warren,elyse",
       null,
       null
     ],
@@ -7715,8 +7793,8 @@
     "homePlayer4":"medina,adriana",
     "homePlayer5":"arzate,lexi",
     "awayPlayer1":"keyes,lexus",
-    "awayPlayer2":"warren,elyse",
-    "awayPlayer3":"anderson,tia",
+    "awayPlayer2":"anderson,tia",
+    "awayPlayer3":"warren,elyse",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -7743,19 +7821,19 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by WARREN,ELYSE",
+    "awayPlay":"SUB OUT by ANDERSON,TIA",
     "awayTeamScore":"22 ",
     "playTeamIndicator":"",
     "homeTeamScore":"12",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by WARREN,ELYSE",
+    "Play":"SUB OUT by ANDERSON,TIA",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"warren,elyse",
+    "Player":"anderson,tia",
     "pointsEarned":"",
     "awayLineup":[
       "keyes,lexus",
@@ -7821,84 +7899,6 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by ANDERSON,TIA",
-    "awayTeamScore":"22 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"12",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ANDERSON,TIA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"anderson,tia",
-    "pointsEarned":"",
-    "awayLineup":[
-      "keyes,lexus",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "sullivan,alyssa",
-      "alvarez,adryan",
-      "chevalier,isabelle",
-      "medina,adriana",
-      "arzate,lexi"
-    ],
-    "timeSeconds":600,
-    "Poss":"dallas",
-    "possNum":16,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":36,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"sullivan,alyssa",
-    "homePlayer2":"alvarez,adryan",
-    "homePlayer3":"chevalier,isabelle",
-    "homePlayer4":"medina,adriana",
-    "homePlayer5":"arzate,lexi",
-    "awayPlayer1":"keyes,lexus",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by FRANKLIN,HALEY",
     "awayTeamScore":"22 ",
     "playTeamIndicator":"",
@@ -7916,7 +7916,7 @@
     "awayLineup":[
       "keyes,lexus",
       "franklin,haley",
-      null,
+      "freeman,garin",
       null,
       null
     ],
@@ -7950,7 +7950,7 @@
     "homePlayer5":"arzate,lexi",
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
-    "awayPlayer3":null,
+    "awayPlayer3":"freeman,garin",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -7995,7 +7995,7 @@
       "keyes,lexus",
       "franklin,haley",
       "maw,maddy",
-      null,
+      "freeman,garin",
       null
     ],
     "homeLineup":[
@@ -8029,7 +8029,7 @@
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
-    "awayPlayer4":null,
+    "awayPlayer4":"freeman,garin",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8074,7 +8074,7 @@
       "franklin,haley",
       "maw,maddy",
       "novak,whitney",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -8108,8 +8108,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -8705,7 +8705,7 @@
       "alvarez,adryan",
       "chevalier,isabelle",
       "arzate,lexi",
-      null
+      "medina,adriana"
     ],
     "timeSeconds":566,
     "Poss":"dallas",
@@ -8727,13 +8727,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"chevalier,isabelle",
     "homePlayer4":"arzate,lexi",
-    "homePlayer5":null,
+    "homePlayer5":"medina,adriana",
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -9953,7 +9953,7 @@
       "alvarez,adryan",
       "arzate,lexi",
       "triolet,madison",
-      null
+      "chevalier,isabelle"
     ],
     "timeSeconds":448,
     "Poss":"millsaps",
@@ -9975,13 +9975,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"arzate,lexi",
     "homePlayer4":"triolet,madison",
-    "homePlayer5":null,
+    "homePlayer5":"chevalier,isabelle",
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -10102,7 +10102,7 @@
       "maw,maddy",
       "novak,whitney",
       "frank,taylor",
-      null
+      "keyes,lexus"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -10136,8 +10136,8 @@
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -10882,7 +10882,7 @@
       "maw,maddy",
       "frank,taylor",
       "freeman,garin",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -10916,8 +10916,8 @@
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"freeman,garin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -10959,7 +10959,7 @@
       "franklin,haley",
       "maw,maddy",
       "freeman,garin",
-      null,
+      "frank,taylor",
       null
     ],
     "homeLineup":[
@@ -10993,7 +10993,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"frank,taylor",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11038,7 +11038,7 @@
       "maw,maddy",
       "freeman,garin",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -11072,8 +11072,8 @@
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -11669,7 +11669,7 @@
       "arzate,lexi",
       "triolet,madison",
       "haas,bailey",
-      null
+      "alvarez,adryan"
     ],
     "timeSeconds":399,
     "Poss":"millsaps",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"arzate,lexi",
     "homePlayer3":"triolet,madison",
     "homePlayer4":"haas,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"alvarez,adryan",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -11818,7 +11818,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "maw,maddy"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -11852,8 +11852,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"maw,maddy",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -13931,7 +13931,7 @@
       "arzate,lexi",
       "triolet,madison",
       "chevalier,isabelle",
-      null
+      "haas,bailey"
     ],
     "timeSeconds":263,
     "Poss":"millsaps",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"arzate,lexi",
     "homePlayer3":"triolet,madison",
     "homePlayer4":"chevalier,isabelle",
-    "homePlayer5":null,
+    "homePlayer5":"haas,bailey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -14080,7 +14080,7 @@
       "warren,elyse",
       "anderson,tia",
       "adams,emily",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -14114,8 +14114,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -14157,7 +14157,7 @@
       "freeman,garin",
       "warren,elyse",
       "adams,emily",
-      null,
+      "anderson,tia",
       null
     ],
     "homeLineup":[
@@ -14191,7 +14191,7 @@
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"adams,emily",
-    "awayPlayer4":null,
+    "awayPlayer4":"anderson,tia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14236,7 +14236,7 @@
       "warren,elyse",
       "adams,emily",
       "richardson,mya",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -14270,8 +14270,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"richardson,mya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -15094,7 +15094,7 @@
       "adams,emily",
       "richardson,mya",
       "novak,whitney",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "sullivan,alyssa",
@@ -15128,8 +15128,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"richardson,mya",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -15257,7 +15257,7 @@
       "triolet,madison",
       "chevalier,isabelle",
       "medina,adriana",
-      null
+      "arzate,lexi"
     ],
     "timeSeconds":243,
     "Poss":"millsaps",
@@ -15279,13 +15279,13 @@
     "homePlayer2":"triolet,madison",
     "homePlayer3":"chevalier,isabelle",
     "homePlayer4":"medina,adriana",
-    "homePlayer5":null,
+    "homePlayer5":"arzate,lexi",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"richardson,mya",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -15334,7 +15334,7 @@
       "sullivan,alyssa",
       "chevalier,isabelle",
       "medina,adriana",
-      null,
+      "triolet,madison",
       null
     ],
     "timeSeconds":243,
@@ -15356,7 +15356,7 @@
     "homePlayer1":"sullivan,alyssa",
     "homePlayer2":"chevalier,isabelle",
     "homePlayer3":"medina,adriana",
-    "homePlayer4":null,
+    "homePlayer4":"triolet,madison",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
@@ -15413,7 +15413,7 @@
       "chevalier,isabelle",
       "medina,adriana",
       "trousset,bella",
-      null
+      "jones,aaliyah"
     ],
     "timeSeconds":243,
     "Poss":"millsaps",
@@ -15435,13 +15435,13 @@
     "homePlayer2":"chevalier,isabelle",
     "homePlayer3":"medina,adriana",
     "homePlayer4":"trousset,bella",
-    "homePlayer5":null,
+    "homePlayer5":"jones,aaliyah",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"richardson,mya",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -17363,7 +17363,7 @@
       "medina,adriana",
       "trousset,bella",
       "jones,aaliyah",
-      null
+      "chevalier,isabelle"
     ],
     "timeSeconds":95,
     "Poss":"dallas",
@@ -17385,13 +17385,13 @@
     "homePlayer2":"medina,adriana",
     "homePlayer3":"trousset,bella",
     "homePlayer4":"jones,aaliyah",
-    "homePlayer5":null,
+    "homePlayer5":"chevalier,isabelle",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"richardson,mya",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -17440,7 +17440,7 @@
       "medina,adriana",
       "trousset,bella",
       "jones,aaliyah",
-      null,
+      "sullivan,alyssa",
       null
     ],
     "timeSeconds":95,
@@ -17462,7 +17462,7 @@
     "homePlayer1":"medina,adriana",
     "homePlayer2":"trousset,bella",
     "homePlayer3":"jones,aaliyah",
-    "homePlayer4":null,
+    "homePlayer4":"sullivan,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
@@ -17519,7 +17519,7 @@
       "trousset,bella",
       "jones,aaliyah",
       "triolet,madison",
-      null
+      "sullivan,alyssa"
     ],
     "timeSeconds":95,
     "Poss":"dallas",
@@ -17541,13 +17541,13 @@
     "homePlayer2":"trousset,bella",
     "homePlayer3":"jones,aaliyah",
     "homePlayer4":"triolet,madison",
-    "homePlayer5":null,
+    "homePlayer5":"sullivan,alyssa",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"richardson,mya",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -17668,7 +17668,7 @@
       "richardson,mya",
       "novak,whitney",
       "frank,taylor",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "medina,adriana",
@@ -17702,8 +17702,8 @@
     "awayPlayer2":"richardson,mya",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -17745,7 +17745,7 @@
       "richardson,mya",
       "novak,whitney",
       "frank,taylor",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -17779,7 +17779,7 @@
     "awayPlayer1":"richardson,mya",
     "awayPlayer2":"novak,whitney",
     "awayPlayer3":"frank,taylor",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17822,7 +17822,7 @@
     "awayLineup":[
       "novak,whitney",
       "frank,taylor",
-      null,
+      "richardson,mya",
       null,
       null
     ],
@@ -17856,7 +17856,7 @@
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"novak,whitney",
     "awayPlayer2":"frank,taylor",
-    "awayPlayer3":null,
+    "awayPlayer3":"richardson,mya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17899,7 +17899,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "frank,taylor",
-      null,
+      "novak,whitney",
       null,
       null,
       null
@@ -17933,7 +17933,7 @@
     "homePlayer4":"triolet,madison",
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"frank,taylor",
-    "awayPlayer2":null,
+    "awayPlayer2":"novak,whitney",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -18055,7 +18055,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "keyes,lexus",
-      null,
+      "freeman,garin",
       null,
       null,
       null
@@ -18089,7 +18089,7 @@
     "homePlayer4":"triolet,madison",
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"keyes,lexus",
-    "awayPlayer2":null,
+    "awayPlayer2":"freeman,garin",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -18134,7 +18134,7 @@
     "awayLineup":[
       "keyes,lexus",
       "franklin,haley",
-      null,
+      "freeman,garin",
       null,
       null
     ],
@@ -18168,7 +18168,7 @@
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
-    "awayPlayer3":null,
+    "awayPlayer3":"freeman,garin",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -18213,7 +18213,7 @@
       "keyes,lexus",
       "franklin,haley",
       "maw,maddy",
-      null,
+      "freeman,garin",
       null
     ],
     "homeLineup":[
@@ -18247,7 +18247,7 @@
     "awayPlayer1":"keyes,lexus",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
-    "awayPlayer4":null,
+    "awayPlayer4":"freeman,garin",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18292,7 +18292,7 @@
       "franklin,haley",
       "maw,maddy",
       "warren,elyse",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "medina,adriana",
@@ -18326,8 +18326,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -18760,7 +18760,7 @@
       "maw,maddy",
       "warren,elyse",
       "pflum,rachel",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "medina,adriana",
@@ -18794,8 +18794,8 @@
     "awayPlayer2":"maw,maddy",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"pflum,rachel",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -19384,7 +19384,7 @@
       "warren,elyse",
       "pflum,rachel",
       "richardson,mya",
-      null
+      "keyes,lexus"
     ],
     "homeLineup":[
       "medina,adriana",
@@ -19418,8 +19418,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"pflum,rachel",
     "awayPlayer4":"richardson,mya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -19456,6 +19456,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"maw,maddy",
+    "pointsEarned":"",
+    "awayLineup":[
+      "warren,elyse",
+      "pflum,rachel",
+      "richardson,mya",
+      "maw,maddy",
+      null
+    ],
+    "homeLineup":[
+      "medina,adriana",
+      "trousset,bella",
+      "jones,aaliyah",
+      "triolet,madison",
+      "casillas,airial"
+    ],
+    "timeSeconds":3,
+    "Poss":"dallas",
+    "possNum":32,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"dallas",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":75,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"medina,adriana",
+    "homePlayer2":"trousset,bella",
+    "homePlayer3":"jones,aaliyah",
+    "homePlayer4":"triolet,madison",
+    "homePlayer5":"casillas,airial",
+    "awayPlayer1":"warren,elyse",
+    "awayPlayer2":"pflum,rachel",
+    "awayPlayer3":"richardson,mya",
+    "awayPlayer4":"maw,maddy",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"00:03",
+    "awayPlay":"SUB OUT by RICHARDSON,MYA",
+    "awayTeamScore":"49 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"20",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by RICHARDSON,MYA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"richardson,mya",
     "pointsEarned":"",
     "awayLineup":[
       "warren,elyse",
@@ -19521,84 +19599,6 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"00:03",
-    "awayPlay":"SUB OUT by RICHARDSON,MYA",
-    "awayTeamScore":"49 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"20",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by RICHARDSON,MYA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"richardson,mya",
-    "pointsEarned":"",
-    "awayLineup":[
-      "warren,elyse",
-      "pflum,rachel",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "medina,adriana",
-      "trousset,bella",
-      "jones,aaliyah",
-      "triolet,madison",
-      "casillas,airial"
-    ],
-    "timeSeconds":3,
-    "Poss":"dallas",
-    "possNum":32,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"dallas",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":75,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"medina,adriana",
-    "homePlayer2":"trousset,bella",
-    "homePlayer3":"jones,aaliyah",
-    "homePlayer4":"triolet,madison",
-    "homePlayer5":"casillas,airial",
-    "awayPlayer1":"warren,elyse",
-    "awayPlayer2":"pflum,rachel",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"00:03",
     "awayPlay":"SUB OUT by WARREN,ELYSE",
     "awayTeamScore":"49 ",
     "playTeamIndicator":"",
@@ -19615,7 +19615,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "pflum,rachel",
-      null,
+      "warren,elyse",
       null,
       null,
       null
@@ -19649,7 +19649,7 @@
     "homePlayer4":"triolet,madison",
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"pflum,rachel",
-    "awayPlayer2":null,
+    "awayPlayer2":"warren,elyse",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -19771,7 +19771,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "freeman,garin",
-      null,
+      "franklin,haley",
       null,
       null,
       null
@@ -19805,7 +19805,7 @@
     "homePlayer4":"triolet,madison",
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"freeman,garin",
-    "awayPlayer2":null,
+    "awayPlayer2":"franklin,haley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -19850,7 +19850,7 @@
     "awayLineup":[
       "freeman,garin",
       "franklin,haley",
-      null,
+      "adams,emily",
       null,
       null
     ],
@@ -19884,7 +19884,7 @@
     "homePlayer5":"casillas,airial",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
-    "awayPlayer3":null,
+    "awayPlayer3":"adams,emily",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -19929,7 +19929,7 @@
       "freeman,garin",
       "franklin,haley",
       "adams,emily",
-      null,
+      "novak,whitney",
       null
     ],
     "homeLineup":[
@@ -19963,7 +19963,7 @@
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"adams,emily",
-    "awayPlayer4":null,
+    "awayPlayer4":"novak,whitney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20008,7 +20008,7 @@
       "franklin,haley",
       "adams,emily",
       "novak,whitney",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "medina,adriana",
@@ -20042,8 +20042,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -20561,7 +20561,7 @@
       "jones,aaliyah",
       "triolet,madison",
       "casillas,airial",
-      null
+      "trousset,bella"
     ],
     "timeSeconds":600,
     "Poss":"dallas",
@@ -20583,13 +20583,13 @@
     "homePlayer2":"jones,aaliyah",
     "homePlayer3":"triolet,madison",
     "homePlayer4":"casillas,airial",
-    "homePlayer5":null,
+    "homePlayer5":"trousset,bella",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -20626,6 +20626,84 @@
     "shotOutcome":"",
     "Team":"dallas",
     "Player":"medina,adriana",
+    "pointsEarned":"",
+    "awayLineup":[
+      "freeman,garin",
+      "franklin,haley",
+      "adams,emily",
+      "novak,whitney",
+      "frank,taylor"
+    ],
+    "homeLineup":[
+      "jones,aaliyah",
+      "triolet,madison",
+      "casillas,airial",
+      "medina,adriana",
+      null
+    ],
+    "timeSeconds":600,
+    "Poss":"dallas",
+    "possNum":32,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"dallas",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":77,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jones,aaliyah",
+    "homePlayer2":"triolet,madison",
+    "homePlayer3":"casillas,airial",
+    "homePlayer4":"medina,adriana",
+    "homePlayer5":null,
+    "awayPlayer1":"freeman,garin",
+    "awayPlayer2":"franklin,haley",
+    "awayPlayer3":"adams,emily",
+    "awayPlayer4":"novak,whitney",
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":1
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"",
+    "awayTeamScore":"51 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"21",
+    "homePlay":"SUB OUT by CASILLAS,AIRIAL",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CASILLAS,AIRIAL",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"dallas",
+    "Player":"casillas,airial",
     "pointsEarned":"",
     "awayLineup":[
       "freeman,garin",
@@ -20695,84 +20773,6 @@
     "awayTeamScore":"51 ",
     "playTeamIndicator":"",
     "homeTeamScore":"21",
-    "homePlay":"SUB OUT by CASILLAS,AIRIAL",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CASILLAS,AIRIAL",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"dallas",
-    "Player":"casillas,airial",
-    "pointsEarned":"",
-    "awayLineup":[
-      "freeman,garin",
-      "franklin,haley",
-      "adams,emily",
-      "novak,whitney",
-      "frank,taylor"
-    ],
-    "homeLineup":[
-      "jones,aaliyah",
-      "triolet,madison",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":600,
-    "Poss":"dallas",
-    "possNum":32,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"dallas",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":77,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jones,aaliyah",
-    "homePlayer2":"triolet,madison",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"freeman,garin",
-    "awayPlayer2":"franklin,haley",
-    "awayPlayer3":"adams,emily",
-    "awayPlayer4":"novak,whitney",
-    "awayPlayer5":"frank,taylor",
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
-    "awayPlay":"",
-    "awayTeamScore":"51 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"21",
     "homePlay":"SUB IN by ALVAREZ,ADRYAN",
     "gameScore":"",
     "teamIndicator":"",
@@ -20794,7 +20794,7 @@
       "jones,aaliyah",
       "triolet,madison",
       "alvarez,adryan",
-      null,
+      "sullivan,alyssa",
       null
     ],
     "timeSeconds":600,
@@ -20816,7 +20816,7 @@
     "homePlayer1":"jones,aaliyah",
     "homePlayer2":"triolet,madison",
     "homePlayer3":"alvarez,adryan",
-    "homePlayer4":null,
+    "homePlayer4":"sullivan,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
@@ -20873,7 +20873,7 @@
       "triolet,madison",
       "alvarez,adryan",
       "haas,bailey",
-      null
+      "sullivan,alyssa"
     ],
     "timeSeconds":600,
     "Poss":"dallas",
@@ -20895,13 +20895,13 @@
     "homePlayer2":"triolet,madison",
     "homePlayer3":"alvarez,adryan",
     "homePlayer4":"haas,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"sullivan,alyssa",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -23369,7 +23369,7 @@
       "alvarez,adryan",
       "haas,bailey",
       "sullivan,alyssa",
-      null
+      "triolet,madison"
     ],
     "timeSeconds":414,
     "Poss":"dallas",
@@ -23391,13 +23391,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"haas,bailey",
     "homePlayer4":"sullivan,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"triolet,madison",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -23518,7 +23518,7 @@
       "franklin,haley",
       "novak,whitney",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "jones,aaliyah",
@@ -23552,8 +23552,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -23590,6 +23590,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "freeman,garin",
+      "franklin,haley",
+      "frank,taylor",
+      "novak,whitney",
+      null
+    ],
+    "homeLineup":[
+      "jones,aaliyah",
+      "alvarez,adryan",
+      "haas,bailey",
+      "sullivan,alyssa",
+      "medina,adriana"
+    ],
+    "timeSeconds":414,
+    "Poss":"dallas",
+    "possNum":38,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":88,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jones,aaliyah",
+    "homePlayer2":"alvarez,adryan",
+    "homePlayer3":"haas,bailey",
+    "homePlayer4":"sullivan,alyssa",
+    "homePlayer5":"medina,adriana",
+    "awayPlayer1":"freeman,garin",
+    "awayPlayer2":"franklin,haley",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"novak,whitney",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"06:54",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"55 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"26",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "freeman,garin",
@@ -23655,84 +23733,6 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"06:54",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"55 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"26",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "freeman,garin",
-      "franklin,haley",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "jones,aaliyah",
-      "alvarez,adryan",
-      "haas,bailey",
-      "sullivan,alyssa",
-      "medina,adriana"
-    ],
-    "timeSeconds":414,
-    "Poss":"dallas",
-    "possNum":38,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":88,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jones,aaliyah",
-    "homePlayer2":"alvarez,adryan",
-    "homePlayer3":"haas,bailey",
-    "homePlayer4":"sullivan,alyssa",
-    "homePlayer5":"medina,adriana",
-    "awayPlayer1":"freeman,garin",
-    "awayPlayer2":"franklin,haley",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"06:54",
     "awayPlay":"SUB IN by KEYES,LEXUS",
     "awayTeamScore":"55 ",
     "playTeamIndicator":"",
@@ -23751,7 +23751,7 @@
       "freeman,garin",
       "franklin,haley",
       "keyes,lexus",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -23785,7 +23785,7 @@
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"keyes,lexus",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23830,7 +23830,7 @@
       "franklin,haley",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "jones,aaliyah",
@@ -23864,8 +23864,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -24929,7 +24929,7 @@
       "alvarez,adryan",
       "sullivan,alyssa",
       "medina,adriana",
-      null
+      "haas,bailey"
     ],
     "timeSeconds":345,
     "Poss":"millsaps",
@@ -24951,13 +24951,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"sullivan,alyssa",
     "homePlayer4":"medina,adriana",
-    "homePlayer5":null,
+    "homePlayer5":"haas,bailey",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -26716,7 +26716,7 @@
       "keyes,lexus",
       "warren,elyse",
       "anderson,tia",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "jones,aaliyah",
@@ -26750,8 +26750,8 @@
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -28751,7 +28751,7 @@
       "alvarez,adryan",
       "sullivan,alyssa",
       "medina,adriana",
-      null
+      "trousset,bella"
     ],
     "timeSeconds":87,
     "Poss":"millsaps",
@@ -28773,13 +28773,13 @@
     "homePlayer2":"alvarez,adryan",
     "homePlayer3":"sullivan,alyssa",
     "homePlayer4":"medina,adriana",
-    "homePlayer5":null,
+    "homePlayer5":"trousset,bella",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"maw,maddy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -28828,7 +28828,7 @@
       "alvarez,adryan",
       "sullivan,alyssa",
       "medina,adriana",
-      null,
+      "jones,aaliyah",
       null
     ],
     "timeSeconds":87,
@@ -28850,7 +28850,7 @@
     "homePlayer1":"alvarez,adryan",
     "homePlayer2":"sullivan,alyssa",
     "homePlayer3":"medina,adriana",
-    "homePlayer4":null,
+    "homePlayer4":"jones,aaliyah",
     "homePlayer5":null,
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"keyes,lexus",
@@ -28907,7 +28907,7 @@
       "sullivan,alyssa",
       "medina,adriana",
       "arzate,lexi",
-      null
+      "jones,aaliyah"
     ],
     "timeSeconds":87,
     "Poss":"millsaps",
@@ -28929,13 +28929,13 @@
     "homePlayer2":"sullivan,alyssa",
     "homePlayer3":"medina,adriana",
     "homePlayer4":"arzate,lexi",
-    "homePlayer5":null,
+    "homePlayer5":"jones,aaliyah",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"maw,maddy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -29056,6 +29056,84 @@
       "warren,elyse",
       "anderson,tia",
       "maw,maddy",
+      "keyes,lexus"
+    ],
+    "homeLineup":[
+      "alvarez,adryan",
+      "sullivan,alyssa",
+      "medina,adriana",
+      "arzate,lexi",
+      "chevalier,isabelle"
+    ],
+    "timeSeconds":87,
+    "Poss":"millsaps",
+    "possNum":49,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":110,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"alvarez,adryan",
+    "homePlayer2":"sullivan,alyssa",
+    "homePlayer3":"medina,adriana",
+    "homePlayer4":"arzate,lexi",
+    "homePlayer5":"chevalier,isabelle",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"warren,elyse",
+    "awayPlayer3":"anderson,tia",
+    "awayPlayer4":"maw,maddy",
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"01:27",
+    "awayPlay":"SUB OUT by MAW,MADDY",
+    "awayTeamScore":"63 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"34",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MAW,MADDY",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"maw,maddy",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "warren,elyse",
+      "anderson,tia",
+      "maw,maddy",
       null
     ],
     "homeLineup":[
@@ -29115,24 +29193,24 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"01:27",
-    "awayPlay":"SUB OUT by MAW,MADDY",
+    "awayPlay":"SUB OUT by WARREN,ELYSE",
     "awayTeamScore":"63 ",
     "playTeamIndicator":"",
     "homeTeamScore":"34",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by MAW,MADDY",
+    "Play":"SUB OUT by WARREN,ELYSE",
     "Period":"3",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"maw,maddy",
+    "Player":"warren,elyse",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
-      "warren,elyse",
       "anderson,tia",
+      "warren,elyse",
       null,
       null
     ],
@@ -29165,8 +29243,8 @@
     "homePlayer4":"arzate,lexi",
     "homePlayer5":"chevalier,isabelle",
     "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"warren,elyse",
-    "awayPlayer3":"anderson,tia",
+    "awayPlayer2":"anderson,tia",
+    "awayPlayer3":"warren,elyse",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -29193,19 +29271,19 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"01:27",
-    "awayPlay":"SUB OUT by WARREN,ELYSE",
+    "awayPlay":"SUB OUT by ANDERSON,TIA",
     "awayTeamScore":"63 ",
     "playTeamIndicator":"",
     "homeTeamScore":"34",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by WARREN,ELYSE",
+    "Play":"SUB OUT by ANDERSON,TIA",
     "Period":"3",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"warren,elyse",
+    "Player":"anderson,tia",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -29271,84 +29349,6 @@
     "attendance":"25",
     "isNeutral":"False",
     "timeRemaining":"01:27",
-    "awayPlay":"SUB OUT by ANDERSON,TIA",
-    "awayTeamScore":"63 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"34",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ANDERSON,TIA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"anderson,tia",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "alvarez,adryan",
-      "sullivan,alyssa",
-      "medina,adriana",
-      "arzate,lexi",
-      "chevalier,isabelle"
-    ],
-    "timeSeconds":87,
-    "Poss":"millsaps",
-    "possNum":49,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":110,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"alvarez,adryan",
-    "homePlayer2":"sullivan,alyssa",
-    "homePlayer3":"medina,adriana",
-    "homePlayer4":"arzate,lexi",
-    "homePlayer5":"chevalier,isabelle",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"01:27",
     "awayPlay":"SUB IN by ADAMS,EMILY",
     "awayTeamScore":"63 ",
     "playTeamIndicator":"",
@@ -29366,7 +29366,7 @@
     "awayLineup":[
       "franklin,haley",
       "adams,emily",
-      null,
+      "freeman,garin",
       null,
       null
     ],
@@ -29400,7 +29400,7 @@
     "homePlayer5":"chevalier,isabelle",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"adams,emily",
-    "awayPlayer3":null,
+    "awayPlayer3":"freeman,garin",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -29445,7 +29445,7 @@
       "franklin,haley",
       "adams,emily",
       "johnson,bailey",
-      null,
+      "freeman,garin",
       null
     ],
     "homeLineup":[
@@ -29479,7 +29479,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"johnson,bailey",
-    "awayPlayer4":null,
+    "awayPlayer4":"freeman,garin",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29524,7 +29524,7 @@
       "adams,emily",
       "johnson,bailey",
       "novak,whitney",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -29558,8 +29558,8 @@
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"johnson,bailey",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -29914,7 +29914,7 @@
       "johnson,bailey",
       "novak,whitney",
       "frank,taylor",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -29948,8 +29948,8 @@
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -30779,7 +30779,7 @@
       "sullivan,alyssa",
       "medina,adriana",
       "arzate,lexi",
-      null
+      "chevalier,isabelle"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -30801,13 +30801,13 @@
     "homePlayer2":"sullivan,alyssa",
     "homePlayer3":"medina,adriana",
     "homePlayer4":"arzate,lexi",
-    "homePlayer5":null,
+    "homePlayer5":"chevalier,isabelle",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -30856,7 +30856,7 @@
       "alvarez,adryan",
       "medina,adriana",
       "arzate,lexi",
-      null,
+      "sullivan,alyssa",
       null
     ],
     "timeSeconds":600,
@@ -30878,7 +30878,7 @@
     "homePlayer1":"alvarez,adryan",
     "homePlayer2":"medina,adriana",
     "homePlayer3":"arzate,lexi",
-    "homePlayer4":null,
+    "homePlayer4":"sullivan,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"johnson,bailey",
@@ -30935,7 +30935,7 @@
       "medina,adriana",
       "arzate,lexi",
       "jones,aaliyah",
-      null
+      "sullivan,alyssa"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -30957,13 +30957,13 @@
     "homePlayer2":"medina,adriana",
     "homePlayer3":"arzate,lexi",
     "homePlayer4":"jones,aaliyah",
-    "homePlayer5":null,
+    "homePlayer5":"sullivan,alyssa",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -32573,7 +32573,7 @@
       "medina,adriana",
       "jones,aaliyah",
       "triolet,madison",
-      null
+      "arzate,lexi"
     ],
     "timeSeconds":453,
     "Poss":"millsaps",
@@ -32595,13 +32595,13 @@
     "homePlayer2":"medina,adriana",
     "homePlayer3":"jones,aaliyah",
     "homePlayer4":"triolet,madison",
-    "homePlayer5":null,
+    "homePlayer5":"arzate,lexi",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -32722,7 +32722,7 @@
       "johnson,bailey",
       "frank,taylor",
       "freeman,garin",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -32756,8 +32756,8 @@
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"freeman,garin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -32799,7 +32799,7 @@
       "adams,emily",
       "johnson,bailey",
       "freeman,garin",
-      null,
+      "frank,taylor",
       null
     ],
     "homeLineup":[
@@ -32833,7 +32833,7 @@
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"frank,taylor",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32878,7 +32878,7 @@
       "johnson,bailey",
       "freeman,garin",
       "northam,molly",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -32912,8 +32912,8 @@
     "awayPlayer2":"johnson,bailey",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"northam,molly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -34906,7 +34906,7 @@
       "freeman,garin",
       "northam,molly",
       "lewis,anaya",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -34940,8 +34940,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"northam,molly",
     "awayPlayer4":"lewis,anaya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -35374,7 +35374,7 @@
       "northam,molly",
       "lewis,anaya",
       "hafley,ashlyn",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -35408,8 +35408,8 @@
     "awayPlayer2":"northam,molly",
     "awayPlayer3":"lewis,anaya",
     "awayPlayer4":"hafley,ashlyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -35693,7 +35693,7 @@
       "medina,adriana",
       "jones,aaliyah",
       "sullivan,alyssa",
-      null
+      "triolet,madison"
     ],
     "timeSeconds":295,
     "Poss":"dallas",
@@ -35715,13 +35715,13 @@
     "homePlayer2":"medina,adriana",
     "homePlayer3":"jones,aaliyah",
     "homePlayer4":"sullivan,alyssa",
-    "homePlayer5":null,
+    "homePlayer5":"triolet,madison",
     "awayPlayer1":"johnson,bailey",
     "awayPlayer2":"northam,molly",
     "awayPlayer3":"lewis,anaya",
     "awayPlayer4":"hafley,ashlyn",
     "awayPlayer5":"berry,naomi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -35927,7 +35927,7 @@
       "jones,aaliyah",
       "sullivan,alyssa",
       "haas,bailey",
-      null
+      "medina,adriana"
     ],
     "timeSeconds":292,
     "Poss":"dallas",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"jones,aaliyah",
     "homePlayer3":"sullivan,alyssa",
     "homePlayer4":"haas,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"medina,adriana",
     "awayPlayer1":"johnson,bailey",
     "awayPlayer2":"northam,molly",
     "awayPlayer3":"lewis,anaya",
     "awayPlayer4":"hafley,ashlyn",
     "awayPlayer5":"berry,naomi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -37246,7 +37246,7 @@
       "lewis,anaya",
       "hafley,ashlyn",
       "berry,naomi",
-      null
+      "johnson,bailey"
     ],
     "homeLineup":[
       "alvarez,adryan",
@@ -37280,8 +37280,8 @@
     "awayPlayer2":"lewis,anaya",
     "awayPlayer3":"hafley,ashlyn",
     "awayPlayer4":"berry,naomi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"johnson,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"7292",
@@ -37955,6 +37955,84 @@
       "sullivan,alyssa",
       "haas,bailey",
       "trousset,bella",
+      "alvarez,adryan"
+    ],
+    "timeSeconds":129,
+    "Poss":"millsaps",
+    "possNum":59,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"dallas",
+    "possStart":0.0,
+    "possPoints":1,
+    "possSequence":141,
+    "teamChanged":0,
+    "game":"DallasMillsaps12\/11\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"jones,aaliyah",
+    "homePlayer2":"sullivan,alyssa",
+    "homePlayer3":"haas,bailey",
+    "homePlayer4":"trousset,bella",
+    "homePlayer5":"alvarez,adryan",
+    "awayPlayer1":"northam,molly",
+    "awayPlayer2":"lewis,anaya",
+    "awayPlayer3":"hafley,ashlyn",
+    "awayPlayer4":"berry,naomi",
+    "awayPlayer5":"leach,dove",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7292",
+    "homeTeam":"Dallas",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"82-57",
+    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
+    "homeRecord":"0-7",
+    "awayRecord":"8-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/11\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Maher Athletic Center, Irving, TX",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"25",
+    "isNeutral":"False",
+    "timeRemaining":"02:09",
+    "awayPlay":"",
+    "awayTeamScore":"80 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"54",
+    "homePlay":"SUB OUT by TROUSSET,BELLA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TROUSSET,BELLA",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"dallas",
+    "Player":"trousset,bella",
+    "pointsEarned":"",
+    "awayLineup":[
+      "northam,molly",
+      "lewis,anaya",
+      "hafley,ashlyn",
+      "berry,naomi",
+      "leach,dove"
+    ],
+    "homeLineup":[
+      "jones,aaliyah",
+      "sullivan,alyssa",
+      "haas,bailey",
+      "trousset,bella",
       null
     ],
     "timeSeconds":129,
@@ -38011,15 +38089,15 @@
     "awayTeamScore":"80 ",
     "playTeamIndicator":"",
     "homeTeamScore":"54",
-    "homePlay":"SUB OUT by TROUSSET,BELLA",
+    "homePlay":"SUB OUT by HAAS,BAILEY",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by TROUSSET,BELLA",
+    "Play":"SUB OUT by HAAS,BAILEY",
     "Period":"4",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"dallas",
-    "Player":"trousset,bella",
+    "Player":"haas,bailey",
     "pointsEarned":"",
     "awayLineup":[
       "northam,molly",
@@ -38089,84 +38167,6 @@
     "awayTeamScore":"80 ",
     "playTeamIndicator":"",
     "homeTeamScore":"54",
-    "homePlay":"SUB OUT by HAAS,BAILEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HAAS,BAILEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"dallas",
-    "Player":"haas,bailey",
-    "pointsEarned":"",
-    "awayLineup":[
-      "northam,molly",
-      "lewis,anaya",
-      "hafley,ashlyn",
-      "berry,naomi",
-      "leach,dove"
-    ],
-    "homeLineup":[
-      "jones,aaliyah",
-      "sullivan,alyssa",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":129,
-    "Poss":"millsaps",
-    "possNum":59,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"dallas",
-    "possStart":0.0,
-    "possPoints":1,
-    "possSequence":141,
-    "teamChanged":0,
-    "game":"DallasMillsaps12\/11\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"jones,aaliyah",
-    "homePlayer2":"sullivan,alyssa",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"northam,molly",
-    "awayPlayer2":"lewis,anaya",
-    "awayPlayer3":"hafley,ashlyn",
-    "awayPlayer4":"berry,naomi",
-    "awayPlayer5":"leach,dove",
-    "playerMissing":1
-  },
-  {
-    "gameID":"7292",
-    "homeTeam":"Dallas",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"82-57",
-    "homeScoreByPeriod":"\nUD\nDallas\n,12,9,13,23,57",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,22,29,13,18,82",
-    "homeRecord":"0-7",
-    "awayRecord":"8-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/11\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Maher Athletic Center, Irving, TX",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"25",
-    "isNeutral":"False",
-    "timeRemaining":"02:09",
-    "awayPlay":"",
-    "awayTeamScore":"80 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"54",
     "homePlay":"SUB OUT by JONES,AALIYAH",
     "gameScore":"",
     "teamIndicator":"",
@@ -38186,7 +38186,7 @@
     ],
     "homeLineup":[
       "sullivan,alyssa",
-      null,
+      "jones,aaliyah",
       null,
       null,
       null
@@ -38208,7 +38208,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"sullivan,alyssa",
-    "homePlayer2":null,
+    "homePlayer2":"jones,aaliyah",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -38342,7 +38342,7 @@
     ],
     "homeLineup":[
       "arzate,lexi",
-      null,
+      "sullivan,alyssa",
       null,
       null,
       null
@@ -38364,7 +38364,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"arzate,lexi",
-    "homePlayer2":null,
+    "homePlayer2":"sullivan,alyssa",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -38421,7 +38421,7 @@
     "homeLineup":[
       "arzate,lexi",
       "triolet,madison",
-      null,
+      "sullivan,alyssa",
       null,
       null
     ],
@@ -38443,7 +38443,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"arzate,lexi",
     "homePlayer2":"triolet,madison",
-    "homePlayer3":null,
+    "homePlayer3":"sullivan,alyssa",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"northam,molly",
@@ -38500,7 +38500,7 @@
       "arzate,lexi",
       "triolet,madison",
       "chevalier,isabelle",
-      null,
+      "sullivan,alyssa",
       null
     ],
     "timeSeconds":129,
@@ -38522,7 +38522,7 @@
     "homePlayer1":"arzate,lexi",
     "homePlayer2":"triolet,madison",
     "homePlayer3":"chevalier,isabelle",
-    "homePlayer4":null,
+    "homePlayer4":"sullivan,alyssa",
     "homePlayer5":null,
     "awayPlayer1":"northam,molly",
     "awayPlayer2":"lewis,anaya",
@@ -38579,7 +38579,7 @@
       "triolet,madison",
       "chevalier,isabelle",
       "medina,adriana",
-      null
+      "sullivan,alyssa"
     ],
     "timeSeconds":129,
     "Poss":"millsaps",
@@ -38601,13 +38601,13 @@
     "homePlayer2":"triolet,madison",
     "homePlayer3":"chevalier,isabelle",
     "homePlayer4":"medina,adriana",
-    "homePlayer5":null,
+    "homePlayer5":"sullivan,alyssa",
     "awayPlayer1":"northam,molly",
     "awayPlayer2":"lewis,anaya",
     "awayPlayer3":"hafley,ashlyn",
     "awayPlayer4":"berry,naomi",
     "awayPlayer5":"leach,dove",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7292",

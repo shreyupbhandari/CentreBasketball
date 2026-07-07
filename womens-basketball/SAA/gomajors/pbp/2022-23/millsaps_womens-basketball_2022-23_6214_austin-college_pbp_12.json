@@ -1685,7 +1685,7 @@
       "caldwell,devan",
       "frank,taylor",
       "roe,helena",
-      null
+      "sims,emily"
     ],
     "timeSeconds":443,
     "Poss":"austin",
@@ -1707,13 +1707,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -1762,7 +1762,7 @@
       "franklin,haley",
       "caldwell,devan",
       "frank,taylor",
-      null,
+      "roe,helena",
       null
     ],
     "timeSeconds":443,
@@ -1784,7 +1784,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"roe,helena",
     "homePlayer5":null,
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
@@ -1828,6 +1828,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"caldwell,devan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "putnicki,sarah",
+      "gwin,sarah",
+      "o'neil,megan",
+      "lewis,kaylee",
+      "traylor,lauren"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "frank,taylor",
+      "caldwell,devan",
+      null,
+      null
+    ],
+    "timeSeconds":443,
+    "Poss":"austin",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":11,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"frank,taylor",
+    "homePlayer3":"caldwell,devan",
+    "homePlayer4":null,
+    "homePlayer5":null,
+    "awayPlayer1":"putnicki,sarah",
+    "awayPlayer2":"gwin,sarah",
+    "awayPlayer3":"o'neil,megan",
+    "awayPlayer4":"lewis,kaylee",
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"07:23",
+    "awayPlay":"",
+    "awayTeamScore":"6 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"4",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "putnicki,sarah",
@@ -1897,84 +1975,6 @@
     "awayTeamScore":"6 ",
     "playTeamIndicator":"",
     "homeTeamScore":"4",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "putnicki,sarah",
-      "gwin,sarah",
-      "o'neil,megan",
-      "lewis,kaylee",
-      "traylor,lauren"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      null,
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":443,
-    "Poss":"austin",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":11,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":null,
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"putnicki,sarah",
-    "awayPlayer2":"gwin,sarah",
-    "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"07:23",
-    "awayPlay":"",
-    "awayTeamScore":"6 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"4",
     "homePlay":"SUB IN by ADAMS,EMILY",
     "gameScore":"",
     "teamIndicator":"",
@@ -1995,7 +1995,7 @@
     "homeLineup":[
       "franklin,haley",
       "adams,emily",
-      null,
+      "caldwell,devan",
       null,
       null
     ],
@@ -2017,7 +2017,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
-    "homePlayer3":null,
+    "homePlayer3":"caldwell,devan",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"putnicki,sarah",
@@ -2074,7 +2074,7 @@
       "franklin,haley",
       "adams,emily",
       "bickmann,meagan",
-      null,
+      "caldwell,devan",
       null
     ],
     "timeSeconds":443,
@@ -2096,7 +2096,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
     "homePlayer3":"bickmann,meagan",
-    "homePlayer4":null,
+    "homePlayer4":"caldwell,devan",
     "homePlayer5":null,
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
@@ -2153,7 +2153,7 @@
       "adams,emily",
       "bickmann,meagan",
       "warren,elyse",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":443,
     "Poss":"austin",
@@ -2175,13 +2175,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"bickmann,meagan",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -3550,7 +3550,7 @@
       "gwin,sarah",
       "o'neil,megan",
       "traylor,lauren",
-      null
+      "lewis,kaylee"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -3584,8 +3584,8 @@
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"traylor,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -3622,6 +3622,84 @@
     "shotOutcome":"",
     "Team":"austin",
     "Player":"o'neil,megan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "putnicki,sarah",
+      "gwin,sarah",
+      "traylor,lauren",
+      "o'neil,megan",
+      null
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "adams,emily",
+      "bickmann,meagan",
+      "warren,elyse",
+      "novak,whitney"
+    ],
+    "timeSeconds":263,
+    "Poss":"millsaps",
+    "possNum":8,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":19,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"adams,emily",
+    "homePlayer3":"bickmann,meagan",
+    "homePlayer4":"warren,elyse",
+    "homePlayer5":"novak,whitney",
+    "awayPlayer1":"putnicki,sarah",
+    "awayPlayer2":"gwin,sarah",
+    "awayPlayer3":"traylor,lauren",
+    "awayPlayer4":"o'neil,megan",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"04:23",
+    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
+    "awayTeamScore":"10",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TRAYLOR,LAUREN",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"austin",
+    "Player":"traylor,lauren",
     "pointsEarned":"",
     "awayLineup":[
       "putnicki,sarah",
@@ -3687,84 +3765,6 @@
     "attendance":"105",
     "isNeutral":"False",
     "timeRemaining":"04:23",
-    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
-    "awayTeamScore":"10",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TRAYLOR,LAUREN",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"austin",
-    "Player":"traylor,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "putnicki,sarah",
-      "gwin,sarah",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "adams,emily",
-      "bickmann,meagan",
-      "warren,elyse",
-      "novak,whitney"
-    ],
-    "timeSeconds":263,
-    "Poss":"millsaps",
-    "possNum":8,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":19,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"adams,emily",
-    "homePlayer3":"bickmann,meagan",
-    "homePlayer4":"warren,elyse",
-    "homePlayer5":"novak,whitney",
-    "awayPlayer1":"putnicki,sarah",
-    "awayPlayer2":"gwin,sarah",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"04:23",
     "awayPlay":"SUB IN by MOOTHART,GRACE",
     "awayTeamScore":"10",
     "playTeamIndicator":"",
@@ -3783,7 +3783,7 @@
       "putnicki,sarah",
       "gwin,sarah",
       "moothart,grace",
-      null,
+      "o'neil,megan",
       null
     ],
     "homeLineup":[
@@ -3817,7 +3817,7 @@
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"moothart,grace",
-    "awayPlayer4":null,
+    "awayPlayer4":"o'neil,megan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3862,7 +3862,7 @@
       "gwin,sarah",
       "moothart,grace",
       "matthews,brooklyn",
-      null
+      "o'neil,megan"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -3896,8 +3896,8 @@
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"matthews,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'neil,megan",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -4259,7 +4259,7 @@
       "bickmann,meagan",
       "warren,elyse",
       "novak,whitney",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":263,
     "Poss":"millsaps",
@@ -4281,13 +4281,13 @@
     "homePlayer2":"bickmann,meagan",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -4961,7 +4961,7 @@
       "warren,elyse",
       "novak,whitney",
       "stewart,dezarae",
-      null
+      "bickmann,meagan"
     ],
     "timeSeconds":204,
     "Poss":"millsaps",
@@ -4983,13 +4983,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"stewart,dezarae",
-    "homePlayer5":null,
+    "homePlayer5":"bickmann,meagan",
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -5819,7 +5819,7 @@
       "novak,whitney",
       "stewart,dezarae",
       "caldwell,devan",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -5841,13 +5841,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"stewart,dezarae",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"putnicki,sarah",
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -5968,7 +5968,7 @@
       "gwin,sarah",
       "matthews,brooklyn",
       "guffey,sammi",
-      null
+      "moothart,grace"
     ],
     "homeLineup":[
       "adams,emily",
@@ -6002,8 +6002,8 @@
     "awayPlayer2":"gwin,sarah",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"guffey,sammi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moothart,grace",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -6045,7 +6045,7 @@
       "gwin,sarah",
       "matthews,brooklyn",
       "guffey,sammi",
-      null,
+      "putnicki,sarah",
       null
     ],
     "homeLineup":[
@@ -6079,7 +6079,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"guffey,sammi",
-    "awayPlayer4":null,
+    "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6124,7 +6124,7 @@
       "matthews,brooklyn",
       "guffey,sammi",
       "o'neil,megan",
-      null
+      "putnicki,sarah"
     ],
     "homeLineup":[
       "adams,emily",
@@ -6158,8 +6158,8 @@
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"putnicki,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -7223,7 +7223,7 @@
       "novak,whitney",
       "caldwell,devan",
       "frank,taylor",
-      null
+      "stewart,dezarae"
     ],
     "timeSeconds":45,
     "Poss":"millsaps",
@@ -7245,13 +7245,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,dezarae",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -7300,7 +7300,7 @@
       "adams,emily",
       "caldwell,devan",
       "frank,taylor",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":45,
@@ -7322,7 +7322,7 @@
     "homePlayer1":"adams,emily",
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
@@ -7379,7 +7379,7 @@
       "caldwell,devan",
       "frank,taylor",
       "sims,emily",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":45,
     "Poss":"millsaps",
@@ -7401,13 +7401,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -7528,7 +7528,7 @@
       "matthews,brooklyn",
       "guffey,sammi",
       "traylor,lauren",
-      null
+      "o'neil,megan"
     ],
     "homeLineup":[
       "adams,emily",
@@ -7562,8 +7562,8 @@
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"traylor,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'neil,megan",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -7605,7 +7605,7 @@
       "gwin,sarah",
       "guffey,sammi",
       "traylor,lauren",
-      null,
+      "matthews,brooklyn",
       null
     ],
     "homeLineup":[
@@ -7639,7 +7639,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"traylor,lauren",
-    "awayPlayer4":null,
+    "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7684,7 +7684,7 @@
       "guffey,sammi",
       "traylor,lauren",
       "lewis,kaylee",
-      null
+      "putnicki,sarah"
     ],
     "homeLineup":[
       "adams,emily",
@@ -7718,8 +7718,8 @@
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"traylor,lauren",
     "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"putnicki,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -8230,7 +8230,7 @@
       "guffey,sammi",
       "lewis,kaylee",
       "anamekwe,naomi",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "adams,emily",
@@ -8264,8 +8264,8 @@
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"anamekwe,naomi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -8783,7 +8783,7 @@
       "caldwell,devan",
       "frank,taylor",
       "roe,helena",
-      null
+      "sims,emily"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -8805,13 +8805,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"anamekwe,naomi",
     "awayPlayer5":"putnicki,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -8860,7 +8860,7 @@
       "caldwell,devan",
       "frank,taylor",
       "roe,helena",
-      null,
+      "adams,emily",
       null
     ],
     "timeSeconds":600,
@@ -8882,7 +8882,7 @@
     "homePlayer1":"caldwell,devan",
     "homePlayer2":"frank,taylor",
     "homePlayer3":"roe,helena",
-    "homePlayer4":null,
+    "homePlayer4":"adams,emily",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
@@ -8939,7 +8939,7 @@
       "frank,taylor",
       "roe,helena",
       "franklin,haley",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -8961,13 +8961,13 @@
     "homePlayer2":"frank,taylor",
     "homePlayer3":"roe,helena",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"anamekwe,naomi",
     "awayPlayer5":"putnicki,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -9088,7 +9088,7 @@
       "lewis,kaylee",
       "anamekwe,naomi",
       "putnicki,sarah",
-      null
+      "guffey,sammi"
     ],
     "homeLineup":[
       "caldwell,devan",
@@ -9122,8 +9122,8 @@
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"anamekwe,naomi",
     "awayPlayer4":"putnicki,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guffey,sammi",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -10414,7 +10414,7 @@
       "anamekwe,naomi",
       "putnicki,sarah",
       "o'neil,megan",
-      null
+      "lewis,kaylee"
     ],
     "homeLineup":[
       "caldwell,devan",
@@ -10448,8 +10448,8 @@
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"putnicki,sarah",
     "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -10811,7 +10811,7 @@
       "frank,taylor",
       "roe,helena",
       "franklin,haley",
-      null
+      "bickmann,meagan"
     ],
     "timeSeconds":455,
     "Poss":"millsaps",
@@ -10833,13 +10833,13 @@
     "homePlayer2":"frank,taylor",
     "homePlayer3":"roe,helena",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"bickmann,meagan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"putnicki,sarah",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -10888,7 +10888,7 @@
       "caldwell,devan",
       "roe,helena",
       "franklin,haley",
-      null,
+      "frank,taylor",
       null
     ],
     "timeSeconds":455,
@@ -10910,7 +10910,7 @@
     "homePlayer1":"caldwell,devan",
     "homePlayer2":"roe,helena",
     "homePlayer3":"franklin,haley",
-    "homePlayer4":null,
+    "homePlayer4":"frank,taylor",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
@@ -10967,7 +10967,7 @@
       "roe,helena",
       "franklin,haley",
       "adams,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":455,
     "Poss":"millsaps",
@@ -10989,13 +10989,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"putnicki,sarah",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -11591,7 +11591,7 @@
       "franklin,haley",
       "adams,emily",
       "novak,whitney",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":367,
     "Poss":"austin",
@@ -11613,13 +11613,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"adams,emily",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"putnicki,sarah",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -12598,7 +12598,7 @@
       "anamekwe,naomi",
       "o'neil,megan",
       "guffey,sammi",
-      null
+      "putnicki,sarah"
     ],
     "homeLineup":[
       "roe,helena",
@@ -12632,8 +12632,8 @@
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"guffey,sammi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"putnicki,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -14087,7 +14087,7 @@
       "franklin,haley",
       "adams,emily",
       "novak,whitney",
-      null
+      "sims,emily"
     ],
     "timeSeconds":153,
     "Poss":"millsaps",
@@ -14109,13 +14109,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"adams,emily",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"guffey,sammi",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -14152,6 +14152,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"adams,emily",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "anamekwe,naomi",
+      "o'neil,megan",
+      "guffey,sammi",
+      "traylor,lauren"
+    ],
+    "homeLineup":[
+      "roe,helena",
+      "franklin,haley",
+      "novak,whitney",
+      "adams,emily",
+      null
+    ],
+    "timeSeconds":153,
+    "Poss":"millsaps",
+    "possNum":28,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":52,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"roe,helena",
+    "homePlayer2":"franklin,haley",
+    "homePlayer3":"novak,whitney",
+    "homePlayer4":"adams,emily",
+    "homePlayer5":null,
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"anamekwe,naomi",
+    "awayPlayer3":"o'neil,megan",
+    "awayPlayer4":"guffey,sammi",
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"02:33",
+    "awayPlay":"",
+    "awayTeamScore":"29 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"23",
+    "homePlay":"SUB OUT by NOVAK,WHITNEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by NOVAK,WHITNEY",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"novak,whitney",
     "pointsEarned":"",
     "awayLineup":[
       "gwin,sarah",
@@ -14221,84 +14299,6 @@
     "awayTeamScore":"29 ",
     "playTeamIndicator":"",
     "homeTeamScore":"23",
-    "homePlay":"SUB OUT by NOVAK,WHITNEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by NOVAK,WHITNEY",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"novak,whitney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "anamekwe,naomi",
-      "o'neil,megan",
-      "guffey,sammi",
-      "traylor,lauren"
-    ],
-    "homeLineup":[
-      "roe,helena",
-      "franklin,haley",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":153,
-    "Poss":"millsaps",
-    "possNum":28,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":52,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"roe,helena",
-    "homePlayer2":"franklin,haley",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"anamekwe,naomi",
-    "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":"guffey,sammi",
-    "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"02:33",
-    "awayPlay":"",
-    "awayTeamScore":"29 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"23",
     "homePlay":"SUB IN by STEWART,DEZARAE",
     "gameScore":"",
     "teamIndicator":"",
@@ -14320,7 +14320,7 @@
       "roe,helena",
       "franklin,haley",
       "stewart,dezarae",
-      null,
+      "caldwell,devan",
       null
     ],
     "timeSeconds":153,
@@ -14342,7 +14342,7 @@
     "homePlayer1":"roe,helena",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"stewart,dezarae",
-    "homePlayer4":null,
+    "homePlayer4":"caldwell,devan",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
@@ -14399,7 +14399,7 @@
       "franklin,haley",
       "stewart,dezarae",
       "warren,elyse",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":153,
     "Poss":"millsaps",
@@ -14421,13 +14421,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"stewart,dezarae",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"anamekwe,naomi",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"guffey,sammi",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -14548,6 +14548,84 @@
       "anamekwe,naomi",
       "guffey,sammi",
       "traylor,lauren",
+      "o'neil,megan"
+    ],
+    "homeLineup":[
+      "roe,helena",
+      "franklin,haley",
+      "stewart,dezarae",
+      "warren,elyse",
+      "caldwell,devan"
+    ],
+    "timeSeconds":153,
+    "Poss":"millsaps",
+    "possNum":28,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":52,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"roe,helena",
+    "homePlayer2":"franklin,haley",
+    "homePlayer3":"stewart,dezarae",
+    "homePlayer4":"warren,elyse",
+    "homePlayer5":"caldwell,devan",
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"anamekwe,naomi",
+    "awayPlayer3":"guffey,sammi",
+    "awayPlayer4":"traylor,lauren",
+    "awayPlayer5":"o'neil,megan",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"02:33",
+    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
+    "awayTeamScore":"29 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"23",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TRAYLOR,LAUREN",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"austin",
+    "Player":"traylor,lauren",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "anamekwe,naomi",
+      "guffey,sammi",
+      "traylor,lauren",
       null
     ],
     "homeLineup":[
@@ -14607,84 +14685,6 @@
     "attendance":"105",
     "isNeutral":"False",
     "timeRemaining":"02:33",
-    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
-    "awayTeamScore":"29 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"23",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TRAYLOR,LAUREN",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"austin",
-    "Player":"traylor,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "anamekwe,naomi",
-      "guffey,sammi",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "roe,helena",
-      "franklin,haley",
-      "stewart,dezarae",
-      "warren,elyse",
-      "caldwell,devan"
-    ],
-    "timeSeconds":153,
-    "Poss":"millsaps",
-    "possNum":28,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":52,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"roe,helena",
-    "homePlayer2":"franklin,haley",
-    "homePlayer3":"stewart,dezarae",
-    "homePlayer4":"warren,elyse",
-    "homePlayer5":"caldwell,devan",
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"anamekwe,naomi",
-    "awayPlayer3":"guffey,sammi",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"02:33",
     "awayPlay":"SUB OUT by ANAMEKWE,NAOMI",
     "awayTeamScore":"29 ",
     "playTeamIndicator":"",
@@ -14702,7 +14702,7 @@
     "awayLineup":[
       "gwin,sarah",
       "guffey,sammi",
-      null,
+      "anamekwe,naomi",
       null,
       null
     ],
@@ -14736,7 +14736,7 @@
     "homePlayer5":"caldwell,devan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
-    "awayPlayer3":null,
+    "awayPlayer3":"anamekwe,naomi",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -14781,7 +14781,7 @@
       "gwin,sarah",
       "guffey,sammi",
       "lewis,kaylee",
-      null,
+      "putnicki,sarah",
       null
     ],
     "homeLineup":[
@@ -14815,7 +14815,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"lewis,kaylee",
-    "awayPlayer4":null,
+    "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14860,7 +14860,7 @@
       "guffey,sammi",
       "lewis,kaylee",
       "matthews,brooklyn",
-      null
+      "putnicki,sarah"
     ],
     "homeLineup":[
       "roe,helena",
@@ -14894,8 +14894,8 @@
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"matthews,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"putnicki,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -15874,7 +15874,7 @@
       "guffey,sammi",
       "matthews,brooklyn",
       "putnicki,sarah",
-      null
+      "lewis,kaylee"
     ],
     "homeLineup":[
       "roe,helena",
@@ -15908,8 +15908,8 @@
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"putnicki,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -17831,7 +17831,7 @@
       "franklin,haley",
       "warren,elyse",
       "caldwell,devan",
-      null
+      "stewart,dezarae"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -17853,13 +17853,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,dezarae",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":"moothart,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -17908,7 +17908,7 @@
       "roe,helena",
       "franklin,haley",
       "caldwell,devan",
-      null,
+      "warren,elyse",
       null
     ],
     "timeSeconds":600,
@@ -17930,7 +17930,7 @@
     "homePlayer1":"roe,helena",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"caldwell,devan",
-    "homePlayer4":null,
+    "homePlayer4":"warren,elyse",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
@@ -17987,7 +17987,7 @@
       "franklin,haley",
       "caldwell,devan",
       "sims,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -18009,13 +18009,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":"moothart,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -18136,7 +18136,7 @@
       "guffey,sammi",
       "matthews,brooklyn",
       "putnicki,sarah",
-      null
+      "moothart,grace"
     ],
     "homeLineup":[
       "roe,helena",
@@ -18170,8 +18170,8 @@
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"putnicki,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moothart,grace",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -18213,7 +18213,7 @@
       "gwin,sarah",
       "guffey,sammi",
       "putnicki,sarah",
-      null,
+      "matthews,brooklyn",
       null
     ],
     "homeLineup":[
@@ -18247,7 +18247,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"guffey,sammi",
     "awayPlayer3":"putnicki,sarah",
-    "awayPlayer4":null,
+    "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18290,7 +18290,7 @@
     "awayLineup":[
       "gwin,sarah",
       "putnicki,sarah",
-      null,
+      "guffey,sammi",
       null,
       null
     ],
@@ -18324,7 +18324,7 @@
     "homePlayer5":"frank,taylor",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
-    "awayPlayer3":null,
+    "awayPlayer3":"guffey,sammi",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -18369,7 +18369,7 @@
       "gwin,sarah",
       "putnicki,sarah",
       "lewis,kaylee",
-      null,
+      "o'neil,megan",
       null
     ],
     "homeLineup":[
@@ -18403,7 +18403,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"lewis,kaylee",
-    "awayPlayer4":null,
+    "awayPlayer4":"o'neil,megan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18448,7 +18448,7 @@
       "putnicki,sarah",
       "lewis,kaylee",
       "o'neil,megan",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "roe,helena",
@@ -18482,8 +18482,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -20873,7 +20873,7 @@
       "franklin,haley",
       "caldwell,devan",
       "frank,taylor",
-      null
+      "sims,emily"
     ],
     "timeSeconds":278,
     "Poss":"austin",
@@ -20895,13 +20895,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -20938,6 +20938,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"roe,helena",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "putnicki,sarah",
+      "lewis,kaylee",
+      "o'neil,megan",
+      "traylor,lauren"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "caldwell,devan",
+      "frank,taylor",
+      "roe,helena",
+      null
+    ],
+    "timeSeconds":278,
+    "Poss":"austin",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"austin",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":77,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"caldwell,devan",
+    "homePlayer3":"frank,taylor",
+    "homePlayer4":"roe,helena",
+    "homePlayer5":null,
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"putnicki,sarah",
+    "awayPlayer3":"lewis,kaylee",
+    "awayPlayer4":"o'neil,megan",
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"04:38",
+    "awayPlay":"",
+    "awayTeamScore":"43",
+    "playTeamIndicator":"",
+    "homeTeamScore":"43",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "gwin,sarah",
@@ -21007,84 +21085,6 @@
     "awayTeamScore":"43",
     "playTeamIndicator":"",
     "homeTeamScore":"43",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "putnicki,sarah",
-      "lewis,kaylee",
-      "o'neil,megan",
-      "traylor,lauren"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "caldwell,devan",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":278,
-    "Poss":"austin",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"austin",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":77,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"caldwell,devan",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"putnicki,sarah",
-    "awayPlayer3":"lewis,kaylee",
-    "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"04:38",
-    "awayPlay":"",
-    "awayTeamScore":"43",
-    "playTeamIndicator":"",
-    "homeTeamScore":"43",
     "homePlay":"SUB IN by ADAMS,EMILY",
     "gameScore":"",
     "teamIndicator":"",
@@ -21106,7 +21106,7 @@
       "franklin,haley",
       "caldwell,devan",
       "adams,emily",
-      null,
+      "roe,helena",
       null
     ],
     "timeSeconds":278,
@@ -21128,7 +21128,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"adams,emily",
-    "homePlayer4":null,
+    "homePlayer4":"roe,helena",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
@@ -21185,7 +21185,7 @@
       "caldwell,devan",
       "adams,emily",
       "bickmann,meagan",
-      null
+      "roe,helena"
     ],
     "timeSeconds":278,
     "Poss":"austin",
@@ -21207,13 +21207,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"adams,emily",
     "homePlayer4":"bickmann,meagan",
-    "homePlayer5":null,
+    "homePlayer5":"roe,helena",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -21334,6 +21334,84 @@
       "putnicki,sarah",
       "o'neil,megan",
       "traylor,lauren",
+      "lewis,kaylee"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "caldwell,devan",
+      "adams,emily",
+      "bickmann,meagan",
+      "novak,whitney"
+    ],
+    "timeSeconds":278,
+    "Poss":"austin",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"austin",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":77,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"caldwell,devan",
+    "homePlayer3":"adams,emily",
+    "homePlayer4":"bickmann,meagan",
+    "homePlayer5":"novak,whitney",
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"putnicki,sarah",
+    "awayPlayer3":"o'neil,megan",
+    "awayPlayer4":"traylor,lauren",
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"04:38",
+    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
+    "awayTeamScore":"43",
+    "playTeamIndicator":"",
+    "homeTeamScore":"43",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TRAYLOR,LAUREN",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"austin",
+    "Player":"traylor,lauren",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "putnicki,sarah",
+      "o'neil,megan",
+      "traylor,lauren",
       null
     ],
     "homeLineup":[
@@ -21393,84 +21471,6 @@
     "attendance":"105",
     "isNeutral":"False",
     "timeRemaining":"04:38",
-    "awayPlay":"SUB OUT by TRAYLOR,LAUREN",
-    "awayTeamScore":"43",
-    "playTeamIndicator":"",
-    "homeTeamScore":"43",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TRAYLOR,LAUREN",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"austin",
-    "Player":"traylor,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "putnicki,sarah",
-      "o'neil,megan",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "caldwell,devan",
-      "adams,emily",
-      "bickmann,meagan",
-      "novak,whitney"
-    ],
-    "timeSeconds":278,
-    "Poss":"austin",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"austin",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":77,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"caldwell,devan",
-    "homePlayer3":"adams,emily",
-    "homePlayer4":"bickmann,meagan",
-    "homePlayer5":"novak,whitney",
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"putnicki,sarah",
-    "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"04:38",
     "awayPlay":"SUB IN by MATTHEWS,BROOKLYN",
     "awayTeamScore":"43",
     "playTeamIndicator":"",
@@ -21490,7 +21490,7 @@
       "putnicki,sarah",
       "o'neil,megan",
       "matthews,brooklyn",
-      null
+      "lewis,kaylee"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -21524,8 +21524,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"matthews,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -22582,7 +22582,7 @@
       "putnicki,sarah",
       "o'neil,megan",
       "matthews,brooklyn",
-      null
+      "guffey,sammi"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -22616,8 +22616,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"matthews,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guffey,sammi",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -23057,7 +23057,7 @@
       "adams,emily",
       "bickmann,meagan",
       "novak,whitney",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":180,
     "Poss":"austin",
@@ -23079,13 +23079,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"bickmann,meagan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"matthews,brooklyn",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -23284,7 +23284,7 @@
       "putnicki,sarah",
       "matthews,brooklyn",
       "traylor,lauren",
-      null
+      "o'neil,megan"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -23318,8 +23318,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"matthews,brooklyn",
     "awayPlayer4":"traylor,lauren",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'neil,megan",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -23361,7 +23361,7 @@
       "gwin,sarah",
       "matthews,brooklyn",
       "traylor,lauren",
-      null,
+      "putnicki,sarah",
       null
     ],
     "homeLineup":[
@@ -23395,7 +23395,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"traylor,lauren",
-    "awayPlayer4":null,
+    "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23440,7 +23440,7 @@
       "matthews,brooklyn",
       "traylor,lauren",
       "lewis,kaylee",
-      null
+      "putnicki,sarah"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -23474,8 +23474,8 @@
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"traylor,lauren",
     "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"putnicki,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -24071,7 +24071,7 @@
       "adams,emily",
       "novak,whitney",
       "stewart,dezarae",
-      null
+      "bickmann,meagan"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -24093,13 +24093,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"stewart,dezarae",
-    "homePlayer5":null,
+    "homePlayer5":"bickmann,meagan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"traylor,lauren",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"moothart,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -24148,7 +24148,7 @@
       "franklin,haley",
       "adams,emily",
       "stewart,dezarae",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":130,
@@ -24170,7 +24170,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
     "homePlayer3":"stewart,dezarae",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
@@ -24227,7 +24227,7 @@
       "adams,emily",
       "stewart,dezarae",
       "sims,emily",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -24249,13 +24249,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"stewart,dezarae",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"matthews,brooklyn",
     "awayPlayer3":"traylor,lauren",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"moothart,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -24376,7 +24376,7 @@
       "traylor,lauren",
       "lewis,kaylee",
       "moothart,grace",
-      null
+      "matthews,brooklyn"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -24410,8 +24410,8 @@
     "awayPlayer2":"traylor,lauren",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"moothart,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"matthews,brooklyn",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -25475,7 +25475,7 @@
       "adams,emily",
       "sims,emily",
       "frank,taylor",
-      null
+      "stewart,dezarae"
     ],
     "timeSeconds":27,
     "Poss":"austin",
@@ -25497,13 +25497,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"sims,emily",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,dezarae",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"traylor,lauren",
     "awayPlayer3":"lewis,kaylee",
     "awayPlayer4":"moothart,grace",
     "awayPlayer5":"anamekwe,naomi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -25624,7 +25624,7 @@
       "lewis,kaylee",
       "moothart,grace",
       "anamekwe,naomi",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -25658,8 +25658,8 @@
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"anamekwe,naomi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -25943,7 +25943,7 @@
       "adams,emily",
       "frank,taylor",
       "roe,helena",
-      null
+      "sims,emily"
     ],
     "timeSeconds":600,
     "Poss":"austin",
@@ -25965,13 +25965,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"anamekwe,naomi",
     "awayPlayer5":"o'neil,megan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -26092,7 +26092,7 @@
       "lewis,kaylee",
       "anamekwe,naomi",
       "o'neil,megan",
-      null
+      "moothart,grace"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -26126,8 +26126,8 @@
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"anamekwe,naomi",
     "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moothart,grace",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -26169,7 +26169,7 @@
       "gwin,sarah",
       "lewis,kaylee",
       "o'neil,megan",
-      null,
+      "anamekwe,naomi",
       null
     ],
     "homeLineup":[
@@ -26203,7 +26203,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":null,
+    "awayPlayer4":"anamekwe,naomi",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26248,7 +26248,7 @@
       "lewis,kaylee",
       "o'neil,megan",
       "putnicki,sarah",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -26282,8 +26282,8 @@
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"putnicki,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -26482,7 +26482,7 @@
       "lewis,kaylee",
       "o'neil,megan",
       "putnicki,sarah",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"putnicki,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -27737,7 +27737,7 @@
       "adams,emily",
       "roe,helena",
       "caldwell,devan",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":534,
     "Poss":"millsaps",
@@ -27759,13 +27759,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"roe,helena",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"lewis,kaylee",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"putnicki,sarah",
     "awayPlayer5":"guffey,sammi",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -28744,7 +28744,7 @@
       "o'neil,megan",
       "putnicki,sarah",
       "guffey,sammi",
-      null
+      "lewis,kaylee"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -28778,8 +28778,8 @@
     "awayPlayer2":"o'neil,megan",
     "awayPlayer3":"putnicki,sarah",
     "awayPlayer4":"guffey,sammi",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,kaylee",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -28821,7 +28821,7 @@
       "gwin,sarah",
       "putnicki,sarah",
       "guffey,sammi",
-      null,
+      "o'neil,megan",
       null
     ],
     "homeLineup":[
@@ -28855,7 +28855,7 @@
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"guffey,sammi",
-    "awayPlayer4":null,
+    "awayPlayer4":"o'neil,megan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28900,7 +28900,7 @@
       "putnicki,sarah",
       "guffey,sammi",
       "moothart,grace",
-      null
+      "o'neil,megan"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -28934,8 +28934,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"moothart,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"o'neil,megan",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -29765,7 +29765,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "adams,emily"
     ],
     "timeSeconds":408,
     "Poss":"millsaps",
@@ -29787,13 +29787,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"guffey,sammi",
     "awayPlayer4":"moothart,grace",
     "awayPlayer5":"matthews,brooklyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -29914,7 +29914,7 @@
       "putnicki,sarah",
       "moothart,grace",
       "matthews,brooklyn",
-      null
+      "guffey,sammi"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -29948,8 +29948,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"matthews,brooklyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guffey,sammi",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -31240,7 +31240,7 @@
       "putnicki,sarah",
       "moothart,grace",
       "o'neil,megan",
-      null
+      "matthews,brooklyn"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -31274,8 +31274,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"o'neil,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"matthews,brooklyn",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -31871,7 +31871,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "bickmann,meagan"
     ],
     "timeSeconds":283,
     "Poss":"millsaps",
@@ -31893,13 +31893,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"bickmann,meagan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"lewis,kaylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -33275,7 +33275,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "sims,emily"
     ],
     "timeSeconds":207,
     "Poss":"millsaps",
@@ -33297,13 +33297,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"lewis,kaylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -34211,7 +34211,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "bickmann,meagan"
     ],
     "timeSeconds":114,
     "Poss":"millsaps",
@@ -34233,13 +34233,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"bickmann,meagan",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"moothart,grace",
     "awayPlayer4":"o'neil,megan",
     "awayPlayer5":"lewis,kaylee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -34360,7 +34360,7 @@
       "putnicki,sarah",
       "o'neil,megan",
       "lewis,kaylee",
-      null
+      "moothart,grace"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -34394,8 +34394,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moothart,grace",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -34601,7 +34601,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "adams,emily"
     ],
     "timeSeconds":106,
     "Poss":"austin",
@@ -34623,13 +34623,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -34835,7 +34835,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "sims,emily"
     ],
     "timeSeconds":95,
     "Poss":"millsaps",
@@ -34857,13 +34857,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -35303,6 +35303,84 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
+      "adams,emily"
+    ],
+    "timeSeconds":59,
+    "Poss":"austin",
+    "possNum":67,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":130,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"roe,helena",
+    "homePlayer3":"caldwell,devan",
+    "homePlayer4":"novak,whitney",
+    "homePlayer5":"adams,emily",
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"putnicki,sarah",
+    "awayPlayer3":"o'neil,megan",
+    "awayPlayer4":"lewis,kaylee",
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"00:59",
+    "awayPlay":"",
+    "awayTeamScore":"60",
+    "playTeamIndicator":"",
+    "homeTeamScore":"60",
+    "homePlay":"SUB OUT by NOVAK,WHITNEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by NOVAK,WHITNEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "putnicki,sarah",
+      "o'neil,megan",
+      "lewis,kaylee",
+      "traylor,lauren"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "roe,helena",
+      "caldwell,devan",
+      "novak,whitney",
       null
     ],
     "timeSeconds":59,
@@ -35359,84 +35437,6 @@
     "awayTeamScore":"60",
     "playTeamIndicator":"",
     "homeTeamScore":"60",
-    "homePlay":"SUB OUT by NOVAK,WHITNEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by NOVAK,WHITNEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"novak,whitney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "putnicki,sarah",
-      "o'neil,megan",
-      "lewis,kaylee",
-      "traylor,lauren"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "roe,helena",
-      "caldwell,devan",
-      null,
-      null
-    ],
-    "timeSeconds":59,
-    "Poss":"austin",
-    "possNum":67,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":130,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"roe,helena",
-    "homePlayer3":"caldwell,devan",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"putnicki,sarah",
-    "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"00:59",
-    "awayPlay":"",
-    "awayTeamScore":"60",
-    "playTeamIndicator":"",
-    "homeTeamScore":"60",
     "homePlay":"SUB IN by SIMS,EMILY",
     "gameScore":"",
     "teamIndicator":"",
@@ -35459,7 +35459,7 @@
       "roe,helena",
       "caldwell,devan",
       "sims,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":59,
     "Poss":"austin",
@@ -35481,13 +35481,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -35693,7 +35693,7 @@
       "roe,helena",
       "caldwell,devan",
       "frank,taylor",
-      null
+      "sims,emily"
     ],
     "timeSeconds":52,
     "Poss":"millsaps",
@@ -35715,13 +35715,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -35927,7 +35927,7 @@
       "roe,helena",
       "caldwell,devan",
       "adams,emily",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":41,
     "Poss":"millsaps",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -36161,7 +36161,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "adams,emily"
     ],
     "timeSeconds":34,
     "Poss":"millsaps",
@@ -36183,13 +36183,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -36629,7 +36629,7 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
-      null
+      "sims,emily"
     ],
     "timeSeconds":25,
     "Poss":"millsaps",
@@ -36651,13 +36651,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -36941,6 +36941,84 @@
       "roe,helena",
       "caldwell,devan",
       "novak,whitney",
+      "adams,emily"
+    ],
+    "timeSeconds":11,
+    "Poss":"millsaps",
+    "possNum":70,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":134,
+    "teamChanged":0,
+    "game":"MillsapsAustin12\/17\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"roe,helena",
+    "homePlayer3":"caldwell,devan",
+    "homePlayer4":"novak,whitney",
+    "homePlayer5":"adams,emily",
+    "awayPlayer1":"gwin,sarah",
+    "awayPlayer2":"putnicki,sarah",
+    "awayPlayer3":"o'neil,megan",
+    "awayPlayer4":"lewis,kaylee",
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
+  },
+  {
+    "gameID":"6214",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Austin",
+    "saaGame":"1",
+    "finalScore":"63-65",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
+    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
+    "homeRecord":"10-2",
+    "awayRecord":"0-9",
+    "homeConfRecord":"1-0",
+    "awayConfRecord":"0-3",
+    "gameDate":"12\/17\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"105",
+    "isNeutral":"False",
+    "timeRemaining":"00:11",
+    "awayPlay":"",
+    "awayTeamScore":"60",
+    "playTeamIndicator":"",
+    "homeTeamScore":"61 ",
+    "homePlay":"SUB OUT by NOVAK,WHITNEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by NOVAK,WHITNEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gwin,sarah",
+      "putnicki,sarah",
+      "o'neil,megan",
+      "lewis,kaylee",
+      "traylor,lauren"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "roe,helena",
+      "caldwell,devan",
+      "novak,whitney",
       null
     ],
     "timeSeconds":11,
@@ -36997,84 +37075,6 @@
     "awayTeamScore":"60",
     "playTeamIndicator":"",
     "homeTeamScore":"61 ",
-    "homePlay":"SUB OUT by NOVAK,WHITNEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by NOVAK,WHITNEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"novak,whitney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gwin,sarah",
-      "putnicki,sarah",
-      "o'neil,megan",
-      "lewis,kaylee",
-      "traylor,lauren"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "roe,helena",
-      "caldwell,devan",
-      null,
-      null
-    ],
-    "timeSeconds":11,
-    "Poss":"millsaps",
-    "possNum":70,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":134,
-    "teamChanged":0,
-    "game":"MillsapsAustin12\/17\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"roe,helena",
-    "homePlayer3":"caldwell,devan",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"gwin,sarah",
-    "awayPlayer2":"putnicki,sarah",
-    "awayPlayer3":"o'neil,megan",
-    "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6214",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Austin",
-    "saaGame":"1",
-    "finalScore":"63-65",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,18,13,16,18,65",
-    "awayScoreByPeriod":"\nAustin\nAustin\n,14,21,19,9,63",
-    "homeRecord":"10-2",
-    "awayRecord":"0-9",
-    "homeConfRecord":"1-0",
-    "awayConfRecord":"0-3",
-    "gameDate":"12\/17\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"105",
-    "isNeutral":"False",
-    "timeRemaining":"00:11",
-    "awayPlay":"",
-    "awayTeamScore":"60",
-    "playTeamIndicator":"",
-    "homeTeamScore":"61 ",
     "homePlay":"SUB IN by SIMS,EMILY",
     "gameScore":"",
     "teamIndicator":"",
@@ -37097,7 +37097,7 @@
       "roe,helena",
       "caldwell,devan",
       "sims,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":11,
     "Poss":"millsaps",
@@ -37119,13 +37119,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"traylor,lauren",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -37246,7 +37246,7 @@
       "putnicki,sarah",
       "o'neil,megan",
       "lewis,kaylee",
-      null
+      "traylor,lauren"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -37280,8 +37280,8 @@
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"traylor,lauren",
+    "playerMissing":0
   },
   {
     "gameID":"6214",
@@ -37799,7 +37799,7 @@
       "roe,helena",
       "caldwell,devan",
       "sims,emily",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":9,
     "Poss":"austin",
@@ -37821,13 +37821,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"gwin,sarah",
     "awayPlayer2":"putnicki,sarah",
     "awayPlayer3":"o'neil,megan",
     "awayPlayer4":"lewis,kaylee",
     "awayPlayer5":"moothart,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6214",

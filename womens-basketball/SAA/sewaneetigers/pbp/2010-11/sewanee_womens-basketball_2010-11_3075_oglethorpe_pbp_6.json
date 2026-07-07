@@ -898,7 +898,7 @@
       "elliott,claire",
       "ginsburg,alex",
       "miller,logan",
-      null
+      "baier,heather"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -932,8 +932,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"miller,logan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"baier,heather",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -975,7 +975,7 @@
       "elliott,claire",
       "ginsburg,alex",
       "miller,logan",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
@@ -1009,7 +1009,7 @@
     "awayPlayer1":"elliott,claire",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -1054,7 +1054,7 @@
       "ginsburg,alex",
       "miller,logan",
       "bradford,dee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -1088,8 +1088,8 @@
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"miller,logan",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -1678,7 +1678,7 @@
       "miller,logan",
       "bradford,dee",
       "thibodeaux,michelle",
-      null
+      "elliott,claire"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -1712,8 +1712,8 @@
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"elliott,claire",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -1755,7 +1755,7 @@
       "miller,logan",
       "bradford,dee",
       "thibodeaux,michelle",
-      null,
+      "ginsburg,alex",
       null
     ],
     "homeLineup":[
@@ -1789,7 +1789,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"thibodeaux,michelle",
-    "awayPlayer4":null,
+    "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -1828,6 +1828,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"miller,logan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bradford,dee",
+      "thibodeaux,michelle",
+      "miller,logan",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "giles,sarah",
+      "weeks,katie",
+      "macdonald,chelsea",
+      "reeves,kelley",
+      "loughrey,morgan"
+    ],
+    "timeSeconds":1086,
+    "Poss":"oglethorpe university",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":12,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"giles,sarah",
+    "homePlayer2":"weeks,katie",
+    "homePlayer3":"macdonald,chelsea",
+    "homePlayer4":"reeves,kelley",
+    "homePlayer5":"loughrey,morgan",
+    "awayPlayer1":"bradford,dee",
+    "awayPlayer2":"thibodeaux,michelle",
+    "awayPlayer3":"miller,logan",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"18:06",
+    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
+    "awayTeamScore":"3",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"thibodeaux,michelle",
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
@@ -1893,84 +1971,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"18:06",
-    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
-    "awayTeamScore":"3",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"thibodeaux,michelle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bradford,dee",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "giles,sarah",
-      "weeks,katie",
-      "macdonald,chelsea",
-      "reeves,kelley",
-      "loughrey,morgan"
-    ],
-    "timeSeconds":1086,
-    "Poss":"oglethorpe university",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":12,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"giles,sarah",
-    "homePlayer2":"weeks,katie",
-    "homePlayer3":"macdonald,chelsea",
-    "homePlayer4":"reeves,kelley",
-    "homePlayer5":"loughrey,morgan",
-    "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"18:06",
     "awayPlay":"SUB IN by BAIER,HEATHER",
     "awayTeamScore":"3",
     "playTeamIndicator":"",
@@ -1988,7 +1988,7 @@
     "awayLineup":[
       "bradford,dee",
       "baier,heather",
-      null,
+      "totals",
       null,
       null
     ],
@@ -2022,7 +2022,7 @@
     "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -2067,7 +2067,7 @@
       "bradford,dee",
       "baier,heather",
       "medley,clarissa",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -2101,7 +2101,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2146,7 +2146,7 @@
       "baier,heather",
       "medley,clarissa",
       "hutson,kali",
-      null
+      "totals"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -2180,8 +2180,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -3004,7 +3004,7 @@
       "medley,clarissa",
       "hutson,kali",
       "kabbes,dani",
-      null
+      "baier,heather"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -3038,8 +3038,8 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"baier,heather",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -3081,7 +3081,7 @@
       "medley,clarissa",
       "hutson,kali",
       "kabbes,dani",
-      null,
+      "bradford,dee",
       null
     ],
     "homeLineup":[
@@ -3115,7 +3115,7 @@
     "awayPlayer1":"medley,clarissa",
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"bradford,dee",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3154,6 +3154,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"medley,clarissa",
+    "pointsEarned":"",
+    "awayLineup":[
+      "hutson,kali",
+      "kabbes,dani",
+      "medley,clarissa",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "giles,sarah",
+      "weeks,katie",
+      "macdonald,chelsea",
+      "reeves,kelley",
+      "loughrey,morgan"
+    ],
+    "timeSeconds":1016,
+    "Poss":"oglethorpe university",
+    "possNum":7,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":16,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"giles,sarah",
+    "homePlayer2":"weeks,katie",
+    "homePlayer3":"macdonald,chelsea",
+    "homePlayer4":"reeves,kelley",
+    "homePlayer5":"loughrey,morgan",
+    "awayPlayer1":"hutson,kali",
+    "awayPlayer2":"kabbes,dani",
+    "awayPlayer3":"medley,clarissa",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"16:56",
+    "awayPlay":"SUB OUT by KABBES,DANI",
+    "awayTeamScore":"6",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KABBES,DANI",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"kabbes,dani",
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
@@ -3219,84 +3297,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"16:56",
-    "awayPlay":"SUB OUT by KABBES,DANI",
-    "awayTeamScore":"6",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KABBES,DANI",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"kabbes,dani",
-    "pointsEarned":"",
-    "awayLineup":[
-      "hutson,kali",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "giles,sarah",
-      "weeks,katie",
-      "macdonald,chelsea",
-      "reeves,kelley",
-      "loughrey,morgan"
-    ],
-    "timeSeconds":1016,
-    "Poss":"oglethorpe university",
-    "possNum":7,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":16,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"giles,sarah",
-    "homePlayer2":"weeks,katie",
-    "homePlayer3":"macdonald,chelsea",
-    "homePlayer4":"reeves,kelley",
-    "homePlayer5":"loughrey,morgan",
-    "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"16:56",
     "awayPlay":"SUB IN by GINSBURG,ALEX",
     "awayTeamScore":"6",
     "playTeamIndicator":"",
@@ -3314,7 +3314,7 @@
     "awayLineup":[
       "hutson,kali",
       "ginsburg,alex",
-      null,
+      "totals",
       null,
       null
     ],
@@ -3348,7 +3348,7 @@
     "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"ginsburg,alex",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -3393,7 +3393,7 @@
       "hutson,kali",
       "ginsburg,alex",
       "miller,logan",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -3427,7 +3427,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3472,7 +3472,7 @@
       "ginsburg,alex",
       "miller,logan",
       "elliott,claire",
-      null
+      "totals"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -3506,8 +3506,8 @@
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"miller,logan",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -4642,7 +4642,7 @@
       "miller,logan",
       "elliott,claire",
       "thibodeaux,michelle",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -4676,8 +4676,8 @@
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -4714,6 +4714,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"elliott,claire",
+    "pointsEarned":"",
+    "awayLineup":[
+      "hutson,kali",
+      "miller,logan",
+      "thibodeaux,michelle",
+      "elliott,claire",
+      null
+    ],
+    "homeLineup":[
+      "giles,sarah",
+      "weeks,katie",
+      "macdonald,chelsea",
+      "reeves,kelley",
+      "loughrey,morgan"
+    ],
+    "timeSeconds":965,
+    "Poss":"oglethorpe university",
+    "possNum":7,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":20,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"giles,sarah",
+    "homePlayer2":"weeks,katie",
+    "homePlayer3":"macdonald,chelsea",
+    "homePlayer4":"reeves,kelley",
+    "homePlayer5":"loughrey,morgan",
+    "awayPlayer1":"hutson,kali",
+    "awayPlayer2":"miller,logan",
+    "awayPlayer3":"thibodeaux,michelle",
+    "awayPlayer4":"elliott,claire",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"16:05",
+    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
+    "awayTeamScore":"6",
+    "playTeamIndicator":"",
+    "homeTeamScore":"10 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"thibodeaux,michelle",
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
@@ -4779,84 +4857,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"16:05",
-    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
-    "awayTeamScore":"6",
-    "playTeamIndicator":"",
-    "homeTeamScore":"10 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"thibodeaux,michelle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "hutson,kali",
-      "miller,logan",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "giles,sarah",
-      "weeks,katie",
-      "macdonald,chelsea",
-      "reeves,kelley",
-      "loughrey,morgan"
-    ],
-    "timeSeconds":965,
-    "Poss":"oglethorpe university",
-    "possNum":7,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":20,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"giles,sarah",
-    "homePlayer2":"weeks,katie",
-    "homePlayer3":"macdonald,chelsea",
-    "homePlayer4":"reeves,kelley",
-    "homePlayer5":"loughrey,morgan",
-    "awayPlayer1":"hutson,kali",
-    "awayPlayer2":"miller,logan",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"16:05",
     "awayPlay":"SUB OUT by HUTSON,KALI",
     "awayTeamScore":"6",
     "playTeamIndicator":"",
@@ -4873,7 +4873,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
-      null,
+      "hutson,kali",
       null,
       null,
       null
@@ -4907,7 +4907,7 @@
     "homePlayer4":"reeves,kelley",
     "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
+    "awayPlayer2":"hutson,kali",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -4952,7 +4952,7 @@
     "awayLineup":[
       "miller,logan",
       "baier,heather",
-      null,
+      "totals",
       null,
       null
     ],
@@ -4986,7 +4986,7 @@
     "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -5031,7 +5031,7 @@
       "miller,logan",
       "baier,heather",
       "bradford,dee",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -5065,7 +5065,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5110,7 +5110,7 @@
       "baier,heather",
       "bradford,dee",
       "medley,clarissa",
-      null
+      "totals"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -5144,8 +5144,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -5500,7 +5500,7 @@
       "baier,heather",
       "bradford,dee",
       "medley,clarissa",
-      null
+      "kabbes,dani"
     ],
     "homeLineup":[
       "giles,sarah",
@@ -5534,8 +5534,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kabbes,dani",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8081,7 +8081,7 @@
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":828,
     "Poss":"oglethorpe university",
@@ -8103,13 +8103,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8159,7 +8159,7 @@
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":828,
     "Poss":"oglethorpe university",
@@ -8181,13 +8181,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8237,7 +8237,7 @@
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":768,
     "Poss":"oglethorpe university",
@@ -8259,13 +8259,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8315,7 +8315,7 @@
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -8337,13 +8337,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8393,7 +8393,7 @@
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":761,
     "Poss":"oglethorpe university",
@@ -8415,13 +8415,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"medley,clarissa",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8464,14 +8464,14 @@
       "baier,heather",
       "medley,clarissa",
       "thibodeaux,michelle",
-      null
+      "bradford,dee"
     ],
     "homeLineup":[
       "macdonald,chelsea",
       "loughrey,morgan",
       "cerone,riley",
       "jones,sarah",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":761,
     "Poss":"sewanee",
@@ -8493,13 +8493,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bradford,dee",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -8542,13 +8542,13 @@
       "baier,heather",
       "medley,clarissa",
       "thibodeaux,michelle",
-      null
+      "bradford,dee"
     ],
     "homeLineup":[
       "macdonald,chelsea",
       "cerone,riley",
       "jones,sarah",
-      null,
+      "giles,sarah",
       null
     ],
     "timeSeconds":761,
@@ -8570,13 +8570,13 @@
     "homePlayer1":"macdonald,chelsea",
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"giles,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
+    "awayPlayer5":"bradford,dee",
     "playerMissing":1
   },
   {
@@ -8620,12 +8620,12 @@
       "baier,heather",
       "medley,clarissa",
       "thibodeaux,michelle",
-      null
+      "bradford,dee"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
-      null,
+      "giles,sarah",
       null,
       null
     ],
@@ -8647,14 +8647,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"cerone,riley",
     "homePlayer2":"jones,sarah",
-    "homePlayer3":null,
+    "homePlayer3":"giles,sarah",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
+    "awayPlayer5":"bradford,dee",
     "playerMissing":1
   },
   {
@@ -8703,7 +8703,7 @@
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
-      null,
+      "giles,sarah",
       null,
       null
     ],
@@ -8725,7 +8725,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"cerone,riley",
     "homePlayer2":"jones,sarah",
-    "homePlayer3":null,
+    "homePlayer3":"giles,sarah",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
@@ -8782,7 +8782,7 @@
       "cerone,riley",
       "jones,sarah",
       "weeks,katie",
-      null,
+      "giles,sarah",
       null
     ],
     "timeSeconds":761,
@@ -8804,7 +8804,7 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
-    "homePlayer4":null,
+    "homePlayer4":"giles,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
@@ -8861,7 +8861,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":761,
     "Poss":"sewanee",
@@ -8883,7 +8883,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -8939,7 +8939,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":745,
     "Poss":"sewanee",
@@ -8961,7 +8961,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9017,7 +9017,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -9039,7 +9039,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9095,7 +9095,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":736,
     "Poss":"oglethorpe university",
@@ -9117,7 +9117,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9173,7 +9173,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":732,
     "Poss":"oglethorpe university",
@@ -9195,7 +9195,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9251,7 +9251,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":715,
     "Poss":"sewanee",
@@ -9273,7 +9273,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9329,7 +9329,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -9351,7 +9351,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9407,7 +9407,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":711,
     "Poss":"sewanee",
@@ -9429,7 +9429,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9485,7 +9485,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":710,
     "Poss":"sewanee",
@@ -9507,7 +9507,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9563,7 +9563,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"oglethorpe university",
@@ -9585,7 +9585,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -9634,14 +9634,14 @@
       "medley,clarissa",
       "thibodeaux,michelle",
       "hutson,kali",
-      null
+      "baier,heather"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -9663,13 +9663,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"thibodeaux,michelle",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"baier,heather",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -9711,7 +9711,7 @@
       "miller,logan",
       "medley,clarissa",
       "thibodeaux,michelle",
-      null,
+      "hutson,kali",
       null
     ],
     "homeLineup":[
@@ -9719,7 +9719,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -9741,11 +9741,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"thibodeaux,michelle",
-    "awayPlayer4":null,
+    "awayPlayer4":"hutson,kali",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9788,7 +9788,7 @@
     "awayLineup":[
       "miller,logan",
       "thibodeaux,michelle",
-      null,
+      "medley,clarissa",
       null,
       null
     ],
@@ -9797,7 +9797,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -9819,10 +9819,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"thibodeaux,michelle",
-    "awayPlayer3":null,
+    "awayPlayer3":"medley,clarissa",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -9865,7 +9865,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
-      null,
+      "thibodeaux,michelle",
       null,
       null,
       null
@@ -9875,7 +9875,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -9897,9 +9897,9 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
+    "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -9944,7 +9944,7 @@
     "awayLineup":[
       "miller,logan",
       "ginsburg,alex",
-      null,
+      "totals",
       null,
       null
     ],
@@ -9953,7 +9953,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -9975,10 +9975,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -10023,7 +10023,7 @@
       "miller,logan",
       "ginsburg,alex",
       "rhodes,emily",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -10031,7 +10031,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -10053,11 +10053,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10102,14 +10102,14 @@
       "ginsburg,alex",
       "rhodes,emily",
       "bradford,dee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -10131,13 +10131,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -10187,7 +10187,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":706,
     "Poss":"sewanee",
@@ -10209,7 +10209,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10265,7 +10265,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":705,
     "Poss":"sewanee",
@@ -10287,7 +10287,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10343,7 +10343,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":703,
     "Poss":"sewanee",
@@ -10365,7 +10365,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10421,7 +10421,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -10443,7 +10443,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10499,7 +10499,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":698,
     "Poss":"oglethorpe university",
@@ -10521,7 +10521,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10577,7 +10577,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":697,
     "Poss":"oglethorpe university",
@@ -10599,7 +10599,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10655,7 +10655,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":695,
     "Poss":"sewanee",
@@ -10677,7 +10677,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10733,7 +10733,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -10755,7 +10755,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10811,7 +10811,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":684,
     "Poss":"sewanee",
@@ -10833,7 +10833,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10889,7 +10889,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -10911,7 +10911,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -10967,7 +10967,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":674,
     "Poss":"sewanee",
@@ -10989,7 +10989,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -11045,7 +11045,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -11067,7 +11067,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -11123,7 +11123,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"oglethorpe university",
@@ -11145,7 +11145,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"rhodes,emily",
@@ -11194,14 +11194,14 @@
       "rhodes,emily",
       "bradford,dee",
       "elliott,claire",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -11271,7 +11271,7 @@
       "rhodes,emily",
       "bradford,dee",
       "elliott,claire",
-      null,
+      "miller,logan",
       null
     ],
     "homeLineup":[
@@ -11279,7 +11279,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11301,11 +11301,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"rhodes,emily",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"elliott,claire",
-    "awayPlayer4":null,
+    "awayPlayer4":"miller,logan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11348,7 +11348,7 @@
     "awayLineup":[
       "bradford,dee",
       "elliott,claire",
-      null,
+      "rhodes,emily",
       null,
       null
     ],
@@ -11357,7 +11357,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11379,10 +11379,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"elliott,claire",
-    "awayPlayer3":null,
+    "awayPlayer3":"rhodes,emily",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -11425,7 +11425,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "elliott,claire",
       null,
       null,
       null
@@ -11435,7 +11435,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11457,9 +11457,9 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"elliott,claire",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -11503,7 +11503,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "elliott,claire",
       null,
       null,
       null
@@ -11513,7 +11513,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11535,9 +11535,9 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"elliott,claire",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -11582,7 +11582,7 @@
     "awayLineup":[
       "bradford,dee",
       "baier,heather",
-      null,
+      "totals",
       null,
       null
     ],
@@ -11591,7 +11591,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11613,10 +11613,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -11661,7 +11661,7 @@
       "bradford,dee",
       "baier,heather",
       "medley,clarissa",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -11669,7 +11669,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11691,11 +11691,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11740,14 +11740,14 @@
       "baier,heather",
       "medley,clarissa",
       "hutson,kali",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11769,13 +11769,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -11825,7 +11825,7 @@
       "jones,sarah",
       "weeks,katie",
       "rogers,ky'laine",
-      "jones,sarah(fastbreak)"
+      "giles,sarah"
     ],
     "timeSeconds":662,
     "Poss":"sewanee",
@@ -11847,7 +11847,7 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"jones,sarah(fastbreak)",
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
@@ -12137,7 +12137,7 @@
       "weeks,katie",
       "rogers,ky'laine",
       "clark,deanna",
-      null
+      "jones,sarah"
     ],
     "timeSeconds":635,
     "Poss":"sewanee",
@@ -12159,13 +12159,13 @@
     "homePlayer2":"weeks,katie",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"clark,deanna",
-    "homePlayer5":null,
+    "homePlayer5":"jones,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"hutson,kali",
     "awayPlayer5":"kabbes,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -13385,7 +13385,7 @@
       "weeks,katie",
       "rogers,ky'laine",
       "reeves,kelley",
-      null
+      "clark,deanna"
     ],
     "timeSeconds":603,
     "Poss":"sewanee",
@@ -13407,13 +13407,13 @@
     "homePlayer2":"weeks,katie",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"reeves,kelley",
-    "homePlayer5":null,
+    "homePlayer5":"clark,deanna",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"hutson,kali",
     "awayPlayer5":"kabbes,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -14080,7 +14080,7 @@
       "baier,heather",
       "hutson,kali",
       "kabbes,dani",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -14114,8 +14114,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -14157,7 +14157,7 @@
       "bradford,dee",
       "baier,heather",
       "kabbes,dani",
-      null,
+      "hutson,kali",
       null
     ],
     "homeLineup":[
@@ -14191,7 +14191,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"hutson,kali",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14236,7 +14236,7 @@
       "baier,heather",
       "kabbes,dani",
       "rhodes,emily",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -14270,8 +14270,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"rhodes,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -15959,7 +15959,7 @@
       "weeks,katie",
       "reeves,kelley",
       "giles,sarah",
-      null
+      "rogers,ky'laine"
     ],
     "timeSeconds":436,
     "Poss":"oglethorpe university",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"weeks,katie",
     "homePlayer3":"reeves,kelley",
     "homePlayer4":"giles,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"rhodes,emily",
     "awayPlayer5":"miller,logan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -16264,7 +16264,7 @@
       "kabbes,dani",
       "rhodes,emily",
       "miller,logan",
-      null
+      "baier,heather"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -16298,8 +16298,8 @@
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"rhodes,emily",
     "awayPlayer4":"miller,logan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"baier,heather",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -16341,7 +16341,7 @@
       "bradford,dee",
       "kabbes,dani",
       "miller,logan",
-      null,
+      "rhodes,emily",
       null
     ],
     "homeLineup":[
@@ -16375,7 +16375,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"rhodes,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16414,6 +16414,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"kabbes,dani",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bradford,dee",
+      "miller,logan",
+      "kabbes,dani",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "cerone,riley",
+      "weeks,katie",
+      "reeves,kelley",
+      "giles,sarah",
+      "loughrey,morgan"
+    ],
+    "timeSeconds":432,
+    "Poss":"sewanee",
+    "possNum":30,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":57,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"cerone,riley",
+    "homePlayer2":"weeks,katie",
+    "homePlayer3":"reeves,kelley",
+    "homePlayer4":"giles,sarah",
+    "homePlayer5":"loughrey,morgan",
+    "awayPlayer1":"bradford,dee",
+    "awayPlayer2":"miller,logan",
+    "awayPlayer3":"kabbes,dani",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"07:12",
+    "awayPlay":"SUB OUT by MILLER,LOGAN",
+    "awayTeamScore":"15",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MILLER,LOGAN",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"miller,logan",
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
@@ -16479,84 +16557,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"07:12",
-    "awayPlay":"SUB OUT by MILLER,LOGAN",
-    "awayTeamScore":"15",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MILLER,LOGAN",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"miller,logan",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bradford,dee",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "cerone,riley",
-      "weeks,katie",
-      "reeves,kelley",
-      "giles,sarah",
-      "loughrey,morgan"
-    ],
-    "timeSeconds":432,
-    "Poss":"sewanee",
-    "possNum":30,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":57,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"cerone,riley",
-    "homePlayer2":"weeks,katie",
-    "homePlayer3":"reeves,kelley",
-    "homePlayer4":"giles,sarah",
-    "homePlayer5":"loughrey,morgan",
-    "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"07:12",
     "awayPlay":"",
     "awayTeamScore":"15",
     "playTeamIndicator":"",
@@ -16573,7 +16573,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "miller,logan",
       null,
       null,
       null
@@ -16583,7 +16583,7 @@
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":432,
     "Poss":"sewanee",
@@ -16605,9 +16605,9 @@
     "homePlayer2":"weeks,katie",
     "homePlayer3":"reeves,kelley",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"miller,logan",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -16651,7 +16651,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "miller,logan",
       null,
       null,
       null
@@ -16660,7 +16660,7 @@
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null,
+      "cerone,riley",
       null
     ],
     "timeSeconds":432,
@@ -16682,10 +16682,10 @@
     "homePlayer1":"weeks,katie",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"cerone,riley",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"miller,logan",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -16730,7 +16730,7 @@
     "awayLineup":[
       "bradford,dee",
       "ginsburg,alex",
-      null,
+      "totals",
       null,
       null
     ],
@@ -16738,7 +16738,7 @@
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null,
+      "cerone,riley",
       null
     ],
     "timeSeconds":432,
@@ -16760,11 +16760,11 @@
     "homePlayer1":"weeks,katie",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"cerone,riley",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -16809,14 +16809,14 @@
       "bradford,dee",
       "ginsburg,alex",
       "elliott,claire",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null,
+      "cerone,riley",
       null
     ],
     "timeSeconds":432,
@@ -16838,12 +16838,12 @@
     "homePlayer1":"weeks,katie",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"cerone,riley",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16888,13 +16888,13 @@
       "ginsburg,alex",
       "elliott,claire",
       "hutson,kali",
-      null
+      "totals"
     ],
     "homeLineup":[
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null,
+      "cerone,riley",
       null
     ],
     "timeSeconds":432,
@@ -16916,13 +16916,13 @@
     "homePlayer1":"weeks,katie",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"cerone,riley",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -16972,7 +16972,7 @@
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
-      null,
+      "cerone,riley",
       null
     ],
     "timeSeconds":432,
@@ -16994,7 +16994,7 @@
     "homePlayer1":"weeks,katie",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"cerone,riley",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
@@ -17051,7 +17051,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "jones,sarah",
-      null
+      "totals"
     ],
     "timeSeconds":432,
     "Poss":"sewanee",
@@ -17073,13 +17073,13 @@
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"hutson,kali",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -17590,7 +17590,7 @@
       "elliott,claire",
       "hutson,kali",
       "thibodeaux,michelle",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "weeks,katie",
@@ -17624,8 +17624,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -17662,6 +17662,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"elliott,claire",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bradford,dee",
+      "hutson,kali",
+      "thibodeaux,michelle",
+      "elliott,claire",
+      null
+    ],
+    "homeLineup":[
+      "weeks,katie",
+      "reeves,kelley",
+      "loughrey,morgan",
+      "jones,sarah",
+      "rogers,ky'laine"
+    ],
+    "timeSeconds":396,
+    "Poss":"sewanee",
+    "possNum":32,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":60,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"weeks,katie",
+    "homePlayer2":"reeves,kelley",
+    "homePlayer3":"loughrey,morgan",
+    "homePlayer4":"jones,sarah",
+    "homePlayer5":"rogers,ky'laine",
+    "awayPlayer1":"bradford,dee",
+    "awayPlayer2":"hutson,kali",
+    "awayPlayer3":"thibodeaux,michelle",
+    "awayPlayer4":"elliott,claire",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"06:36",
+    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
+    "awayTeamScore":"17",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"thibodeaux,michelle",
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
@@ -17727,84 +17805,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"06:36",
-    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
-    "awayTeamScore":"17",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"thibodeaux,michelle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bradford,dee",
-      "hutson,kali",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "weeks,katie",
-      "reeves,kelley",
-      "loughrey,morgan",
-      "jones,sarah",
-      "rogers,ky'laine"
-    ],
-    "timeSeconds":396,
-    "Poss":"sewanee",
-    "possNum":32,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":60,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"weeks,katie",
-    "homePlayer2":"reeves,kelley",
-    "homePlayer3":"loughrey,morgan",
-    "homePlayer4":"jones,sarah",
-    "homePlayer5":"rogers,ky'laine",
-    "awayPlayer1":"bradford,dee",
-    "awayPlayer2":"hutson,kali",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"06:36",
     "awayPlay":"SUB OUT by BRADFORD,DEE",
     "awayTeamScore":"17",
     "playTeamIndicator":"",
@@ -17821,7 +17821,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
-      null,
+      "bradford,dee",
       null,
       null,
       null
@@ -17855,7 +17855,7 @@
     "homePlayer4":"jones,sarah",
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
+    "awayPlayer2":"bradford,dee",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -17900,7 +17900,7 @@
     "awayLineup":[
       "hutson,kali",
       "baier,heather",
-      null,
+      "totals",
       null,
       null
     ],
@@ -17934,7 +17934,7 @@
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"baier,heather",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -17979,7 +17979,7 @@
       "hutson,kali",
       "baier,heather",
       "miller,logan",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -18013,7 +18013,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18058,7 +18058,7 @@
       "baier,heather",
       "miller,logan",
       "kabbes,dani",
-      null
+      "totals"
     ],
     "homeLineup":[
       "weeks,katie",
@@ -18092,8 +18092,8 @@
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"miller,logan",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -19540,7 +19540,7 @@
       "miller,logan",
       "kabbes,dani",
       "medley,clarissa",
-      null
+      "hutson,kali"
     ],
     "homeLineup":[
       "weeks,katie",
@@ -19574,8 +19574,8 @@
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hutson,kali",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -19612,6 +19612,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"baier,heather",
+    "pointsEarned":"",
+    "awayLineup":[
+      "miller,logan",
+      "kabbes,dani",
+      "medley,clarissa",
+      "baier,heather",
+      null
+    ],
+    "homeLineup":[
+      "weeks,katie",
+      "reeves,kelley",
+      "loughrey,morgan",
+      "jones,sarah",
+      "rogers,ky'laine"
+    ],
+    "timeSeconds":320,
+    "Poss":"oglethorpe university",
+    "possNum":33,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":67,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"weeks,katie",
+    "homePlayer2":"reeves,kelley",
+    "homePlayer3":"loughrey,morgan",
+    "homePlayer4":"jones,sarah",
+    "homePlayer5":"rogers,ky'laine",
+    "awayPlayer1":"miller,logan",
+    "awayPlayer2":"kabbes,dani",
+    "awayPlayer3":"medley,clarissa",
+    "awayPlayer4":"baier,heather",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"05:20",
+    "awayPlay":"SUB OUT by MEDLEY,CLARISSA",
+    "awayTeamScore":"20",
+    "playTeamIndicator":"",
+    "homeTeamScore":"26 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MEDLEY,CLARISSA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"medley,clarissa",
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
@@ -19677,24 +19755,24 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"05:20",
-    "awayPlay":"SUB OUT by MEDLEY,CLARISSA",
+    "awayPlay":"",
     "awayTeamScore":"20",
     "playTeamIndicator":"",
     "homeTeamScore":"26 ",
-    "homePlay":"",
+    "homePlay":"SUB OUT by ROGERS,KY'LAINE",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by MEDLEY,CLARISSA",
+    "Play":"SUB OUT by ROGERS,KY'LAINE",
     "Period":"1",
     "playType":"subbing out",
     "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"medley,clarissa",
+    "Team":"oglethorpe university",
+    "Player":"rogers,ky'laine",
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
       "kabbes,dani",
-      null,
+      "medley,clarissa",
       null,
       null
     ],
@@ -19728,85 +19806,7 @@
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"kabbes,dani",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"05:20",
-    "awayPlay":"",
-    "awayTeamScore":"20",
-    "playTeamIndicator":"",
-    "homeTeamScore":"26 ",
-    "homePlay":"SUB OUT by ROGERS,KY'LAINE",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ROGERS,KY'LAINE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe university",
-    "Player":"rogers,ky'laine",
-    "pointsEarned":"",
-    "awayLineup":[
-      "miller,logan",
-      "kabbes,dani",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "weeks,katie",
-      "reeves,kelley",
-      "loughrey,morgan",
-      "jones,sarah",
-      null
-    ],
-    "timeSeconds":320,
-    "Poss":"oglethorpe university",
-    "possNum":33,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":67,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"weeks,katie",
-    "homePlayer2":"reeves,kelley",
-    "homePlayer3":"loughrey,morgan",
-    "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
-    "awayPlayer1":"miller,logan",
-    "awayPlayer2":"kabbes,dani",
-    "awayPlayer3":null,
+    "awayPlayer3":"medley,clarissa",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -19851,7 +19851,7 @@
       "miller,logan",
       "kabbes,dani",
       "elliott,claire",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -19859,7 +19859,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "jones,sarah",
-      null
+      "rogers,ky'laine"
     ],
     "timeSeconds":320,
     "Poss":"oglethorpe university",
@@ -19881,11 +19881,11 @@
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"elliott,claire",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -19930,14 +19930,14 @@
       "kabbes,dani",
       "elliott,claire",
       "ginsburg,alex",
-      null
+      "totals"
     ],
     "homeLineup":[
       "weeks,katie",
       "reeves,kelley",
       "loughrey,morgan",
       "jones,sarah",
-      null
+      "rogers,ky'laine"
     ],
     "timeSeconds":320,
     "Poss":"oglethorpe university",
@@ -19959,13 +19959,13 @@
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -20015,7 +20015,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "jones,sarah",
-      null
+      "rogers,ky'laine"
     ],
     "timeSeconds":320,
     "Poss":"oglethorpe university",
@@ -20037,13 +20037,13 @@
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"loughrey,morgan",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":"bradford,dee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -20242,7 +20242,7 @@
       "elliott,claire",
       "ginsburg,alex",
       "bradford,dee",
-      null
+      "kabbes,dani"
     ],
     "homeLineup":[
       "weeks,katie",
@@ -20276,8 +20276,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kabbes,dani",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -21568,7 +21568,7 @@
       "ginsburg,alex",
       "bradford,dee",
       "thibodeaux,michelle",
-      null
+      "elliott,claire"
     ],
     "homeLineup":[
       "weeks,katie",
@@ -21602,8 +21602,8 @@
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"elliott,claire",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -21640,6 +21640,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"ginsburg,alex",
+    "pointsEarned":"",
+    "awayLineup":[
+      "miller,logan",
+      "bradford,dee",
+      "thibodeaux,michelle",
+      "ginsburg,alex",
+      null
+    ],
+    "homeLineup":[
+      "weeks,katie",
+      "reeves,kelley",
+      "loughrey,morgan",
+      "jones,sarah",
+      "giles,sarah"
+    ],
+    "timeSeconds":220,
+    "Poss":"sewanee",
+    "possNum":36,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":73,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"weeks,katie",
+    "homePlayer2":"reeves,kelley",
+    "homePlayer3":"loughrey,morgan",
+    "homePlayer4":"jones,sarah",
+    "homePlayer5":"giles,sarah",
+    "awayPlayer1":"miller,logan",
+    "awayPlayer2":"bradford,dee",
+    "awayPlayer3":"thibodeaux,michelle",
+    "awayPlayer4":"ginsburg,alex",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"03:40",
+    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
+    "awayTeamScore":"25",
+    "playTeamIndicator":"",
+    "homeTeamScore":"30 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"thibodeaux,michelle",
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
@@ -21705,84 +21783,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"03:40",
-    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
-    "awayTeamScore":"25",
-    "playTeamIndicator":"",
-    "homeTeamScore":"30 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"thibodeaux,michelle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "miller,logan",
-      "bradford,dee",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "weeks,katie",
-      "reeves,kelley",
-      "loughrey,morgan",
-      "jones,sarah",
-      "giles,sarah"
-    ],
-    "timeSeconds":220,
-    "Poss":"sewanee",
-    "possNum":36,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":73,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"weeks,katie",
-    "homePlayer2":"reeves,kelley",
-    "homePlayer3":"loughrey,morgan",
-    "homePlayer4":"jones,sarah",
-    "homePlayer5":"giles,sarah",
-    "awayPlayer1":"miller,logan",
-    "awayPlayer2":"bradford,dee",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"03:40",
     "awayPlay":"SUB OUT by MILLER,LOGAN",
     "awayTeamScore":"25",
     "playTeamIndicator":"",
@@ -21799,7 +21799,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "miller,logan",
       null,
       null,
       null
@@ -21833,7 +21833,7 @@
     "homePlayer4":"jones,sarah",
     "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"miller,logan",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -21877,7 +21877,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "miller,logan",
       null,
       null,
       null
@@ -21887,7 +21887,7 @@
       "loughrey,morgan",
       "jones,sarah",
       "giles,sarah",
-      null
+      "weeks,katie"
     ],
     "timeSeconds":220,
     "Poss":"sewanee",
@@ -21909,9 +21909,9 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"giles,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"weeks,katie",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"miller,logan",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -21955,7 +21955,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "miller,logan",
       null,
       null,
       null
@@ -21964,7 +21964,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":220,
@@ -21986,10 +21986,10 @@
     "homePlayer1":"reeves,kelley",
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"miller,logan",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -22034,7 +22034,7 @@
     "awayLineup":[
       "bradford,dee",
       "medley,clarissa",
-      null,
+      "totals",
       null,
       null
     ],
@@ -22042,7 +22042,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":220,
@@ -22064,11 +22064,11 @@
     "homePlayer1":"reeves,kelley",
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -22113,14 +22113,14 @@
       "bradford,dee",
       "medley,clarissa",
       "hutson,kali",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "reeves,kelley",
       "loughrey,morgan",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":220,
@@ -22142,12 +22142,12 @@
     "homePlayer1":"reeves,kelley",
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22192,13 +22192,13 @@
       "medley,clarissa",
       "hutson,kali",
       "baier,heather",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
       "loughrey,morgan",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":220,
@@ -22220,13 +22220,13 @@
     "homePlayer1":"reeves,kelley",
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"baier,heather",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -22276,7 +22276,7 @@
       "reeves,kelley",
       "loughrey,morgan",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":220,
@@ -22298,7 +22298,7 @@
     "homePlayer1":"reeves,kelley",
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
@@ -22355,7 +22355,7 @@
       "loughrey,morgan",
       "giles,sarah",
       "macdonald,chelsea",
-      null
+      "totals"
     ],
     "timeSeconds":220,
     "Poss":"sewanee",
@@ -22377,13 +22377,13 @@
     "homePlayer2":"loughrey,morgan",
     "homePlayer3":"giles,sarah",
     "homePlayer4":"macdonald,chelsea",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"baier,heather",
     "awayPlayer5":"kabbes,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -22816,7 +22816,7 @@
       "hutson,kali",
       "baier,heather",
       "kabbes,dani",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -22850,8 +22850,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"baier,heather",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -22893,7 +22893,7 @@
       "bradford,dee",
       "hutson,kali",
       "kabbes,dani",
-      null,
+      "baier,heather",
       null
     ],
     "homeLineup":[
@@ -22927,7 +22927,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"baier,heather",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22966,6 +22966,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"bradford,dee",
+    "pointsEarned":"",
+    "awayLineup":[
+      "hutson,kali",
+      "kabbes,dani",
+      "bradford,dee",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "reeves,kelley",
+      "loughrey,morgan",
+      "giles,sarah",
+      "macdonald,chelsea",
+      "cerone,riley"
+    ],
+    "timeSeconds":177,
+    "Poss":"oglethorpe university",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":76,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"reeves,kelley",
+    "homePlayer2":"loughrey,morgan",
+    "homePlayer3":"giles,sarah",
+    "homePlayer4":"macdonald,chelsea",
+    "homePlayer5":"cerone,riley",
+    "awayPlayer1":"hutson,kali",
+    "awayPlayer2":"kabbes,dani",
+    "awayPlayer3":"bradford,dee",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"02:57",
+    "awayPlay":"SUB OUT by KABBES,DANI",
+    "awayTeamScore":"28",
+    "playTeamIndicator":"",
+    "homeTeamScore":"30 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KABBES,DANI",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"kabbes,dani",
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
@@ -23031,84 +23109,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"02:57",
-    "awayPlay":"SUB OUT by KABBES,DANI",
-    "awayTeamScore":"28",
-    "playTeamIndicator":"",
-    "homeTeamScore":"30 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KABBES,DANI",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"kabbes,dani",
-    "pointsEarned":"",
-    "awayLineup":[
-      "hutson,kali",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "reeves,kelley",
-      "loughrey,morgan",
-      "giles,sarah",
-      "macdonald,chelsea",
-      "cerone,riley"
-    ],
-    "timeSeconds":177,
-    "Poss":"oglethorpe university",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":76,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"reeves,kelley",
-    "homePlayer2":"loughrey,morgan",
-    "homePlayer3":"giles,sarah",
-    "homePlayer4":"macdonald,chelsea",
-    "homePlayer5":"cerone,riley",
-    "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"02:57",
     "awayPlay":"SUB IN by RHODES,EMILY",
     "awayTeamScore":"28",
     "playTeamIndicator":"",
@@ -23126,7 +23126,7 @@
     "awayLineup":[
       "hutson,kali",
       "rhodes,emily",
-      null,
+      "totals",
       null,
       null
     ],
@@ -23160,7 +23160,7 @@
     "homePlayer5":"cerone,riley",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"rhodes,emily",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -23205,7 +23205,7 @@
       "hutson,kali",
       "rhodes,emily",
       "ginsburg,alex",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -23239,7 +23239,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -23284,7 +23284,7 @@
       "rhodes,emily",
       "ginsburg,alex",
       "elliott,claire",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -23318,8 +23318,8 @@
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -23908,7 +23908,7 @@
       "ginsburg,alex",
       "elliott,claire",
       "miller,logan",
-      null
+      "rhodes,emily"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -23942,8 +23942,8 @@
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"miller,logan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rhodes,emily",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -23985,7 +23985,7 @@
       "hutson,kali",
       "elliott,claire",
       "miller,logan",
-      null,
+      "ginsburg,alex",
       null
     ],
     "homeLineup":[
@@ -24019,7 +24019,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24062,7 +24062,7 @@
     "awayLineup":[
       "hutson,kali",
       "miller,logan",
-      null,
+      "elliott,claire",
       null,
       null
     ],
@@ -24096,7 +24096,7 @@
     "homePlayer5":"cerone,riley",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
-    "awayPlayer3":null,
+    "awayPlayer3":"elliott,claire",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24140,7 +24140,7 @@
     "awayLineup":[
       "hutson,kali",
       "miller,logan",
-      null,
+      "elliott,claire",
       null,
       null
     ],
@@ -24149,7 +24149,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "loughrey,morgan"
     ],
     "timeSeconds":145,
     "Poss":"oglethorpe university",
@@ -24171,10 +24171,10 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
-    "awayPlayer3":null,
+    "awayPlayer3":"elliott,claire",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24219,7 +24219,7 @@
       "hutson,kali",
       "miller,logan",
       "medley,clarissa",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -24227,7 +24227,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "loughrey,morgan"
     ],
     "timeSeconds":145,
     "Poss":"oglethorpe university",
@@ -24249,11 +24249,11 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"medley,clarissa",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24298,14 +24298,14 @@
       "miller,logan",
       "medley,clarissa",
       "bradford,dee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "loughrey,morgan"
     ],
     "timeSeconds":145,
     "Poss":"oglethorpe university",
@@ -24327,13 +24327,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -24383,7 +24383,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "loughrey,morgan"
     ],
     "timeSeconds":145,
     "Poss":"oglethorpe university",
@@ -24405,13 +24405,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"medley,clarissa",
     "awayPlayer4":"bradford,dee",
     "awayPlayer5":"kabbes,dani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -25234,7 +25234,7 @@
       "medley,clarissa",
       "bradford,dee",
       "kabbes,dani",
-      null
+      "hutson,kali"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -25268,8 +25268,8 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hutson,kali",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -26404,7 +26404,7 @@
       "bradford,dee",
       "kabbes,dani",
       "elliott,claire",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -26438,8 +26438,8 @@
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -26482,14 +26482,14 @@
       "bradford,dee",
       "kabbes,dani",
       "elliott,claire",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "reeves,kelley",
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "weeks,katie"
     ],
     "timeSeconds":32,
     "Poss":"oglethorpe university",
@@ -26511,13 +26511,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"weeks,katie",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -26567,7 +26567,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "cerone,riley",
-      null
+      "weeks,katie"
     ],
     "timeSeconds":32,
     "Poss":"oglethorpe university",
@@ -26589,13 +26589,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"cerone,riley",
-    "homePlayer5":null,
+    "homePlayer5":"weeks,katie",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"ginsburg,alex",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -27886,7 +27886,7 @@
       "bradford,dee",
       "elliott,claire",
       "ginsburg,alex",
-      null
+      "kabbes,dani"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -27920,8 +27920,8 @@
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kabbes,dani",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -27964,7 +27964,7 @@
       "bradford,dee",
       "elliott,claire",
       "ginsburg,alex",
-      null
+      "kabbes,dani"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -27998,8 +27998,8 @@
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kabbes,dani",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -29056,7 +29056,7 @@
       "bradford,dee",
       "ginsburg,alex",
       "thibodeaux,michelle",
-      null
+      "elliott,claire"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -29090,8 +29090,8 @@
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"elliott,claire",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -29133,7 +29133,7 @@
       "miller,logan",
       "bradford,dee",
       "thibodeaux,michelle",
-      null,
+      "ginsburg,alex",
       null
     ],
     "homeLineup":[
@@ -29167,7 +29167,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"thibodeaux,michelle",
-    "awayPlayer4":null,
+    "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29206,6 +29206,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"miller,logan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bradford,dee",
+      "thibodeaux,michelle",
+      "miller,logan",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "reeves,kelley",
+      "giles,sarah",
+      "macdonald,chelsea",
+      "cerone,riley",
+      "jones,sarah"
+    ],
+    "timeSeconds":1057,
+    "Poss":"oglethorpe university",
+    "possNum":43,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":97,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"reeves,kelley",
+    "homePlayer2":"giles,sarah",
+    "homePlayer3":"macdonald,chelsea",
+    "homePlayer4":"cerone,riley",
+    "homePlayer5":"jones,sarah",
+    "awayPlayer1":"bradford,dee",
+    "awayPlayer2":"thibodeaux,michelle",
+    "awayPlayer3":"miller,logan",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"17:37",
+    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
+    "awayTeamScore":"34",
+    "playTeamIndicator":"",
+    "homeTeamScore":"45 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"thibodeaux,michelle",
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
@@ -29271,84 +29349,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"17:37",
-    "awayPlay":"SUB OUT by THIBODEAUX,MICHELLE",
-    "awayTeamScore":"34",
-    "playTeamIndicator":"",
-    "homeTeamScore":"45 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by THIBODEAUX,MICHELLE",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"thibodeaux,michelle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bradford,dee",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "reeves,kelley",
-      "giles,sarah",
-      "macdonald,chelsea",
-      "cerone,riley",
-      "jones,sarah"
-    ],
-    "timeSeconds":1057,
-    "Poss":"oglethorpe university",
-    "possNum":43,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":97,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"reeves,kelley",
-    "homePlayer2":"giles,sarah",
-    "homePlayer3":"macdonald,chelsea",
-    "homePlayer4":"cerone,riley",
-    "homePlayer5":"jones,sarah",
-    "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"17:37",
     "awayPlay":"SUB IN by MEDLEY,CLARISSA",
     "awayTeamScore":"34",
     "playTeamIndicator":"",
@@ -29366,7 +29366,7 @@
     "awayLineup":[
       "bradford,dee",
       "medley,clarissa",
-      null,
+      "totals",
       null,
       null
     ],
@@ -29400,7 +29400,7 @@
     "homePlayer5":"jones,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -29445,7 +29445,7 @@
       "bradford,dee",
       "medley,clarissa",
       "hutson,kali",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -29479,7 +29479,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29524,7 +29524,7 @@
       "medley,clarissa",
       "hutson,kali",
       "baier,heather",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -29558,8 +29558,8 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"baier,heather",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -30538,7 +30538,7 @@
       "hutson,kali",
       "baier,heather",
       "kabbes,dani",
-      null
+      "bradford,dee"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -30572,8 +30572,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"baier,heather",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bradford,dee",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -30615,7 +30615,7 @@
       "hutson,kali",
       "baier,heather",
       "kabbes,dani",
-      null,
+      "medley,clarissa",
       null
     ],
     "homeLineup":[
@@ -30649,7 +30649,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"medley,clarissa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -30688,6 +30688,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"baier,heather",
+    "pointsEarned":"",
+    "awayLineup":[
+      "hutson,kali",
+      "kabbes,dani",
+      "baier,heather",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "reeves,kelley",
+      "giles,sarah",
+      "macdonald,chelsea",
+      "cerone,riley",
+      "jones,sarah"
+    ],
+    "timeSeconds":1003,
+    "Poss":"oglethorpe university",
+    "possNum":45,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":101,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"reeves,kelley",
+    "homePlayer2":"giles,sarah",
+    "homePlayer3":"macdonald,chelsea",
+    "homePlayer4":"cerone,riley",
+    "homePlayer5":"jones,sarah",
+    "awayPlayer1":"hutson,kali",
+    "awayPlayer2":"kabbes,dani",
+    "awayPlayer3":"baier,heather",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"16:43",
+    "awayPlay":"SUB OUT by KABBES,DANI",
+    "awayTeamScore":"36",
+    "playTeamIndicator":"",
+    "homeTeamScore":"47 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by KABBES,DANI",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"kabbes,dani",
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
@@ -30753,84 +30831,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"16:43",
-    "awayPlay":"SUB OUT by KABBES,DANI",
-    "awayTeamScore":"36",
-    "playTeamIndicator":"",
-    "homeTeamScore":"47 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by KABBES,DANI",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"kabbes,dani",
-    "pointsEarned":"",
-    "awayLineup":[
-      "hutson,kali",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "reeves,kelley",
-      "giles,sarah",
-      "macdonald,chelsea",
-      "cerone,riley",
-      "jones,sarah"
-    ],
-    "timeSeconds":1003,
-    "Poss":"oglethorpe university",
-    "possNum":45,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":101,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"reeves,kelley",
-    "homePlayer2":"giles,sarah",
-    "homePlayer3":"macdonald,chelsea",
-    "homePlayer4":"cerone,riley",
-    "homePlayer5":"jones,sarah",
-    "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"16:43",
     "awayPlay":"SUB IN by THIBODEAUX,MICHELLE",
     "awayTeamScore":"36",
     "playTeamIndicator":"",
@@ -30848,7 +30848,7 @@
     "awayLineup":[
       "hutson,kali",
       "thibodeaux,michelle",
-      null,
+      "totals",
       null,
       null
     ],
@@ -30882,7 +30882,7 @@
     "homePlayer5":"jones,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"thibodeaux,michelle",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -30927,7 +30927,7 @@
       "hutson,kali",
       "thibodeaux,michelle",
       "ginsburg,alex",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -30961,7 +30961,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":"ginsburg,alex",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31006,7 +31006,7 @@
       "thibodeaux,michelle",
       "ginsburg,alex",
       "elliott,claire",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -31040,8 +31040,8 @@
     "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -31403,7 +31403,7 @@
       "giles,sarah",
       "cerone,riley",
       "jones,sarah",
-      null
+      "macdonald,chelsea"
     ],
     "timeSeconds":980,
     "Poss":"sewanee",
@@ -31425,13 +31425,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"cerone,riley",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"macdonald,chelsea",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"miller,logan",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -31786,7 +31786,7 @@
       "ginsburg,alex",
       "elliott,claire",
       "miller,logan",
-      null
+      "thibodeaux,michelle"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -31820,8 +31820,8 @@
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"miller,logan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"thibodeaux,michelle",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -31863,7 +31863,7 @@
       "hutson,kali",
       "elliott,claire",
       "miller,logan",
-      null,
+      "ginsburg,alex",
       null
     ],
     "homeLineup":[
@@ -31897,7 +31897,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"miller,logan",
-    "awayPlayer4":null,
+    "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31940,7 +31940,7 @@
     "awayLineup":[
       "hutson,kali",
       "miller,logan",
-      null,
+      "elliott,claire",
       null,
       null
     ],
@@ -31974,7 +31974,7 @@
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
-    "awayPlayer3":null,
+    "awayPlayer3":"elliott,claire",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -32017,7 +32017,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
-      null,
+      "hutson,kali",
       null,
       null,
       null
@@ -32051,7 +32051,7 @@
     "homePlayer4":"jones,sarah",
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
+    "awayPlayer2":"hutson,kali",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -32096,7 +32096,7 @@
     "awayLineup":[
       "miller,logan",
       "medley,clarissa",
-      null,
+      "totals",
       null,
       null
     ],
@@ -32130,7 +32130,7 @@
     "homePlayer5":"rogers,ky'laine",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -32175,7 +32175,7 @@
       "miller,logan",
       "medley,clarissa",
       "baier,heather",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -32209,7 +32209,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32254,7 +32254,7 @@
       "medley,clarissa",
       "baier,heather",
       "bradford,dee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -32288,8 +32288,8 @@
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -32729,7 +32729,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":951,
     "Poss":"oglethorpe university",
@@ -32751,7 +32751,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -32807,7 +32807,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":951,
     "Poss":"oglethorpe university",
@@ -32829,7 +32829,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -32885,7 +32885,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":936,
     "Poss":"oglethorpe university",
@@ -32907,7 +32907,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -32963,7 +32963,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":931,
     "Poss":"oglethorpe university",
@@ -32985,7 +32985,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33041,7 +33041,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -33063,7 +33063,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33119,7 +33119,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":917,
     "Poss":"sewanee",
@@ -33141,7 +33141,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33197,7 +33197,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -33219,7 +33219,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33275,7 +33275,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":909,
     "Poss":"oglethorpe university",
@@ -33297,7 +33297,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33353,7 +33353,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -33375,7 +33375,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33431,7 +33431,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":891,
     "Poss":"oglethorpe university",
@@ -33453,7 +33453,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33509,7 +33509,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -33531,7 +33531,7 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"baier,heather",
@@ -33580,14 +33580,14 @@
       "baier,heather",
       "bradford,dee",
       "kabbes,dani",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "giles,sarah",
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33609,13 +33609,13 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -33657,7 +33657,7 @@
       "miller,logan",
       "bradford,dee",
       "kabbes,dani",
-      null,
+      "baier,heather",
       null
     ],
     "homeLineup":[
@@ -33665,7 +33665,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33687,11 +33687,11 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"baier,heather",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -33734,7 +33734,7 @@
     "awayLineup":[
       "bradford,dee",
       "kabbes,dani",
-      null,
+      "miller,logan",
       null,
       null
     ],
@@ -33743,7 +33743,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33765,10 +33765,10 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"kabbes,dani",
-    "awayPlayer3":null,
+    "awayPlayer3":"miller,logan",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -33811,7 +33811,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null,
       null,
       null
@@ -33821,7 +33821,7 @@
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
-      "giles,sarah(fastbreak)"
+      "reeves,kelley"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33843,9 +33843,9 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"jones,sarah",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":"giles,sarah(fastbreak)",
+    "homePlayer5":"reeves,kelley",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"kabbes,dani",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -33889,7 +33889,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null,
       null,
       null
@@ -33899,7 +33899,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33921,9 +33921,9 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"kabbes,dani",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -33968,7 +33968,7 @@
     "awayLineup":[
       "bradford,dee",
       "rhodes,emily",
-      null,
+      "totals",
       null,
       null
     ],
@@ -33977,7 +33977,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -33999,10 +33999,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34047,7 +34047,7 @@
       "bradford,dee",
       "rhodes,emily",
       "ginsburg,alex",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -34055,7 +34055,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -34077,11 +34077,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34126,14 +34126,14 @@
       "rhodes,emily",
       "ginsburg,alex",
       "elliott,claire",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -34155,13 +34155,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34211,7 +34211,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -34233,13 +34233,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34289,7 +34289,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":881,
     "Poss":"oglethorpe university",
@@ -34311,13 +34311,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34367,7 +34367,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":874,
     "Poss":"oglethorpe university",
@@ -34389,13 +34389,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34445,7 +34445,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -34467,13 +34467,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34523,7 +34523,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":863,
     "Poss":"sewanee",
@@ -34545,13 +34545,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34601,7 +34601,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"sewanee",
@@ -34623,13 +34623,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34679,7 +34679,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":853,
     "Poss":"oglethorpe university",
@@ -34701,13 +34701,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34757,7 +34757,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":846,
     "Poss":"oglethorpe university",
@@ -34779,13 +34779,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34835,7 +34835,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":"",
     "Poss":"oglethorpe university",
@@ -34857,13 +34857,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34913,7 +34913,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":839,
     "Poss":"oglethorpe university",
@@ -34935,13 +34935,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -34991,7 +34991,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":839,
     "Poss":"oglethorpe university",
@@ -35013,13 +35013,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35069,7 +35069,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":839,
     "Poss":"oglethorpe university",
@@ -35091,13 +35091,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"elliott,claire",
     "awayPlayer5":"hutson,kali",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35140,14 +35140,14 @@
       "ginsburg,alex",
       "elliott,claire",
       "hutson,kali",
-      null
+      "rhodes,emily"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rhodes,emily",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35217,7 +35217,7 @@
       "bradford,dee",
       "elliott,claire",
       "hutson,kali",
-      null,
+      "ginsburg,alex",
       null
     ],
     "homeLineup":[
@@ -35225,7 +35225,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35247,11 +35247,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"hutson,kali",
-    "awayPlayer4":null,
+    "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35294,7 +35294,7 @@
     "awayLineup":[
       "elliott,claire",
       "hutson,kali",
-      null,
+      "bradford,dee",
       null,
       null
     ],
@@ -35303,7 +35303,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35325,10 +35325,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"elliott,claire",
     "awayPlayer2":"hutson,kali",
-    "awayPlayer3":null,
+    "awayPlayer3":"bradford,dee",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -35371,7 +35371,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
-      null,
+      "elliott,claire",
       null,
       null,
       null
@@ -35381,7 +35381,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35403,9 +35403,9 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
+    "awayPlayer2":"elliott,claire",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -35450,7 +35450,7 @@
     "awayLineup":[
       "hutson,kali",
       "medley,clarissa",
-      null,
+      "totals",
       null,
       null
     ],
@@ -35459,7 +35459,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35481,10 +35481,10 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -35529,7 +35529,7 @@
       "hutson,kali",
       "medley,clarissa",
       "kabbes,dani",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -35537,7 +35537,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35559,11 +35559,11 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35608,14 +35608,14 @@
       "medley,clarissa",
       "kabbes,dani",
       "miller,logan",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35637,13 +35637,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35693,7 +35693,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":830,
     "Poss":"oglethorpe university",
@@ -35715,13 +35715,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35771,7 +35771,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":825,
     "Poss":"oglethorpe university",
@@ -35793,13 +35793,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35849,7 +35849,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":825,
     "Poss":"oglethorpe university",
@@ -35871,13 +35871,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -35927,7 +35927,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":804,
     "Poss":"sewanee",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -36005,7 +36005,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":804,
     "Poss":"sewanee",
@@ -36027,13 +36027,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -36083,7 +36083,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":804,
     "Poss":"sewanee",
@@ -36105,13 +36105,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -36161,7 +36161,7 @@
       "jones,sarah",
       "rogers,ky'laine",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":804,
     "Poss":"sewanee",
@@ -36183,13 +36183,13 @@
     "homePlayer2":"jones,sarah",
     "homePlayer3":"rogers,ky'laine",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"miller,logan",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -36237,7 +36237,7 @@
     "homeLineup":[
       "cerone,riley",
       "jones,sarah",
-      null,
+      "rogers,ky'laine",
       null,
       null
     ],
@@ -36259,7 +36259,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"cerone,riley",
     "homePlayer2":"jones,sarah",
-    "homePlayer3":null,
+    "homePlayer3":"rogers,ky'laine",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"hutson,kali",
@@ -36316,7 +36316,7 @@
       "cerone,riley",
       "jones,sarah",
       "reeves,kelley",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":804,
@@ -36338,7 +36338,7 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"jones,sarah",
     "homePlayer3":"reeves,kelley",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"medley,clarissa",
@@ -36856,7 +36856,7 @@
       "kabbes,dani",
       "miller,logan",
       "baier,heather",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -36890,8 +36890,8 @@
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"miller,logan",
     "awayPlayer4":"baier,heather",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -36933,7 +36933,7 @@
       "hutson,kali",
       "miller,logan",
       "baier,heather",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
@@ -36967,7 +36967,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"baier,heather",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37006,6 +37006,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"hutson,kali",
+    "pointsEarned":"",
+    "awayLineup":[
+      "miller,logan",
+      "baier,heather",
+      "hutson,kali",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "cerone,riley",
+      "jones,sarah",
+      "reeves,kelley",
+      "giles,sarah",
+      "weeks,katie"
+    ],
+    "timeSeconds":782,
+    "Poss":"sewanee",
+    "possNum":52,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":118,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"cerone,riley",
+    "homePlayer2":"jones,sarah",
+    "homePlayer3":"reeves,kelley",
+    "homePlayer4":"giles,sarah",
+    "homePlayer5":"weeks,katie",
+    "awayPlayer1":"miller,logan",
+    "awayPlayer2":"baier,heather",
+    "awayPlayer3":"hutson,kali",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"13:02",
+    "awayPlay":"SUB OUT by BAIER,HEATHER",
+    "awayTeamScore":"47",
+    "playTeamIndicator":"",
+    "homeTeamScore":"54 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BAIER,HEATHER",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"baier,heather",
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
@@ -37071,84 +37149,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"13:02",
-    "awayPlay":"SUB OUT by BAIER,HEATHER",
-    "awayTeamScore":"47",
-    "playTeamIndicator":"",
-    "homeTeamScore":"54 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BAIER,HEATHER",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"baier,heather",
-    "pointsEarned":"",
-    "awayLineup":[
-      "miller,logan",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "cerone,riley",
-      "jones,sarah",
-      "reeves,kelley",
-      "giles,sarah",
-      "weeks,katie"
-    ],
-    "timeSeconds":782,
-    "Poss":"sewanee",
-    "possNum":52,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":118,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"cerone,riley",
-    "homePlayer2":"jones,sarah",
-    "homePlayer3":"reeves,kelley",
-    "homePlayer4":"giles,sarah",
-    "homePlayer5":"weeks,katie",
-    "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"13:02",
     "awayPlay":"",
     "awayTeamScore":"47",
     "playTeamIndicator":"",
@@ -37165,7 +37165,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
-      null,
+      "baier,heather",
       null,
       null,
       null
@@ -37174,7 +37174,7 @@
       "cerone,riley",
       "reeves,kelley",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":782,
@@ -37196,10 +37196,10 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
+    "awayPlayer2":"baier,heather",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -37244,7 +37244,7 @@
     "awayLineup":[
       "miller,logan",
       "elliott,claire",
-      null,
+      "totals",
       null,
       null
     ],
@@ -37252,7 +37252,7 @@
       "cerone,riley",
       "reeves,kelley",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":782,
@@ -37274,11 +37274,11 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -37323,14 +37323,14 @@
       "miller,logan",
       "elliott,claire",
       "thibodeaux,michelle",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "cerone,riley",
       "reeves,kelley",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":782,
@@ -37352,12 +37352,12 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"thibodeaux,michelle",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37402,13 +37402,13 @@
       "elliott,claire",
       "thibodeaux,michelle",
       "ginsburg,alex",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
       "reeves,kelley",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":782,
@@ -37430,13 +37430,13 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"thibodeaux,michelle",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -37486,7 +37486,7 @@
       "cerone,riley",
       "reeves,kelley",
       "giles,sarah",
-      null,
+      "jones,sarah",
       null
     ],
     "timeSeconds":782,
@@ -37508,7 +37508,7 @@
     "homePlayer1":"cerone,riley",
     "homePlayer2":"reeves,kelley",
     "homePlayer3":"giles,sarah",
-    "homePlayer4":null,
+    "homePlayer4":"jones,sarah",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
@@ -38338,7 +38338,7 @@
       "thibodeaux,michelle",
       "ginsburg,alex",
       "bradford,dee",
-      null
+      "elliott,claire"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -38372,8 +38372,8 @@
     "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":"ginsburg,alex",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"elliott,claire",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -38415,7 +38415,7 @@
       "thibodeaux,michelle",
       "ginsburg,alex",
       "bradford,dee",
-      null,
+      "miller,logan",
       null
     ],
     "homeLineup":[
@@ -38449,7 +38449,7 @@
     "awayPlayer1":"thibodeaux,michelle",
     "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"miller,logan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38492,7 +38492,7 @@
     "awayLineup":[
       "ginsburg,alex",
       "bradford,dee",
-      null,
+      "thibodeaux,michelle",
       null,
       null
     ],
@@ -38526,7 +38526,7 @@
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"ginsburg,alex",
     "awayPlayer2":"bradford,dee",
-    "awayPlayer3":null,
+    "awayPlayer3":"thibodeaux,michelle",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -38569,7 +38569,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
-      null,
+      "ginsburg,alex",
       null,
       null,
       null
@@ -38603,7 +38603,7 @@
     "homePlayer4":"macdonald,chelsea",
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"bradford,dee",
-    "awayPlayer2":null,
+    "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -38648,7 +38648,7 @@
     "awayLineup":[
       "bradford,dee",
       "kabbes,dani",
-      null,
+      "totals",
       null,
       null
     ],
@@ -38682,7 +38682,7 @@
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"kabbes,dani",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -38727,7 +38727,7 @@
       "bradford,dee",
       "kabbes,dani",
       "hutson,kali",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -38761,7 +38761,7 @@
     "awayPlayer1":"bradford,dee",
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"hutson,kali",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38806,7 +38806,7 @@
       "kabbes,dani",
       "hutson,kali",
       "baier,heather",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -38840,8 +38840,8 @@
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"hutson,kali",
     "awayPlayer4":"baier,heather",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -40054,7 +40054,7 @@
       "hutson,kali",
       "baier,heather",
       "medley,clarissa",
-      null
+      "kabbes,dani"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -40088,8 +40088,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"baier,heather",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"kabbes,dani",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -40126,6 +40126,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"baier,heather",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bradford,dee",
+      "hutson,kali",
+      "medley,clarissa",
+      "baier,heather",
+      null
+    ],
+    "homeLineup":[
+      "cerone,riley",
+      "reeves,kelley",
+      "giles,sarah",
+      "macdonald,chelsea",
+      "weeks,katie"
+    ],
+    "timeSeconds":639,
+    "Poss":"sewanee",
+    "possNum":60,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":127,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"cerone,riley",
+    "homePlayer2":"reeves,kelley",
+    "homePlayer3":"giles,sarah",
+    "homePlayer4":"macdonald,chelsea",
+    "homePlayer5":"weeks,katie",
+    "awayPlayer1":"bradford,dee",
+    "awayPlayer2":"hutson,kali",
+    "awayPlayer3":"medley,clarissa",
+    "awayPlayer4":"baier,heather",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"10:39",
+    "awayPlay":"SUB OUT by MEDLEY,CLARISSA",
+    "awayTeamScore":"47",
+    "playTeamIndicator":"",
+    "homeTeamScore":"56 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MEDLEY,CLARISSA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"medley,clarissa",
     "pointsEarned":"",
     "awayLineup":[
       "bradford,dee",
@@ -40191,84 +40269,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"10:39",
-    "awayPlay":"SUB OUT by MEDLEY,CLARISSA",
-    "awayTeamScore":"47",
-    "playTeamIndicator":"",
-    "homeTeamScore":"56 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MEDLEY,CLARISSA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"medley,clarissa",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bradford,dee",
-      "hutson,kali",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "cerone,riley",
-      "reeves,kelley",
-      "giles,sarah",
-      "macdonald,chelsea",
-      "weeks,katie"
-    ],
-    "timeSeconds":639,
-    "Poss":"sewanee",
-    "possNum":60,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":127,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"cerone,riley",
-    "homePlayer2":"reeves,kelley",
-    "homePlayer3":"giles,sarah",
-    "homePlayer4":"macdonald,chelsea",
-    "homePlayer5":"weeks,katie",
-    "awayPlayer1":"bradford,dee",
-    "awayPlayer2":"hutson,kali",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"10:39",
     "awayPlay":"SUB OUT by BRADFORD,DEE",
     "awayTeamScore":"47",
     "playTeamIndicator":"",
@@ -40285,7 +40285,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
-      null,
+      "bradford,dee",
       null,
       null,
       null
@@ -40319,7 +40319,7 @@
     "homePlayer4":"macdonald,chelsea",
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
+    "awayPlayer2":"bradford,dee",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -40363,7 +40363,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "hutson,kali",
-      null,
+      "bradford,dee",
       null,
       null,
       null
@@ -40397,7 +40397,7 @@
     "homePlayer4":"macdonald,chelsea",
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"hutson,kali",
-    "awayPlayer2":null,
+    "awayPlayer2":"bradford,dee",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -40442,7 +40442,7 @@
     "awayLineup":[
       "hutson,kali",
       "miller,logan",
-      null,
+      "totals",
       null,
       null
     ],
@@ -40476,7 +40476,7 @@
     "homePlayer5":"weeks,katie",
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -40521,7 +40521,7 @@
       "hutson,kali",
       "miller,logan",
       "thibodeaux,michelle",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -40555,7 +40555,7 @@
     "awayPlayer1":"hutson,kali",
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"thibodeaux,michelle",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40600,7 +40600,7 @@
       "miller,logan",
       "thibodeaux,michelle",
       "elliott,claire",
-      null
+      "totals"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -40634,8 +40634,8 @@
     "awayPlayer2":"miller,logan",
     "awayPlayer3":"thibodeaux,michelle",
     "awayPlayer4":"elliott,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -41224,7 +41224,7 @@
       "thibodeaux,michelle",
       "elliott,claire",
       "ginsburg,alex",
-      null
+      "hutson,kali"
     ],
     "homeLineup":[
       "cerone,riley",
@@ -41258,8 +41258,8 @@
     "awayPlayer2":"thibodeaux,michelle",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hutson,kali",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -41301,7 +41301,7 @@
       "miller,logan",
       "elliott,claire",
       "ginsburg,alex",
-      null,
+      "thibodeaux,michelle",
       null
     ],
     "homeLineup":[
@@ -41335,7 +41335,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"ginsburg,alex",
-    "awayPlayer4":null,
+    "awayPlayer4":"thibodeaux,michelle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41374,6 +41374,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"elliott,claire",
+    "pointsEarned":"",
+    "awayLineup":[
+      "miller,logan",
+      "ginsburg,alex",
+      "elliott,claire",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "cerone,riley",
+      "reeves,kelley",
+      "giles,sarah",
+      "macdonald,chelsea",
+      "loughrey,morgan"
+    ],
+    "timeSeconds":593,
+    "Poss":"oglethorpe university",
+    "possNum":61,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe university",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":130,
+    "teamChanged":0,
+    "game":"Oglethorpe UniversitySewanee12\/04\/10",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"cerone,riley",
+    "homePlayer2":"reeves,kelley",
+    "homePlayer3":"giles,sarah",
+    "homePlayer4":"macdonald,chelsea",
+    "homePlayer5":"loughrey,morgan",
+    "awayPlayer1":"miller,logan",
+    "awayPlayer2":"ginsburg,alex",
+    "awayPlayer3":"elliott,claire",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"3075",
+    "homeTeam":"Oglethorpe University",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"54-79",
+    "homeScoreByPeriod":"36,43,79",
+    "awayScoreByPeriod":"32,22,54",
+    "homeRecord":"2-4",
+    "awayRecord":"1-5",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/04\/10",
+    "startTime":"4:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
+    "homeWin":"Win",
+    "numPeriods":"3",
+    "isOvertime":"False",
+    "attendance":"189",
+    "isNeutral":"False",
+    "timeRemaining":"09:53",
+    "awayPlay":"SUB OUT by GINSBURG,ALEX",
+    "awayTeamScore":"47",
+    "playTeamIndicator":"",
+    "homeTeamScore":"58 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by GINSBURG,ALEX",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"ginsburg,alex",
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
@@ -41439,84 +41517,6 @@
     "attendance":"189",
     "isNeutral":"False",
     "timeRemaining":"09:53",
-    "awayPlay":"SUB OUT by GINSBURG,ALEX",
-    "awayTeamScore":"47",
-    "playTeamIndicator":"",
-    "homeTeamScore":"58 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by GINSBURG,ALEX",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"ginsburg,alex",
-    "pointsEarned":"",
-    "awayLineup":[
-      "miller,logan",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "cerone,riley",
-      "reeves,kelley",
-      "giles,sarah",
-      "macdonald,chelsea",
-      "loughrey,morgan"
-    ],
-    "timeSeconds":593,
-    "Poss":"oglethorpe university",
-    "possNum":61,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe university",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":130,
-    "teamChanged":0,
-    "game":"Oglethorpe UniversitySewanee12\/04\/10",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"cerone,riley",
-    "homePlayer2":"reeves,kelley",
-    "homePlayer3":"giles,sarah",
-    "homePlayer4":"macdonald,chelsea",
-    "homePlayer5":"loughrey,morgan",
-    "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"3075",
-    "homeTeam":"Oglethorpe University",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"54-79",
-    "homeScoreByPeriod":"36,43,79",
-    "awayScoreByPeriod":"32,22,54",
-    "homeRecord":"2-4",
-    "awayRecord":"1-5",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/04\/10",
-    "startTime":"4:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Dorough Field House\/Atlanta, Ga.",
-    "homeWin":"Win",
-    "numPeriods":"3",
-    "isOvertime":"False",
-    "attendance":"189",
-    "isNeutral":"False",
-    "timeRemaining":"09:53",
     "awayPlay":"",
     "awayTeamScore":"47",
     "playTeamIndicator":"",
@@ -41533,7 +41533,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "miller,logan",
-      null,
+      "ginsburg,alex",
       null,
       null,
       null
@@ -41543,7 +41543,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "cerone,riley"
     ],
     "timeSeconds":593,
     "Poss":"oglethorpe university",
@@ -41565,9 +41565,9 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"cerone,riley",
     "awayPlayer1":"miller,logan",
-    "awayPlayer2":null,
+    "awayPlayer2":"ginsburg,alex",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -41612,7 +41612,7 @@
     "awayLineup":[
       "miller,logan",
       "rhodes,emily",
-      null,
+      "totals",
       null,
       null
     ],
@@ -41621,7 +41621,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "cerone,riley"
     ],
     "timeSeconds":593,
     "Poss":"oglethorpe university",
@@ -41643,10 +41643,10 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"cerone,riley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"rhodes,emily",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -41691,7 +41691,7 @@
       "miller,logan",
       "rhodes,emily",
       "kabbes,dani",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -41699,7 +41699,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "cerone,riley"
     ],
     "timeSeconds":593,
     "Poss":"oglethorpe university",
@@ -41721,11 +41721,11 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"cerone,riley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -41770,14 +41770,14 @@
       "rhodes,emily",
       "kabbes,dani",
       "bradford,dee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "cerone,riley"
     ],
     "timeSeconds":593,
     "Poss":"oglethorpe university",
@@ -41799,13 +41799,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"cerone,riley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -41855,7 +41855,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "cerone,riley"
     ],
     "timeSeconds":593,
     "Poss":"oglethorpe university",
@@ -41877,13 +41877,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"cerone,riley",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"bradford,dee",
     "awayPlayer5":"baier,heather",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -43018,7 +43018,7 @@
       "rhodes,emily",
       "kabbes,dani",
       "baier,heather",
-      null
+      "bradford,dee"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -43052,8 +43052,8 @@
     "awayPlayer2":"rhodes,emily",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"baier,heather",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bradford,dee",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -43642,7 +43642,7 @@
       "kabbes,dani",
       "baier,heather",
       "hutson,kali",
-      null
+      "rhodes,emily"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -43676,8 +43676,8 @@
     "awayPlayer2":"kabbes,dani",
     "awayPlayer3":"baier,heather",
     "awayPlayer4":"hutson,kali",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rhodes,emily",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -43719,7 +43719,7 @@
       "miller,logan",
       "baier,heather",
       "hutson,kali",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
@@ -43753,7 +43753,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"baier,heather",
     "awayPlayer3":"hutson,kali",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -43796,7 +43796,7 @@
     "awayLineup":[
       "miller,logan",
       "hutson,kali",
-      null,
+      "baier,heather",
       null,
       null
     ],
@@ -43830,7 +43830,7 @@
     "homePlayer5":"jones,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"hutson,kali",
-    "awayPlayer3":null,
+    "awayPlayer3":"baier,heather",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -43875,7 +43875,7 @@
       "miller,logan",
       "hutson,kali",
       "elliott,claire",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -43909,7 +43909,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -43954,7 +43954,7 @@
       "hutson,kali",
       "elliott,claire",
       "ginsburg,alex",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -43988,8 +43988,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -44812,7 +44812,7 @@
       "hutson,kali",
       "elliott,claire",
       "thibodeaux,michelle",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -44846,8 +44846,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -44889,7 +44889,7 @@
       "miller,logan",
       "hutson,kali",
       "elliott,claire",
-      null,
+      "thibodeaux,michelle",
       null
     ],
     "homeLineup":[
@@ -44923,7 +44923,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
-    "awayPlayer4":null,
+    "awayPlayer4":"thibodeaux,michelle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -44968,7 +44968,7 @@
       "hutson,kali",
       "elliott,claire",
       "kabbes,dani",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -45002,8 +45002,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -45833,7 +45833,7 @@
       "giles,sarah",
       "macdonald,chelsea",
       "loughrey,morgan",
-      null
+      "jones,sarah"
     ],
     "timeSeconds":358,
     "Poss":"oglethorpe university",
@@ -45855,13 +45855,13 @@
     "homePlayer2":"giles,sarah",
     "homePlayer3":"macdonald,chelsea",
     "homePlayer4":"loughrey,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"jones,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"kabbes,dani",
     "awayPlayer5":"medley,clarissa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -46060,7 +46060,7 @@
       "hutson,kali",
       "elliott,claire",
       "kabbes,dani",
-      null
+      "medley,clarissa"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -46094,8 +46094,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"medley,clarissa",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -46450,7 +46450,7 @@
       "hutson,kali",
       "elliott,claire",
       "kabbes,dani",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -46484,8 +46484,8 @@
     "awayPlayer2":"hutson,kali",
     "awayPlayer3":"elliott,claire",
     "awayPlayer4":"kabbes,dani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -48010,7 +48010,7 @@
       "elliott,claire",
       "kabbes,dani",
       "medley,clarissa",
-      null
+      "hutson,kali"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -48044,8 +48044,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"medley,clarissa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hutson,kali",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -48087,7 +48087,7 @@
       "miller,logan",
       "elliott,claire",
       "kabbes,dani",
-      null,
+      "medley,clarissa",
       null
     ],
     "homeLineup":[
@@ -48121,7 +48121,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"kabbes,dani",
-    "awayPlayer4":null,
+    "awayPlayer4":"medley,clarissa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -48166,7 +48166,7 @@
       "elliott,claire",
       "kabbes,dani",
       "ginsburg,alex",
-      null
+      "totals"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -48200,8 +48200,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"ginsburg,alex",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -49265,7 +49265,7 @@
       "macdonald,chelsea",
       "loughrey,morgan",
       "weeks,katie",
-      null
+      "giles,sarah"
     ],
     "timeSeconds":123,
     "Poss":"oglethorpe university",
@@ -49287,13 +49287,13 @@
     "homePlayer2":"macdonald,chelsea",
     "homePlayer3":"loughrey,morgan",
     "homePlayer4":"weeks,katie",
-    "homePlayer5":null,
+    "homePlayer5":"giles,sarah",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"ginsburg,alex",
     "awayPlayer5":"bradford,dee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -49726,7 +49726,7 @@
       "elliott,claire",
       "kabbes,dani",
       "bradford,dee",
-      null
+      "ginsburg,alex"
     ],
     "homeLineup":[
       "reeves,kelley",
@@ -49760,8 +49760,8 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"kabbes,dani",
     "awayPlayer4":"bradford,dee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ginsburg,alex",
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -49803,7 +49803,7 @@
       "miller,logan",
       "elliott,claire",
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
@@ -49837,7 +49837,7 @@
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -49881,7 +49881,7 @@
       "miller,logan",
       "elliott,claire",
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
@@ -49889,7 +49889,7 @@
       "macdonald,chelsea",
       "weeks,katie",
       "rogers,ky'laine",
-      null
+      "loughrey,morgan"
     ],
     "timeSeconds":82,
     "Poss":"oglethorpe university",
@@ -49911,11 +49911,11 @@
     "homePlayer2":"macdonald,chelsea",
     "homePlayer3":"weeks,katie",
     "homePlayer4":"rogers,ky'laine",
-    "homePlayer5":null,
+    "homePlayer5":"loughrey,morgan",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -49959,14 +49959,14 @@
       "miller,logan",
       "elliott,claire",
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
       "macdonald,chelsea",
       "weeks,katie",
       "rogers,ky'laine",
-      null,
+      "reeves,kelley",
       null
     ],
     "timeSeconds":82,
@@ -49988,12 +49988,12 @@
     "homePlayer1":"macdonald,chelsea",
     "homePlayer2":"weeks,katie",
     "homePlayer3":"rogers,ky'laine",
-    "homePlayer4":null,
+    "homePlayer4":"reeves,kelley",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50037,13 +50037,13 @@
       "miller,logan",
       "elliott,claire",
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
       "macdonald,chelsea",
       "rogers,ky'laine",
-      null,
+      "weeks,katie",
       null,
       null
     ],
@@ -50065,13 +50065,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"macdonald,chelsea",
     "homePlayer2":"rogers,ky'laine",
-    "homePlayer3":null,
+    "homePlayer3":"weeks,katie",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50115,12 +50115,12 @@
       "miller,logan",
       "elliott,claire",
       "bradford,dee",
-      null,
+      "kabbes,dani",
       null
     ],
     "homeLineup":[
       "rogers,ky'laine",
-      null,
+      "macdonald,chelsea",
       null,
       null,
       null
@@ -50142,14 +50142,14 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"rogers,ky'laine",
-    "homePlayer2":null,
+    "homePlayer2":"macdonald,chelsea",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
-    "awayPlayer4":null,
+    "awayPlayer4":"kabbes,dani",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -50194,11 +50194,11 @@
       "elliott,claire",
       "bradford,dee",
       "rhodes,emily",
-      null
+      "totals"
     ],
     "homeLineup":[
       "rogers,ky'laine",
-      null,
+      "macdonald,chelsea",
       null,
       null,
       null
@@ -50220,7 +50220,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"rogers,ky'laine",
-    "homePlayer2":null,
+    "homePlayer2":"macdonald,chelsea",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -50228,7 +50228,7 @@
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"rhodes,emily",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -50276,7 +50276,7 @@
     ],
     "homeLineup":[
       "rogers,ky'laine",
-      null,
+      "macdonald,chelsea",
       null,
       null,
       null
@@ -50298,7 +50298,7 @@
     "DREB":0,
     "secondsPerPoss":0,
     "homePlayer1":"rogers,ky'laine",
-    "homePlayer2":null,
+    "homePlayer2":"macdonald,chelsea",
     "homePlayer3":null,
     "homePlayer4":null,
     "homePlayer5":null,
@@ -50355,7 +50355,7 @@
     "homeLineup":[
       "rogers,ky'laine",
       "cerone,riley",
-      null,
+      "totals",
       null,
       null
     ],
@@ -50377,7 +50377,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"rogers,ky'laine",
     "homePlayer2":"cerone,riley",
-    "homePlayer3":null,
+    "homePlayer3":"totals",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
@@ -50434,7 +50434,7 @@
       "rogers,ky'laine",
       "cerone,riley",
       "foust,raven",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":82,
@@ -50456,7 +50456,7 @@
     "homePlayer1":"rogers,ky'laine",
     "homePlayer2":"cerone,riley",
     "homePlayer3":"foust,raven",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
@@ -50513,7 +50513,7 @@
       "cerone,riley",
       "foust,raven",
       "jones,sarah",
-      null
+      "totals"
     ],
     "timeSeconds":82,
     "Poss":"oglethorpe university",
@@ -50535,13 +50535,13 @@
     "homePlayer2":"cerone,riley",
     "homePlayer3":"foust,raven",
     "homePlayer4":"jones,sarah",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"miller,logan",
     "awayPlayer2":"elliott,claire",
     "awayPlayer3":"bradford,dee",
     "awayPlayer4":"rhodes,emily",
     "awayPlayer5":"thibodeaux,michelle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"3075",
@@ -51364,7 +51364,7 @@
       "bradford,dee",
       "rhodes,emily",
       "thibodeaux,michelle",
-      null
+      "miller,logan"
     ],
     "homeLineup":[
       "rogers,ky'laine",
@@ -51398,8 +51398,8 @@
     "awayPlayer2":"bradford,dee",
     "awayPlayer3":"rhodes,emily",
     "awayPlayer4":"thibodeaux,michelle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"miller,logan",
+    "playerMissing":0
   },
   {
     "gameID":"3075",

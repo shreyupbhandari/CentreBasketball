@@ -2777,7 +2777,7 @@
       "frank,bryce",
       "walling,addison",
       "lewis,meghan",
-      null
+      "longaker,ally"
     ],
     "timeSeconds":301,
     "Poss":"rhodes",
@@ -2799,13 +2799,13 @@
     "homePlayer2":"frank,bryce",
     "homePlayer3":"walling,addison",
     "homePlayer4":"lewis,meghan",
-    "homePlayer5":null,
+    "homePlayer5":"longaker,ally",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"owens,alyssa",
     "awayPlayer5":"deery,erin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -2842,6 +2842,84 @@
     "shotOutcome":"",
     "Team":"austin",
     "Player":"savage,ann",
+    "pointsEarned":"",
+    "awayLineup":[
+      "whiteside,lindsey",
+      "ustick,jessie",
+      "young,allie",
+      "owens,alyssa",
+      "deery,erin"
+    ],
+    "homeLineup":[
+      "frank,bryce",
+      "walling,addison",
+      "lewis,meghan",
+      "savage,ann",
+      null
+    ],
+    "timeSeconds":301,
+    "Poss":"rhodes",
+    "possNum":10,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":19,
+    "teamChanged":0,
+    "game":"AustinRhodes12\/16\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"frank,bryce",
+    "homePlayer2":"walling,addison",
+    "homePlayer3":"lewis,meghan",
+    "homePlayer4":"savage,ann",
+    "homePlayer5":null,
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"ustick,jessie",
+    "awayPlayer3":"young,allie",
+    "awayPlayer4":"owens,alyssa",
+    "awayPlayer5":"deery,erin",
+    "playerMissing":1
+  },
+  {
+    "gameID":"5263",
+    "homeTeam":"Austin",
+    "awayTeam":"Rhodes",
+    "saaGame":"0",
+    "finalScore":"57-81",
+    "homeScoreByPeriod":"19,20,22,20,81",
+    "awayScoreByPeriod":"6,17,20,14,57",
+    "homeRecord":"6-4",
+    "awayRecord":"5-3",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/16\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Hughey Gym",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"127",
+    "isNeutral":"False",
+    "timeRemaining":"05:01",
+    "awayPlay":"",
+    "awayTeamScore":"4",
+    "playTeamIndicator":"",
+    "homeTeamScore":"9 ",
+    "homePlay":"SUB OUT by LEWIS,MEGHAN",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LEWIS,MEGHAN",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"austin",
+    "Player":"lewis,meghan",
     "pointsEarned":"",
     "awayLineup":[
       "whiteside,lindsey",
@@ -2911,84 +2989,6 @@
     "awayTeamScore":"4",
     "playTeamIndicator":"",
     "homeTeamScore":"9 ",
-    "homePlay":"SUB OUT by LEWIS,MEGHAN",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LEWIS,MEGHAN",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"austin",
-    "Player":"lewis,meghan",
-    "pointsEarned":"",
-    "awayLineup":[
-      "whiteside,lindsey",
-      "ustick,jessie",
-      "young,allie",
-      "owens,alyssa",
-      "deery,erin"
-    ],
-    "homeLineup":[
-      "frank,bryce",
-      "walling,addison",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":301,
-    "Poss":"rhodes",
-    "possNum":10,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":19,
-    "teamChanged":0,
-    "game":"AustinRhodes12\/16\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"frank,bryce",
-    "homePlayer2":"walling,addison",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"whiteside,lindsey",
-    "awayPlayer2":"ustick,jessie",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":"deery,erin",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5263",
-    "homeTeam":"Austin",
-    "awayTeam":"Rhodes",
-    "saaGame":"0",
-    "finalScore":"57-81",
-    "homeScoreByPeriod":"19,20,22,20,81",
-    "awayScoreByPeriod":"6,17,20,14,57",
-    "homeRecord":"6-4",
-    "awayRecord":"5-3",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/16\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Hughey Gym",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"127",
-    "isNeutral":"False",
-    "timeRemaining":"05:01",
-    "awayPlay":"",
-    "awayTeamScore":"4",
-    "playTeamIndicator":"",
-    "homeTeamScore":"9 ",
     "homePlay":"SUB IN by WEST,KACIE",
     "gameScore":"",
     "teamIndicator":"",
@@ -3010,7 +3010,7 @@
       "frank,bryce",
       "walling,addison",
       "west,kacie",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":301,
@@ -3032,7 +3032,7 @@
     "homePlayer1":"frank,bryce",
     "homePlayer2":"walling,addison",
     "homePlayer3":"west,kacie",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
@@ -3089,7 +3089,7 @@
       "walling,addison",
       "west,kacie",
       "collins,caitlyn",
-      null
+      "totals"
     ],
     "timeSeconds":301,
     "Poss":"rhodes",
@@ -3111,13 +3111,13 @@
     "homePlayer2":"walling,addison",
     "homePlayer3":"west,kacie",
     "homePlayer4":"collins,caitlyn",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"owens,alyssa",
     "awayPlayer5":"deery,erin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -3784,7 +3784,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "frank,bryce",
@@ -3818,8 +3818,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -4727,7 +4727,7 @@
       "west,kacie",
       "collins,caitlyn",
       "rainey,kendra",
-      null
+      "frank,bryce"
     ],
     "timeSeconds":210,
     "Poss":"rhodes",
@@ -4749,13 +4749,13 @@
     "homePlayer2":"west,kacie",
     "homePlayer3":"collins,caitlyn",
     "homePlayer4":"rainey,kendra",
-    "homePlayer5":null,
+    "homePlayer5":"frank,bryce",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"muhammad,moriah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -4804,7 +4804,7 @@
       "west,kacie",
       "collins,caitlyn",
       "rainey,kendra",
-      null,
+      "walling,addison",
       null
     ],
     "timeSeconds":210,
@@ -4826,7 +4826,7 @@
     "homePlayer1":"west,kacie",
     "homePlayer2":"collins,caitlyn",
     "homePlayer3":"rainey,kendra",
-    "homePlayer4":null,
+    "homePlayer4":"walling,addison",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
@@ -4883,7 +4883,7 @@
       "collins,caitlyn",
       "rainey,kendra",
       "selkow,andrea",
-      null
+      "totals"
     ],
     "timeSeconds":210,
     "Poss":"rhodes",
@@ -4905,13 +4905,13 @@
     "homePlayer2":"collins,caitlyn",
     "homePlayer3":"rainey,kendra",
     "homePlayer4":"selkow,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"muhammad,moriah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -6592,7 +6592,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "deery,erin",
-      null
+      "muhammad,moriah"
     ],
     "homeLineup":[
       "west,kacie",
@@ -6626,8 +6626,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"muhammad,moriah",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -6748,7 +6748,7 @@
       "ustick,jessie",
       "deery,erin",
       "young,allie",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "west,kacie",
@@ -6782,8 +6782,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -9166,6 +9166,84 @@
       "ustick,jessie",
       "deery,erin",
       "summers,danielle",
+      "young,allie"
+    ],
+    "homeLineup":[
+      "west,kacie",
+      "collins,caitlyn",
+      "rainey,kendra",
+      "selkow,andrea",
+      "chiaverini,reagan"
+    ],
+    "timeSeconds":456,
+    "Poss":"austin",
+    "possNum":23,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"austin",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":45,
+    "teamChanged":0,
+    "game":"AustinRhodes12\/16\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"west,kacie",
+    "homePlayer2":"collins,caitlyn",
+    "homePlayer3":"rainey,kendra",
+    "homePlayer4":"selkow,andrea",
+    "homePlayer5":"chiaverini,reagan",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"ustick,jessie",
+    "awayPlayer3":"deery,erin",
+    "awayPlayer4":"summers,danielle",
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5263",
+    "homeTeam":"Austin",
+    "awayTeam":"Rhodes",
+    "saaGame":"0",
+    "finalScore":"57-81",
+    "homeScoreByPeriod":"19,20,22,20,81",
+    "awayScoreByPeriod":"6,17,20,14,57",
+    "homeRecord":"6-4",
+    "awayRecord":"5-3",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/16\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Hughey Gym",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"127",
+    "isNeutral":"False",
+    "timeRemaining":"07:36",
+    "awayPlay":"SUB OUT by SUMMERS,DANIELLE",
+    "awayTeamScore":"11",
+    "playTeamIndicator":"",
+    "homeTeamScore":"25 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by SUMMERS,DANIELLE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"summers,danielle",
+    "pointsEarned":"",
+    "awayLineup":[
+      "whiteside,lindsey",
+      "ustick,jessie",
+      "deery,erin",
+      "summers,danielle",
       null
     ],
     "homeLineup":[
@@ -9225,84 +9303,6 @@
     "attendance":"127",
     "isNeutral":"False",
     "timeRemaining":"07:36",
-    "awayPlay":"SUB OUT by SUMMERS,DANIELLE",
-    "awayTeamScore":"11",
-    "playTeamIndicator":"",
-    "homeTeamScore":"25 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by SUMMERS,DANIELLE",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"summers,danielle",
-    "pointsEarned":"",
-    "awayLineup":[
-      "whiteside,lindsey",
-      "ustick,jessie",
-      "deery,erin",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "west,kacie",
-      "collins,caitlyn",
-      "rainey,kendra",
-      "selkow,andrea",
-      "chiaverini,reagan"
-    ],
-    "timeSeconds":456,
-    "Poss":"austin",
-    "possNum":23,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"austin",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":45,
-    "teamChanged":0,
-    "game":"AustinRhodes12\/16\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"west,kacie",
-    "homePlayer2":"collins,caitlyn",
-    "homePlayer3":"rainey,kendra",
-    "homePlayer4":"selkow,andrea",
-    "homePlayer5":"chiaverini,reagan",
-    "awayPlayer1":"whiteside,lindsey",
-    "awayPlayer2":"ustick,jessie",
-    "awayPlayer3":"deery,erin",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5263",
-    "homeTeam":"Austin",
-    "awayTeam":"Rhodes",
-    "saaGame":"0",
-    "finalScore":"57-81",
-    "homeScoreByPeriod":"19,20,22,20,81",
-    "awayScoreByPeriod":"6,17,20,14,57",
-    "homeRecord":"6-4",
-    "awayRecord":"5-3",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/16\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Hughey Gym",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"127",
-    "isNeutral":"False",
-    "timeRemaining":"07:36",
     "awayPlay":"SUB IN by LONGACRE,MAYA",
     "awayTeamScore":"11",
     "playTeamIndicator":"",
@@ -9322,7 +9322,7 @@
       "ustick,jessie",
       "deery,erin",
       "longacre,maya",
-      null
+      "totals"
     ],
     "homeLineup":[
       "west,kacie",
@@ -9356,8 +9356,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -10960,7 +10960,7 @@
       "ustick,jessie",
       "deery,erin",
       "owens,alyssa",
-      null
+      "longacre,maya"
     ],
     "homeLineup":[
       "west,kacie",
@@ -10994,8 +10994,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"longacre,maya",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -11037,7 +11037,7 @@
       "whiteside,lindsey",
       "ustick,jessie",
       "owens,alyssa",
-      null,
+      "deery,erin",
       null
     ],
     "homeLineup":[
@@ -11071,7 +11071,7 @@
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
-    "awayPlayer4":null,
+    "awayPlayer4":"deery,erin",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -11116,7 +11116,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "taylor,caroline",
-      null
+      "totals"
     ],
     "homeLineup":[
       "west,kacie",
@@ -11150,8 +11150,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"taylor,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -14314,7 +14314,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "taylor,caroline",
-      null
+      "muhammad,moriah"
     ],
     "homeLineup":[
       "west,kacie",
@@ -14331,6 +14331,84 @@
     "PlayOfPoss":0,
     "possTeam":"rhodes",
     "possStart":1.0,
+    "possPoints":0,
+    "possSequence":64,
+    "teamChanged":0,
+    "game":"AustinRhodes12\/16\/17",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"west,kacie",
+    "homePlayer2":"collins,caitlyn",
+    "homePlayer3":"rainey,kendra",
+    "homePlayer4":"selkow,andrea",
+    "homePlayer5":"chiaverini,reagan",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"ustick,jessie",
+    "awayPlayer3":"owens,alyssa",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"muhammad,moriah",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5263",
+    "homeTeam":"Austin",
+    "awayTeam":"Rhodes",
+    "saaGame":"0",
+    "finalScore":"57-81",
+    "homeScoreByPeriod":"19,20,22,20,81",
+    "awayScoreByPeriod":"6,17,20,14,57",
+    "homeRecord":"6-4",
+    "awayRecord":"5-3",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"12\/16\/17",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Hughey Gym",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"127",
+    "isNeutral":"False",
+    "timeRemaining":"01:38",
+    "awayPlay":"SUB OUT by TAYLOR,CAROLINE",
+    "awayTeamScore":"21",
+    "playTeamIndicator":"",
+    "homeTeamScore":"39 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by TAYLOR,CAROLINE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"taylor,caroline",
+    "pointsEarned":"",
+    "awayLineup":[
+      "whiteside,lindsey",
+      "ustick,jessie",
+      "owens,alyssa",
+      "taylor,caroline",
+      null
+    ],
+    "homeLineup":[
+      "west,kacie",
+      "collins,caitlyn",
+      "rainey,kendra",
+      "selkow,andrea",
+      "chiaverini,reagan"
+    ],
+    "timeSeconds":98,
+    "Poss":"austin",
+    "possNum":29,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
     "possPoints":0,
     "possSequence":64,
     "teamChanged":0,
@@ -14373,84 +14451,6 @@
     "attendance":"127",
     "isNeutral":"False",
     "timeRemaining":"01:38",
-    "awayPlay":"SUB OUT by TAYLOR,CAROLINE",
-    "awayTeamScore":"21",
-    "playTeamIndicator":"",
-    "homeTeamScore":"39 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by TAYLOR,CAROLINE",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"taylor,caroline",
-    "pointsEarned":"",
-    "awayLineup":[
-      "whiteside,lindsey",
-      "ustick,jessie",
-      "owens,alyssa",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "west,kacie",
-      "collins,caitlyn",
-      "rainey,kendra",
-      "selkow,andrea",
-      "chiaverini,reagan"
-    ],
-    "timeSeconds":98,
-    "Poss":"austin",
-    "possNum":29,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":64,
-    "teamChanged":0,
-    "game":"AustinRhodes12\/16\/17",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"west,kacie",
-    "homePlayer2":"collins,caitlyn",
-    "homePlayer3":"rainey,kendra",
-    "homePlayer4":"selkow,andrea",
-    "homePlayer5":"chiaverini,reagan",
-    "awayPlayer1":"whiteside,lindsey",
-    "awayPlayer2":"ustick,jessie",
-    "awayPlayer3":"owens,alyssa",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5263",
-    "homeTeam":"Austin",
-    "awayTeam":"Rhodes",
-    "saaGame":"0",
-    "finalScore":"57-81",
-    "homeScoreByPeriod":"19,20,22,20,81",
-    "awayScoreByPeriod":"6,17,20,14,57",
-    "homeRecord":"6-4",
-    "awayRecord":"5-3",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"12\/16\/17",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Hughey Gym",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"127",
-    "isNeutral":"False",
-    "timeRemaining":"01:38",
     "awayPlay":"SUB OUT by USTICK,JESSIE",
     "awayTeamScore":"21",
     "playTeamIndicator":"",
@@ -14468,7 +14468,7 @@
     "awayLineup":[
       "whiteside,lindsey",
       "owens,alyssa",
-      null,
+      "ustick,jessie",
       null,
       null
     ],
@@ -14502,7 +14502,7 @@
     "homePlayer5":"chiaverini,reagan",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
-    "awayPlayer3":null,
+    "awayPlayer3":"ustick,jessie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -14547,7 +14547,7 @@
       "whiteside,lindsey",
       "owens,alyssa",
       "deery,erin",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -14581,7 +14581,7 @@
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"deery,erin",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14626,7 +14626,7 @@
       "owens,alyssa",
       "deery,erin",
       "longacre,maya",
-      null
+      "totals"
     ],
     "homeLineup":[
       "west,kacie",
@@ -14660,8 +14660,8 @@
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -15569,7 +15569,7 @@
       "collins,caitlyn",
       "rainey,kendra",
       "selkow,andrea",
-      null
+      "chiaverini,reagan"
     ],
     "timeSeconds":37,
     "Poss":"rhodes",
@@ -15591,13 +15591,13 @@
     "homePlayer2":"collins,caitlyn",
     "homePlayer3":"rainey,kendra",
     "homePlayer4":"selkow,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"chiaverini,reagan",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
     "awayPlayer5":"summers,danielle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -15646,7 +15646,7 @@
       "west,kacie",
       "collins,caitlyn",
       "selkow,andrea",
-      null,
+      "rainey,kendra",
       null
     ],
     "timeSeconds":37,
@@ -15668,7 +15668,7 @@
     "homePlayer1":"west,kacie",
     "homePlayer2":"collins,caitlyn",
     "homePlayer3":"selkow,andrea",
-    "homePlayer4":null,
+    "homePlayer4":"rainey,kendra",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
@@ -15723,7 +15723,7 @@
     "homeLineup":[
       "west,kacie",
       "selkow,andrea",
-      null,
+      "collins,caitlyn",
       null,
       null
     ],
@@ -15745,7 +15745,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"west,kacie",
     "homePlayer2":"selkow,andrea",
-    "homePlayer3":null,
+    "homePlayer3":"collins,caitlyn",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
@@ -15802,7 +15802,7 @@
       "west,kacie",
       "selkow,andrea",
       "longaker,ally",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":37,
@@ -15824,7 +15824,7 @@
     "homePlayer1":"west,kacie",
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"longaker,ally",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
@@ -15881,7 +15881,7 @@
       "selkow,andrea",
       "longaker,ally",
       "savage,ann",
-      null
+      "totals"
     ],
     "timeSeconds":37,
     "Poss":"rhodes",
@@ -15903,13 +15903,13 @@
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"longaker,ally",
     "homePlayer4":"savage,ann",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
     "awayPlayer5":"summers,danielle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -19235,7 +19235,7 @@
       "selkow,andrea",
       "savage,ann",
       "lewis,meghan",
-      null
+      "longaker,ally"
     ],
     "timeSeconds":321,
     "Poss":"rhodes",
@@ -19257,13 +19257,13 @@
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"savage,ann",
     "homePlayer4":"lewis,meghan",
-    "homePlayer5":null,
+    "homePlayer5":"longaker,ally",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"summers,danielle",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -19313,7 +19313,7 @@
       "selkow,andrea",
       "savage,ann",
       "lewis,meghan",
-      null
+      "longaker,ally"
     ],
     "timeSeconds":321,
     "Poss":"rhodes",
@@ -19335,13 +19335,13 @@
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"savage,ann",
     "homePlayer4":"lewis,meghan",
-    "homePlayer5":null,
+    "homePlayer5":"longaker,ally",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"summers,danielle",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -19391,7 +19391,7 @@
       "selkow,andrea",
       "savage,ann",
       "lewis,meghan",
-      null
+      "longaker,ally"
     ],
     "timeSeconds":321,
     "Poss":"rhodes",
@@ -19413,13 +19413,13 @@
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"savage,ann",
     "homePlayer4":"lewis,meghan",
-    "homePlayer5":null,
+    "homePlayer5":"longaker,ally",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"summers,danielle",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -20171,7 +20171,7 @@
       "selkow,andrea",
       "savage,ann",
       "rainey,kendra",
-      null
+      "lewis,meghan"
     ],
     "timeSeconds":259,
     "Poss":"rhodes",
@@ -20193,13 +20193,13 @@
     "homePlayer2":"selkow,andrea",
     "homePlayer3":"savage,ann",
     "homePlayer4":"rainey,kendra",
-    "homePlayer5":null,
+    "homePlayer5":"lewis,meghan",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"summers,danielle",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -21645,7 +21645,7 @@
       "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
-      null,
+      "longacre,maya",
       null
     ],
     "homeLineup":[
@@ -21679,7 +21679,7 @@
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"longacre,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21723,7 +21723,7 @@
       "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
-      null,
+      "longacre,maya",
       null
     ],
     "homeLineup":[
@@ -21731,7 +21731,7 @@
       "savage,ann",
       "rainey,kendra",
       "litton,tiffany",
-      null
+      "west,kacie"
     ],
     "timeSeconds":131,
     "Poss":"rhodes",
@@ -21753,11 +21753,11 @@
     "homePlayer2":"savage,ann",
     "homePlayer3":"rainey,kendra",
     "homePlayer4":"litton,tiffany",
-    "homePlayer5":null,
+    "homePlayer5":"west,kacie",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"longacre,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21801,14 +21801,14 @@
       "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
-      null,
+      "longacre,maya",
       null
     ],
     "homeLineup":[
       "selkow,andrea",
       "rainey,kendra",
       "litton,tiffany",
-      null,
+      "savage,ann",
       null
     ],
     "timeSeconds":131,
@@ -21830,12 +21830,12 @@
     "homePlayer1":"selkow,andrea",
     "homePlayer2":"rainey,kendra",
     "homePlayer3":"litton,tiffany",
-    "homePlayer4":null,
+    "homePlayer4":"savage,ann",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"longacre,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21886,7 +21886,7 @@
       "selkow,andrea",
       "rainey,kendra",
       "litton,tiffany",
-      null,
+      "savage,ann",
       null
     ],
     "timeSeconds":131,
@@ -21908,7 +21908,7 @@
     "homePlayer1":"selkow,andrea",
     "homePlayer2":"rainey,kendra",
     "homePlayer3":"litton,tiffany",
-    "homePlayer4":null,
+    "homePlayer4":"savage,ann",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
@@ -21965,7 +21965,7 @@
       "rainey,kendra",
       "litton,tiffany",
       "lewis,meghan",
-      null
+      "west,kacie"
     ],
     "timeSeconds":131,
     "Poss":"rhodes",
@@ -21987,13 +21987,13 @@
     "homePlayer2":"rainey,kendra",
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"lewis,meghan",
-    "homePlayer5":null,
+    "homePlayer5":"west,kacie",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -22511,7 +22511,7 @@
       "rainey,kendra",
       "litton,tiffany",
       "chiaverini,reagan",
-      null
+      "lewis,meghan"
     ],
     "timeSeconds":123,
     "Poss":"austin",
@@ -22533,13 +22533,13 @@
     "homePlayer2":"rainey,kendra",
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
-    "homePlayer5":null,
+    "homePlayer5":"lewis,meghan",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"ustick,jessie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -23904,11 +23904,11 @@
     "Player":"owens,alyssa",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -23938,12 +23938,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -23982,11 +23982,11 @@
     "Player":"summers,danielle",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24016,12 +24016,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24060,11 +24060,11 @@
     "Player":"ustick,jessie",
     "pointsEarned":"2",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24094,12 +24094,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24138,11 +24138,11 @@
     "Player":"savage,ann",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24172,12 +24172,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24216,11 +24216,11 @@
     "Player":"longaker,ally",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24250,12 +24250,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24294,11 +24294,11 @@
     "Player":"longaker,ally",
     "pointsEarned":"2",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24328,12 +24328,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24372,11 +24372,11 @@
     "Player":"deery,erin",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24406,12 +24406,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24450,11 +24450,11 @@
     "Player":"longaker,ally",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
-      "young,allie",
       "summers,danielle",
-      null
+      "young,allie",
+      "ustick,jessie"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24484,12 +24484,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24528,10 +24528,10 @@
     "Player":"young,allie",
     "pointsEarned":"",
     "awayLineup":[
-      "ustick,jessie",
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
-      null,
+      "young,allie",
       null
     ],
     "homeLineup":[
@@ -24562,10 +24562,10 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"ustick,jessie",
+    "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"young,allie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24606,10 +24606,10 @@
     "Player":"ustick,jessie",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
-      null,
-      null,
+      "young,allie",
       null
     ],
     "homeLineup":[
@@ -24640,10 +24640,10 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"young,allie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24684,11 +24684,11 @@
     "Player":"taylor,caroline",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      null,
-      null
+      "totals"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24718,12 +24718,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -24762,11 +24762,11 @@
     "Player":"longacre,maya",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24796,11 +24796,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -24840,11 +24840,11 @@
     "Player":"walling,addison",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24874,11 +24874,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -24918,11 +24918,11 @@
     "Player":"summers,danielle",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -24952,11 +24952,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -24996,11 +24996,11 @@
     "Player":"deery,erin",
     "pointsEarned":"2",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25030,11 +25030,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -25074,11 +25074,11 @@
     "Player":"frank,bryce",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25108,11 +25108,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -25152,11 +25152,11 @@
     "Player":"taylor,caroline",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25186,11 +25186,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -25230,11 +25230,11 @@
     "Player":"whiteside,lindsey",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25264,11 +25264,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -25308,11 +25308,11 @@
     "Player":"whiteside,lindsey",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "summers,danielle",
       "taylor,caroline",
-      "longacre,maya",
-      "whiteside,lindsey"
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25342,11 +25342,11 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"summers,danielle",
-    "awayPlayer3":"taylor,caroline",
-    "awayPlayer4":"longacre,maya",
-    "awayPlayer5":"whiteside,lindsey",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"summers,danielle",
+    "awayPlayer4":"taylor,caroline",
+    "awayPlayer5":"longacre,maya",
     "playerMissing":0
   },
   {
@@ -25386,11 +25386,11 @@
     "Player":"summers,danielle",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      null,
-      null
+      "summers,danielle"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25420,12 +25420,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"summers,danielle",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25464,11 +25464,11 @@
     "Player":"owens,alyssa",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25498,12 +25498,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25542,11 +25542,11 @@
     "Player":"walling,addison",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25576,12 +25576,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25620,11 +25620,11 @@
     "Player":"longacre,maya",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25654,12 +25654,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25698,11 +25698,11 @@
     "Player":"owens,alyssa",
     "pointsEarned":"2",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25732,12 +25732,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25776,11 +25776,11 @@
     "Player":"frank,bryce",
     "pointsEarned":"2",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25810,12 +25810,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25854,11 +25854,11 @@
     "Player":"owens,alyssa",
     "pointsEarned":"2",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25888,12 +25888,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -25932,11 +25932,11 @@
     "Player":"savage,ann",
     "pointsEarned":"3",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -25966,12 +25966,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26010,11 +26010,11 @@
     "Player":"lewis,meghan",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26044,12 +26044,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26088,11 +26088,11 @@
     "Player":"owens,alyssa",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26122,12 +26122,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26166,11 +26166,11 @@
     "Player":"longaker,ally",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26200,12 +26200,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26244,11 +26244,11 @@
     "Player":"longaker,ally",
     "pointsEarned":"",
     "awayLineup":[
+      "whiteside,lindsey",
       "deery,erin",
       "taylor,caroline",
       "longacre,maya",
-      "owens,alyssa",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26278,12 +26278,12 @@
     "homePlayer3":"litton,tiffany",
     "homePlayer4":"chiaverini,reagan",
     "homePlayer5":"gascich,mikayla",
-    "awayPlayer1":"deery,erin",
-    "awayPlayer2":"taylor,caroline",
-    "awayPlayer3":"longacre,maya",
-    "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"taylor,caroline",
+    "awayPlayer4":"longacre,maya",
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26326,7 +26326,7 @@
       "taylor,caroline",
       "longacre,maya",
       "owens,alyssa",
-      null
+      "whiteside,lindsey"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26360,8 +26360,8 @@
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"whiteside,lindsey",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -26950,7 +26950,7 @@
       "taylor,caroline",
       "owens,alyssa",
       "ustick,jessie",
-      null
+      "longacre,maya"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -26984,8 +26984,8 @@
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"ustick,jessie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"longacre,maya",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -27027,7 +27027,7 @@
       "deery,erin",
       "taylor,caroline",
       "ustick,jessie",
-      null,
+      "owens,alyssa",
       null
     ],
     "homeLineup":[
@@ -27061,7 +27061,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"ustick,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"owens,alyssa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27105,7 +27105,7 @@
       "deery,erin",
       "taylor,caroline",
       "ustick,jessie",
-      null,
+      "owens,alyssa",
       null
     ],
     "homeLineup":[
@@ -27139,7 +27139,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"ustick,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"owens,alyssa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27184,7 +27184,7 @@
       "taylor,caroline",
       "ustick,jessie",
       "summers,danielle",
-      null
+      "totals"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -27218,8 +27218,8 @@
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -28666,7 +28666,7 @@
       "ustick,jessie",
       "summers,danielle",
       "young,allie",
-      null
+      "taylor,caroline"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -28700,8 +28700,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"summers,danielle",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,caroline",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -28743,7 +28743,7 @@
       "deery,erin",
       "ustick,jessie",
       "young,allie",
-      null,
+      "summers,danielle",
       null
     ],
     "homeLineup":[
@@ -28777,7 +28777,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
-    "awayPlayer4":null,
+    "awayPlayer4":"summers,danielle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28821,7 +28821,7 @@
       "deery,erin",
       "ustick,jessie",
       "young,allie",
-      null,
+      "summers,danielle",
       null
     ],
     "homeLineup":[
@@ -28855,7 +28855,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
-    "awayPlayer4":null,
+    "awayPlayer4":"summers,danielle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28899,7 +28899,7 @@
       "deery,erin",
       "ustick,jessie",
       "young,allie",
-      null,
+      "summers,danielle",
       null
     ],
     "homeLineup":[
@@ -28933,7 +28933,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
-    "awayPlayer4":null,
+    "awayPlayer4":"summers,danielle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -28977,7 +28977,7 @@
       "deery,erin",
       "ustick,jessie",
       "young,allie",
-      null,
+      "summers,danielle",
       null
     ],
     "homeLineup":[
@@ -29011,7 +29011,7 @@
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
-    "awayPlayer4":null,
+    "awayPlayer4":"summers,danielle",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -29056,7 +29056,7 @@
       "ustick,jessie",
       "young,allie",
       "owens,alyssa",
-      null
+      "totals"
     ],
     "homeLineup":[
       "selkow,andrea",
@@ -29090,8 +29090,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"owens,alyssa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -30538,7 +30538,7 @@
       "ustick,jessie",
       "young,allie",
       "whiteside,lindsey",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "litton,tiffany",
@@ -30572,8 +30572,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"whiteside,lindsey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -30616,7 +30616,7 @@
       "ustick,jessie",
       "young,allie",
       "whiteside,lindsey",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "litton,tiffany",
@@ -30650,8 +30650,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"whiteside,lindsey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -30694,14 +30694,14 @@
       "ustick,jessie",
       "young,allie",
       "whiteside,lindsey",
-      null
+      "owens,alyssa"
     ],
     "homeLineup":[
       "litton,tiffany",
       "chiaverini,reagan",
       "gascich,mikayla",
       "atwell,jessica",
-      null
+      "west,kacie"
     ],
     "timeSeconds":117,
     "Poss":"rhodes",
@@ -30723,13 +30723,13 @@
     "homePlayer2":"chiaverini,reagan",
     "homePlayer3":"gascich,mikayla",
     "homePlayer4":"atwell,jessica",
-    "homePlayer5":null,
+    "homePlayer5":"west,kacie",
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"whiteside,lindsey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"owens,alyssa",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -30779,7 +30779,7 @@
       "chiaverini,reagan",
       "gascich,mikayla",
       "atwell,jessica",
-      null
+      "west,kacie"
     ],
     "timeSeconds":117,
     "Poss":"rhodes",
@@ -30801,13 +30801,13 @@
     "homePlayer2":"chiaverini,reagan",
     "homePlayer3":"gascich,mikayla",
     "homePlayer4":"atwell,jessica",
-    "homePlayer5":null,
+    "homePlayer5":"west,kacie",
     "awayPlayer1":"deery,erin",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"whiteside,lindsey",
     "awayPlayer5":"summers,danielle",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -31630,7 +31630,7 @@
       "ustick,jessie",
       "whiteside,lindsey",
       "summers,danielle",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "gascich,mikayla",
@@ -31664,8 +31664,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"whiteside,lindsey",
     "awayPlayer4":"summers,danielle",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5263",
@@ -32956,7 +32956,7 @@
       "whiteside,lindsey",
       "summers,danielle",
       "longacre,maya",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "gascich,mikayla",
@@ -32990,8 +32990,8 @@
     "awayPlayer2":"whiteside,lindsey",
     "awayPlayer3":"summers,danielle",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5263",

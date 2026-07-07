@@ -1841,7 +1841,7 @@
       "beene,abby",
       "smith,naomi",
       "smith,nadia",
-      null
+      "ground,kelsey"
     ],
     "timeSeconds":367,
     "Poss":"millsaps",
@@ -1863,13 +1863,13 @@
     "homePlayer2":"beene,abby",
     "homePlayer3":"smith,naomi",
     "homePlayer4":"smith,nadia",
-    "homePlayer5":null,
+    "homePlayer5":"ground,kelsey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -2380,7 +2380,7 @@
       "freeman,garin",
       "novak,whitney",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "garcia,lili",
@@ -2414,8 +2414,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -2452,6 +2452,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "frank,taylor",
+      "novak,whitney",
+      null
+    ],
+    "homeLineup":[
+      "garcia,lili",
+      "beene,abby",
+      "smith,naomi",
+      "smith,nadia",
+      "fisher,dalena"
+    ],
+    "timeSeconds":296,
+    "Poss":"millsaps",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":12,
+    "teamChanged":0,
+    "game":"Ozarks (AR)Millsaps12\/19\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"garcia,lili",
+    "homePlayer2":"beene,abby",
+    "homePlayer3":"smith,naomi",
+    "homePlayer4":"smith,nadia",
+    "homePlayer5":"fisher,dalena",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"novak,whitney",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7294",
+    "homeTeam":"Ozarks (AR)",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"62-56",
+    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
+    "homeRecord":"5-3",
+    "awayRecord":"10-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/19\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"04:56",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"8 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -2517,84 +2595,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"04:56",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"8 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "garcia,lili",
-      "beene,abby",
-      "smith,naomi",
-      "smith,nadia",
-      "fisher,dalena"
-    ],
-    "timeSeconds":296,
-    "Poss":"millsaps",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":12,
-    "teamChanged":0,
-    "game":"Ozarks (AR)Millsaps12\/19\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"garcia,lili",
-    "homePlayer2":"beene,abby",
-    "homePlayer3":"smith,naomi",
-    "homePlayer4":"smith,nadia",
-    "homePlayer5":"fisher,dalena",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7294",
-    "homeTeam":"Ozarks (AR)",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"62-56",
-    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
-    "homeRecord":"5-3",
-    "awayRecord":"10-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/19\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"04:56",
     "awayPlay":"SUB IN by KEYES,LEXUS",
     "awayTeamScore":"8 ",
     "playTeamIndicator":"",
@@ -2613,7 +2613,7 @@
       "franklin,haley",
       "freeman,garin",
       "keyes,lexus",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -2647,7 +2647,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2692,7 +2692,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "garcia,lili",
@@ -2726,8 +2726,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -4337,7 +4337,7 @@
       "smith,naomi",
       "smith,nadia",
       "fisher,dalena",
-      null
+      "garcia,lili"
     ],
     "timeSeconds":218,
     "Poss":"millsaps",
@@ -4359,13 +4359,13 @@
     "homePlayer2":"smith,naomi",
     "homePlayer3":"smith,nadia",
     "homePlayer4":"fisher,dalena",
-    "homePlayer5":null,
+    "homePlayer5":"garcia,lili",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -5812,7 +5812,7 @@
       "freeman,garin",
       "keyes,lexus",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -5846,8 +5846,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -6131,7 +6131,7 @@
       "smith,naomi",
       "fisher,dalena",
       "marsh,jaslynn",
-      null
+      "smith,nadia"
     ],
     "timeSeconds":92,
     "Poss":"millsaps",
@@ -6153,13 +6153,13 @@
     "homePlayer2":"smith,naomi",
     "homePlayer3":"fisher,dalena",
     "homePlayer4":"marsh,jaslynn",
-    "homePlayer5":null,
+    "homePlayer5":"smith,nadia",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -6670,7 +6670,7 @@
       "keyes,lexus",
       "anderson,tia",
       "frank,taylor",
-      null
+      "franklin,haley"
     ],
     "homeLineup":[
       "beene,abby",
@@ -6704,8 +6704,8 @@
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"franklin,haley",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -6989,7 +6989,7 @@
       "smith,naomi",
       "fisher,dalena",
       "garcia,lili",
-      null
+      "marsh,jaslynn"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -7011,13 +7011,13 @@
     "homePlayer2":"smith,naomi",
     "homePlayer3":"fisher,dalena",
     "homePlayer4":"garcia,lili",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,jaslynn",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -7066,7 +7066,7 @@
       "beene,abby",
       "fisher,dalena",
       "garcia,lili",
-      null,
+      "smith,naomi",
       null
     ],
     "timeSeconds":600,
@@ -7088,7 +7088,7 @@
     "homePlayer1":"beene,abby",
     "homePlayer2":"fisher,dalena",
     "homePlayer3":"garcia,lili",
-    "homePlayer4":null,
+    "homePlayer4":"smith,naomi",
     "homePlayer5":null,
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"keyes,lexus",
@@ -7145,7 +7145,7 @@
       "fisher,dalena",
       "garcia,lili",
       "smith,nadia",
-      null
+      "smith,naomi"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -7167,13 +7167,13 @@
     "homePlayer2":"fisher,dalena",
     "homePlayer3":"garcia,lili",
     "homePlayer4":"smith,nadia",
-    "homePlayer5":null,
+    "homePlayer5":"smith,naomi",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -7925,7 +7925,7 @@
       "garcia,lili",
       "smith,nadia",
       "garcia,elli",
-      null
+      "fisher,dalena"
     ],
     "timeSeconds":530,
     "Poss":"millsaps",
@@ -7947,13 +7947,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,nadia",
     "homePlayer4":"garcia,elli",
-    "homePlayer5":null,
+    "homePlayer5":"fisher,dalena",
     "awayPlayer1":"freeman,garin",
     "awayPlayer2":"keyes,lexus",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"adams,emily",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -8074,7 +8074,7 @@
       "anderson,tia",
       "frank,taylor",
       "adams,emily",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "beene,abby",
@@ -8108,8 +8108,8 @@
     "awayPlayer2":"anderson,tia",
     "awayPlayer3":"frank,taylor",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -9244,7 +9244,7 @@
       "frank,taylor",
       "adams,emily",
       "franklin,haley",
-      null
+      "keyes,lexus"
     ],
     "homeLineup":[
       "beene,abby",
@@ -9278,8 +9278,8 @@
     "awayPlayer2":"frank,taylor",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"franklin,haley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -9321,7 +9321,7 @@
       "frank,taylor",
       "adams,emily",
       "franklin,haley",
-      null,
+      "anderson,tia",
       null
     ],
     "homeLineup":[
@@ -9355,7 +9355,7 @@
     "awayPlayer1":"frank,taylor",
     "awayPlayer2":"adams,emily",
     "awayPlayer3":"franklin,haley",
-    "awayPlayer4":null,
+    "awayPlayer4":"anderson,tia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9398,7 +9398,7 @@
     "awayLineup":[
       "adams,emily",
       "franklin,haley",
-      null,
+      "frank,taylor",
       null,
       null
     ],
@@ -9432,7 +9432,7 @@
     "homePlayer5":"smith,naomi",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
-    "awayPlayer3":null,
+    "awayPlayer3":"frank,taylor",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -9477,7 +9477,7 @@
       "adams,emily",
       "franklin,haley",
       "maw,maddy",
-      null,
+      "freeman,garin",
       null
     ],
     "homeLineup":[
@@ -9511,7 +9511,7 @@
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
-    "awayPlayer4":null,
+    "awayPlayer4":"freeman,garin",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9556,7 +9556,7 @@
       "franklin,haley",
       "maw,maddy",
       "warren,elyse",
-      null
+      "freeman,garin"
     ],
     "homeLineup":[
       "beene,abby",
@@ -9590,8 +9590,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"freeman,garin",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -10421,7 +10421,7 @@
       "garcia,lili",
       "garcia,elli",
       "smith,naomi",
-      null
+      "smith,nadia"
     ],
     "timeSeconds":411,
     "Poss":"ozarks (ar)",
@@ -10443,13 +10443,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"garcia,elli",
     "homePlayer4":"smith,naomi",
-    "homePlayer5":null,
+    "homePlayer5":"smith,nadia",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -11279,7 +11279,7 @@
       "garcia,lili",
       "smith,naomi",
       "marsh,jaslynn",
-      null
+      "garcia,elli"
     ],
     "timeSeconds":317,
     "Poss":"ozarks (ar)",
@@ -11301,13 +11301,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,naomi",
     "homePlayer4":"marsh,jaslynn",
-    "homePlayer5":null,
+    "homePlayer5":"garcia,elli",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"maw,maddy",
     "awayPlayer4":"warren,elyse",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -12130,7 +12130,7 @@
       "franklin,haley",
       "warren,elyse",
       "novak,whitney",
-      null
+      "maw,maddy"
     ],
     "homeLineup":[
       "beene,abby",
@@ -12164,8 +12164,8 @@
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"maw,maddy",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -13541,7 +13541,7 @@
       "garcia,lili",
       "marsh,jaslynn",
       "fisher,dalena",
-      null
+      "smith,naomi"
     ],
     "timeSeconds":126,
     "Poss":"ozarks (ar)",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"marsh,jaslynn",
     "homePlayer4":"fisher,dalena",
-    "homePlayer5":null,
+    "homePlayer5":"smith,naomi",
     "awayPlayer1":"adams,emily",
     "awayPlayer2":"franklin,haley",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"novak,whitney",
     "awayPlayer5":"freeman,garin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -13690,7 +13690,7 @@
       "warren,elyse",
       "novak,whitney",
       "freeman,garin",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "beene,abby",
@@ -13724,8 +13724,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"freeman,garin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -13767,7 +13767,7 @@
       "franklin,haley",
       "warren,elyse",
       "freeman,garin",
-      null,
+      "novak,whitney",
       null
     ],
     "homeLineup":[
@@ -13801,7 +13801,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"freeman,garin",
-    "awayPlayer4":null,
+    "awayPlayer4":"novak,whitney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13846,7 +13846,7 @@
       "warren,elyse",
       "freeman,garin",
       "keyes,lexus",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "beene,abby",
@@ -13880,8 +13880,8 @@
     "awayPlayer2":"warren,elyse",
     "awayPlayer3":"freeman,garin",
     "awayPlayer4":"keyes,lexus",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -14782,7 +14782,7 @@
       "freeman,garin",
       "keyes,lexus",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -14816,8 +14816,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -15335,7 +15335,7 @@
       "garcia,lili",
       "fisher,dalena",
       "smith,nadia",
-      null
+      "marsh,jaslynn"
     ],
     "timeSeconds":600,
     "Poss":"ozarks (ar)",
@@ -15357,13 +15357,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"fisher,dalena",
     "homePlayer4":"smith,nadia",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,jaslynn",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -15412,7 +15412,7 @@
       "beene,abby",
       "garcia,lili",
       "smith,nadia",
-      null,
+      "fisher,dalena",
       null
     ],
     "timeSeconds":600,
@@ -15434,7 +15434,7 @@
     "homePlayer1":"beene,abby",
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,nadia",
-    "homePlayer4":null,
+    "homePlayer4":"fisher,dalena",
     "homePlayer5":null,
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
@@ -15491,7 +15491,7 @@
       "garcia,lili",
       "smith,nadia",
       "ground,kelsey",
-      null
+      "smith,naomi"
     ],
     "timeSeconds":600,
     "Poss":"ozarks (ar)",
@@ -15513,13 +15513,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,nadia",
     "homePlayer4":"ground,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"smith,naomi",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -15640,7 +15640,7 @@
       "freeman,garin",
       "anderson,tia",
       "novak,whitney",
-      null
+      "keyes,lexus"
     ],
     "homeLineup":[
       "beene,abby",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"anderson,tia",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -15717,7 +15717,7 @@
       "franklin,haley",
       "freeman,garin",
       "novak,whitney",
-      null,
+      "anderson,tia",
       null
     ],
     "homeLineup":[
@@ -15751,7 +15751,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
-    "awayPlayer4":null,
+    "awayPlayer4":"anderson,tia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15796,7 +15796,7 @@
       "freeman,garin",
       "novak,whitney",
       "adams,emily",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -15830,8 +15830,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -16576,7 +16576,7 @@
       "freeman,garin",
       "novak,whitney",
       "adams,emily",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -16610,8 +16610,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -17675,7 +17675,7 @@
       "garcia,lili",
       "smith,nadia",
       "smith,naomi",
-      null
+      "ground,kelsey"
     ],
     "timeSeconds":399,
     "Poss":"millsaps",
@@ -17697,13 +17697,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,nadia",
     "homePlayer4":"smith,naomi",
-    "homePlayer5":null,
+    "homePlayer5":"ground,kelsey",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -17824,7 +17824,7 @@
       "freeman,garin",
       "novak,whitney",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "beene,abby",
@@ -17858,8 +17858,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"novak,whitney",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -17896,6 +17896,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "frank,taylor",
+      "novak,whitney",
+      null
+    ],
+    "homeLineup":[
+      "beene,abby",
+      "garcia,lili",
+      "smith,nadia",
+      "smith,naomi",
+      "fisher,dalena"
+    ],
+    "timeSeconds":399,
+    "Poss":"millsaps",
+    "possNum":35,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"ozarks (ar)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":74,
+    "teamChanged":0,
+    "game":"Ozarks (AR)Millsaps12\/19\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"beene,abby",
+    "homePlayer2":"garcia,lili",
+    "homePlayer3":"smith,nadia",
+    "homePlayer4":"smith,naomi",
+    "homePlayer5":"fisher,dalena",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"frank,taylor",
+    "awayPlayer4":"novak,whitney",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7294",
+    "homeTeam":"Ozarks (AR)",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"62-56",
+    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
+    "homeRecord":"5-3",
+    "awayRecord":"10-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/19\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"06:39",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"30",
+    "playTeamIndicator":"",
+    "homeTeamScore":"37 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "franklin,haley",
@@ -17961,84 +18039,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"06:39",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"30",
-    "playTeamIndicator":"",
-    "homeTeamScore":"37 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "beene,abby",
-      "garcia,lili",
-      "smith,nadia",
-      "smith,naomi",
-      "fisher,dalena"
-    ],
-    "timeSeconds":399,
-    "Poss":"millsaps",
-    "possNum":35,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"ozarks (ar)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":74,
-    "teamChanged":0,
-    "game":"Ozarks (AR)Millsaps12\/19\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"beene,abby",
-    "homePlayer2":"garcia,lili",
-    "homePlayer3":"smith,nadia",
-    "homePlayer4":"smith,naomi",
-    "homePlayer5":"fisher,dalena",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7294",
-    "homeTeam":"Ozarks (AR)",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"62-56",
-    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
-    "homeRecord":"5-3",
-    "awayRecord":"10-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/19\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"06:39",
     "awayPlay":"SUB IN by KEYES,LEXUS",
     "awayTeamScore":"30",
     "playTeamIndicator":"",
@@ -18057,7 +18057,7 @@
       "franklin,haley",
       "freeman,garin",
       "keyes,lexus",
-      null,
+      "adams,emily",
       null
     ],
     "homeLineup":[
@@ -18091,7 +18091,7 @@
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
-    "awayPlayer4":null,
+    "awayPlayer4":"adams,emily",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18136,7 +18136,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "homeLineup":[
       "beene,abby",
@@ -18170,8 +18170,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"adams,emily",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -21100,7 +21100,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "beene,abby",
@@ -21134,8 +21134,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"keyes,lexus",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -21412,7 +21412,7 @@
       "freeman,garin",
       "warren,elyse",
       "adams,emily",
-      null
+      "keyes,lexus"
     ],
     "homeLineup":[
       "beene,abby",
@@ -21446,8 +21446,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"adams,emily",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"keyes,lexus",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -21965,7 +21965,7 @@
       "garcia,lili",
       "smith,nadia",
       "smith,naomi",
-      null
+      "fisher,dalena"
     ],
     "timeSeconds":76,
     "Poss":"millsaps",
@@ -21987,13 +21987,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,nadia",
     "homePlayer4":"smith,naomi",
-    "homePlayer5":null,
+    "homePlayer5":"fisher,dalena",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"warren,elyse",
     "awayPlayer4":"adams,emily",
     "awayPlayer5":"anderson,tia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -22426,7 +22426,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -22460,8 +22460,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -22894,7 +22894,7 @@
       "freeman,garin",
       "adams,emily",
       "frank,taylor",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "beene,abby",
@@ -22928,8 +22928,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -23681,7 +23681,7 @@
       "garcia,lili",
       "smith,naomi",
       "marsh,jaslynn",
-      null
+      "smith,nadia"
     ],
     "timeSeconds":499,
     "Poss":"ozarks (ar)",
@@ -23703,13 +23703,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,naomi",
     "homePlayer4":"marsh,jaslynn",
-    "homePlayer5":null,
+    "homePlayer5":"smith,nadia",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"frank,taylor",
     "awayPlayer5":"novak,whitney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -23830,7 +23830,7 @@
       "freeman,garin",
       "adams,emily",
       "novak,whitney",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "beene,abby",
@@ -23864,8 +23864,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"novak,whitney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -26560,7 +26560,7 @@
       "freeman,garin",
       "adams,emily",
       "warren,elyse",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "beene,abby",
@@ -26594,8 +26594,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -26872,7 +26872,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -27659,7 +27659,7 @@
       "garcia,lili",
       "smith,naomi",
       "fisher,dalena",
-      null
+      "marsh,jaslynn"
     ],
     "timeSeconds":266,
     "Poss":"millsaps",
@@ -27681,13 +27681,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,naomi",
     "homePlayer4":"fisher,dalena",
-    "homePlayer5":null,
+    "homePlayer5":"marsh,jaslynn",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -28276,7 +28276,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "beene,abby",
@@ -28310,8 +28310,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -28666,7 +28666,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -28700,8 +28700,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -29134,7 +29134,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "frank,taylor"
     ],
     "homeLineup":[
       "beene,abby",
@@ -29168,8 +29168,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"frank,taylor",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -29680,7 +29680,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "beene,abby",
@@ -29714,8 +29714,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -29843,7 +29843,7 @@
       "garcia,lili",
       "smith,naomi",
       "fisher,dalena",
-      null
+      "smith,nadia"
     ],
     "timeSeconds":121,
     "Poss":"millsaps",
@@ -29865,13 +29865,13 @@
     "homePlayer2":"garcia,lili",
     "homePlayer3":"smith,naomi",
     "homePlayer4":"fisher,dalena",
-    "homePlayer5":null,
+    "homePlayer5":"smith,nadia",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -30623,7 +30623,7 @@
       "smith,naomi",
       "fisher,dalena",
       "ground,kelsey",
-      null
+      "garcia,lili"
     ],
     "timeSeconds":114,
     "Poss":"ozarks (ar)",
@@ -30645,13 +30645,13 @@
     "homePlayer2":"smith,naomi",
     "homePlayer3":"fisher,dalena",
     "homePlayer4":"ground,kelsey",
-    "homePlayer5":null,
+    "homePlayer5":"garcia,lili",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -31715,7 +31715,7 @@
       "smith,naomi",
       "ground,kelsey",
       "marsh,jaslynn",
-      null
+      "fisher,dalena"
     ],
     "timeSeconds":67,
     "Poss":"ozarks (ar)",
@@ -31737,13 +31737,13 @@
     "homePlayer2":"smith,naomi",
     "homePlayer3":"ground,kelsey",
     "homePlayer4":"marsh,jaslynn",
-    "homePlayer5":null,
+    "homePlayer5":"fisher,dalena",
     "awayPlayer1":"franklin,haley",
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
     "awayPlayer5":"frank,taylor",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -31864,6 +31864,84 @@
       "freeman,garin",
       "adams,emily",
       "frank,taylor",
+      "anderson,tia"
+    ],
+    "homeLineup":[
+      "beene,abby",
+      "smith,naomi",
+      "ground,kelsey",
+      "marsh,jaslynn",
+      "smith,nadia"
+    ],
+    "timeSeconds":67,
+    "Poss":"ozarks (ar)",
+    "possNum":66,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"ozarks (ar)",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":128,
+    "teamChanged":0,
+    "game":"Ozarks (AR)Millsaps12\/19\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"beene,abby",
+    "homePlayer2":"smith,naomi",
+    "homePlayer3":"ground,kelsey",
+    "homePlayer4":"marsh,jaslynn",
+    "homePlayer5":"smith,nadia",
+    "awayPlayer1":"franklin,haley",
+    "awayPlayer2":"freeman,garin",
+    "awayPlayer3":"adams,emily",
+    "awayPlayer4":"frank,taylor",
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7294",
+    "homeTeam":"Ozarks (AR)",
+    "awayTeam":"Millsaps",
+    "saaGame":"1",
+    "finalScore":"62-56",
+    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
+    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
+    "homeRecord":"5-3",
+    "awayRecord":"10-1",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"12\/19\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"01:07",
+    "awayPlay":"SUB OUT by FRANK,TAYLOR",
+    "awayTeamScore":"54",
+    "playTeamIndicator":"",
+    "homeTeamScore":"56 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
+    "pointsEarned":"",
+    "awayLineup":[
+      "franklin,haley",
+      "freeman,garin",
+      "adams,emily",
+      "frank,taylor",
       null
     ],
     "homeLineup":[
@@ -31923,84 +32001,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"01:07",
-    "awayPlay":"SUB OUT by FRANK,TAYLOR",
-    "awayTeamScore":"54",
-    "playTeamIndicator":"",
-    "homeTeamScore":"56 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "franklin,haley",
-      "freeman,garin",
-      "adams,emily",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "beene,abby",
-      "smith,naomi",
-      "ground,kelsey",
-      "marsh,jaslynn",
-      "smith,nadia"
-    ],
-    "timeSeconds":67,
-    "Poss":"ozarks (ar)",
-    "possNum":66,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"ozarks (ar)",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":128,
-    "teamChanged":0,
-    "game":"Ozarks (AR)Millsaps12\/19\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"beene,abby",
-    "homePlayer2":"smith,naomi",
-    "homePlayer3":"ground,kelsey",
-    "homePlayer4":"marsh,jaslynn",
-    "homePlayer5":"smith,nadia",
-    "awayPlayer1":"franklin,haley",
-    "awayPlayer2":"freeman,garin",
-    "awayPlayer3":"adams,emily",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7294",
-    "homeTeam":"Ozarks (AR)",
-    "awayTeam":"Millsaps",
-    "saaGame":"1",
-    "finalScore":"62-56",
-    "homeScoreByPeriod":"\nUO\nOzarks (AR)\n,19,14,11,12,56",
-    "awayScoreByPeriod":"\nWinner\nMill\nMillsaps\n,9,15,17,21,62",
-    "homeRecord":"5-3",
-    "awayRecord":"10-1",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"12\/19\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mabee Gymnasium, Clarksville, AR",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"01:07",
     "awayPlay":"SUB IN by WARREN,ELYSE",
     "awayTeamScore":"54",
     "playTeamIndicator":"",
@@ -32020,7 +32020,7 @@
       "freeman,garin",
       "adams,emily",
       "warren,elyse",
-      null
+      "anderson,tia"
     ],
     "homeLineup":[
       "beene,abby",
@@ -32054,8 +32054,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"anderson,tia",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -32410,7 +32410,7 @@
       "freeman,garin",
       "adams,emily",
       "warren,elyse",
-      null
+      "novak,whitney"
     ],
     "homeLineup":[
       "beene,abby",
@@ -32444,8 +32444,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"warren,elyse",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"novak,whitney",
+    "playerMissing":0
   },
   {
     "gameID":"7294",
@@ -32800,7 +32800,7 @@
       "freeman,garin",
       "adams,emily",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "homeLineup":[
       "beene,abby",
@@ -32834,8 +32834,8 @@
     "awayPlayer2":"freeman,garin",
     "awayPlayer3":"adams,emily",
     "awayPlayer4":"anderson,tia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"warren,elyse",
+    "playerMissing":0
   },
   {
     "gameID":"7294",

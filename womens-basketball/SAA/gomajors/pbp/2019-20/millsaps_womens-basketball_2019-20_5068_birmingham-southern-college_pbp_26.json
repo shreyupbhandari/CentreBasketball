@@ -1763,7 +1763,7 @@
       "rayford,andrea",
       "caldwell,devan",
       "wilson,anna",
-      null
+      "manning,taelor"
     ],
     "timeSeconds":401,
     "Poss":"millsaps",
@@ -1785,13 +1785,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"manning,taelor",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -1828,6 +1828,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"caldwell,devan",
+    "pointsEarned":"",
+    "awayLineup":[
+      "olsen,emilee",
+      "fujii,misa",
+      "black,derienne",
+      "middleton,leah",
+      "wannemuehler,josie"
+    ],
+    "homeLineup":[
+      "fortenberry,dia",
+      "rayford,andrea",
+      "wilson,anna",
+      "caldwell,devan",
+      null
+    ],
+    "timeSeconds":401,
+    "Poss":"millsaps",
+    "possNum":4,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":13,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham-So.02\/23\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"fortenberry,dia",
+    "homePlayer2":"rayford,andrea",
+    "homePlayer3":"wilson,anna",
+    "homePlayer4":"caldwell,devan",
+    "homePlayer5":null,
+    "awayPlayer1":"olsen,emilee",
+    "awayPlayer2":"fujii,misa",
+    "awayPlayer3":"black,derienne",
+    "awayPlayer4":"middleton,leah",
+    "awayPlayer5":"wannemuehler,josie",
+    "playerMissing":1
+  },
+  {
+    "gameID":"5068",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham-So.",
+    "saaGame":"1",
+    "finalScore":"47-57",
+    "homeScoreByPeriod":"11,9,15,22,57",
+    "awayScoreByPeriod":"13,9,10,15,47",
+    "homeRecord":"13-13",
+    "awayRecord":"14-12",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"6-8",
+    "gameDate":"02\/23\/20",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"134",
+    "isNeutral":"False",
+    "timeRemaining":"06:41",
+    "awayPlay":"",
+    "awayTeamScore":"6",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6",
+    "homePlay":"SUB OUT by WILSON,ANNA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WILSON,ANNA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"wilson,anna",
     "pointsEarned":"",
     "awayLineup":[
       "olsen,emilee",
@@ -1897,84 +1975,6 @@
     "awayTeamScore":"6",
     "playTeamIndicator":"",
     "homeTeamScore":"6",
-    "homePlay":"SUB OUT by WILSON,ANNA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "olsen,emilee",
-      "fujii,misa",
-      "black,derienne",
-      "middleton,leah",
-      "wannemuehler,josie"
-    ],
-    "homeLineup":[
-      "fortenberry,dia",
-      "rayford,andrea",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":401,
-    "Poss":"millsaps",
-    "possNum":4,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":13,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham-So.02\/23\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"fortenberry,dia",
-    "homePlayer2":"rayford,andrea",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"olsen,emilee",
-    "awayPlayer2":"fujii,misa",
-    "awayPlayer3":"black,derienne",
-    "awayPlayer4":"middleton,leah",
-    "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5068",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham-So.",
-    "saaGame":"1",
-    "finalScore":"47-57",
-    "homeScoreByPeriod":"11,9,15,22,57",
-    "awayScoreByPeriod":"13,9,10,15,47",
-    "homeRecord":"13-13",
-    "awayRecord":"14-12",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"6-8",
-    "gameDate":"02\/23\/20",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"134",
-    "isNeutral":"False",
-    "timeRemaining":"06:41",
-    "awayPlay":"",
-    "awayTeamScore":"6",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6",
     "homePlay":"SUB IN by DONALDSON,MEGAN",
     "gameScore":"",
     "teamIndicator":"",
@@ -1996,7 +1996,7 @@
       "fortenberry,dia",
       "rayford,andrea",
       "donaldson,megan",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":401,
@@ -2018,7 +2018,7 @@
     "homePlayer1":"fortenberry,dia",
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -2075,7 +2075,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "timeSeconds":401,
     "Poss":"millsaps",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"lartigue,elecia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -2387,7 +2387,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "hill,lauren",
-      null
+      "lartigue,elecia"
     ],
     "timeSeconds":373,
     "Poss":"millsaps",
@@ -2409,13 +2409,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"lartigue,elecia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -2777,7 +2777,7 @@
       "donaldson,megan",
       "hill,lauren",
       "manning,taelor",
-      null
+      "rayford,andrea"
     ],
     "timeSeconds":329,
     "Poss":"millsaps",
@@ -2799,13 +2799,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"hill,lauren",
     "homePlayer4":"manning,taelor",
-    "homePlayer5":null,
+    "homePlayer5":"rayford,andrea",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -3557,7 +3557,7 @@
       "hill,lauren",
       "manning,taelor",
       "caldwell,devan",
-      null
+      "fortenberry,dia"
     ],
     "timeSeconds":231,
     "Poss":"millsaps",
@@ -3579,13 +3579,13 @@
     "homePlayer2":"hill,lauren",
     "homePlayer3":"manning,taelor",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"fortenberry,dia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -3634,7 +3634,7 @@
       "donaldson,megan",
       "manning,taelor",
       "caldwell,devan",
-      null,
+      "hill,lauren",
       null
     ],
     "timeSeconds":231,
@@ -3656,7 +3656,7 @@
     "homePlayer1":"donaldson,megan",
     "homePlayer2":"manning,taelor",
     "homePlayer3":"caldwell,devan",
-    "homePlayer4":null,
+    "homePlayer4":"hill,lauren",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -3713,7 +3713,7 @@
       "manning,taelor",
       "caldwell,devan",
       "rayford,andrea",
-      null
+      "totals"
     ],
     "timeSeconds":231,
     "Poss":"millsaps",
@@ -3735,13 +3735,13 @@
     "homePlayer2":"manning,taelor",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -3862,7 +3862,7 @@
       "fujii,misa",
       "black,derienne",
       "middleton,leah",
-      null
+      "wannemuehler,josie"
     ],
     "homeLineup":[
       "donaldson,megan",
@@ -3896,8 +3896,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wannemuehler,josie",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -4493,7 +4493,7 @@
       "caldwell,devan",
       "rayford,andrea",
       "wilson,anna",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":184,
     "Poss":"birmingham-so.",
@@ -4515,13 +4515,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"quintana,cassady",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -4570,7 +4570,7 @@
       "manning,taelor",
       "rayford,andrea",
       "wilson,anna",
-      null,
+      "caldwell,devan",
       null
     ],
     "timeSeconds":184,
@@ -4592,7 +4592,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"wilson,anna",
-    "homePlayer4":null,
+    "homePlayer4":"caldwell,devan",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -4647,7 +4647,7 @@
     "homeLineup":[
       "manning,taelor",
       "wilson,anna",
-      null,
+      "rayford,andrea",
       null,
       null
     ],
@@ -4669,7 +4669,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"manning,taelor",
     "homePlayer2":"wilson,anna",
-    "homePlayer3":null,
+    "homePlayer3":"rayford,andrea",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
@@ -4726,7 +4726,7 @@
       "manning,taelor",
       "wilson,anna",
       "fortenberry,dia",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":184,
@@ -4748,7 +4748,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"wilson,anna",
     "homePlayer3":"fortenberry,dia",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -4805,7 +4805,7 @@
       "wilson,anna",
       "fortenberry,dia",
       "hill,lauren",
-      null
+      "totals"
     ],
     "timeSeconds":184,
     "Poss":"birmingham-so.",
@@ -4827,13 +4827,13 @@
     "homePlayer2":"wilson,anna",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"quintana,cassady",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -5663,7 +5663,7 @@
       "wilson,anna",
       "fortenberry,dia",
       "lartigue,elecia",
-      null
+      "hill,lauren"
     ],
     "timeSeconds":119,
     "Poss":"millsaps",
@@ -5685,13 +5685,13 @@
     "homePlayer2":"wilson,anna",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"lartigue,elecia",
-    "homePlayer5":null,
+    "homePlayer5":"hill,lauren",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"quintana,cassady",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -6989,7 +6989,7 @@
       "fortenberry,dia",
       "lartigue,elecia",
       "rayford,andrea",
-      null
+      "manning,taelor"
     ],
     "timeSeconds":3,
     "Poss":"millsaps",
@@ -7011,13 +7011,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"lartigue,elecia",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"manning,taelor",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"quintana,cassady",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -7066,7 +7066,7 @@
       "wilson,anna",
       "lartigue,elecia",
       "rayford,andrea",
-      null,
+      "fortenberry,dia",
       null
     ],
     "timeSeconds":3,
@@ -7088,7 +7088,7 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"lartigue,elecia",
     "homePlayer3":"rayford,andrea",
-    "homePlayer4":null,
+    "homePlayer4":"fortenberry,dia",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -7145,7 +7145,7 @@
       "lartigue,elecia",
       "rayford,andrea",
       "sims,emily",
-      null
+      "totals"
     ],
     "timeSeconds":3,
     "Poss":"millsaps",
@@ -7167,13 +7167,13 @@
     "homePlayer2":"lartigue,elecia",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"sims,emily",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"quintana,cassady",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -7294,7 +7294,7 @@
       "fujii,misa",
       "black,derienne",
       "quintana,cassady",
-      null
+      "middleton,leah"
     ],
     "homeLineup":[
       "wilson,anna",
@@ -7328,8 +7328,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"middleton,leah",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -7691,7 +7691,7 @@
       "lartigue,elecia",
       "rayford,andrea",
       "caldwell,devan",
-      null
+      "sims,emily"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -7713,13 +7713,13 @@
     "homePlayer2":"lartigue,elecia",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"sims,emily",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -7840,7 +7840,7 @@
       "fujii,misa",
       "black,derienne",
       "quintana,cassady",
-      null
+      "wannemuehler,josie"
     ],
     "homeLineup":[
       "wilson,anna",
@@ -7874,8 +7874,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wannemuehler,josie",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -8081,7 +8081,7 @@
       "rayford,andrea",
       "caldwell,devan",
       "donaldson,megan",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":583,
     "Poss":"birmingham-so.",
@@ -8103,13 +8103,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"manuel,chametria",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -8386,7 +8386,7 @@
       "fujii,misa",
       "quintana,cassady",
       "manuel,chametria",
-      null
+      "black,derienne"
     ],
     "homeLineup":[
       "lartigue,elecia",
@@ -8420,8 +8420,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"manuel,chametria",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"black,derienne",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -8783,7 +8783,7 @@
       "caldwell,devan",
       "donaldson,megan",
       "hill,lauren",
-      null
+      "lartigue,elecia"
     ],
     "timeSeconds":560,
     "Poss":"birmingham-so.",
@@ -8805,13 +8805,13 @@
     "homePlayer2":"caldwell,devan",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"lartigue,elecia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"manuel,chametria",
     "awayPlayer5":"middleton,leah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -8860,7 +8860,7 @@
       "caldwell,devan",
       "donaldson,megan",
       "hill,lauren",
-      null,
+      "rayford,andrea",
       null
     ],
     "timeSeconds":560,
@@ -8882,7 +8882,7 @@
     "homePlayer1":"caldwell,devan",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"hill,lauren",
-    "homePlayer4":null,
+    "homePlayer4":"rayford,andrea",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -8939,7 +8939,7 @@
       "donaldson,megan",
       "hill,lauren",
       "manning,taelor",
-      null
+      "totals"
     ],
     "timeSeconds":560,
     "Poss":"birmingham-so.",
@@ -8961,13 +8961,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"hill,lauren",
     "homePlayer4":"manning,taelor",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"manuel,chametria",
     "awayPlayer5":"middleton,leah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -9868,7 +9868,7 @@
       "fujii,misa",
       "manuel,chametria",
       "middleton,leah",
-      null
+      "quintana,cassady"
     ],
     "homeLineup":[
       "caldwell,devan",
@@ -9902,8 +9902,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"manuel,chametria",
     "awayPlayer4":"middleton,leah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"quintana,cassady",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -9945,7 +9945,7 @@
       "fujii,misa",
       "manuel,chametria",
       "middleton,leah",
-      null,
+      "olsen,emilee",
       null
     ],
     "homeLineup":[
@@ -9979,7 +9979,7 @@
     "awayPlayer1":"fujii,misa",
     "awayPlayer2":"manuel,chametria",
     "awayPlayer3":"middleton,leah",
-    "awayPlayer4":null,
+    "awayPlayer4":"olsen,emilee",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10024,7 +10024,7 @@
       "manuel,chametria",
       "middleton,leah",
       "black,derienne",
-      null
+      "totals"
     ],
     "homeLineup":[
       "caldwell,devan",
@@ -10058,8 +10058,8 @@
     "awayPlayer2":"manuel,chametria",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"black,derienne",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -10570,7 +10570,7 @@
       "middleton,leah",
       "black,derienne",
       "lee,samantha",
-      null
+      "fujii,misa"
     ],
     "homeLineup":[
       "caldwell,devan",
@@ -10604,8 +10604,8 @@
     "awayPlayer2":"middleton,leah",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"lee,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fujii,misa",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -11279,7 +11279,7 @@
       "hill,lauren",
       "manning,taelor",
       "fortenberry,dia",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":369,
     "Poss":"millsaps",
@@ -11301,13 +11301,13 @@
     "homePlayer2":"hill,lauren",
     "homePlayer3":"manning,taelor",
     "homePlayer4":"fortenberry,dia",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"manuel,chametria",
     "awayPlayer2":"middleton,leah",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"lee,samantha",
     "awayPlayer5":"westhoelter,brooke",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -11428,7 +11428,7 @@
       "middleton,leah",
       "black,derienne",
       "lee,samantha",
-      null
+      "westhoelter,brooke"
     ],
     "homeLineup":[
       "donaldson,megan",
@@ -11462,8 +11462,8 @@
     "awayPlayer2":"middleton,leah",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"lee,samantha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"westhoelter,brooke",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -12371,7 +12371,7 @@
       "manning,taelor",
       "fortenberry,dia",
       "rayford,andrea",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":285,
     "Poss":"millsaps",
@@ -12393,13 +12393,13 @@
     "homePlayer2":"manning,taelor",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"manuel,chametria",
     "awayPlayer2":"middleton,leah",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"lee,samantha",
     "awayPlayer5":"olsen,emilee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -12605,7 +12605,7 @@
       "fortenberry,dia",
       "rayford,andrea",
       "king,briasha",
-      null
+      "hill,lauren"
     ],
     "timeSeconds":285,
     "Poss":"millsaps",
@@ -12627,13 +12627,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"king,briasha",
-    "homePlayer5":null,
+    "homePlayer5":"hill,lauren",
     "awayPlayer1":"manuel,chametria",
     "awayPlayer2":"middleton,leah",
     "awayPlayer3":"black,derienne",
     "awayPlayer4":"lee,samantha",
     "awayPlayer5":"olsen,emilee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -12988,7 +12988,7 @@
       "black,derienne",
       "lee,samantha",
       "olsen,emilee",
-      null
+      "manuel,chametria"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -13022,8 +13022,8 @@
     "awayPlayer2":"black,derienne",
     "awayPlayer3":"lee,samantha",
     "awayPlayer4":"olsen,emilee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manuel,chametria",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -13541,7 +13541,7 @@
       "fortenberry,dia",
       "rayford,andrea",
       "laster,mikenzi",
-      null
+      "king,briasha"
     ],
     "timeSeconds":205,
     "Poss":"birmingham-so.",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"laster,mikenzi",
-    "homePlayer5":null,
+    "homePlayer5":"king,briasha",
     "awayPlayer1":"middleton,leah",
     "awayPlayer2":"black,derienne",
     "awayPlayer3":"lee,samantha",
     "awayPlayer4":"olsen,emilee",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -13924,7 +13924,7 @@
       "black,derienne",
       "olsen,emilee",
       "fujii,misa",
-      null
+      "lee,samantha"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -13958,8 +13958,8 @@
     "awayPlayer2":"black,derienne",
     "awayPlayer3":"olsen,emilee",
     "awayPlayer4":"fujii,misa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lee,samantha",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -15257,7 +15257,7 @@
       "fortenberry,dia",
       "laster,mikenzi",
       "caldwell,devan",
-      null
+      "rayford,andrea"
     ],
     "timeSeconds":46,
     "Poss":"millsaps",
@@ -15279,13 +15279,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"laster,mikenzi",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"rayford,andrea",
     "awayPlayer1":"middleton,leah",
     "awayPlayer2":"black,derienne",
     "awayPlayer3":"olsen,emilee",
     "awayPlayer4":"fujii,misa",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -15406,7 +15406,7 @@
       "olsen,emilee",
       "fujii,misa",
       "wannemuehler,josie",
-      null
+      "middleton,leah"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -15440,8 +15440,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"fujii,misa",
     "awayPlayer4":"wannemuehler,josie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"middleton,leah",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -15483,7 +15483,7 @@
       "black,derienne",
       "olsen,emilee",
       "wannemuehler,josie",
-      null,
+      "fujii,misa",
       null
     ],
     "homeLineup":[
@@ -15517,7 +15517,7 @@
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
-    "awayPlayer4":null,
+    "awayPlayer4":"fujii,misa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15562,7 +15562,7 @@
       "olsen,emilee",
       "wannemuehler,josie",
       "quintana,cassady",
-      null
+      "totals"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -15596,8 +15596,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -15959,7 +15959,7 @@
       "fortenberry,dia",
       "caldwell,devan",
       "donaldson,megan",
-      null
+      "laster,mikenzi"
     ],
     "timeSeconds":11,
     "Poss":"millsaps",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"laster,mikenzi",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"lewis,alex",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -16271,7 +16271,7 @@
       "fortenberry,dia",
       "caldwell,devan",
       "wilson,anna",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":600,
     "Poss":"millsaps",
@@ -16293,13 +16293,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"lewis,alex",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -16420,7 +16420,7 @@
       "olsen,emilee",
       "wannemuehler,josie",
       "quintana,cassady",
-      null
+      "lewis,alex"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -16454,8 +16454,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"lewis,alex",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -16497,7 +16497,7 @@
       "black,derienne",
       "olsen,emilee",
       "quintana,cassady",
-      null,
+      "wannemuehler,josie",
       null
     ],
     "homeLineup":[
@@ -16531,7 +16531,7 @@
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
-    "awayPlayer4":null,
+    "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16576,7 +16576,7 @@
       "olsen,emilee",
       "quintana,cassady",
       "middleton,leah",
-      null
+      "totals"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -16610,8 +16610,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"middleton,leah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -18065,7 +18065,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "rayford,andrea",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":434,
     "Poss":"birmingham-so.",
@@ -18075,6 +18075,84 @@
     "PlayOfPoss":1,
     "possTeam":"birmingham-so.",
     "possStart":1.0,
+    "possPoints":0,
+    "possSequence":62,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham-So.02\/23\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"manning,taelor",
+    "homePlayer2":"fortenberry,dia",
+    "homePlayer3":"wilson,anna",
+    "homePlayer4":"rayford,andrea",
+    "homePlayer5":"caldwell,devan",
+    "awayPlayer1":"black,derienne",
+    "awayPlayer2":"olsen,emilee",
+    "awayPlayer3":"quintana,cassady",
+    "awayPlayer4":"middleton,leah",
+    "awayPlayer5":"fujii,misa",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5068",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham-So.",
+    "saaGame":"1",
+    "finalScore":"47-57",
+    "homeScoreByPeriod":"11,9,15,22,57",
+    "awayScoreByPeriod":"13,9,10,15,47",
+    "homeRecord":"13-13",
+    "awayRecord":"14-12",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"6-8",
+    "gameDate":"02\/23\/20",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"134",
+    "isNeutral":"False",
+    "timeRemaining":"07:14",
+    "awayPlay":"",
+    "awayTeamScore":"24",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24",
+    "homePlay":"SUB OUT by RAYFORD,ANDREA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by RAYFORD,ANDREA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"rayford,andrea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "black,derienne",
+      "olsen,emilee",
+      "quintana,cassady",
+      "middleton,leah",
+      "fujii,misa"
+    ],
+    "homeLineup":[
+      "manning,taelor",
+      "fortenberry,dia",
+      "wilson,anna",
+      "rayford,andrea",
+      null
+    ],
+    "timeSeconds":434,
+    "Poss":"birmingham-so.",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham-so.",
+    "possStart":0.0,
     "possPoints":0,
     "possSequence":62,
     "teamChanged":0,
@@ -18121,15 +18199,15 @@
     "awayTeamScore":"24",
     "playTeamIndicator":"",
     "homeTeamScore":"24",
-    "homePlay":"SUB OUT by RAYFORD,ANDREA",
+    "homePlay":"SUB OUT by WILSON,ANNA",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by RAYFORD,ANDREA",
+    "Play":"SUB OUT by WILSON,ANNA",
     "Period":"3",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"millsaps",
-    "Player":"rayford,andrea",
+    "Player":"wilson,anna",
     "pointsEarned":"",
     "awayLineup":[
       "black,derienne",
@@ -18199,84 +18277,6 @@
     "awayTeamScore":"24",
     "playTeamIndicator":"",
     "homeTeamScore":"24",
-    "homePlay":"SUB OUT by WILSON,ANNA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "black,derienne",
-      "olsen,emilee",
-      "quintana,cassady",
-      "middleton,leah",
-      "fujii,misa"
-    ],
-    "homeLineup":[
-      "manning,taelor",
-      "fortenberry,dia",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":434,
-    "Poss":"birmingham-so.",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham-so.",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":62,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham-So.02\/23\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"manning,taelor",
-    "homePlayer2":"fortenberry,dia",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"black,derienne",
-    "awayPlayer2":"olsen,emilee",
-    "awayPlayer3":"quintana,cassady",
-    "awayPlayer4":"middleton,leah",
-    "awayPlayer5":"fujii,misa",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5068",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham-So.",
-    "saaGame":"1",
-    "finalScore":"47-57",
-    "homeScoreByPeriod":"11,9,15,22,57",
-    "awayScoreByPeriod":"13,9,10,15,47",
-    "homeRecord":"13-13",
-    "awayRecord":"14-12",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"6-8",
-    "gameDate":"02\/23\/20",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"134",
-    "isNeutral":"False",
-    "timeRemaining":"07:14",
-    "awayPlay":"",
-    "awayTeamScore":"24",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24",
     "homePlay":"SUB IN by DONALDSON,MEGAN",
     "gameScore":"",
     "teamIndicator":"",
@@ -18298,7 +18298,7 @@
       "manning,taelor",
       "fortenberry,dia",
       "donaldson,megan",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":434,
@@ -18320,7 +18320,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
@@ -18377,7 +18377,7 @@
       "fortenberry,dia",
       "donaldson,megan",
       "lartigue,elecia",
-      null
+      "totals"
     ],
     "timeSeconds":434,
     "Poss":"birmingham-so.",
@@ -18399,13 +18399,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"lartigue,elecia",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -19235,6 +19235,84 @@
       "fortenberry,dia",
       "donaldson,megan",
       "hill,lauren",
+      "lartigue,elecia"
+    ],
+    "timeSeconds":365,
+    "Poss":"birmingham-so.",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":65,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham-So.02\/23\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"manning,taelor",
+    "homePlayer2":"fortenberry,dia",
+    "homePlayer3":"donaldson,megan",
+    "homePlayer4":"hill,lauren",
+    "homePlayer5":"lartigue,elecia",
+    "awayPlayer1":"black,derienne",
+    "awayPlayer2":"olsen,emilee",
+    "awayPlayer3":"quintana,cassady",
+    "awayPlayer4":"middleton,leah",
+    "awayPlayer5":"fujii,misa",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5068",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham-So.",
+    "saaGame":"1",
+    "finalScore":"47-57",
+    "homeScoreByPeriod":"11,9,15,22,57",
+    "awayScoreByPeriod":"13,9,10,15,47",
+    "homeRecord":"13-13",
+    "awayRecord":"14-12",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"6-8",
+    "gameDate":"02\/23\/20",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"134",
+    "isNeutral":"False",
+    "timeRemaining":"06:05",
+    "awayPlay":"",
+    "awayTeamScore":"28 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24",
+    "homePlay":"SUB OUT by HILL,LAUREN",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HILL,LAUREN",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"hill,lauren",
+    "pointsEarned":"",
+    "awayLineup":[
+      "black,derienne",
+      "olsen,emilee",
+      "quintana,cassady",
+      "middleton,leah",
+      "fujii,misa"
+    ],
+    "homeLineup":[
+      "manning,taelor",
+      "fortenberry,dia",
+      "donaldson,megan",
+      "hill,lauren",
       null
     ],
     "timeSeconds":365,
@@ -19291,84 +19369,6 @@
     "awayTeamScore":"28 ",
     "playTeamIndicator":"",
     "homeTeamScore":"24",
-    "homePlay":"SUB OUT by HILL,LAUREN",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HILL,LAUREN",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"hill,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "black,derienne",
-      "olsen,emilee",
-      "quintana,cassady",
-      "middleton,leah",
-      "fujii,misa"
-    ],
-    "homeLineup":[
-      "manning,taelor",
-      "fortenberry,dia",
-      "donaldson,megan",
-      null,
-      null
-    ],
-    "timeSeconds":365,
-    "Poss":"birmingham-so.",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":65,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham-So.02\/23\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"manning,taelor",
-    "homePlayer2":"fortenberry,dia",
-    "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"black,derienne",
-    "awayPlayer2":"olsen,emilee",
-    "awayPlayer3":"quintana,cassady",
-    "awayPlayer4":"middleton,leah",
-    "awayPlayer5":"fujii,misa",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5068",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham-So.",
-    "saaGame":"1",
-    "finalScore":"47-57",
-    "homeScoreByPeriod":"11,9,15,22,57",
-    "awayScoreByPeriod":"13,9,10,15,47",
-    "homeRecord":"13-13",
-    "awayRecord":"14-12",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"6-8",
-    "gameDate":"02\/23\/20",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"134",
-    "isNeutral":"False",
-    "timeRemaining":"06:05",
-    "awayPlay":"",
-    "awayTeamScore":"28 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24",
     "homePlay":"SUB IN by CALDWELL,DEVAN",
     "gameScore":"",
     "teamIndicator":"",
@@ -19391,7 +19391,7 @@
       "fortenberry,dia",
       "donaldson,megan",
       "caldwell,devan",
-      null
+      "totals"
     ],
     "timeSeconds":365,
     "Poss":"birmingham-so.",
@@ -19413,13 +19413,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"middleton,leah",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -19696,7 +19696,7 @@
       "olsen,emilee",
       "quintana,cassady",
       "middleton,leah",
-      null
+      "fujii,misa"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -19730,8 +19730,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"middleton,leah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"fujii,misa",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -20476,7 +20476,7 @@
       "olsen,emilee",
       "quintana,cassady",
       "manuel,chametria",
-      null
+      "middleton,leah"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -20510,8 +20510,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"manuel,chametria",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"middleton,leah",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -21341,7 +21341,7 @@
       "fortenberry,dia",
       "caldwell,devan",
       "wilson,anna",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":242,
     "Poss":"millsaps",
@@ -21363,13 +21363,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"caldwell,devan",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"manuel,chametria",
     "awayPlayer5":"wannemuehler,josie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -21646,7 +21646,7 @@
       "olsen,emilee",
       "quintana,cassady",
       "wannemuehler,josie",
-      null
+      "manuel,chametria"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -21680,8 +21680,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"manuel,chametria",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -21809,7 +21809,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "rayford,andrea",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":234,
     "Poss":"birmingham-so.",
@@ -21831,13 +21831,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -23057,7 +23057,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "rayford,andrea",
-      null
+      "king,briasha"
     ],
     "timeSeconds":141,
     "Poss":"birmingham-so.",
@@ -23079,13 +23079,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"king,briasha",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -23447,7 +23447,7 @@
       "fortenberry,dia",
       "rayford,andrea",
       "donaldson,megan",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":99,
     "Poss":"millsaps",
@@ -23469,13 +23469,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"rayford,andrea",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -23837,7 +23837,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "hill,lauren",
-      null
+      "fortenberry,dia"
     ],
     "timeSeconds":92,
     "Poss":"millsaps",
@@ -23859,13 +23859,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"fortenberry,dia",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -25007,7 +25007,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "hill,lauren",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":32,
     "Poss":"birmingham-so.",
@@ -25029,13 +25029,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -26411,7 +26411,7 @@
       "rayford,andrea",
       "hill,lauren",
       "fortenberry,dia",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":527,
     "Poss":"birmingham-so.",
@@ -26433,13 +26433,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"hill,lauren",
     "homePlayer4":"fortenberry,dia",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -26488,7 +26488,7 @@
       "manning,taelor",
       "rayford,andrea",
       "fortenberry,dia",
-      null,
+      "hill,lauren",
       null
     ],
     "timeSeconds":527,
@@ -26510,7 +26510,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"fortenberry,dia",
-    "homePlayer4":null,
+    "homePlayer4":"hill,lauren",
     "homePlayer5":null,
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
@@ -26567,7 +26567,7 @@
       "rayford,andrea",
       "fortenberry,dia",
       "king,briasha",
-      null
+      "totals"
     ],
     "timeSeconds":527,
     "Poss":"birmingham-so.",
@@ -26589,13 +26589,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"king,briasha",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"quintana,cassady",
     "awayPlayer4":"wannemuehler,josie",
     "awayPlayer5":"fujii,misa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -26794,7 +26794,7 @@
       "olsen,emilee",
       "wannemuehler,josie",
       "fujii,misa",
-      null
+      "quintana,cassady"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -26828,8 +26828,8 @@
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"fujii,misa",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"quintana,cassady",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -27659,7 +27659,7 @@
       "rayford,andrea",
       "fortenberry,dia",
       "wilson,anna",
-      null
+      "king,briasha"
     ],
     "timeSeconds":443,
     "Poss":"millsaps",
@@ -27681,13 +27681,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"king,briasha",
     "awayPlayer1":"black,derienne",
     "awayPlayer2":"olsen,emilee",
     "awayPlayer3":"wannemuehler,josie",
     "awayPlayer4":"fujii,misa",
     "awayPlayer5":"middleton,leah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -27964,7 +27964,7 @@
       "wannemuehler,josie",
       "fujii,misa",
       "middleton,leah",
-      null
+      "black,derienne"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -27998,8 +27998,8 @@
     "awayPlayer2":"wannemuehler,josie",
     "awayPlayer3":"fujii,misa",
     "awayPlayer4":"middleton,leah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"black,derienne",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -28822,7 +28822,7 @@
       "fujii,misa",
       "middleton,leah",
       "quintana,cassady",
-      null
+      "wannemuehler,josie"
     ],
     "homeLineup":[
       "manning,taelor",
@@ -28856,8 +28856,8 @@
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wannemuehler,josie",
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -29531,7 +29531,7 @@
       "rayford,andrea",
       "wilson,anna",
       "lartigue,elecia",
-      null
+      "fortenberry,dia"
     ],
     "timeSeconds":313,
     "Poss":"millsaps",
@@ -29553,13 +29553,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"lartigue,elecia",
-    "homePlayer5":null,
+    "homePlayer5":"fortenberry,dia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -29608,7 +29608,7 @@
       "manning,taelor",
       "rayford,andrea",
       "lartigue,elecia",
-      null,
+      "wilson,anna",
       null
     ],
     "timeSeconds":313,
@@ -29630,7 +29630,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"lartigue,elecia",
-    "homePlayer4":null,
+    "homePlayer4":"wilson,anna",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -29687,7 +29687,7 @@
       "rayford,andrea",
       "lartigue,elecia",
       "donaldson,megan",
-      null
+      "totals"
     ],
     "timeSeconds":313,
     "Poss":"millsaps",
@@ -29709,13 +29709,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"lartigue,elecia",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -30545,7 +30545,7 @@
       "rayford,andrea",
       "donaldson,megan",
       "hill,lauren",
-      null
+      "lartigue,elecia"
     ],
     "timeSeconds":240,
     "Poss":"birmingham-so.",
@@ -30567,13 +30567,13 @@
     "homePlayer2":"rayford,andrea",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"hill,lauren",
-    "homePlayer5":null,
+    "homePlayer5":"lartigue,elecia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -30610,6 +30610,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"rayford,andrea",
+    "pointsEarned":"",
+    "awayLineup":[
+      "olsen,emilee",
+      "fujii,misa",
+      "middleton,leah",
+      "quintana,cassady",
+      "black,derienne"
+    ],
+    "homeLineup":[
+      "manning,taelor",
+      "donaldson,megan",
+      "hill,lauren",
+      "rayford,andrea",
+      null
+    ],
+    "timeSeconds":240,
+    "Poss":"birmingham-so.",
+    "possNum":61,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham-so.",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":102,
+    "teamChanged":0,
+    "game":"MillsapsBirmingham-So.02\/23\/20",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"manning,taelor",
+    "homePlayer2":"donaldson,megan",
+    "homePlayer3":"hill,lauren",
+    "homePlayer4":"rayford,andrea",
+    "homePlayer5":null,
+    "awayPlayer1":"olsen,emilee",
+    "awayPlayer2":"fujii,misa",
+    "awayPlayer3":"middleton,leah",
+    "awayPlayer4":"quintana,cassady",
+    "awayPlayer5":"black,derienne",
+    "playerMissing":1
+  },
+  {
+    "gameID":"5068",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Birmingham-So.",
+    "saaGame":"1",
+    "finalScore":"47-57",
+    "homeScoreByPeriod":"11,9,15,22,57",
+    "awayScoreByPeriod":"13,9,10,15,47",
+    "homeRecord":"13-13",
+    "awayRecord":"14-12",
+    "homeConfRecord":"6-8",
+    "awayConfRecord":"6-8",
+    "gameDate":"02\/23\/20",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"134",
+    "isNeutral":"False",
+    "timeRemaining":"04:00",
+    "awayPlay":"",
+    "awayTeamScore":"41",
+    "playTeamIndicator":"",
+    "homeTeamScore":"46 ",
+    "homePlay":"SUB OUT by HILL,LAUREN",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HILL,LAUREN",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"hill,lauren",
     "pointsEarned":"",
     "awayLineup":[
       "olsen,emilee",
@@ -30679,84 +30757,6 @@
     "awayTeamScore":"41",
     "playTeamIndicator":"",
     "homeTeamScore":"46 ",
-    "homePlay":"SUB OUT by HILL,LAUREN",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HILL,LAUREN",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"hill,lauren",
-    "pointsEarned":"",
-    "awayLineup":[
-      "olsen,emilee",
-      "fujii,misa",
-      "middleton,leah",
-      "quintana,cassady",
-      "black,derienne"
-    ],
-    "homeLineup":[
-      "manning,taelor",
-      "donaldson,megan",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":240,
-    "Poss":"birmingham-so.",
-    "possNum":61,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham-so.",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":102,
-    "teamChanged":0,
-    "game":"MillsapsBirmingham-So.02\/23\/20",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"manning,taelor",
-    "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"olsen,emilee",
-    "awayPlayer2":"fujii,misa",
-    "awayPlayer3":"middleton,leah",
-    "awayPlayer4":"quintana,cassady",
-    "awayPlayer5":"black,derienne",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5068",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Birmingham-So.",
-    "saaGame":"1",
-    "finalScore":"47-57",
-    "homeScoreByPeriod":"11,9,15,22,57",
-    "awayScoreByPeriod":"13,9,10,15,47",
-    "homeRecord":"13-13",
-    "awayRecord":"14-12",
-    "homeConfRecord":"6-8",
-    "awayConfRecord":"6-8",
-    "gameDate":"02\/23\/20",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"134",
-    "isNeutral":"False",
-    "timeRemaining":"04:00",
-    "awayPlay":"",
-    "awayTeamScore":"41",
-    "playTeamIndicator":"",
-    "homeTeamScore":"46 ",
     "homePlay":"SUB IN by FORTENBERRY,DIA",
     "gameScore":"",
     "teamIndicator":"",
@@ -30778,7 +30778,7 @@
       "manning,taelor",
       "donaldson,megan",
       "fortenberry,dia",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":240,
@@ -30800,7 +30800,7 @@
     "homePlayer1":"manning,taelor",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
@@ -30857,7 +30857,7 @@
       "donaldson,megan",
       "fortenberry,dia",
       "caldwell,devan",
-      null
+      "totals"
     ],
     "timeSeconds":240,
     "Poss":"birmingham-so.",
@@ -30879,13 +30879,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"caldwell,devan",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -31949,7 +31949,7 @@
       "donaldson,megan",
       "fortenberry,dia",
       "wilson,anna",
-      null
+      "caldwell,devan"
     ],
     "timeSeconds":113,
     "Poss":"birmingham-so.",
@@ -31971,13 +31971,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"caldwell,devan",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -33119,7 +33119,7 @@
       "donaldson,megan",
       "fortenberry,dia",
       "wilson,anna",
-      null
+      "rayford,andrea"
     ],
     "timeSeconds":44,
     "Poss":"millsaps",
@@ -33141,13 +33141,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"rayford,andrea",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -33743,7 +33743,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "lartigue,elecia",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":27,
     "Poss":"millsaps",
@@ -33765,13 +33765,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"lartigue,elecia",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",
@@ -33899,7 +33899,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "rayford,andrea",
-      null
+      "lartigue,elecia"
     ],
     "timeSeconds":27,
     "Poss":"millsaps",
@@ -33921,13 +33921,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"rayford,andrea",
-    "homePlayer5":null,
+    "homePlayer5":"lartigue,elecia",
     "awayPlayer1":"olsen,emilee",
     "awayPlayer2":"fujii,misa",
     "awayPlayer3":"middleton,leah",
     "awayPlayer4":"quintana,cassady",
     "awayPlayer5":"black,derienne",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5068",

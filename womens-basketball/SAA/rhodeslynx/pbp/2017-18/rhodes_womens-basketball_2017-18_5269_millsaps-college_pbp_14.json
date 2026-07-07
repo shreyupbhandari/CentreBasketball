@@ -1919,7 +1919,7 @@
       "thomas,braxton",
       "wilson,anna",
       "butler,millicent",
-      null
+      "manning,taelor"
     ],
     "timeSeconds":410,
     "Poss":"rhodes",
@@ -1941,13 +1941,13 @@
     "homePlayer2":"thomas,braxton",
     "homePlayer3":"wilson,anna",
     "homePlayer4":"butler,millicent",
-    "homePlayer5":null,
+    "homePlayer5":"manning,taelor",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"ustick,jessie",
     "awayPlayer5":"deery,erin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -1984,6 +1984,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"thomas,braxton",
+    "pointsEarned":"",
+    "awayLineup":[
+      "whiteside,lindsey",
+      "owens,alyssa",
+      "young,allie",
+      "ustick,jessie",
+      "deery,erin"
+    ],
+    "homeLineup":[
+      "fortenberry,dia",
+      "wilson,anna",
+      "butler,millicent",
+      "thomas,braxton",
+      null
+    ],
+    "timeSeconds":410,
+    "Poss":"rhodes",
+    "possNum":7,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":12,
+    "teamChanged":0,
+    "game":"MillsapsRHODES01\/12\/18",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"fortenberry,dia",
+    "homePlayer2":"wilson,anna",
+    "homePlayer3":"butler,millicent",
+    "homePlayer4":"thomas,braxton",
+    "homePlayer5":null,
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"owens,alyssa",
+    "awayPlayer3":"young,allie",
+    "awayPlayer4":"ustick,jessie",
+    "awayPlayer5":"deery,erin",
+    "playerMissing":1
+  },
+  {
+    "gameID":"5269",
+    "homeTeam":"Millsaps",
+    "awayTeam":"RHODES",
+    "saaGame":"0",
+    "finalScore":"72-59",
+    "homeScoreByPeriod":"12,16,14,17,59",
+    "awayScoreByPeriod":"22,13,23,14,72",
+    "homeRecord":"4-11",
+    "awayRecord":"10-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"01\/12\/18",
+    "startTime":"7:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Jackson, Miss",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"150",
+    "isNeutral":"False",
+    "timeRemaining":"06:50",
+    "awayPlay":"",
+    "awayTeamScore":"4",
+    "playTeamIndicator":"",
+    "homeTeamScore":"4",
+    "homePlay":"SUB OUT by BUTLER,MILLICENT",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BUTLER,MILLICENT",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"butler,millicent",
     "pointsEarned":"",
     "awayLineup":[
       "whiteside,lindsey",
@@ -2053,84 +2131,6 @@
     "awayTeamScore":"4",
     "playTeamIndicator":"",
     "homeTeamScore":"4",
-    "homePlay":"SUB OUT by BUTLER,MILLICENT",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BUTLER,MILLICENT",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"butler,millicent",
-    "pointsEarned":"",
-    "awayLineup":[
-      "whiteside,lindsey",
-      "owens,alyssa",
-      "young,allie",
-      "ustick,jessie",
-      "deery,erin"
-    ],
-    "homeLineup":[
-      "fortenberry,dia",
-      "wilson,anna",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":410,
-    "Poss":"rhodes",
-    "possNum":7,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":12,
-    "teamChanged":0,
-    "game":"MillsapsRHODES01\/12\/18",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"fortenberry,dia",
-    "homePlayer2":"wilson,anna",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"whiteside,lindsey",
-    "awayPlayer2":"owens,alyssa",
-    "awayPlayer3":"young,allie",
-    "awayPlayer4":"ustick,jessie",
-    "awayPlayer5":"deery,erin",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5269",
-    "homeTeam":"Millsaps",
-    "awayTeam":"RHODES",
-    "saaGame":"0",
-    "finalScore":"72-59",
-    "homeScoreByPeriod":"12,16,14,17,59",
-    "awayScoreByPeriod":"22,13,23,14,72",
-    "homeRecord":"4-11",
-    "awayRecord":"10-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"01\/12\/18",
-    "startTime":"7:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Jackson, Miss",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"150",
-    "isNeutral":"False",
-    "timeRemaining":"06:50",
-    "awayPlay":"",
-    "awayTeamScore":"4",
-    "playTeamIndicator":"",
-    "homeTeamScore":"4",
     "homePlay":"SUB IN by DONALDSON,MEGAN",
     "gameScore":"",
     "teamIndicator":"",
@@ -2152,7 +2152,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "donaldson,megan",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":410,
@@ -2174,7 +2174,7 @@
     "homePlayer1":"fortenberry,dia",
     "homePlayer2":"wilson,anna",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
@@ -2231,7 +2231,7 @@
       "wilson,anna",
       "donaldson,megan",
       "matthews,kasi",
-      null
+      "totals"
     ],
     "timeSeconds":410,
     "Poss":"rhodes",
@@ -2253,13 +2253,13 @@
     "homePlayer2":"wilson,anna",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"matthews,kasi",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"ustick,jessie",
     "awayPlayer5":"deery,erin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -4018,7 +4018,7 @@
       "owens,alyssa",
       "ustick,jessie",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "fortenberry,dia",
@@ -4052,8 +4052,8 @@
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -4096,14 +4096,14 @@
       "owens,alyssa",
       "ustick,jessie",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "fortenberry,dia",
       "donaldson,megan",
       "matthews,kasi",
       "guilbeau,caroline",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":299,
     "Poss":"rhodes",
@@ -4125,13 +4125,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"matthews,kasi",
     "homePlayer4":"guilbeau,caroline",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -4181,7 +4181,7 @@
       "donaldson,megan",
       "matthews,kasi",
       "guilbeau,caroline",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":299,
     "Poss":"rhodes",
@@ -4203,13 +4203,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"matthews,kasi",
     "homePlayer4":"guilbeau,caroline",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -5968,7 +5968,7 @@
       "ustick,jessie",
       "deery,erin",
       "longacre,maya",
-      null
+      "whiteside,lindsey"
     ],
     "homeLineup":[
       "fortenberry,dia",
@@ -6002,8 +6002,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"whiteside,lindsey",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -6046,14 +6046,14 @@
       "ustick,jessie",
       "deery,erin",
       "longacre,maya",
-      null
+      "whiteside,lindsey"
     ],
     "homeLineup":[
       "fortenberry,dia",
       "donaldson,megan",
       "guilbeau,caroline",
       "harris,rebecca",
-      null
+      "matthews,kasi"
     ],
     "timeSeconds":167,
     "Poss":"millsaps",
@@ -6075,13 +6075,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"harris,rebecca",
-    "homePlayer5":null,
+    "homePlayer5":"matthews,kasi",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"whiteside,lindsey",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -6124,13 +6124,13 @@
       "ustick,jessie",
       "deery,erin",
       "longacre,maya",
-      null
+      "whiteside,lindsey"
     ],
     "homeLineup":[
       "donaldson,megan",
       "guilbeau,caroline",
       "harris,rebecca",
-      null,
+      "fortenberry,dia",
       null
     ],
     "timeSeconds":167,
@@ -6152,13 +6152,13 @@
     "homePlayer1":"donaldson,megan",
     "homePlayer2":"guilbeau,caroline",
     "homePlayer3":"harris,rebecca",
-    "homePlayer4":null,
+    "homePlayer4":"fortenberry,dia",
     "homePlayer5":null,
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
+    "awayPlayer5":"whiteside,lindsey",
     "playerMissing":1
   },
   {
@@ -6208,7 +6208,7 @@
       "donaldson,megan",
       "guilbeau,caroline",
       "harris,rebecca",
-      null,
+      "fortenberry,dia",
       null
     ],
     "timeSeconds":167,
@@ -6230,7 +6230,7 @@
     "homePlayer1":"donaldson,megan",
     "homePlayer2":"guilbeau,caroline",
     "homePlayer3":"harris,rebecca",
-    "homePlayer4":null,
+    "homePlayer4":"fortenberry,dia",
     "homePlayer5":null,
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"ustick,jessie",
@@ -6287,7 +6287,7 @@
       "guilbeau,caroline",
       "harris,rebecca",
       "thomas,braxton",
-      null
+      "totals"
     ],
     "timeSeconds":167,
     "Poss":"millsaps",
@@ -6309,13 +6309,13 @@
     "homePlayer2":"guilbeau,caroline",
     "homePlayer3":"harris,rebecca",
     "homePlayer4":"thomas,braxton",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
     "awayPlayer5":"taylor,caroline",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -7535,7 +7535,7 @@
       "harris,rebecca",
       "thomas,braxton",
       "jones,brazia",
-      null
+      "guilbeau,caroline"
     ],
     "timeSeconds":103,
     "Poss":"rhodes",
@@ -7557,13 +7557,13 @@
     "homePlayer2":"harris,rebecca",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"jones,brazia",
-    "homePlayer5":null,
+    "homePlayer5":"guilbeau,caroline",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
     "awayPlayer5":"taylor,caroline",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -8152,7 +8152,7 @@
       "deery,erin",
       "longacre,maya",
       "taylor,caroline",
-      null
+      "ustick,jessie"
     ],
     "homeLineup":[
       "donaldson,megan",
@@ -8186,8 +8186,8 @@
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"taylor,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ustick,jessie",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -8627,7 +8627,7 @@
       "thomas,braxton",
       "jones,brazia",
       "manning,taelor",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":70,
     "Poss":"rhodes",
@@ -8649,13 +8649,13 @@
     "homePlayer2":"thomas,braxton",
     "homePlayer3":"jones,brazia",
     "homePlayer4":"manning,taelor",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"taylor,caroline",
     "awayPlayer5":"young,allie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -9095,7 +9095,7 @@
       "jones,brazia",
       "manning,taelor",
       "fortenberry,dia",
-      null
+      "thomas,braxton"
     ],
     "timeSeconds":36,
     "Poss":"rhodes",
@@ -9117,13 +9117,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"manning,taelor",
     "homePlayer4":"fortenberry,dia",
-    "homePlayer5":null,
+    "homePlayer5":"thomas,braxton",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"taylor,caroline",
     "awayPlayer5":"young,allie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -9172,7 +9172,7 @@
       "jones,brazia",
       "manning,taelor",
       "fortenberry,dia",
-      null,
+      "harris,rebecca",
       null
     ],
     "timeSeconds":36,
@@ -9194,7 +9194,7 @@
     "homePlayer1":"jones,brazia",
     "homePlayer2":"manning,taelor",
     "homePlayer3":"fortenberry,dia",
-    "homePlayer4":null,
+    "homePlayer4":"harris,rebecca",
     "homePlayer5":null,
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"deery,erin",
@@ -9251,7 +9251,7 @@
       "manning,taelor",
       "fortenberry,dia",
       "wilson,anna",
-      null
+      "totals"
     ],
     "timeSeconds":36,
     "Poss":"rhodes",
@@ -9273,13 +9273,13 @@
     "homePlayer2":"manning,taelor",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"owens,alyssa",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"longacre,maya",
     "awayPlayer4":"taylor,caroline",
     "awayPlayer5":"young,allie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10336,7 +10336,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10370,8 +10370,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10414,7 +10414,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10448,8 +10448,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10492,7 +10492,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10526,8 +10526,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10570,7 +10570,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10604,8 +10604,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10648,7 +10648,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10682,8 +10682,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10726,7 +10726,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10760,8 +10760,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10804,7 +10804,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10838,8 +10838,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10882,7 +10882,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10916,8 +10916,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -10960,7 +10960,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -10994,8 +10994,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -11038,7 +11038,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -11072,8 +11072,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -11116,7 +11116,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -11150,8 +11150,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -11194,7 +11194,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "jones,brazia",
@@ -11228,8 +11228,8 @@
     "awayPlayer2":"longacre,maya",
     "awayPlayer3":"taylor,caroline",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -11271,7 +11271,7 @@
       "longacre,maya",
       "taylor,caroline",
       "young,allie",
-      null,
+      "owens,alyssa",
       null
     ],
     "homeLineup":[
@@ -11305,7 +11305,7 @@
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"taylor,caroline",
     "awayPlayer3":"young,allie",
-    "awayPlayer4":null,
+    "awayPlayer4":"owens,alyssa",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12838,7 +12838,7 @@
       "fortenberry,dia",
       "wilson,anna",
       "matthews,kasi",
-      null,
+      "jones,brazia",
       null
     ],
     "timeSeconds":372,
@@ -12860,7 +12860,7 @@
     "homePlayer1":"fortenberry,dia",
     "homePlayer2":"wilson,anna",
     "homePlayer3":"matthews,kasi",
-    "homePlayer4":null,
+    "homePlayer4":"jones,brazia",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"taylor,caroline",
@@ -12915,7 +12915,7 @@
     "homeLineup":[
       "wilson,anna",
       "matthews,kasi",
-      null,
+      "fortenberry,dia",
       null,
       null
     ],
@@ -12937,7 +12937,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"wilson,anna",
     "homePlayer2":"matthews,kasi",
-    "homePlayer3":null,
+    "homePlayer3":"fortenberry,dia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
@@ -12994,7 +12994,7 @@
       "wilson,anna",
       "matthews,kasi",
       "harris,rebecca",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":372,
@@ -13016,7 +13016,7 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"matthews,kasi",
     "homePlayer3":"harris,rebecca",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"taylor,caroline",
@@ -13767,7 +13767,7 @@
       "longacre,maya",
       "young,allie",
       "summers,danielle",
-      null,
+      "taylor,caroline",
       null
     ],
     "homeLineup":[
@@ -13801,7 +13801,7 @@
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"young,allie",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"taylor,caroline",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13845,14 +13845,14 @@
       "longacre,maya",
       "young,allie",
       "summers,danielle",
-      null,
+      "taylor,caroline",
       null
     ],
     "homeLineup":[
       "wilson,anna",
       "harris,rebecca",
       "donaldson,megan",
-      null,
+      "matthews,kasi",
       null
     ],
     "timeSeconds":315,
@@ -13874,12 +13874,12 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"harris,rebecca",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"matthews,kasi",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"young,allie",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"taylor,caroline",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13930,7 +13930,7 @@
       "wilson,anna",
       "harris,rebecca",
       "donaldson,megan",
-      null,
+      "matthews,kasi",
       null
     ],
     "timeSeconds":315,
@@ -13952,7 +13952,7 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"harris,rebecca",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"matthews,kasi",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"young,allie",
@@ -15405,7 +15405,7 @@
       "longacre,maya",
       "summers,danielle",
       "deery,erin",
-      null,
+      "young,allie",
       null
     ],
     "homeLineup":[
@@ -15439,7 +15439,7 @@
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"deery,erin",
-    "awayPlayer4":null,
+    "awayPlayer4":"young,allie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15483,14 +15483,14 @@
       "longacre,maya",
       "summers,danielle",
       "deery,erin",
-      null,
+      "young,allie",
       null
     ],
     "homeLineup":[
       "wilson,anna",
       "donaldson,megan",
       "guilbeau,caroline",
-      null,
+      "harris,rebecca",
       null
     ],
     "timeSeconds":186,
@@ -15512,12 +15512,12 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"guilbeau,caroline",
-    "homePlayer4":null,
+    "homePlayer4":"harris,rebecca",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"deery,erin",
-    "awayPlayer4":null,
+    "awayPlayer4":"young,allie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15561,13 +15561,13 @@
       "longacre,maya",
       "summers,danielle",
       "deery,erin",
-      null,
+      "young,allie",
       null
     ],
     "homeLineup":[
       "wilson,anna",
       "donaldson,megan",
-      null,
+      "guilbeau,caroline",
       null,
       null
     ],
@@ -15589,13 +15589,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"wilson,anna",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"guilbeau,caroline",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"deery,erin",
-    "awayPlayer4":null,
+    "awayPlayer4":"young,allie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15645,7 +15645,7 @@
     "homeLineup":[
       "wilson,anna",
       "donaldson,megan",
-      null,
+      "guilbeau,caroline",
       null,
       null
     ],
@@ -15667,7 +15667,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"wilson,anna",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"guilbeau,caroline",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
@@ -15724,7 +15724,7 @@
       "wilson,anna",
       "donaldson,megan",
       "manning,taelor",
-      null,
+      "totals",
       null
     ],
     "timeSeconds":186,
@@ -15746,7 +15746,7 @@
     "homePlayer1":"wilson,anna",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"manning,taelor",
-    "homePlayer4":null,
+    "homePlayer4":"totals",
     "homePlayer5":null,
     "awayPlayer1":"longacre,maya",
     "awayPlayer2":"summers,danielle",
@@ -16263,7 +16263,7 @@
       "summers,danielle",
       "deery,erin",
       "ustick,jessie",
-      null,
+      "longacre,maya",
       null
     ],
     "homeLineup":[
@@ -16297,7 +16297,7 @@
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"longacre,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16341,7 +16341,7 @@
       "summers,danielle",
       "deery,erin",
       "ustick,jessie",
-      null,
+      "longacre,maya",
       null
     ],
     "homeLineup":[
@@ -16375,7 +16375,7 @@
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
-    "awayPlayer4":null,
+    "awayPlayer4":"longacre,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17129,7 +17129,7 @@
       "manning,taelor",
       "fortenberry,dia",
       "jones,brazia",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":132,
     "Poss":"millsaps",
@@ -17151,13 +17151,13 @@
     "homePlayer2":"manning,taelor",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"jones,brazia",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"whiteside,lindsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -17675,7 +17675,7 @@
       "fortenberry,dia",
       "jones,brazia",
       "guilbeau,caroline",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":109,
     "Poss":"millsaps",
@@ -17697,13 +17697,13 @@
     "homePlayer2":"fortenberry,dia",
     "homePlayer3":"jones,brazia",
     "homePlayer4":"guilbeau,caroline",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"whiteside,lindsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -18299,7 +18299,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "newell,amber",
-      null
+      "manning,taelor"
     ],
     "timeSeconds":45,
     "Poss":"millsaps",
@@ -18321,13 +18321,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"newell,amber",
-    "homePlayer5":null,
+    "homePlayer5":"manning,taelor",
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"whiteside,lindsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -19001,7 +19001,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "newell,amber",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":6,
     "Poss":"rhodes",
@@ -19023,13 +19023,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"newell,amber",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"whiteside,lindsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -19078,7 +19078,7 @@
       "fortenberry,dia",
       "jones,brazia",
       "guilbeau,caroline",
-      null,
+      "newell,amber",
       null
     ],
     "timeSeconds":6,
@@ -19100,7 +19100,7 @@
     "homePlayer1":"fortenberry,dia",
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
-    "homePlayer4":null,
+    "homePlayer4":"newell,amber",
     "homePlayer5":null,
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
@@ -19157,7 +19157,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "wilson,anna",
-      null
+      "totals"
     ],
     "timeSeconds":6,
     "Poss":"rhodes",
@@ -19179,13 +19179,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"wilson,anna",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"summers,danielle",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"ustick,jessie",
     "awayPlayer4":"young,allie",
     "awayPlayer5":"whiteside,lindsey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -22036,7 +22036,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "fortenberry,dia",
@@ -22070,8 +22070,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -22114,7 +22114,7 @@
       "ustick,jessie",
       "owens,alyssa",
       "deery,erin",
-      null
+      "young,allie"
     ],
     "homeLineup":[
       "fortenberry,dia",
@@ -22148,8 +22148,8 @@
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"young,allie",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -23603,6 +23603,84 @@
       "jones,brazia",
       "guilbeau,caroline",
       "wilson,anna",
+      "manning,taelor"
+    ],
+    "timeSeconds":237,
+    "Poss":"rhodes",
+    "possNum":45,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":93,
+    "teamChanged":0,
+    "game":"MillsapsRHODES01\/12\/18",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"fortenberry,dia",
+    "homePlayer2":"jones,brazia",
+    "homePlayer3":"guilbeau,caroline",
+    "homePlayer4":"wilson,anna",
+    "homePlayer5":"manning,taelor",
+    "awayPlayer1":"whiteside,lindsey",
+    "awayPlayer2":"ustick,jessie",
+    "awayPlayer3":"owens,alyssa",
+    "awayPlayer4":"deery,erin",
+    "awayPlayer5":"longacre,maya",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5269",
+    "homeTeam":"Millsaps",
+    "awayTeam":"RHODES",
+    "saaGame":"0",
+    "finalScore":"72-59",
+    "homeScoreByPeriod":"12,16,14,17,59",
+    "awayScoreByPeriod":"22,13,23,14,72",
+    "homeRecord":"4-11",
+    "awayRecord":"10-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"01\/12\/18",
+    "startTime":"7:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Jackson, Miss",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"150",
+    "isNeutral":"False",
+    "timeRemaining":"03:57",
+    "awayPlay":"",
+    "awayTeamScore":"47 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"39",
+    "homePlay":"SUB OUT by WILSON,ANNA",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by WILSON,ANNA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"wilson,anna",
+    "pointsEarned":"",
+    "awayLineup":[
+      "whiteside,lindsey",
+      "ustick,jessie",
+      "owens,alyssa",
+      "deery,erin",
+      "longacre,maya"
+    ],
+    "homeLineup":[
+      "fortenberry,dia",
+      "jones,brazia",
+      "guilbeau,caroline",
+      "wilson,anna",
       null
     ],
     "timeSeconds":237,
@@ -23659,84 +23737,6 @@
     "awayTeamScore":"47 ",
     "playTeamIndicator":"",
     "homeTeamScore":"39",
-    "homePlay":"SUB OUT by WILSON,ANNA",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by WILSON,ANNA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"wilson,anna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "whiteside,lindsey",
-      "ustick,jessie",
-      "owens,alyssa",
-      "deery,erin",
-      "longacre,maya"
-    ],
-    "homeLineup":[
-      "fortenberry,dia",
-      "jones,brazia",
-      "guilbeau,caroline",
-      null,
-      null
-    ],
-    "timeSeconds":237,
-    "Poss":"rhodes",
-    "possNum":45,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":93,
-    "teamChanged":0,
-    "game":"MillsapsRHODES01\/12\/18",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"fortenberry,dia",
-    "homePlayer2":"jones,brazia",
-    "homePlayer3":"guilbeau,caroline",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"whiteside,lindsey",
-    "awayPlayer2":"ustick,jessie",
-    "awayPlayer3":"owens,alyssa",
-    "awayPlayer4":"deery,erin",
-    "awayPlayer5":"longacre,maya",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5269",
-    "homeTeam":"Millsaps",
-    "awayTeam":"RHODES",
-    "saaGame":"0",
-    "finalScore":"72-59",
-    "homeScoreByPeriod":"12,16,14,17,59",
-    "awayScoreByPeriod":"22,13,23,14,72",
-    "homeRecord":"4-11",
-    "awayRecord":"10-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"01\/12\/18",
-    "startTime":"7:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Jackson, Miss",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"150",
-    "isNeutral":"False",
-    "timeRemaining":"03:57",
-    "awayPlay":"",
-    "awayTeamScore":"47 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"39",
     "homePlay":"SUB IN by HARRIS,REBECCA",
     "gameScore":"",
     "teamIndicator":"",
@@ -23759,7 +23759,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "harris,rebecca",
-      null
+      "totals"
     ],
     "timeSeconds":237,
     "Poss":"rhodes",
@@ -23781,13 +23781,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"harris,rebecca",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -24851,7 +24851,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "donaldson,megan",
-      null
+      "harris,rebecca"
     ],
     "timeSeconds":172,
     "Poss":"rhodes",
@@ -24873,13 +24873,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"harris,rebecca",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -24929,7 +24929,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "donaldson,megan",
-      null
+      "harris,rebecca"
     ],
     "timeSeconds":172,
     "Poss":"rhodes",
@@ -24951,13 +24951,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"harris,rebecca",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -26255,7 +26255,7 @@
       "jones,brazia",
       "guilbeau,caroline",
       "matthews,kasi",
-      null
+      "donaldson,megan"
     ],
     "timeSeconds":128,
     "Poss":"millsaps",
@@ -26277,13 +26277,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"guilbeau,caroline",
     "homePlayer4":"matthews,kasi",
-    "homePlayer5":null,
+    "homePlayer5":"donaldson,megan",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -26801,7 +26801,7 @@
       "jones,brazia",
       "matthews,kasi",
       "mccrea,morgan",
-      null
+      "guilbeau,caroline"
     ],
     "timeSeconds":78,
     "Poss":"millsaps",
@@ -26823,13 +26823,13 @@
     "homePlayer2":"jones,brazia",
     "homePlayer3":"matthews,kasi",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":null,
+    "homePlayer5":"guilbeau,caroline",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -27737,7 +27737,7 @@
       "matthews,kasi",
       "mccrea,morgan",
       "donaldson,megan",
-      null
+      "fortenberry,dia"
     ],
     "timeSeconds":32,
     "Poss":"rhodes",
@@ -27759,13 +27759,13 @@
     "homePlayer2":"matthews,kasi",
     "homePlayer3":"mccrea,morgan",
     "homePlayer4":"donaldson,megan",
-    "homePlayer5":null,
+    "homePlayer5":"fortenberry,dia",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -27814,7 +27814,7 @@
       "jones,brazia",
       "matthews,kasi",
       "donaldson,megan",
-      null,
+      "mccrea,morgan",
       null
     ],
     "timeSeconds":32,
@@ -27836,7 +27836,7 @@
     "homePlayer1":"jones,brazia",
     "homePlayer2":"matthews,kasi",
     "homePlayer3":"donaldson,megan",
-    "homePlayer4":null,
+    "homePlayer4":"mccrea,morgan",
     "homePlayer5":null,
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
@@ -27893,7 +27893,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "harris,rebecca",
-      null
+      "totals"
     ],
     "timeSeconds":32,
     "Poss":"rhodes",
@@ -27915,13 +27915,13 @@
     "homePlayer2":"matthews,kasi",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"harris,rebecca",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -29687,7 +29687,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "harris,rebecca",
-      null
+      "wilson,anna"
     ],
     "timeSeconds":569,
     "Poss":"millsaps",
@@ -29709,13 +29709,13 @@
     "homePlayer2":"matthews,kasi",
     "homePlayer3":"donaldson,megan",
     "homePlayer4":"harris,rebecca",
-    "homePlayer5":null,
+    "homePlayer5":"wilson,anna",
     "awayPlayer1":"whiteside,lindsey",
     "awayPlayer2":"ustick,jessie",
     "awayPlayer3":"owens,alyssa",
     "awayPlayer4":"deery,erin",
     "awayPlayer5":"longacre,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -34048,7 +34048,7 @@
       "owens,alyssa",
       "deery,erin",
       "longacre,maya",
-      null
+      "summers,danielle"
     ],
     "homeLineup":[
       "matthews,kasi",
@@ -34082,8 +34082,8 @@
     "awayPlayer2":"owens,alyssa",
     "awayPlayer3":"deery,erin",
     "awayPlayer4":"longacre,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"summers,danielle",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -34120,6 +34120,84 @@
     "shotOutcome":"",
     "Team":"rhodes",
     "Player":"owens,alyssa",
+    "pointsEarned":"",
+    "awayLineup":[
+      "ustick,jessie",
+      "deery,erin",
+      "longacre,maya",
+      "summers,danielle",
+      null
+    ],
+    "homeLineup":[
+      "matthews,kasi",
+      "donaldson,megan",
+      "harris,rebecca",
+      "fortenberry,dia",
+      "manning,taelor"
+    ],
+    "timeSeconds":167,
+    "Poss":"millsaps",
+    "possNum":66,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":131,
+    "teamChanged":0,
+    "game":"MillsapsRHODES01\/12\/18",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"matthews,kasi",
+    "homePlayer2":"donaldson,megan",
+    "homePlayer3":"harris,rebecca",
+    "homePlayer4":"fortenberry,dia",
+    "homePlayer5":"manning,taelor",
+    "awayPlayer1":"ustick,jessie",
+    "awayPlayer2":"deery,erin",
+    "awayPlayer3":"longacre,maya",
+    "awayPlayer4":"summers,danielle",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5269",
+    "homeTeam":"Millsaps",
+    "awayTeam":"RHODES",
+    "saaGame":"0",
+    "finalScore":"72-59",
+    "homeScoreByPeriod":"12,16,14,17,59",
+    "awayScoreByPeriod":"22,13,23,14,72",
+    "homeRecord":"4-11",
+    "awayRecord":"10-4",
+    "homeConfRecord":"N\/A",
+    "awayConfRecord":"N\/A",
+    "gameDate":"01\/12\/18",
+    "startTime":"7:30 p.m.",
+    "gameLength":"N\/A",
+    "gameLocation":"Jackson, Miss",
+    "homeWin":"Lose",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"150",
+    "isNeutral":"False",
+    "timeRemaining":"02:47",
+    "awayPlay":"SUB OUT by LONGACRE,MAYA",
+    "awayTeamScore":"66 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"50",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by LONGACRE,MAYA",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"rhodes",
+    "Player":"longacre,maya",
     "pointsEarned":"",
     "awayLineup":[
       "ustick,jessie",
@@ -34185,84 +34263,6 @@
     "attendance":"150",
     "isNeutral":"False",
     "timeRemaining":"02:47",
-    "awayPlay":"SUB OUT by LONGACRE,MAYA",
-    "awayTeamScore":"66 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"50",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by LONGACRE,MAYA",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"rhodes",
-    "Player":"longacre,maya",
-    "pointsEarned":"",
-    "awayLineup":[
-      "ustick,jessie",
-      "deery,erin",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "matthews,kasi",
-      "donaldson,megan",
-      "harris,rebecca",
-      "fortenberry,dia",
-      "manning,taelor"
-    ],
-    "timeSeconds":167,
-    "Poss":"millsaps",
-    "possNum":66,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":131,
-    "teamChanged":0,
-    "game":"MillsapsRHODES01\/12\/18",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"matthews,kasi",
-    "homePlayer2":"donaldson,megan",
-    "homePlayer3":"harris,rebecca",
-    "homePlayer4":"fortenberry,dia",
-    "homePlayer5":"manning,taelor",
-    "awayPlayer1":"ustick,jessie",
-    "awayPlayer2":"deery,erin",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5269",
-    "homeTeam":"Millsaps",
-    "awayTeam":"RHODES",
-    "saaGame":"0",
-    "finalScore":"72-59",
-    "homeScoreByPeriod":"12,16,14,17,59",
-    "awayScoreByPeriod":"22,13,23,14,72",
-    "homeRecord":"4-11",
-    "awayRecord":"10-4",
-    "homeConfRecord":"N\/A",
-    "awayConfRecord":"N\/A",
-    "gameDate":"01\/12\/18",
-    "startTime":"7:30 p.m.",
-    "gameLength":"N\/A",
-    "gameLocation":"Jackson, Miss",
-    "homeWin":"Lose",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"150",
-    "isNeutral":"False",
-    "timeRemaining":"02:47",
     "awayPlay":"",
     "awayTeamScore":"66 ",
     "playTeamIndicator":"",
@@ -34280,7 +34280,7 @@
     "awayLineup":[
       "ustick,jessie",
       "deery,erin",
-      null,
+      "longacre,maya",
       null,
       null
     ],
@@ -34289,7 +34289,7 @@
       "donaldson,megan",
       "fortenberry,dia",
       "manning,taelor",
-      null
+      "jones,brazia"
     ],
     "timeSeconds":167,
     "Poss":"millsaps",
@@ -34311,10 +34311,10 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
     "homePlayer4":"manning,taelor",
-    "homePlayer5":null,
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":null,
+    "awayPlayer3":"longacre,maya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34358,7 +34358,7 @@
     "awayLineup":[
       "ustick,jessie",
       "deery,erin",
-      null,
+      "longacre,maya",
       null,
       null
     ],
@@ -34366,7 +34366,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "fortenberry,dia",
-      null,
+      "manning,taelor",
       null
     ],
     "timeSeconds":167,
@@ -34388,11 +34388,11 @@
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"fortenberry,dia",
-    "homePlayer4":null,
+    "homePlayer4":"manning,taelor",
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":null,
+    "awayPlayer3":"longacre,maya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34436,14 +34436,14 @@
     "awayLineup":[
       "ustick,jessie",
       "deery,erin",
-      null,
+      "longacre,maya",
       null,
       null
     ],
     "homeLineup":[
       "matthews,kasi",
       "donaldson,megan",
-      null,
+      "fortenberry,dia",
       null,
       null
     ],
@@ -34465,12 +34465,12 @@
     "secondsPerPoss":0,
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"fortenberry,dia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
-    "awayPlayer3":null,
+    "awayPlayer3":"longacre,maya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34515,13 +34515,13 @@
       "ustick,jessie",
       "deery,erin",
       "summers,danielle",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
       "matthews,kasi",
       "donaldson,megan",
-      null,
+      "fortenberry,dia",
       null,
       null
     ],
@@ -34543,13 +34543,13 @@
     "secondsPerPoss":0,
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"fortenberry,dia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34594,12 +34594,12 @@
       "deery,erin",
       "summers,danielle",
       "young,allie",
-      null
+      "totals"
     ],
     "homeLineup":[
       "matthews,kasi",
       "donaldson,megan",
-      null,
+      "fortenberry,dia",
       null,
       null
     ],
@@ -34621,14 +34621,14 @@
     "secondsPerPoss":0,
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"fortenberry,dia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
     "awayPlayer4":"young,allie",
-    "awayPlayer5":null,
+    "awayPlayer5":"totals",
     "playerMissing":1
   },
   {
@@ -34677,7 +34677,7 @@
     "homeLineup":[
       "matthews,kasi",
       "donaldson,megan",
-      null,
+      "fortenberry,dia",
       null,
       null
     ],
@@ -34699,7 +34699,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
-    "homePlayer3":null,
+    "homePlayer3":"fortenberry,dia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
@@ -34756,7 +34756,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "thomas,braxton",
-      null,
+      "jones,brazia",
       null
     ],
     "timeSeconds":167,
@@ -34778,7 +34778,7 @@
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
-    "homePlayer4":null,
+    "homePlayer4":"jones,brazia",
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
@@ -34834,7 +34834,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "thomas,braxton",
-      null,
+      "jones,brazia",
       null
     ],
     "timeSeconds":167,
@@ -34856,7 +34856,7 @@
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
-    "homePlayer4":null,
+    "homePlayer4":"jones,brazia",
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
@@ -34913,7 +34913,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":167,
     "Poss":"millsaps",
@@ -34935,7 +34935,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -34991,7 +34991,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":163,
     "Poss":"millsaps",
@@ -35013,7 +35013,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35069,7 +35069,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":162,
     "Poss":"millsaps",
@@ -35091,7 +35091,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35147,7 +35147,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":160,
     "Poss":"millsaps",
@@ -35169,7 +35169,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35225,7 +35225,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -35247,7 +35247,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35303,7 +35303,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":154,
     "Poss":"rhodes",
@@ -35325,7 +35325,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35381,7 +35381,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":152,
     "Poss":"rhodes",
@@ -35403,7 +35403,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35459,7 +35459,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":150,
     "Poss":"millsaps",
@@ -35481,7 +35481,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35537,7 +35537,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":141,
     "Poss":"millsaps",
@@ -35559,7 +35559,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35615,7 +35615,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -35637,7 +35637,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35693,7 +35693,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -35715,7 +35715,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35771,7 +35771,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -35793,7 +35793,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35849,7 +35849,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":125,
     "Poss":"millsaps",
@@ -35871,7 +35871,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"deery,erin",
     "awayPlayer3":"summers,danielle",
@@ -35920,14 +35920,14 @@
       "summers,danielle",
       "young,allie",
       "taylor,caroline",
-      null
+      "deery,erin"
     ],
     "homeLineup":[
       "matthews,kasi",
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":125,
     "Poss":"millsaps",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"taylor,caroline",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"deery,erin",
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -36005,7 +36005,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":125,
     "Poss":"millsaps",
@@ -36027,7 +36027,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36083,7 +36083,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":115,
     "Poss":"millsaps",
@@ -36105,7 +36105,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36161,7 +36161,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":112,
     "Poss":"millsaps",
@@ -36183,7 +36183,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36239,7 +36239,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -36261,7 +36261,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36317,7 +36317,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":107,
     "Poss":"millsaps",
@@ -36339,7 +36339,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36395,7 +36395,7 @@
       "donaldson,megan",
       "thomas,braxton",
       "mccrea,morgan",
-      "thomas,braxton(fastbreak)"
+      "jones,brazia"
     ],
     "timeSeconds":99,
     "Poss":"millsaps",
@@ -36417,7 +36417,7 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"thomas,braxton",
     "homePlayer4":"mccrea,morgan",
-    "homePlayer5":"thomas,braxton(fastbreak)",
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
@@ -36472,7 +36472,7 @@
       "matthews,kasi",
       "donaldson,megan",
       "mccrea,morgan",
-      null,
+      "jones,brazia",
       null
     ],
     "timeSeconds":99,
@@ -36494,7 +36494,7 @@
     "homePlayer1":"matthews,kasi",
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"mccrea,morgan",
-    "homePlayer4":null,
+    "homePlayer4":"jones,brazia",
     "homePlayer5":null,
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
@@ -37331,7 +37331,7 @@
       "donaldson,megan",
       "mccrea,morgan",
       "fortenberry,dia",
-      null
+      "thomas,braxton"
     ],
     "timeSeconds":66,
     "Poss":"rhodes",
@@ -37353,13 +37353,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"mccrea,morgan",
     "homePlayer4":"fortenberry,dia",
-    "homePlayer5":null,
+    "homePlayer5":"thomas,braxton",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"taylor,caroline",
     "awayPlayer5":"owens,alyssa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",
@@ -37955,7 +37955,7 @@
       "donaldson,megan",
       "mccrea,morgan",
       "fortenberry,dia",
-      null
+      "jones,brazia"
     ],
     "timeSeconds":58,
     "Poss":"rhodes",
@@ -37977,13 +37977,13 @@
     "homePlayer2":"donaldson,megan",
     "homePlayer3":"mccrea,morgan",
     "homePlayer4":"fortenberry,dia",
-    "homePlayer5":null,
+    "homePlayer5":"jones,brazia",
     "awayPlayer1":"ustick,jessie",
     "awayPlayer2":"summers,danielle",
     "awayPlayer3":"young,allie",
     "awayPlayer4":"taylor,caroline",
     "awayPlayer5":"owens,alyssa",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5269",

@@ -2621,7 +2621,7 @@
       "novak,whitney",
       "franklin,haley",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "timeSeconds":301,
     "Poss":"muw",
@@ -2643,13 +2643,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"hudson,reysha",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"leak,claire",
     "awayPlayer5":"guerin,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -2686,6 +2686,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "phillips,calysia",
+      "hudson,reysha",
+      "langford,conley",
+      "leak,claire",
+      "guerin,maddie"
+    ],
+    "homeLineup":[
+      "freeman,garin",
+      "franklin,haley",
+      "frank,taylor",
+      "novak,whitney",
+      null
+    ],
+    "timeSeconds":301,
+    "Poss":"muw",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"muw",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":19,
+    "teamChanged":0,
+    "game":"MillsapsMUW12\/01\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,garin",
+    "homePlayer2":"franklin,haley",
+    "homePlayer3":"frank,taylor",
+    "homePlayer4":"novak,whitney",
+    "homePlayer5":null,
+    "awayPlayer1":"phillips,calysia",
+    "awayPlayer2":"hudson,reysha",
+    "awayPlayer3":"langford,conley",
+    "awayPlayer4":"leak,claire",
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":1
+  },
+  {
+    "gameID":"7291",
+    "homeTeam":"Millsaps",
+    "awayTeam":"MUW",
+    "saaGame":"0",
+    "finalScore":"66-85",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
+    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
+    "homeRecord":"7-1",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-1",
+    "gameDate":"12\/01\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"90",
+    "isNeutral":"False",
+    "timeRemaining":"05:01",
+    "awayPlay":"",
+    "awayTeamScore":"12 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"7",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "phillips,calysia",
@@ -2755,84 +2833,6 @@
     "awayTeamScore":"12 ",
     "playTeamIndicator":"",
     "homeTeamScore":"7",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "phillips,calysia",
-      "hudson,reysha",
-      "langford,conley",
-      "leak,claire",
-      "guerin,maddie"
-    ],
-    "homeLineup":[
-      "freeman,garin",
-      "franklin,haley",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":301,
-    "Poss":"muw",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"muw",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":19,
-    "teamChanged":0,
-    "game":"MillsapsMUW12\/01\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,garin",
-    "homePlayer2":"franklin,haley",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"phillips,calysia",
-    "awayPlayer2":"hudson,reysha",
-    "awayPlayer3":"langford,conley",
-    "awayPlayer4":"leak,claire",
-    "awayPlayer5":"guerin,maddie",
-    "playerMissing":1
-  },
-  {
-    "gameID":"7291",
-    "homeTeam":"Millsaps",
-    "awayTeam":"MUW",
-    "saaGame":"0",
-    "finalScore":"66-85",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
-    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
-    "homeRecord":"7-1",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-1",
-    "gameDate":"12\/01\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"90",
-    "isNeutral":"False",
-    "timeRemaining":"05:01",
-    "awayPlay":"",
-    "awayTeamScore":"12 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"7",
     "homePlay":"SUB IN by KEYES,LEXUS",
     "gameScore":"",
     "teamIndicator":"",
@@ -2854,7 +2854,7 @@
       "freeman,garin",
       "franklin,haley",
       "keyes,lexus",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":301,
@@ -2876,7 +2876,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"keyes,lexus",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"hudson,reysha",
@@ -2933,7 +2933,7 @@
       "franklin,haley",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":301,
     "Poss":"muw",
@@ -2955,13 +2955,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"hudson,reysha",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"leak,claire",
     "awayPlayer5":"guerin,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -3082,7 +3082,7 @@
       "hudson,reysha",
       "langford,conley",
       "leak,claire",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -3116,8 +3116,8 @@
     "awayPlayer2":"hudson,reysha",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"leak,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -4798,7 +4798,7 @@
       "langford,conley",
       "leak,claire",
       "shields,zia",
-      null
+      "phillips,calysia"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -4832,8 +4832,8 @@
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"shields,zia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,calysia",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -6287,7 +6287,7 @@
       "keyes,lexus",
       "warren,elyse",
       "anderson,tia",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":48,
     "Poss":"millsaps",
@@ -6309,13 +6309,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"shields,zia",
     "awayPlayer5":"rayford,diamond",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -6436,7 +6436,7 @@
       "langford,conley",
       "leak,claire",
       "shields,zia",
-      null
+      "rayford,diamond"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"shields,zia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,diamond",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -7769,7 +7769,7 @@
       "warren,elyse",
       "anderson,tia",
       "adams,emily",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":600,
     "Poss":"muw",
@@ -7791,13 +7791,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"shields,zia",
     "awayPlayer5":"phillips,calysia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -7846,7 +7846,7 @@
       "keyes,lexus",
       "warren,elyse",
       "adams,emily",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":600,
@@ -7868,7 +7868,7 @@
     "homePlayer1":"keyes,lexus",
     "homePlayer2":"warren,elyse",
     "homePlayer3":"adams,emily",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"langford,conley",
@@ -7925,7 +7925,7 @@
       "warren,elyse",
       "adams,emily",
       "freeman,garin",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":600,
     "Poss":"muw",
@@ -7947,13 +7947,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"adams,emily",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"shields,zia",
     "awayPlayer5":"phillips,calysia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -8074,7 +8074,7 @@
       "langford,conley",
       "shields,zia",
       "phillips,calysia",
-      null
+      "leak,claire"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -8108,8 +8108,8 @@
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"shields,zia",
     "awayPlayer4":"phillips,calysia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"leak,claire",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -9251,7 +9251,7 @@
       "warren,elyse",
       "freeman,garin",
       "novak,whitney",
-      null
+      "adams,emily"
     ],
     "timeSeconds":489,
     "Poss":"millsaps",
@@ -9273,13 +9273,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"shields,zia",
     "awayPlayer4":"phillips,calysia",
     "awayPlayer5":"guerin,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -9400,7 +9400,7 @@
       "shields,zia",
       "phillips,calysia",
       "guerin,maddie",
-      null
+      "langford,conley"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -9434,8 +9434,8 @@
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"phillips,calysia",
     "awayPlayer4":"guerin,maddie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"langford,conley",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -9719,7 +9719,7 @@
       "freeman,garin",
       "novak,whitney",
       "maw,maddy",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":489,
     "Poss":"millsaps",
@@ -9741,13 +9741,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"maw,maddy",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"phillips,calysia",
     "awayPlayer4":"guerin,maddie",
     "awayPlayer5":"leak,claire",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -10655,7 +10655,7 @@
       "novak,whitney",
       "maw,maddy",
       "franklin,haley",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":406,
     "Poss":"millsaps",
@@ -10677,13 +10677,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"maw,maddy",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"phillips,calysia",
     "awayPlayer4":"guerin,maddie",
     "awayPlayer5":"leak,claire",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -10804,7 +10804,7 @@
       "phillips,calysia",
       "guerin,maddie",
       "leak,claire",
-      null
+      "shields,zia"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -10838,8 +10838,8 @@
     "awayPlayer2":"phillips,calysia",
     "awayPlayer3":"guerin,maddie",
     "awayPlayer4":"leak,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,zia",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -12371,7 +12371,7 @@
       "novak,whitney",
       "franklin,haley",
       "frank,taylor",
-      null
+      "maw,maddy"
     ],
     "timeSeconds":291,
     "Poss":"millsaps",
@@ -12393,13 +12393,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"maw,maddy",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"phillips,calysia",
     "awayPlayer3":"guerin,maddie",
     "awayPlayer4":"leak,claire",
     "awayPlayer5":"langford,conley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -12448,7 +12448,7 @@
       "freeman,garin",
       "franklin,haley",
       "frank,taylor",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":291,
@@ -12470,7 +12470,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"phillips,calysia",
@@ -12527,7 +12527,7 @@
       "franklin,haley",
       "frank,taylor",
       "adams,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":291,
     "Poss":"millsaps",
@@ -12549,13 +12549,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"hudson,reysha",
     "awayPlayer2":"phillips,calysia",
     "awayPlayer3":"guerin,maddie",
     "awayPlayer4":"leak,claire",
     "awayPlayer5":"langford,conley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -12676,7 +12676,7 @@
       "guerin,maddie",
       "leak,claire",
       "langford,conley",
-      null
+      "hudson,reysha"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -12710,8 +12710,8 @@
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"hudson,reysha",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -13073,7 +13073,7 @@
       "frank,taylor",
       "adams,emily",
       "anderson,tia",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":272,
     "Poss":"muw",
@@ -13095,13 +13095,13 @@
     "homePlayer2":"frank,taylor",
     "homePlayer3":"adams,emily",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"moody,leileigh",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -15647,7 +15647,7 @@
       "frank,taylor",
       "adams,emily",
       "anderson,tia",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":126,
     "Poss":"muw",
@@ -15669,13 +15669,13 @@
     "homePlayer2":"frank,taylor",
     "homePlayer3":"adams,emily",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"moody,leileigh",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -15724,7 +15724,7 @@
       "franklin,haley",
       "adams,emily",
       "anderson,tia",
-      null,
+      "frank,taylor",
       null
     ],
     "timeSeconds":126,
@@ -15746,7 +15746,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
     "homePlayer3":"anderson,tia",
-    "homePlayer4":null,
+    "homePlayer4":"frank,taylor",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
@@ -15803,7 +15803,7 @@
       "adams,emily",
       "anderson,tia",
       "warren,elyse",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":126,
     "Poss":"muw",
@@ -15825,13 +15825,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"moody,leileigh",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -17129,7 +17129,7 @@
       "adams,emily",
       "anderson,tia",
       "novak,whitney",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":600,
     "Poss":"muw",
@@ -17151,13 +17151,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"moody,leileigh",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -17206,7 +17206,7 @@
       "franklin,haley",
       "adams,emily",
       "novak,whitney",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":600,
@@ -17228,7 +17228,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
     "homePlayer3":"novak,whitney",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
@@ -17285,7 +17285,7 @@
       "adams,emily",
       "novak,whitney",
       "freeman,garin",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":600,
     "Poss":"muw",
@@ -17307,13 +17307,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"moody,leileigh",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -17434,7 +17434,7 @@
       "guerin,maddie",
       "leak,claire",
       "langford,conley",
-      null
+      "moody,leileigh"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -17468,8 +17468,8 @@
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"moody,leileigh",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -19625,7 +19625,7 @@
       "novak,whitney",
       "freeman,garin",
       "frank,taylor",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":324,
     "Poss":"millsaps",
@@ -19647,13 +19647,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"hudson,reysha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -19690,6 +19690,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"adams,emily",
+    "pointsEarned":"",
+    "awayLineup":[
+      "phillips,calysia",
+      "guerin,maddie",
+      "leak,claire",
+      "langford,conley",
+      "hudson,reysha"
+    ],
+    "homeLineup":[
+      "novak,whitney",
+      "freeman,garin",
+      "frank,taylor",
+      "adams,emily",
+      null
+    ],
+    "timeSeconds":324,
+    "Poss":"millsaps",
+    "possNum":37,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":91,
+    "teamChanged":0,
+    "game":"MillsapsMUW12\/01\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"novak,whitney",
+    "homePlayer2":"freeman,garin",
+    "homePlayer3":"frank,taylor",
+    "homePlayer4":"adams,emily",
+    "homePlayer5":null,
+    "awayPlayer1":"phillips,calysia",
+    "awayPlayer2":"guerin,maddie",
+    "awayPlayer3":"leak,claire",
+    "awayPlayer4":"langford,conley",
+    "awayPlayer5":"hudson,reysha",
+    "playerMissing":1
+  },
+  {
+    "gameID":"7291",
+    "homeTeam":"Millsaps",
+    "awayTeam":"MUW",
+    "saaGame":"0",
+    "finalScore":"66-85",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
+    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
+    "homeRecord":"7-1",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-1",
+    "gameDate":"12\/01\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"90",
+    "isNeutral":"False",
+    "timeRemaining":"05:24",
+    "awayPlay":"",
+    "awayTeamScore":"39",
+    "playTeamIndicator":"",
+    "homeTeamScore":"53 ",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "phillips,calysia",
@@ -19759,84 +19837,6 @@
     "awayTeamScore":"39",
     "playTeamIndicator":"",
     "homeTeamScore":"53 ",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "phillips,calysia",
-      "guerin,maddie",
-      "leak,claire",
-      "langford,conley",
-      "hudson,reysha"
-    ],
-    "homeLineup":[
-      "novak,whitney",
-      "freeman,garin",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":324,
-    "Poss":"millsaps",
-    "possNum":37,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":91,
-    "teamChanged":0,
-    "game":"MillsapsMUW12\/01\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"novak,whitney",
-    "homePlayer2":"freeman,garin",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"phillips,calysia",
-    "awayPlayer2":"guerin,maddie",
-    "awayPlayer3":"leak,claire",
-    "awayPlayer4":"langford,conley",
-    "awayPlayer5":"hudson,reysha",
-    "playerMissing":1
-  },
-  {
-    "gameID":"7291",
-    "homeTeam":"Millsaps",
-    "awayTeam":"MUW",
-    "saaGame":"0",
-    "finalScore":"66-85",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
-    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
-    "homeRecord":"7-1",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-1",
-    "gameDate":"12\/01\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"90",
-    "isNeutral":"False",
-    "timeRemaining":"05:24",
-    "awayPlay":"",
-    "awayTeamScore":"39",
-    "playTeamIndicator":"",
-    "homeTeamScore":"53 ",
     "homePlay":"SUB IN by KEYES,LEXUS",
     "gameScore":"",
     "teamIndicator":"",
@@ -19858,7 +19858,7 @@
       "novak,whitney",
       "freeman,garin",
       "keyes,lexus",
-      null,
+      "franklin,haley",
       null
     ],
     "timeSeconds":324,
@@ -19880,7 +19880,7 @@
     "homePlayer1":"novak,whitney",
     "homePlayer2":"freeman,garin",
     "homePlayer3":"keyes,lexus",
-    "homePlayer4":null,
+    "homePlayer4":"franklin,haley",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
@@ -19937,7 +19937,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":324,
     "Poss":"millsaps",
@@ -19959,13 +19959,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"hudson,reysha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -20086,7 +20086,7 @@
       "leak,claire",
       "langford,conley",
       "hudson,reysha",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "novak,whitney",
@@ -20120,8 +20120,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"hudson,reysha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -22823,7 +22823,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":116,
     "Poss":"millsaps",
@@ -22845,13 +22845,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"hudson,reysha",
     "awayPlayer5":"shields,zia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -22900,7 +22900,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":116,
@@ -22922,7 +22922,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
@@ -22979,7 +22979,7 @@
       "warren,elyse",
       "anderson,tia",
       "franklin,haley",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":116,
     "Poss":"millsaps",
@@ -23001,13 +23001,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"hudson,reysha",
     "awayPlayer5":"shields,zia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -23128,6 +23128,84 @@
       "leak,claire",
       "hudson,reysha",
       "shields,zia",
+      "langford,conley"
+    ],
+    "homeLineup":[
+      "freeman,garin",
+      "warren,elyse",
+      "anderson,tia",
+      "franklin,haley",
+      "pflum,rachel"
+    ],
+    "timeSeconds":116,
+    "Poss":"millsaps",
+    "possNum":41,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"muw",
+    "possStart":0.0,
+    "possPoints":2,
+    "possSequence":102,
+    "teamChanged":0,
+    "game":"MillsapsMUW12\/01\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,garin",
+    "homePlayer2":"warren,elyse",
+    "homePlayer3":"anderson,tia",
+    "homePlayer4":"franklin,haley",
+    "homePlayer5":"pflum,rachel",
+    "awayPlayer1":"phillips,calysia",
+    "awayPlayer2":"leak,claire",
+    "awayPlayer3":"hudson,reysha",
+    "awayPlayer4":"shields,zia",
+    "awayPlayer5":"langford,conley",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7291",
+    "homeTeam":"Millsaps",
+    "awayTeam":"MUW",
+    "saaGame":"0",
+    "finalScore":"66-85",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
+    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
+    "homeRecord":"7-1",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-1",
+    "gameDate":"12\/01\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"90",
+    "isNeutral":"False",
+    "timeRemaining":"01:56",
+    "awayPlay":"SUB OUT by SHIELDS,ZIA",
+    "awayTeamScore":"42",
+    "playTeamIndicator":"",
+    "homeTeamScore":"63 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by SHIELDS,ZIA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"muw",
+    "Player":"shields,zia",
+    "pointsEarned":"",
+    "awayLineup":[
+      "phillips,calysia",
+      "leak,claire",
+      "hudson,reysha",
+      "shields,zia",
       null
     ],
     "homeLineup":[
@@ -23187,84 +23265,6 @@
     "attendance":"90",
     "isNeutral":"False",
     "timeRemaining":"01:56",
-    "awayPlay":"SUB OUT by SHIELDS,ZIA",
-    "awayTeamScore":"42",
-    "playTeamIndicator":"",
-    "homeTeamScore":"63 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by SHIELDS,ZIA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"muw",
-    "Player":"shields,zia",
-    "pointsEarned":"",
-    "awayLineup":[
-      "phillips,calysia",
-      "leak,claire",
-      "hudson,reysha",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "freeman,garin",
-      "warren,elyse",
-      "anderson,tia",
-      "franklin,haley",
-      "pflum,rachel"
-    ],
-    "timeSeconds":116,
-    "Poss":"millsaps",
-    "possNum":41,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"muw",
-    "possStart":0.0,
-    "possPoints":2,
-    "possSequence":102,
-    "teamChanged":0,
-    "game":"MillsapsMUW12\/01\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,garin",
-    "homePlayer2":"warren,elyse",
-    "homePlayer3":"anderson,tia",
-    "homePlayer4":"franklin,haley",
-    "homePlayer5":"pflum,rachel",
-    "awayPlayer1":"phillips,calysia",
-    "awayPlayer2":"leak,claire",
-    "awayPlayer3":"hudson,reysha",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7291",
-    "homeTeam":"Millsaps",
-    "awayTeam":"MUW",
-    "saaGame":"0",
-    "finalScore":"66-85",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
-    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
-    "homeRecord":"7-1",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-1",
-    "gameDate":"12\/01\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"90",
-    "isNeutral":"False",
-    "timeRemaining":"01:56",
     "awayPlay":"SUB IN by RAYFORD,DIAMOND",
     "awayTeamScore":"42",
     "playTeamIndicator":"",
@@ -23284,7 +23284,7 @@
       "leak,claire",
       "hudson,reysha",
       "rayford,diamond",
-      null
+      "langford,conley"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -23318,8 +23318,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"rayford,diamond",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"langford,conley",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -26879,7 +26879,7 @@
       "warren,elyse",
       "anderson,tia",
       "pflum,rachel",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":426,
     "Poss":"muw",
@@ -26901,13 +26901,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"pflum,rachel",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"rayford,diamond",
     "awayPlayer5":"hughes,jessica",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -26956,7 +26956,7 @@
       "freeman,garin",
       "anderson,tia",
       "pflum,rachel",
-      null,
+      "warren,elyse",
       null
     ],
     "timeSeconds":426,
@@ -26978,7 +26978,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"anderson,tia",
     "homePlayer3":"pflum,rachel",
-    "homePlayer4":null,
+    "homePlayer4":"warren,elyse",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
@@ -27033,7 +27033,7 @@
     "homeLineup":[
       "freeman,garin",
       "pflum,rachel",
-      null,
+      "anderson,tia",
       null,
       null
     ],
@@ -27055,7 +27055,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"freeman,garin",
     "homePlayer2":"pflum,rachel",
-    "homePlayer3":null,
+    "homePlayer3":"anderson,tia",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
@@ -27112,7 +27112,7 @@
       "freeman,garin",
       "pflum,rachel",
       "keyes,lexus",
-      null,
+      "franklin,haley",
       null
     ],
     "timeSeconds":426,
@@ -27134,7 +27134,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"pflum,rachel",
     "homePlayer3":"keyes,lexus",
-    "homePlayer4":null,
+    "homePlayer4":"franklin,haley",
     "homePlayer5":null,
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
@@ -27191,7 +27191,7 @@
       "pflum,rachel",
       "keyes,lexus",
       "johnson,bailey",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":426,
     "Poss":"muw",
@@ -27213,13 +27213,13 @@
     "homePlayer2":"pflum,rachel",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"johnson,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"rayford,diamond",
     "awayPlayer5":"hughes,jessica",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -27340,6 +27340,84 @@
       "leak,claire",
       "hudson,reysha",
       "hughes,jessica",
+      "rayford,diamond"
+    ],
+    "homeLineup":[
+      "freeman,garin",
+      "pflum,rachel",
+      "keyes,lexus",
+      "johnson,bailey",
+      "novak,whitney"
+    ],
+    "timeSeconds":426,
+    "Poss":"muw",
+    "possNum":46,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":120,
+    "teamChanged":0,
+    "game":"MillsapsMUW12\/01\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,garin",
+    "homePlayer2":"pflum,rachel",
+    "homePlayer3":"keyes,lexus",
+    "homePlayer4":"johnson,bailey",
+    "homePlayer5":"novak,whitney",
+    "awayPlayer1":"phillips,calysia",
+    "awayPlayer2":"leak,claire",
+    "awayPlayer3":"hudson,reysha",
+    "awayPlayer4":"hughes,jessica",
+    "awayPlayer5":"rayford,diamond",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7291",
+    "homeTeam":"Millsaps",
+    "awayTeam":"MUW",
+    "saaGame":"0",
+    "finalScore":"66-85",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
+    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
+    "homeRecord":"7-1",
+    "awayRecord":"1-5",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-1",
+    "gameDate":"12\/01\/24",
+    "startTime":"3:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"90",
+    "isNeutral":"False",
+    "timeRemaining":"07:06",
+    "awayPlay":"SUB OUT by HUGHES,JESSICA",
+    "awayTeamScore":"52",
+    "playTeamIndicator":"",
+    "homeTeamScore":"70 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HUGHES,JESSICA",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"muw",
+    "Player":"hughes,jessica",
+    "pointsEarned":"",
+    "awayLineup":[
+      "phillips,calysia",
+      "leak,claire",
+      "hudson,reysha",
+      "hughes,jessica",
       null
     ],
     "homeLineup":[
@@ -27399,84 +27477,6 @@
     "attendance":"90",
     "isNeutral":"False",
     "timeRemaining":"07:06",
-    "awayPlay":"SUB OUT by HUGHES,JESSICA",
-    "awayTeamScore":"52",
-    "playTeamIndicator":"",
-    "homeTeamScore":"70 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HUGHES,JESSICA",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"muw",
-    "Player":"hughes,jessica",
-    "pointsEarned":"",
-    "awayLineup":[
-      "phillips,calysia",
-      "leak,claire",
-      "hudson,reysha",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "freeman,garin",
-      "pflum,rachel",
-      "keyes,lexus",
-      "johnson,bailey",
-      "novak,whitney"
-    ],
-    "timeSeconds":426,
-    "Poss":"muw",
-    "possNum":46,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":120,
-    "teamChanged":0,
-    "game":"MillsapsMUW12\/01\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,garin",
-    "homePlayer2":"pflum,rachel",
-    "homePlayer3":"keyes,lexus",
-    "homePlayer4":"johnson,bailey",
-    "homePlayer5":"novak,whitney",
-    "awayPlayer1":"phillips,calysia",
-    "awayPlayer2":"leak,claire",
-    "awayPlayer3":"hudson,reysha",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7291",
-    "homeTeam":"Millsaps",
-    "awayTeam":"MUW",
-    "saaGame":"0",
-    "finalScore":"66-85",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,21,22,23,19,85",
-    "awayScoreByPeriod":"\nMUW\nMUW\n,16,21,7,22,66",
-    "homeRecord":"7-1",
-    "awayRecord":"1-5",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-1",
-    "gameDate":"12\/01\/24",
-    "startTime":"3:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"90",
-    "isNeutral":"False",
-    "timeRemaining":"07:06",
     "awayPlay":"SUB IN by LANGFORD,CONLEY",
     "awayTeamScore":"52",
     "playTeamIndicator":"",
@@ -27496,7 +27496,7 @@
       "leak,claire",
       "hudson,reysha",
       "langford,conley",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -27530,8 +27530,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -27652,7 +27652,7 @@
       "leak,claire",
       "hudson,reysha",
       "langford,conley",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -27686,8 +27686,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -29219,7 +29219,7 @@
       "keyes,lexus",
       "johnson,bailey",
       "novak,whitney",
-      null
+      "pflum,rachel"
     ],
     "timeSeconds":335,
     "Poss":"millsaps",
@@ -29241,13 +29241,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"johnson,bailey",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"pflum,rachel",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"rayford,diamond",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -29368,7 +29368,7 @@
       "leak,claire",
       "hudson,reysha",
       "langford,conley",
-      null
+      "rayford,diamond"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -29402,8 +29402,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,diamond",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -29531,7 +29531,7 @@
       "keyes,lexus",
       "novak,whitney",
       "frank,taylor",
-      null
+      "johnson,bailey"
     ],
     "timeSeconds":335,
     "Poss":"millsaps",
@@ -29553,13 +29553,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"johnson,bailey",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
     "awayPlayer5":"guerin,maddie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -29836,7 +29836,7 @@
       "leak,claire",
       "hudson,reysha",
       "langford,conley",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -29870,8 +29870,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"hudson,reysha",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -30694,7 +30694,7 @@
       "hudson,reysha",
       "langford,conley",
       "rayford,diamond",
-      null
+      "leak,claire"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -30728,8 +30728,8 @@
     "awayPlayer2":"hudson,reysha",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"rayford,diamond",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"leak,claire",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -30771,7 +30771,7 @@
       "phillips,calysia",
       "langford,conley",
       "rayford,diamond",
-      null,
+      "hudson,reysha",
       null
     ],
     "homeLineup":[
@@ -30805,7 +30805,7 @@
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"rayford,diamond",
-    "awayPlayer4":null,
+    "awayPlayer4":"hudson,reysha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -30850,7 +30850,7 @@
       "langford,conley",
       "rayford,diamond",
       "guerin,maddie",
-      null
+      "leak,claire"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -30884,8 +30884,8 @@
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"rayford,diamond",
     "awayPlayer4":"guerin,maddie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"leak,claire",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -32105,7 +32105,7 @@
       "keyes,lexus",
       "novak,whitney",
       "franklin,haley",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":188,
     "Poss":"muw",
@@ -32127,13 +32127,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"phillips,calysia",
     "awayPlayer2":"langford,conley",
     "awayPlayer3":"rayford,diamond",
     "awayPlayer4":"guerin,maddie",
     "awayPlayer5":"shields,zia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -32644,7 +32644,7 @@
       "rayford,diamond",
       "guerin,maddie",
       "shields,zia",
-      null
+      "phillips,calysia"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -32678,8 +32678,8 @@
     "awayPlayer2":"rayford,diamond",
     "awayPlayer3":"guerin,maddie",
     "awayPlayer4":"shields,zia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,calysia",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -33424,7 +33424,7 @@
       "guerin,maddie",
       "shields,zia",
       "leak,claire",
-      null
+      "langford,conley"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -33458,8 +33458,8 @@
     "awayPlayer2":"guerin,maddie",
     "awayPlayer3":"shields,zia",
     "awayPlayer4":"leak,claire",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"langford,conley",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -33658,7 +33658,7 @@
       "shields,zia",
       "leak,claire",
       "phillips,calysia",
-      null
+      "rayford,diamond"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -33692,8 +33692,8 @@
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"phillips,calysia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rayford,diamond",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -34679,7 +34679,7 @@
       "novak,whitney",
       "franklin,haley",
       "lewis,anaya",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":51,
     "Poss":"muw",
@@ -34701,13 +34701,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"lewis,anaya",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"guerin,maddie",
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"phillips,calysia",
     "awayPlayer5":"langford,conley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -34756,7 +34756,7 @@
       "freeman,garin",
       "franklin,haley",
       "lewis,anaya",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":51,
@@ -34778,7 +34778,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"lewis,anaya",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"guerin,maddie",
     "awayPlayer2":"shields,zia",
@@ -34835,7 +34835,7 @@
       "franklin,haley",
       "lewis,anaya",
       "hafley,ashlyn",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":51,
     "Poss":"muw",
@@ -34857,13 +34857,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"lewis,anaya",
     "homePlayer4":"hafley,ashlyn",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"guerin,maddie",
     "awayPlayer2":"shields,zia",
     "awayPlayer3":"leak,claire",
     "awayPlayer4":"phillips,calysia",
     "awayPlayer5":"langford,conley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -34984,7 +34984,7 @@
       "leak,claire",
       "phillips,calysia",
       "langford,conley",
-      null
+      "guerin,maddie"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -35018,8 +35018,8 @@
     "awayPlayer2":"leak,claire",
     "awayPlayer3":"phillips,calysia",
     "awayPlayer4":"langford,conley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"guerin,maddie",
+    "playerMissing":0
   },
   {
     "gameID":"7291",
@@ -35374,7 +35374,7 @@
       "phillips,calysia",
       "langford,conley",
       "hudson,reysha",
-      null
+      "leak,claire"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -35408,8 +35408,8 @@
     "awayPlayer2":"phillips,calysia",
     "awayPlayer3":"langford,conley",
     "awayPlayer4":"hudson,reysha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"leak,claire",
+    "playerMissing":0
   },
   {
     "gameID":"7291",

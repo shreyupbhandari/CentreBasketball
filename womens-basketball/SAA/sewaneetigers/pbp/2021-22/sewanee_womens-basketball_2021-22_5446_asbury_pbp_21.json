@@ -2075,7 +2075,7 @@
       "logan,kinsley",
       "young,abby",
       "phillips,keisha",
-      null
+      "stewart,ashley"
     ],
     "timeSeconds":412,
     "Poss":"sewanee",
@@ -2097,13 +2097,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"phillips,keisha",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,ashley",
     "awayPlayer1":"ruble,jaclynn",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -4415,7 +4415,7 @@
       "logan,kinsley",
       "phillips,keisha",
       "broussard,camryn",
-      null
+      "young,abby"
     ],
     "timeSeconds":221,
     "Poss":"asbury",
@@ -4437,13 +4437,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"phillips,keisha",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"young,abby",
     "awayPlayer1":"ruble,jaclynn",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -4492,7 +4492,7 @@
       "treanton,ellie",
       "logan,kinsley",
       "broussard,camryn",
-      null,
+      "phillips,keisha",
       null
     ],
     "timeSeconds":221,
@@ -4514,7 +4514,7 @@
     "homePlayer1":"treanton,ellie",
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"broussard,camryn",
-    "homePlayer4":null,
+    "homePlayer4":"phillips,keisha",
     "homePlayer5":null,
     "awayPlayer1":"ruble,jaclynn",
     "awayPlayer2":"herriford,autumn",
@@ -4571,7 +4571,7 @@
       "logan,kinsley",
       "broussard,camryn",
       "stewart,ashley",
-      null
+      "totals"
     ],
     "timeSeconds":221,
     "Poss":"asbury",
@@ -4593,13 +4593,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"broussard,camryn",
     "homePlayer4":"stewart,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"ruble,jaclynn",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -4720,7 +4720,7 @@
       "herriford,autumn",
       "shearer,trinity",
       "dennison,sarah",
-      null
+      "taylor,paige"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -4754,8 +4754,8 @@
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"dennison,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,paige",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -4792,6 +4792,84 @@
     "shotOutcome":"",
     "Team":"asbury",
     "Player":"shearer,trinity",
+    "pointsEarned":"",
+    "awayLineup":[
+      "ruble,jaclynn",
+      "herriford,autumn",
+      "dennison,sarah",
+      "shearer,trinity",
+      null
+    ],
+    "homeLineup":[
+      "treanton,ellie",
+      "logan,kinsley",
+      "broussard,camryn",
+      "stewart,ashley",
+      "antoine,kayla"
+    ],
+    "timeSeconds":221,
+    "Poss":"asbury",
+    "possNum":6,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"asbury",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":23,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/21\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"treanton,ellie",
+    "homePlayer2":"logan,kinsley",
+    "homePlayer3":"broussard,camryn",
+    "homePlayer4":"stewart,ashley",
+    "homePlayer5":"antoine,kayla",
+    "awayPlayer1":"ruble,jaclynn",
+    "awayPlayer2":"herriford,autumn",
+    "awayPlayer3":"dennison,sarah",
+    "awayPlayer4":"shearer,trinity",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5446",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"58-76",
+    "homeScoreByPeriod":"27,9,24,16,76",
+    "awayScoreByPeriod":"19,11,22,6,58",
+    "homeRecord":"2-3",
+    "awayRecord":"2-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/21\/21",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"139",
+    "isNeutral":"False",
+    "timeRemaining":"03:41",
+    "awayPlay":"SUB OUT by DENNISON,SARAH",
+    "awayTeamScore":"14",
+    "playTeamIndicator":"",
+    "homeTeamScore":"20 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by DENNISON,SARAH",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"dennison,sarah",
     "pointsEarned":"",
     "awayLineup":[
       "ruble,jaclynn",
@@ -4857,84 +4935,6 @@
     "attendance":"139",
     "isNeutral":"False",
     "timeRemaining":"03:41",
-    "awayPlay":"SUB OUT by DENNISON,SARAH",
-    "awayTeamScore":"14",
-    "playTeamIndicator":"",
-    "homeTeamScore":"20 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by DENNISON,SARAH",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"dennison,sarah",
-    "pointsEarned":"",
-    "awayLineup":[
-      "ruble,jaclynn",
-      "herriford,autumn",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "treanton,ellie",
-      "logan,kinsley",
-      "broussard,camryn",
-      "stewart,ashley",
-      "antoine,kayla"
-    ],
-    "timeSeconds":221,
-    "Poss":"asbury",
-    "possNum":6,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"asbury",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":23,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/21\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"treanton,ellie",
-    "homePlayer2":"logan,kinsley",
-    "homePlayer3":"broussard,camryn",
-    "homePlayer4":"stewart,ashley",
-    "homePlayer5":"antoine,kayla",
-    "awayPlayer1":"ruble,jaclynn",
-    "awayPlayer2":"herriford,autumn",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5446",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"58-76",
-    "homeScoreByPeriod":"27,9,24,16,76",
-    "awayScoreByPeriod":"19,11,22,6,58",
-    "homeRecord":"2-3",
-    "awayRecord":"2-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/21\/21",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"139",
-    "isNeutral":"False",
-    "timeRemaining":"03:41",
     "awayPlay":"SUB IN by HARVEY,SPENCER",
     "awayTeamScore":"14",
     "playTeamIndicator":"",
@@ -4953,7 +4953,7 @@
       "ruble,jaclynn",
       "herriford,autumn",
       "harvey,spencer",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4987,7 +4987,7 @@
     "awayPlayer1":"ruble,jaclynn",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"harvey,spencer",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5032,7 +5032,7 @@
       "herriford,autumn",
       "harvey,spencer",
       "strunk,emma",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -5066,8 +5066,8 @@
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"strunk,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -5578,7 +5578,7 @@
       "harvey,spencer",
       "strunk,emma",
       "riley,tiffani",
-      null
+      "herriford,autumn"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -5612,8 +5612,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"strunk,emma",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"herriford,autumn",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -5655,7 +5655,7 @@
       "harvey,spencer",
       "strunk,emma",
       "riley,tiffani",
-      null,
+      "ruble,jaclynn",
       null
     ],
     "homeLineup":[
@@ -5689,7 +5689,7 @@
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
-    "awayPlayer4":null,
+    "awayPlayer4":"ruble,jaclynn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -5734,7 +5734,7 @@
       "strunk,emma",
       "riley,tiffani",
       "pelfrey,celia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -5768,8 +5768,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"pelfrey,celia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -6209,7 +6209,7 @@
       "logan,kinsley",
       "stewart,ashley",
       "antoine,kayla",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":168,
     "Poss":"asbury",
@@ -6231,13 +6231,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"stewart,ashley",
     "homePlayer4":"antoine,kayla",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"pelfrey,celia",
     "awayPlayer5":"shearer,trinity",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -7223,7 +7223,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "young,abby",
-      null
+      "stewart,ashley"
     ],
     "timeSeconds":73,
     "Poss":"sewanee",
@@ -7245,13 +7245,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"young,abby",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,ashley",
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"pelfrey,celia",
     "awayPlayer5":"shearer,trinity",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -7613,7 +7613,7 @@
       "logan,kinsley",
       "young,abby",
       "phillips,keisha",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":51,
     "Poss":"asbury",
@@ -7635,13 +7635,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"phillips,keisha",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"pelfrey,celia",
     "awayPlayer5":"shearer,trinity",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -8620,7 +8620,7 @@
       "strunk,emma",
       "riley,tiffani",
       "shearer,trinity",
-      null
+      "pelfrey,celia"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -8654,8 +8654,8 @@
     "awayPlayer2":"strunk,emma",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pelfrey,celia",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -8697,7 +8697,7 @@
       "strunk,emma",
       "riley,tiffani",
       "shearer,trinity",
-      null,
+      "harvey,spencer",
       null
     ],
     "homeLineup":[
@@ -8731,7 +8731,7 @@
     "awayPlayer1":"strunk,emma",
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"shearer,trinity",
-    "awayPlayer4":null,
+    "awayPlayer4":"harvey,spencer",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8774,7 +8774,7 @@
     "awayLineup":[
       "riley,tiffani",
       "shearer,trinity",
-      null,
+      "strunk,emma",
       null,
       null
     ],
@@ -8808,7 +8808,7 @@
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"shearer,trinity",
-    "awayPlayer3":null,
+    "awayPlayer3":"strunk,emma",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -8851,7 +8851,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "shearer,trinity",
-      null,
+      "riley,tiffani",
       null,
       null,
       null
@@ -8885,7 +8885,7 @@
     "homePlayer4":"phillips,keisha",
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"shearer,trinity",
-    "awayPlayer2":null,
+    "awayPlayer2":"riley,tiffani",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -8930,7 +8930,7 @@
     "awayLineup":[
       "shearer,trinity",
       "herriford,autumn",
-      null,
+      "totals",
       null,
       null
     ],
@@ -8964,7 +8964,7 @@
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"herriford,autumn",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -9009,7 +9009,7 @@
       "shearer,trinity",
       "herriford,autumn",
       "taylor,paige",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -9043,7 +9043,7 @@
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"taylor,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -9088,7 +9088,7 @@
       "herriford,autumn",
       "taylor,paige",
       "ruble,jaclynn",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -9122,8 +9122,8 @@
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"ruble,jaclynn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -10180,7 +10180,7 @@
       "taylor,paige",
       "ruble,jaclynn",
       "dennison,sarah",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -10214,8 +10214,8 @@
     "awayPlayer2":"taylor,paige",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"dennison,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -11669,7 +11669,7 @@
       "logan,kinsley",
       "young,abby",
       "phillips,keisha",
-      null
+      "stewart,ashley"
     ],
     "timeSeconds":354,
     "Poss":"asbury",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"phillips,keisha",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,ashley",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"taylor,paige",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"dennison,sarah",
     "awayPlayer5":"pelfrey,celia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -11818,7 +11818,7 @@
       "taylor,paige",
       "ruble,jaclynn",
       "pelfrey,celia",
-      null
+      "dennison,sarah"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -11852,8 +11852,8 @@
     "awayPlayer2":"taylor,paige",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"pelfrey,celia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dennison,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -13066,7 +13066,7 @@
       "ruble,jaclynn",
       "pelfrey,celia",
       "riley,tiffani",
-      null
+      "herriford,autumn"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -13100,8 +13100,8 @@
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"pelfrey,celia",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"herriford,autumn",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -13143,7 +13143,7 @@
       "taylor,paige",
       "pelfrey,celia",
       "riley,tiffani",
-      null,
+      "ruble,jaclynn",
       null
     ],
     "homeLineup":[
@@ -13177,7 +13177,7 @@
     "awayPlayer1":"taylor,paige",
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
-    "awayPlayer4":null,
+    "awayPlayer4":"ruble,jaclynn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13222,7 +13222,7 @@
       "pelfrey,celia",
       "riley,tiffani",
       "shearer,trinity",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -13256,8 +13256,8 @@
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -13775,7 +13775,7 @@
       "logan,kinsley",
       "young,abby",
       "broussard,camryn",
-      null
+      "phillips,keisha"
     ],
     "timeSeconds":252,
     "Poss":"asbury",
@@ -13797,13 +13797,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,keisha",
     "awayPlayer1":"taylor,paige",
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -14626,7 +14626,7 @@
       "riley,tiffani",
       "shearer,trinity",
       "dennison,sarah",
-      null
+      "pelfrey,celia"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -14660,8 +14660,8 @@
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"dennison,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"pelfrey,celia",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -14703,7 +14703,7 @@
       "riley,tiffani",
       "shearer,trinity",
       "dennison,sarah",
-      null,
+      "taylor,paige",
       null
     ],
     "homeLineup":[
@@ -14737,7 +14737,7 @@
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"shearer,trinity",
     "awayPlayer3":"dennison,sarah",
-    "awayPlayer4":null,
+    "awayPlayer4":"taylor,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14780,7 +14780,7 @@
     "awayLineup":[
       "riley,tiffani",
       "dennison,sarah",
-      null,
+      "shearer,trinity",
       null,
       null
     ],
@@ -14814,7 +14814,7 @@
     "homePlayer5":"antoine,kayla",
     "awayPlayer1":"riley,tiffani",
     "awayPlayer2":"dennison,sarah",
-    "awayPlayer3":null,
+    "awayPlayer3":"shearer,trinity",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -14857,7 +14857,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "dennison,sarah",
-      null,
+      "riley,tiffani",
       null,
       null,
       null
@@ -14891,7 +14891,7 @@
     "homePlayer4":"broussard,camryn",
     "homePlayer5":"antoine,kayla",
     "awayPlayer1":"dennison,sarah",
-    "awayPlayer2":null,
+    "awayPlayer2":"riley,tiffani",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -14936,7 +14936,7 @@
     "awayLineup":[
       "dennison,sarah",
       "herriford,autumn",
-      null,
+      "totals",
       null,
       null
     ],
@@ -14970,7 +14970,7 @@
     "homePlayer5":"antoine,kayla",
     "awayPlayer1":"dennison,sarah",
     "awayPlayer2":"herriford,autumn",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -15015,7 +15015,7 @@
       "dennison,sarah",
       "herriford,autumn",
       "harvey,spencer",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -15049,7 +15049,7 @@
     "awayPlayer1":"dennison,sarah",
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"harvey,spencer",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15094,7 +15094,7 @@
       "herriford,autumn",
       "harvey,spencer",
       "ruble,jaclynn",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -15128,8 +15128,8 @@
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"harvey,spencer",
     "awayPlayer4":"ruble,jaclynn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -16108,7 +16108,7 @@
       "harvey,spencer",
       "ruble,jaclynn",
       "harlow,kayla",
-      null
+      "dennison,sarah"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -16142,8 +16142,8 @@
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"harlow,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dennison,sarah",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -16505,7 +16505,7 @@
       "logan,kinsley",
       "young,abby",
       "broussard,camryn",
-      null
+      "antoine,kayla"
     ],
     "timeSeconds":72,
     "Poss":"sewanee",
@@ -16527,13 +16527,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"antoine,kayla",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"harlow,kayla",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -17363,7 +17363,7 @@
       "logan,kinsley",
       "young,abby",
       "phillips,lilly",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":600,
     "Poss":"asbury",
@@ -17385,13 +17385,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"harlow,kayla",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -17440,7 +17440,7 @@
       "treanton,ellie",
       "logan,kinsley",
       "young,abby",
-      null,
+      "phillips,lilly",
       null
     ],
     "timeSeconds":600,
@@ -17462,7 +17462,7 @@
     "homePlayer1":"treanton,ellie",
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
-    "homePlayer4":null,
+    "homePlayer4":"phillips,lilly",
     "homePlayer5":null,
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"harvey,spencer",
@@ -17519,7 +17519,7 @@
       "logan,kinsley",
       "young,abby",
       "stewart,ashley",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"asbury",
@@ -17541,13 +17541,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"stewart,ashley",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"harvey,spencer",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"harlow,kayla",
     "awayPlayer5":"strunk,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -17668,6 +17668,84 @@
       "ruble,jaclynn",
       "harlow,kayla",
       "strunk,emma",
+      "harvey,spencer"
+    ],
+    "homeLineup":[
+      "treanton,ellie",
+      "logan,kinsley",
+      "young,abby",
+      "stewart,ashley",
+      "phillips,keisha"
+    ],
+    "timeSeconds":600,
+    "Poss":"asbury",
+    "possNum":30,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":61,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/21\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"treanton,ellie",
+    "homePlayer2":"logan,kinsley",
+    "homePlayer3":"young,abby",
+    "homePlayer4":"stewart,ashley",
+    "homePlayer5":"phillips,keisha",
+    "awayPlayer1":"herriford,autumn",
+    "awayPlayer2":"ruble,jaclynn",
+    "awayPlayer3":"harlow,kayla",
+    "awayPlayer4":"strunk,emma",
+    "awayPlayer5":"harvey,spencer",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5446",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"58-76",
+    "homeScoreByPeriod":"27,9,24,16,76",
+    "awayScoreByPeriod":"19,11,22,6,58",
+    "homeRecord":"2-3",
+    "awayRecord":"2-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/21\/21",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"139",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by STRUNK,EMMA",
+    "awayTeamScore":"30",
+    "playTeamIndicator":"",
+    "homeTeamScore":"36 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by STRUNK,EMMA",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"strunk,emma",
+    "pointsEarned":"",
+    "awayLineup":[
+      "herriford,autumn",
+      "ruble,jaclynn",
+      "harlow,kayla",
+      "strunk,emma",
       null
     ],
     "homeLineup":[
@@ -17727,19 +17805,19 @@
     "attendance":"139",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by STRUNK,EMMA",
+    "awayPlay":"SUB OUT by HARLOW,KAYLA",
     "awayTeamScore":"30",
     "playTeamIndicator":"",
     "homeTeamScore":"36 ",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by STRUNK,EMMA",
+    "Play":"SUB OUT by HARLOW,KAYLA",
     "Period":"3",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"asbury",
-    "Player":"strunk,emma",
+    "Player":"harlow,kayla",
     "pointsEarned":"",
     "awayLineup":[
       "herriford,autumn",
@@ -17805,84 +17883,6 @@
     "attendance":"139",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by HARLOW,KAYLA",
-    "awayTeamScore":"30",
-    "playTeamIndicator":"",
-    "homeTeamScore":"36 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HARLOW,KAYLA",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"harlow,kayla",
-    "pointsEarned":"",
-    "awayLineup":[
-      "herriford,autumn",
-      "ruble,jaclynn",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "treanton,ellie",
-      "logan,kinsley",
-      "young,abby",
-      "stewart,ashley",
-      "phillips,keisha"
-    ],
-    "timeSeconds":600,
-    "Poss":"asbury",
-    "possNum":30,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":61,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/21\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"treanton,ellie",
-    "homePlayer2":"logan,kinsley",
-    "homePlayer3":"young,abby",
-    "homePlayer4":"stewart,ashley",
-    "homePlayer5":"phillips,keisha",
-    "awayPlayer1":"herriford,autumn",
-    "awayPlayer2":"ruble,jaclynn",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5446",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"58-76",
-    "homeScoreByPeriod":"27,9,24,16,76",
-    "awayScoreByPeriod":"19,11,22,6,58",
-    "homeRecord":"2-3",
-    "awayRecord":"2-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/21\/21",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"139",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by TAYLOR,PAIGE",
     "awayTeamScore":"30",
     "playTeamIndicator":"",
@@ -17901,7 +17901,7 @@
       "herriford,autumn",
       "ruble,jaclynn",
       "taylor,paige",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -17935,7 +17935,7 @@
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17980,7 +17980,7 @@
       "ruble,jaclynn",
       "taylor,paige",
       "shearer,trinity",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -18014,8 +18014,8 @@
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -18689,7 +18689,7 @@
       "logan,kinsley",
       "young,abby",
       "phillips,keisha",
-      null
+      "stewart,ashley"
     ],
     "timeSeconds":546,
     "Poss":"asbury",
@@ -18711,13 +18711,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"phillips,keisha",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,ashley",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -20561,7 +20561,7 @@
       "logan,kinsley",
       "young,abby",
       "broussard,camryn",
-      null
+      "phillips,keisha"
     ],
     "timeSeconds":399,
     "Poss":"asbury",
@@ -20583,13 +20583,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"broussard,camryn",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,keisha",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -22277,7 +22277,7 @@
       "logan,kinsley",
       "young,abby",
       "antoine,kayla",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":254,
     "Poss":"sewanee",
@@ -22299,13 +22299,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"young,abby",
     "homePlayer4":"antoine,kayla",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -22354,7 +22354,7 @@
       "treanton,ellie",
       "logan,kinsley",
       "antoine,kayla",
-      null,
+      "young,abby",
       null
     ],
     "timeSeconds":254,
@@ -22376,7 +22376,7 @@
     "homePlayer1":"treanton,ellie",
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
-    "homePlayer4":null,
+    "homePlayer4":"young,abby",
     "homePlayer5":null,
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
@@ -22433,7 +22433,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "phillips,lilly",
-      null
+      "totals"
     ],
     "timeSeconds":254,
     "Poss":"sewanee",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -22582,6 +22582,84 @@
       "ruble,jaclynn",
       "taylor,paige",
       "dennison,sarah",
+      "shearer,trinity"
+    ],
+    "homeLineup":[
+      "treanton,ellie",
+      "logan,kinsley",
+      "antoine,kayla",
+      "phillips,lilly",
+      "phillips,keisha"
+    ],
+    "timeSeconds":254,
+    "Poss":"sewanee",
+    "possNum":39,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":83,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/21\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"treanton,ellie",
+    "homePlayer2":"logan,kinsley",
+    "homePlayer3":"antoine,kayla",
+    "homePlayer4":"phillips,lilly",
+    "homePlayer5":"phillips,keisha",
+    "awayPlayer1":"herriford,autumn",
+    "awayPlayer2":"ruble,jaclynn",
+    "awayPlayer3":"taylor,paige",
+    "awayPlayer4":"dennison,sarah",
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5446",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"58-76",
+    "homeScoreByPeriod":"27,9,24,16,76",
+    "awayScoreByPeriod":"19,11,22,6,58",
+    "homeRecord":"2-3",
+    "awayRecord":"2-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/21\/21",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"139",
+    "isNeutral":"False",
+    "timeRemaining":"04:14",
+    "awayPlay":"SUB OUT by DENNISON,SARAH",
+    "awayTeamScore":"46",
+    "playTeamIndicator":"",
+    "homeTeamScore":"51 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by DENNISON,SARAH",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"dennison,sarah",
+    "pointsEarned":"",
+    "awayLineup":[
+      "herriford,autumn",
+      "ruble,jaclynn",
+      "taylor,paige",
+      "dennison,sarah",
       null
     ],
     "homeLineup":[
@@ -22641,84 +22719,6 @@
     "attendance":"139",
     "isNeutral":"False",
     "timeRemaining":"04:14",
-    "awayPlay":"SUB OUT by DENNISON,SARAH",
-    "awayTeamScore":"46",
-    "playTeamIndicator":"",
-    "homeTeamScore":"51 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by DENNISON,SARAH",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"dennison,sarah",
-    "pointsEarned":"",
-    "awayLineup":[
-      "herriford,autumn",
-      "ruble,jaclynn",
-      "taylor,paige",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "treanton,ellie",
-      "logan,kinsley",
-      "antoine,kayla",
-      "phillips,lilly",
-      "phillips,keisha"
-    ],
-    "timeSeconds":254,
-    "Poss":"sewanee",
-    "possNum":39,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":83,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/21\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"treanton,ellie",
-    "homePlayer2":"logan,kinsley",
-    "homePlayer3":"antoine,kayla",
-    "homePlayer4":"phillips,lilly",
-    "homePlayer5":"phillips,keisha",
-    "awayPlayer1":"herriford,autumn",
-    "awayPlayer2":"ruble,jaclynn",
-    "awayPlayer3":"taylor,paige",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5446",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"58-76",
-    "homeScoreByPeriod":"27,9,24,16,76",
-    "awayScoreByPeriod":"19,11,22,6,58",
-    "homeRecord":"2-3",
-    "awayRecord":"2-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/21\/21",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"139",
-    "isNeutral":"False",
-    "timeRemaining":"04:14",
     "awayPlay":"SUB IN by PELFREY,CELIA",
     "awayTeamScore":"46",
     "playTeamIndicator":"",
@@ -22738,7 +22738,7 @@
       "ruble,jaclynn",
       "taylor,paige",
       "pelfrey,celia",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -22772,8 +22772,8 @@
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"pelfrey,celia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -24695,7 +24695,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "phillips,lilly",
-      null
+      "phillips,keisha"
     ],
     "timeSeconds":110,
     "Poss":"asbury",
@@ -24717,13 +24717,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"phillips,lilly",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,keisha",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"pelfrey,celia",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -24844,7 +24844,7 @@
       "ruble,jaclynn",
       "pelfrey,celia",
       "riley,tiffani",
-      null
+      "taylor,paige"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -24878,8 +24878,8 @@
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"pelfrey,celia",
     "awayPlayer4":"riley,tiffani",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,paige",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -24921,7 +24921,7 @@
       "herriford,autumn",
       "pelfrey,celia",
       "riley,tiffani",
-      null,
+      "ruble,jaclynn",
       null
     ],
     "homeLineup":[
@@ -24955,7 +24955,7 @@
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
-    "awayPlayer4":null,
+    "awayPlayer4":"ruble,jaclynn",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -25000,7 +25000,7 @@
       "pelfrey,celia",
       "riley,tiffani",
       "shearer,trinity",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -25034,8 +25034,8 @@
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"shearer,trinity",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -25943,7 +25943,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "young,abby",
-      null
+      "phillips,lilly"
     ],
     "timeSeconds":24,
     "Poss":"sewanee",
@@ -25965,13 +25965,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"young,abby",
-    "homePlayer5":null,
+    "homePlayer5":"phillips,lilly",
     "awayPlayer1":"herriford,autumn",
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"riley,tiffani",
     "awayPlayer4":"shearer,trinity",
     "awayPlayer5":"dennison,sarah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -26092,7 +26092,7 @@
       "riley,tiffani",
       "shearer,trinity",
       "dennison,sarah",
-      null
+      "herriford,autumn"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -26126,8 +26126,8 @@
     "awayPlayer2":"riley,tiffani",
     "awayPlayer3":"shearer,trinity",
     "awayPlayer4":"dennison,sarah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"herriford,autumn",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -26560,7 +26560,7 @@
       "shearer,trinity",
       "dennison,sarah",
       "strunk,emma",
-      null
+      "pelfrey,celia"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -26577,6 +26577,84 @@
     "PlayOfPoss":0,
     "possTeam":"sewanee",
     "possStart":1.0,
+    "possPoints":0,
+    "possSequence":98,
+    "teamChanged":0,
+    "game":"SewaneeAsbury11\/21\/21",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"treanton,ellie",
+    "homePlayer2":"logan,kinsley",
+    "homePlayer3":"antoine,kayla",
+    "homePlayer4":"young,abby",
+    "homePlayer5":"stewart,ashley",
+    "awayPlayer1":"riley,tiffani",
+    "awayPlayer2":"shearer,trinity",
+    "awayPlayer3":"dennison,sarah",
+    "awayPlayer4":"strunk,emma",
+    "awayPlayer5":"pelfrey,celia",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5446",
+    "homeTeam":"Sewanee",
+    "awayTeam":"Asbury",
+    "saaGame":"0",
+    "finalScore":"58-76",
+    "homeScoreByPeriod":"27,9,24,16,76",
+    "awayScoreByPeriod":"19,11,22,6,58",
+    "homeRecord":"2-3",
+    "awayRecord":"2-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/21\/21",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"139",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by STRUNK,EMMA",
+    "awayTeamScore":"52",
+    "playTeamIndicator":"",
+    "homeTeamScore":"60 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by STRUNK,EMMA",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"asbury",
+    "Player":"strunk,emma",
+    "pointsEarned":"",
+    "awayLineup":[
+      "riley,tiffani",
+      "shearer,trinity",
+      "dennison,sarah",
+      "strunk,emma",
+      null
+    ],
+    "homeLineup":[
+      "treanton,ellie",
+      "logan,kinsley",
+      "antoine,kayla",
+      "young,abby",
+      "stewart,ashley"
+    ],
+    "timeSeconds":600,
+    "Poss":"sewanee",
+    "possNum":47,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
     "possPoints":0,
     "possSequence":98,
     "teamChanged":0,
@@ -26619,84 +26697,6 @@
     "attendance":"139",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by STRUNK,EMMA",
-    "awayTeamScore":"52",
-    "playTeamIndicator":"",
-    "homeTeamScore":"60 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by STRUNK,EMMA",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"asbury",
-    "Player":"strunk,emma",
-    "pointsEarned":"",
-    "awayLineup":[
-      "riley,tiffani",
-      "shearer,trinity",
-      "dennison,sarah",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "treanton,ellie",
-      "logan,kinsley",
-      "antoine,kayla",
-      "young,abby",
-      "stewart,ashley"
-    ],
-    "timeSeconds":600,
-    "Poss":"sewanee",
-    "possNum":47,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":98,
-    "teamChanged":0,
-    "game":"SewaneeAsbury11\/21\/21",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"treanton,ellie",
-    "homePlayer2":"logan,kinsley",
-    "homePlayer3":"antoine,kayla",
-    "homePlayer4":"young,abby",
-    "homePlayer5":"stewart,ashley",
-    "awayPlayer1":"riley,tiffani",
-    "awayPlayer2":"shearer,trinity",
-    "awayPlayer3":"dennison,sarah",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5446",
-    "homeTeam":"Sewanee",
-    "awayTeam":"Asbury",
-    "saaGame":"0",
-    "finalScore":"58-76",
-    "homeScoreByPeriod":"27,9,24,16,76",
-    "awayScoreByPeriod":"19,11,22,6,58",
-    "homeRecord":"2-3",
-    "awayRecord":"2-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/21\/21",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Juhan Gymnasium, Sewanee, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"139",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB OUT by RILEY,TIFFANI",
     "awayTeamScore":"52",
     "playTeamIndicator":"",
@@ -26714,7 +26714,7 @@
     "awayLineup":[
       "shearer,trinity",
       "dennison,sarah",
-      null,
+      "riley,tiffani",
       null,
       null
     ],
@@ -26748,7 +26748,7 @@
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"dennison,sarah",
-    "awayPlayer3":null,
+    "awayPlayer3":"riley,tiffani",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -26793,7 +26793,7 @@
       "shearer,trinity",
       "dennison,sarah",
       "herriford,autumn",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -26827,7 +26827,7 @@
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26872,7 +26872,7 @@
       "dennison,sarah",
       "herriford,autumn",
       "taylor,paige",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
     "awayPlayer4":"taylor,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -27964,7 +27964,7 @@
       "dennison,sarah",
       "herriford,autumn",
       "ruble,jaclynn",
-      null
+      "taylor,paige"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -27998,8 +27998,8 @@
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
     "awayPlayer4":"ruble,jaclynn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"taylor,paige",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -29531,7 +29531,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "young,abby",
-      null
+      "stewart,ashley"
     ],
     "timeSeconds":382,
     "Poss":"sewanee",
@@ -29553,13 +29553,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"young,abby",
-    "homePlayer5":null,
+    "homePlayer5":"stewart,ashley",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
     "awayPlayer4":"ruble,jaclynn",
     "awayPlayer5":"riley,tiffani",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -30226,7 +30226,7 @@
       "dennison,sarah",
       "herriford,autumn",
       "ruble,jaclynn",
-      null
+      "riley,tiffani"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -30260,8 +30260,8 @@
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
     "awayPlayer4":"ruble,jaclynn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"riley,tiffani",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -31013,7 +31013,7 @@
       "logan,kinsley",
       "antoine,kayla",
       "young,abby",
-      null
+      "broussard,camryn"
     ],
     "timeSeconds":304,
     "Poss":"sewanee",
@@ -31035,13 +31035,13 @@
     "homePlayer2":"logan,kinsley",
     "homePlayer3":"antoine,kayla",
     "homePlayer4":"young,abby",
-    "homePlayer5":null,
+    "homePlayer5":"broussard,camryn",
     "awayPlayer1":"shearer,trinity",
     "awayPlayer2":"dennison,sarah",
     "awayPlayer3":"herriford,autumn",
     "awayPlayer4":"ruble,jaclynn",
     "awayPlayer5":"taylor,paige",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -33034,7 +33034,7 @@
       "herriford,autumn",
       "ruble,jaclynn",
       "taylor,paige",
-      null
+      "shearer,trinity"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -33068,8 +33068,8 @@
     "awayPlayer2":"herriford,autumn",
     "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":"taylor,paige",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shearer,trinity",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -33970,7 +33970,7 @@
       "ruble,jaclynn",
       "taylor,paige",
       "harvey,spencer",
-      null
+      "herriford,autumn"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -34004,8 +34004,8 @@
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"taylor,paige",
     "awayPlayer4":"harvey,spencer",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"herriford,autumn",
+    "playerMissing":0
   },
   {
     "gameID":"5446",
@@ -34047,7 +34047,7 @@
       "dennison,sarah",
       "ruble,jaclynn",
       "harvey,spencer",
-      null,
+      "taylor,paige",
       null
     ],
     "homeLineup":[
@@ -34081,7 +34081,7 @@
     "awayPlayer1":"dennison,sarah",
     "awayPlayer2":"ruble,jaclynn",
     "awayPlayer3":"harvey,spencer",
-    "awayPlayer4":null,
+    "awayPlayer4":"taylor,paige",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34124,7 +34124,7 @@
     "awayLineup":[
       "dennison,sarah",
       "harvey,spencer",
-      null,
+      "ruble,jaclynn",
       null,
       null
     ],
@@ -34158,7 +34158,7 @@
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"dennison,sarah",
     "awayPlayer2":"harvey,spencer",
-    "awayPlayer3":null,
+    "awayPlayer3":"ruble,jaclynn",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34201,7 +34201,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "harvey,spencer",
-      null,
+      "dennison,sarah",
       null,
       null,
       null
@@ -34235,7 +34235,7 @@
     "homePlayer4":"young,abby",
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"harvey,spencer",
-    "awayPlayer2":null,
+    "awayPlayer2":"dennison,sarah",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -34280,7 +34280,7 @@
     "awayLineup":[
       "harvey,spencer",
       "pelfrey,celia",
-      null,
+      "totals",
       null,
       null
     ],
@@ -34314,7 +34314,7 @@
     "homePlayer5":"stewart,ashley",
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"pelfrey,celia",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -34359,7 +34359,7 @@
       "harvey,spencer",
       "pelfrey,celia",
       "bellamy,meagan",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -34393,7 +34393,7 @@
     "awayPlayer1":"harvey,spencer",
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"bellamy,meagan",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34438,7 +34438,7 @@
       "pelfrey,celia",
       "bellamy,meagan",
       "harris,abby",
-      null
+      "totals"
     ],
     "homeLineup":[
       "treanton,ellie",
@@ -34472,8 +34472,8 @@
     "awayPlayer2":"pelfrey,celia",
     "awayPlayer3":"bellamy,meagan",
     "awayPlayer4":"harris,abby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"5446",

@@ -1054,7 +1054,7 @@
       "vincent,emma,rose",
       "duggins,natalie",
       "thomas,anna",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -1088,8 +1088,8 @@
     "awayPlayer2":"vincent,emma,rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -2699,7 +2699,7 @@
       "roe,helena",
       "novak,whitney",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "timeSeconds":331,
     "Poss":"centre",
@@ -2721,13 +2721,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"vincent,emma,rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"reid,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -2764,6 +2764,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"roe,helena",
+    "pointsEarned":"",
+    "awayLineup":[
+      "grinter,makya",
+      "vincent,emma,rose",
+      "duggins,natalie",
+      "thomas,anna",
+      "reid,lilly"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "novak,whitney",
+      "frank,taylor",
+      "roe,helena",
+      null
+    ],
+    "timeSeconds":331,
+    "Poss":"centre",
+    "possNum":5,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":16,
+    "teamChanged":0,
+    "game":"MillsapsCentre02\/25\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"novak,whitney",
+    "homePlayer3":"frank,taylor",
+    "homePlayer4":"roe,helena",
+    "homePlayer5":null,
+    "awayPlayer1":"grinter,makya",
+    "awayPlayer2":"vincent,emma,rose",
+    "awayPlayer3":"duggins,natalie",
+    "awayPlayer4":"thomas,anna",
+    "awayPlayer5":"reid,lilly",
+    "playerMissing":1
+  },
+  {
+    "gameID":"6737",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Centre",
+    "saaGame":"1",
+    "finalScore":"63-68",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,11,16,23,18,68",
+    "awayScoreByPeriod":"\nCentre\nCentre\n,13,16,16,18,63",
+    "homeRecord":"24-4",
+    "awayRecord":"21-7",
+    "homeConfRecord":"12-2",
+    "awayConfRecord":"10-4",
+    "gameDate":"02\/25\/24",
+    "startTime":"2:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"350",
+    "isNeutral":"False",
+    "timeRemaining":"05:31",
+    "awayPlay":"",
+    "awayTeamScore":"6 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"5",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "grinter,makya",
@@ -2833,84 +2911,6 @@
     "awayTeamScore":"6 ",
     "playTeamIndicator":"",
     "homeTeamScore":"5",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "grinter,makya",
-      "vincent,emma,rose",
-      "duggins,natalie",
-      "thomas,anna",
-      "reid,lilly"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "novak,whitney",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":331,
-    "Poss":"centre",
-    "possNum":5,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":16,
-    "teamChanged":0,
-    "game":"MillsapsCentre02\/25\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"novak,whitney",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"grinter,makya",
-    "awayPlayer2":"vincent,emma,rose",
-    "awayPlayer3":"duggins,natalie",
-    "awayPlayer4":"thomas,anna",
-    "awayPlayer5":"reid,lilly",
-    "playerMissing":1
-  },
-  {
-    "gameID":"6737",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Centre",
-    "saaGame":"1",
-    "finalScore":"63-68",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,11,16,23,18,68",
-    "awayScoreByPeriod":"\nCentre\nCentre\n,13,16,16,18,63",
-    "homeRecord":"24-4",
-    "awayRecord":"21-7",
-    "homeConfRecord":"12-2",
-    "awayConfRecord":"10-4",
-    "gameDate":"02\/25\/24",
-    "startTime":"2:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"350",
-    "isNeutral":"False",
-    "timeRemaining":"05:31",
-    "awayPlay":"",
-    "awayTeamScore":"6 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"5",
     "homePlay":"SUB IN by FREEMAN,GARIN",
     "gameScore":"",
     "teamIndicator":"",
@@ -2932,7 +2932,7 @@
       "franklin,haley",
       "novak,whitney",
       "freeman,garin",
-      null,
+      "roe,helena",
       null
     ],
     "timeSeconds":331,
@@ -2954,7 +2954,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"novak,whitney",
     "homePlayer3":"freeman,garin",
-    "homePlayer4":null,
+    "homePlayer4":"roe,helena",
     "homePlayer5":null,
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"vincent,emma,rose",
@@ -3011,7 +3011,7 @@
       "novak,whitney",
       "freeman,garin",
       "warren,elyse",
-      null
+      "roe,helena"
     ],
     "timeSeconds":331,
     "Poss":"centre",
@@ -3033,13 +3033,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"roe,helena",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"vincent,emma,rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"reid,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -3160,7 +3160,7 @@
       "duggins,natalie",
       "thomas,anna",
       "reid,lilly",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -3194,8 +3194,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"reid,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -3238,7 +3238,7 @@
       "duggins,natalie",
       "thomas,anna",
       "reid,lilly",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -3272,8 +3272,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"reid,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -3315,7 +3315,7 @@
       "vincent,emma,rose",
       "thomas,anna",
       "reid,lilly",
-      null,
+      "duggins,natalie",
       null
     ],
     "homeLineup":[
@@ -3349,7 +3349,7 @@
     "awayPlayer1":"vincent,emma,rose",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"reid,lilly",
-    "awayPlayer4":null,
+    "awayPlayer4":"duggins,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -3394,7 +3394,7 @@
       "thomas,anna",
       "reid,lilly",
       "perna,emma",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -3428,8 +3428,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -4408,7 +4408,7 @@
       "reid,lilly",
       "nipp,arin",
       "stiltner,katelyn",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -4442,8 +4442,8 @@
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"nipp,arin",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -4485,7 +4485,7 @@
       "thomas,anna",
       "reid,lilly",
       "stiltner,katelyn",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -4519,7 +4519,7 @@
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"stiltner,katelyn",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4562,7 +4562,7 @@
     "awayLineup":[
       "thomas,anna",
       "reid,lilly",
-      null,
+      "vincent,emma,rose",
       null,
       null
     ],
@@ -4596,7 +4596,7 @@
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma,rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -4641,7 +4641,7 @@
       "thomas,anna",
       "reid,lilly",
       "grinter,makya",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -4675,7 +4675,7 @@
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4720,7 +4720,7 @@
       "reid,lilly",
       "grinter,makya",
       "vincent,emma rose",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -4754,8 +4754,8 @@
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5117,7 +5117,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":269,
     "Poss":"millsaps",
@@ -5139,13 +5139,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5188,14 +5188,14 @@
       "reid,lilly",
       "grinter,makya",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "novak,whitney",
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":269,
     "Poss":"millsaps",
@@ -5217,13 +5217,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5273,7 +5273,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":269,
     "Poss":"millsaps",
@@ -5295,13 +5295,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5351,7 +5351,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":269,
     "Poss":"millsaps",
@@ -5373,13 +5373,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5429,7 +5429,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -5451,13 +5451,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5507,7 +5507,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":269,
     "Poss":"millsaps",
@@ -5529,13 +5529,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -5968,7 +5968,7 @@
       "grinter,makya",
       "duggins,natalie",
       "stiltner,katelyn",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "novak,whitney",
@@ -6002,8 +6002,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -6436,7 +6436,7 @@
       "grinter,makya",
       "stiltner,katelyn",
       "rucker,bailey",
-      null
+      "duggins,natalie"
     ],
     "homeLineup":[
       "novak,whitney",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"duggins,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -7145,7 +7145,7 @@
       "warren,elyse",
       "anderson,tia",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":163,
     "Poss":"millsaps",
@@ -7167,13 +7167,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"nipp,arin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -7691,7 +7691,7 @@
       "freeman,garin",
       "warren,elyse",
       "anderson,tia",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -7713,13 +7713,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -7918,7 +7918,7 @@
       "grinter,makya",
       "rucker,bailey",
       "nipp,arin",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -7952,8 +7952,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"nipp,arin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -9173,7 +9173,7 @@
       "anderson,tia",
       "roe,helena",
       "franklin,haley",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":14,
     "Poss":"millsaps",
@@ -9195,13 +9195,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"roe,helena",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"jessie,lindsay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -9400,7 +9400,7 @@
       "grinter,makya",
       "nipp,arin",
       "jessie,lindsay",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "anderson,tia",
@@ -9434,8 +9434,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"nipp,arin",
     "awayPlayer4":"jessie,lindsay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -10024,7 +10024,7 @@
       "grinter,makya",
       "jessie,lindsay",
       "thomas,anna",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -10058,8 +10058,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"jessie,lindsay",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -10101,7 +10101,7 @@
       "reid,lilly",
       "grinter,makya",
       "thomas,anna",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -10135,7 +10135,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"thomas,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10178,7 +10178,7 @@
     "awayLineup":[
       "grinter,makya",
       "thomas,anna",
-      null,
+      "reid,lilly",
       null,
       null
     ],
@@ -10212,7 +10212,7 @@
     "homePlayer5":"franklin,haley",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
-    "awayPlayer3":null,
+    "awayPlayer3":"reid,lilly",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -10257,7 +10257,7 @@
       "grinter,makya",
       "thomas,anna",
       "rucker,bailey",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -10291,7 +10291,7 @@
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10336,7 +10336,7 @@
       "thomas,anna",
       "rucker,bailey",
       "vincent,emma rose",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -10370,8 +10370,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11201,7 +11201,7 @@
       "anderson,tia",
       "warren,elyse",
       "franklin,haley",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":544,
     "Poss":"centre",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11278,7 +11278,7 @@
       "adams,emily",
       "warren,elyse",
       "franklin,haley",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":544,
@@ -11300,7 +11300,7 @@
     "homePlayer1":"adams,emily",
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
@@ -11357,7 +11357,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":544,
     "Poss":"centre",
@@ -11379,13 +11379,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11435,7 +11435,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":544,
     "Poss":"centre",
@@ -11457,13 +11457,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11513,7 +11513,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":518,
     "Poss":"centre",
@@ -11535,13 +11535,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11591,7 +11591,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -11613,13 +11613,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11669,7 +11669,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":498,
     "Poss":"millsaps",
@@ -11691,13 +11691,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11747,7 +11747,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -11769,13 +11769,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11825,7 +11825,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":494,
     "Poss":"millsaps",
@@ -11847,13 +11847,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11903,7 +11903,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":482,
     "Poss":"millsaps",
@@ -11925,13 +11925,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -11981,7 +11981,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -12003,13 +12003,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -12059,7 +12059,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":457,
     "Poss":"millsaps",
@@ -12081,13 +12081,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -12137,7 +12137,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":438,
     "Poss":"millsaps",
@@ -12159,13 +12159,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -12215,7 +12215,7 @@
       "warren,elyse",
       "franklin,haley",
       "roe,helena",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -12237,13 +12237,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -12292,7 +12292,7 @@
       "adams,emily",
       "warren,elyse",
       "franklin,haley",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":435,
@@ -12314,7 +12314,7 @@
     "homePlayer1":"adams,emily",
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
@@ -12371,7 +12371,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":435,
     "Poss":"millsaps",
@@ -12393,7 +12393,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12449,7 +12449,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":423,
     "Poss":"millsaps",
@@ -12471,7 +12471,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12527,7 +12527,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":423,
     "Poss":"millsaps",
@@ -12549,7 +12549,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12605,7 +12605,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":395,
     "Poss":"millsaps",
@@ -12627,7 +12627,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12683,7 +12683,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"millsaps",
@@ -12705,7 +12705,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12761,7 +12761,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":382,
     "Poss":"millsaps",
@@ -12783,7 +12783,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"grinter,makya",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
@@ -12832,14 +12832,14 @@
       "rucker,bailey",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "adams,emily",
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":382,
     "Poss":"centre",
@@ -12861,13 +12861,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -12909,7 +12909,7 @@
       "rucker,bailey",
       "vincent,emma rose",
       "duggins,natalie",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -12917,7 +12917,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":382,
     "Poss":"centre",
@@ -12939,11 +12939,11 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12988,14 +12988,14 @@
       "vincent,emma rose",
       "duggins,natalie",
       "perna,emma",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":382,
     "Poss":"centre",
@@ -13017,13 +13017,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -13073,7 +13073,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":382,
     "Poss":"centre",
@@ -13095,7 +13095,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
@@ -13151,7 +13151,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":358,
     "Poss":"centre",
@@ -13173,7 +13173,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
@@ -13229,7 +13229,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -13251,7 +13251,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
@@ -13307,7 +13307,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":350,
     "Poss":"millsaps",
@@ -13329,7 +13329,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
@@ -13385,7 +13385,7 @@
       "warren,elyse",
       "franklin,haley",
       "howell,maddie",
-      "franklin,haley(fastbreak)"
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"millsaps",
@@ -13407,7 +13407,7 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"howell,maddie",
-    "homePlayer5":"franklin,haley(fastbreak)",
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
@@ -13462,7 +13462,7 @@
       "adams,emily",
       "franklin,haley",
       "howell,maddie",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":323,
@@ -13484,7 +13484,7 @@
     "homePlayer1":"adams,emily",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
@@ -13541,7 +13541,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13563,13 +13563,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"reid,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -13612,14 +13612,14 @@
       "duggins,natalie",
       "perna,emma",
       "reid,lilly",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13641,13 +13641,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"perna,emma",
     "awayPlayer4":"reid,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -13689,7 +13689,7 @@
       "rucker,bailey",
       "perna,emma",
       "reid,lilly",
-      null,
+      "duggins,natalie",
       null
     ],
     "homeLineup":[
@@ -13697,7 +13697,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13719,11 +13719,11 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
-    "awayPlayer4":null,
+    "awayPlayer4":"duggins,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -13768,14 +13768,14 @@
       "perna,emma",
       "reid,lilly",
       "nipp,arin",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13797,13 +13797,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -13853,7 +13853,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13875,13 +13875,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -13931,7 +13931,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14009,7 +14009,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -14031,13 +14031,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14087,7 +14087,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":323,
     "Poss":"centre",
@@ -14109,13 +14109,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14165,7 +14165,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":316,
     "Poss":"centre",
@@ -14187,13 +14187,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14243,7 +14243,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":316,
     "Poss":"centre",
@@ -14265,13 +14265,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14321,7 +14321,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -14343,13 +14343,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14399,7 +14399,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":314,
     "Poss":"centre",
@@ -14421,13 +14421,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14477,7 +14477,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -14499,13 +14499,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14555,7 +14555,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":282,
     "Poss":"centre",
@@ -14577,13 +14577,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14633,7 +14633,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":"",
     "Poss":"centre",
@@ -14655,13 +14655,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14711,7 +14711,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":282,
     "Poss":"centre",
@@ -14733,13 +14733,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14789,7 +14789,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":282,
     "Poss":"centre",
@@ -14811,13 +14811,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14867,7 +14867,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":282,
     "Poss":"centre",
@@ -14889,13 +14889,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -14945,7 +14945,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":282,
     "Poss":"centre",
@@ -14967,13 +14967,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -15023,7 +15023,7 @@
       "franklin,haley",
       "howell,maddie",
       "frank,taylor",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":258,
     "Poss":"centre",
@@ -15045,13 +15045,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"howell,maddie",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -15100,7 +15100,7 @@
       "adams,emily",
       "franklin,haley",
       "frank,taylor",
-      null,
+      "novak,whitney",
       null
     ],
     "timeSeconds":252,
@@ -15122,7 +15122,7 @@
     "homePlayer1":"adams,emily",
     "homePlayer2":"franklin,haley",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"novak,whitney",
     "homePlayer5":null,
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
@@ -15250,7 +15250,7 @@
       "reid,lilly",
       "nipp,arin",
       "stiltner,katelyn",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
@@ -15284,8 +15284,8 @@
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"nipp,arin",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -16342,7 +16342,7 @@
       "nipp,arin",
       "stiltner,katelyn",
       "grinter,makya",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "adams,emily",
@@ -16376,8 +16376,8 @@
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"grinter,makya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -16419,7 +16419,7 @@
       "reid,lilly",
       "nipp,arin",
       "grinter,makya",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -16453,7 +16453,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16498,7 +16498,7 @@
       "nipp,arin",
       "grinter,makya",
       "vincent,emma rose",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
@@ -16532,8 +16532,8 @@
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -17668,7 +17668,7 @@
       "grinter,makya",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
@@ -17702,8 +17702,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -18448,7 +18448,7 @@
       "grinter,makya",
       "duggins,natalie",
       "rucker,bailey",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
@@ -18482,8 +18482,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -18923,7 +18923,7 @@
       "franklin,haley",
       "roe,helena",
       "anderson,tia",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":109,
     "Poss":"centre",
@@ -18945,13 +18945,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"roe,helena",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -19703,7 +19703,7 @@
       "franklin,haley",
       "roe,helena",
       "warren,elyse",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":27,
     "Poss":"millsaps",
@@ -19725,13 +19725,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"roe,helena",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -19852,7 +19852,7 @@
       "grinter,makya",
       "duggins,natalie",
       "rucker,bailey",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "adams,emily",
@@ -19886,8 +19886,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -20327,7 +20327,7 @@
       "roe,helena",
       "warren,elyse",
       "novak,whitney",
-      null
+      "adams,emily"
     ],
     "timeSeconds":5,
     "Poss":"centre",
@@ -20349,13 +20349,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"jessie,lindsay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -20476,7 +20476,7 @@
       "grinter,makya",
       "duggins,natalie",
       "jessie,lindsay",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -20510,8 +20510,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"jessie,lindsay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -20866,7 +20866,7 @@
       "duggins,natalie",
       "jessie,lindsay",
       "thomas,anna",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -20900,8 +20900,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"jessie,lindsay",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -21107,7 +21107,7 @@
       "roe,helena",
       "novak,whitney",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -21129,13 +21129,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"jessie,lindsay",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"edelen,kaniah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -21184,7 +21184,7 @@
       "franklin,haley",
       "roe,helena",
       "novak,whitney",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":600,
@@ -21206,7 +21206,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"duggins,natalie",
@@ -21263,7 +21263,7 @@
       "roe,helena",
       "novak,whitney",
       "adams,emily",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -21285,13 +21285,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"jessie,lindsay",
     "awayPlayer4":"thomas,anna",
     "awayPlayer5":"edelen,kaniah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -21412,7 +21412,7 @@
       "duggins,natalie",
       "jessie,lindsay",
       "thomas,anna",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -21446,8 +21446,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"jessie,lindsay",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -21489,7 +21489,7 @@
       "reid,lilly",
       "duggins,natalie",
       "thomas,anna",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -21523,7 +21523,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"thomas,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21566,7 +21566,7 @@
     "awayLineup":[
       "duggins,natalie",
       "thomas,anna",
-      null,
+      "reid,lilly",
       null,
       null
     ],
@@ -21600,7 +21600,7 @@
     "homePlayer5":"frank,taylor",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
-    "awayPlayer3":null,
+    "awayPlayer3":"reid,lilly",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -21645,7 +21645,7 @@
       "duggins,natalie",
       "thomas,anna",
       "grinter,makya",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -21679,7 +21679,7 @@
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21724,7 +21724,7 @@
       "thomas,anna",
       "grinter,makya",
       "rucker,bailey",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -21758,8 +21758,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -22823,7 +22823,7 @@
       "roe,helena",
       "novak,whitney",
       "adams,emily",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":501,
     "Poss":"centre",
@@ -22845,13 +22845,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"vincent,emma rose",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -24149,7 +24149,7 @@
       "roe,helena",
       "novak,whitney",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "timeSeconds":326,
     "Poss":"centre",
@@ -24171,13 +24171,13 @@
     "homePlayer2":"roe,helena",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"vincent,emma rose",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -24226,7 +24226,7 @@
       "franklin,haley",
       "novak,whitney",
       "warren,elyse",
-      null,
+      "roe,helena",
       null
     ],
     "timeSeconds":326,
@@ -24248,7 +24248,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"novak,whitney",
     "homePlayer3":"warren,elyse",
-    "homePlayer4":null,
+    "homePlayer4":"roe,helena",
     "homePlayer5":null,
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
@@ -24305,7 +24305,7 @@
       "novak,whitney",
       "warren,elyse",
       "freeman,garin",
-      null
+      "roe,helena"
     ],
     "timeSeconds":326,
     "Poss":"centre",
@@ -24327,13 +24327,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"roe,helena",
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"vincent,emma rose",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -24454,7 +24454,7 @@
       "thomas,anna",
       "rucker,bailey",
       "vincent,emma rose",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -24488,8 +24488,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -24531,7 +24531,7 @@
       "duggins,natalie",
       "thomas,anna",
       "rucker,bailey",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -24565,7 +24565,7 @@
     "awayPlayer1":"duggins,natalie",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"rucker,bailey",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24608,7 +24608,7 @@
     "awayLineup":[
       "thomas,anna",
       "rucker,bailey",
-      null,
+      "duggins,natalie",
       null,
       null
     ],
@@ -24642,7 +24642,7 @@
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"thomas,anna",
     "awayPlayer2":"rucker,bailey",
-    "awayPlayer3":null,
+    "awayPlayer3":"duggins,natalie",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24685,7 +24685,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "rucker,bailey",
-      null,
+      "vincent,emma,rose",
       null,
       null,
       null
@@ -24719,7 +24719,7 @@
     "homePlayer4":"freeman,garin",
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"rucker,bailey",
-    "awayPlayer2":null,
+    "awayPlayer2":"vincent,emma,rose",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -24764,7 +24764,7 @@
     "awayLineup":[
       "rucker,bailey",
       "perna,emma",
-      null,
+      "vincent,emma,rose",
       null,
       null
     ],
@@ -24798,7 +24798,7 @@
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma,rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -24843,7 +24843,7 @@
       "rucker,bailey",
       "perna,emma",
       "nipp,arin",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -24877,7 +24877,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"nipp,arin",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -24922,7 +24922,7 @@
       "perna,emma",
       "nipp,arin",
       "reid,lilly",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -24956,8 +24956,8 @@
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"nipp,arin",
     "awayPlayer4":"reid,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -25702,7 +25702,7 @@
       "nipp,arin",
       "reid,lilly",
       "stiltner,katelyn",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -25736,8 +25736,8 @@
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -26404,7 +26404,7 @@
       "nipp,arin",
       "reid,lilly",
       "stiltner,katelyn",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -26438,8 +26438,8 @@
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -26481,7 +26481,7 @@
       "nipp,arin",
       "reid,lilly",
       "stiltner,katelyn",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -26515,7 +26515,7 @@
     "awayPlayer1":"nipp,arin",
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"stiltner,katelyn",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26558,7 +26558,7 @@
     "awayLineup":[
       "reid,lilly",
       "stiltner,katelyn",
-      null,
+      "vincent,emma,rose",
       null,
       null
     ],
@@ -26592,7 +26592,7 @@
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"stiltner,katelyn",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma,rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -26635,7 +26635,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "reid,lilly",
-      null,
+      "vincent,emma,rose",
       null,
       null,
       null
@@ -26669,7 +26669,7 @@
     "homePlayer4":"freeman,garin",
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
-    "awayPlayer2":null,
+    "awayPlayer2":"vincent,emma,rose",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -26714,7 +26714,7 @@
     "awayLineup":[
       "reid,lilly",
       "rucker,bailey",
-      null,
+      "vincent,emma,rose",
       null,
       null
     ],
@@ -26748,7 +26748,7 @@
     "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma,rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -26793,7 +26793,7 @@
       "reid,lilly",
       "rucker,bailey",
       "vincent,emma rose",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -26827,7 +26827,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"vincent,emma rose",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26872,7 +26872,7 @@
       "rucker,bailey",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -26906,8 +26906,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -27574,7 +27574,7 @@
       "rucker,bailey",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -27608,8 +27608,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -28985,7 +28985,7 @@
       "warren,elyse",
       "freeman,garin",
       "anderson,tia",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -29007,13 +29007,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"grinter,makya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -29134,7 +29134,7 @@
       "rucker,bailey",
       "duggins,natalie",
       "grinter,makya",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -29168,8 +29168,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"grinter,makya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -29914,7 +29914,7 @@
       "rucker,bailey",
       "duggins,natalie",
       "stiltner,katelyn",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -29948,8 +29948,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -30389,7 +30389,7 @@
       "warren,elyse",
       "freeman,garin",
       "anderson,tia",
-      null
+      "roe,helena"
     ],
     "timeSeconds":76,
     "Poss":"centre",
@@ -30411,13 +30411,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"roe,helena",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"stiltner,katelyn",
     "awayPlayer5":"thomas,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -30694,7 +30694,7 @@
       "rucker,bailey",
       "stiltner,katelyn",
       "thomas,anna",
-      null
+      "duggins,natalie"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -30728,8 +30728,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"duggins,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -30771,7 +30771,7 @@
       "reid,lilly",
       "rucker,bailey",
       "thomas,anna",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -30805,7 +30805,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -30850,7 +30850,7 @@
       "rucker,bailey",
       "thomas,anna",
       "nipp,arin",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -30884,8 +30884,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"nipp,arin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -31793,7 +31793,7 @@
       "warren,elyse",
       "freeman,garin",
       "frank,taylor",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":4,
     "Poss":"centre",
@@ -31815,13 +31815,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"jessie,lindsay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -32105,7 +32105,7 @@
       "warren,elyse",
       "freeman,garin",
       "adams,emily",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":600,
     "Poss":"centre",
@@ -32127,13 +32127,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"nipp,arin",
     "awayPlayer5":"jessie,lindsay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -32254,7 +32254,7 @@
       "rucker,bailey",
       "thomas,anna",
       "jessie,lindsay",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -32288,8 +32288,8 @@
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
     "awayPlayer4":"jessie,lindsay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -32331,7 +32331,7 @@
       "reid,lilly",
       "rucker,bailey",
       "thomas,anna",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -32365,7 +32365,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"rucker,bailey",
     "awayPlayer3":"thomas,anna",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32408,7 +32408,7 @@
     "awayLineup":[
       "rucker,bailey",
       "thomas,anna",
-      null,
+      "reid,lilly",
       null,
       null
     ],
@@ -32442,7 +32442,7 @@
     "homePlayer5":"novak,whitney",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"thomas,anna",
-    "awayPlayer3":null,
+    "awayPlayer3":"reid,lilly",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -32487,7 +32487,7 @@
       "rucker,bailey",
       "thomas,anna",
       "grinter,makya",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -32521,7 +32521,7 @@
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32566,7 +32566,7 @@
       "thomas,anna",
       "grinter,makya",
       "vincent,emma rose",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -32600,8 +32600,8 @@
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -32885,7 +32885,7 @@
       "freeman,garin",
       "adams,emily",
       "novak,whitney",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":588,
     "Poss":"centre",
@@ -32907,13 +32907,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"adams,emily",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"thomas,anna",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -33970,7 +33970,7 @@
       "grinter,makya",
       "vincent,emma rose",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -34004,8 +34004,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -35147,7 +35147,7 @@
       "freeman,garin",
       "novak,whitney",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "timeSeconds":470,
     "Poss":"millsaps",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"reid,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -35608,7 +35608,7 @@
       "vincent,emma rose",
       "duggins,natalie",
       "reid,lilly",
-      null
+      "grinter,makya"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -35642,8 +35642,8 @@
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"reid,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"grinter,makya",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -36005,7 +36005,7 @@
       "freeman,garin",
       "novak,whitney",
       "roe,helena",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":412,
     "Poss":"millsaps",
@@ -36027,13 +36027,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"roe,helena",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"vincent,emma rose",
     "awayPlayer3":"duggins,natalie",
     "awayPlayer4":"reid,lilly",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -36232,7 +36232,7 @@
       "duggins,natalie",
       "reid,lilly",
       "perna,emma",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -36266,8 +36266,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -36622,7 +36622,7 @@
       "duggins,natalie",
       "reid,lilly",
       "stiltner,katelyn",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -36656,8 +36656,8 @@
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"stiltner,katelyn",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -37331,7 +37331,7 @@
       "novak,whitney",
       "roe,helena",
       "warren,elyse",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":313,
     "Poss":"centre",
@@ -37353,13 +37353,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"roe,helena",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"rucker,bailey",
     "awayPlayer2":"duggins,natalie",
     "awayPlayer3":"reid,lilly",
     "awayPlayer4":"stiltner,katelyn",
     "awayPlayer5":"nipp,arin",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -37480,7 +37480,7 @@
       "reid,lilly",
       "stiltner,katelyn",
       "nipp,arin",
-      null
+      "rucker,bailey"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -37514,8 +37514,8 @@
     "awayPlayer2":"reid,lilly",
     "awayPlayer3":"stiltner,katelyn",
     "awayPlayer4":"nipp,arin",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"rucker,bailey",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -37557,7 +37557,7 @@
       "reid,lilly",
       "stiltner,katelyn",
       "nipp,arin",
-      null,
+      "duggins,natalie",
       null
     ],
     "homeLineup":[
@@ -37591,7 +37591,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"stiltner,katelyn",
     "awayPlayer3":"nipp,arin",
-    "awayPlayer4":null,
+    "awayPlayer4":"duggins,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37634,7 +37634,7 @@
     "awayLineup":[
       "reid,lilly",
       "nipp,arin",
-      null,
+      "vincent,emma,rose",
       null,
       null
     ],
@@ -37668,7 +37668,7 @@
     "homePlayer5":"adams,emily",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"nipp,arin",
-    "awayPlayer3":null,
+    "awayPlayer3":"vincent,emma,rose",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -37713,7 +37713,7 @@
       "reid,lilly",
       "nipp,arin",
       "grinter,makya",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -37747,7 +37747,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -37792,7 +37792,7 @@
       "nipp,arin",
       "grinter,makya",
       "vincent,emma rose",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -37826,8 +37826,8 @@
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -38735,7 +38735,7 @@
       "novak,whitney",
       "roe,helena",
       "warren,elyse",
-      null
+      "adams,emily"
     ],
     "timeSeconds":254,
     "Poss":"centre",
@@ -38757,13 +38757,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"roe,helena",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"thomas,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -39281,7 +39281,7 @@
       "novak,whitney",
       "roe,helena",
       "freeman,garin",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":216,
     "Poss":"centre",
@@ -39303,13 +39303,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"roe,helena",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"nipp,arin",
     "awayPlayer3":"grinter,makya",
     "awayPlayer4":"vincent,emma rose",
     "awayPlayer5":"thomas,anna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -40288,7 +40288,7 @@
       "grinter,makya",
       "vincent,emma rose",
       "thomas,anna",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -40322,8 +40322,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"thomas,anna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -40365,7 +40365,7 @@
       "reid,lilly",
       "grinter,makya",
       "vincent,emma rose",
-      null,
+      "vincent,emma,rose",
       null
     ],
     "homeLineup":[
@@ -40399,7 +40399,7 @@
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
-    "awayPlayer4":null,
+    "awayPlayer4":"vincent,emma,rose",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -40444,7 +40444,7 @@
       "grinter,makya",
       "vincent,emma rose",
       "rucker,bailey",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -40478,8 +40478,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"rucker,bailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -41075,7 +41075,7 @@
       "novak,whitney",
       "roe,helena",
       "freeman,garin",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":130,
     "Poss":"millsaps",
@@ -41097,13 +41097,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"roe,helena",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"vincent,emma rose",
     "awayPlayer4":"rucker,bailey",
     "awayPlayer5":"duggins,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -41224,7 +41224,7 @@
       "grinter,makya",
       "rucker,bailey",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -41258,8 +41258,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -42089,7 +42089,7 @@
       "novak,whitney",
       "roe,helena",
       "freeman,garin",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":102,
     "Poss":"centre",
@@ -42111,13 +42111,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"roe,helena",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"reid,lilly",
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"duggins,natalie",
     "awayPlayer5":"stiltner,katelyn",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -44032,7 +44032,7 @@
       "grinter,makya",
       "rucker,bailey",
       "duggins,natalie",
-      null
+      "vincent,emma,rose"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -44066,8 +44066,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"duggins,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vincent,emma,rose",
+    "playerMissing":0
   },
   {
     "gameID":"6737",
@@ -45358,7 +45358,7 @@
       "grinter,makya",
       "rucker,bailey",
       "jessie,lindsay",
-      null
+      "duggins,natalie"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -45392,8 +45392,8 @@
     "awayPlayer2":"grinter,makya",
     "awayPlayer3":"rucker,bailey",
     "awayPlayer4":"jessie,lindsay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"duggins,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"6737",

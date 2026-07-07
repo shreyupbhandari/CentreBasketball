@@ -2465,7 +2465,7 @@
       "harris,montana",
       "cable,maya",
       "killin,summer",
-      null
+      "towns,lauryn"
     ],
     "timeSeconds":365,
     "Poss":"birmingham-so.",
@@ -2487,13 +2487,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"cable,maya",
     "homePlayer4":"killin,summer",
-    "homePlayer5":null,
+    "homePlayer5":"towns,lauryn",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"cates,bella",
     "awayPlayer5":"shields,simone",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -2614,7 +2614,7 @@
       "brady,riley",
       "knoedl,ava",
       "shields,simone",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -2648,8 +2648,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -2686,6 +2686,84 @@
     "shotOutcome":"",
     "Team":"hendrix",
     "Player":"knoedl,ava",
+    "pointsEarned":"",
+    "awayLineup":[
+      "gray,megan",
+      "brady,riley",
+      "shields,simone",
+      "knoedl,ava",
+      null
+    ],
+    "homeLineup":[
+      "foster,sheraton",
+      "harris,montana",
+      "cable,maya",
+      "killin,summer",
+      "tellis,aukeivah"
+    ],
+    "timeSeconds":365,
+    "Poss":"birmingham-so.",
+    "possNum":4,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":16,
+    "teamChanged":0,
+    "game":"Birmingham-So.Hendrix02\/09\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"foster,sheraton",
+    "homePlayer2":"harris,montana",
+    "homePlayer3":"cable,maya",
+    "homePlayer4":"killin,summer",
+    "homePlayer5":"tellis,aukeivah",
+    "awayPlayer1":"gray,megan",
+    "awayPlayer2":"brady,riley",
+    "awayPlayer3":"shields,simone",
+    "awayPlayer4":"knoedl,ava",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"5680",
+    "homeTeam":"Birmingham-So.",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"75-61",
+    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
+    "homeRecord":"5-19",
+    "awayRecord":"4-19",
+    "homeConfRecord":"2-11",
+    "awayConfRecord":"2-10",
+    "gameDate":"02\/09\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"147",
+    "isNeutral":"False",
+    "timeRemaining":"06:05",
+    "awayPlay":"SUB OUT by SHIELDS,SIMONE",
+    "awayTeamScore":"9",
+    "playTeamIndicator":"",
+    "homeTeamScore":"9",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by SHIELDS,SIMONE",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"shields,simone",
     "pointsEarned":"",
     "awayLineup":[
       "gray,megan",
@@ -2751,84 +2829,6 @@
     "attendance":"147",
     "isNeutral":"False",
     "timeRemaining":"06:05",
-    "awayPlay":"SUB OUT by SHIELDS,SIMONE",
-    "awayTeamScore":"9",
-    "playTeamIndicator":"",
-    "homeTeamScore":"9",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by SHIELDS,SIMONE",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"shields,simone",
-    "pointsEarned":"",
-    "awayLineup":[
-      "gray,megan",
-      "brady,riley",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "foster,sheraton",
-      "harris,montana",
-      "cable,maya",
-      "killin,summer",
-      "tellis,aukeivah"
-    ],
-    "timeSeconds":365,
-    "Poss":"birmingham-so.",
-    "possNum":4,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":16,
-    "teamChanged":0,
-    "game":"Birmingham-So.Hendrix02\/09\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"foster,sheraton",
-    "homePlayer2":"harris,montana",
-    "homePlayer3":"cable,maya",
-    "homePlayer4":"killin,summer",
-    "homePlayer5":"tellis,aukeivah",
-    "awayPlayer1":"gray,megan",
-    "awayPlayer2":"brady,riley",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5680",
-    "homeTeam":"Birmingham-So.",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"75-61",
-    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
-    "homeRecord":"5-19",
-    "awayRecord":"4-19",
-    "homeConfRecord":"2-11",
-    "awayConfRecord":"2-10",
-    "gameDate":"02\/09\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"147",
-    "isNeutral":"False",
-    "timeRemaining":"06:05",
     "awayPlay":"SUB IN by HEIL,SHELBY",
     "awayTeamScore":"9",
     "playTeamIndicator":"",
@@ -2847,7 +2847,7 @@
       "gray,megan",
       "brady,riley",
       "heil,shelby",
-      null,
+      "shields,simone",
       null
     ],
     "homeLineup":[
@@ -2881,7 +2881,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"heil,shelby",
-    "awayPlayer4":null,
+    "awayPlayer4":"shields,simone",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2926,7 +2926,7 @@
       "brady,riley",
       "heil,shelby",
       "forst,brailey",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -2960,8 +2960,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -3869,7 +3869,7 @@
       "harris,montana",
       "cable,maya",
       "tellis,aukeivah",
-      null
+      "killin,summer"
     ],
     "timeSeconds":275,
     "Poss":"birmingham-so.",
@@ -3891,13 +3891,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"cable,maya",
     "homePlayer4":"tellis,aukeivah",
-    "homePlayer5":null,
+    "homePlayer5":"killin,summer",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -5110,7 +5110,7 @@
       "heil,shelby",
       "forst,brailey",
       "edmonson,natalie",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -5144,8 +5144,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -5273,7 +5273,7 @@
       "cable,maya",
       "tellis,aukeivah",
       "ogiemwonyi,ajailah",
-      null
+      "harris,montana"
     ],
     "timeSeconds":152,
     "Poss":"hendrix",
@@ -5295,13 +5295,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"tellis,aukeivah",
     "homePlayer4":"ogiemwonyi,ajailah",
-    "homePlayer5":null,
+    "homePlayer5":"harris,montana",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":"knoedl,ava",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -6209,7 +6209,7 @@
       "cable,maya",
       "tellis,aukeivah",
       "killin,summer",
-      null
+      "ogiemwonyi,ajailah"
     ],
     "timeSeconds":93,
     "Poss":"hendrix",
@@ -6231,13 +6231,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"tellis,aukeivah",
     "homePlayer4":"killin,summer",
-    "homePlayer5":null,
+    "homePlayer5":"ogiemwonyi,ajailah",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":"knoedl,ava",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -6286,7 +6286,7 @@
       "foster,sheraton",
       "cable,maya",
       "killin,summer",
-      null,
+      "tellis,aukeivah",
       null
     ],
     "timeSeconds":93,
@@ -6308,7 +6308,7 @@
     "homePlayer1":"foster,sheraton",
     "homePlayer2":"cable,maya",
     "homePlayer3":"killin,summer",
-    "homePlayer4":null,
+    "homePlayer4":"tellis,aukeivah",
     "homePlayer5":null,
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"heil,shelby",
@@ -6365,7 +6365,7 @@
       "cable,maya",
       "killin,summer",
       "harris,montana",
-      null
+      "towns,lauryn"
     ],
     "timeSeconds":93,
     "Poss":"hendrix",
@@ -6387,13 +6387,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"killin,summer",
     "homePlayer4":"harris,montana",
-    "homePlayer5":null,
+    "homePlayer5":"towns,lauryn",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":"knoedl,ava",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -6514,7 +6514,7 @@
       "forst,brailey",
       "edmonson,natalie",
       "knoedl,ava",
-      null
+      "heil,shelby"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -6548,8 +6548,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"heil,shelby",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -6591,7 +6591,7 @@
       "forst,brailey",
       "edmonson,natalie",
       "knoedl,ava",
-      null,
+      "gray,megan",
       null
     ],
     "homeLineup":[
@@ -6625,7 +6625,7 @@
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"knoedl,ava",
-    "awayPlayer4":null,
+    "awayPlayer4":"gray,megan",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6670,7 +6670,7 @@
       "edmonson,natalie",
       "knoedl,ava",
       "shields,simone",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -6704,8 +6704,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -7379,7 +7379,7 @@
       "cable,maya",
       "harris,montana",
       "towns,lauryn",
-      null
+      "killin,summer"
     ],
     "timeSeconds":13,
     "Poss":"hendrix",
@@ -7401,13 +7401,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"towns,lauryn",
-    "homePlayer5":null,
+    "homePlayer5":"killin,summer",
     "awayPlayer1":"forst,brailey",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"shields,simone",
     "awayPlayer5":"brady,riley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -7528,7 +7528,7 @@
       "knoedl,ava",
       "shields,simone",
       "brady,riley",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -7562,8 +7562,8 @@
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"shields,simone",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -7605,7 +7605,7 @@
       "knoedl,ava",
       "shields,simone",
       "brady,riley",
-      null,
+      "edmonson,natalie",
       null
     ],
     "homeLineup":[
@@ -7639,7 +7639,7 @@
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"brady,riley",
-    "awayPlayer4":null,
+    "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -7684,7 +7684,7 @@
       "shields,simone",
       "brady,riley",
       "cates,bella",
-      null
+      "gray,megan"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -7718,8 +7718,8 @@
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"gray,megan",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -9322,7 +9322,7 @@
       "shields,simone",
       "brady,riley",
       "cates,bella",
-      null
+      "crane,carter"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -9356,8 +9356,8 @@
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"crane,carter",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -10421,7 +10421,7 @@
       "harris,montana",
       "towns,lauryn",
       "daniel,dekerriya",
-      null
+      "foster,sheraton"
     ],
     "timeSeconds":439,
     "Poss":"birmingham-so.",
@@ -10443,13 +10443,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"towns,lauryn",
     "homePlayer4":"daniel,dekerriya",
-    "homePlayer5":null,
+    "homePlayer5":"foster,sheraton",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"cates,bella",
     "awayPlayer5":"heil,shelby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -10498,7 +10498,7 @@
       "cable,maya",
       "harris,montana",
       "daniel,dekerriya",
-      null,
+      "towns,lauryn",
       null
     ],
     "timeSeconds":439,
@@ -10520,7 +10520,7 @@
     "homePlayer1":"cable,maya",
     "homePlayer2":"harris,montana",
     "homePlayer3":"daniel,dekerriya",
-    "homePlayer4":null,
+    "homePlayer4":"towns,lauryn",
     "homePlayer5":null,
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"shields,simone",
@@ -10577,7 +10577,7 @@
       "harris,montana",
       "daniel,dekerriya",
       "thompson,imani",
-      null
+      "foster,sheraton"
     ],
     "timeSeconds":439,
     "Poss":"birmingham-so.",
@@ -10599,13 +10599,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"daniel,dekerriya",
     "homePlayer4":"thompson,imani",
-    "homePlayer5":null,
+    "homePlayer5":"foster,sheraton",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"cates,bella",
     "awayPlayer5":"heil,shelby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -10726,6 +10726,84 @@
       "brady,riley",
       "cates,bella",
       "heil,shelby",
+      "shields,simone"
+    ],
+    "homeLineup":[
+      "cable,maya",
+      "harris,montana",
+      "daniel,dekerriya",
+      "thompson,imani",
+      "tellis,aukeivah"
+    ],
+    "timeSeconds":439,
+    "Poss":"birmingham-so.",
+    "possNum":18,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham-so.",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":41,
+    "teamChanged":0,
+    "game":"Birmingham-So.Hendrix02\/09\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"cable,maya",
+    "homePlayer2":"harris,montana",
+    "homePlayer3":"daniel,dekerriya",
+    "homePlayer4":"thompson,imani",
+    "homePlayer5":"tellis,aukeivah",
+    "awayPlayer1":"knoedl,ava",
+    "awayPlayer2":"brady,riley",
+    "awayPlayer3":"cates,bella",
+    "awayPlayer4":"heil,shelby",
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5680",
+    "homeTeam":"Birmingham-So.",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"75-61",
+    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
+    "homeRecord":"5-19",
+    "awayRecord":"4-19",
+    "homeConfRecord":"2-11",
+    "awayConfRecord":"2-10",
+    "gameDate":"02\/09\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"147",
+    "isNeutral":"False",
+    "timeRemaining":"07:19",
+    "awayPlay":"SUB OUT by HEIL,SHELBY",
+    "awayTeamScore":"23 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"19",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HEIL,SHELBY",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"heil,shelby",
+    "pointsEarned":"",
+    "awayLineup":[
+      "knoedl,ava",
+      "brady,riley",
+      "cates,bella",
+      "heil,shelby",
       null
     ],
     "homeLineup":[
@@ -10785,84 +10863,6 @@
     "attendance":"147",
     "isNeutral":"False",
     "timeRemaining":"07:19",
-    "awayPlay":"SUB OUT by HEIL,SHELBY",
-    "awayTeamScore":"23 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"19",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HEIL,SHELBY",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"heil,shelby",
-    "pointsEarned":"",
-    "awayLineup":[
-      "knoedl,ava",
-      "brady,riley",
-      "cates,bella",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "cable,maya",
-      "harris,montana",
-      "daniel,dekerriya",
-      "thompson,imani",
-      "tellis,aukeivah"
-    ],
-    "timeSeconds":439,
-    "Poss":"birmingham-so.",
-    "possNum":18,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham-so.",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":41,
-    "teamChanged":0,
-    "game":"Birmingham-So.Hendrix02\/09\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"cable,maya",
-    "homePlayer2":"harris,montana",
-    "homePlayer3":"daniel,dekerriya",
-    "homePlayer4":"thompson,imani",
-    "homePlayer5":"tellis,aukeivah",
-    "awayPlayer1":"knoedl,ava",
-    "awayPlayer2":"brady,riley",
-    "awayPlayer3":"cates,bella",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5680",
-    "homeTeam":"Birmingham-So.",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"75-61",
-    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
-    "homeRecord":"5-19",
-    "awayRecord":"4-19",
-    "homeConfRecord":"2-11",
-    "awayConfRecord":"2-10",
-    "gameDate":"02\/09\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"147",
-    "isNeutral":"False",
-    "timeRemaining":"07:19",
     "awayPlay":"SUB IN by GRAY,MEGAN",
     "awayTeamScore":"23 ",
     "playTeamIndicator":"",
@@ -10882,7 +10882,7 @@
       "brady,riley",
       "cates,bella",
       "gray,megan",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "cable,maya",
@@ -10916,8 +10916,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -11357,7 +11357,7 @@
       "harris,montana",
       "thompson,imani",
       "tellis,aukeivah",
-      null
+      "daniel,dekerriya"
     ],
     "timeSeconds":387,
     "Poss":"hendrix",
@@ -11379,13 +11379,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"thompson,imani",
     "homePlayer4":"tellis,aukeivah",
-    "homePlayer5":null,
+    "homePlayer5":"daniel,dekerriya",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -11903,7 +11903,7 @@
       "harris,montana",
       "tellis,aukeivah",
       "killin,summer",
-      null
+      "thompson,imani"
     ],
     "timeSeconds":354,
     "Poss":"birmingham-so.",
@@ -11925,13 +11925,13 @@
     "homePlayer2":"harris,montana",
     "homePlayer3":"tellis,aukeivah",
     "homePlayer4":"killin,summer",
-    "homePlayer5":null,
+    "homePlayer5":"thompson,imani",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -12293,7 +12293,7 @@
       "tellis,aukeivah",
       "killin,summer",
       "foster,sheraton",
-      null
+      "harris,montana"
     ],
     "timeSeconds":313,
     "Poss":"hendrix",
@@ -12315,13 +12315,13 @@
     "homePlayer2":"tellis,aukeivah",
     "homePlayer3":"killin,summer",
     "homePlayer4":"foster,sheraton",
-    "homePlayer5":null,
+    "homePlayer5":"harris,montana",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -12442,7 +12442,7 @@
       "brady,riley",
       "gray,megan",
       "forst,brailey",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "cable,maya",
@@ -12476,8 +12476,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -14789,6 +14789,84 @@
       "killin,summer",
       "foster,sheraton",
       "ogiemwonyi,ajailah",
+      "cable,maya"
+    ],
+    "timeSeconds":101,
+    "Poss":"birmingham-so.",
+    "possNum":24,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham-so.",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":57,
+    "teamChanged":0,
+    "game":"Birmingham-So.Hendrix02\/09\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"tellis,aukeivah",
+    "homePlayer2":"killin,summer",
+    "homePlayer3":"foster,sheraton",
+    "homePlayer4":"ogiemwonyi,ajailah",
+    "homePlayer5":"cable,maya",
+    "awayPlayer1":"knoedl,ava",
+    "awayPlayer2":"brady,riley",
+    "awayPlayer3":"gray,megan",
+    "awayPlayer4":"forst,brailey",
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5680",
+    "homeTeam":"Birmingham-So.",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"75-61",
+    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
+    "homeRecord":"5-19",
+    "awayRecord":"4-19",
+    "homeConfRecord":"2-11",
+    "awayConfRecord":"2-10",
+    "gameDate":"02\/09\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"147",
+    "isNeutral":"False",
+    "timeRemaining":"01:41",
+    "awayPlay":"",
+    "awayTeamScore":"37 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24",
+    "homePlay":"SUB OUT by OGIEMWONYI,AJAILAH",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by OGIEMWONYI,AJAILAH",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"birmingham-so.",
+    "Player":"ogiemwonyi,ajailah",
+    "pointsEarned":"",
+    "awayLineup":[
+      "knoedl,ava",
+      "brady,riley",
+      "gray,megan",
+      "forst,brailey",
+      "shields,simone"
+    ],
+    "homeLineup":[
+      "tellis,aukeivah",
+      "killin,summer",
+      "foster,sheraton",
+      "ogiemwonyi,ajailah",
       null
     ],
     "timeSeconds":101,
@@ -14845,84 +14923,6 @@
     "awayTeamScore":"37 ",
     "playTeamIndicator":"",
     "homeTeamScore":"24",
-    "homePlay":"SUB OUT by OGIEMWONYI,AJAILAH",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by OGIEMWONYI,AJAILAH",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"birmingham-so.",
-    "Player":"ogiemwonyi,ajailah",
-    "pointsEarned":"",
-    "awayLineup":[
-      "knoedl,ava",
-      "brady,riley",
-      "gray,megan",
-      "forst,brailey",
-      "shields,simone"
-    ],
-    "homeLineup":[
-      "tellis,aukeivah",
-      "killin,summer",
-      "foster,sheraton",
-      null,
-      null
-    ],
-    "timeSeconds":101,
-    "Poss":"birmingham-so.",
-    "possNum":24,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham-so.",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":57,
-    "teamChanged":0,
-    "game":"Birmingham-So.Hendrix02\/09\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"tellis,aukeivah",
-    "homePlayer2":"killin,summer",
-    "homePlayer3":"foster,sheraton",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"knoedl,ava",
-    "awayPlayer2":"brady,riley",
-    "awayPlayer3":"gray,megan",
-    "awayPlayer4":"forst,brailey",
-    "awayPlayer5":"shields,simone",
-    "playerMissing":1
-  },
-  {
-    "gameID":"5680",
-    "homeTeam":"Birmingham-So.",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"75-61",
-    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
-    "homeRecord":"5-19",
-    "awayRecord":"4-19",
-    "homeConfRecord":"2-11",
-    "awayConfRecord":"2-10",
-    "gameDate":"02\/09\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"147",
-    "isNeutral":"False",
-    "timeRemaining":"01:41",
-    "awayPlay":"",
-    "awayTeamScore":"37 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24",
     "homePlay":"SUB IN by WOODS,KYLER",
     "gameScore":"",
     "teamIndicator":"",
@@ -14945,7 +14945,7 @@
       "killin,summer",
       "foster,sheraton",
       "woods,kyler",
-      null
+      "cable,maya"
     ],
     "timeSeconds":101,
     "Poss":"birmingham-so.",
@@ -14967,13 +14967,13 @@
     "homePlayer2":"killin,summer",
     "homePlayer3":"foster,sheraton",
     "homePlayer4":"woods,kyler",
-    "homePlayer5":null,
+    "homePlayer5":"cable,maya",
     "awayPlayer1":"knoedl,ava",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"shields,simone",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -15094,7 +15094,7 @@
       "gray,megan",
       "forst,brailey",
       "shields,simone",
-      null
+      "knoedl,ava"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -15128,8 +15128,8 @@
     "awayPlayer2":"gray,megan",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -15171,7 +15171,7 @@
       "gray,megan",
       "forst,brailey",
       "shields,simone",
-      null,
+      "brady,riley",
       null
     ],
     "homeLineup":[
@@ -15205,7 +15205,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"shields,simone",
-    "awayPlayer4":null,
+    "awayPlayer4":"brady,riley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15248,7 +15248,7 @@
     "awayLineup":[
       "gray,megan",
       "shields,simone",
-      null,
+      "forst,brailey",
       null,
       null
     ],
@@ -15282,7 +15282,7 @@
     "homePlayer5":"towns,lauryn",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"shields,simone",
-    "awayPlayer3":null,
+    "awayPlayer3":"forst,brailey",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -15327,7 +15327,7 @@
       "gray,megan",
       "shields,simone",
       "heil,shelby",
-      null,
+      "brady,riley",
       null
     ],
     "homeLineup":[
@@ -15361,7 +15361,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"heil,shelby",
-    "awayPlayer4":null,
+    "awayPlayer4":"brady,riley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15406,7 +15406,7 @@
       "shields,simone",
       "heil,shelby",
       "edmonson,natalie",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -15440,8 +15440,8 @@
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -15874,6 +15874,84 @@
       "heil,shelby",
       "edmonson,natalie",
       "crane,carter",
+      "gray,megan"
+    ],
+    "homeLineup":[
+      "tellis,aukeivah",
+      "killin,summer",
+      "foster,sheraton",
+      "woods,kyler",
+      "towns,lauryn"
+    ],
+    "timeSeconds":67,
+    "Poss":"hendrix",
+    "possNum":25,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"hendrix",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":58,
+    "teamChanged":0,
+    "game":"Birmingham-So.Hendrix02\/09\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"tellis,aukeivah",
+    "homePlayer2":"killin,summer",
+    "homePlayer3":"foster,sheraton",
+    "homePlayer4":"woods,kyler",
+    "homePlayer5":"towns,lauryn",
+    "awayPlayer1":"shields,simone",
+    "awayPlayer2":"heil,shelby",
+    "awayPlayer3":"edmonson,natalie",
+    "awayPlayer4":"crane,carter",
+    "awayPlayer5":"gray,megan",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5680",
+    "homeTeam":"Birmingham-So.",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"75-61",
+    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
+    "homeRecord":"5-19",
+    "awayRecord":"4-19",
+    "homeConfRecord":"2-11",
+    "awayConfRecord":"2-10",
+    "gameDate":"02\/09\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"147",
+    "isNeutral":"False",
+    "timeRemaining":"01:07",
+    "awayPlay":"SUB OUT by CRANE,CARTER",
+    "awayTeamScore":"37 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"27",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CRANE,CARTER",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"crane,carter",
+    "pointsEarned":"",
+    "awayLineup":[
+      "shields,simone",
+      "heil,shelby",
+      "edmonson,natalie",
+      "crane,carter",
       null
     ],
     "homeLineup":[
@@ -15933,84 +16011,6 @@
     "attendance":"147",
     "isNeutral":"False",
     "timeRemaining":"01:07",
-    "awayPlay":"SUB OUT by CRANE,CARTER",
-    "awayTeamScore":"37 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"27",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CRANE,CARTER",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"crane,carter",
-    "pointsEarned":"",
-    "awayLineup":[
-      "shields,simone",
-      "heil,shelby",
-      "edmonson,natalie",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "tellis,aukeivah",
-      "killin,summer",
-      "foster,sheraton",
-      "woods,kyler",
-      "towns,lauryn"
-    ],
-    "timeSeconds":67,
-    "Poss":"hendrix",
-    "possNum":25,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"hendrix",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":58,
-    "teamChanged":0,
-    "game":"Birmingham-So.Hendrix02\/09\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"tellis,aukeivah",
-    "homePlayer2":"killin,summer",
-    "homePlayer3":"foster,sheraton",
-    "homePlayer4":"woods,kyler",
-    "homePlayer5":"towns,lauryn",
-    "awayPlayer1":"shields,simone",
-    "awayPlayer2":"heil,shelby",
-    "awayPlayer3":"edmonson,natalie",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5680",
-    "homeTeam":"Birmingham-So.",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"75-61",
-    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
-    "homeRecord":"5-19",
-    "awayRecord":"4-19",
-    "homeConfRecord":"2-11",
-    "awayConfRecord":"2-10",
-    "gameDate":"02\/09\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"147",
-    "isNeutral":"False",
-    "timeRemaining":"01:07",
     "awayPlay":"SUB IN by CATES,BELLA",
     "awayTeamScore":"37 ",
     "playTeamIndicator":"",
@@ -16030,7 +16030,7 @@
       "heil,shelby",
       "edmonson,natalie",
       "cates,bella",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -16064,8 +16064,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -16420,7 +16420,7 @@
       "heil,shelby",
       "edmonson,natalie",
       "cates,bella",
-      null
+      "knoedl,ava"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -16454,8 +16454,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -17200,7 +17200,7 @@
       "edmonson,natalie",
       "cates,bella",
       "brady,riley",
-      null
+      "heil,shelby"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -17234,8 +17234,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"heil,shelby",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -17590,7 +17590,7 @@
       "edmonson,natalie",
       "cates,bella",
       "gray,megan",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "tellis,aukeivah",
@@ -17624,8 +17624,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -17753,7 +17753,7 @@
       "killin,summer",
       "foster,sheraton",
       "towns,lauryn",
-      null
+      "woods,kyler"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -17775,13 +17775,13 @@
     "homePlayer2":"killin,summer",
     "homePlayer3":"foster,sheraton",
     "homePlayer4":"towns,lauryn",
-    "homePlayer5":null,
+    "homePlayer5":"woods,kyler",
     "awayPlayer1":"shields,simone",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -17830,7 +17830,7 @@
       "killin,summer",
       "foster,sheraton",
       "towns,lauryn",
-      null,
+      "tellis,aukeivah",
       null
     ],
     "timeSeconds":600,
@@ -17852,7 +17852,7 @@
     "homePlayer1":"killin,summer",
     "homePlayer2":"foster,sheraton",
     "homePlayer3":"towns,lauryn",
-    "homePlayer4":null,
+    "homePlayer4":"tellis,aukeivah",
     "homePlayer5":null,
     "awayPlayer1":"shields,simone",
     "awayPlayer2":"edmonson,natalie",
@@ -17909,7 +17909,7 @@
       "foster,sheraton",
       "towns,lauryn",
       "cable,maya",
-      null
+      "harris,montana"
     ],
     "timeSeconds":600,
     "Poss":"hendrix",
@@ -17931,13 +17931,13 @@
     "homePlayer2":"foster,sheraton",
     "homePlayer3":"towns,lauryn",
     "homePlayer4":"cable,maya",
-    "homePlayer5":null,
+    "homePlayer5":"harris,montana",
     "awayPlayer1":"shields,simone",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -18058,7 +18058,7 @@
       "edmonson,natalie",
       "cates,bella",
       "gray,megan",
-      null
+      "forst,brailey"
     ],
     "homeLineup":[
       "killin,summer",
@@ -18092,8 +18092,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"gray,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"forst,brailey",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -18135,7 +18135,7 @@
       "shields,simone",
       "cates,bella",
       "gray,megan",
-      null,
+      "edmonson,natalie",
       null
     ],
     "homeLineup":[
@@ -18169,7 +18169,7 @@
     "awayPlayer1":"shields,simone",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"gray,megan",
-    "awayPlayer4":null,
+    "awayPlayer4":"edmonson,natalie",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18214,7 +18214,7 @@
       "cates,bella",
       "gray,megan",
       "knoedl,ava",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "killin,summer",
@@ -18248,8 +18248,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -20717,7 +20717,7 @@
       "towns,lauryn",
       "cable,maya",
       "harris,montana",
-      null
+      "killin,summer"
     ],
     "timeSeconds":414,
     "Poss":"hendrix",
@@ -20739,13 +20739,13 @@
     "homePlayer2":"towns,lauryn",
     "homePlayer3":"cable,maya",
     "homePlayer4":"harris,montana",
-    "homePlayer5":null,
+    "homePlayer5":"killin,summer",
     "awayPlayer1":"shields,simone",
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"brady,riley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -20866,7 +20866,7 @@
       "gray,megan",
       "knoedl,ava",
       "brady,riley",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -20900,8 +20900,8 @@
     "awayPlayer2":"gray,megan",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -20943,7 +20943,7 @@
       "gray,megan",
       "knoedl,ava",
       "brady,riley",
-      null,
+      "shields,simone",
       null
     ],
     "homeLineup":[
@@ -20977,7 +20977,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"brady,riley",
-    "awayPlayer4":null,
+    "awayPlayer4":"shields,simone",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -21022,7 +21022,7 @@
       "knoedl,ava",
       "brady,riley",
       "heil,shelby",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -21056,8 +21056,8 @@
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"heil,shelby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -22433,7 +22433,7 @@
       "towns,lauryn",
       "cable,maya",
       "harris,montana",
-      null
+      "woods,kyler"
     ],
     "timeSeconds":277,
     "Poss":"birmingham-so.",
@@ -22455,13 +22455,13 @@
     "homePlayer2":"towns,lauryn",
     "homePlayer3":"cable,maya",
     "homePlayer4":"harris,montana",
-    "homePlayer5":null,
+    "homePlayer5":"woods,kyler",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"heil,shelby",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -22582,7 +22582,7 @@
       "brady,riley",
       "heil,shelby",
       "edmonson,natalie",
-      null
+      "knoedl,ava"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -22616,8 +22616,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"edmonson,natalie",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -22659,7 +22659,7 @@
       "gray,megan",
       "heil,shelby",
       "edmonson,natalie",
-      null,
+      "brady,riley",
       null
     ],
     "homeLineup":[
@@ -22693,7 +22693,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"edmonson,natalie",
-    "awayPlayer4":null,
+    "awayPlayer4":"brady,riley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22738,7 +22738,7 @@
       "heil,shelby",
       "edmonson,natalie",
       "shields,simone",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -22772,8 +22772,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"edmonson,natalie",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -23284,7 +23284,7 @@
       "edmonson,natalie",
       "shields,simone",
       "forst,brailey",
-      null
+      "heil,shelby"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -23318,8 +23318,8 @@
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"shields,simone",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"heil,shelby",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -24539,7 +24539,7 @@
       "cable,maya",
       "harris,montana",
       "thompson,imani",
-      null
+      "towns,lauryn"
     ],
     "timeSeconds":86,
     "Poss":"birmingham-so.",
@@ -24561,13 +24561,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"thompson,imani",
-    "homePlayer5":null,
+    "homePlayer5":"towns,lauryn",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"edmonson,natalie",
     "awayPlayer3":"shields,simone",
     "awayPlayer4":"forst,brailey",
     "awayPlayer5":"brady,riley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -24688,7 +24688,7 @@
       "shields,simone",
       "forst,brailey",
       "brady,riley",
-      null
+      "edmonson,natalie"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -24722,8 +24722,8 @@
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"edmonson,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -25319,7 +25319,7 @@
       "cable,maya",
       "thompson,imani",
       "woods,kyler",
-      null
+      "harris,montana"
     ],
     "timeSeconds":56,
     "Poss":"birmingham-so.",
@@ -25341,13 +25341,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"thompson,imani",
     "homePlayer4":"woods,kyler",
-    "homePlayer5":null,
+    "homePlayer5":"harris,montana",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -25709,7 +25709,7 @@
       "cable,maya",
       "woods,kyler",
       "towns,lauryn",
-      null
+      "thompson,imani"
     ],
     "timeSeconds":37,
     "Poss":"birmingham-so.",
@@ -25731,13 +25731,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"woods,kyler",
     "homePlayer4":"towns,lauryn",
-    "homePlayer5":null,
+    "homePlayer5":"thompson,imani",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"brady,riley",
     "awayPlayer5":"cates,bella",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -26482,7 +26482,7 @@
       "forst,brailey",
       "brady,riley",
       "cates,bella",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"forst,brailey",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"cates,bella",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -26559,7 +26559,7 @@
       "gray,megan",
       "brady,riley",
       "cates,bella",
-      null,
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -26593,7 +26593,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
-    "awayPlayer4":null,
+    "awayPlayer4":"forst,brailey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26638,7 +26638,7 @@
       "brady,riley",
       "cates,bella",
       "knoedl,ava",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -26672,8 +26672,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -27893,7 +27893,7 @@
       "cable,maya",
       "towns,lauryn",
       "ogiemwonyi,ajailah",
-      null
+      "woods,kyler"
     ],
     "timeSeconds":537,
     "Poss":"birmingham-so.",
@@ -27915,13 +27915,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"towns,lauryn",
     "homePlayer4":"ogiemwonyi,ajailah",
-    "homePlayer5":null,
+    "homePlayer5":"woods,kyler",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"heil,shelby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -27970,7 +27970,7 @@
       "foster,sheraton",
       "cable,maya",
       "towns,lauryn",
-      null,
+      "ogiemwonyi,ajailah",
       null
     ],
     "timeSeconds":537,
@@ -27992,7 +27992,7 @@
     "homePlayer1":"foster,sheraton",
     "homePlayer2":"cable,maya",
     "homePlayer3":"towns,lauryn",
-    "homePlayer4":null,
+    "homePlayer4":"ogiemwonyi,ajailah",
     "homePlayer5":null,
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
@@ -28049,7 +28049,7 @@
       "cable,maya",
       "towns,lauryn",
       "harris,montana",
-      null
+      "killin,summer"
     ],
     "timeSeconds":537,
     "Poss":"birmingham-so.",
@@ -28071,13 +28071,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"towns,lauryn",
     "homePlayer4":"harris,montana",
-    "homePlayer5":null,
+    "homePlayer5":"killin,summer",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"heil,shelby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -28595,7 +28595,7 @@
       "cable,maya",
       "harris,montana",
       "killin,summer",
-      null
+      "towns,lauryn"
     ],
     "timeSeconds":499,
     "Poss":"birmingham-so.",
@@ -28617,13 +28617,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"killin,summer",
-    "homePlayer5":null,
+    "homePlayer5":"towns,lauryn",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"heil,shelby",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -28744,7 +28744,7 @@
       "brady,riley",
       "cates,bella",
       "knoedl,ava",
-      null
+      "heil,shelby"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -28778,8 +28778,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"heil,shelby",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -29297,7 +29297,7 @@
       "cable,maya",
       "harris,montana",
       "killin,summer",
-      null
+      "woods,kyler"
     ],
     "timeSeconds":475,
     "Poss":"hendrix",
@@ -29319,13 +29319,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"killin,summer",
-    "homePlayer5":null,
+    "homePlayer5":"woods,kyler",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -29609,7 +29609,7 @@
       "cable,maya",
       "harris,montana",
       "tellis,aukeivah",
-      null
+      "killin,summer"
     ],
     "timeSeconds":449,
     "Poss":"birmingham-so.",
@@ -29631,13 +29631,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"tellis,aukeivah",
-    "homePlayer5":null,
+    "homePlayer5":"killin,summer",
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"cates,bella",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -30148,7 +30148,7 @@
       "cates,bella",
       "knoedl,ava",
       "forst,brailey",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -30182,8 +30182,8 @@
     "awayPlayer2":"cates,bella",
     "awayPlayer3":"knoedl,ava",
     "awayPlayer4":"forst,brailey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -31162,7 +31162,7 @@
       "knoedl,ava",
       "forst,brailey",
       "heil,shelby",
-      null
+      "gray,megan"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -31196,8 +31196,8 @@
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"forst,brailey",
     "awayPlayer4":"heil,shelby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"gray,megan",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -31239,7 +31239,7 @@
       "cates,bella",
       "knoedl,ava",
       "heil,shelby",
-      null,
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -31273,7 +31273,7 @@
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
-    "awayPlayer4":null,
+    "awayPlayer4":"forst,brailey",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31318,7 +31318,7 @@
       "knoedl,ava",
       "heil,shelby",
       "shields,simone",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -31352,8 +31352,8 @@
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -31637,7 +31637,7 @@
       "cable,maya",
       "harris,montana",
       "tellis,aukeivah",
-      null
+      "ogiemwonyi,ajailah"
     ],
     "timeSeconds":366,
     "Poss":"birmingham-so.",
@@ -31659,13 +31659,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"tellis,aukeivah",
-    "homePlayer5":null,
+    "homePlayer5":"ogiemwonyi,ajailah",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"shields,simone",
     "awayPlayer5":"edmonson,natalie",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -31864,7 +31864,7 @@
       "knoedl,ava",
       "heil,shelby",
       "shields,simone",
-      null
+      "edmonson,natalie"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -31898,8 +31898,8 @@
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"edmonson,natalie",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -32495,7 +32495,7 @@
       "cable,maya",
       "harris,montana",
       "towns,lauryn",
-      null
+      "tellis,aukeivah"
     ],
     "timeSeconds":302,
     "Poss":"hendrix",
@@ -32517,13 +32517,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"towns,lauryn",
-    "homePlayer5":null,
+    "homePlayer5":"tellis,aukeivah",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"shields,simone",
     "awayPlayer5":"brady,riley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -33197,7 +33197,7 @@
       "cable,maya",
       "harris,montana",
       "ogiemwonyi,ajailah",
-      null
+      "towns,lauryn"
     ],
     "timeSeconds":232,
     "Poss":"birmingham-so.",
@@ -33219,13 +33219,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"harris,montana",
     "homePlayer4":"ogiemwonyi,ajailah",
-    "homePlayer5":null,
+    "homePlayer5":"towns,lauryn",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"knoedl,ava",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"shields,simone",
     "awayPlayer5":"brady,riley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -33346,7 +33346,7 @@
       "heil,shelby",
       "shields,simone",
       "brady,riley",
-      null
+      "knoedl,ava"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -33380,8 +33380,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"shields,simone",
     "awayPlayer4":"brady,riley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -33970,7 +33970,7 @@
       "heil,shelby",
       "brady,riley",
       "gray,megan",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -34004,8 +34004,8 @@
     "awayPlayer2":"heil,shelby",
     "awayPlayer3":"brady,riley",
     "awayPlayer4":"gray,megan",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -34047,7 +34047,7 @@
       "cates,bella",
       "brady,riley",
       "gray,megan",
-      null,
+      "heil,shelby",
       null
     ],
     "homeLineup":[
@@ -34081,7 +34081,7 @@
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
-    "awayPlayer4":null,
+    "awayPlayer4":"heil,shelby",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34126,7 +34126,7 @@
       "brady,riley",
       "gray,megan",
       "knoedl,ava",
-      null
+      "shields,simone"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -34160,8 +34160,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"shields,simone",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -34367,7 +34367,7 @@
       "cable,maya",
       "ogiemwonyi,ajailah",
       "woods,kyler",
-      null
+      "harris,montana"
     ],
     "timeSeconds":160,
     "Poss":"hendrix",
@@ -34389,13 +34389,13 @@
     "homePlayer2":"cable,maya",
     "homePlayer3":"ogiemwonyi,ajailah",
     "homePlayer4":"woods,kyler",
-    "homePlayer5":null,
+    "homePlayer5":"harris,montana",
     "awayPlayer1":"cates,bella",
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"knoedl,ava",
     "awayPlayer5":"forst,brailey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -34516,6 +34516,84 @@
       "brady,riley",
       "gray,megan",
       "forst,brailey",
+      "knoedl,ava"
+    ],
+    "homeLineup":[
+      "foster,sheraton",
+      "cable,maya",
+      "ogiemwonyi,ajailah",
+      "woods,kyler",
+      "daniel,dekerriya"
+    ],
+    "timeSeconds":160,
+    "Poss":"hendrix",
+    "possNum":53,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"birmingham-so.",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":115,
+    "teamChanged":0,
+    "game":"Birmingham-So.Hendrix02\/09\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"foster,sheraton",
+    "homePlayer2":"cable,maya",
+    "homePlayer3":"ogiemwonyi,ajailah",
+    "homePlayer4":"woods,kyler",
+    "homePlayer5":"daniel,dekerriya",
+    "awayPlayer1":"cates,bella",
+    "awayPlayer2":"brady,riley",
+    "awayPlayer3":"gray,megan",
+    "awayPlayer4":"forst,brailey",
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
+  },
+  {
+    "gameID":"5680",
+    "homeTeam":"Birmingham-So.",
+    "awayTeam":"Hendrix",
+    "saaGame":"1",
+    "finalScore":"75-61",
+    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
+    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
+    "homeRecord":"5-19",
+    "awayRecord":"4-19",
+    "homeConfRecord":"2-11",
+    "awayConfRecord":"2-10",
+    "gameDate":"02\/09\/24",
+    "startTime":"6:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"147",
+    "isNeutral":"False",
+    "timeRemaining":"02:40",
+    "awayPlay":"SUB OUT by FORST,BRAILEY",
+    "awayTeamScore":"67 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"56",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FORST,BRAILEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"hendrix",
+    "Player":"forst,brailey",
+    "pointsEarned":"",
+    "awayLineup":[
+      "cates,bella",
+      "brady,riley",
+      "gray,megan",
+      "forst,brailey",
       null
     ],
     "homeLineup":[
@@ -34575,84 +34653,6 @@
     "attendance":"147",
     "isNeutral":"False",
     "timeRemaining":"02:40",
-    "awayPlay":"SUB OUT by FORST,BRAILEY",
-    "awayTeamScore":"67 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"56",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FORST,BRAILEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"hendrix",
-    "Player":"forst,brailey",
-    "pointsEarned":"",
-    "awayLineup":[
-      "cates,bella",
-      "brady,riley",
-      "gray,megan",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "foster,sheraton",
-      "cable,maya",
-      "ogiemwonyi,ajailah",
-      "woods,kyler",
-      "daniel,dekerriya"
-    ],
-    "timeSeconds":160,
-    "Poss":"hendrix",
-    "possNum":53,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"birmingham-so.",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":115,
-    "teamChanged":0,
-    "game":"Birmingham-So.Hendrix02\/09\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"foster,sheraton",
-    "homePlayer2":"cable,maya",
-    "homePlayer3":"ogiemwonyi,ajailah",
-    "homePlayer4":"woods,kyler",
-    "homePlayer5":"daniel,dekerriya",
-    "awayPlayer1":"cates,bella",
-    "awayPlayer2":"brady,riley",
-    "awayPlayer3":"gray,megan",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"5680",
-    "homeTeam":"Birmingham-So.",
-    "awayTeam":"Hendrix",
-    "saaGame":"1",
-    "finalScore":"75-61",
-    "homeScoreByPeriod":"\nBSC\nBirmingham-So.\n,15,13,16,17,61",
-    "awayScoreByPeriod":"\nWinner\nHend\nHendrix\n,21,17,17,20,75",
-    "homeRecord":"5-19",
-    "awayRecord":"4-19",
-    "homeConfRecord":"2-11",
-    "awayConfRecord":"2-10",
-    "gameDate":"02\/09\/24",
-    "startTime":"6:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Bill Battle Coliseum, Birmingham, AL",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"147",
-    "isNeutral":"False",
-    "timeRemaining":"02:40",
     "awayPlay":"SUB IN by SHIELDS,SIMONE",
     "awayTeamScore":"67 ",
     "playTeamIndicator":"",
@@ -34672,7 +34672,7 @@
       "brady,riley",
       "gray,megan",
       "shields,simone",
-      null
+      "knoedl,ava"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -34706,8 +34706,8 @@
     "awayPlayer2":"brady,riley",
     "awayPlayer3":"gray,megan",
     "awayPlayer4":"shields,simone",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"knoedl,ava",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -35374,7 +35374,7 @@
       "gray,megan",
       "shields,simone",
       "heil,shelby",
-      null
+      "cates,bella"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -35408,8 +35408,8 @@
     "awayPlayer2":"gray,megan",
     "awayPlayer3":"shields,simone",
     "awayPlayer4":"heil,shelby",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cates,bella",
+    "playerMissing":0
   },
   {
     "gameID":"5680",
@@ -35451,7 +35451,7 @@
       "gray,megan",
       "shields,simone",
       "heil,shelby",
-      null,
+      "brady,riley",
       null
     ],
     "homeLineup":[
@@ -35485,7 +35485,7 @@
     "awayPlayer1":"gray,megan",
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"heil,shelby",
-    "awayPlayer4":null,
+    "awayPlayer4":"brady,riley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -35530,7 +35530,7 @@
       "shields,simone",
       "heil,shelby",
       "knoedl,ava",
-      null
+      "brady,riley"
     ],
     "homeLineup":[
       "foster,sheraton",
@@ -35564,8 +35564,8 @@
     "awayPlayer2":"shields,simone",
     "awayPlayer3":"heil,shelby",
     "awayPlayer4":"knoedl,ava",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"brady,riley",
+    "playerMissing":0
   },
   {
     "gameID":"5680",

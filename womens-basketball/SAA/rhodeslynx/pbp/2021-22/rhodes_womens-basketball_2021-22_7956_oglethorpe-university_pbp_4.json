@@ -1763,7 +1763,7 @@
       "hagen,ellen",
       "long,libby",
       "mayeux,alli",
-      null
+      "lee,taya"
     ],
     "timeSeconds":418,
     "Poss":"oglethorpe",
@@ -1785,13 +1785,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"long,libby",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"vazquez,amy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -2387,7 +2387,7 @@
       "hagen,ellen",
       "long,libby",
       "althoff,catherine",
-      null
+      "mayeux,alli"
     ],
     "timeSeconds":372,
     "Poss":"oglethorpe",
@@ -2409,13 +2409,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"long,libby",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"mayeux,alli",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"vazquez,amy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -2536,7 +2536,7 @@
       "ajorgbor,omotese",
       "bell,carley",
       "gaetanos,jessamy",
-      null
+      "vazquez,amy"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -2570,8 +2570,8 @@
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"gaetanos,jessamy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vazquez,amy",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -2692,7 +2692,7 @@
       "ajorgbor,omotese",
       "bell,carley",
       "henderson,carly",
-      null
+      "gaetanos,jessamy"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -2726,8 +2726,8 @@
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"henderson,carly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"gaetanos,jessamy",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -4181,7 +4181,7 @@
       "long,libby",
       "althoff,catherine",
       "lee,taya",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":241,
     "Poss":"rhodes",
@@ -4203,13 +4203,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"mcadams,daesha",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -4330,7 +4330,7 @@
       "bell,carley",
       "henderson,carly",
       "mcadams,daesha",
-      null
+      "ajorgbor,omotese"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -4364,8 +4364,8 @@
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"mcadams,daesha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ajorgbor,omotese",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -4402,6 +4402,84 @@
     "shotOutcome":"",
     "Team":"oglethorpe",
     "Player":"bell,carley",
+    "pointsEarned":"",
+    "awayLineup":[
+      "donovan,sydni",
+      "henderson,carly",
+      "mcadams,daesha",
+      "bell,carley",
+      null
+    ],
+    "homeLineup":[
+      "hagen,ellen",
+      "long,libby",
+      "althoff,catherine",
+      "lee,taya",
+      "schiff,hallie"
+    ],
+    "timeSeconds":241,
+    "Poss":"rhodes",
+    "possNum":10,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":23,
+    "teamChanged":0,
+    "game":"RhodesOglethorpe01\/09\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"hagen,ellen",
+    "homePlayer2":"long,libby",
+    "homePlayer3":"althoff,catherine",
+    "homePlayer4":"lee,taya",
+    "homePlayer5":"schiff,hallie",
+    "awayPlayer1":"donovan,sydni",
+    "awayPlayer2":"henderson,carly",
+    "awayPlayer3":"mcadams,daesha",
+    "awayPlayer4":"bell,carley",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7956",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Oglethorpe",
+    "saaGame":"1",
+    "finalScore":"61-71",
+    "homeScoreByPeriod":"13,21,23,14,71",
+    "awayScoreByPeriod":"26,7,9,19,61",
+    "homeRecord":"11-2",
+    "awayRecord":"3-10",
+    "homeConfRecord":"3-0",
+    "awayConfRecord":"0-2",
+    "gameDate":"01\/09\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"04:01",
+    "awayPlay":"SUB OUT by MCADAMS,DAESHA",
+    "awayTeamScore":"15 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"11",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by MCADAMS,DAESHA",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"oglethorpe",
+    "Player":"mcadams,daesha",
     "pointsEarned":"",
     "awayLineup":[
       "donovan,sydni",
@@ -4467,84 +4545,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"04:01",
-    "awayPlay":"SUB OUT by MCADAMS,DAESHA",
-    "awayTeamScore":"15 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"11",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by MCADAMS,DAESHA",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe",
-    "Player":"mcadams,daesha",
-    "pointsEarned":"",
-    "awayLineup":[
-      "donovan,sydni",
-      "henderson,carly",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "hagen,ellen",
-      "long,libby",
-      "althoff,catherine",
-      "lee,taya",
-      "schiff,hallie"
-    ],
-    "timeSeconds":241,
-    "Poss":"rhodes",
-    "possNum":10,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":23,
-    "teamChanged":0,
-    "game":"RhodesOglethorpe01\/09\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"hagen,ellen",
-    "homePlayer2":"long,libby",
-    "homePlayer3":"althoff,catherine",
-    "homePlayer4":"lee,taya",
-    "homePlayer5":"schiff,hallie",
-    "awayPlayer1":"donovan,sydni",
-    "awayPlayer2":"henderson,carly",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7956",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Oglethorpe",
-    "saaGame":"1",
-    "finalScore":"61-71",
-    "homeScoreByPeriod":"13,21,23,14,71",
-    "awayScoreByPeriod":"26,7,9,19,61",
-    "homeRecord":"11-2",
-    "awayRecord":"3-10",
-    "homeConfRecord":"3-0",
-    "awayConfRecord":"0-2",
-    "gameDate":"01\/09\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"04:01",
     "awayPlay":"SUB IN by VAZQUEZ,AMY",
     "awayTeamScore":"15 ",
     "playTeamIndicator":"",
@@ -4563,7 +4563,7 @@
       "donovan,sydni",
       "henderson,carly",
       "vazquez,amy",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -4597,7 +4597,7 @@
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"vazquez,amy",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -4642,7 +4642,7 @@
       "henderson,carly",
       "vazquez,amy",
       "inman,maya",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -4676,8 +4676,8 @@
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"inman,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -5507,7 +5507,7 @@
       "althoff,catherine",
       "lee,taya",
       "schiff,hallie",
-      null
+      "long,libby"
     ],
     "timeSeconds":183,
     "Poss":"oglethorpe",
@@ -5529,13 +5529,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lee,taya",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"inman,maya",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -5584,7 +5584,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "schiff,hallie",
-      null,
+      "lee,taya",
       null
     ],
     "timeSeconds":183,
@@ -5606,7 +5606,7 @@
     "homePlayer1":"hagen,ellen",
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"schiff,hallie",
-    "homePlayer4":null,
+    "homePlayer4":"lee,taya",
     "homePlayer5":null,
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"henderson,carly",
@@ -5663,7 +5663,7 @@
       "althoff,catherine",
       "schiff,hallie",
       "lagarde,a'niya",
-      null
+      "totals"
     ],
     "timeSeconds":183,
     "Poss":"oglethorpe",
@@ -5685,13 +5685,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"inman,maya",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -6436,7 +6436,7 @@
       "henderson,carly",
       "inman,maya",
       "perna,emma",
-      null
+      "vazquez,amy"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vazquez,amy",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -6513,7 +6513,7 @@
       "henderson,carly",
       "inman,maya",
       "perna,emma",
-      null,
+      "donovan,sydni",
       null
     ],
     "homeLineup":[
@@ -6547,7 +6547,7 @@
     "awayPlayer1":"henderson,carly",
     "awayPlayer2":"inman,maya",
     "awayPlayer3":"perna,emma",
-    "awayPlayer4":null,
+    "awayPlayer4":"donovan,sydni",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6590,7 +6590,7 @@
     "awayLineup":[
       "henderson,carly",
       "perna,emma",
-      null,
+      "inman,maya",
       null,
       null
     ],
@@ -6624,7 +6624,7 @@
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"henderson,carly",
     "awayPlayer2":"perna,emma",
-    "awayPlayer3":null,
+    "awayPlayer3":"inman,maya",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6667,7 +6667,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "perna,emma",
-      null,
+      "henderson,carly",
       null,
       null,
       null
@@ -6701,7 +6701,7 @@
     "homePlayer4":"lagarde,a'niya",
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"perna,emma",
-    "awayPlayer2":null,
+    "awayPlayer2":"henderson,carly",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -6746,7 +6746,7 @@
     "awayLineup":[
       "perna,emma",
       "dolmovich,rose",
-      null,
+      "totals",
       null,
       null
     ],
@@ -6780,7 +6780,7 @@
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -6825,7 +6825,7 @@
       "perna,emma",
       "dolmovich,rose",
       "ajorgbor,omotese",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -6859,7 +6859,7 @@
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"ajorgbor,omotese",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -6904,7 +6904,7 @@
       "dolmovich,rose",
       "ajorgbor,omotese",
       "bell,carley",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -6938,8 +6938,8 @@
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"bell,carley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -7769,7 +7769,7 @@
       "althoff,catherine",
       "lagarde,a'niya",
       "mayeux,alli",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":49,
     "Poss":"oglethorpe",
@@ -7791,13 +7791,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -7846,7 +7846,7 @@
       "hagen,ellen",
       "lagarde,a'niya",
       "mayeux,alli",
-      null,
+      "althoff,catherine",
       null
     ],
     "timeSeconds":49,
@@ -7868,7 +7868,7 @@
     "homePlayer1":"hagen,ellen",
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"mayeux,alli",
-    "homePlayer4":null,
+    "homePlayer4":"althoff,catherine",
     "homePlayer5":null,
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
@@ -7925,7 +7925,7 @@
       "lagarde,a'niya",
       "mayeux,alli",
       "long,libby",
-      null
+      "totals"
     ],
     "timeSeconds":49,
     "Poss":"oglethorpe",
@@ -7947,13 +7947,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -8393,7 +8393,7 @@
       "mayeux,alli",
       "long,libby",
       "lee,taya",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":600,
     "Poss":"oglethorpe",
@@ -8415,13 +8415,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -8542,7 +8542,7 @@
       "ajorgbor,omotese",
       "bell,carley",
       "bumgardaner,sydney",
-      null
+      "dolmovich,rose"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -8576,8 +8576,8 @@
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"bumgardaner,sydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dolmovich,rose",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -8619,7 +8619,7 @@
       "perna,emma",
       "bell,carley",
       "bumgardaner,sydney",
-      null,
+      "ajorgbor,omotese",
       null
     ],
     "homeLineup":[
@@ -8653,7 +8653,7 @@
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"bumgardaner,sydney",
-    "awayPlayer4":null,
+    "awayPlayer4":"ajorgbor,omotese",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8696,7 +8696,7 @@
     "awayLineup":[
       "bell,carley",
       "bumgardaner,sydney",
-      null,
+      "perna,emma",
       null,
       null
     ],
@@ -8730,7 +8730,7 @@
     "homePlayer5":"althoff,catherine",
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"bumgardaner,sydney",
-    "awayPlayer3":null,
+    "awayPlayer3":"perna,emma",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -8775,7 +8775,7 @@
       "bell,carley",
       "bumgardaner,sydney",
       "vazquez,amy",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -8809,7 +8809,7 @@
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"bumgardaner,sydney",
     "awayPlayer3":"vazquez,amy",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -8854,7 +8854,7 @@
       "bumgardaner,sydney",
       "vazquez,amy",
       "donovan,sydni",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -8888,8 +8888,8 @@
     "awayPlayer2":"bumgardaner,sydney",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"donovan,sydni",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -10336,7 +10336,7 @@
       "vazquez,amy",
       "donovan,sydni",
       "gaetanos,jessamy",
-      null
+      "bumgardaner,sydney"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -10370,8 +10370,8 @@
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"gaetanos,jessamy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"bumgardaner,sydney",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -11825,7 +11825,7 @@
       "long,libby",
       "lee,taya",
       "althoff,catherine",
-      null
+      "hagen,ellen"
     ],
     "timeSeconds":379,
     "Poss":"rhodes",
@@ -11847,13 +11847,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lee,taya",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"hagen,ellen",
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"ajorgbor,omotese",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -11902,7 +11902,7 @@
       "mayeux,alli",
       "long,libby",
       "althoff,catherine",
-      null,
+      "lee,taya",
       null
     ],
     "timeSeconds":379,
@@ -11924,7 +11924,7 @@
     "homePlayer1":"mayeux,alli",
     "homePlayer2":"long,libby",
     "homePlayer3":"althoff,catherine",
-    "homePlayer4":null,
+    "homePlayer4":"lee,taya",
     "homePlayer5":null,
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"vazquez,amy",
@@ -11981,7 +11981,7 @@
       "long,libby",
       "althoff,catherine",
       "schiff,hallie",
-      null
+      "totals"
     ],
     "timeSeconds":379,
     "Poss":"rhodes",
@@ -12003,13 +12003,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"ajorgbor,omotese",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -12130,6 +12130,84 @@
       "donovan,sydni",
       "gaetanos,jessamy",
       "ajorgbor,omotese",
+      "vazquez,amy"
+    ],
+    "homeLineup":[
+      "mayeux,alli",
+      "long,libby",
+      "althoff,catherine",
+      "schiff,hallie",
+      "lagarde,a'niya"
+    ],
+    "timeSeconds":379,
+    "Poss":"rhodes",
+    "possNum":20,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":51,
+    "teamChanged":0,
+    "game":"RhodesOglethorpe01\/09\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"mayeux,alli",
+    "homePlayer2":"long,libby",
+    "homePlayer3":"althoff,catherine",
+    "homePlayer4":"schiff,hallie",
+    "homePlayer5":"lagarde,a'niya",
+    "awayPlayer1":"bell,carley",
+    "awayPlayer2":"donovan,sydni",
+    "awayPlayer3":"gaetanos,jessamy",
+    "awayPlayer4":"ajorgbor,omotese",
+    "awayPlayer5":"vazquez,amy",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7956",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Oglethorpe",
+    "saaGame":"1",
+    "finalScore":"61-71",
+    "homeScoreByPeriod":"13,21,23,14,71",
+    "awayScoreByPeriod":"26,7,9,19,61",
+    "homeRecord":"11-2",
+    "awayRecord":"3-10",
+    "homeConfRecord":"3-0",
+    "awayConfRecord":"0-2",
+    "gameDate":"01\/09\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"06:19",
+    "awayPlay":"SUB OUT by AJORGBOR,OMOTESE",
+    "awayTeamScore":"31 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"21",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by AJORGBOR,OMOTESE",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"oglethorpe",
+    "Player":"ajorgbor,omotese",
+    "pointsEarned":"",
+    "awayLineup":[
+      "bell,carley",
+      "donovan,sydni",
+      "gaetanos,jessamy",
+      "ajorgbor,omotese",
       null
     ],
     "homeLineup":[
@@ -12189,19 +12267,19 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"06:19",
-    "awayPlay":"SUB OUT by AJORGBOR,OMOTESE",
+    "awayPlay":"SUB OUT by GAETANOS,JESSAMY",
     "awayTeamScore":"31 ",
     "playTeamIndicator":"",
     "homeTeamScore":"21",
     "homePlay":"",
     "gameScore":"",
     "teamIndicator":"",
-    "Play":"SUB OUT by AJORGBOR,OMOTESE",
+    "Play":"SUB OUT by GAETANOS,JESSAMY",
     "Period":"2",
     "playType":"subbing out",
     "shotOutcome":"",
     "Team":"oglethorpe",
-    "Player":"ajorgbor,omotese",
+    "Player":"gaetanos,jessamy",
     "pointsEarned":"",
     "awayLineup":[
       "bell,carley",
@@ -12267,84 +12345,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"06:19",
-    "awayPlay":"SUB OUT by GAETANOS,JESSAMY",
-    "awayTeamScore":"31 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"21",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by GAETANOS,JESSAMY",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe",
-    "Player":"gaetanos,jessamy",
-    "pointsEarned":"",
-    "awayLineup":[
-      "bell,carley",
-      "donovan,sydni",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "mayeux,alli",
-      "long,libby",
-      "althoff,catherine",
-      "schiff,hallie",
-      "lagarde,a'niya"
-    ],
-    "timeSeconds":379,
-    "Poss":"rhodes",
-    "possNum":20,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":51,
-    "teamChanged":0,
-    "game":"RhodesOglethorpe01\/09\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"mayeux,alli",
-    "homePlayer2":"long,libby",
-    "homePlayer3":"althoff,catherine",
-    "homePlayer4":"schiff,hallie",
-    "homePlayer5":"lagarde,a'niya",
-    "awayPlayer1":"bell,carley",
-    "awayPlayer2":"donovan,sydni",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7956",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Oglethorpe",
-    "saaGame":"1",
-    "finalScore":"61-71",
-    "homeScoreByPeriod":"13,21,23,14,71",
-    "awayScoreByPeriod":"26,7,9,19,61",
-    "homeRecord":"11-2",
-    "awayRecord":"3-10",
-    "homeConfRecord":"3-0",
-    "awayConfRecord":"0-2",
-    "gameDate":"01\/09\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"06:19",
     "awayPlay":"SUB OUT by BELL,CARLEY",
     "awayTeamScore":"31 ",
     "playTeamIndicator":"",
@@ -12361,7 +12361,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "donovan,sydni",
-      null,
+      "bell,carley",
       null,
       null,
       null
@@ -12395,7 +12395,7 @@
     "homePlayer4":"schiff,hallie",
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"donovan,sydni",
-    "awayPlayer2":null,
+    "awayPlayer2":"bell,carley",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -12440,7 +12440,7 @@
     "awayLineup":[
       "donovan,sydni",
       "dolmovich,rose",
-      null,
+      "totals",
       null,
       null
     ],
@@ -12474,7 +12474,7 @@
     "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"dolmovich,rose",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -12519,7 +12519,7 @@
       "donovan,sydni",
       "dolmovich,rose",
       "inman,maya",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -12553,7 +12553,7 @@
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -12598,7 +12598,7 @@
       "dolmovich,rose",
       "inman,maya",
       "mcadams,daesha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -12632,8 +12632,8 @@
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"mcadams,daesha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -13697,7 +13697,7 @@
       "long,libby",
       "schiff,hallie",
       "lagarde,a'niya",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":316,
     "Poss":"rhodes",
@@ -13719,13 +13719,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"mcadams,daesha",
     "awayPlayer5":"henderson,carly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -13846,7 +13846,7 @@
       "inman,maya",
       "mcadams,daesha",
       "henderson,carly",
-      null
+      "donovan,sydni"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -13880,8 +13880,8 @@
     "awayPlayer2":"inman,maya",
     "awayPlayer3":"mcadams,daesha",
     "awayPlayer4":"henderson,carly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donovan,sydni",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -14087,7 +14087,7 @@
       "long,libby",
       "lagarde,a'niya",
       "lee,taya",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":295,
     "Poss":"rhodes",
@@ -14109,13 +14109,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"dolmovich,rose",
     "awayPlayer2":"inman,maya",
     "awayPlayer3":"mcadams,daesha",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"atkinson,adrianna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -14945,7 +14945,7 @@
       "lagarde,a'niya",
       "lee,taya",
       "hagen,ellen",
-      null
+      "mayeux,alli"
     ],
     "timeSeconds":238,
     "Poss":"rhodes",
@@ -14967,13 +14967,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"lee,taya",
     "homePlayer4":"hagen,ellen",
-    "homePlayer5":null,
+    "homePlayer5":"mayeux,alli",
     "awayPlayer1":"dolmovich,rose",
     "awayPlayer2":"inman,maya",
     "awayPlayer3":"mcadams,daesha",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"atkinson,adrianna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -15094,7 +15094,7 @@
       "mcadams,daesha",
       "henderson,carly",
       "atkinson,adrianna",
-      null
+      "dolmovich,rose"
     ],
     "homeLineup":[
       "long,libby",
@@ -15128,8 +15128,8 @@
     "awayPlayer2":"mcadams,daesha",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"atkinson,adrianna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dolmovich,rose",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -15171,7 +15171,7 @@
       "inman,maya",
       "henderson,carly",
       "atkinson,adrianna",
-      null,
+      "mcadams,daesha",
       null
     ],
     "homeLineup":[
@@ -15205,7 +15205,7 @@
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"atkinson,adrianna",
-    "awayPlayer4":null,
+    "awayPlayer4":"mcadams,daesha",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15244,6 +15244,84 @@
     "shotOutcome":"",
     "Team":"oglethorpe",
     "Player":"henderson,carly",
+    "pointsEarned":"",
+    "awayLineup":[
+      "inman,maya",
+      "atkinson,adrianna",
+      "henderson,carly",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "long,libby",
+      "lagarde,a'niya",
+      "lee,taya",
+      "hagen,ellen",
+      "althoff,catherine"
+    ],
+    "timeSeconds":238,
+    "Poss":"rhodes",
+    "possNum":26,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"rhodes",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":59,
+    "teamChanged":0,
+    "game":"RhodesOglethorpe01\/09\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"long,libby",
+    "homePlayer2":"lagarde,a'niya",
+    "homePlayer3":"lee,taya",
+    "homePlayer4":"hagen,ellen",
+    "homePlayer5":"althoff,catherine",
+    "awayPlayer1":"inman,maya",
+    "awayPlayer2":"atkinson,adrianna",
+    "awayPlayer3":"henderson,carly",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"7956",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Oglethorpe",
+    "saaGame":"1",
+    "finalScore":"61-71",
+    "homeScoreByPeriod":"13,21,23,14,71",
+    "awayScoreByPeriod":"26,7,9,19,61",
+    "homeRecord":"11-2",
+    "awayRecord":"3-10",
+    "homeConfRecord":"3-0",
+    "awayConfRecord":"0-2",
+    "gameDate":"01\/09\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"03:58",
+    "awayPlay":"SUB OUT by ATKINSON,ADRIANNA",
+    "awayTeamScore":"31 ",
+    "playTeamIndicator":"",
+    "homeTeamScore":"24",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by ATKINSON,ADRIANNA",
+    "Period":"2",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"oglethorpe",
+    "Player":"atkinson,adrianna",
     "pointsEarned":"",
     "awayLineup":[
       "inman,maya",
@@ -15309,84 +15387,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"03:58",
-    "awayPlay":"SUB OUT by ATKINSON,ADRIANNA",
-    "awayTeamScore":"31 ",
-    "playTeamIndicator":"",
-    "homeTeamScore":"24",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by ATKINSON,ADRIANNA",
-    "Period":"2",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe",
-    "Player":"atkinson,adrianna",
-    "pointsEarned":"",
-    "awayLineup":[
-      "inman,maya",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "long,libby",
-      "lagarde,a'niya",
-      "lee,taya",
-      "hagen,ellen",
-      "althoff,catherine"
-    ],
-    "timeSeconds":238,
-    "Poss":"rhodes",
-    "possNum":26,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"rhodes",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":59,
-    "teamChanged":0,
-    "game":"RhodesOglethorpe01\/09\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"long,libby",
-    "homePlayer2":"lagarde,a'niya",
-    "homePlayer3":"lee,taya",
-    "homePlayer4":"hagen,ellen",
-    "homePlayer5":"althoff,catherine",
-    "awayPlayer1":"inman,maya",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7956",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Oglethorpe",
-    "saaGame":"1",
-    "finalScore":"61-71",
-    "homeScoreByPeriod":"13,21,23,14,71",
-    "awayScoreByPeriod":"26,7,9,19,61",
-    "homeRecord":"11-2",
-    "awayRecord":"3-10",
-    "homeConfRecord":"3-0",
-    "awayConfRecord":"0-2",
-    "gameDate":"01\/09\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"03:58",
     "awayPlay":"SUB IN by VAZQUEZ,AMY",
     "awayTeamScore":"31 ",
     "playTeamIndicator":"",
@@ -15404,7 +15404,7 @@
     "awayLineup":[
       "inman,maya",
       "vazquez,amy",
-      null,
+      "totals",
       null,
       null
     ],
@@ -15438,7 +15438,7 @@
     "homePlayer5":"althoff,catherine",
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -15483,7 +15483,7 @@
       "inman,maya",
       "vazquez,amy",
       "donovan,sydni",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -15517,7 +15517,7 @@
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -15562,7 +15562,7 @@
       "vazquez,amy",
       "donovan,sydni",
       "bell,carley",
-      null
+      "totals"
     ],
     "homeLineup":[
       "long,libby",
@@ -15596,8 +15596,8 @@
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"bell,carley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -16193,7 +16193,7 @@
       "lee,taya",
       "hagen,ellen",
       "althoff,catherine",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":158,
     "Poss":"oglethorpe",
@@ -16215,13 +16215,13 @@
     "homePlayer2":"lee,taya",
     "homePlayer3":"hagen,ellen",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -17597,7 +17597,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "mayeux,alli",
-      null
+      "long,libby"
     ],
     "timeSeconds":63,
     "Poss":"rhodes",
@@ -17619,13 +17619,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -17674,7 +17674,7 @@
       "lee,taya",
       "hagen,ellen",
       "mayeux,alli",
-      null,
+      "althoff,catherine",
       null
     ],
     "timeSeconds":63,
@@ -17696,7 +17696,7 @@
     "homePlayer1":"lee,taya",
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"mayeux,alli",
-    "homePlayer4":null,
+    "homePlayer4":"althoff,catherine",
     "homePlayer5":null,
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
@@ -17753,7 +17753,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "schiff,hallie",
-      null
+      "totals"
     ],
     "timeSeconds":63,
     "Poss":"rhodes",
@@ -17775,13 +17775,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"inman,maya",
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"bell,carley",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -17902,7 +17902,7 @@
       "donovan,sydni",
       "bell,carley",
       "perna,emma",
-      null
+      "inman,maya"
     ],
     "homeLineup":[
       "lee,taya",
@@ -17936,8 +17936,8 @@
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"inman,maya",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -18455,7 +18455,7 @@
       "mayeux,alli",
       "schiff,hallie",
       "lagarde,a'niya",
-      null
+      "lee,taya"
     ],
     "timeSeconds":19,
     "Poss":"rhodes",
@@ -18477,13 +18477,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -18532,7 +18532,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "schiff,hallie",
-      null,
+      "lagarde,a'niya",
       null
     ],
     "timeSeconds":19,
@@ -18554,7 +18554,7 @@
     "homePlayer1":"hagen,ellen",
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"schiff,hallie",
-    "homePlayer4":null,
+    "homePlayer4":"lagarde,a'niya",
     "homePlayer5":null,
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
@@ -18611,7 +18611,7 @@
       "mayeux,alli",
       "schiff,hallie",
       "long,libby",
-      null
+      "totals"
     ],
     "timeSeconds":19,
     "Poss":"rhodes",
@@ -18633,13 +18633,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -18923,7 +18923,7 @@
       "mayeux,alli",
       "long,libby",
       "althoff,catherine",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -18945,13 +18945,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -19000,7 +19000,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "long,libby",
-      null,
+      "althoff,catherine",
       null
     ],
     "timeSeconds":600,
@@ -19022,7 +19022,7 @@
     "homePlayer1":"hagen,ellen",
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
-    "homePlayer4":null,
+    "homePlayer4":"althoff,catherine",
     "homePlayer5":null,
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
@@ -19079,7 +19079,7 @@
       "mayeux,alli",
       "long,libby",
       "lee,taya",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -19101,13 +19101,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -19228,6 +19228,84 @@
       "donovan,sydni",
       "bell,carley",
       "bumgardaner,sydney",
+      "perna,emma"
+    ],
+    "homeLineup":[
+      "hagen,ellen",
+      "mayeux,alli",
+      "long,libby",
+      "lee,taya",
+      "lagarde,a'niya"
+    ],
+    "timeSeconds":600,
+    "Poss":"rhodes",
+    "possNum":32,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":73,
+    "teamChanged":0,
+    "game":"RhodesOglethorpe01\/09\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"hagen,ellen",
+    "homePlayer2":"mayeux,alli",
+    "homePlayer3":"long,libby",
+    "homePlayer4":"lee,taya",
+    "homePlayer5":"lagarde,a'niya",
+    "awayPlayer1":"vazquez,amy",
+    "awayPlayer2":"donovan,sydni",
+    "awayPlayer3":"bell,carley",
+    "awayPlayer4":"bumgardaner,sydney",
+    "awayPlayer5":"perna,emma",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7956",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Oglethorpe",
+    "saaGame":"1",
+    "finalScore":"61-71",
+    "homeScoreByPeriod":"13,21,23,14,71",
+    "awayScoreByPeriod":"26,7,9,19,61",
+    "homeRecord":"11-2",
+    "awayRecord":"3-10",
+    "homeConfRecord":"3-0",
+    "awayConfRecord":"0-2",
+    "gameDate":"01\/09\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"10:00",
+    "awayPlay":"SUB OUT by BUMGARDANER,SYDNEY",
+    "awayTeamScore":"33",
+    "playTeamIndicator":"",
+    "homeTeamScore":"34 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by BUMGARDANER,SYDNEY",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"oglethorpe",
+    "Player":"bumgardaner,sydney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "vazquez,amy",
+      "donovan,sydni",
+      "bell,carley",
+      "bumgardaner,sydney",
       null
     ],
     "homeLineup":[
@@ -19287,84 +19365,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"10:00",
-    "awayPlay":"SUB OUT by BUMGARDANER,SYDNEY",
-    "awayTeamScore":"33",
-    "playTeamIndicator":"",
-    "homeTeamScore":"34 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by BUMGARDANER,SYDNEY",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe",
-    "Player":"bumgardaner,sydney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "vazquez,amy",
-      "donovan,sydni",
-      "bell,carley",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "hagen,ellen",
-      "mayeux,alli",
-      "long,libby",
-      "lee,taya",
-      "lagarde,a'niya"
-    ],
-    "timeSeconds":600,
-    "Poss":"rhodes",
-    "possNum":32,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":73,
-    "teamChanged":0,
-    "game":"RhodesOglethorpe01\/09\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"hagen,ellen",
-    "homePlayer2":"mayeux,alli",
-    "homePlayer3":"long,libby",
-    "homePlayer4":"lee,taya",
-    "homePlayer5":"lagarde,a'niya",
-    "awayPlayer1":"vazquez,amy",
-    "awayPlayer2":"donovan,sydni",
-    "awayPlayer3":"bell,carley",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7956",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Oglethorpe",
-    "saaGame":"1",
-    "finalScore":"61-71",
-    "homeScoreByPeriod":"13,21,23,14,71",
-    "awayScoreByPeriod":"26,7,9,19,61",
-    "homeRecord":"11-2",
-    "awayRecord":"3-10",
-    "homeConfRecord":"3-0",
-    "awayConfRecord":"0-2",
-    "gameDate":"01\/09\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"10:00",
     "awayPlay":"SUB IN by AJORGBOR,OMOTESE",
     "awayTeamScore":"33",
     "playTeamIndicator":"",
@@ -19384,7 +19384,7 @@
       "donovan,sydni",
       "bell,carley",
       "ajorgbor,omotese",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -19418,8 +19418,8 @@
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"ajorgbor,omotese",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -21263,7 +21263,7 @@
       "mayeux,alli",
       "long,libby",
       "lagarde,a'niya",
-      null
+      "lee,taya"
     ],
     "timeSeconds":449,
     "Poss":"oglethorpe",
@@ -21285,13 +21285,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"long,libby",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"ajorgbor,omotese",
     "awayPlayer5":"gaetanos,jessamy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -21887,7 +21887,7 @@
       "mayeux,alli",
       "lagarde,a'niya",
       "althoff,catherine",
-      null
+      "long,libby"
     ],
     "timeSeconds":404,
     "Poss":"rhodes",
@@ -21909,13 +21909,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"ajorgbor,omotese",
     "awayPlayer5":"gaetanos,jessamy",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -22036,7 +22036,7 @@
       "bell,carley",
       "ajorgbor,omotese",
       "gaetanos,jessamy",
-      null
+      "vazquez,amy"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -22070,8 +22070,8 @@
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"gaetanos,jessamy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vazquez,amy",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -22113,7 +22113,7 @@
       "donovan,sydni",
       "ajorgbor,omotese",
       "gaetanos,jessamy",
-      null,
+      "bell,carley",
       null
     ],
     "homeLineup":[
@@ -22147,7 +22147,7 @@
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
-    "awayPlayer4":null,
+    "awayPlayer4":"bell,carley",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22192,7 +22192,7 @@
       "ajorgbor,omotese",
       "gaetanos,jessamy",
       "henderson,carly",
-      null
+      "totals"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -22226,8 +22226,8 @@
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"henderson,carly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -23291,7 +23291,7 @@
       "mayeux,alli",
       "althoff,catherine",
       "schiff,hallie",
-      null
+      "lagarde,a'niya"
     ],
     "timeSeconds":343,
     "Poss":"oglethorpe",
@@ -23313,13 +23313,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"lagarde,a'niya",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -23440,7 +23440,7 @@
       "gaetanos,jessamy",
       "henderson,carly",
       "perna,emma",
-      null
+      "ajorgbor,omotese"
     ],
     "homeLineup":[
       "hagen,ellen",
@@ -23474,8 +23474,8 @@
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ajorgbor,omotese",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -24539,7 +24539,7 @@
       "mayeux,alli",
       "althoff,catherine",
       "lee,taya",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":281,
     "Poss":"oglethorpe",
@@ -24561,13 +24561,13 @@
     "homePlayer2":"mayeux,alli",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"inman,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -24616,7 +24616,7 @@
       "mayeux,alli",
       "althoff,catherine",
       "lee,taya",
-      null,
+      "hagen,ellen",
       null
     ],
     "timeSeconds":281,
@@ -24638,7 +24638,7 @@
     "homePlayer1":"mayeux,alli",
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lee,taya",
-    "homePlayer4":null,
+    "homePlayer4":"hagen,ellen",
     "homePlayer5":null,
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"gaetanos,jessamy",
@@ -24695,7 +24695,7 @@
       "althoff,catherine",
       "lee,taya",
       "long,libby",
-      null
+      "totals"
     ],
     "timeSeconds":281,
     "Poss":"oglethorpe",
@@ -24717,13 +24717,13 @@
     "homePlayer2":"althoff,catherine",
     "homePlayer3":"lee,taya",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"inman,maya",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -24844,7 +24844,7 @@
       "gaetanos,jessamy",
       "perna,emma",
       "inman,maya",
-      null
+      "henderson,carly"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -24878,8 +24878,8 @@
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"perna,emma",
     "awayPlayer4":"inman,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"henderson,carly",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -25234,7 +25234,7 @@
       "perna,emma",
       "inman,maya",
       "dolmovich,rose",
-      null
+      "donovan,sydni"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -25268,8 +25268,8 @@
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"dolmovich,rose",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donovan,sydni",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -26333,7 +26333,7 @@
       "lee,taya",
       "long,libby",
       "lagarde,a'niya",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":199,
     "Poss":"rhodes",
@@ -26355,13 +26355,13 @@
     "homePlayer2":"lee,taya",
     "homePlayer3":"long,libby",
     "homePlayer4":"lagarde,a'niya",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"gaetanos,jessamy",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"dolmovich,rose",
     "awayPlayer5":"bumgardaner,sydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -26482,7 +26482,7 @@
       "perna,emma",
       "inman,maya",
       "bumgardaner,sydney",
-      null
+      "dolmovich,rose"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -26516,8 +26516,8 @@
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"bumgardaner,sydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"dolmovich,rose",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -26559,7 +26559,7 @@
       "gaetanos,jessamy",
       "perna,emma",
       "bumgardaner,sydney",
-      null,
+      "inman,maya",
       null
     ],
     "homeLineup":[
@@ -26593,7 +26593,7 @@
     "awayPlayer1":"gaetanos,jessamy",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"bumgardaner,sydney",
-    "awayPlayer4":null,
+    "awayPlayer4":"inman,maya",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26636,7 +26636,7 @@
     "awayLineup":[
       "perna,emma",
       "bumgardaner,sydney",
-      null,
+      "gaetanos,jessamy",
       null,
       null
     ],
@@ -26670,7 +26670,7 @@
     "homePlayer5":"hagen,ellen",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"bumgardaner,sydney",
-    "awayPlayer3":null,
+    "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -26715,7 +26715,7 @@
       "perna,emma",
       "bumgardaner,sydney",
       "vazquez,amy",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -26749,7 +26749,7 @@
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"bumgardaner,sydney",
     "awayPlayer3":"vazquez,amy",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26794,7 +26794,7 @@
       "bumgardaner,sydney",
       "vazquez,amy",
       "donovan,sydni",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -26828,8 +26828,8 @@
     "awayPlayer2":"bumgardaner,sydney",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"donovan,sydni",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -27659,7 +27659,7 @@
       "long,libby",
       "lagarde,a'niya",
       "hagen,ellen",
-      null
+      "lee,taya"
     ],
     "timeSeconds":124,
     "Poss":"rhodes",
@@ -27681,13 +27681,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"hagen,ellen",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"perna,emma",
     "awayPlayer2":"bumgardaner,sydney",
     "awayPlayer3":"vazquez,amy",
     "awayPlayer4":"donovan,sydni",
     "awayPlayer5":"bell,carley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -27808,7 +27808,7 @@
       "vazquez,amy",
       "donovan,sydni",
       "bell,carley",
-      null
+      "perna,emma"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -27842,8 +27842,8 @@
     "awayPlayer2":"vazquez,amy",
     "awayPlayer3":"donovan,sydni",
     "awayPlayer4":"bell,carley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"perna,emma",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -27885,7 +27885,7 @@
       "vazquez,amy",
       "donovan,sydni",
       "bell,carley",
-      null,
+      "bumgardaner,sydney",
       null
     ],
     "homeLineup":[
@@ -27919,7 +27919,7 @@
     "awayPlayer1":"vazquez,amy",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
-    "awayPlayer4":null,
+    "awayPlayer4":"bumgardaner,sydney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -27964,7 +27964,7 @@
       "donovan,sydni",
       "bell,carley",
       "ajorgbor,omotese",
-      null
+      "totals"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -27998,8 +27998,8 @@
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"ajorgbor,omotese",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -28744,7 +28744,7 @@
       "bell,carley",
       "ajorgbor,omotese",
       "gaetanos,jessamy",
-      null
+      "vazquez,amy"
     ],
     "homeLineup":[
       "mayeux,alli",
@@ -28778,8 +28778,8 @@
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"gaetanos,jessamy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"vazquez,amy",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -29765,7 +29765,7 @@
       "long,libby",
       "lagarde,a'niya",
       "hagen,ellen",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -29787,13 +29787,13 @@
     "homePlayer2":"long,libby",
     "homePlayer3":"lagarde,a'niya",
     "homePlayer4":"hagen,ellen",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"henderson,carly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -29842,7 +29842,7 @@
       "long,libby",
       "lagarde,a'niya",
       "hagen,ellen",
-      null,
+      "mayeux,alli",
       null
     ],
     "timeSeconds":600,
@@ -29864,7 +29864,7 @@
     "homePlayer1":"long,libby",
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"hagen,ellen",
-    "homePlayer4":null,
+    "homePlayer4":"mayeux,alli",
     "homePlayer5":null,
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"bell,carley",
@@ -29921,7 +29921,7 @@
       "lagarde,a'niya",
       "hagen,ellen",
       "schiff,hallie",
-      null
+      "totals"
     ],
     "timeSeconds":600,
     "Poss":"rhodes",
@@ -29943,13 +29943,13 @@
     "homePlayer2":"lagarde,a'niya",
     "homePlayer3":"hagen,ellen",
     "homePlayer4":"schiff,hallie",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"henderson,carly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -30070,7 +30070,7 @@
       "ajorgbor,omotese",
       "gaetanos,jessamy",
       "henderson,carly",
-      null
+      "donovan,sydni"
     ],
     "homeLineup":[
       "long,libby",
@@ -30104,8 +30104,8 @@
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"henderson,carly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"donovan,sydni",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -31325,7 +31325,7 @@
       "hagen,ellen",
       "schiff,hallie",
       "lee,taya",
-      null
+      "long,libby"
     ],
     "timeSeconds":468,
     "Poss":"rhodes",
@@ -31347,13 +31347,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"atkinson,adrianna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -31402,7 +31402,7 @@
       "lagarde,a'niya",
       "hagen,ellen",
       "schiff,hallie",
-      null,
+      "lee,taya",
       null
     ],
     "timeSeconds":468,
@@ -31424,7 +31424,7 @@
     "homePlayer1":"lagarde,a'niya",
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"schiff,hallie",
-    "homePlayer4":null,
+    "homePlayer4":"lee,taya",
     "homePlayer5":null,
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"ajorgbor,omotese",
@@ -31481,7 +31481,7 @@
       "hagen,ellen",
       "schiff,hallie",
       "althoff,catherine",
-      null
+      "totals"
     ],
     "timeSeconds":468,
     "Poss":"rhodes",
@@ -31503,13 +31503,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"schiff,hallie",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"totals",
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"ajorgbor,omotese",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"henderson,carly",
     "awayPlayer5":"atkinson,adrianna",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -31630,7 +31630,7 @@
       "gaetanos,jessamy",
       "henderson,carly",
       "atkinson,adrianna",
-      null
+      "ajorgbor,omotese"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -31664,8 +31664,8 @@
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"henderson,carly",
     "awayPlayer4":"atkinson,adrianna",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"ajorgbor,omotese",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -31707,7 +31707,7 @@
       "bell,carley",
       "henderson,carly",
       "atkinson,adrianna",
-      null,
+      "gaetanos,jessamy",
       null
     ],
     "homeLineup":[
@@ -31741,7 +31741,7 @@
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"henderson,carly",
     "awayPlayer3":"atkinson,adrianna",
-    "awayPlayer4":null,
+    "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31784,7 +31784,7 @@
     "awayLineup":[
       "henderson,carly",
       "atkinson,adrianna",
-      null,
+      "bell,carley",
       null,
       null
     ],
@@ -31818,7 +31818,7 @@
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"henderson,carly",
     "awayPlayer2":"atkinson,adrianna",
-    "awayPlayer3":null,
+    "awayPlayer3":"bell,carley",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -31861,7 +31861,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "atkinson,adrianna",
-      null,
+      "henderson,carly",
       null,
       null,
       null
@@ -31895,7 +31895,7 @@
     "homePlayer4":"althoff,catherine",
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"atkinson,adrianna",
-    "awayPlayer2":null,
+    "awayPlayer2":"henderson,carly",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -31940,7 +31940,7 @@
     "awayLineup":[
       "atkinson,adrianna",
       "dolmovich,rose",
-      null,
+      "totals",
       null,
       null
     ],
@@ -31974,7 +31974,7 @@
     "homePlayer5":"mayeux,alli",
     "awayPlayer1":"atkinson,adrianna",
     "awayPlayer2":"dolmovich,rose",
-    "awayPlayer3":null,
+    "awayPlayer3":"totals",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -32019,7 +32019,7 @@
       "atkinson,adrianna",
       "dolmovich,rose",
       "inman,maya",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -32053,7 +32053,7 @@
     "awayPlayer1":"atkinson,adrianna",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32098,7 +32098,7 @@
       "dolmovich,rose",
       "inman,maya",
       "mcadams,daesha",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -32132,8 +32132,8 @@
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"mcadams,daesha",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -33119,7 +33119,7 @@
       "hagen,ellen",
       "althoff,catherine",
       "mayeux,alli",
-      null
+      "schiff,hallie"
     ],
     "timeSeconds":408,
     "Poss":"rhodes",
@@ -33141,13 +33141,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"althoff,catherine",
     "homePlayer4":"mayeux,alli",
-    "homePlayer5":null,
+    "homePlayer5":"schiff,hallie",
     "awayPlayer1":"atkinson,adrianna",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"mcadams,daesha",
     "awayPlayer5":"perna,emma",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -33268,7 +33268,7 @@
       "dolmovich,rose",
       "inman,maya",
       "perna,emma",
-      null
+      "mcadams,daesha"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -33302,8 +33302,8 @@
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"mcadams,daesha",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -34679,7 +34679,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "long,libby",
-      null
+      "althoff,catherine"
     ],
     "timeSeconds":277,
     "Poss":"oglethorpe",
@@ -34701,13 +34701,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"long,libby",
-    "homePlayer5":null,
+    "homePlayer5":"althoff,catherine",
     "awayPlayer1":"atkinson,adrianna",
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"perna,emma",
     "awayPlayer5":"jackson,sydnee",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -34828,7 +34828,7 @@
       "dolmovich,rose",
       "perna,emma",
       "jackson,sydnee",
-      null
+      "inman,maya"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -34862,8 +34862,8 @@
     "awayPlayer2":"dolmovich,rose",
     "awayPlayer3":"perna,emma",
     "awayPlayer4":"jackson,sydnee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"inman,maya",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -34905,7 +34905,7 @@
       "dolmovich,rose",
       "perna,emma",
       "jackson,sydnee",
-      null,
+      "atkinson,adrianna",
       null
     ],
     "homeLineup":[
@@ -34939,7 +34939,7 @@
     "awayPlayer1":"dolmovich,rose",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"jackson,sydnee",
-    "awayPlayer4":null,
+    "awayPlayer4":"atkinson,adrianna",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -34984,7 +34984,7 @@
       "perna,emma",
       "jackson,sydnee",
       "donovan,sydni",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -35018,8 +35018,8 @@
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"jackson,sydnee",
     "awayPlayer4":"donovan,sydni",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -35693,7 +35693,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "lee,taya",
-      null
+      "long,libby"
     ],
     "timeSeconds":227,
     "Poss":"oglethorpe",
@@ -35715,13 +35715,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"lee,taya",
-    "homePlayer5":null,
+    "homePlayer5":"long,libby",
     "awayPlayer1":"dolmovich,rose",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"jackson,sydnee",
     "awayPlayer4":"donovan,sydni",
     "awayPlayer5":"ajorgbor,omotese",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -35842,6 +35842,84 @@
       "jackson,sydnee",
       "donovan,sydni",
       "ajorgbor,omotese",
+      "dolmovich,rose"
+    ],
+    "homeLineup":[
+      "lagarde,a'niya",
+      "hagen,ellen",
+      "mayeux,alli",
+      "lee,taya",
+      "althoff,catherine"
+    ],
+    "timeSeconds":227,
+    "Poss":"oglethorpe",
+    "possNum":57,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"oglethorpe",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":128,
+    "teamChanged":0,
+    "game":"RhodesOglethorpe01\/09\/22",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"lagarde,a'niya",
+    "homePlayer2":"hagen,ellen",
+    "homePlayer3":"mayeux,alli",
+    "homePlayer4":"lee,taya",
+    "homePlayer5":"althoff,catherine",
+    "awayPlayer1":"perna,emma",
+    "awayPlayer2":"jackson,sydnee",
+    "awayPlayer3":"donovan,sydni",
+    "awayPlayer4":"ajorgbor,omotese",
+    "awayPlayer5":"dolmovich,rose",
+    "playerMissing":0
+  },
+  {
+    "gameID":"7956",
+    "homeTeam":"Rhodes",
+    "awayTeam":"Oglethorpe",
+    "saaGame":"1",
+    "finalScore":"61-71",
+    "homeScoreByPeriod":"13,21,23,14,71",
+    "awayScoreByPeriod":"26,7,9,19,61",
+    "homeRecord":"11-2",
+    "awayRecord":"3-10",
+    "homeConfRecord":"3-0",
+    "awayConfRecord":"0-2",
+    "gameDate":"01\/09\/22",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Mallory Gymnasium, Memphis, TN",
+    "homeWin":"Win",
+    "numPeriods":"5",
+    "isOvertime":"False",
+    "attendance":"50",
+    "isNeutral":"False",
+    "timeRemaining":"03:47",
+    "awayPlay":"SUB OUT by AJORGBOR,OMOTESE",
+    "awayTeamScore":"54",
+    "playTeamIndicator":"",
+    "homeTeamScore":"62 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by AJORGBOR,OMOTESE",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"oglethorpe",
+    "Player":"ajorgbor,omotese",
+    "pointsEarned":"",
+    "awayLineup":[
+      "perna,emma",
+      "jackson,sydnee",
+      "donovan,sydni",
+      "ajorgbor,omotese",
       null
     ],
     "homeLineup":[
@@ -35901,84 +35979,6 @@
     "attendance":"50",
     "isNeutral":"False",
     "timeRemaining":"03:47",
-    "awayPlay":"SUB OUT by AJORGBOR,OMOTESE",
-    "awayTeamScore":"54",
-    "playTeamIndicator":"",
-    "homeTeamScore":"62 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by AJORGBOR,OMOTESE",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"oglethorpe",
-    "Player":"ajorgbor,omotese",
-    "pointsEarned":"",
-    "awayLineup":[
-      "perna,emma",
-      "jackson,sydnee",
-      "donovan,sydni",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "lagarde,a'niya",
-      "hagen,ellen",
-      "mayeux,alli",
-      "lee,taya",
-      "althoff,catherine"
-    ],
-    "timeSeconds":227,
-    "Poss":"oglethorpe",
-    "possNum":57,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"oglethorpe",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":128,
-    "teamChanged":0,
-    "game":"RhodesOglethorpe01\/09\/22",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"lagarde,a'niya",
-    "homePlayer2":"hagen,ellen",
-    "homePlayer3":"mayeux,alli",
-    "homePlayer4":"lee,taya",
-    "homePlayer5":"althoff,catherine",
-    "awayPlayer1":"perna,emma",
-    "awayPlayer2":"jackson,sydnee",
-    "awayPlayer3":"donovan,sydni",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"7956",
-    "homeTeam":"Rhodes",
-    "awayTeam":"Oglethorpe",
-    "saaGame":"1",
-    "finalScore":"61-71",
-    "homeScoreByPeriod":"13,21,23,14,71",
-    "awayScoreByPeriod":"26,7,9,19,61",
-    "homeRecord":"11-2",
-    "awayRecord":"3-10",
-    "homeConfRecord":"3-0",
-    "awayConfRecord":"0-2",
-    "gameDate":"01\/09\/22",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Mallory Gymnasium, Memphis, TN",
-    "homeWin":"Win",
-    "numPeriods":"5",
-    "isOvertime":"False",
-    "attendance":"50",
-    "isNeutral":"False",
-    "timeRemaining":"03:47",
     "awayPlay":"SUB OUT by PERNA,EMMA",
     "awayTeamScore":"54",
     "playTeamIndicator":"",
@@ -35996,7 +35996,7 @@
     "awayLineup":[
       "jackson,sydnee",
       "donovan,sydni",
-      null,
+      "perna,emma",
       null,
       null
     ],
@@ -36030,7 +36030,7 @@
     "homePlayer5":"althoff,catherine",
     "awayPlayer1":"jackson,sydnee",
     "awayPlayer2":"donovan,sydni",
-    "awayPlayer3":null,
+    "awayPlayer3":"perna,emma",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -36075,7 +36075,7 @@
       "jackson,sydnee",
       "donovan,sydni",
       "inman,maya",
-      null,
+      "totals",
       null
     ],
     "homeLineup":[
@@ -36109,7 +36109,7 @@
     "awayPlayer1":"jackson,sydnee",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"inman,maya",
-    "awayPlayer4":null,
+    "awayPlayer4":"totals",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -36154,7 +36154,7 @@
       "donovan,sydni",
       "inman,maya",
       "gaetanos,jessamy",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -36188,8 +36188,8 @@
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"gaetanos,jessamy",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -37097,7 +37097,7 @@
       "hagen,ellen",
       "mayeux,alli",
       "althoff,catherine",
-      null
+      "lee,taya"
     ],
     "timeSeconds":146,
     "Poss":"oglethorpe",
@@ -37119,13 +37119,13 @@
     "homePlayer2":"hagen,ellen",
     "homePlayer3":"mayeux,alli",
     "homePlayer4":"althoff,catherine",
-    "homePlayer5":null,
+    "homePlayer5":"lee,taya",
     "awayPlayer1":"jackson,sydnee",
     "awayPlayer2":"donovan,sydni",
     "awayPlayer3":"inman,maya",
     "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":"bell,carley",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -37246,7 +37246,7 @@
       "inman,maya",
       "gaetanos,jessamy",
       "bell,carley",
-      null
+      "jackson,sydnee"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -37280,8 +37280,8 @@
     "awayPlayer2":"inman,maya",
     "awayPlayer3":"gaetanos,jessamy",
     "awayPlayer4":"bell,carley",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jackson,sydnee",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -37948,7 +37948,7 @@
       "gaetanos,jessamy",
       "bell,carley",
       "perna,emma",
-      null
+      "inman,maya"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -37982,8 +37982,8 @@
     "awayPlayer2":"gaetanos,jessamy",
     "awayPlayer3":"bell,carley",
     "awayPlayer4":"perna,emma",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"inman,maya",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -38025,7 +38025,7 @@
       "donovan,sydni",
       "bell,carley",
       "perna,emma",
-      null,
+      "gaetanos,jessamy",
       null
     ],
     "homeLineup":[
@@ -38059,7 +38059,7 @@
     "awayPlayer1":"donovan,sydni",
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"perna,emma",
-    "awayPlayer4":null,
+    "awayPlayer4":"gaetanos,jessamy",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -38104,7 +38104,7 @@
       "bell,carley",
       "perna,emma",
       "jackson,sydnee",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -38138,8 +38138,8 @@
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"perna,emma",
     "awayPlayer4":"jackson,sydnee",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -39118,7 +39118,7 @@
       "bell,carley",
       "perna,emma",
       "ajorgbor,omotese",
-      null
+      "jackson,sydnee"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -39152,8 +39152,8 @@
     "awayPlayer2":"bell,carley",
     "awayPlayer3":"perna,emma",
     "awayPlayer4":"ajorgbor,omotese",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"jackson,sydnee",
+    "playerMissing":0
   },
   {
     "gameID":"7956",
@@ -39195,7 +39195,7 @@
       "bell,carley",
       "perna,emma",
       "ajorgbor,omotese",
-      null,
+      "donovan,sydni",
       null
     ],
     "homeLineup":[
@@ -39229,7 +39229,7 @@
     "awayPlayer1":"bell,carley",
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"ajorgbor,omotese",
-    "awayPlayer4":null,
+    "awayPlayer4":"donovan,sydni",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39274,7 +39274,7 @@
       "perna,emma",
       "ajorgbor,omotese",
       "inman,maya",
-      null
+      "totals"
     ],
     "homeLineup":[
       "lagarde,a'niya",
@@ -39308,8 +39308,8 @@
     "awayPlayer2":"perna,emma",
     "awayPlayer3":"ajorgbor,omotese",
     "awayPlayer4":"inman,maya",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"totals",
+    "playerMissing":0
   },
   {
     "gameID":"7956",

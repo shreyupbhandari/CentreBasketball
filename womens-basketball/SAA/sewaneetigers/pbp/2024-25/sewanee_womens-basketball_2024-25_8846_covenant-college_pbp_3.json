@@ -1139,7 +1139,7 @@
       "witt,abby",
       "eidson,hannah",
       "neff,amanda",
-      null
+      "savage,breezy"
     ],
     "timeSeconds":507,
     "Poss":"sewanee",
@@ -1161,13 +1161,13 @@
     "homePlayer2":"witt,abby",
     "homePlayer3":"eidson,hannah",
     "homePlayer4":"neff,amanda",
-    "homePlayer5":null,
+    "homePlayer5":"savage,breezy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"phillips,lilly",
     "awayPlayer5":"conn,shay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -2309,7 +2309,7 @@
       "witt,abby",
       "neff,amanda",
       "hall,ora",
-      null
+      "eidson,hannah"
     ],
     "timeSeconds":404,
     "Poss":"covenant",
@@ -2331,13 +2331,13 @@
     "homePlayer2":"witt,abby",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"eidson,hannah",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"phillips,lilly",
     "awayPlayer5":"conn,shay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -2386,7 +2386,7 @@
       "benson,lucy",
       "witt,abby",
       "hall,ora",
-      null,
+      "neff,amanda",
       null
     ],
     "timeSeconds":404,
@@ -2408,7 +2408,7 @@
     "homePlayer1":"benson,lucy",
     "homePlayer2":"witt,abby",
     "homePlayer3":"hall,ora",
-    "homePlayer4":null,
+    "homePlayer4":"neff,amanda",
     "homePlayer5":null,
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
@@ -2465,7 +2465,7 @@
       "witt,abby",
       "hall,ora",
       "canady,cair",
-      null
+      "savage,breezy"
     ],
     "timeSeconds":404,
     "Poss":"covenant",
@@ -2487,13 +2487,13 @@
     "homePlayer2":"witt,abby",
     "homePlayer3":"hall,ora",
     "homePlayer4":"canady,cair",
-    "homePlayer5":null,
+    "homePlayer5":"savage,breezy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"phillips,lilly",
     "awayPlayer5":"conn,shay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -2614,6 +2614,84 @@
       "wright,cydney",
       "humphrey,faith",
       "conn,shay",
+      "phillips,lilly"
+    ],
+    "homeLineup":[
+      "benson,lucy",
+      "witt,abby",
+      "hall,ora",
+      "canady,cair",
+      "savage,breezy"
+    ],
+    "timeSeconds":404,
+    "Poss":"covenant",
+    "possNum":8,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":14,
+    "teamChanged":0,
+    "game":"CovenantSewanee11\/13\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"benson,lucy",
+    "homePlayer2":"witt,abby",
+    "homePlayer3":"hall,ora",
+    "homePlayer4":"canady,cair",
+    "homePlayer5":"savage,breezy",
+    "awayPlayer1":"falvey,olivia",
+    "awayPlayer2":"wright,cydney",
+    "awayPlayer3":"humphrey,faith",
+    "awayPlayer4":"conn,shay",
+    "awayPlayer5":"phillips,lilly",
+    "playerMissing":0
+  },
+  {
+    "gameID":"8846",
+    "homeTeam":"Covenant",
+    "awayTeam":"Sewanee",
+    "saaGame":"0",
+    "finalScore":"72-64",
+    "homeScoreByPeriod":"\nCOV\nCovenant\n,17,8,17,22,64",
+    "awayScoreByPeriod":"\nWinner\nSewan\nSewanee\n,13,13,14,32,72",
+    "homeRecord":"1-2",
+    "awayRecord":"1-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/13\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Barnes Physical Education Center, Lookout Mountain, GA",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"156",
+    "isNeutral":"False",
+    "timeRemaining":"06:44",
+    "awayPlay":"SUB OUT by CONN,SHAY",
+    "awayTeamScore":"2",
+    "playTeamIndicator":"",
+    "homeTeamScore":"6 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CONN,SHAY",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"conn,shay",
+    "pointsEarned":"",
+    "awayLineup":[
+      "falvey,olivia",
+      "wright,cydney",
+      "humphrey,faith",
+      "conn,shay",
       null
     ],
     "homeLineup":[
@@ -2673,84 +2751,6 @@
     "attendance":"156",
     "isNeutral":"False",
     "timeRemaining":"06:44",
-    "awayPlay":"SUB OUT by CONN,SHAY",
-    "awayTeamScore":"2",
-    "playTeamIndicator":"",
-    "homeTeamScore":"6 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CONN,SHAY",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"conn,shay",
-    "pointsEarned":"",
-    "awayLineup":[
-      "falvey,olivia",
-      "wright,cydney",
-      "humphrey,faith",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "benson,lucy",
-      "witt,abby",
-      "hall,ora",
-      "canady,cair",
-      "savage,breezy"
-    ],
-    "timeSeconds":404,
-    "Poss":"covenant",
-    "possNum":8,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":14,
-    "teamChanged":0,
-    "game":"CovenantSewanee11\/13\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"benson,lucy",
-    "homePlayer2":"witt,abby",
-    "homePlayer3":"hall,ora",
-    "homePlayer4":"canady,cair",
-    "homePlayer5":"savage,breezy",
-    "awayPlayer1":"falvey,olivia",
-    "awayPlayer2":"wright,cydney",
-    "awayPlayer3":"humphrey,faith",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"8846",
-    "homeTeam":"Covenant",
-    "awayTeam":"Sewanee",
-    "saaGame":"0",
-    "finalScore":"72-64",
-    "homeScoreByPeriod":"\nCOV\nCovenant\n,17,8,17,22,64",
-    "awayScoreByPeriod":"\nWinner\nSewan\nSewanee\n,13,13,14,32,72",
-    "homeRecord":"1-2",
-    "awayRecord":"1-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/13\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Barnes Physical Education Center, Lookout Mountain, GA",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"156",
-    "isNeutral":"False",
-    "timeRemaining":"06:44",
     "awayPlay":"SUB IN by SEDO,ZOE",
     "awayTeamScore":"2",
     "playTeamIndicator":"",
@@ -2770,7 +2770,7 @@
       "wright,cydney",
       "humphrey,faith",
       "sedo,zoe",
-      null
+      "conn,shay"
     ],
     "homeLineup":[
       "benson,lucy",
@@ -2804,8 +2804,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"conn,shay",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -3947,7 +3947,7 @@
       "hall,ora",
       "canady,cair",
       "savage,breezy",
-      null
+      "benson,lucy"
     ],
     "timeSeconds":365,
     "Poss":"sewanee",
@@ -3969,13 +3969,13 @@
     "homePlayer2":"hall,ora",
     "homePlayer3":"canady,cair",
     "homePlayer4":"savage,breezy",
-    "homePlayer5":null,
+    "homePlayer5":"benson,lucy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -5039,7 +5039,7 @@
       "canady,cair",
       "savage,breezy",
       "neff,amanda",
-      null
+      "hall,ora"
     ],
     "timeSeconds":303,
     "Poss":"covenant",
@@ -5061,13 +5061,13 @@
     "homePlayer2":"canady,cair",
     "homePlayer3":"savage,breezy",
     "homePlayer4":"neff,amanda",
-    "homePlayer5":null,
+    "homePlayer5":"hall,ora",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -5188,7 +5188,7 @@
       "humphrey,faith",
       "sedo,zoe",
       "cleveland,hannah",
-      null
+      "falvey,olivia"
     ],
     "homeLineup":[
       "witt,abby",
@@ -5222,8 +5222,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"falvey,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -6436,7 +6436,7 @@
       "sedo,zoe",
       "cleveland,hannah",
       "keating-rendon,brian",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "witt,abby",
@@ -6470,8 +6470,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -6982,7 +6982,7 @@
       "sedo,zoe",
       "keating-rendon,brian",
       "falvey,olivia",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "witt,abby",
@@ -7016,8 +7016,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"keating-rendon,brian",
     "awayPlayer4":"falvey,olivia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -7762,7 +7762,7 @@
       "sedo,zoe",
       "falvey,olivia",
       "conn,shay",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "witt,abby",
@@ -7796,8 +7796,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"conn,shay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -9244,7 +9244,7 @@
       "sedo,zoe",
       "falvey,olivia",
       "phillips,lilly",
-      null
+      "conn,shay"
     ],
     "homeLineup":[
       "witt,abby",
@@ -9278,8 +9278,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"phillips,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"conn,shay",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -9407,7 +9407,7 @@
       "canady,cair",
       "savage,breezy",
       "eidson,hannah",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":64,
     "Poss":"sewanee",
@@ -9429,13 +9429,13 @@
     "homePlayer2":"canady,cair",
     "homePlayer3":"savage,breezy",
     "homePlayer4":"eidson,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"phillips,lilly",
     "awayPlayer5":"porter,elliott",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -10336,7 +10336,7 @@
       "falvey,olivia",
       "phillips,lilly",
       "porter,elliott",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "witt,abby",
@@ -10370,8 +10370,8 @@
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"porter,elliott",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -11045,7 +11045,7 @@
       "canady,cair",
       "savage,breezy",
       "eidson,hannah",
-      null
+      "wasden,faith"
     ],
     "timeSeconds":600,
     "Poss":"covenant",
@@ -11067,13 +11067,13 @@
     "homePlayer2":"canady,cair",
     "homePlayer3":"savage,breezy",
     "homePlayer4":"eidson,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"wasden,faith",
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"porter,elliott",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -11122,7 +11122,7 @@
       "witt,abby",
       "savage,breezy",
       "eidson,hannah",
-      null,
+      "canady,cair",
       null
     ],
     "timeSeconds":600,
@@ -11144,7 +11144,7 @@
     "homePlayer1":"witt,abby",
     "homePlayer2":"savage,breezy",
     "homePlayer3":"eidson,hannah",
-    "homePlayer4":null,
+    "homePlayer4":"canady,cair",
     "homePlayer5":null,
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"falvey,olivia",
@@ -11201,7 +11201,7 @@
       "savage,breezy",
       "eidson,hannah",
       "neff,amanda",
-      null
+      "benson,lucy"
     ],
     "timeSeconds":600,
     "Poss":"covenant",
@@ -11223,13 +11223,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"eidson,hannah",
     "homePlayer4":"neff,amanda",
-    "homePlayer5":null,
+    "homePlayer5":"benson,lucy",
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"porter,elliott",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -12683,7 +12683,7 @@
       "savage,breezy",
       "neff,amanda",
       "benson,lucy",
-      null
+      "eidson,hannah"
     ],
     "timeSeconds":489,
     "Poss":"sewanee",
@@ -12705,13 +12705,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"benson,lucy",
-    "homePlayer5":null,
+    "homePlayer5":"eidson,hannah",
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"porter,elliott",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -13931,7 +13931,7 @@
       "neff,amanda",
       "benson,lucy",
       "canady,cair",
-      null
+      "witt,abby"
     ],
     "timeSeconds":369,
     "Poss":"sewanee",
@@ -13953,13 +13953,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
     "homePlayer4":"canady,cair",
-    "homePlayer5":null,
+    "homePlayer5":"witt,abby",
     "awayPlayer1":"wright,cydney",
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"porter,elliott",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -14080,7 +14080,7 @@
       "phillips,lilly",
       "porter,elliott",
       "humphrey,faith",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "savage,breezy",
@@ -14114,8 +14114,8 @@
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -14157,7 +14157,7 @@
       "falvey,olivia",
       "porter,elliott",
       "humphrey,faith",
-      null,
+      "phillips,lilly",
       null
     ],
     "homeLineup":[
@@ -14191,7 +14191,7 @@
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"porter,elliott",
     "awayPlayer3":"humphrey,faith",
-    "awayPlayer4":null,
+    "awayPlayer4":"phillips,lilly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14234,7 +14234,7 @@
     "awayLineup":[
       "porter,elliott",
       "humphrey,faith",
-      null,
+      "falvey,olivia",
       null,
       null
     ],
@@ -14268,7 +14268,7 @@
     "homePlayer5":"hall,ora",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"humphrey,faith",
-    "awayPlayer3":null,
+    "awayPlayer3":"falvey,olivia",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -14313,7 +14313,7 @@
       "porter,elliott",
       "humphrey,faith",
       "sedo,zoe",
-      null,
+      "falvey,olivia",
       null
     ],
     "homeLineup":[
@@ -14347,7 +14347,7 @@
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
-    "awayPlayer4":null,
+    "awayPlayer4":"falvey,olivia",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -14392,7 +14392,7 @@
       "humphrey,faith",
       "sedo,zoe",
       "conn,shay",
-      null
+      "falvey,olivia"
     ],
     "homeLineup":[
       "savage,breezy",
@@ -14426,8 +14426,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"conn,shay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"falvey,olivia",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -14789,7 +14789,7 @@
       "neff,amanda",
       "canady,cair",
       "hall,ora",
-      null
+      "benson,lucy"
     ],
     "timeSeconds":315,
     "Poss":"sewanee",
@@ -14811,13 +14811,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"canady,cair",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"benson,lucy",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"conn,shay",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -14866,7 +14866,7 @@
       "neff,amanda",
       "canady,cair",
       "hall,ora",
-      null,
+      "savage,breezy",
       null
     ],
     "timeSeconds":315,
@@ -14888,7 +14888,7 @@
     "homePlayer1":"neff,amanda",
     "homePlayer2":"canady,cair",
     "homePlayer3":"hall,ora",
-    "homePlayer4":null,
+    "homePlayer4":"savage,breezy",
     "homePlayer5":null,
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"humphrey,faith",
@@ -14945,7 +14945,7 @@
       "canady,cair",
       "hall,ora",
       "eidson,hannah",
-      null
+      "witt,abby"
     ],
     "timeSeconds":315,
     "Poss":"sewanee",
@@ -14967,13 +14967,13 @@
     "homePlayer2":"canady,cair",
     "homePlayer3":"hall,ora",
     "homePlayer4":"eidson,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"witt,abby",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"conn,shay",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -15640,7 +15640,7 @@
       "sedo,zoe",
       "conn,shay",
       "cleveland,hannah",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "neff,amanda",
@@ -15674,8 +15674,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -15959,7 +15959,7 @@
       "hall,ora",
       "eidson,hannah",
       "witt,abby",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":246,
     "Poss":"covenant",
@@ -15981,13 +15981,13 @@
     "homePlayer2":"hall,ora",
     "homePlayer3":"eidson,hannah",
     "homePlayer4":"witt,abby",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"falvey,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -16115,7 +16115,7 @@
       "eidson,hannah",
       "witt,abby",
       "wasden,faith",
-      null
+      "canady,cair"
     ],
     "timeSeconds":246,
     "Poss":"covenant",
@@ -16137,13 +16137,13 @@
     "homePlayer2":"eidson,hannah",
     "homePlayer3":"witt,abby",
     "homePlayer4":"wasden,faith",
-    "homePlayer5":null,
+    "homePlayer5":"canady,cair",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"falvey,olivia",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -17044,7 +17044,7 @@
       "conn,shay",
       "cleveland,hannah",
       "falvey,olivia",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "hall,ora",
@@ -17078,8 +17078,8 @@
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":"falvey,olivia",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -17121,7 +17121,7 @@
       "porter,elliott",
       "cleveland,hannah",
       "falvey,olivia",
-      null,
+      "conn,shay",
       null
     ],
     "homeLineup":[
@@ -17155,7 +17155,7 @@
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
-    "awayPlayer4":null,
+    "awayPlayer4":"conn,shay",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -17200,7 +17200,7 @@
       "cleveland,hannah",
       "falvey,olivia",
       "wright,cydney",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "hall,ora",
@@ -17234,8 +17234,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -17753,7 +17753,7 @@
       "eidson,hannah",
       "wasden,faith",
       "savage,breezy",
-      null
+      "witt,abby"
     ],
     "timeSeconds":149,
     "Poss":"sewanee",
@@ -17775,13 +17775,13 @@
     "homePlayer2":"eidson,hannah",
     "homePlayer3":"wasden,faith",
     "homePlayer4":"savage,breezy",
-    "homePlayer5":null,
+    "homePlayer5":"witt,abby",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -19235,7 +19235,7 @@
       "wasden,faith",
       "savage,breezy",
       "fuller,emma kaye",
-      null
+      "hall,ora"
     ],
     "timeSeconds":64,
     "Poss":"covenant",
@@ -19257,13 +19257,13 @@
     "homePlayer2":"wasden,faith",
     "homePlayer3":"savage,breezy",
     "homePlayer4":"fuller,emma kaye",
-    "homePlayer5":null,
+    "homePlayer5":"hall,ora",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -19312,7 +19312,7 @@
       "eidson,hannah",
       "savage,breezy",
       "fuller,emma kaye",
-      null,
+      "wasden,faith",
       null
     ],
     "timeSeconds":64,
@@ -19334,7 +19334,7 @@
     "homePlayer1":"eidson,hannah",
     "homePlayer2":"savage,breezy",
     "homePlayer3":"fuller,emma kaye",
-    "homePlayer4":null,
+    "homePlayer4":"wasden,faith",
     "homePlayer5":null,
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
@@ -19391,7 +19391,7 @@
       "savage,breezy",
       "fuller,emma kaye",
       "neff,amanda",
-      null
+      "witt,abby"
     ],
     "timeSeconds":64,
     "Poss":"covenant",
@@ -19413,13 +19413,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"fuller,emma kaye",
     "homePlayer4":"neff,amanda",
-    "homePlayer5":null,
+    "homePlayer5":"witt,abby",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -20249,7 +20249,7 @@
       "savage,breezy",
       "neff,amanda",
       "witt,abby",
-      null
+      "benson,lucy"
     ],
     "timeSeconds":600,
     "Poss":"covenant",
@@ -20271,13 +20271,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"witt,abby",
-    "homePlayer5":null,
+    "homePlayer5":"benson,lucy",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"falvey,olivia",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -20398,7 +20398,7 @@
       "falvey,olivia",
       "wright,cydney",
       "humphrey,faith",
-      null
+      "porter,elliott"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -20432,8 +20432,8 @@
     "awayPlayer2":"falvey,olivia",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"porter,elliott",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -20475,7 +20475,7 @@
       "falvey,olivia",
       "wright,cydney",
       "humphrey,faith",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -20509,7 +20509,7 @@
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -20554,7 +20554,7 @@
       "wright,cydney",
       "humphrey,faith",
       "phillips,lilly",
-      null
+      "conn,shay"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -20588,8 +20588,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"phillips,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"conn,shay",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -22823,7 +22823,7 @@
       "savage,breezy",
       "neff,amanda",
       "benson,lucy",
-      null
+      "witt,abby"
     ],
     "timeSeconds":457,
     "Poss":"covenant",
@@ -22845,13 +22845,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"benson,lucy",
-    "homePlayer5":null,
+    "homePlayer5":"witt,abby",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"phillips,lilly",
     "awayPlayer5":"conn,shay",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -22972,6 +22972,84 @@
       "wright,cydney",
       "humphrey,faith",
       "conn,shay",
+      "phillips,lilly"
+    ],
+    "homeLineup":[
+      "eidson,hannah",
+      "savage,breezy",
+      "neff,amanda",
+      "benson,lucy",
+      "hall,ora"
+    ],
+    "timeSeconds":457,
+    "Poss":"covenant",
+    "possNum":50,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":85,
+    "teamChanged":0,
+    "game":"CovenantSewanee11\/13\/24",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"eidson,hannah",
+    "homePlayer2":"savage,breezy",
+    "homePlayer3":"neff,amanda",
+    "homePlayer4":"benson,lucy",
+    "homePlayer5":"hall,ora",
+    "awayPlayer1":"falvey,olivia",
+    "awayPlayer2":"wright,cydney",
+    "awayPlayer3":"humphrey,faith",
+    "awayPlayer4":"conn,shay",
+    "awayPlayer5":"phillips,lilly",
+    "playerMissing":0
+  },
+  {
+    "gameID":"8846",
+    "homeTeam":"Covenant",
+    "awayTeam":"Sewanee",
+    "saaGame":"0",
+    "finalScore":"72-64",
+    "homeScoreByPeriod":"\nCOV\nCovenant\n,17,8,17,22,64",
+    "awayScoreByPeriod":"\nWinner\nSewan\nSewanee\n,13,13,14,32,72",
+    "homeRecord":"1-2",
+    "awayRecord":"1-2",
+    "homeConfRecord":"0-0",
+    "awayConfRecord":"0-0",
+    "gameDate":"11\/13\/24",
+    "startTime":"5:30 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"Barnes Physical Education Center, Lookout Mountain, GA",
+    "homeWin":"Lose",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"156",
+    "isNeutral":"False",
+    "timeRemaining":"07:37",
+    "awayPlay":"SUB OUT by CONN,SHAY",
+    "awayTeamScore":"29",
+    "playTeamIndicator":"",
+    "homeTeamScore":"31 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CONN,SHAY",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"conn,shay",
+    "pointsEarned":"",
+    "awayLineup":[
+      "falvey,olivia",
+      "wright,cydney",
+      "humphrey,faith",
+      "conn,shay",
       null
     ],
     "homeLineup":[
@@ -23031,84 +23109,6 @@
     "attendance":"156",
     "isNeutral":"False",
     "timeRemaining":"07:37",
-    "awayPlay":"SUB OUT by CONN,SHAY",
-    "awayTeamScore":"29",
-    "playTeamIndicator":"",
-    "homeTeamScore":"31 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CONN,SHAY",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"conn,shay",
-    "pointsEarned":"",
-    "awayLineup":[
-      "falvey,olivia",
-      "wright,cydney",
-      "humphrey,faith",
-      null,
-      null
-    ],
-    "homeLineup":[
-      "eidson,hannah",
-      "savage,breezy",
-      "neff,amanda",
-      "benson,lucy",
-      "hall,ora"
-    ],
-    "timeSeconds":457,
-    "Poss":"covenant",
-    "possNum":50,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":85,
-    "teamChanged":0,
-    "game":"CovenantSewanee11\/13\/24",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"eidson,hannah",
-    "homePlayer2":"savage,breezy",
-    "homePlayer3":"neff,amanda",
-    "homePlayer4":"benson,lucy",
-    "homePlayer5":"hall,ora",
-    "awayPlayer1":"falvey,olivia",
-    "awayPlayer2":"wright,cydney",
-    "awayPlayer3":"humphrey,faith",
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"8846",
-    "homeTeam":"Covenant",
-    "awayTeam":"Sewanee",
-    "saaGame":"0",
-    "finalScore":"72-64",
-    "homeScoreByPeriod":"\nCOV\nCovenant\n,17,8,17,22,64",
-    "awayScoreByPeriod":"\nWinner\nSewan\nSewanee\n,13,13,14,32,72",
-    "homeRecord":"1-2",
-    "awayRecord":"1-2",
-    "homeConfRecord":"0-0",
-    "awayConfRecord":"0-0",
-    "gameDate":"11\/13\/24",
-    "startTime":"5:30 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"Barnes Physical Education Center, Lookout Mountain, GA",
-    "homeWin":"Lose",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"156",
-    "isNeutral":"False",
-    "timeRemaining":"07:37",
     "awayPlay":"SUB IN by SEDO,ZOE",
     "awayTeamScore":"29",
     "playTeamIndicator":"",
@@ -23128,7 +23128,7 @@
       "wright,cydney",
       "humphrey,faith",
       "sedo,zoe",
-      null
+      "conn,shay"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -23162,8 +23162,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"conn,shay",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -23915,7 +23915,7 @@
       "savage,breezy",
       "neff,amanda",
       "hall,ora",
-      null
+      "benson,lucy"
     ],
     "timeSeconds":403,
     "Poss":"sewanee",
@@ -23937,13 +23937,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"benson,lucy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -24305,7 +24305,7 @@
       "savage,breezy",
       "neff,amanda",
       "canady,cair",
-      null
+      "hall,ora"
     ],
     "timeSeconds":400,
     "Poss":"covenant",
@@ -24327,13 +24327,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"canady,cair",
-    "homePlayer5":null,
+    "homePlayer5":"hall,ora",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -25397,7 +25397,7 @@
       "savage,breezy",
       "canady,cair",
       "witt,abby",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":277,
     "Poss":"covenant",
@@ -25419,13 +25419,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"canady,cair",
     "homePlayer4":"witt,abby",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -26021,7 +26021,7 @@
       "savage,breezy",
       "canady,cair",
       "witt,abby",
-      null
+      "wasden,faith"
     ],
     "timeSeconds":243,
     "Poss":"sewanee",
@@ -26043,13 +26043,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"canady,cair",
     "homePlayer4":"witt,abby",
-    "homePlayer5":null,
+    "homePlayer5":"wasden,faith",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -26098,7 +26098,7 @@
       "eidson,hannah",
       "savage,breezy",
       "witt,abby",
-      null,
+      "canady,cair",
       null
     ],
     "timeSeconds":243,
@@ -26120,7 +26120,7 @@
     "homePlayer1":"eidson,hannah",
     "homePlayer2":"savage,breezy",
     "homePlayer3":"witt,abby",
-    "homePlayer4":null,
+    "homePlayer4":"canady,cair",
     "homePlayer5":null,
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
@@ -26177,7 +26177,7 @@
       "savage,breezy",
       "witt,abby",
       "hall,ora",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":243,
     "Poss":"sewanee",
@@ -26199,13 +26199,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"witt,abby",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -27425,7 +27425,7 @@
       "savage,breezy",
       "witt,abby",
       "hall,ora",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":192,
     "Poss":"covenant",
@@ -27447,13 +27447,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"witt,abby",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -28205,7 +28205,7 @@
       "savage,breezy",
       "witt,abby",
       "hall,ora",
-      null
+      "wasden,faith"
     ],
     "timeSeconds":138,
     "Poss":"sewanee",
@@ -28227,13 +28227,13 @@
     "homePlayer2":"savage,breezy",
     "homePlayer3":"witt,abby",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"wasden,faith",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -29056,7 +29056,7 @@
       "wright,cydney",
       "humphrey,faith",
       "sedo,zoe",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -29090,8 +29090,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -29290,7 +29290,7 @@
       "humphrey,faith",
       "sedo,zoe",
       "porter,elliott",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -29324,8 +29324,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"porter,elliott",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -29836,7 +29836,7 @@
       "humphrey,faith",
       "porter,elliott",
       "conn,shay",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "eidson,hannah",
@@ -29870,8 +29870,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"conn,shay",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -31091,7 +31091,7 @@
       "witt,abby",
       "hall,ora",
       "neff,amanda",
-      null
+      "eidson,hannah"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -31113,13 +31113,13 @@
     "homePlayer2":"witt,abby",
     "homePlayer3":"hall,ora",
     "homePlayer4":"neff,amanda",
-    "homePlayer5":null,
+    "homePlayer5":"eidson,hannah",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"conn,shay",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -32332,7 +32332,7 @@
       "humphrey,faith",
       "conn,shay",
       "keating-rendon,brian",
-      null
+      "porter,elliott"
     ],
     "homeLineup":[
       "savage,breezy",
@@ -32366,8 +32366,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"porter,elliott",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -32409,7 +32409,7 @@
       "falvey,olivia",
       "humphrey,faith",
       "conn,shay",
-      null,
+      "wright,cydney",
       null
     ],
     "homeLineup":[
@@ -32443,7 +32443,7 @@
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"conn,shay",
-    "awayPlayer4":null,
+    "awayPlayer4":"wright,cydney",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32488,7 +32488,7 @@
       "humphrey,faith",
       "conn,shay",
       "wright,cydney",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "savage,breezy",
@@ -32522,8 +32522,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -33197,7 +33197,7 @@
       "witt,abby",
       "neff,amanda",
       "benson,lucy",
-      null
+      "hall,ora"
     ],
     "timeSeconds":497,
     "Poss":"sewanee",
@@ -33219,13 +33219,13 @@
     "homePlayer2":"witt,abby",
     "homePlayer3":"neff,amanda",
     "homePlayer4":"benson,lucy",
-    "homePlayer5":null,
+    "homePlayer5":"hall,ora",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -33274,7 +33274,7 @@
       "witt,abby",
       "neff,amanda",
       "benson,lucy",
-      null,
+      "savage,breezy",
       null
     ],
     "timeSeconds":497,
@@ -33296,7 +33296,7 @@
     "homePlayer1":"witt,abby",
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
-    "homePlayer4":null,
+    "homePlayer4":"savage,breezy",
     "homePlayer5":null,
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"humphrey,faith",
@@ -33353,7 +33353,7 @@
       "neff,amanda",
       "benson,lucy",
       "eidson,hannah",
-      null
+      "savage,breezy"
     ],
     "timeSeconds":497,
     "Poss":"sewanee",
@@ -33375,13 +33375,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
     "homePlayer4":"eidson,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"savage,breezy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"conn,shay",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -34048,7 +34048,7 @@
       "conn,shay",
       "wright,cydney",
       "cleveland,hannah",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "witt,abby",
@@ -34082,8 +34082,8 @@
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -34523,7 +34523,7 @@
       "neff,amanda",
       "benson,lucy",
       "canady,cair",
-      null
+      "eidson,hannah"
     ],
     "timeSeconds":439,
     "Poss":"sewanee",
@@ -34545,13 +34545,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
     "homePlayer4":"canady,cair",
-    "homePlayer5":null,
+    "homePlayer5":"eidson,hannah",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -35147,7 +35147,7 @@
       "neff,amanda",
       "benson,lucy",
       "canady,cair",
-      null
+      "savage,breezy"
     ],
     "timeSeconds":400,
     "Poss":"sewanee",
@@ -35169,13 +35169,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
     "homePlayer4":"canady,cair",
-    "homePlayer5":null,
+    "homePlayer5":"savage,breezy",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -35296,7 +35296,7 @@
       "conn,shay",
       "wright,cydney",
       "cleveland,hannah",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "witt,abby",
@@ -35330,8 +35330,8 @@
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -35927,7 +35927,7 @@
       "neff,amanda",
       "benson,lucy",
       "eidson,hannah",
-      null
+      "canady,cair"
     ],
     "timeSeconds":351,
     "Poss":"sewanee",
@@ -35949,13 +35949,13 @@
     "homePlayer2":"neff,amanda",
     "homePlayer3":"benson,lucy",
     "homePlayer4":"eidson,hannah",
-    "homePlayer5":null,
+    "homePlayer5":"canady,cair",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -36551,7 +36551,7 @@
       "benson,lucy",
       "eidson,hannah",
       "hall,ora",
-      null
+      "neff,amanda"
     ],
     "timeSeconds":319,
     "Poss":"sewanee",
@@ -36573,13 +36573,13 @@
     "homePlayer2":"benson,lucy",
     "homePlayer3":"eidson,hannah",
     "homePlayer4":"hall,ora",
-    "homePlayer5":null,
+    "homePlayer5":"neff,amanda",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"humphrey,faith",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -37246,7 +37246,7 @@
       "conn,shay",
       "wright,cydney",
       "humphrey,faith",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "witt,abby",
@@ -37280,8 +37280,8 @@
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -39274,7 +39274,7 @@
       "conn,shay",
       "wright,cydney",
       "humphrey,faith",
-      null
+      "porter,elliott"
     ],
     "homeLineup":[
       "witt,abby",
@@ -39308,8 +39308,8 @@
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"porter,elliott",
+    "playerMissing":0
   },
   {
     "gameID":"8846",
@@ -40217,7 +40217,7 @@
       "benson,lucy",
       "hall,ora",
       "savage,breezy",
-      null
+      "eidson,hannah"
     ],
     "timeSeconds":57,
     "Poss":"covenant",
@@ -40239,13 +40239,13 @@
     "homePlayer2":"benson,lucy",
     "homePlayer3":"hall,ora",
     "homePlayer4":"savage,breezy",
-    "homePlayer5":null,
+    "homePlayer5":"eidson,hannah",
     "awayPlayer1":"falvey,olivia",
     "awayPlayer2":"conn,shay",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8846",

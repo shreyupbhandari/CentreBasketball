@@ -1685,7 +1685,7 @@
       "adams,emily",
       "novak,whitney",
       "frank,taylor",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":417,
     "Poss":"millsaps",
@@ -1707,13 +1707,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"phillips,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -1750,6 +1750,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"adams,emily",
+    "pointsEarned":"",
+    "awayLineup":[
+      "cleveland,hannah",
+      "sedo,zoe",
+      "wright,cydney",
+      "humphrey,faith",
+      "phillips,lilly"
+    ],
+    "homeLineup":[
+      "freeman,garin",
+      "novak,whitney",
+      "frank,taylor",
+      "adams,emily",
+      null
+    ],
+    "timeSeconds":417,
+    "Poss":"millsaps",
+    "possNum":7,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":14,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,garin",
+    "homePlayer2":"novak,whitney",
+    "homePlayer3":"frank,taylor",
+    "homePlayer4":"adams,emily",
+    "homePlayer5":null,
+    "awayPlayer1":"cleveland,hannah",
+    "awayPlayer2":"sedo,zoe",
+    "awayPlayer3":"wright,cydney",
+    "awayPlayer4":"humphrey,faith",
+    "awayPlayer5":"phillips,lilly",
+    "playerMissing":1
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"06:57",
+    "awayPlay":"",
+    "awayTeamScore":"3",
+    "playTeamIndicator":"",
+    "homeTeamScore":"7 ",
+    "homePlay":"SUB OUT by FRANK,TAYLOR",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by FRANK,TAYLOR",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"frank,taylor",
     "pointsEarned":"",
     "awayLineup":[
       "cleveland,hannah",
@@ -1819,84 +1897,6 @@
     "awayTeamScore":"3",
     "playTeamIndicator":"",
     "homeTeamScore":"7 ",
-    "homePlay":"SUB OUT by FRANK,TAYLOR",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by FRANK,TAYLOR",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"frank,taylor",
-    "pointsEarned":"",
-    "awayLineup":[
-      "cleveland,hannah",
-      "sedo,zoe",
-      "wright,cydney",
-      "humphrey,faith",
-      "phillips,lilly"
-    ],
-    "homeLineup":[
-      "freeman,garin",
-      "novak,whitney",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":417,
-    "Poss":"millsaps",
-    "possNum":7,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":14,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,garin",
-    "homePlayer2":"novak,whitney",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"cleveland,hannah",
-    "awayPlayer2":"sedo,zoe",
-    "awayPlayer3":"wright,cydney",
-    "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":"phillips,lilly",
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"06:57",
-    "awayPlay":"",
-    "awayTeamScore":"3",
-    "playTeamIndicator":"",
-    "homeTeamScore":"7 ",
     "homePlay":"SUB IN by KEYES,LEXUS",
     "gameScore":"",
     "teamIndicator":"",
@@ -1918,7 +1918,7 @@
       "freeman,garin",
       "novak,whitney",
       "keyes,lexus",
-      null,
+      "franklin,haley",
       null
     ],
     "timeSeconds":417,
@@ -1940,7 +1940,7 @@
     "homePlayer1":"freeman,garin",
     "homePlayer2":"novak,whitney",
     "homePlayer3":"keyes,lexus",
-    "homePlayer4":null,
+    "homePlayer4":"franklin,haley",
     "homePlayer5":null,
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"sedo,zoe",
@@ -1997,7 +1997,7 @@
       "novak,whitney",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":417,
     "Poss":"millsaps",
@@ -2019,13 +2019,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"phillips,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -2146,7 +2146,7 @@
       "sedo,zoe",
       "wright,cydney",
       "humphrey,faith",
-      null
+      "phillips,lilly"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -2180,8 +2180,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lilly",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -2218,6 +2218,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"sedo,zoe",
+    "pointsEarned":"",
+    "awayLineup":[
+      "cleveland,hannah",
+      "wright,cydney",
+      "humphrey,faith",
+      "sedo,zoe",
+      null
+    ],
+    "homeLineup":[
+      "freeman,garin",
+      "novak,whitney",
+      "keyes,lexus",
+      "warren,elyse",
+      "anderson,tia"
+    ],
+    "timeSeconds":417,
+    "Poss":"millsaps",
+    "possNum":7,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":14,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"freeman,garin",
+    "homePlayer2":"novak,whitney",
+    "homePlayer3":"keyes,lexus",
+    "homePlayer4":"warren,elyse",
+    "homePlayer5":"anderson,tia",
+    "awayPlayer1":"cleveland,hannah",
+    "awayPlayer2":"wright,cydney",
+    "awayPlayer3":"humphrey,faith",
+    "awayPlayer4":"sedo,zoe",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"06:57",
+    "awayPlay":"SUB OUT by HUMPHREY,FAITH",
+    "awayTeamScore":"3",
+    "playTeamIndicator":"",
+    "homeTeamScore":"7 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by HUMPHREY,FAITH",
+    "Period":"1",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"humphrey,faith",
     "pointsEarned":"",
     "awayLineup":[
       "cleveland,hannah",
@@ -2283,84 +2361,6 @@
     "attendance":"110",
     "isNeutral":"False",
     "timeRemaining":"06:57",
-    "awayPlay":"SUB OUT by HUMPHREY,FAITH",
-    "awayTeamScore":"3",
-    "playTeamIndicator":"",
-    "homeTeamScore":"7 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by HUMPHREY,FAITH",
-    "Period":"1",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"humphrey,faith",
-    "pointsEarned":"",
-    "awayLineup":[
-      "cleveland,hannah",
-      "wright,cydney",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "freeman,garin",
-      "novak,whitney",
-      "keyes,lexus",
-      "warren,elyse",
-      "anderson,tia"
-    ],
-    "timeSeconds":417,
-    "Poss":"millsaps",
-    "possNum":7,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":14,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"freeman,garin",
-    "homePlayer2":"novak,whitney",
-    "homePlayer3":"keyes,lexus",
-    "homePlayer4":"warren,elyse",
-    "homePlayer5":"anderson,tia",
-    "awayPlayer1":"cleveland,hannah",
-    "awayPlayer2":"wright,cydney",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"06:57",
     "awayPlay":"SUB IN by NORTHRUP,KAYLA",
     "awayTeamScore":"3",
     "playTeamIndicator":"",
@@ -2379,7 +2379,7 @@
       "cleveland,hannah",
       "wright,cydney",
       "northrup,kayla",
-      null,
+      "humphrey,faith",
       null
     ],
     "homeLineup":[
@@ -2413,7 +2413,7 @@
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"northrup,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"humphrey,faith",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -2458,7 +2458,7 @@
       "wright,cydney",
       "northrup,kayla",
       "gavin,grace",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -2492,8 +2492,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -3713,7 +3713,7 @@
       "keyes,lexus",
       "warren,elyse",
       "anderson,tia",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":292,
     "Poss":"millsaps",
@@ -3735,13 +3735,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -3862,7 +3862,7 @@
       "northrup,kayla",
       "gavin,grace",
       "keating-rendon,brian",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -3896,8 +3896,8 @@
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -4876,7 +4876,7 @@
       "northrup,kayla",
       "keating-rendon,brian",
       "humphrey,faith",
-      null
+      "gavin,grace"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -4910,8 +4910,8 @@
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"keating-rendon,brian",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"gavin,grace",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -5351,7 +5351,7 @@
       "warren,elyse",
       "anderson,tia",
       "franklin,haley",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":203,
     "Poss":"sewanee",
@@ -5373,13 +5373,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"cleveland,hannah",
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"keating-rendon,brian",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -5500,7 +5500,7 @@
       "keating-rendon,brian",
       "humphrey,faith",
       "sedo,zoe",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -5534,8 +5534,8 @@
     "awayPlayer2":"keating-rendon,brian",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -6833,7 +6833,7 @@
       "anderson,tia",
       "franklin,haley",
       "adams,emily",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":85,
     "Poss":"millsaps",
@@ -6855,13 +6855,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"keating-rendon,brian",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"sedo,zoe",
     "awayPlayer5":"wright,cydney",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -7060,7 +7060,7 @@
       "humphrey,faith",
       "sedo,zoe",
       "wright,cydney",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "warren,elyse",
@@ -7094,8 +7094,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -7691,7 +7691,7 @@
       "franklin,haley",
       "adams,emily",
       "freeman,garin",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":34,
     "Poss":"millsaps",
@@ -7713,13 +7713,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"adams,emily",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"gavin,grace",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -7840,7 +7840,7 @@
       "humphrey,faith",
       "sedo,zoe",
       "gavin,grace",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "anderson,tia",
@@ -7874,8 +7874,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"gavin,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -9407,7 +9407,7 @@
       "franklin,haley",
       "freeman,garin",
       "frank,taylor",
-      null
+      "adams,emily"
     ],
     "timeSeconds":494,
     "Poss":"sewanee",
@@ -9429,13 +9429,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -9484,7 +9484,7 @@
       "franklin,haley",
       "freeman,garin",
       "frank,taylor",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":494,
@@ -9506,7 +9506,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"freeman,garin",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"humphrey,faith",
@@ -9563,7 +9563,7 @@
       "freeman,garin",
       "frank,taylor",
       "keyes,lexus",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":494,
     "Poss":"sewanee",
@@ -9585,13 +9585,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"keyes,lexus",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -9712,7 +9712,7 @@
       "humphrey,faith",
       "gavin,grace",
       "cleveland,hannah",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -9746,8 +9746,8 @@
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -10265,7 +10265,7 @@
       "freeman,garin",
       "keyes,lexus",
       "novak,whitney",
-      null
+      "frank,taylor"
     ],
     "timeSeconds":439,
     "Poss":"millsaps",
@@ -10287,13 +10287,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"frank,taylor",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"phillips,lilly",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -10804,7 +10804,7 @@
       "gavin,grace",
       "cleveland,hannah",
       "phillips,lilly",
-      null
+      "northrup,kayla"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -10838,8 +10838,8 @@
     "awayPlayer2":"gavin,grace",
     "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":"phillips,lilly",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"northrup,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -10881,7 +10881,7 @@
       "humphrey,faith",
       "cleveland,hannah",
       "phillips,lilly",
-      null,
+      "gavin,grace",
       null
     ],
     "homeLineup":[
@@ -10915,7 +10915,7 @@
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
-    "awayPlayer4":null,
+    "awayPlayer4":"gavin,grace",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -10960,7 +10960,7 @@
       "cleveland,hannah",
       "phillips,lilly",
       "wright,cydney",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -10994,8 +10994,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -11981,7 +11981,7 @@
       "keyes,lexus",
       "novak,whitney",
       "anderson,tia",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":380,
     "Poss":"sewanee",
@@ -12003,13 +12003,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"novak,whitney",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -12832,7 +12832,7 @@
       "cleveland,hannah",
       "phillips,lilly",
       "wright,cydney",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "freeman,garin",
@@ -12866,8 +12866,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -12995,7 +12995,7 @@
       "novak,whitney",
       "anderson,tia",
       "adams,emily",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":318,
     "Poss":"millsaps",
@@ -13017,13 +13017,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -13697,7 +13697,7 @@
       "novak,whitney",
       "anderson,tia",
       "maw,maddy",
-      null
+      "adams,emily"
     ],
     "timeSeconds":256,
     "Poss":"millsaps",
@@ -13719,13 +13719,13 @@
     "homePlayer2":"novak,whitney",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"maw,maddy",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -14711,7 +14711,7 @@
       "anderson,tia",
       "maw,maddy",
       "franklin,haley",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":190,
     "Poss":"sewanee",
@@ -14733,13 +14733,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"maw,maddy",
     "homePlayer4":"franklin,haley",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -14788,7 +14788,7 @@
       "novak,whitney",
       "anderson,tia",
       "franklin,haley",
-      null,
+      "maw,maddy",
       null
     ],
     "timeSeconds":190,
@@ -14810,7 +14810,7 @@
     "homePlayer1":"novak,whitney",
     "homePlayer2":"anderson,tia",
     "homePlayer3":"franklin,haley",
-    "homePlayer4":null,
+    "homePlayer4":"maw,maddy",
     "homePlayer5":null,
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
@@ -14867,7 +14867,7 @@
       "anderson,tia",
       "franklin,haley",
       "freeman,garin",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":190,
     "Poss":"sewanee",
@@ -14889,13 +14889,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"franklin,haley",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"sedo,zoe",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -15016,7 +15016,7 @@
       "cleveland,hannah",
       "phillips,lilly",
       "wright,cydney",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "novak,whitney",
@@ -15050,8 +15050,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -15725,7 +15725,7 @@
       "franklin,haley",
       "freeman,garin",
       "adams,emily",
-      null
+      "novak,whitney"
     ],
     "timeSeconds":146,
     "Poss":"millsaps",
@@ -15747,13 +15747,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"freeman,garin",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"novak,whitney",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"wright,cydney",
     "awayPlayer5":"northrup,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -16732,7 +16732,7 @@
       "cleveland,hannah",
       "phillips,lilly",
       "northrup,kayla",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "anderson,tia",
@@ -16766,8 +16766,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"northrup,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -16809,7 +16809,7 @@
       "humphrey,faith",
       "phillips,lilly",
       "northrup,kayla",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -16843,7 +16843,7 @@
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"northrup,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -16888,7 +16888,7 @@
       "phillips,lilly",
       "northrup,kayla",
       "gavin,grace",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "anderson,tia",
@@ -16922,8 +16922,8 @@
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -17285,7 +17285,7 @@
       "franklin,haley",
       "adams,emily",
       "frank,taylor",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":77,
     "Poss":"sewanee",
@@ -17307,13 +17307,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"adams,emily",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -17987,7 +17987,7 @@
       "franklin,haley",
       "adams,emily",
       "frank,taylor",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -18009,13 +18009,13 @@
     "homePlayer2":"franklin,haley",
     "homePlayer3":"adams,emily",
     "homePlayer4":"frank,taylor",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -18064,7 +18064,7 @@
       "franklin,haley",
       "adams,emily",
       "frank,taylor",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":600,
@@ -18086,7 +18086,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"adams,emily",
     "homePlayer3":"frank,taylor",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
@@ -18143,7 +18143,7 @@
       "adams,emily",
       "frank,taylor",
       "freeman,garin",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -18165,13 +18165,13 @@
     "homePlayer2":"adams,emily",
     "homePlayer3":"frank,taylor",
     "homePlayer4":"freeman,garin",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -18292,7 +18292,7 @@
       "phillips,lilly",
       "gavin,grace",
       "keating-rendon,brian",
-      null
+      "northrup,kayla"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -18326,8 +18326,8 @@
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"northrup,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -18369,7 +18369,7 @@
       "humphrey,faith",
       "phillips,lilly",
       "keating-rendon,brian",
-      null,
+      "gavin,grace",
       null
     ],
     "homeLineup":[
@@ -18403,7 +18403,7 @@
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"keating-rendon,brian",
-    "awayPlayer4":null,
+    "awayPlayer4":"gavin,grace",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18446,7 +18446,7 @@
     "awayLineup":[
       "humphrey,faith",
       "phillips,lilly",
-      null,
+      "cleveland,hannah",
       null,
       null
     ],
@@ -18480,7 +18480,7 @@
     "homePlayer5":"novak,whitney",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
-    "awayPlayer3":null,
+    "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -18525,7 +18525,7 @@
       "humphrey,faith",
       "phillips,lilly",
       "wright,cydney",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -18559,7 +18559,7 @@
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"wright,cydney",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -18604,7 +18604,7 @@
       "phillips,lilly",
       "wright,cydney",
       "sedo,zoe",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -18638,8 +18638,8 @@
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"wright,cydney",
     "awayPlayer4":"sedo,zoe",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -20008,7 +20008,7 @@
       "wright,cydney",
       "sedo,zoe",
       "cleveland,hannah",
-      null
+      "phillips,lilly"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -20042,8 +20042,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"phillips,lilly",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -21653,6 +21653,84 @@
       "frank,taylor",
       "freeman,garin",
       "novak,whitney",
+      "adams,emily"
+    ],
+    "timeSeconds":395,
+    "Poss":"millsaps",
+    "possNum":45,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":2,
+    "possSequence":85,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"franklin,haley",
+    "homePlayer2":"frank,taylor",
+    "homePlayer3":"freeman,garin",
+    "homePlayer4":"novak,whitney",
+    "homePlayer5":"adams,emily",
+    "awayPlayer1":"humphrey,faith",
+    "awayPlayer2":"wright,cydney",
+    "awayPlayer3":"sedo,zoe",
+    "awayPlayer4":"cleveland,hannah",
+    "awayPlayer5":"northrup,kayla",
+    "playerMissing":0
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"06:35",
+    "awayPlay":"",
+    "awayTeamScore":"19",
+    "playTeamIndicator":"",
+    "homeTeamScore":"45 ",
+    "homePlay":"SUB OUT by NOVAK,WHITNEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by NOVAK,WHITNEY",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"novak,whitney",
+    "pointsEarned":"",
+    "awayLineup":[
+      "humphrey,faith",
+      "wright,cydney",
+      "sedo,zoe",
+      "cleveland,hannah",
+      "northrup,kayla"
+    ],
+    "homeLineup":[
+      "franklin,haley",
+      "frank,taylor",
+      "freeman,garin",
+      "novak,whitney",
       null
     ],
     "timeSeconds":395,
@@ -21709,84 +21787,6 @@
     "awayTeamScore":"19",
     "playTeamIndicator":"",
     "homeTeamScore":"45 ",
-    "homePlay":"SUB OUT by NOVAK,WHITNEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by NOVAK,WHITNEY",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"novak,whitney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "humphrey,faith",
-      "wright,cydney",
-      "sedo,zoe",
-      "cleveland,hannah",
-      "northrup,kayla"
-    ],
-    "homeLineup":[
-      "franklin,haley",
-      "frank,taylor",
-      "freeman,garin",
-      null,
-      null
-    ],
-    "timeSeconds":395,
-    "Poss":"millsaps",
-    "possNum":45,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":2,
-    "possSequence":85,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"franklin,haley",
-    "homePlayer2":"frank,taylor",
-    "homePlayer3":"freeman,garin",
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"humphrey,faith",
-    "awayPlayer2":"wright,cydney",
-    "awayPlayer3":"sedo,zoe",
-    "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":"northrup,kayla",
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"06:35",
-    "awayPlay":"",
-    "awayTeamScore":"19",
-    "playTeamIndicator":"",
-    "homeTeamScore":"45 ",
     "homePlay":"SUB OUT by FRANK,TAYLOR",
     "gameScore":"",
     "teamIndicator":"",
@@ -21807,7 +21807,7 @@
     "homeLineup":[
       "franklin,haley",
       "freeman,garin",
-      null,
+      "frank,taylor",
       null,
       null
     ],
@@ -21829,7 +21829,7 @@
     "secondsPerPoss":0,
     "homePlayer1":"franklin,haley",
     "homePlayer2":"freeman,garin",
-    "homePlayer3":null,
+    "homePlayer3":"frank,taylor",
     "homePlayer4":null,
     "homePlayer5":null,
     "awayPlayer1":"humphrey,faith",
@@ -21886,7 +21886,7 @@
       "franklin,haley",
       "freeman,garin",
       "keyes,lexus",
-      null,
+      "anderson,tia",
       null
     ],
     "timeSeconds":395,
@@ -21908,7 +21908,7 @@
     "homePlayer1":"franklin,haley",
     "homePlayer2":"freeman,garin",
     "homePlayer3":"keyes,lexus",
-    "homePlayer4":null,
+    "homePlayer4":"anderson,tia",
     "homePlayer5":null,
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"wright,cydney",
@@ -21965,7 +21965,7 @@
       "freeman,garin",
       "keyes,lexus",
       "warren,elyse",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":395,
     "Poss":"millsaps",
@@ -21987,13 +21987,13 @@
     "homePlayer2":"freeman,garin",
     "homePlayer3":"keyes,lexus",
     "homePlayer4":"warren,elyse",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"humphrey,faith",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"sedo,zoe",
     "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":"northrup,kayla",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -22114,7 +22114,7 @@
       "sedo,zoe",
       "cleveland,hannah",
       "northrup,kayla",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -22148,8 +22148,8 @@
     "awayPlayer2":"sedo,zoe",
     "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":"northrup,kayla",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -22191,7 +22191,7 @@
       "sedo,zoe",
       "cleveland,hannah",
       "northrup,kayla",
-      null,
+      "humphrey,faith",
       null
     ],
     "homeLineup":[
@@ -22225,7 +22225,7 @@
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"northrup,kayla",
-    "awayPlayer4":null,
+    "awayPlayer4":"humphrey,faith",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -22270,7 +22270,7 @@
       "cleveland,hannah",
       "northrup,kayla",
       "gavin,grace",
-      null
+      "humphrey,faith"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -22304,8 +22304,8 @@
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"humphrey,faith",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -23135,7 +23135,7 @@
       "keyes,lexus",
       "warren,elyse",
       "anderson,tia",
-      null
+      "freeman,garin"
     ],
     "timeSeconds":323,
     "Poss":"millsaps",
@@ -23157,13 +23157,13 @@
     "homePlayer2":"keyes,lexus",
     "homePlayer3":"warren,elyse",
     "homePlayer4":"anderson,tia",
-    "homePlayer5":null,
+    "homePlayer5":"freeman,garin",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":"northrup,kayla",
     "awayPlayer4":"gavin,grace",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -24298,7 +24298,7 @@
       "northrup,kayla",
       "gavin,grace",
       "keating-rendon,brian",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "franklin,haley",
@@ -24332,8 +24332,8 @@
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -24539,7 +24539,7 @@
       "warren,elyse",
       "anderson,tia",
       "adams,emily",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":253,
     "Poss":"millsaps",
@@ -24561,13 +24561,13 @@
     "homePlayer2":"warren,elyse",
     "homePlayer3":"anderson,tia",
     "homePlayer4":"adams,emily",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"keating-rendon,brian",
     "awayPlayer5":"porter,elliott",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -26021,7 +26021,7 @@
       "anderson,tia",
       "adams,emily",
       "hafley,ashlyn",
-      null
+      "warren,elyse"
     ],
     "timeSeconds":127,
     "Poss":"millsaps",
@@ -26043,13 +26043,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"adams,emily",
     "homePlayer4":"hafley,ashlyn",
-    "homePlayer5":null,
+    "homePlayer5":"warren,elyse",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"keating-rendon,brian",
     "awayPlayer5":"porter,elliott",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -26170,7 +26170,7 @@
       "gavin,grace",
       "keating-rendon,brian",
       "porter,elliott",
-      null
+      "northrup,kayla"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -26204,8 +26204,8 @@
     "awayPlayer2":"gavin,grace",
     "awayPlayer3":"keating-rendon,brian",
     "awayPlayer4":"porter,elliott",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"northrup,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -26242,6 +26242,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"gavin,grace",
+    "pointsEarned":"",
+    "awayLineup":[
+      "sedo,zoe",
+      "keating-rendon,brian",
+      "porter,elliott",
+      "gavin,grace",
+      null
+    ],
+    "homeLineup":[
+      "keyes,lexus",
+      "anderson,tia",
+      "adams,emily",
+      "hafley,ashlyn",
+      "lewis,anaya"
+    ],
+    "timeSeconds":127,
+    "Poss":"millsaps",
+    "possNum":49,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"millsaps",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":101,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"keyes,lexus",
+    "homePlayer2":"anderson,tia",
+    "homePlayer3":"adams,emily",
+    "homePlayer4":"hafley,ashlyn",
+    "homePlayer5":"lewis,anaya",
+    "awayPlayer1":"sedo,zoe",
+    "awayPlayer2":"keating-rendon,brian",
+    "awayPlayer3":"porter,elliott",
+    "awayPlayer4":"gavin,grace",
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"02:07",
+    "awayPlay":"SUB OUT by PORTER,ELLIOTT",
+    "awayTeamScore":"21",
+    "playTeamIndicator":"",
+    "homeTeamScore":"61 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by PORTER,ELLIOTT",
+    "Period":"3",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"porter,elliott",
     "pointsEarned":"",
     "awayLineup":[
       "sedo,zoe",
@@ -26307,84 +26385,6 @@
     "attendance":"110",
     "isNeutral":"False",
     "timeRemaining":"02:07",
-    "awayPlay":"SUB OUT by PORTER,ELLIOTT",
-    "awayTeamScore":"21",
-    "playTeamIndicator":"",
-    "homeTeamScore":"61 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by PORTER,ELLIOTT",
-    "Period":"3",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"porter,elliott",
-    "pointsEarned":"",
-    "awayLineup":[
-      "sedo,zoe",
-      "keating-rendon,brian",
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "keyes,lexus",
-      "anderson,tia",
-      "adams,emily",
-      "hafley,ashlyn",
-      "lewis,anaya"
-    ],
-    "timeSeconds":127,
-    "Poss":"millsaps",
-    "possNum":49,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"millsaps",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":101,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"keyes,lexus",
-    "homePlayer2":"anderson,tia",
-    "homePlayer3":"adams,emily",
-    "homePlayer4":"hafley,ashlyn",
-    "homePlayer5":"lewis,anaya",
-    "awayPlayer1":"sedo,zoe",
-    "awayPlayer2":"keating-rendon,brian",
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"02:07",
     "awayPlay":"SUB OUT by KEATING-RENDON,BRIAN",
     "awayTeamScore":"21",
     "playTeamIndicator":"",
@@ -26401,7 +26401,7 @@
     "pointsEarned":"",
     "awayLineup":[
       "sedo,zoe",
-      null,
+      "cleveland,hannah",
       null,
       null,
       null
@@ -26435,7 +26435,7 @@
     "homePlayer4":"hafley,ashlyn",
     "homePlayer5":"lewis,anaya",
     "awayPlayer1":"sedo,zoe",
-    "awayPlayer2":null,
+    "awayPlayer2":"cleveland,hannah",
     "awayPlayer3":null,
     "awayPlayer4":null,
     "awayPlayer5":null,
@@ -26480,7 +26480,7 @@
     "awayLineup":[
       "sedo,zoe",
       "wright,cydney",
-      null,
+      "cleveland,hannah",
       null,
       null
     ],
@@ -26514,7 +26514,7 @@
     "homePlayer5":"lewis,anaya",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
-    "awayPlayer3":null,
+    "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -26559,7 +26559,7 @@
       "sedo,zoe",
       "wright,cydney",
       "phillips,lilly",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -26593,7 +26593,7 @@
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -26638,7 +26638,7 @@
       "wright,cydney",
       "phillips,lilly",
       "humphrey,faith",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -26672,8 +26672,8 @@
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -28205,7 +28205,7 @@
       "anderson,tia",
       "hafley,ashlyn",
       "lewis,anaya",
-      null
+      "adams,emily"
     ],
     "timeSeconds":37,
     "Poss":"sewanee",
@@ -28227,13 +28227,13 @@
     "homePlayer2":"anderson,tia",
     "homePlayer3":"hafley,ashlyn",
     "homePlayer4":"lewis,anaya",
-    "homePlayer5":null,
+    "homePlayer5":"adams,emily",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -28985,7 +28985,7 @@
       "hafley,ashlyn",
       "lewis,anaya",
       "richardson,mya",
-      null
+      "anderson,tia"
     ],
     "timeSeconds":600,
     "Poss":"sewanee",
@@ -29007,13 +29007,13 @@
     "homePlayer2":"hafley,ashlyn",
     "homePlayer3":"lewis,anaya",
     "homePlayer4":"richardson,mya",
-    "homePlayer5":null,
+    "homePlayer5":"anderson,tia",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -31325,7 +31325,7 @@
       "lewis,anaya",
       "richardson,mya",
       "novak,whitney",
-      null
+      "hafley,ashlyn"
     ],
     "timeSeconds":441,
     "Poss":"millsaps",
@@ -31347,13 +31347,13 @@
     "homePlayer2":"lewis,anaya",
     "homePlayer3":"richardson,mya",
     "homePlayer4":"novak,whitney",
-    "homePlayer5":null,
+    "homePlayer5":"hafley,ashlyn",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -31390,6 +31390,84 @@
     "shotOutcome":"",
     "Team":"millsaps",
     "Player":"lewis,anaya",
+    "pointsEarned":"",
+    "awayLineup":[
+      "sedo,zoe",
+      "wright,cydney",
+      "phillips,lilly",
+      "humphrey,faith",
+      "cleveland,hannah"
+    ],
+    "homeLineup":[
+      "keyes,lexus",
+      "richardson,mya",
+      "novak,whitney",
+      "lewis,anaya",
+      null
+    ],
+    "timeSeconds":441,
+    "Poss":"millsaps",
+    "possNum":59,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":122,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"keyes,lexus",
+    "homePlayer2":"richardson,mya",
+    "homePlayer3":"novak,whitney",
+    "homePlayer4":"lewis,anaya",
+    "homePlayer5":null,
+    "awayPlayer1":"sedo,zoe",
+    "awayPlayer2":"wright,cydney",
+    "awayPlayer3":"phillips,lilly",
+    "awayPlayer4":"humphrey,faith",
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":1
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"07:21",
+    "awayPlay":"",
+    "awayTeamScore":"36",
+    "playTeamIndicator":"",
+    "homeTeamScore":"63 ",
+    "homePlay":"SUB OUT by NOVAK,WHITNEY",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by NOVAK,WHITNEY",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"millsaps",
+    "Player":"novak,whitney",
     "pointsEarned":"",
     "awayLineup":[
       "sedo,zoe",
@@ -31459,84 +31537,6 @@
     "awayTeamScore":"36",
     "playTeamIndicator":"",
     "homeTeamScore":"63 ",
-    "homePlay":"SUB OUT by NOVAK,WHITNEY",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by NOVAK,WHITNEY",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"millsaps",
-    "Player":"novak,whitney",
-    "pointsEarned":"",
-    "awayLineup":[
-      "sedo,zoe",
-      "wright,cydney",
-      "phillips,lilly",
-      "humphrey,faith",
-      "cleveland,hannah"
-    ],
-    "homeLineup":[
-      "keyes,lexus",
-      "richardson,mya",
-      null,
-      null,
-      null
-    ],
-    "timeSeconds":441,
-    "Poss":"millsaps",
-    "possNum":59,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":122,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"keyes,lexus",
-    "homePlayer2":"richardson,mya",
-    "homePlayer3":null,
-    "homePlayer4":null,
-    "homePlayer5":null,
-    "awayPlayer1":"sedo,zoe",
-    "awayPlayer2":"wright,cydney",
-    "awayPlayer3":"phillips,lilly",
-    "awayPlayer4":"humphrey,faith",
-    "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"07:21",
-    "awayPlay":"",
-    "awayTeamScore":"36",
-    "playTeamIndicator":"",
-    "homeTeamScore":"63 ",
     "homePlay":"SUB IN by MAW,MADDY",
     "gameScore":"",
     "teamIndicator":"",
@@ -31558,7 +31558,7 @@
       "keyes,lexus",
       "richardson,mya",
       "maw,maddy",
-      null,
+      "franklin,haley",
       null
     ],
     "timeSeconds":441,
@@ -31580,7 +31580,7 @@
     "homePlayer1":"keyes,lexus",
     "homePlayer2":"richardson,mya",
     "homePlayer3":"maw,maddy",
-    "homePlayer4":null,
+    "homePlayer4":"franklin,haley",
     "homePlayer5":null,
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
@@ -31637,7 +31637,7 @@
       "richardson,mya",
       "maw,maddy",
       "northam,molly",
-      null
+      "franklin,haley"
     ],
     "timeSeconds":441,
     "Poss":"millsaps",
@@ -31659,13 +31659,13 @@
     "homePlayer2":"richardson,mya",
     "homePlayer3":"maw,maddy",
     "homePlayer4":"northam,molly",
-    "homePlayer5":null,
+    "homePlayer5":"franklin,haley",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"wright,cydney",
     "awayPlayer3":"phillips,lilly",
     "awayPlayer4":"humphrey,faith",
     "awayPlayer5":"cleveland,hannah",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -31786,7 +31786,7 @@
       "phillips,lilly",
       "humphrey,faith",
       "cleveland,hannah",
-      null
+      "wright,cydney"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -31820,8 +31820,8 @@
     "awayPlayer2":"phillips,lilly",
     "awayPlayer3":"humphrey,faith",
     "awayPlayer4":"cleveland,hannah",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"wright,cydney",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -31863,7 +31863,7 @@
       "sedo,zoe",
       "humphrey,faith",
       "cleveland,hannah",
-      null,
+      "phillips,lilly",
       null
     ],
     "homeLineup":[
@@ -31897,7 +31897,7 @@
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"humphrey,faith",
     "awayPlayer3":"cleveland,hannah",
-    "awayPlayer4":null,
+    "awayPlayer4":"phillips,lilly",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -31936,6 +31936,84 @@
     "shotOutcome":"",
     "Team":"sewanee",
     "Player":"humphrey,faith",
+    "pointsEarned":"",
+    "awayLineup":[
+      "sedo,zoe",
+      "cleveland,hannah",
+      "humphrey,faith",
+      null,
+      null
+    ],
+    "homeLineup":[
+      "keyes,lexus",
+      "richardson,mya",
+      "maw,maddy",
+      "northam,molly",
+      "leach,dove"
+    ],
+    "timeSeconds":441,
+    "Poss":"millsaps",
+    "possNum":59,
+    "pppHome":0,
+    "pppAway":0.0,
+    "PlayOfPoss":0,
+    "possTeam":"sewanee",
+    "possStart":0.0,
+    "possPoints":0,
+    "possSequence":122,
+    "teamChanged":0,
+    "game":"MillsapsSewanee02\/01\/25",
+    "ASSIST":0,
+    "OREB":0,
+    "DREB":0,
+    "secondsPerPoss":0,
+    "homePlayer1":"keyes,lexus",
+    "homePlayer2":"richardson,mya",
+    "homePlayer3":"maw,maddy",
+    "homePlayer4":"northam,molly",
+    "homePlayer5":"leach,dove",
+    "awayPlayer1":"sedo,zoe",
+    "awayPlayer2":"cleveland,hannah",
+    "awayPlayer3":"humphrey,faith",
+    "awayPlayer4":null,
+    "awayPlayer5":null,
+    "playerMissing":1
+  },
+  {
+    "gameID":"8870",
+    "homeTeam":"Millsaps",
+    "awayTeam":"Sewanee",
+    "saaGame":"1",
+    "finalScore":"58-78",
+    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
+    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
+    "homeRecord":"17-3",
+    "awayRecord":"10-11",
+    "homeConfRecord":"6-1",
+    "awayConfRecord":"3-5",
+    "gameDate":"02\/01\/25",
+    "startTime":"1:00 PM",
+    "gameLength":"N\/A",
+    "gameLocation":"The Hangar Dome, Jackson, MS",
+    "homeWin":"Win",
+    "numPeriods":"6",
+    "isOvertime":"False",
+    "attendance":"110",
+    "isNeutral":"False",
+    "timeRemaining":"07:21",
+    "awayPlay":"SUB OUT by CLEVELAND,HANNAH",
+    "awayTeamScore":"36",
+    "playTeamIndicator":"",
+    "homeTeamScore":"63 ",
+    "homePlay":"",
+    "gameScore":"",
+    "teamIndicator":"",
+    "Play":"SUB OUT by CLEVELAND,HANNAH",
+    "Period":"4",
+    "playType":"subbing out",
+    "shotOutcome":"",
+    "Team":"sewanee",
+    "Player":"cleveland,hannah",
     "pointsEarned":"",
     "awayLineup":[
       "sedo,zoe",
@@ -32001,84 +32079,6 @@
     "attendance":"110",
     "isNeutral":"False",
     "timeRemaining":"07:21",
-    "awayPlay":"SUB OUT by CLEVELAND,HANNAH",
-    "awayTeamScore":"36",
-    "playTeamIndicator":"",
-    "homeTeamScore":"63 ",
-    "homePlay":"",
-    "gameScore":"",
-    "teamIndicator":"",
-    "Play":"SUB OUT by CLEVELAND,HANNAH",
-    "Period":"4",
-    "playType":"subbing out",
-    "shotOutcome":"",
-    "Team":"sewanee",
-    "Player":"cleveland,hannah",
-    "pointsEarned":"",
-    "awayLineup":[
-      "sedo,zoe",
-      null,
-      null,
-      null,
-      null
-    ],
-    "homeLineup":[
-      "keyes,lexus",
-      "richardson,mya",
-      "maw,maddy",
-      "northam,molly",
-      "leach,dove"
-    ],
-    "timeSeconds":441,
-    "Poss":"millsaps",
-    "possNum":59,
-    "pppHome":0,
-    "pppAway":0.0,
-    "PlayOfPoss":0,
-    "possTeam":"sewanee",
-    "possStart":0.0,
-    "possPoints":0,
-    "possSequence":122,
-    "teamChanged":0,
-    "game":"MillsapsSewanee02\/01\/25",
-    "ASSIST":0,
-    "OREB":0,
-    "DREB":0,
-    "secondsPerPoss":0,
-    "homePlayer1":"keyes,lexus",
-    "homePlayer2":"richardson,mya",
-    "homePlayer3":"maw,maddy",
-    "homePlayer4":"northam,molly",
-    "homePlayer5":"leach,dove",
-    "awayPlayer1":"sedo,zoe",
-    "awayPlayer2":null,
-    "awayPlayer3":null,
-    "awayPlayer4":null,
-    "awayPlayer5":null,
-    "playerMissing":1
-  },
-  {
-    "gameID":"8870",
-    "homeTeam":"Millsaps",
-    "awayTeam":"Sewanee",
-    "saaGame":"1",
-    "finalScore":"58-78",
-    "homeScoreByPeriod":"\nWinner\nMill\nMillsaps\n,20,21,22,15,78",
-    "awayScoreByPeriod":"\nSewan\nSewanee\n,7,6,17,28,58",
-    "homeRecord":"17-3",
-    "awayRecord":"10-11",
-    "homeConfRecord":"6-1",
-    "awayConfRecord":"3-5",
-    "gameDate":"02\/01\/25",
-    "startTime":"1:00 PM",
-    "gameLength":"N\/A",
-    "gameLocation":"The Hangar Dome, Jackson, MS",
-    "homeWin":"Win",
-    "numPeriods":"6",
-    "isOvertime":"False",
-    "attendance":"110",
-    "isNeutral":"False",
-    "timeRemaining":"07:21",
     "awayPlay":"SUB IN by NORTHRUP,KAYLA",
     "awayTeamScore":"36",
     "playTeamIndicator":"",
@@ -32096,7 +32096,7 @@
     "awayLineup":[
       "sedo,zoe",
       "northrup,kayla",
-      null,
+      "cleveland,hannah",
       null,
       null
     ],
@@ -32130,7 +32130,7 @@
     "homePlayer5":"leach,dove",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"northrup,kayla",
-    "awayPlayer3":null,
+    "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -32175,7 +32175,7 @@
       "sedo,zoe",
       "northrup,kayla",
       "gavin,grace",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -32209,7 +32209,7 @@
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -32254,7 +32254,7 @@
       "northrup,kayla",
       "gavin,grace",
       "porter,elliott",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -32288,8 +32288,8 @@
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"porter,elliott",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -33899,7 +33899,7 @@
       "richardson,mya",
       "northam,molly",
       "leach,dove",
-      null
+      "maw,maddy"
     ],
     "timeSeconds":344,
     "Poss":"millsaps",
@@ -33921,13 +33921,13 @@
     "homePlayer2":"richardson,mya",
     "homePlayer3":"northam,molly",
     "homePlayer4":"leach,dove",
-    "homePlayer5":null,
+    "homePlayer5":"maw,maddy",
     "awayPlayer1":"sedo,zoe",
     "awayPlayer2":"northrup,kayla",
     "awayPlayer3":"gavin,grace",
     "awayPlayer4":"porter,elliott",
     "awayPlayer5":"keating-rendon,brian",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -34048,7 +34048,7 @@
       "gavin,grace",
       "porter,elliott",
       "keating-rendon,brian",
-      null
+      "sedo,zoe"
     ],
     "homeLineup":[
       "keyes,lexus",
@@ -34082,8 +34082,8 @@
     "awayPlayer2":"gavin,grace",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"keating-rendon,brian",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"sedo,zoe",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -35693,7 +35693,7 @@
       "northam,molly",
       "leach,dove",
       "johnson,bailey",
-      null
+      "richardson,mya"
     ],
     "timeSeconds":250,
     "Poss":"sewanee",
@@ -35715,13 +35715,13 @@
     "homePlayer2":"northam,molly",
     "homePlayer3":"leach,dove",
     "homePlayer4":"johnson,bailey",
-    "homePlayer5":null,
+    "homePlayer5":"richardson,mya",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"gavin,grace",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"keating-rendon,brian",
     "awayPlayer5":"coulter,audrey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -36005,7 +36005,7 @@
       "leach,dove",
       "johnson,bailey",
       "hafley,ashlyn",
-      null
+      "keyes,lexus"
     ],
     "timeSeconds":250,
     "Poss":"sewanee",
@@ -36027,13 +36027,13 @@
     "homePlayer2":"leach,dove",
     "homePlayer3":"johnson,bailey",
     "homePlayer4":"hafley,ashlyn",
-    "homePlayer5":null,
+    "homePlayer5":"keyes,lexus",
     "awayPlayer1":"northrup,kayla",
     "awayPlayer2":"gavin,grace",
     "awayPlayer3":"porter,elliott",
     "awayPlayer4":"keating-rendon,brian",
     "awayPlayer5":"coulter,audrey",
-    "playerMissing":1
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -38962,7 +38962,7 @@
       "porter,elliott",
       "keating-rendon,brian",
       "coulter,audrey",
-      null
+      "northrup,kayla"
     ],
     "homeLineup":[
       "northam,molly",
@@ -38996,8 +38996,8 @@
     "awayPlayer2":"porter,elliott",
     "awayPlayer3":"keating-rendon,brian",
     "awayPlayer4":"coulter,audrey",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"northrup,kayla",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
@@ -39039,7 +39039,7 @@
       "porter,elliott",
       "keating-rendon,brian",
       "coulter,audrey",
-      null,
+      "gavin,grace",
       null
     ],
     "homeLineup":[
@@ -39073,7 +39073,7 @@
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"keating-rendon,brian",
     "awayPlayer3":"coulter,audrey",
-    "awayPlayer4":null,
+    "awayPlayer4":"gavin,grace",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39116,7 +39116,7 @@
     "awayLineup":[
       "porter,elliott",
       "coulter,audrey",
-      null,
+      "cleveland,hannah",
       null,
       null
     ],
@@ -39150,7 +39150,7 @@
     "homePlayer5":"lewis,anaya",
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"coulter,audrey",
-    "awayPlayer3":null,
+    "awayPlayer3":"cleveland,hannah",
     "awayPlayer4":null,
     "awayPlayer5":null,
     "playerMissing":1
@@ -39195,7 +39195,7 @@
       "porter,elliott",
       "coulter,audrey",
       "gamez,jenny",
-      null,
+      "cleveland,hannah",
       null
     ],
     "homeLineup":[
@@ -39229,7 +39229,7 @@
     "awayPlayer1":"porter,elliott",
     "awayPlayer2":"coulter,audrey",
     "awayPlayer3":"gamez,jenny",
-    "awayPlayer4":null,
+    "awayPlayer4":"cleveland,hannah",
     "awayPlayer5":null,
     "playerMissing":1
   },
@@ -39274,7 +39274,7 @@
       "coulter,audrey",
       "gamez,jenny",
       "potter,grace",
-      null
+      "cleveland,hannah"
     ],
     "homeLineup":[
       "northam,molly",
@@ -39308,8 +39308,8 @@
     "awayPlayer2":"coulter,audrey",
     "awayPlayer3":"gamez,jenny",
     "awayPlayer4":"potter,grace",
-    "awayPlayer5":null,
-    "playerMissing":1
+    "awayPlayer5":"cleveland,hannah",
+    "playerMissing":0
   },
   {
     "gameID":"8870",
