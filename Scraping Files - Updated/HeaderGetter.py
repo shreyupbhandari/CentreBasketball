@@ -471,7 +471,7 @@ def makeHeaders(main_dir, school, sport, year):
 
         #print(header)
 
-        output_file = html_file.rstrip('.html') + '_header_' + str(game) + '.csv'
+        output_file = html_file.removesuffix('.html') + '_header_' + str(game) + '.csv'
         header.to_csv(header_dir + output_file, index = False)
 
         game += 1

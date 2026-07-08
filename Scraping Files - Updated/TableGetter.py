@@ -245,7 +245,7 @@ def getTable(school, sport, year):
             #print(df)
 
         # now print df to file
-        file_info = html_file.rstrip('.html')
+        file_info = html_file.removesuffix('.html')
         for header_file in header_files:
             if file_info in header_file:
                 fields = header_file.split('_header_')
