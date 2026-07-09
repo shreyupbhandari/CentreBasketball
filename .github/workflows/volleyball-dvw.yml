@@ -1,0 +1,69 @@
+name: Fetch volleyball .dvw files
+
+# Logs into Hudl VolleyMetrics, opens Matches, and downloads only NEW .dvw
+# scout files (dedup by volleyball/dvw/manifest.json), then commits them.
+#
+# NOTE ON RELIABILITY: this logs into Auth0 from a GitHub datacenter IP, which
+# Hudl may flag as a new device (CAPTCHA / verification). Two guards:
+#   * We reuse a saved browser session (HUDL_STORAGE_STATE_B64) so most runs
+#     skip the login form entirely. Refresh it when it expires (see README).
+#   * If a challenge appears, the job FAILS and uploads a screenshot artifact,
+#     so you get a failed-run email instead of a silent no-op.
+
+on:
+  schedule:
+    - cron: "0 8 * * *"        # 08:00 UTC daily (~03:00 US Eastern)
+  workflow_dispatch: {}         # manual "Run workflow" button
+
+permissions:
+  contents: write               # to push new .dvw files + manifest
+
+concurrency:
+  group: volleyball-dvw
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      HUDL_EMAIL: ${{ secrets.HUDL_EMAIL }}
+      HUDL_PASSWORD: ${{ secrets.HUDL_PASSWORD }}
+      HUDL_STORAGE_STATE_B64: ${{ secrets.HUDL_STORAGE_STATE_B64 }}
+      HUDL_HEADFUL: "1"         # headed Chromium (under xvfb) is less bot-like
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Playwright + browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Download new .dvw files
+        run: xvfb-run -a python3 volleyball/fetch_dvw.py
+
+      - name: Upload debug artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: volleyball-debug
+          path: volleyball/artifacts/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit new data (only if something changed)
+        if: always()            # commit even if a later match failed mid-run
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add volleyball/dvw
+          if git diff --staged --quiet; then
+            echo "No new matches — nothing to commit."
+          else
+            git commit -m "Automated volleyball .dvw refresh ($(date -u +%F))"
+            git push
+          fi

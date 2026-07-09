@@ -794,9 +794,14 @@ canonicalize_school_team <- function(d, canonical) {
   d
 }
 
-# Full path to this project on disk. CHANGE THIS to wherever the project
-# lives on your computer.
-project_root <- "/Users/shreyup/CentreBasketballLineupAnalysis"
+# Full path to this project on disk. Reads the PBP_ROOT environment variable
+# if it's set (used on the server so the same file works there without edits),
+# otherwise falls back to the local path. To point it somewhere else, set
+# PBP_ROOT or change the fallback below.
+project_root <- {
+  env <- sub("/+$", "", Sys.getenv("PBP_ROOT", ""))   # trailing slash tolerated
+  if (nzchar(env)) env else "/Users/shreyup/CentreBasketballLineupAnalysis"
+}
 
 # Path to a school's season folder, e.g. .../mens-basketball/SAA/<school>/pbp.
 seasons_root_for_sport <- function(sport, school = "centrecolonels") {
