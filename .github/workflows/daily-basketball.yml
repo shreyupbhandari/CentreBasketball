@@ -28,10 +28,12 @@ jobs:
       SPORTS: mens-basketball,womens-basketball
       # CURRENT SAA members only. Birmingham-Southern (bscsports) closed after
       # 2023-24 and Hendrix (hendrixwarriors) rejoined the SCAC after 2024-25,
-      # so we no longer scrape them — see SAA_LAST_SEASON in cenrebasketball.R.
+      # so we no longer scrape them — see SAA_LAST_SEASON in app.R.
       # Their historical SAA data stays in the repo; games SAA teams played
       # against them still arrive via each SAA team's own scrape.
-      SCHOOLS: berryvikings,centrecolonels,gomajors,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates
+      # Oglethorpe (gopetrels) is a current member — added once its site
+      # migrated to Sidearm so its box scores are scrapeable.
+      SCHOOLS: berryvikings,centrecolonels,gomajors,gopetrels,rhodeslynx,sewaneetigers,trinitytigers,southwesternpirates
     steps:
       - uses: actions/checkout@v4
 
@@ -52,19 +54,19 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: 1) Discover game links (re-scrapes schedule pages)
-        run: python3 "Scraping Files - Updated/LinkGetter.py"
+        run: python3 "Scraping Files/LinkGetter.py"
 
       - name: 2) Download NEW game HTML (skips games already on disk)
-        run: python3 "Scraping Files - Updated/HTMLGetter.py"
+        run: python3 "Scraping Files/HTMLGetter.py"
 
       - name: 3) Build header CSVs
-        run: python3 "Scraping Files - Updated/HeaderGetter.py"
+        run: python3 "Scraping Files/HeaderGetter.py"
 
       - name: 4) Build table CSVs
-        run: python3 "Scraping Files - Updated/TableGetter.py"
+        run: python3 "Scraping Files/TableGetter.py"
 
       - name: 5) Parse play-by-play into pbp CSVs
-        run: python3 MAT405basketballResearch/getbasketballclean.py
+        run: python3 getbasketballclean.py
 
       - name: Commit new data (only if something changed)
         run: |

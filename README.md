@@ -14,12 +14,14 @@ I made it for both men's and women's basketball.
 
 There are two kinds of things in this folder: the code and the data.
 
-The code is in the `MAT405basketballResearch` folder:
+The code lives at the top level of this folder:
 
 - `getbasketballclean.py` is the main Python program. It does most of the work.
 - `html_parsers.py` has helper functions that the main program uses to read
   the web pages. You do not run this one by itself.
-- `cenrebasketball.R` is the dashboard.
+- `app.R` is the dashboard.
+- The `Scraping Files` folder holds the scraper stages (LinkGetter,
+  HTMLGetter, HeaderGetter, TableGetter) that download and pre-process games.
 - `audit_scores.py` and `audit_loader.py` are checking tools. You only need
   them if the numbers ever look wrong and you want to find out why. They are
   explained near the bottom.
@@ -56,7 +58,7 @@ For R, install these packages by opening R and running:
 ## One thing you have to change first
 
 The dashboard needs to know where this project lives on your computer.
-Open `cenrebasketball.R` and look near the top for a line that looks
+Open `app.R` and look near the top for a line that looks
 like this:
 
     project_root <- "/Users/shreyup/CentreBasketballLineupAnalysis"
@@ -70,10 +72,10 @@ computer. That is the only setting you have to change.
 You usually do not need to run the Python program, because the data files
 are already made. Most of the time you just want the dashboard.
 
-Open `cenrebasketball.R` in RStudio and click the "Run App" button. Or,
+Open `app.R` in RStudio and click the "Run App" button. Or,
 from the R console, run:
 
-    shiny::runApp("MAT405basketballResearch/cenrebasketball.R")
+    shiny::runApp("app.R")
 
 It opens in your web browser. At the top you pick the sport, the season,
 a team, and one or more games. Then you can look at the different tabs:
@@ -91,7 +93,7 @@ a team, and one or more games. Then you can look at the different tabs:
 You only need this if you add new games or want to remake the data files.
 From this folder, run:
 
-    python3 MAT405basketballResearch/getbasketballclean.py
+    python3 getbasketballclean.py
 
 It reads the web pages in each school's `HTML` folder, figures out the
 plays, the possessions, and which players were on the floor, and writes a
@@ -115,13 +117,13 @@ not a bug.
 If a game's points do not add up the way you expect, you can use the two
 audit scripts to find the problem.
 
-    python3 MAT405basketballResearch/audit_scores.py
+    python3 audit_scores.py
 
 This one goes through every game, adds up the points from the play-by-play,
 and compares them to the final score from the box score. It tells you which
 games do not match and by how much.
 
-    python3 MAT405basketballResearch/audit_loader.py --school centrecolonels --season 2024-25
+    python3 audit_loader.py --school centrecolonels --season 2024-25
 
 This one checks the numbers the same way the dashboard does, for one team
 and season, so you can see if any points are getting lost in the dashboard.
